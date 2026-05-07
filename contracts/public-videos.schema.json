@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/contracts/public-videos.schema.json",
+  "title": "Public Videos Snapshot",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "generated_at", "videos"],
+  "properties": {
+    "schema_version": { "type": "string", "const": "1.0" },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "videos": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "youtube_video_id",
+          "title",
+          "url",
+          "published_at",
+          "channel",
+          "primary_speaker",
+          "summary",
+          "content_type",
+          "topics",
+          "evidence",
+          "transcript_status",
+          "enrichment_status"
+        ],
+        "properties": {
+          "youtube_video_id": { "type": "string" },
+          "title": { "type": "string" },
+          "url": { "type": "string" },
+          "thumbnail_url": { "type": ["string", "null"] },
+          "published_at": { "type": "string", "format": "date-time" },
+          "channel": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["youtube_channel_id", "title", "url"],
+            "properties": {
+              "youtube_channel_id": { "type": "string" },
+              "title": { "type": "string" },
+              "url": { "type": "string" }
+            }
+          },
+          "primary_speaker": { "type": ["string", "null"] },
+          "summary": { "type": "string" },
+          "content_type": { "type": "string" },
+          "topics": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["slug", "label", "relevance_score"],
+              "properties": {
+                "slug": { "type": "string" },
+                "label": { "type": "string" },
+                "relevance_score": { "type": "number" }
+              }
+            }
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["field_name", "quote"],
+              "properties": {
+                "field_name": { "type": "string" },
+                "topic_slug": { "type": ["string", "null"] },
+                "quote": { "type": "string" },
+                "start_seconds": { "type": ["number", "null"] },
+                "end_seconds": { "type": ["number", "null"] },
+                "timestamp_url": { "type": ["string", "null"] }
+              }
+            }
+          },
+          "transcript_status": { "type": "string" },
+          "enrichment_status": { "type": "string" }
+        }
+      }
+    }
+  }
+}

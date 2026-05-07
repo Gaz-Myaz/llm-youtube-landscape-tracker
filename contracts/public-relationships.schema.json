@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/contracts/public-relationships.schema.json",
+  "title": "Public Relationships Snapshot",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "generated_at", "nodes", "edges"],
+  "properties": {
+    "schema_version": { "type": "string", "const": "1.0" },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "nodes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "label", "video_count", "top_topics"],
+        "properties": {
+          "id": { "type": "string" },
+          "label": { "type": "string" },
+          "video_count": { "type": "integer" },
+          "top_topics": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "edges": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["source", "target", "similarity_score", "method", "shared_topics", "explanation"],
+        "properties": {
+          "source": { "type": "string" },
+          "target": { "type": "string" },
+          "similarity_score": { "type": "number", "minimum": 0, "maximum": 1 },
+          "method": { "type": "string" },
+          "shared_topics": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["slug", "label", "score"],
+              "properties": {
+                "slug": { "type": "string" },
+                "label": { "type": "string" },
+                "score": { "type": "number" }
+              }
+            }
+          },
+          "explanation": { "type": "string" }
+        }
+      }
+    }
+  }
+}

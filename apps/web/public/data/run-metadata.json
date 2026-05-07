@@ -1,0 +1,17 @@
+{
+  "content_hashes": {
+    "channels": "c10ec913f20292c1e675ed866ce38c74159b3622de09a21c7247b085a979e49d",
+    "relationships": "0de1fb658a92c6e7b4280166b1222a1d8f5193de1681af7c1c95a5c7ae8ed283",
+    "videos": "d500407e9d90a6d7a89fb2583b5c7e68bf4a29905b9fce5510312d72c8a55ed3"
+  },
+  "error_summary": null,
+  "estimated_cost_usd": 0,
+  "last_successful_run_at": "2026-05-07T13:57:31Z",
+  "model": "mock-landscape-v1",
+  "provider": "mock",
+  "schema_version": "1.0",
+  "status": "success",
+  "videos_failed": 0,
+  "videos_processed": 14,
+  "videos_seen": 14
+}

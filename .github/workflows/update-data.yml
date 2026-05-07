@@ -1,0 +1,52 @@
+name: Update landscape data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */12 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install worker
+        working-directory: services/worker
+        run: pip install -e .
+
+      - name: Export snapshots
+        env:
+          WORKER_PROVIDER: ${{ secrets.WORKER_PROVIDER || 'mock' }}
+          VERTEX_PROJECT_ID: ${{ secrets.VERTEX_PROJECT_ID }}
+          VERTEX_LOCATION: ${{ secrets.VERTEX_LOCATION || 'us-central1' }}
+          VERTEX_MODEL: ${{ secrets.VERTEX_MODEL || 'gemini-1.5-flash' }}
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          SNAPSHOT_OUTPUT_DIR: apps/web/public/data
+          CONTRACTS_DIR: contracts
+        run: python -m llm_landscape.main mock-export
+
+      - name: Validate snapshots
+        env:
+          SNAPSHOT_OUTPUT_DIR: apps/web/public/data
+          CONTRACTS_DIR: contracts
+        run: python -m llm_landscape.main validate-snapshots
+
+      - name: Commit updated snapshots
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(data): update public snapshots"
+          file_pattern: apps/web/public/data/*.json

@@ -1,0 +1,617 @@
+{
+  "generated_at": "2026-05-07T13:57:31Z",
+  "schema_version": "1.0",
+  "videos": [
+    {
+      "channel": {
+        "title": "freeCodeCamp.org",
+        "url": "https://www.youtube.com/@freecodecamp",
+        "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
+      },
+      "content_type": "tutorial",
+      "enrichment_status": "ready",
+      "evidence": [
+        {
+          "end_seconds": 44,
+          "field_name": "topic",
+          "quote": "The second tutorial shows a retrieval pipeline, fine tuning, and a deployment plan for a large team.",
+          "start_seconds": 20,
+          "timestamp_url": "https://www.youtube.com/watch?v=mock-fcc-702&t=20s",
+          "topic_slug": "rag"
+        }
+      ],
+      "primary_speaker": "freeCodeCamp.org host",
+      "published_at": "2026-05-15T13:00:00Z",
+      "summary": "The video discusses RAG, Fine Tuning, Enterprise Adoption and connects the theme to practical LLM system decisions.",
+      "thumbnail_url": null,
+      "title": "RAG and agents tutorial: end-to-end project",
+      "topics": [
+        {
+          "label": "RAG",
+          "relevance_score": 0.88,
+          "slug": "rag"
+        },
+        {
+          "label": "Fine Tuning",
+          "relevance_score": 0.85,
+          "slug": "fine-tuning"
+        },
+        {
+          "label": "Enterprise Adoption",
+          "relevance_score": 0.82,
+          "slug": "enterprise-adoption"
+        },
+        {
+          "label": "Evaluation",
+          "relevance_score": 0.78,
+          "slug": "evals"
+        }
+      ],
+      "transcript_status": "ready",
+      "url": "https://www.youtube.com/watch?v=mock-fcc-702",
+      "youtube_video_id": "mock-fcc-702"
+    },
+    {
+      "channel": {
+        "title": "ThePrimeTime",
+        "url": "https://www.youtube.com/@ThePrimeTimeagen",
+        "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
+      },
+      "content_type": "analysis",
+      "enrichment_status": "ready",
+      "evidence": [
+        {
+          "end_seconds": 24,
+          "field_name": "topic",
+          "quote": "Running the coding workflow through local inference keeps the repository on my machine.",
+          "start_seconds": 10,
+          "timestamp_url": "https://www.youtube.com/watch?v=mock-prime-602&t=10s",
+          "topic_slug": "coding-assistants"
+        }
+      ],
+      "primary_speaker": "ThePrimeTime host",
+      "published_at": "2026-05-14T22:00:00Z",
+      "summary": "The video discusses Coding Assistants, Local Inference and connects the theme to practical LLM system decisions.",
+      "thumbnail_url": null,
+      "title": "Why I run my coding model locally",
+      "topics": [
+        {
+          "label": "Coding Assistants",
+          "relevance_score": 0.92,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Local Inference",
+          "relevance_score": 0.89,
+          "slug": "local-inference"
+        }
+      ],
+      "transcript_status": "ready",
+      "url": "https://www.youtube.com/watch?v=mock-prime-602",
+      "youtube_video_id": "mock-prime-602"
+    },
+    {
+      "channel": {
+        "title": "Code Companion Lab",
+        "url": "https://www.youtube.com/@codecompanionlab",
+        "youtube_channel_id": "mock-channel-code"
+      },
+      "content_type": "analysis",
+      "enrichment_status": "ready",
+      "evidence": [
+        {
+          "end_seconds": 22,
+          "field_name": "topic",
+          "quote": "We ran the coding assistant against a local inference server backed by an open-weight model.",
+          "start_seconds": 8,
+          "timestamp_url": "https://www.youtube.com/watch?v=mock-coding-local-004&t=8s",
+          "topic_slug": "coding-assistants"
+        }
+      ],
+      "primary_speaker": "Code Companion Lab host",
+      "published_at": "2026-05-13T17:00:00Z",
+      "summary": "The video discusses Coding Assistants, Open Source Models, Local Inference and connects the theme to practical LLM system decisions.",
+      "thumbnail_url": null,
+      "title": "Running a coding agent fully local",
+      "topics": [
+        {
+          "label": "Coding Assistants",
+          "relevance_score": 0.92,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Open Source Models",
+          "relevance_score": 0.91,
+          "slug": "open-source-models"
+        },
+        {
+          "label": "Local Inference",
+          "relevance_score": 0.89,
+          "slug": "local-inference"
+        }
+      ],
+      "transcript_status": "ready",
+      "url": "https://www.youtube.com/watch?v=mock-coding-local-004",
+      "youtube_video_id": "mock-coding-local-004"
+    },
+    {
+      "channel": {
+        "title": "Fireship",
+        "url": "https://www.youtube.com/@Fireship",
+        "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
+      },
+      "content_type": "benchmark",
+      "enrichment_status": "ready",
+      "evidence": [
+        {
+          "end_seconds": 14,
+          "field_name": "topic",
+          "quote": "Today a new open model release made local inference good enough for everyday laptop use.",
+          "start_seconds": 3,
+          "timestamp_url": "https://www.youtube.com/watch?v=mock-fireship-502&t=3s",
+          "topic_slug": "open-source-models"
+        }
+      ],
+      "primary_speaker": "Fireship host",
+      "published_at": "2026-05-12T11:00:00Z",
+      "summary": "The video discusses Open Source Models, Local Inference, Model Releases and connects the theme to practical LLM system decisions.",
+      "thumbnail_url": null,
+      "title": "Local LLMs just got scary good",
+      "topics": [
+        {
+          "label": "Open Source Models",
+          "relevance_score": 0.91,
+          "slug": "open-source-models"
+        },
+        {
+          "label": "Local Inference",
+          "relevance_score": 0.89,
+          "slug": "local-inference"
+        },
+        {
+          "label": "Model Releases",
+          "relevance_score": 0.74,
+          "slug": "model-releases"
+        }
+      ],
+      "transcript_status": "ready",
+      "url": "https://www.youtube.com/watch?v=mock-fireship-502",
+      "youtube_video_id": "mock-fireship-502"
+    },
+    {
+      "channel": {
+        "title": "Research Radar",
+        "url": "https://www.youtube.com/@researchradar",
+        "youtube_channel_id": "mock-channel-research"
+      },
+      "content_type": "benchmark",
+      "enrichment_status": "ready",
+      "evidence": [
+        {
+          "end_seconds": 28,
+          "field_name": "topic",
+          "quote": "The latest model release pushed multimodal vision and audio understanding into the top tier of the benchmark table.",
+          "start_seconds": 12,
+          "timestamp_url": "https://www.youtube.com/watch?v=mock-research-bench-202&t=12s",
+          "topic_slug": "open-source-models"
+        }
+      ],
+      "primary_speaker": "Research Radar host",
+      "published_at": "2026-05-11T14:00:00Z",
+      "summary": "The video discusses Open Source Models, Multimodal, Benchmarks and connects the theme to practical LLM system decisions.",
+      "thumbnail_url": null,
+      "title": "Benchmark season: which open model actually wins",
+      "topics": [
+        {
+          "label": "Open Source Models",
+          "relevance_score": 0.91,
+          "slug": "open-source-models"
+        },
+        {
+          "label": "Multimodal",
+          "relevance_score": 0.87,
+          "slug": "multimodal"
+        },
+        {
+          "label": "Benchmarks",
+          "relevance_score": 0.77,
+          "slug": "benchmarks"
+        },
+        {
+          "label": "Model Releases",
+          "relevance_score": 0.74,
+          "slug": "model-releases"
+        }
+      ],
+      "transcript_status": "ready",
+      "url": "https://www.youtube.com/watch?v=mock-research-bench-202",
+      "youtube_video_id": "mock-research-bench-202"
+    },
+    {
+      "channel": {
+        "title": "freeCodeCamp.org",
+        "url": "https://www.youtube.com/@freecodecamp",
+        "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
+      },
+      "content_type": "tutorial",
+      "enrichment_status": "ready",
+      "evidence": [
+        {
+          "end_seconds": 90,
+          "field_name": "topic",
+          "quote": "In this workshop we combine RAG with a coding assistant so the app can cite the right files during code generation.",
+          "start_seconds": 60,
+          "timestamp_url": "https://www.youtube.com/watch?v=mock-fcc-701&t=60s",
+          "topic_slug": "coding-assistants"
+        }
+      ],
+      "primary_speaker": "freeCodeCamp.org host",
+      "published_at": "2026-05-10T13:00:00Z",
+      "summary": "The video discusses Coding Assistants, RAG, Fine Tuning and connects the theme to practical LLM system decisions.",
+      "thumbnail_url": null,
+      "title": "Build a coding agent from scratch",
+      "topics": [
+        {
+          "label": "Coding Assistants",
+          "relevance_score": 0.92,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "RAG",
+          "relevance_score": 0.88,
+          "slug": "rag"
+        },
+        {
+          "label": "Fine Tuning",
+          "relevance_score": 0.85,
+          "slug": "fine-tuning"
+        }
+      ],
+      "transcript_status": "ready",
+      "url": "https://www.youtube.com/watch?v=mock-fcc-701",
+      "youtube_video_id": "mock-fcc-701"
+    },
+    {
+      "channel": {
+        "title": "Builder Signals",
+        "url": "https://www.youtube.com/@buildersignals",
+        "youtube_channel_id": "mock-channel-build"
+      },
+      "content_type": "analysis",
+      "enrichment_status": "ready",
+      "evidence": [
+        {
+          "end_seconds": 34,
+          "field_name": "topic",
+          "quote": "For enterprise adoption you need scorecards for agent tasks, clear ownership, and repeatable evaluation reviews.",
+          "start_seconds": 18,
+          "timestamp_url": "https://www.youtube.com/watch?v=mock-build-eval-101&t=18s",
+          "topic_slug": "agents"
+        }
+      ],
+      "primary_speaker": "Builder Signals host",
+      "published_at": "2026-05-09T10:00:00Z",
+      "summary": "The video discusses AI Agents, Enterprise Adoption, Evaluation and connects the theme to practical LLM system decisions.",
+      "thumbnail_url": null,
+      "title": "Evaluation harnesses for production agent stacks",
+      "topics": [
+        {
+          "label": "AI Agents",
+          "relevance_score": 0.95,
+          "slug": "agents"
+        },
+        {
+          "label": "Enterprise Adoption",
+          "relevance_score": 0.82,
+          "slug": "enterprise-adoption"
+        },
+        {
+          "label": "Evaluation",
+          "relevance_score": 0.78,
+          "slug": "evals"
+        }
+      ],
+      "transcript_status": "ready",
+      "url": "https://www.youtube.com/watch?v=mock-build-eval-101",
+      "youtube_video_id": "mock-build-eval-101"
+    },
+    {
+      "channel": {
+        "title": "ThePrimeTime",
+        "url": "https://www.youtube.com/@ThePrimeTimeagen",
+        "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
+      },
+      "content_type": "analysis",
+      "enrichment_status": "ready",
+      "evidence": [
+        {
+          "end_seconds": 48,
+          "field_name": "topic",
+          "quote": "My problem with the new coding tool is the repository automation looks impressive but the evaluation story is shaky.",
+          "start_seconds": 30,
+          "timestamp_url": "https://www.youtube.com/watch?v=mock-prime-601&t=30s",
+          "topic_slug": "coding-assistants"
+        }
+      ],
+      "primary_speaker": "ThePrimeTime host",
+      "published_at": "2026-05-08T22:00:00Z",
+      "summary": "The video discusses Coding Assistants, Evaluation and connects the theme to practical LLM system decisions.",
+      "thumbnail_url": null,
+      "title": "Reacting to the new coding agent benchmark",
+      "topics": [
+        {
+          "label": "Coding Assistants",
+          "relevance_score": 0.92,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Evaluation",
+          "relevance_score": 0.78,
+          "slug": "evals"
+        }
+      ],
+      "transcript_status": "ready",
+      "url": "https://www.youtube.com/watch?v=mock-prime-601",
+      "youtube_video_id": "mock-prime-601"
+    },
+    {
+      "channel": {
+        "title": "Fireship",
+        "url": "https://www.youtube.com/@Fireship",
+        "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
+      },
+      "content_type": "analysis",
+      "enrichment_status": "ready",
+      "evidence": [
+        {
+          "end_seconds": 12,
+          "field_name": "topic",
+          "quote": "A coding agent can scan your repository, patch the bug, and post a pull request before you finish coffee.",
+          "start_seconds": 2,
+          "timestamp_url": "https://www.youtube.com/watch?v=mock-fireship-501&t=2s",
+          "topic_slug": "agents"
+        }
+      ],
+      "primary_speaker": "Fireship host",
+      "published_at": "2026-05-07T11:00:00Z",
+      "summary": "The video discusses AI Agents, Coding Assistants and connects the theme to practical LLM system decisions.",
+      "thumbnail_url": null,
+      "title": "AI coding agents in 100 seconds",
+      "topics": [
+        {
+          "label": "AI Agents",
+          "relevance_score": 0.95,
+          "slug": "agents"
+        },
+        {
+          "label": "Coding Assistants",
+          "relevance_score": 0.92,
+          "slug": "coding-assistants"
+        }
+      ],
+      "transcript_status": "ready",
+      "url": "https://www.youtube.com/watch?v=mock-fireship-501",
+      "youtube_video_id": "mock-fireship-501"
+    },
+    {
+      "channel": {
+        "title": "Lex Fridman",
+        "url": "https://www.youtube.com/@lexfridman",
+        "youtube_channel_id": "UCSHZKyawb77ixDdsGog4iWA"
+      },
+      "content_type": "interview",
+      "enrichment_status": "ready",
+      "evidence": [
+        {
+          "end_seconds": 640,
+          "field_name": "topic",
+          "quote": "In this interview we discuss how agent systems should be aligned before companies trust them with real decisions.",
+          "start_seconds": 600,
+          "timestamp_url": "https://www.youtube.com/watch?v=mock-lex-401&t=600s",
+          "topic_slug": "agents"
+        }
+      ],
+      "primary_speaker": "Lex Fridman host",
+      "published_at": "2026-05-06T20:00:00Z",
+      "summary": "The video discusses AI Agents, Safety and Alignment, Enterprise Adoption and connects the theme to practical LLM system decisions.",
+      "thumbnail_url": null,
+      "title": "Agents, evaluation, and the path to autonomous research",
+      "topics": [
+        {
+          "label": "AI Agents",
+          "relevance_score": 0.95,
+          "slug": "agents"
+        },
+        {
+          "label": "Safety and Alignment",
+          "relevance_score": 0.84,
+          "slug": "safety-alignment"
+        },
+        {
+          "label": "Enterprise Adoption",
+          "relevance_score": 0.82,
+          "slug": "enterprise-adoption"
+        }
+      ],
+      "transcript_status": "ready",
+      "url": "https://www.youtube.com/watch?v=mock-lex-401",
+      "youtube_video_id": "mock-lex-401"
+    },
+    {
+      "channel": {
+        "title": "Two Minute Papers",
+        "url": "https://www.youtube.com/@TwoMinutePapers",
+        "youtube_channel_id": "UC2D2CMWXMOVWx7giW1n3LIg"
+      },
+      "content_type": "benchmark",
+      "enrichment_status": "ready",
+      "evidence": [
+        {
+          "end_seconds": 18,
+          "field_name": "topic",
+          "quote": "A new multimodal model release can reason over images, audio, and video clips at once.",
+          "start_seconds": 5,
+          "timestamp_url": "https://www.youtube.com/watch?v=mock-tmp-301&t=5s",
+          "topic_slug": "open-source-models"
+        }
+      ],
+      "primary_speaker": "Two Minute Papers host",
+      "published_at": "2026-05-04T08:00:00Z",
+      "summary": "The video discusses Open Source Models, Multimodal, Benchmarks and connects the theme to practical LLM system decisions.",
+      "thumbnail_url": null,
+      "title": "This new open model rewrites the leaderboard",
+      "topics": [
+        {
+          "label": "Open Source Models",
+          "relevance_score": 0.91,
+          "slug": "open-source-models"
+        },
+        {
+          "label": "Multimodal",
+          "relevance_score": 0.87,
+          "slug": "multimodal"
+        },
+        {
+          "label": "Benchmarks",
+          "relevance_score": 0.77,
+          "slug": "benchmarks"
+        },
+        {
+          "label": "Model Releases",
+          "relevance_score": 0.74,
+          "slug": "model-releases"
+        }
+      ],
+      "transcript_status": "ready",
+      "url": "https://www.youtube.com/watch?v=mock-tmp-301",
+      "youtube_video_id": "mock-tmp-301"
+    },
+    {
+      "channel": {
+        "title": "Code Companion Lab",
+        "url": "https://www.youtube.com/@codecompanionlab",
+        "youtube_channel_id": "mock-channel-code"
+      },
+      "content_type": "analysis",
+      "enrichment_status": "ready",
+      "evidence": [
+        {
+          "end_seconds": 27,
+          "field_name": "topic",
+          "quote": "This coding assistant behaves like an agent that opens a repository, edits files, and drafts the pull request.",
+          "start_seconds": 15,
+          "timestamp_url": "https://www.youtube.com/watch?v=mock-coding-003&t=15s",
+          "topic_slug": "agents"
+        }
+      ],
+      "primary_speaker": "Code Companion Lab host",
+      "published_at": "2026-05-03T09:10:00Z",
+      "summary": "The video discusses AI Agents, Coding Assistants and connects the theme to practical LLM system decisions.",
+      "thumbnail_url": null,
+      "title": "Coding assistants are becoming software agents",
+      "topics": [
+        {
+          "label": "AI Agents",
+          "relevance_score": 0.95,
+          "slug": "agents"
+        },
+        {
+          "label": "Coding Assistants",
+          "relevance_score": 0.92,
+          "slug": "coding-assistants"
+        }
+      ],
+      "transcript_status": "ready",
+      "url": "https://www.youtube.com/watch?v=mock-coding-003",
+      "youtube_video_id": "mock-coding-003"
+    },
+    {
+      "channel": {
+        "title": "Research Radar",
+        "url": "https://www.youtube.com/@researchradar",
+        "youtube_channel_id": "mock-channel-research"
+      },
+      "content_type": "benchmark",
+      "enrichment_status": "ready",
+      "evidence": [
+        {
+          "end_seconds": 101,
+          "field_name": "topic",
+          "quote": "This release matters because the new open-weight model can run with local inference on a single workstation.",
+          "start_seconds": 88,
+          "timestamp_url": "https://www.youtube.com/watch?v=mock-local-002&t=88s",
+          "topic_slug": "open-source-models"
+        }
+      ],
+      "primary_speaker": "Research Radar host",
+      "published_at": "2026-05-02T15:30:00Z",
+      "summary": "The video discusses Open Source Models, Local Inference, Model Releases and connects the theme to practical LLM system decisions.",
+      "thumbnail_url": null,
+      "title": "Open models and local inference in 2026",
+      "topics": [
+        {
+          "label": "Open Source Models",
+          "relevance_score": 0.91,
+          "slug": "open-source-models"
+        },
+        {
+          "label": "Local Inference",
+          "relevance_score": 0.89,
+          "slug": "local-inference"
+        },
+        {
+          "label": "Model Releases",
+          "relevance_score": 0.74,
+          "slug": "model-releases"
+        }
+      ],
+      "transcript_status": "ready",
+      "url": "https://www.youtube.com/watch?v=mock-local-002",
+      "youtube_video_id": "mock-local-002"
+    },
+    {
+      "channel": {
+        "title": "Builder Signals",
+        "url": "https://www.youtube.com/@buildersignals",
+        "youtube_channel_id": "mock-channel-build"
+      },
+      "content_type": "analysis",
+      "enrichment_status": "ready",
+      "evidence": [
+        {
+          "end_seconds": 52,
+          "field_name": "topic",
+          "quote": "An agent only becomes useful when the production team can watch tool traces and run evaluation gates before every deploy.",
+          "start_seconds": 42,
+          "timestamp_url": "https://www.youtube.com/watch?v=mock-agents-001&t=42s",
+          "topic_slug": "agents"
+        }
+      ],
+      "primary_speaker": "Builder Signals host",
+      "published_at": "2026-05-01T12:00:00Z",
+      "summary": "The video discusses AI Agents, Enterprise Adoption, Evaluation and connects the theme to practical LLM system decisions.",
+      "thumbnail_url": null,
+      "title": "Why AI agents changed LLM application design",
+      "topics": [
+        {
+          "label": "AI Agents",
+          "relevance_score": 0.95,
+          "slug": "agents"
+        },
+        {
+          "label": "Enterprise Adoption",
+          "relevance_score": 0.82,
+          "slug": "enterprise-adoption"
+        },
+        {
+          "label": "Evaluation",
+          "relevance_score": 0.78,
+          "slug": "evals"
+        }
+      ],
+      "transcript_status": "ready",
+      "url": "https://www.youtube.com/watch?v=mock-agents-001",
+      "youtube_video_id": "mock-agents-001"
+    }
+  ]
+}

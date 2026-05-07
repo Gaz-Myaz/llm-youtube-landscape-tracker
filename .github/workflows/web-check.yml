@@ -1,0 +1,26 @@
+name: Web check
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  build-web:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install dependencies
+        working-directory: apps/web
+        run: npm install
+
+      - name: Build web app
+        working-directory: apps/web
+        run: npm run build

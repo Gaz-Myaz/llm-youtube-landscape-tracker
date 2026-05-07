@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/contracts/run-metadata.schema.json",
+  "title": "Run Metadata Snapshot",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "last_successful_run_at",
+    "status",
+    "provider",
+    "model",
+    "videos_seen",
+    "videos_processed",
+    "videos_failed",
+    "estimated_cost_usd",
+    "content_hashes"
+  ],
+  "properties": {
+    "schema_version": { "type": "string", "const": "1.0" },
+    "last_successful_run_at": { "type": "string", "format": "date-time" },
+    "status": { "type": "string", "enum": ["success", "failed", "partial", "stale"] },
+    "provider": { "type": "string" },
+    "model": { "type": "string" },
+    "videos_seen": { "type": "integer", "minimum": 0 },
+    "videos_processed": { "type": "integer", "minimum": 0 },
+    "videos_failed": { "type": "integer", "minimum": 0 },
+    "estimated_cost_usd": { "type": "number", "minimum": 0 },
+    "error_summary": { "type": ["string", "null"] },
+    "content_hashes": {
+      "type": "object",
+      "additionalProperties": { "type": "string" }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/contracts/public-channels.schema.json",
+  "title": "Public Channels Snapshot",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "generated_at", "channels"],
+  "properties": {
+    "schema_version": { "type": "string", "const": "1.0" },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "channels": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["youtube_channel_id", "title", "url", "video_count", "top_topics"],
+        "properties": {
+          "youtube_channel_id": { "type": "string" },
+          "title": { "type": "string" },
+          "handle": { "type": ["string", "null"] },
+          "description": { "type": ["string", "null"] },
+          "url": { "type": "string" },
+          "thumbnail_url": { "type": ["string", "null"] },
+          "video_count": { "type": "integer", "minimum": 0 },
+          "latest_video_at": { "type": ["string", "null"], "format": "date-time" },
+          "top_topics": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["slug", "label", "score"],
+              "properties": {
+                "slug": { "type": "string" },
+                "label": { "type": "string" },
+                "score": { "type": "number" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

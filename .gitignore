@@ -1,0 +1,31 @@
+node_modules/
+.next/
+dist/
+build/
+.venv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.env
+.env.local
+*.pyc
+*.egg-info/
+*.log
+coverage/
+htmlcov/
+postgres-data/
+
+# Local reference imports
+llm-insight-map-main/
+llm-insight-map-main.zip
+Project.md
+README.md
+REPORT.md
+task
+
+# Local environment and machine files
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
