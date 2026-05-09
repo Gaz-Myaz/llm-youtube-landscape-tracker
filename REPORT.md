@@ -2,7 +2,11 @@
 
 Date: May 9, 2026
 
-## 1. Project Goal
+Live dashboard: `https://gaz-myaz.github.io/llm-youtube-landscape-tracker/`
+
+Public repository: `https://github.com/Gaz-Myaz/llm-youtube-landscape-tracker`
+
+## 1. Project Goal (Problem Statement)
 
 The LLM YouTube Landscape Tracker is a prototype for monitoring selected YouTube channels that cover AI, LLMs, coding assistants, model releases, and related developer workflows.
 
@@ -49,7 +53,7 @@ Not implemented yet:
 - PostgreSQL as the active canonical source of truth. The schema exists, but `real-export` currently writes snapshots directly.
 - Provider invoice reconciliation beyond token-based estimated cost metadata.
 
-## 3. System Architecture
+## 3. System Architecture (Methodology)
 
 The project is split into two main services.
 
@@ -108,7 +112,7 @@ The app reads these files from `apps/web/public/data`:
 
 The homepage is configured with `dynamic = "force-dynamic"`, so updated snapshot files are read at request time in the local dev server.
 
-## 4. Data Pipeline Details
+## 4. Data Pipeline Details (Methodology)
 
 ### Channel Discovery
 
@@ -168,7 +172,7 @@ The current ordering and graph are also non-LLM. Published videos are ranked by 
 
 This gives the project both an explicit fallback mode when running with `WORKER_PROVIDER=mock` and a per-video fallback inside Gemini/OpenAI/Anthropic runs. Fallback results are not silent: the run is marked `partial`, the failed provider/model/error are stored in the fallback result's raw response, and the run metadata records fallback counts and compact reasons. If the provider-call cap is lower than the number of caption-backed candidates, extra candidates are skipped and recorded in run metadata.
 
-## 5. Current Data Reality
+## 5. Current Data Reality (Evaluation Dataset, Experimental Results)
 
 The checked-in dashboard snapshots are generated artifacts from the latest successful export. The source can be verified in:
 
@@ -218,7 +222,7 @@ New exports write `token_usage`, `cost_rates`, and `estimated_cost_usd` into `ru
 
 During local testing, the real export successfully produced caption-backed snapshots. After repeated requests, YouTube temporarily blocked direct transcript fetches from the current IP. The worker now reports compact skip reasons, uses the transcript cache, throttles uncached requests, and can fall back to `yt-dlp` subtitle extraction.
 
-## 6. Validation Performed
+## 6. Validation Performed (Evaluation Methods, Experimental Results)
 
 Worker tests pass:
 
@@ -264,7 +268,7 @@ VS Code workspace diagnostics were also checked. The active project files do not
 - The current export path writes snapshots directly rather than persisting to PostgreSQL first.
 - Video ranking and relationship scores are deterministic calculations based on topic/evidence signals, not embeddings or semantic similarity.
 
-## 8. Evaluation Plan
+## 8. Evaluation Plan (Evaluation Dataset, Evaluation Methods)
 
 The next evaluation pass should use 20 to 30 manually reviewed videos across the seed channels.
 
