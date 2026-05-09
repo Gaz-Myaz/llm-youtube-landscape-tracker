@@ -4,6 +4,9 @@ import sys
 from pathlib import Path
 
 
+NETSCAPE_HEADER = "# Netscape HTTP Cookie File"
+
+
 def decode_secret_text(text: str) -> str:
     stripped = text.strip()
     if len(stripped) >= 2 and stripped[0] == stripped[-1] and stripped[0] in {'"', "'"}:
@@ -27,12 +30,12 @@ def normalize_cookie_line(raw_line: str) -> str | None:
     line = raw_line.strip()
     if not line:
         return None
-    if line.startswith("#"):
+    if line.startswith("#") and not line.startswith("#HttpOnly_"):
         return line
 
     parts = line.split("\t") if "\t" in line else line.split()
     if len(parts) < 7:
-        return line
+        return None
 
     return "\t".join(parts[:6] + [" ".join(parts[6:])])
 
@@ -50,10 +53,13 @@ def main(argv: list[str]) -> int:
     normalized_lines: list[str] = []
     for raw_line in text.splitlines():
         normalized = normalize_cookie_line(raw_line)
-        if normalized is not None:
+        if normalized is not None and normalized != NETSCAPE_HEADER:
             normalized_lines.append(normalized)
 
-    target.write_text("\n".join(normalized_lines) + "\n", encoding="utf-8")
+    target.write_text(
+        "\n".join([NETSCAPE_HEADER, *normalized_lines]) + "\n",
+        encoding="utf-8",
+    )
     return 0
 
 
