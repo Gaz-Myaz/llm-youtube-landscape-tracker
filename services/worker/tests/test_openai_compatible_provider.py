@@ -217,6 +217,52 @@ def test_openai_compatible_provider_rejects_schema_mismatch(monkeypatch) -> None
         provider.extract_video_insights(_video(), _transcript())
 
 
+def test_openai_compatible_provider_accepts_evidence_without_optional_fields(monkeypatch) -> None:
+        monkeypatch.setattr(
+                "llm_landscape.llm.openai_compatible.requests.post",
+                lambda *args, **kwargs: SimpleNamespace(
+                        raise_for_status=lambda: None,
+                        json=lambda: {
+                                "choices": [
+                                        {
+                                                "message": {
+                                                        "content": """
+                                                        {
+                                                            "primary_speaker": "host",
+                                                            "summary": "The video explains a model release.",
+                                                            "content_type": "analysis",
+                                                            "stance": "mixed",
+                                                            "topics": [
+                                                                {"slug": "model-releases", "relevance_score": 0.88}
+                                                            ],
+                                                            "evidence": [
+                                                                {
+                                                                    "field_name": "primary_speaker",
+                                                                    "quote": "Dear fellow scholars"
+                                                                },
+                                                                {
+                                                                    "field_name": "summary",
+                                                                    "quote": "OpenAI released a new instant model"
+                                                                }
+                                                            ],
+                                                            "confidence_score": 0.83
+                                                        }
+                                                        """
+                                                }
+                                        }
+                                ]
+                        },
+                ),
+        )
+        provider = OpenAICompatibleProvider(api_key="test-key", model="test-model", provider_name="gemini")
+
+        result = provider.extract_video_insights(_video(), _transcript())
+
+        assert len(result.evidence) == 2
+        assert result.evidence[0].topic_slug is None
+        assert result.evidence[0].confidence_score == 0.5
+
+
 def _video() -> Video:
     channel = Channel(
         youtube_channel_id="channel-1",

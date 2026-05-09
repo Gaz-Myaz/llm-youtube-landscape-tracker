@@ -71,7 +71,7 @@ _INSIGHT_JSON_SCHEMA = {
             "items": {
                 "type": "object",
                 "additionalProperties": False,
-                "required": ["field_name", "quote", "topic_slug", "confidence_score"],
+                "required": ["field_name", "quote"],
                 "properties": {
                     "field_name": {"type": "string"},
                     "quote": {"type": "string"},
