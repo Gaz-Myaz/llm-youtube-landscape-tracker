@@ -218,49 +218,105 @@ def test_openai_compatible_provider_rejects_schema_mismatch(monkeypatch) -> None
 
 
 def test_openai_compatible_provider_accepts_evidence_without_optional_fields(monkeypatch) -> None:
-        monkeypatch.setattr(
-                "llm_landscape.llm.openai_compatible.requests.post",
-                lambda *args, **kwargs: SimpleNamespace(
-                        raise_for_status=lambda: None,
-                        json=lambda: {
-                                "choices": [
-                                        {
-                                                "message": {
-                                                        "content": """
-                                                        {
-                                                            "primary_speaker": "host",
-                                                            "summary": "The video explains a model release.",
-                                                            "content_type": "analysis",
-                                                            "stance": "mixed",
-                                                            "topics": [
-                                                                {"slug": "model-releases", "relevance_score": 0.88}
-                                                            ],
-                                                            "evidence": [
-                                                                {
-                                                                    "field_name": "primary_speaker",
-                                                                    "quote": "Dear fellow scholars"
-                                                                },
-                                                                {
-                                                                    "field_name": "summary",
-                                                                    "quote": "OpenAI released a new instant model"
-                                                                }
-                                                            ],
-                                                            "confidence_score": 0.83
-                                                        }
-                                                        """
-                                                }
-                                        }
-                                ]
-                        },
-                ),
-        )
-        provider = OpenAICompatibleProvider(api_key="test-key", model="test-model", provider_name="gemini")
+    monkeypatch.setattr(
+        "llm_landscape.llm.openai_compatible.requests.post",
+        lambda *args, **kwargs: SimpleNamespace(
+            raise_for_status=lambda: None,
+            json=lambda: {
+                "choices": [
+                    {
+                        "message": {
+                            "content": """
+                            {
+                              "primary_speaker": "host",
+                              "summary": "The video explains a model release.",
+                              "content_type": "analysis",
+                              "stance": "mixed",
+                              "topics": [
+                                {"slug": "model-releases", "relevance_score": 0.88}
+                              ],
+                              "evidence": [
+                                {
+                                  "field_name": "primary_speaker",
+                                  "quote": "Dear fellow scholars"
+                                },
+                                {
+                                  "field_name": "summary",
+                                  "quote": "OpenAI released a new instant model"
+                                }
+                              ],
+                              "confidence_score": 0.83
+                            }
+                            """
+                        }
+                    }
+                ]
+            },
+        ),
+    )
+    provider = OpenAICompatibleProvider(api_key="test-key", model="test-model", provider_name="gemini")
 
-        result = provider.extract_video_insights(_video(), _transcript())
+    result = provider.extract_video_insights(_video(), _transcript())
 
-        assert len(result.evidence) == 2
-        assert result.evidence[0].topic_slug is None
-        assert result.evidence[0].confidence_score == 0.5
+    assert len(result.evidence) == 2
+    assert result.evidence[0].topic_slug is None
+    assert result.evidence[0].confidence_score == 0.5
+
+
+def test_openai_compatible_provider_trims_arrays_before_schema_validation(monkeypatch) -> None:
+    monkeypatch.setattr(
+        "llm_landscape.llm.openai_compatible.requests.post",
+        lambda *args, **kwargs: SimpleNamespace(
+            raise_for_status=lambda: None,
+            json=lambda: {
+                "choices": [
+                    {
+                        "message": {
+                            "content": """
+                            {
+                              "primary_speaker": "host",
+                              "summary": "The video compares several model release topics.",
+                              "content_type": "analysis",
+                              "stance": "mixed",
+                              "topics": [
+                                {"slug": "model-releases", "relevance_score": 0.91},
+                                {"slug": "benchmarks", "relevance_score": 0.82},
+                                {"slug": "evals", "relevance_score": 0.78},
+                                {"slug": "safety-alignment", "relevance_score": 0.72},
+                                {"slug": "agents", "relevance_score": 0.61}
+                              ],
+                              "evidence": [
+                                {"field_name": "summary", "quote": "quote one", "topic_slug": null, "confidence_score": 0.9},
+                                {"field_name": "summary", "quote": "quote two", "topic_slug": null, "confidence_score": 0.8},
+                                {"field_name": "summary", "quote": "quote three", "topic_slug": null, "confidence_score": 0.7},
+                                {"field_name": "summary", "quote": "quote four", "topic_slug": null, "confidence_score": 0.6},
+                                {"field_name": "summary", "quote": "quote five", "topic_slug": null, "confidence_score": 0.5}
+                              ],
+                              "confidence_score": 0.84
+                            }
+                            """
+                        }
+                    }
+                ]
+            },
+        ),
+    )
+    provider = OpenAICompatibleProvider(api_key="test-key", model="test-model", provider_name="gemini")
+
+    result = provider.extract_video_insights(_video(), _transcript())
+
+    assert [topic.slug for topic in result.topics] == [
+        "model-releases",
+        "benchmarks",
+        "evals",
+        "safety-alignment",
+    ]
+    assert [item.quote for item in result.evidence] == [
+        "quote one",
+        "quote two",
+        "quote three",
+        "quote four",
+    ]
 
 
 def _video() -> Video:

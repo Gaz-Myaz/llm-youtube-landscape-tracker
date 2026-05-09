@@ -230,6 +230,7 @@ def _result_from_payload(
     provider: str,
     mode: str = "openai_compatible",
 ) -> EnrichmentResult:
+    payload = _pretrim_payload(payload)
     _validate_payload(payload)
     topics = tuple(_topic_from_payload(topic) for topic in _as_list(payload.get("topics")))
     evidence = tuple(_evidence_from_payload(item) for item in _as_list(payload.get("evidence")))
@@ -251,6 +252,17 @@ def _result_from_payload(
         confidence_score=_clamp_float(payload.get("confidence_score"), default=0.5),
         raw_response={"mode": mode, "response": raw_response},
     )
+
+
+def _pretrim_payload(payload: dict[str, Any]) -> dict[str, Any]:
+    trimmed = dict(payload)
+    topics = payload.get("topics")
+    if isinstance(topics, list):
+        trimmed["topics"] = topics[:4]
+    evidence = payload.get("evidence")
+    if isinstance(evidence, list):
+        trimmed["evidence"] = evidence[:4]
+    return trimmed
 
 
 def _validate_payload(payload: dict[str, Any]) -> None:
