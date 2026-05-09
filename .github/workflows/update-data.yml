@@ -49,7 +49,32 @@ jobs:
           YT_DLP_COOKIES: ${{ secrets.YT_DLP_COOKIES }}
         run: |
           if [ -n "$YT_DLP_COOKIES" ]; then
-            printf '%s\n' "$YT_DLP_COOKIES" > .yt-dlp-cookies.txt
+            printf '%s\n' "$YT_DLP_COOKIES" > .yt-dlp-cookies.raw.txt
+            python - <<'PY'
+from pathlib import Path
+
+source = Path('.yt-dlp-cookies.raw.txt')
+target = Path('.yt-dlp-cookies.txt')
+text = source.read_text(encoding='utf-8-sig')
+normalized_lines = []
+
+for raw_line in text.splitlines():
+    line = raw_line.strip()
+    if not line:
+        continue
+    if line.startswith('#'):
+        normalized_lines.append(line)
+        continue
+
+    parts = line.split('\t') if '\t' in line else line.split()
+    if len(parts) >= 7:
+        normalized_lines.append('\t'.join(parts[:6] + [' '.join(parts[6:])]))
+    else:
+        normalized_lines.append(line)
+
+target.write_text('\n'.join(normalized_lines) + '\n', encoding='utf-8')
+PY
+            rm -f .yt-dlp-cookies.raw.txt
             echo "YT_DLP_COOKIES_PATH=$PWD/.yt-dlp-cookies.txt" >> "$GITHUB_ENV"
           fi
 

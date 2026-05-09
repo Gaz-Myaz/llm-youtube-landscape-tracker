@@ -32,3 +32,8 @@ task
 !.env.example
 .DS_Store
 Thumbs.db
+
+# Local browser/exported cookie files
+.yt-dlp-cookies.txt
+cookies*.txt
+*_cookies.txt
