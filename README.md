@@ -35,7 +35,7 @@ Still scaffolded or planned:
 - `apps/web`: Next.js 15 dashboard with filters, evidence snippets, channel summaries, and a relationship graph.
 - `contracts`: JSON Schemas used to validate exported public snapshots.
 - `infra/db`: PostgreSQL schema and seeded channel configuration for local and future canonical storage.
-- `.github/workflows/update-data.yml`: scheduled/manual snapshot update workflow.
+- `.github/workflows/update-landscape-data.yml`: scheduled/manual snapshot update workflow.
 - `docker-compose.yml`: local `db`, `worker`, and `web` services.
 
 ## Worker Setup
@@ -126,7 +126,7 @@ There are three workflows:
 
 - `worker-check.yml`: runs worker tests and validates checked-in snapshots on pushes and pull requests.
 - `web-check.yml`: installs the web app with `npm ci`, type-checks it, and runs `next build`.
-- `update-data.yml`: scheduled/manual production-style update. It restores the transcript cache, requires a `YT_DLP_COOKIES` secret for the authenticated subtitle path, runs worker tests, exports real subtitle-backed snapshots, validates the JSON contracts, builds the web app with the refreshed data, and commits changed snapshot files.
+- `update-landscape-data.yml`: scheduled/manual production-style update. It restores the transcript cache, requires a `YT_DLP_COOKIES` secret for the authenticated subtitle path, runs worker tests, exports real subtitle-backed snapshots, validates the JSON contracts, builds the web app with the refreshed data, and commits changed snapshot files.
 - `deploy-pages.yml`: builds a static export from the checked-in snapshots and deploys the dashboard to GitHub Pages.
 
 Add a repository secret named `YT_DLP_COOKIES` containing an exported Netscape cookie file from a signed-in YouTube browser session. The workflow writes that secret to a temporary file, validates that it looks like a YouTube cookie jar, and passes it to `yt-dlp` before snapshot export.
