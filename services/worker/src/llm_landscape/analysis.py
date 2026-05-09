@@ -342,8 +342,9 @@ def is_landscape_relevant(video: Video, enrichment: EnrichmentResult) -> bool:
     title_text = f"{video.title} {video.description or ''}".lower()
     if _LANDSCAPE_SIGNAL_RE.search(title_text):
         return True
-    strong_topics = [topic for topic in enrichment.topics if topic.relevance_score >= 0.78]
-    return len(strong_topics) >= 2 or any(topic.relevance_score >= 0.84 for topic in enrichment.topics)
+    return len(enrichment.topics) >= 2 or any(
+        topic.relevance_score >= 0.70 for topic in enrichment.topics
+    )
 
 
 def _analysis_text(video: Video, transcript_text: str) -> str:

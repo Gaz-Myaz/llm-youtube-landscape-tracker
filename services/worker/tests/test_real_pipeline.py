@@ -108,6 +108,42 @@ def test_deterministic_analyzer_avoids_substring_topic_matches() -> None:
     assert not is_landscape_relevant(video, result)
 
 
+def test_landscape_relevance_accepts_single_model_release_topic() -> None:
+    channel = Channel(
+        youtube_channel_id="channel-2",
+        title="Example Channel",
+        handle="@example",
+        description=None,
+        url="https://www.youtube.com/@example",
+    )
+    video = Video(
+        youtube_video_id="video-3",
+        title="Weekly developer news",
+        url="https://www.youtube.com/watch?v=video-3",
+        published_at="2026-05-07T00:00:00Z",
+        channel=channel,
+    )
+    transcript = Transcript(
+        video_id="video-3",
+        source="youtube_captions",
+        language="en",
+        text="The main segment covers a model release and why developers should care.",
+        segments=(
+            TranscriptSegment(
+                0,
+                0,
+                8,
+                "The main segment covers a model release and why developers should care.",
+            ),
+        ),
+    )
+
+    result = DeterministicAnalyzer().extract_video_insights(video, transcript)
+
+    assert [topic.slug for topic in result.topics] == ["model-releases"]
+    assert is_landscape_relevant(video, result)
+
+
 def test_deterministic_analyzer_uses_video_metadata_for_topics() -> None:
     channel = Channel(
         youtube_channel_id="channel-2",

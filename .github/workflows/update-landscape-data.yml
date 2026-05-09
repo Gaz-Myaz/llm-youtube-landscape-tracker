@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: update-landscape-data
@@ -56,6 +57,7 @@ jobs:
           fi
 
       - name: Validate yt-dlp cookies setup
+        id: validate-cookies
         run: |
           if [ ! -s "$PWD/.yt-dlp-cookies.txt" ]; then
             echo "YT_DLP_COOKIES secret is missing or empty. Export a Netscape-format cookie file from a signed-in YouTube browser session and save it as the repository secret YT_DLP_COOKIES." >&2
@@ -76,10 +78,34 @@ jobs:
             exit 1
           fi
 
+      - name: Notify on cookie validation failure
+        if: failure() && steps.validate-cookies.outcome == 'failure'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = 'Refresh YT_DLP_COOKIES for scheduled data updates';
+            const body = [
+              'The scheduled `Update landscape data` workflow could not validate the `YT_DLP_COOKIES` secret.',
+              '',
+              'Re-export a fresh Netscape-format cookie file from a signed-in YouTube browser session and update the repository secret named `YT_DLP_COOKIES`.',
+              '',
+              `Workflow run: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`
+            ].join('\n');
+            const { owner, repo } = context.repo;
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner,
+              repo,
+              state: 'open',
+              per_page: 100
+            });
+            if (!issues.some((issue) => issue.title === title)) {
+              await github.rest.issues.create({ owner, repo, title, body });
+            }
+
       - name: Export snapshots
         env:
-          VIDEOS_PER_CHANNEL: 3
-          MAX_VIDEOS_PER_RUN: 15
+          VIDEOS_PER_CHANNEL: 2
+          MAX_VIDEOS_PER_RUN: 30
           TRANSCRIPT_REQUEST_DELAY_SECONDS: 5.0
           TRANSCRIPT_PROVIDERS: yt_dlp,youtube_transcript_api
           TRANSCRIPT_CACHE_DIR: data/transcripts

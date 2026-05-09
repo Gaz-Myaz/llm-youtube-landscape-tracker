@@ -8,12 +8,12 @@ The project is intentionally split into a data worker and a web app so the inges
 
 Implemented now:
 
-- Real YouTube RSS discovery from seeded channel IDs in `infra/db/seed_channels.sql`.
+- Real YouTube RSS discovery from seeded channel IDs in `infra/db/seed_channels.sql`, including independent AI labs, research explainers, developer tooling channels, and applied LLM education sources.
 - Real YouTube caption fetching through `youtube-transcript-api`.
 - `yt-dlp` subtitle fallback when the primary transcript API is blocked or unavailable.
 - Local transcript caching via `TRANSCRIPT_CACHE_DIR` to reduce repeated YouTube requests.
 - Deterministic, non-LLM topic extraction from subtitle text.
-- Deterministic relevance filtering so unrelated captioned videos are skipped.
+- Deterministic relevance filtering so unrelated captioned videos are skipped while single-topic LLM/model-release signals are still retained.
 - Deterministic fallback ranking that orders published videos by topic strength, evidence coverage, and recency.
 - Deterministic content type classification using a small keyword dictionary for tutorial, benchmark, interview, research, demo, analysis, and opinion videos.
 - Relationship scoring based on shared extracted topics.
@@ -130,6 +130,8 @@ There are three workflows:
 - `deploy-pages.yml`: builds a static export from the checked-in snapshots and deploys the dashboard to GitHub Pages.
 
 Add a repository secret named `YT_DLP_COOKIES` containing an exported Netscape cookie file from a signed-in YouTube browser session. The workflow writes that secret to a temporary file, validates that it looks like a YouTube cookie jar, and passes it to `yt-dlp` before snapshot export.
+
+The scheduled refresh inspects two recent RSS entries per seeded channel and caps each run at 30 candidate videos. That keeps the run broad across channels without hammering YouTube too aggressively. If cookie validation fails, the workflow opens a GitHub issue titled `Refresh YT_DLP_COOKIES for scheduled data updates` unless one is already open.
 
 For a local cookie check, do not treat a printed video ID as sufficient proof that the cookies are valid. `yt-dlp` can still print the ID for a public video while warning that the YouTube account cookies were rotated or rejected. A usable local check is:
 
