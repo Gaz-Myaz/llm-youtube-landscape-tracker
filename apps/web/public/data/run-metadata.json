@@ -1,27 +1,25 @@
 {
   "content_hashes": {
-    "channels": "52064aad03481abd8f9556ac562e7e677b945962d4c77ec5ed39124a940a8b2d",
-    "relationships": "f95522ed3e674ffc528fc04ae5045214cae3d33c092eb65579f0ebf3ed16fb23",
-    "videos": "fa3e44eb49c75d69d85c0649fc3864abb2e2189e4570ca83285f3a3cc8613e56"
+    "channels": "792617348f7c6715989e68686a0a067644a90ab85dfd797dcafe1ea9da425c0c",
+    "relationships": "9fabfebc58201fe7a105b1657273724d1cab8054fa912ba6b3e41ca62cc1ad3e",
+    "videos": "01a106d1b8bed87b024fdaf71f22635190c881e04f4e923bd0949f5d661e1279"
   },
   "cost_rates": {
     "input_usd_per_1m_tokens": 0.3,
     "output_usd_per_1m_tokens": 2.5,
     "source": "default"
   },
-  "error_summary": "Filtered 10 caption-backed videos outside configured LLM landscape rules: nepKKz-MzFM: no gemini LLM landscape signal; iKx3gAODybU: no gemini LLM landscape signal; MtxP2pyCvYA: no gemini LLM landscape signal; 7 more Used deterministic fallback for 1 provider failures: g31LEVJyGQI: gemini provider failed (LLM response JSON did not match insight schema at topics.2.slug: 'research' is not one of ['agents', 'benchmarks', 'coding-assistants', 'enterprise-adoption', 'evals', 'fine-tuning', 'local-inference', 'model-releases', 'multimodal', 'open-source-models', 'rag', 'safety-alignment']); deterministic fallback used",
+  "error_summary": "Filtered 10 caption-backed videos outside configured LLM landscape rules: nepKKz-MzFM: no gemini LLM landscape signal; iKx3gAODybU: no gemini LLM landscape signal; MtxP2pyCvYA: no gemini LLM landscape signal; 7 more",
   "estimated_cost_usd": 0.0,
-  "last_successful_run_at": "2026-05-09T16:24:45Z",
+  "last_successful_run_at": "2026-05-09T16:51:56Z",
   "model": "gemini-2.5-flash",
   "provider": "gemini",
   "provider_call_count": 28,
-  "provider_fallback_count": 1,
-  "provider_fallback_reasons": [
-    "g31LEVJyGQI: gemini provider failed (LLM response JSON did not match insight schema at topics.2.slug: 'research' is not one of ['agents', 'benchmarks', 'coding-assistants', 'enterprise-adoption', 'evals', 'fine-tuning', 'local-inference', 'model-releases', 'multimodal', 'open-source-models', 'rag', 'safety-alignment']); deterministic fallback used"
-  ],
-  "provider_success_count": 27,
+  "provider_fallback_count": 0,
+  "provider_fallback_reasons": [],
+  "provider_success_count": 28,
   "schema_version": "1.0",
-  "status": "partial",
+  "status": "success",
   "token_usage": {
     "input_tokens": 0,
     "output_tokens": 0,

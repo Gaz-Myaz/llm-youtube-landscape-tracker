@@ -9,8 +9,13 @@
       "top_topics": [
         {
           "label": "Safety and Alignment",
-          "score": 0.95,
+          "score": 1.0,
           "slug": "safety-alignment"
+        },
+        {
+          "label": "Evaluation",
+          "score": 0.9,
+          "slug": "evals"
         },
         {
           "label": "AI Agents",
@@ -19,18 +24,13 @@
         },
         {
           "label": "Enterprise Adoption",
-          "score": 0.85,
+          "score": 0.8,
           "slug": "enterprise-adoption"
         },
         {
-          "label": "Evaluation",
-          "score": 0.8,
-          "slug": "evals"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.75,
-          "slug": "coding-assistants"
+          "label": "Model Releases",
+          "score": 0.7,
+          "slug": "model-releases"
         }
       ],
       "url": "https://www.youtube.com/@WesRoth",
@@ -77,6 +77,11 @@
           "slug": "benchmarks"
         },
         {
+          "label": "Safety and Alignment",
+          "score": 1.0,
+          "slug": "safety-alignment"
+        },
+        {
           "label": "Open Source Models",
           "score": 1.0,
           "slug": "open-source-models"
@@ -85,11 +90,6 @@
           "label": "Evaluation",
           "score": 0.9,
           "slug": "evals"
-        },
-        {
-          "label": "Safety and Alignment",
-          "score": 0.9,
-          "slug": "safety-alignment"
         }
       ],
       "url": "https://www.youtube.com/@TwoMinutePapers",
@@ -104,28 +104,28 @@
       "title": "OpenAI",
       "top_topics": [
         {
-          "label": "AI Agents",
-          "score": 1.0,
-          "slug": "agents"
-        },
-        {
           "label": "Model Releases",
           "score": 1.0,
           "slug": "model-releases"
         },
         {
+          "label": "AI Agents",
+          "score": 0.95,
+          "slug": "agents"
+        },
+        {
           "label": "Multimodal",
-          "score": 1.0,
+          "score": 0.9,
           "slug": "multimodal"
         },
         {
           "label": "Coding Assistants",
-          "score": 0.9,
+          "score": 0.85,
           "slug": "coding-assistants"
         },
         {
           "label": "Enterprise Adoption",
-          "score": 0.8,
+          "score": 0.7,
           "slug": "enterprise-adoption"
         }
       ],
@@ -141,9 +141,9 @@
       "title": "Matthew Berman",
       "top_topics": [
         {
-          "label": "Model Releases",
-          "score": 0.95,
-          "slug": "model-releases"
+          "label": "AI Agents",
+          "score": 1.0,
+          "slug": "agents"
         },
         {
           "label": "Enterprise Adoption",
@@ -151,19 +151,14 @@
           "slug": "enterprise-adoption"
         },
         {
-          "label": "AI Agents",
-          "score": 0.803,
-          "slug": "agents"
+          "label": "Model Releases",
+          "score": 0.8,
+          "slug": "model-releases"
         },
         {
           "label": "Coding Assistants",
-          "score": 0.8,
+          "score": 0.7,
           "slug": "coding-assistants"
-        },
-        {
-          "label": "RAG",
-          "score": 0.795,
-          "slug": "rag"
         }
       ],
       "url": "https://www.youtube.com/@matthew_berman",
@@ -184,23 +179,23 @@
         },
         {
           "label": "Enterprise Adoption",
-          "score": 0.95,
+          "score": 0.9,
           "slug": "enterprise-adoption"
         },
         {
           "label": "Evaluation",
-          "score": 0.85,
+          "score": 0.9,
           "slug": "evals"
         },
         {
-          "label": "RAG",
+          "label": "Coding Assistants",
           "score": 0.7,
-          "slug": "rag"
+          "slug": "coding-assistants"
         },
         {
-          "label": "Coding Assistants",
-          "score": 0.6,
-          "slug": "coding-assistants"
+          "label": "Open Source Models",
+          "score": 0.7,
+          "slug": "open-source-models"
         }
       ],
       "url": "https://www.youtube.com/@LangChain",
@@ -225,19 +220,14 @@
           "slug": "benchmarks"
         },
         {
-          "label": "Safety and Alignment",
-          "score": 0.9,
-          "slug": "safety-alignment"
-        },
-        {
           "label": "Evaluation",
           "score": 0.9,
           "slug": "evals"
         },
         {
-          "label": "AI Agents",
+          "label": "Safety and Alignment",
           "score": 0.8,
-          "slug": "agents"
+          "slug": "safety-alignment"
         }
       ],
       "url": "https://www.youtube.com/@AIExplained-official",
@@ -263,17 +253,17 @@
         },
         {
           "label": "Local Inference",
-          "score": 1.0,
+          "score": 0.95,
           "slug": "local-inference"
         },
         {
           "label": "AI Agents",
-          "score": 1.0,
+          "score": 0.9,
           "slug": "agents"
         },
         {
           "label": "Safety and Alignment",
-          "score": 0.85,
+          "score": 0.9,
           "slug": "safety-alignment"
         }
       ],
@@ -290,18 +280,13 @@
       "top_topics": [
         {
           "label": "AI Agents",
-          "score": 0.9,
+          "score": 1.0,
           "slug": "agents"
         },
         {
           "label": "Coding Assistants",
-          "score": 0.8,
+          "score": 0.9,
           "slug": "coding-assistants"
-        },
-        {
-          "label": "Enterprise Adoption",
-          "score": 0.6,
-          "slug": "enterprise-adoption"
         }
       ],
       "url": "https://www.youtube.com/@Fireship",
@@ -322,18 +307,18 @@
         },
         {
           "label": "Open Source Models",
-          "score": 0.9,
+          "score": 1.0,
           "slug": "open-source-models"
         },
         {
           "label": "AI Agents",
-          "score": 0.8,
+          "score": 0.9,
           "slug": "agents"
         },
         {
-          "label": "Multimodal",
-          "score": 0.7,
-          "slug": "multimodal"
+          "label": "Fine Tuning",
+          "score": 0.8,
+          "slug": "fine-tuning"
         }
       ],
       "url": "https://www.youtube.com/@YannicKilcher",
@@ -341,6 +326,6 @@
       "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
     }
   ],
-  "generated_at": "2026-05-09T16:24:45Z",
+  "generated_at": "2026-05-09T16:51:56Z",
   "schema_version": "1.0"
 }
