@@ -2,19 +2,15 @@ from __future__ import annotations
 
 import html
 import json
+import os
 import re
 from pathlib import Path
 
-import requests
 from youtube_transcript_api import YouTubeTranscriptApi
 
 from llm_landscape.domain import Transcript, TranscriptSegment
 
 _YOUTUBE_WATCH_URL = "https://www.youtube.com/watch?v={video_id}"
-_USER_AGENT = (
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-    "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-)
 _PROVIDER_ALIASES = {
     "youtube": "youtube_transcript_api",
     "youtube_transcript_api": "youtube_transcript_api",
@@ -147,25 +143,38 @@ def _fetch_ytdlp_transcript_items(video_id: str, languages: list[str]) -> list[d
         "no_warnings": True,
         "skip_download": True,
     }
+    cookies_path = os.getenv("YT_DLP_COOKIES_PATH")
+    cookies_from_browser = os.getenv("YT_DLP_COOKIES_FROM_BROWSER")
+    if cookies_path:
+        options["cookiefile"] = cookies_path
+    if cookies_from_browser:
+        browser_parts = [part.strip() for part in cookies_from_browser.split(":") if part.strip()]
+        if browser_parts:
+            options["cookiesfrombrowser"] = tuple(browser_parts)
     with YoutubeDL(options) as youtube_dl:
         info = youtube_dl.extract_info(_YOUTUBE_WATCH_URL.format(video_id=video_id), download=False)
-
-    track = _select_ytdlp_caption_track(info or {}, languages)
-    if track is None:
-        raise RuntimeError(f"yt-dlp found no subtitle track for languages {languages}")
-
-    response = requests.get(
-        str(track["url"]),
-        headers={"User-Agent": _USER_AGENT},
-        timeout=30,
-    )
-    response.raise_for_status()
+        track = _select_ytdlp_caption_track(info or {}, languages)
+        if track is None:
+            raise RuntimeError(f"yt-dlp found no subtitle track for languages {languages}")
+        body = _download_ytdlp_caption_body(youtube_dl, track)
 
     extension = str(track.get("ext") or "").lower()
-    body = response.text
     if extension == "json3" or body.lstrip().startswith("{"):
         return _parse_json3_subtitles(body)
     return _parse_vtt_subtitles(body)
+
+
+def _download_ytdlp_caption_body(youtube_dl, track: dict) -> str:
+    response = youtube_dl.urlopen(str(track["url"]))
+    try:
+        payload = response.read()
+    finally:
+        close = getattr(response, "close", None)
+        if callable(close):
+            close()
+    if isinstance(payload, bytes):
+        return payload.decode("utf-8-sig", errors="replace")
+    return str(payload)
 
 
 def _select_ytdlp_caption_track(info: dict, languages: list[str]) -> dict | None:

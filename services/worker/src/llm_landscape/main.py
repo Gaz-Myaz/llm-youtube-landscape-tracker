@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import time
 from datetime import UTC, datetime
 from email.utils import parsedate_to_datetime
@@ -43,6 +44,11 @@ def main() -> None:
 
     args = parser.parse_args()
     settings = load_settings()
+
+    if settings.yt_dlp_cookies_path is not None:
+        os.environ.setdefault("YT_DLP_COOKIES_PATH", str(settings.yt_dlp_cookies_path))
+    if settings.yt_dlp_cookies_from_browser is not None:
+        os.environ.setdefault("YT_DLP_COOKIES_FROM_BROWSER", settings.yt_dlp_cookies_from_browser)
 
     if args.command == "mock-export":
         output_dir = args.output_dir or settings.snapshot_output_dir

@@ -25,6 +25,8 @@ class Settings:
     videos_per_channel: int
     transcript_request_delay_seconds: float
     transcript_providers: tuple[str, ...]
+    yt_dlp_cookies_path: Path | None
+    yt_dlp_cookies_from_browser: str | None
     transcript_cache_dir: Path
     snapshot_output_dir: Path
     contracts_dir: Path
@@ -39,6 +41,8 @@ def load_settings() -> Settings:
     transcript_cache_dir = os.getenv("TRANSCRIPT_CACHE_DIR", "data/transcripts")
     transcript_request_delay_seconds = os.getenv("TRANSCRIPT_REQUEST_DELAY_SECONDS", "0.75")
     transcript_providers = os.getenv("TRANSCRIPT_PROVIDERS", "youtube_transcript_api,yt_dlp")
+    yt_dlp_cookies_path = os.getenv("YT_DLP_COOKIES_PATH") or None
+    yt_dlp_cookies_from_browser = os.getenv("YT_DLP_COOKIES_FROM_BROWSER") or None
     return Settings(
         database_url=os.getenv(
             "DATABASE_URL", "postgresql://llm_tracker:llm_tracker@localhost:5432/llm_tracker"
@@ -54,6 +58,8 @@ def load_settings() -> Settings:
         transcript_providers=tuple(
             provider.strip() for provider in transcript_providers.split(",") if provider.strip()
         ),
+        yt_dlp_cookies_path=_resolve_path(root, yt_dlp_cookies_path) if yt_dlp_cookies_path else None,
+        yt_dlp_cookies_from_browser=yt_dlp_cookies_from_browser,
         transcript_cache_dir=_resolve_path(root, transcript_cache_dir),
         snapshot_output_dir=_resolve_path(root, output_dir),
         contracts_dir=_resolve_path(root, contracts_dir),

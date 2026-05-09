@@ -105,6 +105,8 @@ Copy `.env.example` to `.env` for local overrides. Important settings:
 - `MAX_VIDEOS_PER_RUN`: maximum candidate videos to attempt in one run.
 - `TRANSCRIPT_PROVIDERS`: comma-separated subtitle provider order. Default: `youtube_transcript_api,yt_dlp`.
 - `TRANSCRIPT_REQUEST_DELAY_SECONDS`: delay between uncached transcript requests to reduce YouTube rate-limit pressure.
+- `YT_DLP_COOKIES_PATH`: optional path to a Netscape-format YouTube cookies file for `yt-dlp`. Useful in CI when anonymous subtitle fetches hit bot checks.
+- `YT_DLP_COOKIES_FROM_BROWSER`: optional local-only `yt-dlp` browser cookie source such as `chrome:Default`.
 - `TRANSCRIPT_CACHE_DIR`: local transcript cache directory, ignored by Git.
 - `SNAPSHOT_OUTPUT_DIR`: snapshot output directory.
 - `CONTRACTS_DIR`: JSON Schema contract directory.
@@ -125,5 +127,10 @@ There are three workflows:
 - `worker-check.yml`: runs worker tests and validates checked-in snapshots on pushes and pull requests.
 - `web-check.yml`: installs the web app with `npm ci`, type-checks it, and runs `next build`.
 - `update-data.yml`: scheduled/manual production-style update. It restores the transcript cache, runs worker tests, exports real subtitle-backed snapshots, validates the JSON contracts, builds the web app with the refreshed data, and commits changed snapshot files.
+- `deploy-pages.yml`: builds a static export from the checked-in snapshots and deploys the dashboard to GitHub Pages.
+
+If GitHub-hosted runs start failing on YouTube bot checks, add a repository secret named `YT_DLP_COOKIES` containing an exported Netscape cookie file. The workflow writes that secret to a temporary file and passes it to `yt-dlp` for the subtitle fallback path.
 
 The scheduled update does not call an LLM yet. It uses deterministic transcript analysis until the next phase adds real provider credentials.
+
+For GitHub Pages deploys, the web build switches to a static export when `DEPLOY_TARGET=github-pages` is set. That path publishes the current checked-in snapshots, so the public site updates after snapshot commits land on the default branch.

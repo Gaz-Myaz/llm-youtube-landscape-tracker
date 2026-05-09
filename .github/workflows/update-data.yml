@@ -44,6 +44,15 @@ jobs:
           restore-keys: |
             youtube-transcripts-${{ runner.os }}-
 
+      - name: Prepare yt-dlp cookies
+        env:
+          YT_DLP_COOKIES: ${{ secrets.YT_DLP_COOKIES }}
+        run: |
+          if [ -n "$YT_DLP_COOKIES" ]; then
+            printf '%s\n' "$YT_DLP_COOKIES" > .yt-dlp-cookies.txt
+            echo "YT_DLP_COOKIES_PATH=$PWD/.yt-dlp-cookies.txt" >> "$GITHUB_ENV"
+          fi
+
       - name: Export snapshots
         env:
           VIDEOS_PER_CHANNEL: 3

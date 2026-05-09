@@ -1,12 +1,15 @@
+import sys
 from pathlib import Path
+from types import SimpleNamespace
 
 from llm_landscape.analysis import DeterministicAnalyzer, is_landscape_relevant
 from llm_landscape.channels import load_seed_channels
+from llm_landscape.config import load_settings
 from llm_landscape.domain import Channel, Transcript, TranscriptSegment, Video, VideoBundle
 from llm_landscape.llm.base import EnrichmentResult, Evidence, Topic
 from llm_landscape.main import _as_iso_datetime
 from llm_landscape.ranking import fallback_video_score, sort_video_bundles
-from llm_landscape.transcripts.captions import fetch_youtube_captions
+from llm_landscape.transcripts.captions import _fetch_ytdlp_transcript_items, fetch_youtube_captions
 
 
 def test_seed_channels_load_from_sql() -> None:
@@ -323,6 +326,74 @@ def test_caption_fetch_respects_provider_order(monkeypatch) -> None:
     assert transcript.text == "primary caption"
     assert transcript.source == "youtube_captions:youtube_transcript_api"
     assert calls == [("youtube", "video-5", ["en"])]
+
+
+def test_load_settings_reads_optional_ytdlp_cookie_config(monkeypatch) -> None:
+    monkeypatch.setenv("YT_DLP_COOKIES_PATH", ".github/yt-dlp-cookies.txt")
+    monkeypatch.setenv("YT_DLP_COOKIES_FROM_BROWSER", "chrome:Default")
+
+    settings = load_settings()
+
+    assert settings.yt_dlp_cookies_path is not None
+    assert settings.yt_dlp_cookies_path.as_posix().endswith(".github/yt-dlp-cookies.txt")
+    assert settings.yt_dlp_cookies_from_browser == "chrome:Default"
+
+
+def test_ytdlp_caption_fetch_reuses_ytdlp_cookie_session(monkeypatch) -> None:
+    captured: dict[str, object] = {}
+
+    class FakeResponse:
+        def read(self) -> bytes:
+            return (
+                "WEBVTT\n\n"
+                "00:00:00.000 --> 00:00:01.000\n"
+                "cookie-backed subtitle\n"
+            ).encode("utf-8")
+
+        def close(self) -> None:
+            return None
+
+    class FakeYoutubeDL:
+        def __init__(self, options: dict) -> None:
+            captured["options"] = options
+
+        def __enter__(self):
+            return self
+
+        def __exit__(self, exc_type, exc, tb) -> bool:
+            return False
+
+        def extract_info(self, url: str, download: bool = False) -> dict:
+            captured["extract_url"] = url
+            captured["download"] = download
+            return {
+                "subtitles": {
+                    "en": [
+                        {
+                            "url": "https://example.com/subtitles.vtt",
+                            "ext": "vtt",
+                        }
+                    ]
+                }
+            }
+
+        def urlopen(self, url: str) -> FakeResponse:
+            captured["caption_url"] = url
+            return FakeResponse()
+
+    monkeypatch.setitem(sys.modules, "yt_dlp", SimpleNamespace(YoutubeDL=FakeYoutubeDL))
+    monkeypatch.setenv("YT_DLP_COOKIES_PATH", "/tmp/youtube-cookies.txt")
+
+    items = _fetch_ytdlp_transcript_items("video-6", ["en"])
+
+    assert items[0]["text"] == "cookie-backed subtitle"
+    assert captured["caption_url"] == "https://example.com/subtitles.vtt"
+    assert captured["options"] == {
+        "quiet": True,
+        "no_warnings": True,
+        "skip_download": True,
+        "cookiefile": "/tmp/youtube-cookies.txt",
+    }
 
 
 def _bundle(video: Video) -> VideoBundle:
