@@ -153,4 +153,4 @@ The scheduled CI refresh now prefers `yt_dlp` ahead of `youtube_transcript_api` 
 
 The scheduled update does not call an LLM yet. It uses deterministic transcript analysis until the next phase adds real provider credentials.
 
-For GitHub Pages deploys, the web build switches to a static export when `DEPLOY_TARGET=github-pages` is set. That path publishes the current checked-in snapshots, so the public site updates after snapshot commits land on the default branch.
+For GitHub Pages deploys, the web build switches to a static export when `DEPLOY_TARGET=github-pages` is set. That path publishes the current checked-in snapshots. The Pages workflow runs on direct pushes to `main` and after a successful `Update landscape data` workflow, so scheduled snapshot refreshes are published to the public site automatically.
