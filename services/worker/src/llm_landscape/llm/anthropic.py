@@ -7,7 +7,7 @@ import requests
 
 from llm_landscape.domain import Transcript, Video
 from llm_landscape.llm.base import EnrichmentResult
-from llm_landscape.llm.openai_compatible import (
+from llm_landscape.llm.chat_completions import (
     _SYSTEM_PROMPT,
     _parse_json_object,
     _result_from_payload,

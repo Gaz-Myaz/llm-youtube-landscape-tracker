@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import re
 from typing import Any
 
 import requests
@@ -12,6 +13,25 @@ from llm_landscape.llm.mock import TOPIC_RULES
 
 _TOPIC_LABELS = {slug: label for slug, label, _score, _keywords in TOPIC_RULES}
 _TOPIC_SLUGS = sorted(_TOPIC_LABELS)
+_TOPIC_SLUG_ALIASES = {
+    re.sub(r"[^a-z0-9]+", "-", slug.strip().lower()).strip("-"): slug
+    for slug in _TOPIC_SLUGS
+}
+_TOPIC_SLUG_ALIASES.update(
+    {
+        re.sub(r"[^a-z0-9]+", "-", label.strip().lower()).strip("-"): slug
+        for slug, label, _score, _keywords in TOPIC_RULES
+    }
+)
+_TOPIC_SLUG_ALIASES.update(
+    {
+        "agent": "agents",
+        "benchmark": "benchmarks",
+        "evaluation": "evals",
+        "eval": "evals",
+        "model-release": "model-releases",
+    }
+)
 _CONTENT_TYPES = {
     "tutorial",
     "benchmark",
@@ -89,7 +109,7 @@ _INSIGHT_JSON_SCHEMA = {
 _INSIGHT_SCHEMA_VALIDATOR = Draft202012Validator(_INSIGHT_JSON_SCHEMA)
 
 
-class OpenAICompatibleProvider:
+class ChatCompletionsProvider:
     name = "openai"
 
     def __init__(
@@ -228,9 +248,9 @@ def _result_from_payload(
     video: Video,
     model: str,
     provider: str,
-    mode: str = "openai_compatible",
+    mode: str = "chat_completions",
 ) -> EnrichmentResult:
-    payload = _pretrim_payload(payload)
+    payload = _normalize_payload(payload)
     _validate_payload(payload)
     topics = tuple(_topic_from_payload(topic) for topic in _as_list(payload.get("topics")))
     evidence = tuple(_evidence_from_payload(item) for item in _as_list(payload.get("evidence")))
@@ -265,6 +285,40 @@ def _pretrim_payload(payload: dict[str, Any]) -> dict[str, Any]:
     return trimmed
 
 
+def _normalize_payload(payload: dict[str, Any]) -> dict[str, Any]:
+    normalized = _pretrim_payload(payload)
+
+    topics = normalized.get("topics")
+    if isinstance(topics, list):
+        normalized_topics: list[Any] = []
+        for item in topics:
+            if not isinstance(item, dict):
+                normalized_topics.append(item)
+                continue
+            topic = dict(item)
+            slug = _normalize_topic_slug(topic.get("slug"))
+            if slug is None:
+                continue
+            topic["slug"] = slug
+            normalized_topics.append(topic)
+        normalized["topics"] = normalized_topics
+
+    evidence = normalized.get("evidence")
+    if isinstance(evidence, list):
+        normalized_evidence: list[Any] = []
+        for item in evidence:
+            if not isinstance(item, dict):
+                normalized_evidence.append(item)
+                continue
+            evidence_item = dict(item)
+            if "topic_slug" in evidence_item:
+                evidence_item["topic_slug"] = _normalize_topic_slug(evidence_item.get("topic_slug"))
+            normalized_evidence.append(evidence_item)
+        normalized["evidence"] = normalized_evidence
+
+    return normalized
+
+
 def _validate_payload(payload: dict[str, Any]) -> None:
     errors = sorted(_INSIGHT_SCHEMA_VALIDATOR.iter_errors(payload), key=lambda error: error.path)
     if errors:
@@ -278,7 +332,7 @@ def _validate_payload(payload: dict[str, Any]) -> None:
 
 def _topic_from_payload(payload: Any) -> Topic:
     data = payload if isinstance(payload, dict) else {}
-    slug = str(data.get("slug") or "").strip()
+    slug = _normalize_topic_slug(data.get("slug")) or ""
     return Topic(
         slug=slug,
         label=_TOPIC_LABELS.get(slug, slug),
@@ -288,7 +342,7 @@ def _topic_from_payload(payload: Any) -> Topic:
 
 def _evidence_from_payload(payload: Any) -> Evidence:
     data = payload if isinstance(payload, dict) else {}
-    topic_slug = _optional_string(data.get("topic_slug"))
+    topic_slug = _normalize_topic_slug(data.get("topic_slug"))
     if topic_slug not in _TOPIC_LABELS:
         topic_slug = None
     return Evidence(
@@ -308,6 +362,14 @@ def _optional_string(value: Any) -> str | None:
         return None
     text = str(value).strip()
     return text or None
+
+
+def _normalize_topic_slug(value: Any) -> str | None:
+    text = _optional_string(value)
+    if text is None:
+        return None
+    normalized = re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
+    return _TOPIC_SLUG_ALIASES.get(normalized)
 
 
 def _clamp_float(value: Any, default: float) -> float:

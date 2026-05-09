@@ -8,10 +8,10 @@ import pytest
 from llm_landscape.config import load_settings
 from llm_landscape.domain import Channel, Transcript, TranscriptSegment, Video
 from llm_landscape.llm.factory import create_provider
-from llm_landscape.llm.openai_compatible import OpenAICompatibleProvider
+from llm_landscape.llm.chat_completions import ChatCompletionsProvider
 
 
-def test_openai_compatible_provider_extracts_structured_insights(monkeypatch) -> None:
+def test_chat_completions_provider_extracts_structured_insights(monkeypatch) -> None:
     captured: dict[str, object] = {}
 
     class FakeResponse:
@@ -56,8 +56,8 @@ def test_openai_compatible_provider_extracts_structured_insights(monkeypatch) ->
         captured["timeout"] = timeout
         return FakeResponse()
 
-    monkeypatch.setattr("llm_landscape.llm.openai_compatible.requests.post", fake_post)
-    provider = OpenAICompatibleProvider(
+    monkeypatch.setattr("llm_landscape.llm.chat_completions.requests.post", fake_post)
+    provider = ChatCompletionsProvider(
         api_key="test-key",
         base_url="https://example.test/v1/",
         model="test-model",
@@ -83,19 +83,19 @@ def test_openai_compatible_provider_extracts_structured_insights(monkeypatch) ->
     assert result.confidence_score == 0.86
 
 
-def test_openai_compatible_provider_requires_api_key() -> None:
+def test_chat_completions_provider_requires_api_key() -> None:
     with pytest.raises(ValueError, match="OPENAI_API_KEY"):
-        OpenAICompatibleProvider(api_key=None, model="test-model")
+        ChatCompletionsProvider(api_key=None, model="test-model")
 
 
-def test_factory_creates_openai_compatible_provider_from_alias(monkeypatch) -> None:
+def test_factory_creates_chat_completions_provider_from_alias(monkeypatch) -> None:
     monkeypatch.setenv("WORKER_PROVIDER", " OpenAI-Compatible ")
     monkeypatch.setenv("OPENAI_API_KEY", "test-key")
     monkeypatch.setenv("OPENAI_MODEL", "test-model")
 
     provider = create_provider(load_settings())
 
-    assert isinstance(provider, OpenAICompatibleProvider)
+    assert isinstance(provider, ChatCompletionsProvider)
     assert provider.model == "test-model"
 
 
@@ -105,7 +105,7 @@ def test_factory_creates_gemini_provider_from_google_api_key(monkeypatch) -> Non
 
     provider = create_provider(load_settings())
 
-    assert isinstance(provider, OpenAICompatibleProvider)
+    assert isinstance(provider, ChatCompletionsProvider)
     assert provider.name == "gemini"
     assert provider.base_url == "https://generativelanguage.googleapis.com/v1beta/openai"
     assert provider.model == "gemini-2.5-flash"
@@ -120,7 +120,7 @@ def test_gemini_provider_prefers_gemini_key_over_openai_key(monkeypatch) -> None
 
     provider = create_provider(load_settings())
 
-    assert isinstance(provider, OpenAICompatibleProvider)
+    assert isinstance(provider, ChatCompletionsProvider)
     assert provider.name == "gemini"
     assert provider.api_key == "gemini-key"
     assert provider.base_url == "https://generativelanguage.googleapis.com/v1beta/openai"
@@ -164,8 +164,8 @@ def test_gemini_provider_keeps_json_object_response_format(monkeypatch) -> None:
                         },
                 )
 
-        monkeypatch.setattr("llm_landscape.llm.openai_compatible.requests.post", fake_post)
-        provider = OpenAICompatibleProvider(
+        monkeypatch.setattr("llm_landscape.llm.chat_completions.requests.post", fake_post)
+        provider = ChatCompletionsProvider(
                 api_key="test-key",
                 base_url="https://example.test/v1/",
                 model="gemini-test-model",
@@ -177,23 +177,23 @@ def test_gemini_provider_keeps_json_object_response_format(monkeypatch) -> None:
         assert captured["json"]["response_format"] == {"type": "json_object"}
 
 
-def test_openai_compatible_provider_rejects_invalid_json(monkeypatch) -> None:
+def test_chat_completions_provider_rejects_invalid_json(monkeypatch) -> None:
     monkeypatch.setattr(
-        "llm_landscape.llm.openai_compatible.requests.post",
+        "llm_landscape.llm.chat_completions.requests.post",
         lambda *args, **kwargs: SimpleNamespace(
             raise_for_status=lambda: None,
             json=lambda: {"choices": [{"message": {"content": "not json"}}]},
         ),
     )
-    provider = OpenAICompatibleProvider(api_key="test-key", model="test-model")
+    provider = ChatCompletionsProvider(api_key="test-key", model="test-model")
 
     with pytest.raises(ValueError, match="valid JSON"):
         provider.extract_video_insights(_video(), _transcript())
 
 
-def test_openai_compatible_provider_rejects_schema_mismatch(monkeypatch) -> None:
+def test_chat_completions_provider_rejects_schema_mismatch(monkeypatch) -> None:
     monkeypatch.setattr(
-        "llm_landscape.llm.openai_compatible.requests.post",
+        "llm_landscape.llm.chat_completions.requests.post",
         lambda *args, **kwargs: SimpleNamespace(
             raise_for_status=lambda: None,
             json=lambda: {
@@ -211,15 +211,15 @@ def test_openai_compatible_provider_rejects_schema_mismatch(monkeypatch) -> None
             },
         ),
     )
-    provider = OpenAICompatibleProvider(api_key="test-key", model="test-model")
+    provider = ChatCompletionsProvider(api_key="test-key", model="test-model")
 
     with pytest.raises(ValueError, match="insight schema"):
         provider.extract_video_insights(_video(), _transcript())
 
 
-def test_openai_compatible_provider_accepts_evidence_without_optional_fields(monkeypatch) -> None:
+def test_chat_completions_provider_accepts_evidence_without_optional_fields(monkeypatch) -> None:
     monkeypatch.setattr(
-        "llm_landscape.llm.openai_compatible.requests.post",
+        "llm_landscape.llm.chat_completions.requests.post",
         lambda *args, **kwargs: SimpleNamespace(
             raise_for_status=lambda: None,
             json=lambda: {
@@ -254,7 +254,7 @@ def test_openai_compatible_provider_accepts_evidence_without_optional_fields(mon
             },
         ),
     )
-    provider = OpenAICompatibleProvider(api_key="test-key", model="test-model", provider_name="gemini")
+    provider = ChatCompletionsProvider(api_key="test-key", model="test-model", provider_name="gemini")
 
     result = provider.extract_video_insights(_video(), _transcript())
 
@@ -263,9 +263,9 @@ def test_openai_compatible_provider_accepts_evidence_without_optional_fields(mon
     assert result.evidence[0].confidence_score == 0.5
 
 
-def test_openai_compatible_provider_trims_arrays_before_schema_validation(monkeypatch) -> None:
+def test_chat_completions_provider_trims_arrays_before_schema_validation(monkeypatch) -> None:
     monkeypatch.setattr(
-        "llm_landscape.llm.openai_compatible.requests.post",
+        "llm_landscape.llm.chat_completions.requests.post",
         lambda *args, **kwargs: SimpleNamespace(
             raise_for_status=lambda: None,
             json=lambda: {
@@ -301,7 +301,7 @@ def test_openai_compatible_provider_trims_arrays_before_schema_validation(monkey
             },
         ),
     )
-    provider = OpenAICompatibleProvider(api_key="test-key", model="test-model", provider_name="gemini")
+    provider = ChatCompletionsProvider(api_key="test-key", model="test-model", provider_name="gemini")
 
     result = provider.extract_video_insights(_video(), _transcript())
 
@@ -317,6 +317,47 @@ def test_openai_compatible_provider_trims_arrays_before_schema_validation(monkey
         "quote three",
         "quote four",
     ]
+
+
+def test_chat_completions_provider_normalizes_topic_aliases_and_drops_unknown_topics(monkeypatch) -> None:
+    monkeypatch.setattr(
+        "llm_landscape.llm.chat_completions.requests.post",
+        lambda *args, **kwargs: SimpleNamespace(
+            raise_for_status=lambda: None,
+            json=lambda: {
+                "choices": [
+                    {
+                        "message": {
+                            "content": """
+                            {
+                              "primary_speaker": "host",
+                              "summary": "The video covers agent systems and model evaluation.",
+                              "content_type": "analysis",
+                              "stance": "mixed",
+                              "topics": [
+                                {"slug": "AI Agents", "relevance_score": 0.91},
+                                {"slug": "research", "relevance_score": 0.77},
+                                {"slug": "evaluation", "relevance_score": 0.74}
+                              ],
+                              "evidence": [
+                                {"field_name": "topic", "quote": "the agent can plan", "topic_slug": "AI Agents", "confidence_score": 0.84},
+                                {"field_name": "topic", "quote": "the paper benchmarks the system", "topic_slug": "research", "confidence_score": 0.72}
+                              ],
+                              "confidence_score": 0.81
+                            }
+                            """
+                        }
+                    }
+                ]
+            },
+        ),
+    )
+    provider = ChatCompletionsProvider(api_key="test-key", model="test-model", provider_name="gemini")
+
+    result = provider.extract_video_insights(_video(), _transcript())
+
+    assert [topic.slug for topic in result.topics] == ["agents", "evals"]
+    assert [item.topic_slug for item in result.evidence] == ["agents", None]
 
 
 def _video() -> Video:
