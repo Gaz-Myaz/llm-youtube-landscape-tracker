@@ -367,9 +367,17 @@ def test_caption_fetch_respects_provider_order(monkeypatch) -> None:
 def test_load_settings_reads_optional_ytdlp_cookie_config(monkeypatch) -> None:
     monkeypatch.setenv("YT_DLP_COOKIES_PATH", ".github/yt-dlp-cookies.txt")
     monkeypatch.setenv("YT_DLP_COOKIES_FROM_BROWSER", "chrome:Default")
+    monkeypatch.setenv("WORKER_PROVIDER", "gemini")
+    monkeypatch.setenv("GEMINI_API_KEY", "test-key")
+    monkeypatch.setenv("GEMINI_BASE_URL", "https://example.test/v1beta/openai")
+    monkeypatch.setenv("GEMINI_MODEL", "gemini-test-model")
 
     settings = load_settings()
 
+    assert settings.provider == "gemini"
+    assert settings.openai_api_key == "test-key"
+    assert settings.openai_base_url == "https://example.test/v1beta/openai"
+    assert settings.openai_model == "gemini-test-model"
     assert settings.yt_dlp_cookies_path is not None
     assert settings.yt_dlp_cookies_path.as_posix().endswith(".github/yt-dlp-cookies.txt")
     assert settings.yt_dlp_cookies_from_browser == "chrome:Default"

@@ -20,6 +20,12 @@ class Settings:
     vertex_project_id: str | None
     vertex_location: str
     vertex_model: str
+    openai_api_key: str | None
+    openai_base_url: str
+    openai_model: str
+    anthropic_api_key: str | None
+    anthropic_base_url: str
+    anthropic_model: str
     max_videos_per_run: int
     max_provider_calls_per_run: int
     videos_per_channel: int
@@ -43,14 +49,31 @@ def load_settings() -> Settings:
     transcript_providers = os.getenv("TRANSCRIPT_PROVIDERS", "youtube_transcript_api,yt_dlp")
     yt_dlp_cookies_path = os.getenv("YT_DLP_COOKIES_PATH") or None
     yt_dlp_cookies_from_browser = os.getenv("YT_DLP_COOKIES_FROM_BROWSER") or None
+    provider = os.getenv("WORKER_PROVIDER", "mock").strip().lower()
+    if provider in {"gemini", "google", "google-gemini"}:
+        compatible_api_key = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY") or None
+        compatible_base_url = os.getenv(
+            "GEMINI_BASE_URL", "https://generativelanguage.googleapis.com/v1beta/openai"
+        )
+        compatible_model = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+    else:
+        compatible_api_key = os.getenv("OPENAI_API_KEY") or None
+        compatible_base_url = os.getenv("OPENAI_BASE_URL", "https://api.openai.com/v1")
+        compatible_model = os.getenv("OPENAI_MODEL", "gpt-4.1-mini")
     return Settings(
         database_url=os.getenv(
             "DATABASE_URL", "postgresql://llm_tracker:llm_tracker@localhost:5432/llm_tracker"
         ),
-        provider=os.getenv("WORKER_PROVIDER", "mock"),
+        provider=provider,
         vertex_project_id=os.getenv("VERTEX_PROJECT_ID") or None,
         vertex_location=os.getenv("VERTEX_LOCATION", "us-central1"),
         vertex_model=os.getenv("VERTEX_MODEL", "gemini-1.5-flash"),
+        openai_api_key=compatible_api_key,
+        openai_base_url=compatible_base_url,
+        openai_model=compatible_model,
+        anthropic_api_key=os.getenv("ANTHROPIC_API_KEY") or None,
+        anthropic_base_url=os.getenv("ANTHROPIC_BASE_URL", "https://api.anthropic.com/v1"),
+        anthropic_model=os.getenv("ANTHROPIC_MODEL", "claude-3-5-haiku-latest"),
         max_videos_per_run=int(os.getenv("MAX_VIDEOS_PER_RUN", "25")),
         max_provider_calls_per_run=int(os.getenv("MAX_PROVIDER_CALLS_PER_RUN", "50")),
         videos_per_channel=int(os.getenv("VIDEOS_PER_CHANNEL", "5")),

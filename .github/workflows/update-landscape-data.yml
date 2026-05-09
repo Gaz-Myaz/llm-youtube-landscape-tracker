@@ -2,6 +2,22 @@ name: Update landscape data
 
 on:
   workflow_dispatch:
+    inputs:
+      worker_provider:
+        description: LLM provider for manual runs. Scheduled runs use Gemini.
+        required: true
+        default: mock
+        type: choice
+        options:
+          - mock
+          - gemini
+          - openai
+          - anthropic
+      max_provider_calls_per_run:
+        description: Maximum paid provider calls for this manual run.
+        required: true
+        default: "5"
+        type: string
   schedule:
     - cron: "17 */12 * * *"
 
@@ -102,10 +118,49 @@ jobs:
               await github.rest.issues.create({ owner, repo, title, body });
             }
 
+      - name: Validate LLM provider secret
+        env:
+          WORKER_PROVIDER: ${{ github.event_name == 'workflow_dispatch' && inputs.worker_provider || 'gemini' }}
+          GEMINI_API_KEY: ${{ secrets[format('{0}', 'GEMINI_API_KEY')] }}
+          OPENAI_API_KEY: ${{ secrets[format('{0}', 'OPENAI_API_KEY')] }}
+          ANTHROPIC_API_KEY: ${{ secrets[format('{0}', 'ANTHROPIC_API_KEY')] }}
+        run: |
+          case "$WORKER_PROVIDER" in
+            mock)
+              ;;
+            gemini|google|google-gemini)
+              if [ -z "$GEMINI_API_KEY" ]; then
+                echo "GEMINI_API_KEY secret is required when WORKER_PROVIDER=$WORKER_PROVIDER." >&2
+                exit 1
+              fi
+              ;;
+            openai|openai-compatible|openai_compatible)
+              if [ -z "$OPENAI_API_KEY" ]; then
+                echo "OPENAI_API_KEY secret is required when WORKER_PROVIDER=$WORKER_PROVIDER." >&2
+                exit 1
+              fi
+              ;;
+            anthropic|claude)
+              if [ -z "$ANTHROPIC_API_KEY" ]; then
+                echo "ANTHROPIC_API_KEY secret is required when WORKER_PROVIDER=$WORKER_PROVIDER." >&2
+                exit 1
+              fi
+              ;;
+            *)
+              echo "Unsupported WORKER_PROVIDER=$WORKER_PROVIDER." >&2
+              exit 1
+              ;;
+          esac
+
       - name: Export snapshots
         env:
           VIDEOS_PER_CHANNEL: 2
           MAX_VIDEOS_PER_RUN: 30
+          MAX_PROVIDER_CALLS_PER_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.max_provider_calls_per_run || '30' }}
+          WORKER_PROVIDER: ${{ github.event_name == 'workflow_dispatch' && inputs.worker_provider || 'gemini' }}
+          GEMINI_API_KEY: ${{ secrets[format('{0}', 'GEMINI_API_KEY')] }}
+          OPENAI_API_KEY: ${{ secrets[format('{0}', 'OPENAI_API_KEY')] }}
+          ANTHROPIC_API_KEY: ${{ secrets[format('{0}', 'ANTHROPIC_API_KEY')] }}
           TRANSCRIPT_REQUEST_DELAY_SECONDS: 5.0
           TRANSCRIPT_PROVIDERS: yt_dlp,youtube_transcript_api
           TRANSCRIPT_CACHE_DIR: data/transcripts

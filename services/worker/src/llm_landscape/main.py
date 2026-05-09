@@ -92,26 +92,39 @@ def main() -> None:
                 f"--language, or verify captions are available. {details}"
             )
         fetch_skipped = list(skipped)
-        provider = DeterministicAnalyzer()
-        candidate_enrichments = {
-            bundle.video.youtube_video_id: provider.extract_video_insights(bundle.video, bundle.transcript)
-            for bundle in bundles
-        }
+        provider = (
+            create_provider(settings)
+            if settings.provider != "mock"
+            else DeterministicAnalyzer()
+        )
+        candidate_enrichments = {}
+        provider_call_limit = min(len(bundles), settings.max_provider_calls_per_run)
+        for bundle in bundles[:provider_call_limit]:
+            candidate_enrichments[bundle.video.youtube_video_id] = provider.extract_video_insights(
+                bundle.video, bundle.transcript
+            )
+        if len(bundles) > provider_call_limit:
+            fetch_skipped.extend(
+                f"{bundle.video.youtube_video_id}: skipped by MAX_PROVIDER_CALLS_PER_RUN"
+                for bundle in bundles[provider_call_limit:]
+            )
         filtered_bundles = []
         enrichments = {}
         filtered_out = []
         for bundle in bundles:
-            enrichment = candidate_enrichments[bundle.video.youtube_video_id]
+            enrichment = candidate_enrichments.get(bundle.video.youtube_video_id)
+            if enrichment is None:
+                continue
             if is_landscape_relevant(bundle.video, enrichment):
                 filtered_bundles.append(bundle)
                 enrichments[bundle.video.youtube_video_id] = enrichment
             else:
                 filtered_out.append(
-                    f"{bundle.video.youtube_video_id}: no deterministic LLM landscape signal"
+                    f"{bundle.video.youtube_video_id}: no {provider.name} LLM landscape signal"
                 )
         if not filtered_bundles:
             raise RuntimeError(
-                "Caption-backed videos were collected, but none matched deterministic LLM landscape rules. "
+                f"Caption-backed videos were collected, but none matched {provider.name} LLM landscape rules. "
                 "Try a broader channel set or increase --videos-per-channel."
             )
         snapshots = build_public_snapshots(filtered_bundles, enrichments, provider)
@@ -229,7 +242,7 @@ def _run_summary(fetch_skipped: list[str], filtered_out: list[str]) -> str | Non
         examples = "; ".join(filtered_out[:3])
         suffix = f"; {len(filtered_out) - 3} more" if len(filtered_out) > 3 else ""
         summaries.append(
-            f"Filtered {len(filtered_out)} caption-backed videos outside deterministic LLM landscape rules: {examples}{suffix}"
+            f"Filtered {len(filtered_out)} caption-backed videos outside configured LLM landscape rules: {examples}{suffix}"
         )
     if not summaries:
         return None
