@@ -16,11 +16,15 @@ on conflict (slug) do update set
   description = excluded.description;
 
 insert into channels (youtube_channel_id, title, handle, description, url, rss_url, language) values
-  ('UC2D2CMWXMOVWx7giW1n3LIg', 'Two Minute Papers', '@TwoMinutePapers', 'Research-focused AI and machine learning explainers.', 'https://www.youtube.com/@TwoMinutePapers', 'https://www.youtube.com/feeds/videos.xml?channel_id=UC2D2CMWXMOVWx7giW1n3LIg', 'en'),
+  ('UCbfYPyITQ-7l4upoX8nvctg', 'Two Minute Papers', '@TwoMinutePapers', 'Research-focused AI and machine learning explainers.', 'https://www.youtube.com/@TwoMinutePapers', 'https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg', 'en'),
   ('UCSHZKyawb77ixDdsGog4iWA', 'Lex Fridman', '@lexfridman', 'Long-form technical interviews with AI researchers and builders.', 'https://www.youtube.com/@lexfridman', 'https://www.youtube.com/feeds/videos.xml?channel_id=UCSHZKyawb77ixDdsGog4iWA', 'en'),
-  ('UCbfYPyITQ-7l4upoX8nvctg', 'Fireship', '@Fireship', 'Fast software engineering and AI tooling explainers.', 'https://www.youtube.com/@Fireship', 'https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg', 'en'),
-  ('UCUyeluBRhGPCW4rPe_UvBZQ', 'ThePrimeTime', '@ThePrimeTimeagen', 'Developer commentary, tools, and AI coding workflow coverage.', 'https://www.youtube.com/@ThePrimeTimeagen', 'https://www.youtube.com/feeds/videos.xml?channel_id=UCUyeluBRhGPCW4rPe_UvBZQ', 'en'),
-  ('UC8butISFwT-Wl7EV0hUK0BQ', 'freeCodeCamp.org', '@freecodecamp', 'Technical courses and tutorials, including practical AI application development.', 'https://www.youtube.com/@freecodecamp', 'https://www.youtube.com/feeds/videos.xml?channel_id=UC8butISFwT-Wl7EV0hUK0BQ', 'en')
+  ('UCsBjURrPoezykLs9EqgamOA', 'Fireship', '@Fireship', 'Fast software engineering and AI tooling explainers.', 'https://www.youtube.com/@Fireship', 'https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA', 'en'),
+  ('UCUyeluBRhGPCW4rPe_UvBZQ', 'ThePrimeTime', '@ThePrimeagen', 'Developer commentary, tools, and AI coding workflow coverage.', 'https://www.youtube.com/@ThePrimeagen', 'https://www.youtube.com/feeds/videos.xml?channel_id=UCUyeluBRhGPCW4rPe_UvBZQ', 'en'),
+  ('UC8butISFwT-Wl7EV0hUK0BQ', 'freeCodeCamp.org', '@freecodecamp', 'Technical courses and tutorials, including practical AI application development.', 'https://www.youtube.com/@freecodecamp', 'https://www.youtube.com/feeds/videos.xml?channel_id=UC8butISFwT-Wl7EV0hUK0BQ', 'en'),
+  ('UCawZsQWqfGSbCI5yjkdVkTA', 'Matthew Berman', '@matthew_berman', 'Frequent AI model, tooling, and local LLM coverage with practical demos.', 'https://www.youtube.com/@matthew_berman', 'https://www.youtube.com/feeds/videos.xml?channel_id=UCawZsQWqfGSbCI5yjkdVkTA', 'en'),
+  ('UCZHmQk67mSJgfCCTn7xBfew', 'Yannic Kilcher', '@YannicKilcher', 'Research-heavy coverage of machine learning papers, model releases, and AI systems.', 'https://www.youtube.com/@YannicKilcher', 'https://www.youtube.com/feeds/videos.xml?channel_id=UCZHmQk67mSJgfCCTn7xBfew', 'en'),
+  ('UCNJ1Ymd5yFuUPtn21xtRbbw', 'AI Explained', '@AIExplained-official', 'Accessible analysis of frontier models, agents, local inference, and open-weight AI.', 'https://www.youtube.com/@AIExplained-official', 'https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw', 'en'),
+  ('UCqcbQf6yw5KzRoDDcZ_wBSw', 'Wes Roth', '@WesRoth', 'AI product, model release, and ecosystem commentary focused on real-world impact.', 'https://www.youtube.com/@WesRoth', 'https://www.youtube.com/feeds/videos.xml?channel_id=UCqcbQf6yw5KzRoDDcZ_wBSw', 'en')
 on conflict (youtube_channel_id) do update set
   title = excluded.title,
   handle = excluded.handle,

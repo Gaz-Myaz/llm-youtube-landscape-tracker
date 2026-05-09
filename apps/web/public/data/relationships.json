@@ -1,447 +1,158 @@
 {
   "edges": [
     {
-      "explanation": "Two Minute Papers and Research Radar are related through shared coverage of Benchmarks, Model Releases, Multimodal. The current topic-overlap score is 0.80.",
+      "explanation": "Two Minute Papers and Fireship overlap in subtitle-derived coverage of AI Agents, Benchmarks, Fine Tuning. Topic-overlap score: 0.62.",
       "method": "topic_overlap",
       "shared_topics": [
         {
+          "label": "AI Agents",
+          "score": 0.773,
+          "slug": "agents"
+        },
+        {
           "label": "Benchmarks",
-          "score": 0.77,
+          "score": 0.637,
           "slug": "benchmarks"
         },
         {
+          "label": "Fine Tuning",
+          "score": 0.717,
+          "slug": "fine-tuning"
+        },
+        {
           "label": "Model Releases",
-          "score": 0.74,
+          "score": 0.776,
           "slug": "model-releases"
         },
         {
+          "label": "Open Source Models",
+          "score": 0.895,
+          "slug": "open-source-models"
+        }
+      ],
+      "similarity_score": 0.625,
+      "source": "UCbfYPyITQ-7l4upoX8nvctg",
+      "target": "UCsBjURrPoezykLs9EqgamOA"
+    },
+    {
+      "explanation": "Lex Fridman and Fireship overlap in subtitle-derived coverage of AI Agents, Coding Assistants, Open Source Models. Topic-overlap score: 0.33.",
+      "method": "topic_overlap",
+      "shared_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.817,
+          "slug": "agents"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.853,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Open Source Models",
+          "score": 0.898,
+          "slug": "open-source-models"
+        }
+      ],
+      "similarity_score": 0.333,
+      "source": "UCSHZKyawb77ixDdsGog4iWA",
+      "target": "UCsBjURrPoezykLs9EqgamOA"
+    },
+    {
+      "explanation": "Lex Fridman and Two Minute Papers overlap in subtitle-derived coverage of AI Agents, Multimodal, Open Source Models. Topic-overlap score: 0.30.",
+      "method": "topic_overlap",
+      "shared_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.816,
+          "slug": "agents"
+        },
+        {
           "label": "Multimodal",
-          "score": 0.87,
+          "score": 0.729,
           "slug": "multimodal"
         },
         {
           "label": "Open Source Models",
-          "score": 0.91,
+          "score": 0.831,
           "slug": "open-source-models"
         }
       ],
-      "similarity_score": 0.8,
-      "source": "UC2D2CMWXMOVWx7giW1n3LIg",
-      "target": "mock-channel-research"
-    },
-    {
-      "explanation": "Fireship and Code Companion Lab are related through shared coverage of AI Agents, Coding Assistants, Local Inference. The current topic-overlap score is 0.80.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.95,
-          "slug": "agents"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.92,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Local Inference",
-          "score": 0.89,
-          "slug": "local-inference"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.91,
-          "slug": "open-source-models"
-        }
-      ],
-      "similarity_score": 0.8,
-      "source": "UCbfYPyITQ-7l4upoX8nvctg",
-      "target": "mock-channel-code"
-    },
-    {
-      "explanation": "Lex Fridman and Builder Signals are related through shared coverage of AI Agents, Enterprise Adoption. The current topic-overlap score is 0.50.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.95,
-          "slug": "agents"
-        },
-        {
-          "label": "Enterprise Adoption",
-          "score": 0.82,
-          "slug": "enterprise-adoption"
-        }
-      ],
-      "similarity_score": 0.5,
+      "similarity_score": 0.3,
       "source": "UCSHZKyawb77ixDdsGog4iWA",
-      "target": "mock-channel-build"
-    },
-    {
-      "explanation": "Fireship and Research Radar are related through shared coverage of Local Inference, Model Releases, Open Source Models. The current topic-overlap score is 0.43.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "Local Inference",
-          "score": 0.89,
-          "slug": "local-inference"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.74,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.91,
-          "slug": "open-source-models"
-        }
-      ],
-      "similarity_score": 0.429,
-      "source": "UCbfYPyITQ-7l4upoX8nvctg",
-      "target": "mock-channel-research"
-    },
-    {
-      "explanation": "ThePrimeTime and Code Companion Lab are related through shared coverage of Coding Assistants, Local Inference. The current topic-overlap score is 0.40.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "Coding Assistants",
-          "score": 0.92,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Local Inference",
-          "score": 0.89,
-          "slug": "local-inference"
-        }
-      ],
-      "similarity_score": 0.4,
-      "source": "UCUyeluBRhGPCW4rPe_UvBZQ",
-      "target": "mock-channel-code"
-    },
-    {
-      "explanation": "freeCodeCamp.org and ThePrimeTime are related through shared coverage of Coding Assistants, Evaluation. The current topic-overlap score is 0.33.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "Coding Assistants",
-          "score": 0.92,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Evaluation",
-          "score": 0.78,
-          "slug": "evals"
-        }
-      ],
-      "similarity_score": 0.333,
-      "source": "UC8butISFwT-Wl7EV0hUK0BQ",
-      "target": "UCUyeluBRhGPCW4rPe_UvBZQ"
-    },
-    {
-      "explanation": "freeCodeCamp.org and Builder Signals are related through shared coverage of Enterprise Adoption, Evaluation. The current topic-overlap score is 0.33.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "Enterprise Adoption",
-          "score": 0.82,
-          "slug": "enterprise-adoption"
-        },
-        {
-          "label": "Evaluation",
-          "score": 0.78,
-          "slug": "evals"
-        }
-      ],
-      "similarity_score": 0.333,
-      "source": "UC8butISFwT-Wl7EV0hUK0BQ",
-      "target": "mock-channel-build"
-    },
-    {
-      "explanation": "ThePrimeTime and Fireship are related through shared coverage of Coding Assistants, Local Inference. The current topic-overlap score is 0.33.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "Coding Assistants",
-          "score": 0.92,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Local Inference",
-          "score": 0.89,
-          "slug": "local-inference"
-        }
-      ],
-      "similarity_score": 0.333,
-      "source": "UCUyeluBRhGPCW4rPe_UvBZQ",
       "target": "UCbfYPyITQ-7l4upoX8nvctg"
     },
     {
-      "explanation": "Two Minute Papers and Fireship are related through shared coverage of Model Releases, Open Source Models. The current topic-overlap score is 0.29.",
+      "explanation": "ThePrimeTime and Fireship overlap in subtitle-derived coverage of Model Releases. Topic-overlap score: 0.17.",
       "method": "topic_overlap",
       "shared_topics": [
         {
           "label": "Model Releases",
           "score": 0.74,
           "slug": "model-releases"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.91,
-          "slug": "open-source-models"
         }
       ],
-      "similarity_score": 0.286,
-      "source": "UC2D2CMWXMOVWx7giW1n3LIg",
-      "target": "UCbfYPyITQ-7l4upoX8nvctg"
-    },
-    {
-      "explanation": "Code Companion Lab and Research Radar are related through shared coverage of Local Inference, Open Source Models. The current topic-overlap score is 0.29.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "Local Inference",
-          "score": 0.89,
-          "slug": "local-inference"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.91,
-          "slug": "open-source-models"
-        }
-      ],
-      "similarity_score": 0.286,
-      "source": "mock-channel-code",
-      "target": "mock-channel-research"
-    },
-    {
-      "explanation": "ThePrimeTime and Builder Signals are related through shared coverage of Evaluation. The current topic-overlap score is 0.20.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "Evaluation",
-          "score": 0.78,
-          "slug": "evals"
-        }
-      ],
-      "similarity_score": 0.2,
+      "similarity_score": 0.167,
       "source": "UCUyeluBRhGPCW4rPe_UvBZQ",
-      "target": "mock-channel-build"
+      "target": "UCsBjURrPoezykLs9EqgamOA"
     },
     {
-      "explanation": "Lex Fridman and Code Companion Lab are related through shared coverage of AI Agents. The current topic-overlap score is 0.17.",
+      "explanation": "ThePrimeTime and Two Minute Papers overlap in subtitle-derived coverage of Model Releases. Topic-overlap score: 0.14.",
       "method": "topic_overlap",
       "shared_topics": [
         {
-          "label": "AI Agents",
-          "score": 0.95,
-          "slug": "agents"
-        }
-      ],
-      "similarity_score": 0.167,
-      "source": "UCSHZKyawb77ixDdsGog4iWA",
-      "target": "mock-channel-code"
-    },
-    {
-      "explanation": "Builder Signals and Code Companion Lab are related through shared coverage of AI Agents. The current topic-overlap score is 0.17.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.95,
-          "slug": "agents"
-        }
-      ],
-      "similarity_score": 0.167,
-      "source": "mock-channel-build",
-      "target": "mock-channel-code"
-    },
-    {
-      "explanation": "Two Minute Papers and Code Companion Lab are related through shared coverage of Open Source Models. The current topic-overlap score is 0.14.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "Open Source Models",
-          "score": 0.91,
-          "slug": "open-source-models"
-        }
-      ],
-      "similarity_score": 0.143,
-      "source": "UC2D2CMWXMOVWx7giW1n3LIg",
-      "target": "mock-channel-code"
-    },
-    {
-      "explanation": "freeCodeCamp.org and Lex Fridman are related through shared coverage of Enterprise Adoption. The current topic-overlap score is 0.14.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "Enterprise Adoption",
-          "score": 0.82,
-          "slug": "enterprise-adoption"
-        }
-      ],
-      "similarity_score": 0.143,
-      "source": "UC8butISFwT-Wl7EV0hUK0BQ",
-      "target": "UCSHZKyawb77ixDdsGog4iWA"
-    },
-    {
-      "explanation": "Lex Fridman and Fireship are related through shared coverage of AI Agents. The current topic-overlap score is 0.14.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.95,
-          "slug": "agents"
-        }
-      ],
-      "similarity_score": 0.143,
-      "source": "UCSHZKyawb77ixDdsGog4iWA",
-      "target": "UCbfYPyITQ-7l4upoX8nvctg"
-    },
-    {
-      "explanation": "ThePrimeTime and Research Radar are related through shared coverage of Local Inference. The current topic-overlap score is 0.14.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "Local Inference",
-          "score": 0.89,
-          "slug": "local-inference"
+          "label": "Model Releases",
+          "score": 0.696,
+          "slug": "model-releases"
         }
       ],
       "similarity_score": 0.143,
       "source": "UCUyeluBRhGPCW4rPe_UvBZQ",
-      "target": "mock-channel-research"
-    },
-    {
-      "explanation": "Fireship and Builder Signals are related through shared coverage of AI Agents. The current topic-overlap score is 0.14.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.95,
-          "slug": "agents"
-        }
-      ],
-      "similarity_score": 0.143,
-      "source": "UCbfYPyITQ-7l4upoX8nvctg",
-      "target": "mock-channel-build"
-    },
-    {
-      "explanation": "freeCodeCamp.org and Code Companion Lab are related through shared coverage of Coding Assistants. The current topic-overlap score is 0.12.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "Coding Assistants",
-          "score": 0.92,
-          "slug": "coding-assistants"
-        }
-      ],
-      "similarity_score": 0.125,
-      "source": "UC8butISFwT-Wl7EV0hUK0BQ",
-      "target": "mock-channel-code"
-    },
-    {
-      "explanation": "freeCodeCamp.org and Fireship are related through shared coverage of Coding Assistants. The current topic-overlap score is 0.11.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "Coding Assistants",
-          "score": 0.92,
-          "slug": "coding-assistants"
-        }
-      ],
-      "similarity_score": 0.111,
-      "source": "UC8butISFwT-Wl7EV0hUK0BQ",
       "target": "UCbfYPyITQ-7l4upoX8nvctg"
     }
   ],
-  "generated_at": "2026-05-07T13:57:31Z",
+  "generated_at": "2026-05-08T20:01:49Z",
   "nodes": [
     {
-      "id": "mock-channel-build",
-      "label": "Builder Signals",
-      "top_topics": [
-        "AI Agents",
-        "Enterprise Adoption",
-        "Evaluation"
-      ],
-      "video_count": 2
-    },
-    {
-      "id": "mock-channel-research",
-      "label": "Research Radar",
-      "top_topics": [
-        "Open Source Models",
-        "Local Inference",
-        "Multimodal",
-        "Benchmarks"
-      ],
-      "video_count": 2
-    },
-    {
-      "id": "mock-channel-code",
-      "label": "Code Companion Lab",
-      "top_topics": [
-        "AI Agents",
-        "Coding Assistants",
-        "Open Source Models",
-        "Local Inference"
-      ],
-      "video_count": 2
-    },
-    {
-      "id": "UC2D2CMWXMOVWx7giW1n3LIg",
+      "id": "UCbfYPyITQ-7l4upoX8nvctg",
       "label": "Two Minute Papers",
       "top_topics": [
         "Open Source Models",
-        "Multimodal",
-        "Benchmarks",
-        "Model Releases"
+        "AI Agents",
+        "Model Releases",
+        "Fine Tuning"
       ],
-      "video_count": 1
+      "video_count": 12
+    },
+    {
+      "id": "UCsBjURrPoezykLs9EqgamOA",
+      "label": "Fireship",
+      "top_topics": [
+        "Open Source Models",
+        "Coding Assistants",
+        "Model Releases",
+        "AI Agents"
+      ],
+      "video_count": 5
     },
     {
       "id": "UCSHZKyawb77ixDdsGog4iWA",
       "label": "Lex Fridman",
       "top_topics": [
         "AI Agents",
-        "Safety and Alignment",
-        "Enterprise Adoption"
-      ],
-      "video_count": 1
-    },
-    {
-      "id": "UCbfYPyITQ-7l4upoX8nvctg",
-      "label": "Fireship",
-      "top_topics": [
-        "AI Agents",
-        "Coding Assistants",
         "Open Source Models",
-        "Local Inference"
+        "Coding Assistants",
+        "Multimodal"
       ],
-      "video_count": 2
+      "video_count": 3
     },
     {
       "id": "UCUyeluBRhGPCW4rPe_UvBZQ",
       "label": "ThePrimeTime",
       "top_topics": [
-        "Coding Assistants",
-        "Local Inference",
-        "Evaluation"
+        "Model Releases"
       ],
-      "video_count": 2
-    },
-    {
-      "id": "UC8butISFwT-Wl7EV0hUK0BQ",
-      "label": "freeCodeCamp.org",
-      "top_topics": [
-        "Coding Assistants",
-        "RAG",
-        "Fine Tuning",
-        "Enterprise Adoption"
-      ],
-      "video_count": 2
+      "video_count": 1
     }
   ],
   "schema_version": "1.0"

@@ -1,4 +1,4 @@
-import { ExternalLink, Quote, X } from "lucide-react";
+import { ExternalLink, FileText, Quote, X } from "lucide-react";
 import { useEffect } from "react";
 import type { PublicVideo } from "@/lib/schemas";
 
@@ -68,6 +68,16 @@ export function EvidenceDrawer({ video, onClose }: { video: PublicVideo | null; 
               {!video.evidence.length ? <li className="empty-snippet">No evidence snippets recorded.</li> : null}
             </ul>
           </section>
+          <section>
+            <div className="transcript-header">
+              <p className="drawer-eyebrow">Full Subtitles</p>
+              <span>
+                <FileText size={11} />
+                {wordCount(video.transcript_text)} words
+              </span>
+            </div>
+            <pre className="transcript-text">{video.transcript_text}</pre>
+          </section>
         </div>
       </aside>
     </div>
@@ -83,4 +93,8 @@ function formatTimestamp(value: number | null | undefined) {
     .toString()
     .padStart(2, "0");
   return `${minutes}:${seconds}`;
+}
+
+function wordCount(value: string) {
+  return value.trim() ? value.trim().split(/\s+/).length : 0;
 }

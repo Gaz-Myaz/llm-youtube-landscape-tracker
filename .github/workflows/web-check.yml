@@ -16,10 +16,16 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22"
+          cache: npm
+          cache-dependency-path: apps/web/package-lock.json
 
       - name: Install dependencies
         working-directory: apps/web
-        run: npm install
+        run: npm ci
+
+      - name: Type-check web app
+        working-directory: apps/web
+        run: npx tsc --noEmit
 
       - name: Build web app
         working-directory: apps/web

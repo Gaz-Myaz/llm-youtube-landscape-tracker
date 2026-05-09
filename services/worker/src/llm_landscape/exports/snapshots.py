@@ -11,6 +11,7 @@ from jsonschema import Draft202012Validator
 
 from llm_landscape.domain import VideoBundle
 from llm_landscape.llm.base import EnrichmentResult
+from llm_landscape.ranking import sort_video_bundles
 from llm_landscape.relationships.scoring import build_relationships
 
 
@@ -85,7 +86,7 @@ def _build_videos_snapshot(
     bundles: list[VideoBundle], enrichments: dict[str, EnrichmentResult], generated_at: str
 ) -> dict:
     rows = []
-    for bundle in sorted(bundles, key=lambda item: item.video.published_at, reverse=True):
+    for bundle in sort_video_bundles(bundles, enrichments):
         video = bundle.video
         enrichment = enrichments[video.youtube_video_id]
         rows.append(
@@ -105,6 +106,7 @@ def _build_videos_snapshot(
                 "content_type": enrichment.content_type,
                 "topics": [topic.__dict__ for topic in enrichment.topics],
                 "evidence": [_evidence_to_dict(video.url, evidence) for evidence in enrichment.evidence],
+                "transcript_text": bundle.transcript.text,
                 "transcript_status": "ready",
                 "enrichment_status": "ready",
             }
@@ -151,12 +153,20 @@ def _build_channels_snapshot(
             entry.pop("topic_scores").values(), key=lambda item: item["score"], reverse=True
         )
         channels.append({**entry, "top_topics": topic_scores[:5]})
+    channels = sorted(
+        channels,
+        key=lambda channel: (
+            -channel["video_count"],
+            -_timestamp(channel["latest_video_at"]),
+            channel["title"].lower(),
+        ),
+    )
     return {"schema_version": "1.0", "generated_at": generated_at, "channels": channels}
 
 
 def _evidence_to_dict(video_url: str, evidence: Any) -> dict:
     timestamp_url = None
-    if evidence.start_seconds is not None:
+    if evidence.start_seconds is not None and "youtube.com/watch?v=" in video_url:
         timestamp_url = f"{video_url}&t={int(evidence.start_seconds)}s"
     return {
         "field_name": evidence.field_name,
@@ -166,3 +176,12 @@ def _evidence_to_dict(video_url: str, evidence: Any) -> dict:
         "end_seconds": evidence.end_seconds,
         "timestamp_url": timestamp_url,
     }
+
+
+def _timestamp(value: str | None) -> float:
+    if not value:
+        return 0.0
+    try:
+        return datetime.fromisoformat(value.replace("Z", "+00:00")).timestamp()
+    except ValueError:
+        return 0.0

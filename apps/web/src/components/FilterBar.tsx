@@ -55,9 +55,9 @@ export function FilterBar({
           value={state.sort}
           onChange={(value) => set("sort", value as SortKey)}
           options={[
+            { value: "relevance", label: "Relevance" },
             { value: "date", label: "Newest" },
-            { value: "channel", label: "Channel" },
-            { value: "relevance", label: "Relevance" }
+            { value: "channel", label: "Channel" }
           ]}
           allowEmpty={false}
         />

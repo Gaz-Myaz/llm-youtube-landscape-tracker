@@ -24,18 +24,26 @@ services:
       SNAPSHOT_OUTPUT_DIR: /workspace/apps/web/public/data
       CONTRACTS_DIR: /workspace/contracts
       DATABASE_URL: postgresql://llm_tracker:llm_tracker@db:5432/llm_tracker
+      MAX_VIDEOS_PER_RUN: 15
+      VIDEOS_PER_CHANNEL: 3
+      TRANSCRIPT_REQUEST_DELAY_SECONDS: 0.75
+      TRANSCRIPT_PROVIDERS: youtube_transcript_api,yt_dlp
+      TRANSCRIPT_CACHE_DIR: /workspace/data/transcripts
+      SEED_CHANNELS_PATH: /workspace/infra/db/seed_channels.sql
     volumes:
       - .:/workspace
     depends_on:
       db:
         condition: service_healthy
-    command: ["python", "-m", "llm_landscape.main", "mock-export", "--output-dir", "/workspace/apps/web/public/data"]
+    command: ["python", "-m", "llm_landscape.main", "real-export", "--output-dir", "/workspace/apps/web/public/data"]
 
   web:
     build:
       context: ./apps/web
     ports:
       - "3000:3000"
+    volumes:
+      - ./apps/web/public/data:/app/public/data:ro
     depends_on:
       - worker
 

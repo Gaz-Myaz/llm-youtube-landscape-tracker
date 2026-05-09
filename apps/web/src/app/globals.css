@@ -224,6 +224,33 @@ code {
   font-size: 12px;
 }
 
+.status-warning-copy {
+  display: grid;
+  gap: 6px;
+  min-width: 0;
+}
+
+.status-warning-copy p {
+  line-height: 1.5;
+}
+
+.status-warning-details {
+  color: var(--muted-foreground);
+}
+
+.status-warning-details summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.status-warning-details[open] summary {
+  margin-bottom: 6px;
+}
+
+.status-warning-details p {
+  overflow-wrap: anywhere;
+}
+
 .metric-strip {
   display: grid;
   grid-template-columns: repeat(6, minmax(0, 1fr));
@@ -1092,6 +1119,37 @@ code {
   margin-top: 8px;
   font-size: 14px;
   font-style: italic;
+  line-height: 1.55;
+}
+
+.transcript-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.transcript-header span {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--muted-foreground);
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.transcript-text {
+  max-height: 420px;
+  margin: 8px 0 0;
+  overflow: auto;
+  white-space: pre-wrap;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--surface-muted);
+  color: var(--foreground);
+  padding: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
   line-height: 1.55;
 }
 

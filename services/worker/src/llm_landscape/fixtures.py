@@ -1,6 +1,18 @@
 from __future__ import annotations
 
+from urllib.parse import quote_plus
+
 from llm_landscape.domain import Channel, Transcript, TranscriptSegment, Video, VideoBundle
+
+
+def _youtube_search_url(query: str) -> str:
+    return f"https://www.youtube.com/results?search_query={quote_plus(query)}"
+
+
+def _video_url(video_id: str, title: str, channel: Channel) -> str:
+    if not video_id.startswith("mock-"):
+        return f"https://www.youtube.com/watch?v={video_id}"
+    return _youtube_search_url(f"{channel.title} {title}")
 
 
 # ---------------------------------------------------------------------------
@@ -12,24 +24,24 @@ _BUILDER = Channel(
     title="Builder Signals",
     handle="@buildersignals",
     description="Mock channel focused on practical LLM systems.",
-    url="https://www.youtube.com/@buildersignals",
+    url=_youtube_search_url("Builder Signals"),
 )
 _RESEARCH = Channel(
     youtube_channel_id="mock-channel-research",
     title="Research Radar",
     handle="@researchradar",
     description="Mock channel focused on model releases and open model analysis.",
-    url="https://www.youtube.com/@researchradar",
+    url=_youtube_search_url("Research Radar"),
 )
 _CODING = Channel(
     youtube_channel_id="mock-channel-code",
     title="Code Companion Lab",
     handle="@codecompanionlab",
     description="Mock channel focused on AI coding assistants and developer tools.",
-    url="https://www.youtube.com/@codecompanionlab",
+    url=_youtube_search_url("Code Companion Lab"),
 )
 _TWO_MIN = Channel(
-    youtube_channel_id="UC2D2CMWXMOVWx7giW1n3LIg",
+    youtube_channel_id="UCbfYPyITQ-7l4upoX8nvctg",
     title="Two Minute Papers",
     handle="@TwoMinutePapers",
     description="Research-focused AI and machine learning explainers.",
@@ -43,7 +55,7 @@ _LEX = Channel(
     url="https://www.youtube.com/@lexfridman",
 )
 _FIRESHIP = Channel(
-    youtube_channel_id="UCbfYPyITQ-7l4upoX8nvctg",
+    youtube_channel_id="UCsBjURrPoezykLs9EqgamOA",
     title="Fireship",
     handle="@Fireship",
     description="Fast software engineering and AI tooling explainers.",
@@ -52,9 +64,9 @@ _FIRESHIP = Channel(
 _PRIME = Channel(
     youtube_channel_id="UCUyeluBRhGPCW4rPe_UvBZQ",
     title="ThePrimeTime",
-    handle="@ThePrimeTimeagen",
+    handle="@ThePrimeagen",
     description="Developer commentary, tools, and AI coding workflow coverage.",
-    url="https://www.youtube.com/@ThePrimeTimeagen",
+    url="https://www.youtube.com/@ThePrimeagen",
 )
 _FCC = Channel(
     youtube_channel_id="UC8butISFwT-Wl7EV0hUK0BQ",
@@ -77,7 +89,7 @@ def _bundle(
         video=Video(
             youtube_video_id=video_id,
             title=title,
-            url=f"https://www.youtube.com/watch?v={video_id}",
+            url=_video_url(video_id, title, channel),
             published_at=published_at,
             channel=channel,
         ),

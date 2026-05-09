@@ -22,6 +22,7 @@ export function StatusBanner({ metadata }: { metadata: RunMetadata }) {
   const effectiveStatus = metadata.status === "success" && relative.hours > 36 ? "stale" : metadata.status;
   const status = statusMeta[effectiveStatus];
   const Icon = status.Icon;
+  const issueSummary = summarizeRunIssues(metadata);
   return (
     <header className="status-header">
       <div className="status-title-block">
@@ -53,14 +54,59 @@ export function StatusBanner({ metadata }: { metadata: RunMetadata }) {
         </a>
       </div>
 
-      {metadata.error_summary && metadata.status !== "success" ? (
+      {issueSummary ? (
         <div className="status-warning">
           <AlertTriangle size={14} />
-          <span>{metadata.error_summary}</span>
+          <div className="status-warning-copy">
+            <p>{issueSummary.headline}</p>
+            {issueSummary.details ? (
+              <details className="status-warning-details">
+                <summary>Technical details</summary>
+                <p>{issueSummary.details}</p>
+              </details>
+            ) : null}
+          </div>
         </div>
       ) : null}
     </header>
   );
+}
+
+function summarizeRunIssues(metadata: RunMetadata): { headline: string; details?: string } | null {
+  if (!metadata.error_summary || metadata.status === "success") {
+    return null;
+  }
+
+  const filteredVideos = Math.max(0, metadata.videos_seen - metadata.videos_processed - metadata.videos_failed);
+  const headlineParts = [`Published ${metadata.videos_processed} of ${metadata.videos_seen} reviewed videos.`];
+  const issueParts: string[] = [];
+
+  if (metadata.videos_failed > 0) {
+    issueParts.push(`${metadata.videos_failed} ${pluralize(metadata.videos_failed, "video")} could not load captions`);
+  }
+
+  if (filteredVideos > 0) {
+    issueParts.push(
+      `${filteredVideos} ${pluralize(filteredVideos, "video")} were filtered out by the current deterministic LLM rules`
+    );
+  }
+
+  if (metadata.status === "failed" && issueParts.length === 0) {
+    issueParts.push("The latest refresh failed, so the dashboard is showing the last successful snapshot");
+  }
+
+  if (issueParts.length > 0) {
+    headlineParts.push(issueParts.join(", ") + ".");
+  }
+
+  return {
+    headline: headlineParts.join(" "),
+    details: metadata.error_summary
+  };
+}
+
+function pluralize(count: number, singular: string): string {
+  return count === 1 ? singular : `${singular}s`;
 }
 
 function formatRelative(value: string): { label: string; hours: number } {

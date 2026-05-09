@@ -35,6 +35,7 @@ export const publicVideosSchema = z.object({
       content_type: z.string(),
       topics: z.array(topicSchema),
       evidence: z.array(evidenceSchema),
+      transcript_text: z.string(),
       transcript_status: z.string(),
       enrichment_status: z.string()
     })

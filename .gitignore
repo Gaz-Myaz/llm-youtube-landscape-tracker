@@ -11,16 +11,18 @@ __pycache__/
 .env.local
 *.pyc
 *.egg-info/
+*.tsbuildinfo
 *.log
 coverage/
 htmlcov/
 postgres-data/
+data/transcripts/
+tmp-real-data/
 
 # Local reference imports
 llm-insight-map-main/
 llm-insight-map-main.zip
 Project.md
-README.md
 REPORT.md
 task
 

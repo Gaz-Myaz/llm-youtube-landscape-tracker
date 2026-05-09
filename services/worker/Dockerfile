@@ -9,4 +9,4 @@ COPY pyproject.toml ./
 COPY src ./src
 RUN pip install --no-cache-dir -e .
 
-CMD ["python", "-m", "llm_landscape.main", "mock-export"]
+CMD ["python", "-m", "llm_landscape.main", "real-export"]

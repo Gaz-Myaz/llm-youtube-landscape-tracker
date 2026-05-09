@@ -3,7 +3,10 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "LLM YouTube Landscape Tracker",
-  description: "Transcript-grounded tracker for LLM-focused YouTube channels."
+  description: "Transcript-grounded tracker for LLM-focused YouTube channels.",
+  icons: {
+    icon: "/favicon.svg"
+  }
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

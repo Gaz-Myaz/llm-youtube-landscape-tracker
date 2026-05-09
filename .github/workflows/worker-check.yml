@@ -1,0 +1,31 @@
+name: Worker check
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  test-worker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install worker
+        working-directory: services/worker
+        run: pip install -e ".[dev]"
+
+      - name: Run tests
+        working-directory: services/worker
+        run: pytest
+
+      - name: Validate checked-in snapshots
+        env:
+          CONTRACTS_DIR: contracts
+        run: python -m llm_landscape.main validate-snapshots --data-dir apps/web/public/data

@@ -24,7 +24,7 @@ export function Dashboard({ snapshots }: { snapshots: DashboardSnapshots }) {
     channelId: "",
     topicSlug: "",
     contentType: "",
-    sort: "date"
+    sort: "relevance"
   });
   const [highlightId, setHighlightId] = useState<string | null>(null);
 
@@ -60,7 +60,11 @@ export function Dashboard({ snapshots }: { snapshots: DashboardSnapshots }) {
     if (filters.sort === "channel") {
       rows = rows.sort((a, b) => a.channel.title.localeCompare(b.channel.title));
     } else if (filters.sort === "relevance") {
-      rows = rows.sort((a, b) => maxRelevance(b) - maxRelevance(a));
+      rows = rows.sort(
+        (a, b) =>
+          fallbackRank(b) - fallbackRank(a) ||
+          new Date(b.published_at).getTime() - new Date(a.published_at).getTime()
+      );
     } else {
       rows = rows.sort(
         (a, b) => new Date(b.published_at).getTime() - new Date(a.published_at).getTime()
@@ -179,6 +183,14 @@ function SectionHeading({ eyebrow, title, hint }: { eyebrow: string; title: stri
   );
 }
 
-function maxRelevance(video: PublicVideo) {
-  return Math.max(0, ...video.topics.map((topic) => topic.relevance_score));
+function fallbackRank(video: PublicVideo) {
+  const scores = video.topics.map((topic) => topic.relevance_score).sort((a, b) => b - a);
+  if (!scores.length) {
+    return 0;
+  }
+  const strongestTopic = scores[0];
+  const averageTopic = scores.slice(0, 3).reduce((sum, score) => sum + score, 0) / Math.min(3, scores.length);
+  const topicDiversity = Math.min(1, scores.length / 4);
+  const evidenceCoverage = Math.min(1, video.evidence.length / 3);
+  return strongestTopic * 0.55 + averageTopic * 0.25 + topicDiversity * 0.1 + evidenceCoverage * 0.1;
 }

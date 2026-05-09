@@ -34,7 +34,7 @@ def build_relationships(
                 }
 
     nodes = []
-    for channel_id, channel in channels.items():
+    for channel_id, channel in sorted(channels.items(), key=lambda item: item[1]["label"].lower()):
         sorted_topics = sorted(
             channel_topics[channel_id].values(), key=lambda item: item["score"], reverse=True
         )
@@ -80,5 +80,14 @@ def build_relationships(
                 "explanation": explanation,
             }
         )
-
-    return {"nodes": nodes, "edges": sorted(edges, key=lambda edge: edge["similarity_score"], reverse=True)}
+    nodes = sorted(nodes, key=lambda node: (-node["video_count"], node["label"].lower()))
+    edges = sorted(
+        edges,
+        key=lambda edge: (
+            -edge["similarity_score"],
+            -len(edge["shared_topics"]),
+            edge["source"],
+            edge["target"],
+        ),
+    )
+    return {"nodes": nodes, "edges": edges}

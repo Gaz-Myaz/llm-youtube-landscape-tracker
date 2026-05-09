@@ -24,6 +24,7 @@
           "content_type",
           "topics",
           "evidence",
+          "transcript_text",
           "transcript_status",
           "enrichment_status"
         ],
@@ -73,6 +74,7 @@
               }
             }
           },
+          "transcript_text": { "type": "string" },
           "transcript_status": { "type": "string" },
           "enrichment_status": { "type": "string" }
         }
