@@ -65,6 +65,10 @@ jobs:
             echo "YT_DLP_COOKIES does not appear to contain YouTube cookies. Re-export the cookie file in Netscape format and update the repository secret." >&2
             exit 1
           fi
+          if ! python -m yt_dlp --cookies "$PWD/.yt-dlp-cookies.txt" --skip-download --print id "https://www.youtube.com/watch?v=dQw4w9WgXcQ" >/dev/null; then
+            echo "YT_DLP_COOKIES could not be parsed by yt-dlp as a Netscape cookie file. Re-export the cookies in raw Netscape format and update the repository secret." >&2
+            exit 1
+          fi
 
       - name: Export snapshots
         env:
