@@ -13,6 +13,8 @@ export function MetricStrip({
   metadata: RunMetadata;
 }) {
   const topicCount = new Set(videos.flatMap((video) => video.topics.map((topic) => topic.slug))).size;
+  const fallbackCount = metadata.provider_fallback_count ?? 0;
+  const tokenCount = metadata.token_usage?.total_tokens ?? 0;
   return (
     <div className="metric-strip">
       <Metric Icon={Film} label="Videos tracked" value={String(videos.length)} sub={`${metadata.videos_seen} seen total`} />
@@ -22,13 +24,25 @@ export function MetricStrip({
       <Metric
         Icon={AlertTriangle}
         label="Failed / skipped"
-        value={String(metadata.videos_failed)}
-        sub={`${metadata.videos_failed} failed`}
-        tone={metadata.videos_failed > 0 ? "warning" : "default"}
+        value={String(metadata.videos_failed + fallbackCount)}
+        sub={fallbackCount > 0 ? `${fallbackCount} provider fallback` : `${metadata.videos_failed} failed`}
+        tone={metadata.videos_failed > 0 || fallbackCount > 0 ? "warning" : "default"}
       />
-      <Metric Icon={DollarSign} label="Estimated cost" value={`$${metadata.estimated_cost_usd.toFixed(2)}`} sub="this run" />
+      <Metric
+        Icon={DollarSign}
+        label="Estimated cost"
+        value={formatCost(metadata.estimated_cost_usd)}
+        sub={tokenCount > 0 ? `${tokenCount.toLocaleString()} tokens` : "this run"}
+      />
     </div>
   );
+}
+
+function formatCost(value: number): string {
+  if (value > 0 && value < 0.01) {
+    return "<$0.01";
+  }
+  return `$${value.toFixed(2)}`;
 }
 
 function Metric({

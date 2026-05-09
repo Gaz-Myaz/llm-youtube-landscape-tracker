@@ -4,6 +4,7 @@ import argparse
 import json
 import os
 import time
+from dataclasses import dataclass, field, replace
 from datetime import UTC, datetime
 from email.utils import parsedate_to_datetime
 from pathlib import Path
@@ -17,8 +18,25 @@ from llm_landscape.domain import Video, VideoBundle
 from llm_landscape.exports.snapshots import build_public_snapshots, write_snapshots
 from llm_landscape.fixtures import load_mock_bundles
 from llm_landscape.ingestion.rss import fetch_channel_rss
+from llm_landscape.llm.base import EnrichmentResult
 from llm_landscape.llm.factory import create_provider
 from llm_landscape.transcripts.captions import fetch_youtube_captions
+
+
+@dataclass
+class ProviderRunMetrics:
+    provider_call_count: int = 0
+    provider_success_count: int = 0
+    provider_fallback_count: int = 0
+    provider_fallback_reasons: list[str] = field(default_factory=list)
+
+    def as_metadata(self) -> dict:
+        return {
+            "provider_call_count": self.provider_call_count,
+            "provider_success_count": self.provider_success_count,
+            "provider_fallback_count": self.provider_fallback_count,
+            "provider_fallback_reasons": self.provider_fallback_reasons[:20],
+        }
 
 
 def main() -> None:
@@ -98,10 +116,15 @@ def main() -> None:
             else DeterministicAnalyzer()
         )
         candidate_enrichments = {}
+        provider_run_metrics = ProviderRunMetrics()
+        fallback_provider = DeterministicAnalyzer()
         provider_call_limit = min(len(bundles), settings.max_provider_calls_per_run)
         for bundle in bundles[:provider_call_limit]:
-            candidate_enrichments[bundle.video.youtube_video_id] = provider.extract_video_insights(
-                bundle.video, bundle.transcript
+            candidate_enrichments[bundle.video.youtube_video_id] = _extract_with_provider_fallback(
+                provider,
+                fallback_provider,
+                bundle,
+                provider_run_metrics,
             )
         if len(bundles) > provider_call_limit:
             fetch_skipped.extend(
@@ -127,11 +150,23 @@ def main() -> None:
                 f"Caption-backed videos were collected, but none matched {provider.name} LLM landscape rules. "
                 "Try a broader channel set or increase --videos-per-channel."
             )
-        snapshots = build_public_snapshots(filtered_bundles, enrichments, provider)
+        snapshots = build_public_snapshots(
+            filtered_bundles,
+            enrichments,
+            provider,
+            run_metadata_overrides=provider_run_metrics.as_metadata(),
+            usage_enrichments=candidate_enrichments.values(),
+        )
         snapshots["run-metadata.json"]["videos_seen"] = len(bundles) + len(fetch_skipped)
         snapshots["run-metadata.json"]["videos_failed"] = len(fetch_skipped)
-        snapshots["run-metadata.json"]["status"] = "partial" if fetch_skipped else "success"
-        snapshots["run-metadata.json"]["error_summary"] = _run_summary(fetch_skipped, filtered_out)
+        snapshots["run-metadata.json"]["status"] = (
+            "partial" if fetch_skipped or provider_run_metrics.provider_fallback_count else "success"
+        )
+        snapshots["run-metadata.json"]["error_summary"] = _run_summary(
+            fetch_skipped,
+            filtered_out,
+            provider_run_metrics.provider_fallback_reasons,
+        )
         write_snapshots(snapshots, output_dir=output_dir, contracts_dir=settings.contracts_dir)
         print(
             f"Exported {len(filtered_bundles)} caption-backed videos to {output_dir} "
@@ -157,6 +192,42 @@ def validate_snapshots(data_dir: Path, contracts_dir: Path) -> None:
         snapshot = json.loads((data_dir / snapshot_name).read_text(encoding="utf-8"))
         schema = json.loads((contracts_dir / schema_name).read_text(encoding="utf-8"))
         Draft202012Validator(schema).validate(snapshot)
+
+
+def _extract_with_provider_fallback(
+    provider,
+    fallback_provider: DeterministicAnalyzer,
+    bundle: VideoBundle,
+    metrics: ProviderRunMetrics,
+) -> EnrichmentResult:
+    if provider.name in {"deterministic", "mock"}:
+        return provider.extract_video_insights(bundle.video, bundle.transcript)
+
+    metrics.provider_call_count += 1
+    try:
+        enrichment = provider.extract_video_insights(bundle.video, bundle.transcript)
+    except Exception as exc:
+        metrics.provider_fallback_count += 1
+        reason = (
+            f"{bundle.video.youtube_video_id}: {provider.name} provider failed "
+            f"({_compact_error(exc)}); deterministic fallback used"
+        )
+        if len(metrics.provider_fallback_reasons) < 20:
+            metrics.provider_fallback_reasons.append(reason)
+        fallback = fallback_provider.extract_video_insights(bundle.video, bundle.transcript)
+        raw_response = dict(fallback.raw_response or {})
+        raw_response.update(
+            {
+                "mode": "deterministic_provider_fallback",
+                "failed_provider": provider.name,
+                "failed_model": provider.model,
+                "provider_error": _compact_error(exc),
+            }
+        )
+        return replace(fallback, raw_response=raw_response)
+
+    metrics.provider_success_count += 1
+    return enrichment
 
 
 def collect_real_bundles(
@@ -239,7 +310,11 @@ def _as_iso_datetime(value: str) -> str:
     return parsed.astimezone(UTC).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
 
-def _run_summary(fetch_skipped: list[str], filtered_out: list[str]) -> str | None:
+def _run_summary(
+    fetch_skipped: list[str],
+    filtered_out: list[str],
+    provider_fallbacks: list[str] | None = None,
+) -> str | None:
     summaries = []
     if fetch_skipped:
         examples = "; ".join(fetch_skipped[:3])
@@ -252,6 +327,12 @@ def _run_summary(fetch_skipped: list[str], filtered_out: list[str]) -> str | Non
         suffix = f"; {len(filtered_out) - 3} more" if len(filtered_out) > 3 else ""
         summaries.append(
             f"Filtered {len(filtered_out)} caption-backed videos outside configured LLM landscape rules: {examples}{suffix}"
+        )
+    if provider_fallbacks:
+        examples = "; ".join(provider_fallbacks[:3])
+        suffix = f"; {len(provider_fallbacks) - 3} more" if len(provider_fallbacks) > 3 else ""
+        summaries.append(
+            f"Used deterministic fallback for {len(provider_fallbacks)} provider failures: {examples}{suffix}"
         )
     if not summaries:
         return None

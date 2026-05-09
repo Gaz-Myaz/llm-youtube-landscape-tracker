@@ -5,12 +5,13 @@ import json
 import os
 from datetime import UTC, datetime
 from pathlib import Path
-from typing import Any
+from typing import Any, Iterable
 
 from jsonschema import Draft202012Validator
 
 from llm_landscape.domain import VideoBundle
 from llm_landscape.llm.base import EnrichmentResult
+from llm_landscape.llm.usage import aggregate_token_usage, cost_rates_for, estimate_cost_usd
 from llm_landscape.ranking import sort_video_bundles
 from llm_landscape.relationships.scoring import build_relationships
 
@@ -19,6 +20,8 @@ def build_public_snapshots(
     bundles: list[VideoBundle],
     enrichments: dict[str, EnrichmentResult],
     provider: Any,
+    run_metadata_overrides: dict[str, Any] | None = None,
+    usage_enrichments: Iterable[EnrichmentResult] | None = None,
 ) -> dict[str, dict]:
     generated_at = datetime.now(UTC).replace(microsecond=0).isoformat().replace("+00:00", "Z")
     videos = _build_videos_snapshot(bundles, enrichments, generated_at)
@@ -30,6 +33,10 @@ def build_public_snapshots(
         "channels": content_hash(channels),
         "relationships": content_hash(relationships),
     }
+    token_usage = aggregate_token_usage(
+        enrichments.values() if usage_enrichments is None else usage_enrichments
+    )
+    cost_rates = cost_rates_for(provider.name)
     run_metadata = {
         "schema_version": "1.0",
         "last_successful_run_at": generated_at,
@@ -39,10 +46,26 @@ def build_public_snapshots(
         "videos_seen": len(bundles),
         "videos_processed": len(enrichments),
         "videos_failed": max(0, len(bundles) - len(enrichments)),
-        "estimated_cost_usd": 0,
+        "estimated_cost_usd": estimate_cost_usd(token_usage, cost_rates),
+        "token_usage": {
+            "input_tokens": token_usage.input_tokens,
+            "output_tokens": token_usage.output_tokens,
+            "total_tokens": token_usage.total_tokens,
+        },
+        "cost_rates": {
+            "input_usd_per_1m_tokens": cost_rates.input_usd_per_1m_tokens,
+            "output_usd_per_1m_tokens": cost_rates.output_usd_per_1m_tokens,
+            "source": cost_rates.source,
+        },
+        "provider_call_count": 0,
+        "provider_success_count": 0,
+        "provider_fallback_count": 0,
+        "provider_fallback_reasons": [],
         "error_summary": None,
         "content_hashes": hashes,
     }
+    if run_metadata_overrides:
+        run_metadata = {**run_metadata, **run_metadata_overrides}
     return {
         "videos.json": videos,
         "channels.json": channels,

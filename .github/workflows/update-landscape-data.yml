@@ -174,6 +174,46 @@ jobs:
           CONTRACTS_DIR: contracts
         run: python -m llm_landscape.main validate-snapshots
 
+      - name: Notify on degraded data refresh
+        if: success()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const metadataPath = 'apps/web/public/data/run-metadata.json';
+            const metadata = JSON.parse(fs.readFileSync(metadataPath, 'utf8'));
+            const fallbackCount = Number(metadata.provider_fallback_count || 0);
+            const failedCount = Number(metadata.videos_failed || 0);
+            const degraded = metadata.status !== 'success' || failedCount > 0 || fallbackCount > 0;
+            if (!degraded) {
+              return;
+            }
+            const title = 'Investigate degraded landscape data refresh';
+            const body = [
+              'The `Update landscape data` workflow completed, but the resulting snapshot is degraded.',
+              '',
+              `Status: ${metadata.status}`,
+              `Provider: ${metadata.provider}`,
+              `Model: ${metadata.model}`,
+              `Videos seen: ${metadata.videos_seen}`,
+              `Videos processed: ${metadata.videos_processed}`,
+              `Videos failed/skipped: ${failedCount}`,
+              `Provider fallbacks: ${fallbackCount}`,
+              `Estimated cost: $${Number(metadata.estimated_cost_usd || 0).toFixed(6)}`,
+              '',
+              metadata.error_summary ? `Summary: ${metadata.error_summary}` : 'Summary: no error summary was recorded.',
+              '',
+              `Workflow run: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`
+            ].join('\n');
+            const { owner, repo } = context.repo;
+            const { data: issues } = await github.rest.issues.listForRepo({ owner, repo, state: 'open', per_page: 100 });
+            const existing = issues.find((issue) => issue.title === title);
+            if (existing) {
+              await github.rest.issues.createComment({ owner, repo, issue_number: existing.number, body });
+            } else {
+              await github.rest.issues.create({ owner, repo, title, body });
+            }
+
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
@@ -194,3 +234,27 @@ jobs:
         with:
           commit_message: "chore(data): update public snapshots"
           file_pattern: apps/web/public/data/*.json
+
+      - name: Notify on data refresh failure
+        if: failure() && steps.validate-cookies.outcome != 'failure'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = 'Investigate failed landscape data refresh';
+            const body = [
+              'The `Update landscape data` workflow failed outside the cookie-validation alert path.',
+              '',
+              `Event: ${context.eventName}`,
+              `Ref: ${context.ref}`,
+              `SHA: ${context.sha}`,
+              '',
+              `Workflow run: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`
+            ].join('\n');
+            const { owner, repo } = context.repo;
+            const { data: issues } = await github.rest.issues.listForRepo({ owner, repo, state: 'open', per_page: 100 });
+            const existing = issues.find((issue) => issue.title === title);
+            if (existing) {
+              await github.rest.issues.createComment({ owner, repo, issue_number: existing.number, body });
+            } else {
+              await github.rest.issues.create({ owner, repo, title, body });
+            }

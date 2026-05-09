@@ -105,6 +105,24 @@ export const runMetadataSchema = z.object({
   videos_processed: z.number(),
   videos_failed: z.number(),
   estimated_cost_usd: z.number(),
+  token_usage: z
+    .object({
+      input_tokens: z.number(),
+      output_tokens: z.number(),
+      total_tokens: z.number()
+    })
+    .optional(),
+  cost_rates: z
+    .object({
+      input_usd_per_1m_tokens: z.number(),
+      output_usd_per_1m_tokens: z.number(),
+      source: z.string()
+    })
+    .optional(),
+  provider_call_count: z.number().optional(),
+  provider_success_count: z.number().optional(),
+  provider_fallback_count: z.number().optional(),
+  provider_fallback_reasons: z.array(z.string()).optional(),
   error_summary: z.string().nullable().optional(),
   content_hashes: z.record(z.string())
 });

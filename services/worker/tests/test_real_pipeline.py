@@ -7,7 +7,12 @@ from llm_landscape.channels import load_seed_channels
 from llm_landscape.config import load_settings
 from llm_landscape.domain import Channel, Transcript, TranscriptSegment, Video, VideoBundle
 from llm_landscape.llm.base import EnrichmentResult, Evidence, Topic
-from llm_landscape.main import _as_iso_datetime, collect_real_bundles
+from llm_landscape.main import (
+    ProviderRunMetrics,
+    _as_iso_datetime,
+    _extract_with_provider_fallback,
+    collect_real_bundles,
+)
 from llm_landscape.ranking import fallback_video_score, sort_video_bundles
 from llm_landscape.transcripts.captions import _fetch_ytdlp_transcript_items, fetch_youtube_captions
 
@@ -413,6 +418,56 @@ def test_collect_real_bundles_uses_channel_language_when_not_overridden(monkeypa
     assert calls == [["ru", "en"]]
 
 
+def test_provider_failure_falls_back_to_deterministic_analysis() -> None:
+    channel = Channel(
+        youtube_channel_id="channel-fallback",
+        title="Fallback AI Channel",
+        handle="@fallback-ai",
+        description=None,
+        url="https://www.youtube.com/@fallback-ai",
+    )
+    video = Video(
+        youtube_video_id="fallback-video",
+        title="New coding agent release",
+        url="https://www.youtube.com/watch?v=fallback-video",
+        published_at="2026-05-09T00:00:00Z",
+        channel=channel,
+    )
+    transcript = Transcript(
+        video_id="fallback-video",
+        source="youtube_captions",
+        language="en",
+        text="This coding agent can call tools and evaluate repository changes.",
+        segments=(
+            TranscriptSegment(
+                0,
+                0,
+                5,
+                "This coding agent can call tools and evaluate repository changes.",
+            ),
+        ),
+    )
+    bundle = VideoBundle(video=video, transcript=transcript)
+    metrics = ProviderRunMetrics()
+
+    result = _extract_with_provider_fallback(
+        _FailingProvider(),
+        DeterministicAnalyzer(),
+        bundle,
+        metrics,
+    )
+
+    assert result.provider == "deterministic"
+    assert result.raw_response["mode"] == "deterministic_provider_fallback"
+    assert result.raw_response["failed_provider"] == "gemini"
+    assert metrics.provider_call_count == 1
+    assert metrics.provider_success_count == 0
+    assert metrics.provider_fallback_count == 1
+    assert metrics.provider_fallback_reasons == [
+        "fallback-video: gemini provider failed (provider unavailable); deterministic fallback used"
+    ]
+
+
 def test_load_settings_reads_optional_ytdlp_cookie_config(monkeypatch) -> None:
     monkeypatch.setenv("YT_DLP_COOKIES_PATH", ".github/yt-dlp-cookies.txt")
     monkeypatch.setenv("YT_DLP_COOKIES_FROM_BROWSER", "chrome:Default")
@@ -519,3 +574,20 @@ def _enrichment(
         confidence_score=0.8,
         raw_response=None,
     )
+
+
+class _FailingProvider:
+    name = "gemini"
+    model = "gemini-2.5-flash"
+
+    def extract_video_insights(self, video: Video, transcript: Transcript) -> EnrichmentResult:
+        raise RuntimeError("provider unavailable")
+
+    def summarize_relationship(
+        self,
+        source_channel: str,
+        target_channel: str,
+        shared_topic_labels: list[str],
+        score: float,
+    ) -> str:
+        return "unused"
