@@ -39,6 +39,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -230,10 +233,46 @@ jobs:
         run: npm run build
 
       - name: Commit updated snapshots
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore(data): update public snapshots"
-          file_pattern: apps/web/public/data/*.json
+        env:
+          TARGET_BRANCH: ${{ github.ref_name }}
+        run: |
+          set -euo pipefail
+
+          target_branch="${TARGET_BRANCH:-main}"
+          temp_dir="$(mktemp -d)"
+          trap 'rm -rf "$temp_dir"' EXIT
+
+          cp apps/web/public/data/*.json "$temp_dir"/
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          for attempt in 1 2 3; do
+            git fetch origin "$target_branch"
+            git checkout -B "$target_branch" "origin/$target_branch"
+
+            cp "$temp_dir"/*.json apps/web/public/data/
+
+            git add apps/web/public/data/*.json
+
+            if git diff --cached --quiet; then
+              echo "No snapshot changes to commit."
+              exit 0
+            fi
+
+            git commit -m "chore(data): update public snapshots"
+
+            if git push origin "HEAD:$target_branch"; then
+              exit 0
+            fi
+
+            if [ "$attempt" -eq 3 ]; then
+              echo "Failed to push refreshed snapshots after $attempt attempts." >&2
+              exit 1
+            fi
+
+            git reset --hard "origin/$target_branch"
+          done
 
       - name: Notify on data refresh failure
         if: failure() && steps.validate-cookies.outcome != 'failure'
