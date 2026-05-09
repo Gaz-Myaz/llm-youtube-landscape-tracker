@@ -1,139 +1,81 @@
 {
   "edges": [
     {
-      "explanation": "Two Minute Papers and Fireship overlap in subtitle-derived coverage of AI Agents, Benchmarks, Fine Tuning. Topic-overlap score: 0.62.",
+      "explanation": "freeCodeCamp.org and Lex Fridman overlap in subtitle-derived coverage of AI Agents, Coding Assistants, Open Source Models. Topic-overlap score: 0.60.",
       "method": "topic_overlap",
       "shared_topics": [
         {
           "label": "AI Agents",
-          "score": 0.773,
-          "slug": "agents"
-        },
-        {
-          "label": "Benchmarks",
-          "score": 0.637,
-          "slug": "benchmarks"
-        },
-        {
-          "label": "Fine Tuning",
-          "score": 0.717,
-          "slug": "fine-tuning"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.776,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.895,
-          "slug": "open-source-models"
-        }
-      ],
-      "similarity_score": 0.625,
-      "source": "UCbfYPyITQ-7l4upoX8nvctg",
-      "target": "UCsBjURrPoezykLs9EqgamOA"
-    },
-    {
-      "explanation": "Lex Fridman and Fireship overlap in subtitle-derived coverage of AI Agents, Coding Assistants, Open Source Models. Topic-overlap score: 0.33.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.817,
+          "score": 0.808,
           "slug": "agents"
         },
         {
           "label": "Coding Assistants",
-          "score": 0.853,
+          "score": 0.785,
           "slug": "coding-assistants"
         },
         {
           "label": "Open Source Models",
-          "score": 0.898,
+          "score": 0.802,
           "slug": "open-source-models"
         }
       ],
-      "similarity_score": 0.333,
-      "source": "UCSHZKyawb77ixDdsGog4iWA",
-      "target": "UCsBjURrPoezykLs9EqgamOA"
+      "similarity_score": 0.6,
+      "source": "UC8butISFwT-Wl7EV0hUK0BQ",
+      "target": "UCSHZKyawb77ixDdsGog4iWA"
     },
     {
-      "explanation": "Lex Fridman and Two Minute Papers overlap in subtitle-derived coverage of AI Agents, Multimodal, Open Source Models. Topic-overlap score: 0.30.",
+      "explanation": "freeCodeCamp.org and Two Minute Papers overlap in subtitle-derived coverage of Open Source Models. Topic-overlap score: 0.14.",
       "method": "topic_overlap",
       "shared_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.816,
-          "slug": "agents"
-        },
-        {
-          "label": "Multimodal",
-          "score": 0.729,
-          "slug": "multimodal"
-        },
         {
           "label": "Open Source Models",
-          "score": 0.831,
+          "score": 0.788,
           "slug": "open-source-models"
-        }
-      ],
-      "similarity_score": 0.3,
-      "source": "UCSHZKyawb77ixDdsGog4iWA",
-      "target": "UCbfYPyITQ-7l4upoX8nvctg"
-    },
-    {
-      "explanation": "ThePrimeTime and Fireship overlap in subtitle-derived coverage of Model Releases. Topic-overlap score: 0.17.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "Model Releases",
-          "score": 0.74,
-          "slug": "model-releases"
-        }
-      ],
-      "similarity_score": 0.167,
-      "source": "UCUyeluBRhGPCW4rPe_UvBZQ",
-      "target": "UCsBjURrPoezykLs9EqgamOA"
-    },
-    {
-      "explanation": "ThePrimeTime and Two Minute Papers overlap in subtitle-derived coverage of Model Releases. Topic-overlap score: 0.14.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "Model Releases",
-          "score": 0.696,
-          "slug": "model-releases"
         }
       ],
       "similarity_score": 0.143,
-      "source": "UCUyeluBRhGPCW4rPe_UvBZQ",
+      "source": "UC8butISFwT-Wl7EV0hUK0BQ",
+      "target": "UCbfYPyITQ-7l4upoX8nvctg"
+    },
+    {
+      "explanation": "Lex Fridman and Two Minute Papers overlap in subtitle-derived coverage of Open Source Models. Topic-overlap score: 0.14.",
+      "method": "topic_overlap",
+      "shared_topics": [
+        {
+          "label": "Open Source Models",
+          "score": 0.746,
+          "slug": "open-source-models"
+        }
+      ],
+      "similarity_score": 0.143,
+      "source": "UCSHZKyawb77ixDdsGog4iWA",
       "target": "UCbfYPyITQ-7l4upoX8nvctg"
     }
   ],
-  "generated_at": "2026-05-08T20:01:49Z",
+  "generated_at": "2026-05-09T11:21:03Z",
   "nodes": [
     {
       "id": "UCbfYPyITQ-7l4upoX8nvctg",
       "label": "Two Minute Papers",
       "top_topics": [
-        "Open Source Models",
-        "AI Agents",
         "Model Releases",
-        "Fine Tuning"
+        "Open Source Models",
+        "Multimodal",
+        "Benchmarks"
       ],
-      "video_count": 12
+      "video_count": 3
     },
     {
-      "id": "UCsBjURrPoezykLs9EqgamOA",
-      "label": "Fireship",
+      "id": "UC8butISFwT-Wl7EV0hUK0BQ",
+      "label": "freeCodeCamp.org",
       "top_topics": [
         "Open Source Models",
         "Coding Assistants",
-        "Model Releases",
-        "AI Agents"
+        "AI Agents",
+        "Local Inference"
       ],
-      "video_count": 5
+      "video_count": 1
     },
     {
       "id": "UCSHZKyawb77ixDdsGog4iWA",
@@ -142,15 +84,7 @@
         "AI Agents",
         "Open Source Models",
         "Coding Assistants",
-        "Multimodal"
-      ],
-      "video_count": 3
-    },
-    {
-      "id": "UCUyeluBRhGPCW4rPe_UvBZQ",
-      "label": "ThePrimeTime",
-      "top_topics": [
-        "Model Releases"
+        "RAG"
       ],
       "video_count": 1
     }

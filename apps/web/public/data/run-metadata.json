@@ -1,17 +1,17 @@
 {
   "content_hashes": {
-    "channels": "03a974c93bea9d912265b251b730ccc4d40fd2cdf28486c0606d75d363f108fd",
-    "relationships": "4f5f4325dab67b5e0ff1785b95ce98b1f4ef83596975f8d4bcc7e6407881f7c7",
-    "videos": "62ee5916e22f7a56329c8572483a9b10e995428247b9396f44694da8f80b9f9d"
+    "channels": "5493f3503235c4f8350b863ddde4baf739f937dce916ef238d89211f40ea1302",
+    "relationships": "517bc1358d5b62b5236c13cf7914b9753cbf3c0af333f3ca62bd37f5233d64e9",
+    "videos": "ee23e9b86423a7d5628579772b60f69a9d711ad60ec0ef4844224cb04ebbfef8"
   },
-  "error_summary": "Skipped 27 videos/channels while fetching real captions: XL5bq8DRn64: captions unavailable (No transcript provider succeeded for XL5bq8DRn64. Tried youtube_transcript_api, yt_dlp. Errors: youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=XL5bq8DRn64! This is most likely caused by: YouTube is blocking requests from your IP. This usually is due to one of the following reasons: - You have done too many requests and your IP has been blocked by YouTube - You ar); DmtoVnTkQnM: captions unavailable (No transcript provider succeeded for DmtoVnTkQnM. Tried youtube_transcript_api, yt_dlp. Errors: youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=DmtoVnTkQnM! This is most likely caused by: YouTube is blocking requests from your IP. This usually is due to one of the following reasons: - You have done too many requests and your IP has been blocked by YouTube - You ar); RDQ4vHAPNls: captions unavailable (No transcript provider succeeded for RDQ4vHAPNls. Tried youtube_transcript_api, yt_dlp. Errors: youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=RDQ4vHAPNls! This is most likely caused by: YouTube is blocking requests from your IP. This usually is due to one of the following reasons: - You have done too many requests and your IP has been blocked by YouTube - You ar); 24 more Filtered 27 caption-backed videos outside deterministic LLM landscape rules: MtxP2pyCvYA: no deterministic LLM landscape signal; lkifbWtxxlk: no deterministic LLM landscape signal; d53Zk28esmU: no deterministic LLM landscape signal; 24 more",
+  "error_summary": "Filtered 10 caption-backed videos outside deterministic LLM landscape rules: nepKKz-MzFM: no deterministic LLM landscape signal; iKx3gAODybU: no deterministic LLM landscape signal; MtxP2pyCvYA: no deterministic LLM landscape signal; 7 more",
   "estimated_cost_usd": 0,
-  "last_successful_run_at": "2026-05-08T20:01:49Z",
+  "last_successful_run_at": "2026-05-09T11:21:03Z",
   "model": "keyword-transcript-v1",
   "provider": "deterministic",
   "schema_version": "1.0",
-  "status": "partial",
-  "videos_failed": 27,
-  "videos_processed": 21,
-  "videos_seen": 75
+  "status": "success",
+  "videos_failed": 0,
+  "videos_processed": 5,
+  "videos_seen": 15
 }

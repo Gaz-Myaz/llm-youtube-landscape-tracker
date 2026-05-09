@@ -8,71 +8,61 @@
       "title": "Two Minute Papers",
       "top_topics": [
         {
-          "label": "Open Source Models",
-          "score": 0.828,
-          "slug": "open-source-models"
-        },
-        {
-          "label": "AI Agents",
-          "score": 0.772,
-          "slug": "agents"
-        },
-        {
           "label": "Model Releases",
           "score": 0.732,
           "slug": "model-releases"
         },
         {
-          "label": "Fine Tuning",
-          "score": 0.715,
-          "slug": "fine-tuning"
+          "label": "Open Source Models",
+          "score": 0.732,
+          "slug": "open-source-models"
         },
         {
           "label": "Multimodal",
-          "score": 0.701,
+          "score": 0.692,
           "slug": "multimodal"
+        },
+        {
+          "label": "Benchmarks",
+          "score": 0.67,
+          "slug": "benchmarks"
         }
       ],
       "url": "https://www.youtube.com/@TwoMinutePapers",
-      "video_count": 12,
+      "video_count": 3,
       "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
     },
     {
-      "description": "Fast software engineering and AI tooling explainers.",
-      "handle": "@Fireship",
-      "latest_video_at": "2026-04-21T17:35:43Z",
+      "description": "Technical courses and tutorials, including practical AI application development.",
+      "handle": "@freecodecamp",
+      "latest_video_at": "2026-05-07T10:00:29Z",
       "thumbnail_url": null,
-      "title": "Fireship",
+      "title": "freeCodeCamp.org",
       "top_topics": [
         {
           "label": "Open Source Models",
-          "score": 0.963,
+          "score": 0.844,
           "slug": "open-source-models"
         },
         {
           "label": "Coding Assistants",
-          "score": 0.877,
+          "score": 0.834,
           "slug": "coding-assistants"
         },
         {
-          "label": "Model Releases",
-          "score": 0.82,
-          "slug": "model-releases"
-        },
-        {
           "label": "AI Agents",
-          "score": 0.774,
+          "score": 0.81,
           "slug": "agents"
         },
         {
-          "label": "Fine Tuning",
-          "score": 0.719,
-          "slug": "fine-tuning"
+          "label": "Local Inference",
+          "score": 0.705,
+          "slug": "local-inference"
         }
       ],
-      "url": "https://www.youtube.com/@Fireship",
-      "video_count": 5,
-      "youtube_channel_id": "UCsBjURrPoezykLs9EqgamOA"
+      "url": "https://www.youtube.com/@freecodecamp",
+      "video_count": 1,
+      "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
     },
     {
       "description": "Long-form technical interviews with AI researchers and builders.",
@@ -83,52 +73,30 @@
       "top_topics": [
         {
           "label": "AI Agents",
-          "score": 0.859,
+          "score": 0.805,
           "slug": "agents"
         },
         {
           "label": "Open Source Models",
-          "score": 0.833,
+          "score": 0.761,
           "slug": "open-source-models"
         },
         {
           "label": "Coding Assistants",
-          "score": 0.828,
+          "score": 0.736,
           "slug": "coding-assistants"
         },
         {
-          "label": "Multimodal",
-          "score": 0.757,
-          "slug": "multimodal"
-        },
-        {
-          "label": "Local Inference",
-          "score": 0.706,
-          "slug": "local-inference"
+          "label": "RAG",
+          "score": 0.696,
+          "slug": "rag"
         }
       ],
       "url": "https://www.youtube.com/@lexfridman",
-      "video_count": 3,
-      "youtube_channel_id": "UCSHZKyawb77ixDdsGog4iWA"
-    },
-    {
-      "description": "Developer commentary tools and AI coding workflow coverage.",
-      "handle": "@ThePrimeagen",
-      "latest_video_at": "2026-05-02T13:01:14Z",
-      "thumbnail_url": null,
-      "title": "ThePrimeTime",
-      "top_topics": [
-        {
-          "label": "Model Releases",
-          "score": 0.659,
-          "slug": "model-releases"
-        }
-      ],
-      "url": "https://www.youtube.com/@ThePrimeagen",
       "video_count": 1,
-      "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
+      "youtube_channel_id": "UCSHZKyawb77ixDdsGog4iWA"
     }
   ],
-  "generated_at": "2026-05-08T20:01:49Z",
+  "generated_at": "2026-05-09T11:21:03Z",
   "schema_version": "1.0"
 }
