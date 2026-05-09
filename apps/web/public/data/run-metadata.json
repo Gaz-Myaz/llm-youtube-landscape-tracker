@@ -1,17 +1,17 @@
 {
   "content_hashes": {
-    "channels": "5493f3503235c4f8350b863ddde4baf739f937dce916ef238d89211f40ea1302",
-    "relationships": "517bc1358d5b62b5236c13cf7914b9753cbf3c0af333f3ca62bd37f5233d64e9",
-    "videos": "ee23e9b86423a7d5628579772b60f69a9d711ad60ec0ef4844224cb04ebbfef8"
+    "channels": "12ec61c66cf67dbbe4647125e813d6329967b433d978ea85ff2a41d608afff81",
+    "relationships": "86b3cd66a2e77affc6cbcc4807639f18cb80457f7f2f9e744243c56bd74970de",
+    "videos": "482d8eb539a0951fe7b081b684befe0b502078e88a73ddeb8c85550d7ca017ad"
   },
-  "error_summary": "Filtered 10 caption-backed videos outside deterministic LLM landscape rules: nepKKz-MzFM: no deterministic LLM landscape signal; iKx3gAODybU: no deterministic LLM landscape signal; MtxP2pyCvYA: no deterministic LLM landscape signal; 7 more",
+  "error_summary": "Filtered 4 caption-backed videos outside deterministic LLM landscape rules: t-NFmmUsOus: no deterministic LLM landscape signal; wDLdDaGR8S4: no deterministic LLM landscape signal; oGO7IKO8HNE: no deterministic LLM landscape signal; 1 more",
   "estimated_cost_usd": 0,
-  "last_successful_run_at": "2026-05-09T11:21:03Z",
+  "last_successful_run_at": "2026-05-09T11:59:06Z",
   "model": "keyword-transcript-v1",
   "provider": "deterministic",
   "schema_version": "1.0",
   "status": "success",
   "videos_failed": 0,
-  "videos_processed": 5,
-  "videos_seen": 15
+  "videos_processed": 22,
+  "videos_seen": 26
 }
