@@ -65,9 +65,9 @@ jobs:
             echo "YT_DLP_COOKIES does not appear to contain YouTube cookies. Re-export the cookie file in Netscape format and update the repository secret." >&2
             exit 1
           fi
-          if ! validation_output="$(python -m yt_dlp --cookies "$PWD/.yt-dlp-cookies.txt" --skip-download --print id "https://www.youtube.com/watch?v=dQw4w9WgXcQ" 2>&1)"; then
+          if ! validation_output="$(python -m yt_dlp --ignore-config --cookies "$PWD/.yt-dlp-cookies.txt" --skip-download --ignore-no-formats-error --list-subs "https://www.youtube.com/watch?v=dQw4w9WgXcQ" 2>&1)"; then
             printf '%s\n' "$validation_output" >&2
-            echo "YT_DLP_COOKIES could not be parsed by yt-dlp as a Netscape cookie file. Re-export the cookies in raw Netscape format and update the repository secret." >&2
+            echo "YT_DLP_COOKIES could not be used by yt-dlp to fetch YouTube subtitle metadata. Re-export the cookies in raw Netscape format and update the repository secret." >&2
             exit 1
           fi
           if printf '%s\n' "$validation_output" | grep -qiE "provided YouTube account cookies are no longer valid|Sign in to confirm you're not a bot|Use --cookies-from-browser or --cookies for the authentication"; then
@@ -80,7 +80,7 @@ jobs:
         env:
           VIDEOS_PER_CHANNEL: 3
           MAX_VIDEOS_PER_RUN: 15
-          TRANSCRIPT_REQUEST_DELAY_SECONDS: 0.75
+          TRANSCRIPT_REQUEST_DELAY_SECONDS: 5.0
           TRANSCRIPT_PROVIDERS: yt_dlp,youtube_transcript_api
           TRANSCRIPT_CACHE_DIR: data/transcripts
           SNAPSHOT_OUTPUT_DIR: apps/web/public/data

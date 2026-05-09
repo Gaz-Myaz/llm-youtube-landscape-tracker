@@ -131,6 +131,24 @@ There are three workflows:
 
 Add a repository secret named `YT_DLP_COOKIES` containing an exported Netscape cookie file from a signed-in YouTube browser session. The workflow writes that secret to a temporary file, validates that it looks like a YouTube cookie jar, and passes it to `yt-dlp` before snapshot export.
 
+For a local cookie check, do not treat a printed video ID as sufficient proof that the cookies are valid. `yt-dlp` can still print the ID for a public video while warning that the YouTube account cookies were rotated or rejected. A usable local check is:
+
+```powershell
+$output = & .\.venv\Scripts\python.exe -m yt_dlp --ignore-config --cookies .\www.youtube.com_cookies.txt --skip-download --ignore-no-formats-error --list-subs "https://www.youtube.com/watch?v=dQw4w9WgXcQ" 2>&1 | Out-String
+$output
+if ($output -match 'provided YouTube account cookies are no longer valid|Sign in to confirm you''re not a bot|Use --cookies-from-browser or --cookies for the authentication') {
+	throw 'YouTube rejected the cookies. Re-export them from a freshly signed-in browser session.'
+}
+```
+
+Warnings about missing video formats, a missing JavaScript runtime, or missing `ffmpeg` are not authentication failures by themselves. For this project, the blocking warnings are the YouTube auth messages above.
+
+For YouTube specifically, export cookies from a new private/incognito browser window to reduce the chance that YouTube rotates the session before `yt-dlp` uses it. The upstream `yt-dlp` guidance is: log into YouTube in a fresh private window, open `https://www.youtube.com/robots.txt` in that same tab, export the `youtube.com` cookies with a Netscape-cookie extension, and then close the private window immediately.
+
+On Windows, `yt-dlp --cookies-from-browser` can also fail for Chromium-based browsers if the browser keeps its cookie database locked. If that command errors with `Could not copy Chrome cookie database`, fully close the browser first, or use a browser extension to export a Netscape cookie file instead of relying on live browser extraction.
+
+If the exported cookie file contains only the three-line Netscape header and no cookie rows, treat it as an invalid export. That usually means the extension did not get access to the signed-in session cookies, commonly because it was not allowed in the private/incognito window or the export was made from the wrong browser session.
+
 The scheduled CI refresh now prefers `yt_dlp` ahead of `youtube_transcript_api` so the authenticated provider is used first on GitHub-hosted runners.
 
 The scheduled update does not call an LLM yet. It uses deterministic transcript analysis until the next phase adds real provider credentials.

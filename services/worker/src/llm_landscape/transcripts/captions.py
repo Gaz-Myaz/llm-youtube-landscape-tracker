@@ -142,6 +142,7 @@ def _fetch_ytdlp_transcript_items(video_id: str, languages: list[str]) -> list[d
         "quiet": True,
         "no_warnings": True,
         "skip_download": True,
+        "ignore_no_formats_error": True,
     }
     cookies_path = os.getenv("YT_DLP_COOKIES_PATH")
     cookies_from_browser = os.getenv("YT_DLP_COOKIES_FROM_BROWSER")

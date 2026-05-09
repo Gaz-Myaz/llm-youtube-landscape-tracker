@@ -392,6 +392,7 @@ def test_ytdlp_caption_fetch_reuses_ytdlp_cookie_session(monkeypatch) -> None:
         "quiet": True,
         "no_warnings": True,
         "skip_download": True,
+        "ignore_no_formats_error": True,
         "cookiefile": "/tmp/youtube-cookies.txt",
     }
 
