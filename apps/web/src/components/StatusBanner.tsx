@@ -47,7 +47,7 @@ export function StatusBanner({ metadata }: { metadata: RunMetadata }) {
           <Cpu size={13} />
           {metadata.provider} · <code>{metadata.model}</code>
         </span>
-        <a className="metadata-pill source-link" href="/data/run-metadata.json" target="_blank" rel="noreferrer">
+        <a className="metadata-pill source-link" href="data/run-metadata.json" target="_blank" rel="noreferrer">
           <Database size={13} />
           View source data
           <ExternalLink size={11} />
