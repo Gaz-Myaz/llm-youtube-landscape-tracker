@@ -126,10 +126,12 @@ There are three workflows:
 
 - `worker-check.yml`: runs worker tests and validates checked-in snapshots on pushes and pull requests.
 - `web-check.yml`: installs the web app with `npm ci`, type-checks it, and runs `next build`.
-- `update-data.yml`: scheduled/manual production-style update. It restores the transcript cache, runs worker tests, exports real subtitle-backed snapshots, validates the JSON contracts, builds the web app with the refreshed data, and commits changed snapshot files.
+- `update-data.yml`: scheduled/manual production-style update. It restores the transcript cache, requires a `YT_DLP_COOKIES` secret for the authenticated subtitle path, runs worker tests, exports real subtitle-backed snapshots, validates the JSON contracts, builds the web app with the refreshed data, and commits changed snapshot files.
 - `deploy-pages.yml`: builds a static export from the checked-in snapshots and deploys the dashboard to GitHub Pages.
 
-If GitHub-hosted runs start failing on YouTube bot checks, add a repository secret named `YT_DLP_COOKIES` containing an exported Netscape cookie file. The workflow writes that secret to a temporary file and passes it to `yt-dlp` for the subtitle fallback path.
+Add a repository secret named `YT_DLP_COOKIES` containing an exported Netscape cookie file from a signed-in YouTube browser session. The workflow writes that secret to a temporary file, validates that it looks like a YouTube cookie jar, and passes it to `yt-dlp` before snapshot export.
+
+The scheduled CI refresh now prefers `yt_dlp` ahead of `youtube_transcript_api` so the authenticated provider is used first on GitHub-hosted runners.
 
 The scheduled update does not call an LLM yet. It uses deterministic transcript analysis until the next phase adds real provider credentials.
 

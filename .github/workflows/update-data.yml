@@ -53,12 +53,23 @@ jobs:
             echo "YT_DLP_COOKIES_PATH=$PWD/.yt-dlp-cookies.txt" >> "$GITHUB_ENV"
           fi
 
+      - name: Validate yt-dlp cookies setup
+        run: |
+          if [ ! -s "$PWD/.yt-dlp-cookies.txt" ]; then
+            echo "YT_DLP_COOKIES secret is missing or empty. Export a Netscape-format cookie file from a signed-in YouTube browser session and save it as the repository secret YT_DLP_COOKIES." >&2
+            exit 1
+          fi
+          if ! grep -q "youtube\.com" "$PWD/.yt-dlp-cookies.txt"; then
+            echo "YT_DLP_COOKIES does not appear to contain YouTube cookies. Re-export the cookie file in Netscape format and update the repository secret." >&2
+            exit 1
+          fi
+
       - name: Export snapshots
         env:
           VIDEOS_PER_CHANNEL: 3
           MAX_VIDEOS_PER_RUN: 15
           TRANSCRIPT_REQUEST_DELAY_SECONDS: 0.75
-          TRANSCRIPT_PROVIDERS: youtube_transcript_api,yt_dlp
+          TRANSCRIPT_PROVIDERS: yt_dlp,youtube_transcript_api
           TRANSCRIPT_CACHE_DIR: data/transcripts
           SNAPSHOT_OUTPUT_DIR: apps/web/public/data
           CONTRACTS_DIR: contracts
