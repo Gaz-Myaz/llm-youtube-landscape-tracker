@@ -1,17 +1,17 @@
 {
   "content_hashes": {
-    "channels": "c01f700acfb315c8b623b421585a9bc1c92ba15ab229ed2531a5f3d417ea8ade",
-    "relationships": "258aa39931c6484722d45f04df171f6aab866dad1f7a1ae8b03eea3cd4872b4f",
-    "videos": "1842d1f905aaf90ffaa1cc9b72ea31b4d58cb05838233acd293517594c0edb2a"
+    "channels": "6031fe062e69238a62972ffc5f7a687b261bc603bc76684eb9802f028ad72fcf",
+    "relationships": "bff44736a84b166f7fc51b1e760a535e1b6266ffb294ae04c40474a77bf94195",
+    "videos": "9445a57f191c57df97cceb4130eaae5da6957b3db5c13e00baedb2cf89b38a12"
   },
-  "error_summary": "Skipped 16 videos/channels while fetching real captions: g31LEVJyGQI: skipped by MAX_PROVIDER_CALLS_PER_RUN; Gtt-xnzoIDc: skipped by MAX_PROVIDER_CALLS_PER_RUN; xHi8PUIVyoo: skipped by MAX_PROVIDER_CALLS_PER_RUN; 13 more Filtered 6 caption-backed videos outside configured LLM landscape rules: nepKKz-MzFM: no gemini LLM landscape signal; iKx3gAODybU: no gemini LLM landscape signal; MtxP2pyCvYA: no gemini LLM landscape signal; 3 more",
+  "error_summary": "Filtered 10 caption-backed videos outside configured LLM landscape rules: nepKKz-MzFM: no gemini LLM landscape signal; iKx3gAODybU: no gemini LLM landscape signal; MtxP2pyCvYA: no gemini LLM landscape signal; 7 more",
   "estimated_cost_usd": 0,
-  "last_successful_run_at": "2026-05-09T13:27:48Z",
+  "last_successful_run_at": "2026-05-09T14:41:28Z",
   "model": "gemini-2.5-flash",
   "provider": "gemini",
   "schema_version": "1.0",
-  "status": "partial",
-  "videos_failed": 16,
-  "videos_processed": 4,
-  "videos_seen": 42
+  "status": "success",
+  "videos_failed": 0,
+  "videos_processed": 18,
+  "videos_seen": 28
 }
