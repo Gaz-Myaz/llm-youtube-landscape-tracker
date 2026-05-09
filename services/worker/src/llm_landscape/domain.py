@@ -12,6 +12,7 @@ class Channel:
     url: str
     rss_url: str | None = None
     thumbnail_url: str | None = None
+    language: str = "en"
 
 
 @dataclass(frozen=True)

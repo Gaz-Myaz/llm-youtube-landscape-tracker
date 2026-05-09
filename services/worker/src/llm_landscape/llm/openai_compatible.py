@@ -4,12 +4,14 @@ import json
 from typing import Any
 
 import requests
+from jsonschema import Draft202012Validator
 
 from llm_landscape.domain import Transcript, Video
 from llm_landscape.llm.base import EnrichmentResult, Evidence, Topic
 from llm_landscape.llm.mock import TOPIC_RULES
 
 _TOPIC_LABELS = {slug: label for slug, label, _score, _keywords in TOPIC_RULES}
+_TOPIC_SLUGS = sorted(_TOPIC_LABELS)
 _CONTENT_TYPES = {
     "tutorial",
     "benchmark",
@@ -22,6 +24,69 @@ _CONTENT_TYPES = {
 }
 _DEFAULT_BASE_URL = "https://api.openai.com/v1"
 _PROMPT_VERSION = "openai-compatible-2026-05-09"
+_SYSTEM_PROMPT = (
+    "You extract transcript-grounded LLM landscape metadata. "
+    "Return only valid JSON matching the required_json_schema. "
+    "Do not wrap the JSON in Markdown. "
+    "Use only the controlled topic slugs provided. "
+    "Only tag topics when the video is primarily about LLMs, AI models, "
+    "agents, AI coding tools, RAG, AI evals, AI safety, or AI deployment. "
+    "Do not map general open-source software, video codecs, infrastructure, "
+    "or business/team language to LLM topics unless the transcript explicitly "
+    "connects them to AI/LLM systems."
+)
+_INSIGHT_JSON_SCHEMA = {
+    "type": "object",
+    "additionalProperties": False,
+    "required": [
+        "primary_speaker",
+        "summary",
+        "content_type",
+        "stance",
+        "topics",
+        "evidence",
+        "confidence_score",
+    ],
+    "properties": {
+        "primary_speaker": {"type": ["string", "null"]},
+        "summary": {"type": "string"},
+        "content_type": {"type": "string", "enum": sorted(_CONTENT_TYPES)},
+        "stance": {"type": ["string", "null"]},
+        "topics": {
+            "type": "array",
+            "maxItems": 4,
+            "items": {
+                "type": "object",
+                "additionalProperties": False,
+                "required": ["slug", "relevance_score"],
+                "properties": {
+                    "slug": {"type": "string", "enum": _TOPIC_SLUGS},
+                    "relevance_score": {"type": "number", "minimum": 0, "maximum": 1},
+                },
+            },
+        },
+        "evidence": {
+            "type": "array",
+            "maxItems": 4,
+            "items": {
+                "type": "object",
+                "additionalProperties": False,
+                "required": ["field_name", "quote", "topic_slug", "confidence_score"],
+                "properties": {
+                    "field_name": {"type": "string"},
+                    "quote": {"type": "string"},
+                    "topic_slug": {
+                        "type": ["string", "null"],
+                        "enum": [*_TOPIC_SLUGS, None],
+                    },
+                    "confidence_score": {"type": "number", "minimum": 0, "maximum": 1},
+                },
+            },
+        },
+        "confidence_score": {"type": "number", "minimum": 0, "maximum": 1},
+    },
+}
+_INSIGHT_SCHEMA_VALIDATOR = Draft202012Validator(_INSIGHT_JSON_SCHEMA)
 
 
 class OpenAICompatibleProvider:
@@ -93,65 +158,47 @@ class OpenAICompatibleProvider:
         return {
             "model": self.model,
             "temperature": 0.1,
-            "response_format": {"type": "json_object"},
+            "response_format": _response_format(self.name),
             "messages": [
-                {
-                    "role": "system",
-                    "content": (
-                        "You extract transcript-grounded LLM landscape metadata. "
-                        "Return only valid JSON matching the requested shape. "
-                        "Use only the controlled topic slugs provided. "
-                        "Only tag topics when the video is primarily about LLMs, AI models, "
-                        "agents, AI coding tools, RAG, AI evals, AI safety, or AI deployment. "
-                        "Do not map general open-source software, video codecs, infrastructure, "
-                        "or business/team language to LLM topics unless the transcript explicitly "
-                        "connects them to AI/LLM systems."
-                    ),
-                },
+                {"role": "system", "content": _SYSTEM_PROMPT},
                 {
                     "role": "user",
-                    "content": json.dumps(
-                        {
-                            "video": {
-                                "id": video.youtube_video_id,
-                                "title": video.title,
-                                "channel": video.channel.title,
-                                "published_at": video.published_at,
-                            },
-                            "allowed_topic_slugs": sorted(_TOPIC_LABELS),
-                            "allowed_content_types": sorted(_CONTENT_TYPES),
-                            "classification_rule": (
-                                "If LLM/AI coverage is only incidental, return an empty topics array, "
-                                "content_type unknown, and a low confidence_score."
-                            ),
-                            "required_json_shape": {
-                                "primary_speaker": "string or null",
-                                "summary": "one concise sentence grounded in transcript",
-                                "content_type": "one allowed content type",
-                                "stance": "string or null",
-                                "topics": [
-                                    {
-                                        "slug": "allowed topic slug",
-                                        "relevance_score": "0.0 to 1.0",
-                                    }
-                                ],
-                                "evidence": [
-                                    {
-                                        "field_name": "topic or summary",
-                                        "quote": "short exact transcript quote",
-                                        "topic_slug": "allowed topic slug or null",
-                                        "confidence_score": "0.0 to 1.0",
-                                    }
-                                ],
-                                "confidence_score": "0.0 to 1.0",
-                            },
-                            "transcript_excerpt": transcript_excerpt,
-                        },
-                        ensure_ascii=True,
-                    ),
+                    "content": json.dumps(_user_payload(video, transcript_excerpt), ensure_ascii=True),
                 },
             ],
         }
+
+
+def _response_format(provider_name: str) -> dict[str, Any]:
+    if provider_name == "openai":
+        return {
+            "type": "json_schema",
+            "json_schema": {
+                "name": "video_insight",
+                "strict": True,
+                "schema": _INSIGHT_JSON_SCHEMA,
+            },
+        }
+    return {"type": "json_object"}
+
+
+def _user_payload(video: Video, transcript_excerpt: str) -> dict[str, Any]:
+    return {
+        "video": {
+            "id": video.youtube_video_id,
+            "title": video.title,
+            "channel": video.channel.title,
+            "published_at": video.published_at,
+        },
+        "allowed_topic_slugs": _TOPIC_SLUGS,
+        "allowed_content_types": sorted(_CONTENT_TYPES),
+        "classification_rule": (
+            "If LLM/AI coverage is only incidental, return an empty topics array, "
+            "content_type unknown, and a low confidence_score."
+        ),
+        "required_json_schema": _INSIGHT_JSON_SCHEMA,
+        "transcript_excerpt": transcript_excerpt,
+    }
 
 
 def _message_content(response: dict[str, Any]) -> str:
@@ -183,6 +230,7 @@ def _result_from_payload(
     provider: str,
     mode: str = "openai_compatible",
 ) -> EnrichmentResult:
+    _validate_payload(payload)
     topics = tuple(_topic_from_payload(topic) for topic in _as_list(payload.get("topics")))
     evidence = tuple(_evidence_from_payload(item) for item in _as_list(payload.get("evidence")))
     content_type = str(payload.get("content_type") or "unknown").strip().lower()
@@ -203,6 +251,17 @@ def _result_from_payload(
         confidence_score=_clamp_float(payload.get("confidence_score"), default=0.5),
         raw_response={"mode": mode, "response": raw_response},
     )
+
+
+def _validate_payload(payload: dict[str, Any]) -> None:
+    errors = sorted(_INSIGHT_SCHEMA_VALIDATOR.iter_errors(payload), key=lambda error: error.path)
+    if errors:
+        first_error = errors[0]
+        location = ".".join(str(part) for part in first_error.path) or "<root>"
+        raise ValueError(
+            "LLM response JSON did not match insight schema "
+            f"at {location}: {first_error.message}"
+        )
 
 
 def _topic_from_payload(payload: Any) -> Topic:

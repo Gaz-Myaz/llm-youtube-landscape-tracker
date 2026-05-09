@@ -25,6 +25,7 @@ def load_seed_channels(seed_sql_path: Path) -> list[Channel]:
                 description=_sql_unescape(match.group("description")) or None,
                 url=match.group("url"),
                 rss_url=match.group("rss_url"),
+                language=match.group("language") or "en",
             )
         )
     if not channels:
@@ -44,6 +45,7 @@ def load_channels_csv(path: Path) -> list[Channel]:
             url=row["url"],
             rss_url=row.get("rss_url") or None,
             thumbnail_url=row.get("thumbnail_url") or None,
+            language=row.get("language") or "en",
         )
         for row in rows
     ]

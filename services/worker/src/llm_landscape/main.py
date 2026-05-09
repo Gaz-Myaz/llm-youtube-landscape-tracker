@@ -76,7 +76,7 @@ def main() -> None:
             channels=channels,
             videos_per_channel=args.videos_per_channel or settings.videos_per_channel,
             max_videos=args.max_videos or settings.max_videos_per_run,
-            languages=args.languages or ["en"],
+            languages=args.languages,
             transcript_cache_dir=settings.transcript_cache_dir,
             request_delay_seconds=(
                 args.transcript_delay_seconds
@@ -163,7 +163,7 @@ def collect_real_bundles(
     channels: list,
     videos_per_channel: int,
     max_videos: int,
-    languages: list[str],
+    languages: list[str] | None,
     transcript_cache_dir: Path | None = None,
     request_delay_seconds: float = 0.0,
     transcript_providers: list[str] | None = None,
@@ -191,7 +191,7 @@ def collect_real_bundles(
             try:
                 transcript = fetch_youtube_captions(
                     rss_video.youtube_video_id,
-                    languages=languages,
+                    languages=_languages_for_channel(channel, languages),
                     cache_dir=transcript_cache_dir,
                     providers=transcript_providers,
                 )
@@ -216,6 +216,15 @@ def collect_real_bundles(
                 )
             )
     return bundles, skipped
+
+
+def _languages_for_channel(channel, explicit_languages: list[str] | None) -> list[str]:
+    if explicit_languages:
+        return explicit_languages
+    primary_language = (getattr(channel, "language", None) or "en").strip().lower() or "en"
+    if primary_language == "en":
+        return ["en"]
+    return [primary_language, "en"]
 
 
 def _as_iso_datetime(value: str) -> str:

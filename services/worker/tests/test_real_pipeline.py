@@ -7,7 +7,7 @@ from llm_landscape.channels import load_seed_channels
 from llm_landscape.config import load_settings
 from llm_landscape.domain import Channel, Transcript, TranscriptSegment, Video, VideoBundle
 from llm_landscape.llm.base import EnrichmentResult, Evidence, Topic
-from llm_landscape.main import _as_iso_datetime
+from llm_landscape.main import _as_iso_datetime, collect_real_bundles
 from llm_landscape.ranking import fallback_video_score, sort_video_bundles
 from llm_landscape.transcripts.captions import _fetch_ytdlp_transcript_items, fetch_youtube_captions
 
@@ -18,6 +18,7 @@ def test_seed_channels_load_from_sql() -> None:
 
     assert len(channels) >= 5
     assert all(channel.rss_url for channel in channels)
+    assert any(channel.handle == "@Droiderru" and channel.language == "ru" for channel in channels)
 
 
 def test_deterministic_analyzer_extracts_subtitle_topics() -> None:
@@ -362,6 +363,54 @@ def test_caption_fetch_respects_provider_order(monkeypatch) -> None:
     assert transcript.text == "primary caption"
     assert transcript.source == "youtube_captions:youtube_transcript_api"
     assert calls == [("youtube", "video-5", ["en"])]
+
+
+def test_collect_real_bundles_uses_channel_language_when_not_overridden(monkeypatch) -> None:
+    channel = Channel(
+        youtube_channel_id="channel-ru",
+        title="Russian AI Channel",
+        handle="@ru-ai",
+        description=None,
+        url="https://www.youtube.com/@ru-ai",
+        rss_url="https://www.youtube.com/feeds/videos.xml?channel_id=channel-ru",
+        language="ru",
+    )
+    calls = []
+
+    monkeypatch.setattr(
+        "llm_landscape.main.fetch_channel_rss",
+        lambda rss_url, limit: [
+            SimpleNamespace(
+                youtube_video_id="video-ru",
+                title="Russian AI news",
+                url="https://www.youtube.com/watch?v=video-ru",
+                published_at="2026-05-09T00:00:00Z",
+            )
+        ],
+    )
+
+    def fake_fetch_captions(video_id, languages, cache_dir=None, providers=None):
+        calls.append(languages)
+        return Transcript(
+            video_id=video_id,
+            source="test",
+            language=languages[0],
+            text="russian transcript",
+            segments=(TranscriptSegment(0, 0, 1, "russian transcript"),),
+        )
+
+    monkeypatch.setattr("llm_landscape.main.fetch_youtube_captions", fake_fetch_captions)
+
+    bundles, skipped = collect_real_bundles(
+        channels=[channel],
+        videos_per_channel=1,
+        max_videos=1,
+        languages=None,
+    )
+
+    assert not skipped
+    assert bundles[0].transcript.language == "ru"
+    assert calls == [["ru", "en"]]
 
 
 def test_load_settings_reads_optional_ytdlp_cookie_config(monkeypatch) -> None:

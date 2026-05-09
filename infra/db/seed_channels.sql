@@ -28,7 +28,8 @@ insert into channels (youtube_channel_id, title, handle, description, url, rss_u
   ('UCXZCJLdBC09xxGZ6gcdrc6A', 'OpenAI', '@OpenAI', 'Official OpenAI updates, model demos, product launches, and research announcements.', 'https://www.youtube.com/@OpenAI', 'https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A', 'en'),
   ('UCP7jMXSY2xbc3KCAE0MHQ-A', 'Google DeepMind', '@GoogleDeepMind', 'Research and product coverage from Google DeepMind across frontier AI systems.', 'https://www.youtube.com/@GoogleDeepMind', 'https://www.youtube.com/feeds/videos.xml?channel_id=UCP7jMXSY2xbc3KCAE0MHQ-A', 'en'),
   ('UCcIXc5mJsHVYTZR1maL5l9w', 'DeepLearningAI', '@Deeplearningai', 'AI education, applied LLM development, agents, and machine learning course material.', 'https://www.youtube.com/@Deeplearningai', 'https://www.youtube.com/feeds/videos.xml?channel_id=UCcIXc5mJsHVYTZR1maL5l9w', 'en'),
-  ('UCC-lyoTfSrcJzA1ab3APAgw', 'LangChain', '@LangChain', 'Developer-focused LLM application, agent, retrieval, and production workflow coverage.', 'https://www.youtube.com/@LangChain', 'https://www.youtube.com/feeds/videos.xml?channel_id=UCC-lyoTfSrcJzA1ab3APAgw', 'en')
+  ('UCC-lyoTfSrcJzA1ab3APAgw', 'LangChain', '@LangChain', 'Developer-focused LLM application, agent, retrieval, and production workflow coverage.', 'https://www.youtube.com/@LangChain', 'https://www.youtube.com/feeds/videos.xml?channel_id=UCC-lyoTfSrcJzA1ab3APAgw', 'en'),
+  ('UCm5UKq2ziKyx4mlYmcqjo4Q', 'Droiderru', '@Droiderru', 'Russian-language technology and AI product coverage.', 'https://www.youtube.com/@Droiderru', 'https://www.youtube.com/feeds/videos.xml?channel_id=UCm5UKq2ziKyx4mlYmcqjo4Q', 'ru')
 on conflict (youtube_channel_id) do update set
   title = excluded.title,
   handle = excluded.handle,

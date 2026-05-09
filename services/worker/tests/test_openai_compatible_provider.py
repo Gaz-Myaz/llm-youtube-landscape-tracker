@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from types import SimpleNamespace
+import json
 
 import pytest
 
@@ -70,7 +71,9 @@ def test_openai_compatible_provider_extracts_structured_insights(monkeypatch) ->
         "Content-Type": "application/json",
     }
     assert captured["json"]["model"] == "test-model"
-    assert captured["json"]["response_format"] == {"type": "json_object"}
+    assert captured["json"]["response_format"]["type"] == "json_schema"
+    assert captured["json"]["response_format"]["json_schema"]["strict"] is True
+    assert "required_json_schema" in json.loads(captured["json"]["messages"][1]["content"])
     assert result.provider == "openai"
     assert result.model == "test-model"
     assert result.primary_speaker == "host"
@@ -124,6 +127,56 @@ def test_gemini_provider_prefers_gemini_key_over_openai_key(monkeypatch) -> None
     assert provider.model == "gemini-2.5-flash"
 
 
+def test_gemini_provider_keeps_json_object_response_format(monkeypatch) -> None:
+        captured: dict[str, object] = {}
+
+        def fake_post(url: str, headers: dict, json: dict, timeout: float) -> SimpleNamespace:
+                captured["json"] = json
+                return SimpleNamespace(
+                        raise_for_status=lambda: None,
+                        json=lambda: {
+                                "choices": [
+                                        {
+                                                "message": {
+                                                        "content": """
+                                                        {
+                                                            "primary_speaker": null,
+                                                            "summary": "The video explains a model release.",
+                                                            "content_type": "analysis",
+                                                            "stance": null,
+                                                            "topics": [
+                                                                {"slug": "model-releases", "relevance_score": 0.8}
+                                                            ],
+                                                            "evidence": [
+                                                                {
+                                                                    "field_name": "topic",
+                                                                    "quote": "new coding agent release",
+                                                                    "topic_slug": "model-releases",
+                                                                    "confidence_score": 0.8
+                                                                }
+                                                            ],
+                                                            "confidence_score": 0.8
+                                                        }
+                                                        """
+                                                }
+                                        }
+                                ]
+                        },
+                )
+
+        monkeypatch.setattr("llm_landscape.llm.openai_compatible.requests.post", fake_post)
+        provider = OpenAICompatibleProvider(
+                api_key="test-key",
+                base_url="https://example.test/v1/",
+                model="gemini-test-model",
+                provider_name="gemini",
+        )
+
+        provider.extract_video_insights(_video(), _transcript())
+
+        assert captured["json"]["response_format"] == {"type": "json_object"}
+
+
 def test_openai_compatible_provider_rejects_invalid_json(monkeypatch) -> None:
     monkeypatch.setattr(
         "llm_landscape.llm.openai_compatible.requests.post",
@@ -135,6 +188,32 @@ def test_openai_compatible_provider_rejects_invalid_json(monkeypatch) -> None:
     provider = OpenAICompatibleProvider(api_key="test-key", model="test-model")
 
     with pytest.raises(ValueError, match="valid JSON"):
+        provider.extract_video_insights(_video(), _transcript())
+
+
+def test_openai_compatible_provider_rejects_schema_mismatch(monkeypatch) -> None:
+    monkeypatch.setattr(
+        "llm_landscape.llm.openai_compatible.requests.post",
+        lambda *args, **kwargs: SimpleNamespace(
+            raise_for_status=lambda: None,
+            json=lambda: {
+                "choices": [
+                    {
+                        "message": {
+                            "content": """
+                            {
+                              "summary": "Missing required fields"
+                            }
+                            """
+                        }
+                    }
+                ]
+            },
+        ),
+    )
+    provider = OpenAICompatibleProvider(api_key="test-key", model="test-model")
+
+    with pytest.raises(ValueError, match="insight schema"):
         provider.extract_video_insights(_video(), _transcript())
 
 

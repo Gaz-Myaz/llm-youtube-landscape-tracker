@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 from types import SimpleNamespace
 
 import pytest
@@ -70,6 +71,7 @@ def test_anthropic_provider_extracts_structured_insights(monkeypatch) -> None:
     }
     assert captured["json"]["model"] == "claude-test-model"
     assert captured["json"]["max_tokens"] == 1200
+    assert "required_json_schema" in json.loads(captured["json"]["messages"][0]["content"])
     assert result.provider == "anthropic"
     assert result.model == "claude-test-model"
     assert result.content_type == "tutorial"

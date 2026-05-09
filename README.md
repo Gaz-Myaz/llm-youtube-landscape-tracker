@@ -159,11 +159,11 @@ If you want to test another provider manually, create the matching secret instea
 
 ## Data Quality Notes
 
-Scheduled production refreshes use Gemini for transcript-grounded structured extraction. Topic labels, summaries, content types, stance, evidence snippets, and confidence scores come from the selected provider for LLM-backed runs. Evidence snippets and full subtitle text are taken from fetched captions, and the dashboard exposes the full transcript inside the evidence drawer. Video ordering is based on topic strength, topic diversity, evidence coverage, and recency. Relationship edges are based on computed topic overlap rather than free-form guesses.
+Scheduled production refreshes use Gemini for transcript-grounded structured extraction. Topic labels, summaries, content types, stance, evidence snippets, and confidence scores come from the selected provider for LLM-backed runs. Evidence snippets and full subtitle text are taken from fetched captions, and the dashboard exposes the full transcript inside the evidence drawer. Seeded channels carry a preferred caption language, so non-English channels can request their native captions before falling back to English. Video ordering is based on topic strength, topic diversity, evidence coverage, and recency. Relationship edges are based on computed topic overlap rather than free-form guesses.
 
 This deterministic path is intended to remain as a fallback after the LLM phase is added. If provider calls fail, cost limits are hit, or credentials are unavailable, the pipeline can still discover videos, fetch transcripts, assign coarse topics, rank videos, and build channel relationships.
 
-Provider-backed structured extraction is available for scheduled/manual/local runs through Gemini, OpenAI-compatible APIs, and Anthropic. Scheduled GitHub Actions runs use Gemini by default, capped by `MAX_PROVIDER_CALLS_PER_RUN`, while manual runs can still choose `mock`, `gemini`, `openai`, or `anthropic`.
+Provider-backed structured extraction is available for scheduled/manual/local runs through Gemini, OpenAI-compatible APIs, and Anthropic. Scheduled GitHub Actions runs use Gemini by default, capped by `MAX_PROVIDER_CALLS_PER_RUN`, while manual runs can still choose `mock`, `gemini`, `openai`, or `anthropic`. Provider responses are validated against a shared JSON Schema before snapshots are written; OpenAI runs also use strict `json_schema` response format, while Gemini and Anthropic receive the same schema in the prompt and pass through runtime schema validation.
 
 ## GitHub Actions Workflow
 

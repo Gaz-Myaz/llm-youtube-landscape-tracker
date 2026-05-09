@@ -8,10 +8,10 @@ import requests
 from llm_landscape.domain import Transcript, Video
 from llm_landscape.llm.base import EnrichmentResult
 from llm_landscape.llm.openai_compatible import (
-    _CONTENT_TYPES,
-    _TOPIC_LABELS,
+    _SYSTEM_PROMPT,
     _parse_json_object,
     _result_from_payload,
+    _user_payload,
 )
 
 _DEFAULT_BASE_URL = "https://api.anthropic.com/v1"
@@ -79,58 +79,11 @@ class AnthropicProvider:
             "model": self.model,
             "max_tokens": 1200,
             "temperature": 0.1,
-            "system": (
-                "You extract transcript-grounded LLM landscape metadata. "
-                "Return only valid JSON matching the requested shape. "
-                "Use only the controlled topic slugs provided. "
-                "Only tag topics when the video is primarily about LLMs, AI models, "
-                "agents, AI coding tools, RAG, AI evals, AI safety, or AI deployment. "
-                "Do not map general open-source software, video codecs, infrastructure, "
-                "or business/team language to LLM topics unless the transcript explicitly "
-                "connects them to AI/LLM systems."
-            ),
+            "system": _SYSTEM_PROMPT,
             "messages": [
                 {
                     "role": "user",
-                    "content": json.dumps(
-                        {
-                            "video": {
-                                "id": video.youtube_video_id,
-                                "title": video.title,
-                                "channel": video.channel.title,
-                                "published_at": video.published_at,
-                            },
-                            "allowed_topic_slugs": sorted(_TOPIC_LABELS),
-                            "allowed_content_types": sorted(_CONTENT_TYPES),
-                            "classification_rule": (
-                                "If LLM/AI coverage is only incidental, return an empty topics array, "
-                                "content_type unknown, and a low confidence_score."
-                            ),
-                            "required_json_shape": {
-                                "primary_speaker": "string or null",
-                                "summary": "one concise sentence grounded in transcript",
-                                "content_type": "one allowed content type",
-                                "stance": "string or null",
-                                "topics": [
-                                    {
-                                        "slug": "allowed topic slug",
-                                        "relevance_score": "0.0 to 1.0",
-                                    }
-                                ],
-                                "evidence": [
-                                    {
-                                        "field_name": "topic or summary",
-                                        "quote": "short exact transcript quote",
-                                        "topic_slug": "allowed topic slug or null",
-                                        "confidence_score": "0.0 to 1.0",
-                                    }
-                                ],
-                                "confidence_score": "0.0 to 1.0",
-                            },
-                            "transcript_excerpt": transcript_excerpt,
-                        },
-                        ensure_ascii=True,
-                    ),
+                    "content": json.dumps(_user_payload(video, transcript_excerpt), ensure_ascii=True),
                 }
             ],
         }
