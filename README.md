@@ -4,7 +4,7 @@ A transcript-grounded dashboard for tracking how selected YouTube channels cover
 
 The project has two parts:
 
-- A Python worker that discovers videos from YouTube RSS feeds, fetches captions, runs structured enrichment, and exports JSON snapshots.
+- A Python worker that discovers videos from YouTube RSS feeds, fetches transcripts, runs structured enrichment, and exports JSON snapshots.
 - A Next.js dashboard that reads those snapshots and renders video summaries, evidence snippets, channel cards, and a relationship graph.
 
 Live dashboard:
@@ -17,7 +17,7 @@ https://gaz-myaz.github.io/llm-youtube-landscape-tracker/
 
 1. Loads tracked channels from `infra/db/seed_channels.sql`.
 2. Reads recent videos from each channel's RSS feed.
-3. Fetches captions through cache, `youtube-transcript-api`, and `yt-dlp`.
+3. Fetches transcripts through cache, `youtube-transcript-api`, `yt-dlp`, and local Whisper audio fallback when subtitles are unavailable.
 4. Sends caption-backed candidates to the configured enrichment provider.
 5. Validates provider output against the shared insight schema.
 6. Falls back to deterministic analysis for a single video if that video's provider call fails.
@@ -152,7 +152,7 @@ If one provider call or schema validation step fails, the worker uses determinis
 - `provider_fallback_count`
 - `provider_fallback_reasons`
 
-If caption providers cannot return usable subtitles, the worker now falls back to local Whisper transcription from downloaded audio before it gives up on that video. If credentials are missing, the GitHub Actions run fails before export. If `MAX_PROVIDER_CALLS_PER_RUN` is lower than the number of caption-backed candidates, candidates beyond the cap are skipped and recorded in `error_summary`.
+If subtitle providers cannot return usable captions, the worker falls back to local Whisper transcription from downloaded audio before it gives up on that video. This improves coverage, but live events, blocked videos, and YouTube anti-bot responses can still leave a run in a `partial` state. If credentials are missing, the GitHub Actions run fails before export. If `MAX_PROVIDER_CALLS_PER_RUN` is lower than the number of caption-backed candidates, candidates beyond the cap are skipped and recorded in `error_summary`.
 
 The deterministic analyzer remains useful for local runs and fallback cases, but it is less nuanced than provider-backed extraction.
 
@@ -218,8 +218,8 @@ If the exported cookie file contains only the three-line Netscape header and no 
 ## Known Gaps
 
 - PostgreSQL schema exists, but `real-export` currently writes snapshots directly instead of using Postgres as the canonical source of truth.
-- Whisper/audio transcription fallback is not implemented yet. Subtitle fallback through `yt-dlp` is implemented.
+- Whisper fallback improves caption coverage, but some videos still fail when the source is live, unplayable, or YouTube blocks subtitle/audio access.
 - Provider cost is estimated from usage fields and configured rates, not reconciled against billing invoices.
 - Relationship scores use topic overlap, not embeddings or semantic similarity.
 
-PostgreSQL is the next useful architecture step if the project needs durable run history, enrichment caching, evaluation records, and stronger resumability. Whisper/audio transcription fallback is worth adding only if caption miss-rate becomes a meaningful coverage problem.
+PostgreSQL is the next useful architecture step if the project needs durable run history, enrichment caching, evaluation records, and stronger resumability. If caption miss-rate remains meaningful, the next increment is to harden transcript acquisition further rather than to add a first Whisper path from scratch.
