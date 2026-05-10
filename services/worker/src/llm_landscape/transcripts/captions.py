@@ -4,6 +4,7 @@ import html
 import json
 import os
 import re
+import tempfile
 from pathlib import Path
 
 from youtube_transcript_api import YouTubeTranscriptApi
@@ -17,10 +18,14 @@ _PROVIDER_ALIASES = {
     "youtube-transcript-api": "youtube_transcript_api",
     "yt_dlp": "yt_dlp",
     "yt-dlp": "yt_dlp",
+    "whisper": "whisper",
+    "faster_whisper": "whisper",
+    "faster-whisper": "whisper",
 }
 _VTT_TIMESTAMP_RE = re.compile(
     r"(?:(?P<hours>\d+):)?(?P<minutes>\d{2}):(?P<seconds>\d{2})[.,](?P<millis>\d{3})"
 )
+_WHISPER_MODEL_CACHE: dict[tuple[str, str, str], object] = {}
 
 
 def fetch_youtube_captions(
@@ -35,7 +40,7 @@ def fetch_youtube_captions(
         if cached is not None:
             return cached
 
-    provider_order = _normalize_providers(providers or ["youtube_transcript_api", "yt_dlp"])
+    provider_order = _normalize_providers(providers or ["youtube_transcript_api", "yt_dlp", "whisper"])
     errors: list[str] = []
     for provider in provider_order:
         try:
@@ -96,7 +101,7 @@ def _normalize_providers(providers: list[str]) -> list[str]:
         if canonical is None:
             raise ValueError(
                 f"Unsupported transcript provider '{provider}'. "
-                "Use youtube_transcript_api or yt_dlp."
+                "Use youtube_transcript_api, yt_dlp, or whisper."
             )
         if canonical not in normalized:
             normalized.append(canonical)
@@ -112,6 +117,8 @@ def _fetch_provider_transcript_items(
         return _fetch_transcript_items(video_id, languages)
     if provider == "yt_dlp":
         return _fetch_ytdlp_transcript_items(video_id, languages)
+    if provider == "whisper":
+        return _fetch_whisper_transcript_items(video_id, languages)
     raise ValueError(f"Unsupported transcript provider '{provider}'")
 
 
@@ -138,20 +145,7 @@ def _fetch_transcript_items(video_id: str, languages: list[str]) -> list[dict]:
 def _fetch_ytdlp_transcript_items(video_id: str, languages: list[str]) -> list[dict]:
     from yt_dlp import YoutubeDL
 
-    options = {
-        "quiet": True,
-        "no_warnings": True,
-        "skip_download": True,
-        "ignore_no_formats_error": True,
-    }
-    cookies_path = os.getenv("YT_DLP_COOKIES_PATH")
-    cookies_from_browser = os.getenv("YT_DLP_COOKIES_FROM_BROWSER")
-    if cookies_path:
-        options["cookiefile"] = cookies_path
-    if cookies_from_browser:
-        browser_parts = [part.strip() for part in cookies_from_browser.split(":") if part.strip()]
-        if browser_parts:
-            options["cookiesfrombrowser"] = tuple(browser_parts)
+    options = _ytdlp_options(skip_download=True)
     with YoutubeDL(options) as youtube_dl:
         info = youtube_dl.extract_info(_YOUTUBE_WATCH_URL.format(video_id=video_id), download=False)
         track = _select_ytdlp_caption_track(info or {}, languages)
@@ -163,6 +157,118 @@ def _fetch_ytdlp_transcript_items(video_id: str, languages: list[str]) -> list[d
     if extension == "json3" or body.lstrip().startswith("{"):
         return _parse_json3_subtitles(body)
     return _parse_vtt_subtitles(body)
+
+
+def _fetch_whisper_transcript_items(video_id: str, languages: list[str]) -> list[dict]:
+    from yt_dlp import YoutubeDL
+
+    requested_language = _whisper_language(languages)
+    model = _whisper_model()
+
+    with tempfile.TemporaryDirectory(prefix="llm-landscape-whisper-") as temp_dir:
+        temp_path = Path(temp_dir)
+        with YoutubeDL(
+            _ytdlp_options(
+                skip_download=False,
+                outtmpl=str(temp_path / "%(id)s.%(ext)s"),
+            )
+        ) as youtube_dl:
+            info = youtube_dl.extract_info(_YOUTUBE_WATCH_URL.format(video_id=video_id), download=True)
+            audio_path = _downloaded_audio_path(youtube_dl, info or {}, temp_path)
+
+        segments, _info = model.transcribe(
+            str(audio_path),
+            language=requested_language,
+            beam_size=int(os.getenv("WHISPER_BEAM_SIZE", "1")),
+            vad_filter=True,
+        )
+
+        transcript_items = []
+        for segment in segments:
+            text = str(getattr(segment, "text", "")).strip()
+            if not text:
+                continue
+            start_seconds = float(getattr(segment, "start", 0.0) or 0.0)
+            end_seconds = float(getattr(segment, "end", start_seconds) or start_seconds)
+            transcript_items.append(
+                {
+                    "text": text,
+                    "start": start_seconds,
+                    "duration": max(0.0, end_seconds - start_seconds),
+                }
+            )
+        if not transcript_items:
+            raise RuntimeError("whisper produced no transcript items")
+        return transcript_items
+
+
+def _whisper_model():
+    from faster_whisper import WhisperModel
+
+    model_name = os.getenv("WHISPER_MODEL", "tiny")
+    device = os.getenv("WHISPER_DEVICE", "cpu")
+    compute_type = os.getenv("WHISPER_COMPUTE_TYPE", "int8")
+    cache_key = (model_name, device, compute_type)
+    model = _WHISPER_MODEL_CACHE.get(cache_key)
+    if model is None:
+        model = WhisperModel(model_name, device=device, compute_type=compute_type)
+        _WHISPER_MODEL_CACHE[cache_key] = model
+    return model
+
+
+def _whisper_language(languages: list[str]) -> str | None:
+    if not languages:
+        return None
+    primary = str(languages[0]).strip().lower()
+    if not primary:
+        return None
+    return primary.split("-", 1)[0]
+
+
+def _ytdlp_options(
+    *,
+    skip_download: bool,
+    outtmpl: str | None = None,
+) -> dict:
+    options = {
+        "quiet": True,
+        "no_warnings": True,
+    }
+    if skip_download:
+        options["skip_download"] = True
+        options["ignore_no_formats_error"] = True
+    else:
+        options["format"] = "bestaudio/best"
+        options["outtmpl"] = outtmpl
+        options["noplaylist"] = True
+        options["overwrites"] = True
+    cookies_path = os.getenv("YT_DLP_COOKIES_PATH")
+    cookies_from_browser = os.getenv("YT_DLP_COOKIES_FROM_BROWSER")
+    if cookies_path:
+        options["cookiefile"] = cookies_path
+    if cookies_from_browser:
+        browser_parts = [part.strip() for part in cookies_from_browser.split(":") if part.strip()]
+        if browser_parts:
+            options["cookiesfrombrowser"] = tuple(browser_parts)
+    return options
+
+
+def _downloaded_audio_path(youtube_dl, info: dict, temp_dir: Path) -> Path:
+    requested_downloads = info.get("requested_downloads") or []
+    for download in requested_downloads:
+        path = download.get("filepath")
+        if path and Path(path).exists():
+            return Path(path)
+
+    prepared = Path(youtube_dl.prepare_filename(info))
+    if prepared.exists():
+        return prepared
+
+    for path in temp_dir.iterdir():
+        if path.is_file():
+            return path
+
+    raise RuntimeError("yt-dlp did not download an audio file for whisper transcription")
 
 
 def _download_ytdlp_caption_body(youtube_dl, track: dict) -> str:

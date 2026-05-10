@@ -14,7 +14,11 @@ from llm_landscape.main import (
     collect_real_bundles,
 )
 from llm_landscape.ranking import fallback_video_score, sort_video_bundles
-from llm_landscape.transcripts.captions import _fetch_ytdlp_transcript_items, fetch_youtube_captions
+from llm_landscape.transcripts.captions import (
+    _fetch_whisper_transcript_items,
+    _fetch_ytdlp_transcript_items,
+    fetch_youtube_captions,
+)
 
 
 def test_seed_channels_load_from_sql() -> None:
@@ -370,6 +374,41 @@ def test_caption_fetch_respects_provider_order(monkeypatch) -> None:
     assert calls == [("youtube", "video-5", ["en"])]
 
 
+def test_caption_fetch_falls_back_to_whisper(monkeypatch, tmp_path) -> None:
+    calls = []
+
+    def unavailable(video_id: str, languages: list[str]) -> list[dict]:
+        calls.append(("youtube", video_id, languages))
+        raise RuntimeError("blocked")
+
+    def no_subtitles(video_id: str, languages: list[str]) -> list[dict]:
+        calls.append(("yt_dlp", video_id, languages))
+        raise RuntimeError("no subtitles")
+
+    def whisper(video_id: str, languages: list[str]) -> list[dict]:
+        calls.append(("whisper", video_id, languages))
+        return [{"text": "audio transcript", "start": 4, "duration": 3}]
+
+    monkeypatch.setattr("llm_landscape.transcripts.captions._fetch_transcript_items", unavailable)
+    monkeypatch.setattr("llm_landscape.transcripts.captions._fetch_ytdlp_transcript_items", no_subtitles)
+    monkeypatch.setattr("llm_landscape.transcripts.captions._fetch_whisper_transcript_items", whisper)
+
+    transcript = fetch_youtube_captions(
+        "video-6",
+        ["en"],
+        cache_dir=tmp_path,
+        providers=["youtube_transcript_api", "yt_dlp", "whisper"],
+    )
+
+    assert transcript.text == "audio transcript"
+    assert transcript.source == "youtube_captions:whisper"
+    assert calls == [
+        ("youtube", "video-6", ["en"]),
+        ("yt_dlp", "video-6", ["en"]),
+        ("whisper", "video-6", ["en"]),
+    ]
+
+
 def test_collect_real_bundles_uses_channel_language_when_not_overridden(monkeypatch) -> None:
     channel = Channel(
         youtube_channel_id="channel-ru",
@@ -408,6 +447,7 @@ def test_collect_real_bundles_uses_channel_language_when_not_overridden(monkeypa
 
     bundles, skipped = collect_real_bundles(
         channels=[channel],
+        max_channels=1,
         videos_per_channel=1,
         max_videos=1,
         languages=None,
@@ -416,6 +456,67 @@ def test_collect_real_bundles_uses_channel_language_when_not_overridden(monkeypa
     assert not skipped
     assert bundles[0].transcript.language == "ru"
     assert calls == [["ru", "en"]]
+
+
+def test_collect_real_bundles_respects_max_channels(monkeypatch) -> None:
+    channels = [
+        Channel(
+            youtube_channel_id="channel-1",
+            title="Channel One",
+            handle="@one",
+            description=None,
+            url="https://www.youtube.com/@one",
+            rss_url="https://www.youtube.com/feeds/videos.xml?channel_id=channel-1",
+            language="en",
+        ),
+        Channel(
+            youtube_channel_id="channel-2",
+            title="Channel Two",
+            handle="@two",
+            description=None,
+            url="https://www.youtube.com/@two",
+            rss_url="https://www.youtube.com/feeds/videos.xml?channel_id=channel-2",
+            language="en",
+        ),
+    ]
+    rss_calls = []
+
+    def fake_fetch_rss(rss_url: str, limit: int):
+        rss_calls.append((rss_url, limit))
+        video_suffix = rss_url.rsplit("=", 1)[-1]
+        return [
+            SimpleNamespace(
+                youtube_video_id=f"video-{video_suffix}",
+                title=f"Title for {video_suffix}",
+                url=f"https://www.youtube.com/watch?v=video-{video_suffix}",
+                published_at="2026-05-09T00:00:00Z",
+            )
+        ]
+
+    monkeypatch.setattr("llm_landscape.main.fetch_channel_rss", fake_fetch_rss)
+    monkeypatch.setattr(
+        "llm_landscape.main.fetch_youtube_captions",
+        lambda video_id, languages, cache_dir=None, providers=None: Transcript(
+            video_id=video_id,
+            source="test",
+            language=languages[0],
+            text=f"transcript for {video_id}",
+            segments=(TranscriptSegment(0, 0, 1, f"transcript for {video_id}"),),
+        ),
+    )
+
+    bundles, skipped = collect_real_bundles(
+        channels=channels,
+        max_channels=1,
+        videos_per_channel=1,
+        max_videos=10,
+        languages=["en"],
+    )
+
+    assert not skipped
+    assert len(bundles) == 1
+    assert bundles[0].video.channel.title == "Channel One"
+    assert rss_calls == [(channels[0].rss_url, 1)]
 
 
 def test_provider_failure_falls_back_to_deterministic_analysis() -> None:
@@ -471,6 +572,7 @@ def test_provider_failure_falls_back_to_deterministic_analysis() -> None:
 def test_load_settings_reads_optional_ytdlp_cookie_config(monkeypatch) -> None:
     monkeypatch.setenv("YT_DLP_COOKIES_PATH", ".github/yt-dlp-cookies.txt")
     monkeypatch.setenv("YT_DLP_COOKIES_FROM_BROWSER", "chrome:Default")
+    monkeypatch.setenv("MAX_CHANNELS_PER_RUN", "10")
     monkeypatch.setenv("WORKER_PROVIDER", "gemini")
     monkeypatch.setenv("GEMINI_API_KEY", "test-key")
     monkeypatch.setenv("GEMINI_BASE_URL", "https://example.test/v1beta/openai")
@@ -482,9 +584,75 @@ def test_load_settings_reads_optional_ytdlp_cookie_config(monkeypatch) -> None:
     assert settings.openai_api_key == "test-key"
     assert settings.openai_base_url == "https://example.test/v1beta/openai"
     assert settings.openai_model == "gemini-test-model"
+    assert settings.max_channels_per_run == 10
     assert settings.yt_dlp_cookies_path is not None
     assert settings.yt_dlp_cookies_path.as_posix().endswith(".github/yt-dlp-cookies.txt")
     assert settings.yt_dlp_cookies_from_browser == "chrome:Default"
+
+
+def test_whisper_transcript_fetch_downloads_audio_and_transcribes(monkeypatch) -> None:
+    captured: dict[str, object] = {}
+
+    class FakeWhisperModel:
+        def __init__(self, model_name: str, device: str, compute_type: str) -> None:
+            captured["model"] = (model_name, device, compute_type)
+
+        def transcribe(self, audio_path: str, language: str | None, beam_size: int, vad_filter: bool):
+            captured["transcribe"] = {
+                "audio_path": audio_path,
+                "language": language,
+                "beam_size": beam_size,
+                "vad_filter": vad_filter,
+            }
+            return [SimpleNamespace(start=0.0, end=1.25, text=" audio fallback ")], None
+
+    class FakeYoutubeDL:
+        def __init__(self, options: dict) -> None:
+            self.options = options
+            captured["options"] = options
+
+        def __enter__(self):
+            return self
+
+        def __exit__(self, exc_type, exc, tb) -> bool:
+            return False
+
+        def extract_info(self, url: str, download: bool = False) -> dict:
+            captured["extract_url"] = url
+            captured["download"] = download
+            outtmpl = Path(str(self.options["outtmpl"]).replace("%(id)s", "video-7").replace("%(ext)s", "m4a"))
+            outtmpl.parent.mkdir(parents=True, exist_ok=True)
+            outtmpl.write_bytes(b"audio")
+            return {
+                "id": "video-7",
+                "ext": "m4a",
+                "requested_downloads": [{"filepath": str(outtmpl)}],
+            }
+
+        def prepare_filename(self, info: dict) -> str:
+            return str(
+                Path(str(self.options["outtmpl"]).replace("%(id)s", info["id"]).replace("%(ext)s", info["ext"]))
+            )
+
+    monkeypatch.setitem(sys.modules, "yt_dlp", SimpleNamespace(YoutubeDL=FakeYoutubeDL))
+    monkeypatch.setitem(sys.modules, "faster_whisper", SimpleNamespace(WhisperModel=FakeWhisperModel))
+    monkeypatch.setattr("llm_landscape.transcripts.captions._WHISPER_MODEL_CACHE", {})
+    monkeypatch.setenv("WHISPER_MODEL", "tiny")
+    monkeypatch.setenv("WHISPER_DEVICE", "cpu")
+    monkeypatch.setenv("WHISPER_COMPUTE_TYPE", "int8")
+
+    items = _fetch_whisper_transcript_items("video-7", ["ru", "en"])
+
+    assert items == [{"text": "audio fallback", "start": 0.0, "duration": 1.25}]
+    assert captured["model"] == ("tiny", "cpu", "int8")
+    assert captured["extract_url"] == "https://www.youtube.com/watch?v=video-7"
+    assert captured["download"] is True
+    assert captured["transcribe"] == {
+        "audio_path": captured["transcribe"]["audio_path"],
+        "language": "ru",
+        "beam_size": 1,
+        "vad_filter": True,
+    }
 
 
 def test_ytdlp_caption_fetch_reuses_ytdlp_cookie_session(monkeypatch) -> None:

@@ -60,7 +60,7 @@ python -m llm_landscape.main validate-snapshots --data-dir ..\..\apps\web\public
 Generate real caption-backed snapshots with deterministic local analysis:
 
 ```powershell
-python -m llm_landscape.main real-export --output-dir ..\..\apps\web\public\data --videos-per-channel 3 --max-videos 15
+python -m llm_landscape.main real-export --output-dir ..\..\apps\web\public\data --max-channels 10 --videos-per-channel 5 --max-videos 50
 python -m llm_landscape.main validate-snapshots --data-dir ..\..\apps\web\public\data
 ```
 
@@ -70,8 +70,8 @@ Generate real caption-backed snapshots with Gemini:
 $env:WORKER_PROVIDER = "gemini"
 $env:GEMINI_API_KEY = "..."
 $env:GEMINI_MODEL = "gemini-2.5-flash"
-$env:MAX_PROVIDER_CALLS_PER_RUN = "5"
-python -m llm_landscape.main real-export --output-dir ..\..\apps\web\public\data --videos-per-channel 2 --max-videos 5
+$env:MAX_PROVIDER_CALLS_PER_RUN = "50"
+python -m llm_landscape.main real-export --output-dir ..\..\apps\web\public\data --max-channels 10 --videos-per-channel 5 --max-videos 50
 python -m llm_landscape.main validate-snapshots --data-dir ..\..\apps\web\public\data
 ```
 
@@ -117,12 +117,14 @@ Important settings:
 - `OPENAI_API_KEY`, `OPENAI_BASE_URL`, `OPENAI_MODEL`: OpenAI-compatible provider settings.
 - `ANTHROPIC_API_KEY`, `ANTHROPIC_BASE_URL`, `ANTHROPIC_MODEL`: Anthropic provider settings.
 - `MAX_PROVIDER_CALLS_PER_RUN`: hard cap on paid provider calls per run.
+- `MAX_CHANNELS_PER_RUN`: maximum seeded channels to inspect in one run.
 - `VIDEOS_PER_CHANNEL`: RSS entries to inspect per seeded channel.
 - `MAX_VIDEOS_PER_RUN`: maximum candidate videos to attempt in one run.
-- `TRANSCRIPT_PROVIDERS`: caption provider order. Default: `youtube_transcript_api,yt_dlp` locally and `yt_dlp,youtube_transcript_api` in CI.
+- `TRANSCRIPT_PROVIDERS`: transcript provider order. Default: `youtube_transcript_api,yt_dlp,whisper` locally and `yt_dlp,youtube_transcript_api,whisper` in CI.
 - `TRANSCRIPT_REQUEST_DELAY_SECONDS`: delay between uncached transcript requests.
 - `YT_DLP_COOKIES_PATH`: path to a Netscape-format YouTube cookies file for `yt-dlp`.
 - `YT_DLP_COOKIES_FROM_BROWSER`: optional local-only browser cookie source such as `chrome:Default`.
+- `WHISPER_MODEL`, `WHISPER_DEVICE`, `WHISPER_COMPUTE_TYPE`: local audio-transcription fallback settings. Defaults: `tiny`, `cpu`, `int8`.
 - `TRANSCRIPT_CACHE_DIR`: local transcript cache directory.
 - `SNAPSHOT_OUTPUT_DIR`: snapshot output directory.
 - `CONTRACTS_DIR`: JSON Schema contract directory.
@@ -150,7 +152,7 @@ If one provider call or schema validation step fails, the worker uses determinis
 - `provider_fallback_count`
 - `provider_fallback_reasons`
 
-If credentials are missing, the GitHub Actions run fails before export. If `MAX_PROVIDER_CALLS_PER_RUN` is lower than the number of caption-backed candidates, candidates beyond the cap are skipped and recorded in `error_summary`.
+If caption providers cannot return usable subtitles, the worker now falls back to local Whisper transcription from downloaded audio before it gives up on that video. If credentials are missing, the GitHub Actions run fails before export. If `MAX_PROVIDER_CALLS_PER_RUN` is lower than the number of caption-backed candidates, candidates beyond the cap are skipped and recorded in `error_summary`.
 
 The deterministic analyzer remains useful for local runs and fallback cases, but it is less nuanced than provider-backed extraction.
 
@@ -167,9 +169,10 @@ Scheduled data refreshes:
 
 - run every 12 hours;
 - use Gemini by default;
-- inspect two recent RSS entries per seeded channel;
-- cap each run at 30 candidate videos;
-- prefer authenticated `yt_dlp` caption fetching in CI;
+- inspect up to ten seeded channels per run;
+- inspect five recent RSS entries per selected channel;
+- cap each run at 50 candidate videos and 50 provider calls;
+- prefer authenticated `yt_dlp` caption fetching in CI, with Whisper audio transcription as the last fallback;
 - commit changed snapshot files after validation.
 
 Required scheduled secrets:

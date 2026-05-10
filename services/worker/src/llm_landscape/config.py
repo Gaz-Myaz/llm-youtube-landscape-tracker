@@ -28,6 +28,7 @@ class Settings:
     anthropic_model: str
     max_videos_per_run: int
     max_provider_calls_per_run: int
+    max_channels_per_run: int
     videos_per_channel: int
     transcript_request_delay_seconds: float
     transcript_providers: tuple[str, ...]
@@ -46,7 +47,7 @@ def load_settings() -> Settings:
     seed_channels_path = os.getenv("SEED_CHANNELS_PATH", "infra/db/seed_channels.sql")
     transcript_cache_dir = os.getenv("TRANSCRIPT_CACHE_DIR", "data/transcripts")
     transcript_request_delay_seconds = os.getenv("TRANSCRIPT_REQUEST_DELAY_SECONDS", "0.75")
-    transcript_providers = os.getenv("TRANSCRIPT_PROVIDERS", "youtube_transcript_api,yt_dlp")
+    transcript_providers = os.getenv("TRANSCRIPT_PROVIDERS", "youtube_transcript_api,yt_dlp,whisper")
     yt_dlp_cookies_path = os.getenv("YT_DLP_COOKIES_PATH") or None
     yt_dlp_cookies_from_browser = os.getenv("YT_DLP_COOKIES_FROM_BROWSER") or None
     provider = os.getenv("WORKER_PROVIDER", "mock").strip().lower()
@@ -74,8 +75,9 @@ def load_settings() -> Settings:
         anthropic_api_key=os.getenv("ANTHROPIC_API_KEY") or None,
         anthropic_base_url=os.getenv("ANTHROPIC_BASE_URL", "https://api.anthropic.com/v1"),
         anthropic_model=os.getenv("ANTHROPIC_MODEL", "claude-3-5-haiku-latest"),
-        max_videos_per_run=int(os.getenv("MAX_VIDEOS_PER_RUN", "25")),
+        max_videos_per_run=int(os.getenv("MAX_VIDEOS_PER_RUN", "50")),
         max_provider_calls_per_run=int(os.getenv("MAX_PROVIDER_CALLS_PER_RUN", "50")),
+        max_channels_per_run=int(os.getenv("MAX_CHANNELS_PER_RUN", "10")),
         videos_per_channel=int(os.getenv("VIDEOS_PER_CHANNEL", "5")),
         transcript_request_delay_seconds=float(transcript_request_delay_seconds),
         transcript_providers=tuple(

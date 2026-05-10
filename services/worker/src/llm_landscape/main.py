@@ -51,6 +51,7 @@ def main() -> None:
     )
     real_export.add_argument("--output-dir", type=Path, default=None)
     real_export.add_argument("--channels-csv", type=Path, default=None)
+    real_export.add_argument("--max-channels", type=int, default=None)
     real_export.add_argument("--videos-per-channel", type=int, default=None)
     real_export.add_argument("--max-videos", type=int, default=None)
     real_export.add_argument("--language", action="append", dest="languages", default=None)
@@ -92,6 +93,11 @@ def main() -> None:
         )
         bundles, skipped = collect_real_bundles(
             channels=channels,
+            max_channels=(
+                args.max_channels
+                if args.max_channels is not None
+                else settings.max_channels_per_run
+            ),
             videos_per_channel=args.videos_per_channel or settings.videos_per_channel,
             max_videos=args.max_videos or settings.max_videos_per_run,
             languages=args.languages,
@@ -232,6 +238,7 @@ def _extract_with_provider_fallback(
 
 def collect_real_bundles(
     channels: list,
+    max_channels: int | None,
     videos_per_channel: int,
     max_videos: int,
     languages: list[str] | None,
@@ -242,7 +249,8 @@ def collect_real_bundles(
     bundles: list[VideoBundle] = []
     skipped: list[str] = []
     seen_video_ids: set[str] = set()
-    for channel in channels:
+    selected_channels = channels if max_channels is None or max_channels <= 0 else channels[:max_channels]
+    for channel in selected_channels:
         if not channel.rss_url:
             skipped.append(f"{channel.title}: missing RSS URL")
             continue
