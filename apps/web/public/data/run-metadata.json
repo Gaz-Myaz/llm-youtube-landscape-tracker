@@ -1,8 +1,8 @@
 {
   "content_hashes": {
-    "channels": "c812b8f608335c19a7bc4804afe69a2e5a64c9c2d4d6b3d1d0a1062326277eb3",
-    "relationships": "a796c2d38832e5ae3b3ae78538e4faec1415fa89976fca11aef3b2c1cd49539b",
-    "videos": "c53b3e2b713a1502d26ca63f50065f8abb86f03cf46b3549a79ebf57eda2b4e4"
+    "channels": "750ecd697773994e9ff86b113d22b1e5819055a4e413a3e0572758bc7d8c524b",
+    "relationships": "cf652aa1d89d803742506c4d0fc41c692a8c8d8f2054115efc963416e4c7cf5a",
+    "videos": "dc399a500cd56461907582a3153772f26dc449700ed5eeb3343aef05ce931293"
   },
   "cost_rates": {
     "input_usd_per_1m_tokens": 0.3,
@@ -10,8 +10,8 @@
     "source": "default"
   },
   "error_summary": "Filtered 9 caption-backed videos outside configured LLM landscape rules: nepKKz-MzFM: no gemini LLM landscape signal; iKx3gAODybU: no gemini LLM landscape signal; MtxP2pyCvYA: no gemini LLM landscape signal; 6 more",
-  "estimated_cost_usd": 0.0,
-  "last_successful_run_at": "2026-05-10T09:35:13Z",
+  "estimated_cost_usd": 0.087247,
+  "last_successful_run_at": "2026-05-10T09:45:40Z",
   "model": "gemini-2.5-flash",
   "provider": "gemini",
   "provider_call_count": 28,
@@ -21,9 +21,9 @@
   "schema_version": "1.0",
   "status": "success",
   "token_usage": {
-    "input_tokens": 0,
-    "output_tokens": 0,
-    "total_tokens": 0
+    "input_tokens": 158780,
+    "output_tokens": 15845,
+    "total_tokens": 221949
   },
   "videos_failed": 0,
   "videos_processed": 19,
