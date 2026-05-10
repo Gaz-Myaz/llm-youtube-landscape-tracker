@@ -1,31 +1,31 @@
 {
   "content_hashes": {
-    "channels": "792617348f7c6715989e68686a0a067644a90ab85dfd797dcafe1ea9da425c0c",
-    "relationships": "9fabfebc58201fe7a105b1657273724d1cab8054fa912ba6b3e41ca62cc1ad3e",
-    "videos": "01a106d1b8bed87b024fdaf71f22635190c881e04f4e923bd0949f5d661e1279"
+    "channels": "838ca280c7bf7ca0db3a3ed72ec83296ecca7ca5dfdfe3a5c441f84a610212fe",
+    "relationships": "0f38c434f649d2c2f41e0f93b23bb0f0b829a195a6465476adb95a1d14bf618b",
+    "videos": "9a4d478b49732bc82199dd82a6fd1f8849d1c25527dabd2455e8b89ab5839bca"
   },
   "cost_rates": {
     "input_usd_per_1m_tokens": 0.3,
     "output_usd_per_1m_tokens": 2.5,
     "source": "default"
   },
-  "error_summary": "Filtered 10 caption-backed videos outside configured LLM landscape rules: nepKKz-MzFM: no gemini LLM landscape signal; iKx3gAODybU: no gemini LLM landscape signal; MtxP2pyCvYA: no gemini LLM landscape signal; 7 more",
+  "error_summary": "Skipped 2 videos/channels while fetching real captions: LangChain: RSS fetch failed (Failed to parse RSS feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCC-lyoTfSrcJzA1ab3APAgw); Droiderru: RSS fetch failed (Failed to parse RSS feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCm5UKq2ziKyx4mlYmcqjo4Q) Filtered 6 caption-backed videos outside configured LLM landscape rules: nepKKz-MzFM: no gemini LLM landscape signal; iKx3gAODybU: no gemini LLM landscape signal; MtxP2pyCvYA: no gemini LLM landscape signal; 3 more",
   "estimated_cost_usd": 0.0,
-  "last_successful_run_at": "2026-05-09T16:51:56Z",
+  "last_successful_run_at": "2026-05-10T04:22:56Z",
   "model": "gemini-2.5-flash",
   "provider": "gemini",
-  "provider_call_count": 28,
+  "provider_call_count": 24,
   "provider_fallback_count": 0,
   "provider_fallback_reasons": [],
-  "provider_success_count": 28,
+  "provider_success_count": 24,
   "schema_version": "1.0",
-  "status": "success",
+  "status": "partial",
   "token_usage": {
     "input_tokens": 0,
     "output_tokens": 0,
     "total_tokens": 0
   },
-  "videos_failed": 0,
+  "videos_failed": 2,
   "videos_processed": 18,
-  "videos_seen": 28
+  "videos_seen": 26
 }
