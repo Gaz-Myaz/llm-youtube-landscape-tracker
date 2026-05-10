@@ -13,14 +13,19 @@
           "slug": "agents"
         },
         {
+          "label": "Model Releases",
+          "score": 0.9,
+          "slug": "model-releases"
+        },
+        {
           "label": "RAG",
-          "score": 0.85,
+          "score": 0.7,
           "slug": "rag"
         },
         {
-          "label": "Model Releases",
-          "score": 0.7,
-          "slug": "model-releases"
+          "label": "Evaluation",
+          "score": 0.6,
+          "slug": "evals"
         }
       ],
       "url": "https://www.youtube.com/@matthew_berman",
@@ -46,12 +51,12 @@
         },
         {
           "label": "AI Agents",
-          "score": 0.9,
+          "score": 0.8,
           "slug": "agents"
         },
         {
           "label": "Model Releases",
-          "score": 0.7,
+          "score": 0.6,
           "slug": "model-releases"
         },
         {
@@ -78,13 +83,8 @@
         },
         {
           "label": "Coding Assistants",
-          "score": 0.9,
+          "score": 1.0,
           "slug": "coding-assistants"
-        },
-        {
-          "label": "Evaluation",
-          "score": 0.7,
-          "slug": "evals"
         }
       ],
       "url": "https://www.youtube.com/@Deeplearningai",
@@ -104,24 +104,24 @@
           "slug": "model-releases"
         },
         {
-          "label": "Open Source Models",
-          "score": 1.0,
-          "slug": "open-source-models"
-        },
-        {
           "label": "Benchmarks",
-          "score": 0.9,
+          "score": 1.0,
           "slug": "benchmarks"
         },
         {
+          "label": "Evaluation",
+          "score": 1.0,
+          "slug": "evals"
+        },
+        {
           "label": "Safety and Alignment",
-          "score": 0.9,
+          "score": 1.0,
           "slug": "safety-alignment"
         },
         {
-          "label": "Evaluation",
-          "score": 0.8,
-          "slug": "evals"
+          "label": "Open Source Models",
+          "score": 1.0,
+          "slug": "open-source-models"
         }
       ],
       "url": "https://www.youtube.com/@TwoMinutePapers",
@@ -147,23 +147,60 @@
         },
         {
           "label": "Multimodal",
-          "score": 0.9,
+          "score": 1.0,
           "slug": "multimodal"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.8,
+          "slug": "coding-assistants"
         },
         {
           "label": "Enterprise Adoption",
           "score": 0.8,
           "slug": "enterprise-adoption"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.7,
-          "slug": "coding-assistants"
         }
       ],
       "url": "https://www.youtube.com/@OpenAI",
       "video_count": 2,
       "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
+    },
+    {
+      "description": "Developer-focused LLM application, agent, retrieval, and production workflow coverage.",
+      "handle": "@LangChain",
+      "latest_video_at": "2026-05-07T14:01:28Z",
+      "thumbnail_url": null,
+      "title": "LangChain",
+      "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 1.0,
+          "slug": "agents"
+        },
+        {
+          "label": "Enterprise Adoption",
+          "score": 0.9,
+          "slug": "enterprise-adoption"
+        },
+        {
+          "label": "Evaluation",
+          "score": 0.8,
+          "slug": "evals"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.7,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "RAG",
+          "score": 0.7,
+          "slug": "rag"
+        }
+      ],
+      "url": "https://www.youtube.com/@LangChain",
+      "video_count": 2,
+      "youtube_channel_id": "UCC-lyoTfSrcJzA1ab3APAgw"
     },
     {
       "description": "Accessible analysis of frontier models, agents, local inference, and open-weight AI.",
@@ -183,19 +220,19 @@
           "slug": "benchmarks"
         },
         {
-          "label": "AI Agents",
-          "score": 0.9,
-          "slug": "agents"
-        },
-        {
           "label": "Evaluation",
-          "score": 0.85,
+          "score": 0.9,
           "slug": "evals"
         },
         {
-          "label": "Safety and Alignment",
+          "label": "AI Agents",
           "score": 0.8,
-          "slug": "safety-alignment"
+          "slug": "agents"
+        },
+        {
+          "label": "Enterprise Adoption",
+          "score": 0.7,
+          "slug": "enterprise-adoption"
         }
       ],
       "url": "https://www.youtube.com/@AIExplained-official",
@@ -240,43 +277,6 @@
       "youtube_channel_id": "UCP7jMXSY2xbc3KCAE0MHQ-A"
     },
     {
-      "description": "Research-heavy coverage of machine learning papers, model releases, and AI systems.",
-      "handle": "@YannicKilcher",
-      "latest_video_at": "2026-03-06T22:07:33Z",
-      "thumbnail_url": null,
-      "title": "Yannic Kilcher",
-      "top_topics": [
-        {
-          "label": "Local Inference",
-          "score": 1.0,
-          "slug": "local-inference"
-        },
-        {
-          "label": "AI Agents",
-          "score": 0.9,
-          "slug": "agents"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.9,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.85,
-          "slug": "open-source-models"
-        },
-        {
-          "label": "Fine Tuning",
-          "score": 0.8,
-          "slug": "fine-tuning"
-        }
-      ],
-      "url": "https://www.youtube.com/@YannicKilcher",
-      "video_count": 2,
-      "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
-    },
-    {
       "description": "Technical courses and tutorials, including practical AI application development.",
       "handle": "@freecodecamp",
       "latest_video_at": "2026-05-08T12:18:26Z",
@@ -307,20 +307,47 @@
         },
         {
           "label": "Coding Assistants",
-          "score": 0.7,
+          "score": 0.8,
           "slug": "coding-assistants"
-        },
-        {
-          "label": "Enterprise Adoption",
-          "score": 0.6,
-          "slug": "enterprise-adoption"
         }
       ],
       "url": "https://www.youtube.com/@Fireship",
       "video_count": 1,
       "youtube_channel_id": "UCsBjURrPoezykLs9EqgamOA"
+    },
+    {
+      "description": "Research-heavy coverage of machine learning papers, model releases, and AI systems.",
+      "handle": "@YannicKilcher",
+      "latest_video_at": "2026-03-06T22:07:33Z",
+      "thumbnail_url": null,
+      "title": "Yannic Kilcher",
+      "top_topics": [
+        {
+          "label": "Local Inference",
+          "score": 1.0,
+          "slug": "local-inference"
+        },
+        {
+          "label": "AI Agents",
+          "score": 0.9,
+          "slug": "agents"
+        },
+        {
+          "label": "Open Source Models",
+          "score": 0.8,
+          "slug": "open-source-models"
+        },
+        {
+          "label": "Fine Tuning",
+          "score": 0.6,
+          "slug": "fine-tuning"
+        }
+      ],
+      "url": "https://www.youtube.com/@YannicKilcher",
+      "video_count": 1,
+      "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
     }
   ],
-  "generated_at": "2026-05-10T04:22:56Z",
+  "generated_at": "2026-05-10T09:35:13Z",
   "schema_version": "1.0"
 }
