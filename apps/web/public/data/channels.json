@@ -14,7 +14,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.8,
+          "score": 0.9,
           "slug": "model-releases"
         }
       ],
@@ -40,19 +40,19 @@
           "slug": "agents"
         },
         {
+          "label": "Evaluation",
+          "score": 0.9,
+          "slug": "evals"
+        },
+        {
           "label": "Enterprise Adoption",
           "score": 0.9,
           "slug": "enterprise-adoption"
         },
         {
-          "label": "Evaluation",
+          "label": "Model Releases",
           "score": 0.8,
-          "slug": "evals"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.7,
-          "slug": "coding-assistants"
+          "slug": "model-releases"
         }
       ],
       "url": "https://www.youtube.com/@WesRoth",
@@ -73,7 +73,7 @@
         },
         {
           "label": "Coding Assistants",
-          "score": 0.9,
+          "score": 0.95,
           "slug": "coding-assistants"
         }
       ],
@@ -94,23 +94,23 @@
           "slug": "model-releases"
         },
         {
+          "label": "Benchmarks",
+          "score": 1.0,
+          "slug": "benchmarks"
+        },
+        {
+          "label": "Safety and Alignment",
+          "score": 1.0,
+          "slug": "safety-alignment"
+        },
+        {
           "label": "Open Source Models",
           "score": 1.0,
           "slug": "open-source-models"
         },
         {
-          "label": "Benchmarks",
-          "score": 0.9,
-          "slug": "benchmarks"
-        },
-        {
-          "label": "Safety and Alignment",
-          "score": 0.9,
-          "slug": "safety-alignment"
-        },
-        {
           "label": "Evaluation",
-          "score": 0.8,
+          "score": 0.9,
           "slug": "evals"
         }
       ],
@@ -126,19 +126,24 @@
       "title": "OpenAI",
       "top_topics": [
         {
-          "label": "AI Agents",
-          "score": 1.0,
-          "slug": "agents"
-        },
-        {
           "label": "Model Releases",
           "score": 1.0,
           "slug": "model-releases"
         },
         {
+          "label": "AI Agents",
+          "score": 0.95,
+          "slug": "agents"
+        },
+        {
           "label": "Multimodal",
           "score": 0.9,
           "slug": "multimodal"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.85,
+          "slug": "coding-assistants"
         },
         {
           "label": "Enterprise Adoption",
@@ -163,23 +168,23 @@
           "slug": "agents"
         },
         {
-          "label": "Open Source Models",
-          "score": 0.9,
-          "slug": "open-source-models"
-        },
-        {
-          "label": "Evaluation",
-          "score": 0.9,
-          "slug": "evals"
-        },
-        {
           "label": "Enterprise Adoption",
-          "score": 0.85,
+          "score": 0.9,
           "slug": "enterprise-adoption"
         },
         {
+          "label": "Evaluation",
+          "score": 0.8,
+          "slug": "evals"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.7,
+          "slug": "coding-assistants"
+        },
+        {
           "label": "RAG",
-          "score": 0.75,
+          "score": 0.7,
           "slug": "rag"
         }
       ],
@@ -211,7 +216,7 @@
         },
         {
           "label": "Safety and Alignment",
-          "score": 0.7,
+          "score": 0.85,
           "slug": "safety-alignment"
         }
       ],
@@ -237,18 +242,18 @@
           "slug": "open-source-models"
         },
         {
-          "label": "AI Agents",
-          "score": 0.95,
-          "slug": "agents"
-        },
-        {
           "label": "Local Inference",
-          "score": 0.9,
+          "score": 1.0,
           "slug": "local-inference"
         },
         {
+          "label": "AI Agents",
+          "score": 1.0,
+          "slug": "agents"
+        },
+        {
           "label": "Safety and Alignment",
-          "score": 0.85,
+          "score": 0.8,
           "slug": "safety-alignment"
         }
       ],
@@ -257,21 +262,26 @@
       "youtube_channel_id": "UCP7jMXSY2xbc3KCAE0MHQ-A"
     },
     {
-      "description": "Technical courses and tutorials, including practical AI application development.",
-      "handle": "@freecodecamp",
-      "latest_video_at": "2026-05-08T12:18:26Z",
+      "description": "Developer commentary, tools, and AI coding workflow coverage.",
+      "handle": "@ThePrimeagen",
+      "latest_video_at": "2026-05-10T13:02:02Z",
       "thumbnail_url": null,
-      "title": "freeCodeCamp.org",
+      "title": "ThePrimeTime",
       "top_topics": [
         {
-          "label": "Coding Assistants",
-          "score": 0.7,
-          "slug": "coding-assistants"
+          "label": "Model Releases",
+          "score": 0.9,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Safety and Alignment",
+          "score": 0.9,
+          "slug": "safety-alignment"
         }
       ],
-      "url": "https://www.youtube.com/@freecodecamp",
+      "url": "https://www.youtube.com/@ThePrimeagen",
       "video_count": 1,
-      "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
+      "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
     },
     {
       "description": "Fast software engineering and AI tooling explainers.",
@@ -282,12 +292,12 @@
       "top_topics": [
         {
           "label": "AI Agents",
-          "score": 0.9,
+          "score": 1.0,
           "slug": "agents"
         },
         {
           "label": "Coding Assistants",
-          "score": 0.7,
+          "score": 0.9,
           "slug": "coding-assistants"
         }
       ],
@@ -308,18 +318,18 @@
           "slug": "local-inference"
         },
         {
-          "label": "Open Source Models",
-          "score": 0.9,
-          "slug": "open-source-models"
-        },
-        {
           "label": "AI Agents",
-          "score": 0.8,
+          "score": 0.9,
           "slug": "agents"
         },
         {
+          "label": "Open Source Models",
+          "score": 0.85,
+          "slug": "open-source-models"
+        },
+        {
           "label": "Fine Tuning",
-          "score": 0.7,
+          "score": 0.8,
           "slug": "fine-tuning"
         }
       ],
@@ -328,6 +338,6 @@
       "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
     }
   ],
-  "generated_at": "2026-05-10T09:45:40Z",
+  "generated_at": "2026-05-10T14:04:13Z",
   "schema_version": "1.0"
 }
