@@ -48,14 +48,7 @@ def aggregate_token_usage(enrichments: Iterable[EnrichmentResult]) -> TokenUsage
 
 
 def token_usage_from_raw_response(raw_response: dict | None) -> TokenUsage:
-    if not isinstance(raw_response, dict):
-        return TokenUsage()
-
-    usage = raw_response.get("usage")
-    if not isinstance(usage, dict):
-        usage = raw_response.get("usage_metadata")
-    if not isinstance(usage, dict):
-        usage = raw_response.get("usageMetadata")
+    usage = _usage_payload(raw_response)
     if not isinstance(usage, dict):
         return TokenUsage()
 
@@ -85,6 +78,25 @@ def token_usage_from_raw_response(raw_response: dict | None) -> TokenUsage:
         output_tokens=max(0, output_tokens),
         total_tokens=max(0, total_tokens),
     )
+
+
+def _usage_payload(raw_response: dict | None) -> dict | None:
+    if not isinstance(raw_response, dict):
+        return None
+
+    usage = raw_response.get("usage")
+    if not isinstance(usage, dict):
+        usage = raw_response.get("usage_metadata")
+    if not isinstance(usage, dict):
+        usage = raw_response.get("usageMetadata")
+    if isinstance(usage, dict):
+        return usage
+
+    nested_response = raw_response.get("response")
+    if isinstance(nested_response, dict):
+        return _usage_payload(nested_response)
+
+    return None
 
 
 def cost_rates_for(provider_name: str) -> CostRates:

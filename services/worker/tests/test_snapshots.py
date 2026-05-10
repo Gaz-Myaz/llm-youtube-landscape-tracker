@@ -37,10 +37,13 @@ def test_run_metadata_includes_token_usage_cost_and_fallback_counts(monkeypatch)
             provider="gemini",
             model="gemini-2.5-flash",
             raw_response={
-                "usage": {
-                    "prompt_tokens": 1_000_000,
-                    "completion_tokens": 2_000_000,
-                    "total_tokens": 3_000_000,
+                "mode": "chat_completions",
+                "response": {
+                    "usage": {
+                        "prompt_tokens": 1_000_000,
+                        "completion_tokens": 2_000_000,
+                        "total_tokens": 3_000_000,
+                    }
                 }
             },
         )
