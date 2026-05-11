@@ -1,31 +1,33 @@
 {
   "content_hashes": {
-    "channels": "2bc36582ff51cc4449915c881344f83cbf6fe5f804935c24a901d4efbf23c7d8",
-    "relationships": "88b28d83e25000ef33851beefef6435e7c54839f9cdb5af6703d7acf15d54be6",
-    "videos": "edae5dd7ff37e818410c6c44e8308b0415105991089707305e705e51bd98fabe"
+    "channels": "0adcac0c7f93a87bed37b4dd0eeb9a172a9cea12688906df79b045209e2cf63d",
+    "relationships": "c494423bf3aac3f44c26e2dc4c5ec99c47c5326fdfaee87cfa76f00b99516456",
+    "videos": "eb2349ae7b559c712a777a6de779cb6f2ae4fd544412bb24a23f628df14a7bcf"
   },
   "cost_rates": {
     "input_usd_per_1m_tokens": 0.3,
     "output_usd_per_1m_tokens": 2.5,
     "source": "default"
   },
-  "error_summary": "Skipped 2 videos/channels while fetching real captions: DNajvkqfobY: captions unavailable (No transcript provider succeeded for DNajvkqfobY. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=DNajvkqfobY! This is most likely caused by: The video is unplayable for the following reason: This live event will begin in a few moments. If you are su); sfkyiXvlYL0: captions unavailable (No transcript provider succeeded for sfkyiXvlYL0. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=sfkyiXvlYL0! This is most likely caused by: YouTube is blocking requests from your IP. This usually is due to one of the following reasons: - You have d) Filtered 13 caption-backed videos outside configured LLM landscape rules: nepKKz-MzFM: no gemini LLM landscape signal; iKx3gAODybU: no gemini LLM landscape signal; H9rF1CSSh-w: no gemini LLM landscape signal; 10 more",
-  "estimated_cost_usd": 0.095458,
-  "last_successful_run_at": "2026-05-10T15:57:08Z",
+  "error_summary": "Skipped 9 videos/channels while fetching real captions: Two Minute Papers: RSS fetch failed (Failed to parse RSS feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg); Lex Fridman: RSS fetch failed (Failed to parse RSS feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCSHZKyawb77ixDdsGog4iWA); Fireship: RSS fetch failed (Failed to parse RSS feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA); 6 more Filtered 3 caption-backed videos outside configured LLM landscape rules: Lkyr4k0qmF4: no gemini LLM landscape signal; UH2XXGPh0N0: no gemini LLM landscape signal; oGO7IKO8HNE: no gemini LLM landscape signal Used deterministic fallback for 1 provider failures: 9cenXVrQZNQ: gemini provider failed (LLM response content was not valid JSON); deterministic fallback used",
+  "estimated_cost_usd": 0.011916,
+  "last_successful_run_at": "2026-05-11T04:40:45Z",
   "model": "gemini-2.5-flash",
   "provider": "gemini",
-  "provider_call_count": 48,
-  "provider_fallback_count": 0,
-  "provider_fallback_reasons": [],
-  "provider_success_count": 48,
+  "provider_call_count": 9,
+  "provider_fallback_count": 1,
+  "provider_fallback_reasons": [
+    "9cenXVrQZNQ: gemini provider failed (LLM response content was not valid JSON); deterministic fallback used"
+  ],
+  "provider_success_count": 8,
   "schema_version": "1.0",
   "status": "partial",
   "token_usage": {
-    "input_tokens": 122426,
-    "output_tokens": 23492,
-    "total_tokens": 227340
+    "input_tokens": 11420,
+    "output_tokens": 3396,
+    "total_tokens": 23541
   },
-  "videos_failed": 2,
-  "videos_processed": 35,
-  "videos_seen": 50
+  "videos_failed": 9,
+  "videos_processed": 6,
+  "videos_seen": 18
 }
