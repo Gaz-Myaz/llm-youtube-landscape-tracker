@@ -8,14 +8,19 @@
       "title": "Wes Roth",
       "top_topics": [
         {
+          "label": "AI Agents",
+          "score": 1.0,
+          "slug": "agents"
+        },
+        {
           "label": "Safety and Alignment",
           "score": 1.0,
           "slug": "safety-alignment"
         },
         {
-          "label": "AI Agents",
+          "label": "Enterprise Adoption",
           "score": 0.95,
-          "slug": "agents"
+          "slug": "enterprise-adoption"
         },
         {
           "label": "Model Releases",
@@ -23,13 +28,8 @@
           "slug": "model-releases"
         },
         {
-          "label": "Enterprise Adoption",
-          "score": 0.9,
-          "slug": "enterprise-adoption"
-        },
-        {
           "label": "Evaluation",
-          "score": 0.9,
+          "score": 0.85,
           "slug": "evals"
         }
       ],
@@ -50,24 +50,24 @@
           "slug": "agents"
         },
         {
-          "label": "Multimodal",
-          "score": 1.0,
-          "slug": "multimodal"
-        },
-        {
           "label": "Model Releases",
-          "score": 0.9,
+          "score": 0.95,
           "slug": "model-releases"
         },
         {
-          "label": "Local Inference",
-          "score": 0.9,
-          "slug": "local-inference"
+          "label": "Multimodal",
+          "score": 0.95,
+          "slug": "multimodal"
         },
         {
           "label": "Enterprise Adoption",
-          "score": 0.8,
+          "score": 0.85,
           "slug": "enterprise-adoption"
+        },
+        {
+          "label": "Local Inference",
+          "score": 0.8,
+          "slug": "local-inference"
         }
       ],
       "url": "https://www.youtube.com/@matthew_berman",
@@ -87,6 +87,11 @@
           "slug": "model-releases"
         },
         {
+          "label": "Benchmarks",
+          "score": 1.0,
+          "slug": "benchmarks"
+        },
+        {
           "label": "Open Source Models",
           "score": 1.0,
           "slug": "open-source-models"
@@ -97,14 +102,9 @@
           "slug": "multimodal"
         },
         {
-          "label": "Fine Tuning",
-          "score": 1.0,
-          "slug": "fine-tuning"
-        },
-        {
-          "label": "Benchmarks",
+          "label": "Safety and Alignment",
           "score": 0.95,
-          "slug": "benchmarks"
+          "slug": "safety-alignment"
         }
       ],
       "url": "https://www.youtube.com/@TwoMinutePapers",
@@ -129,19 +129,19 @@
           "slug": "benchmarks"
         },
         {
+          "label": "Safety and Alignment",
+          "score": 1.0,
+          "slug": "safety-alignment"
+        },
+        {
           "label": "Evaluation",
           "score": 0.9,
           "slug": "evals"
         },
         {
-          "label": "Safety and Alignment",
-          "score": 0.9,
-          "slug": "safety-alignment"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.85,
-          "slug": "coding-assistants"
+          "label": "Enterprise Adoption",
+          "score": 0.8,
+          "slug": "enterprise-adoption"
         }
       ],
       "url": "https://www.youtube.com/@AIExplained-official",
@@ -156,11 +156,6 @@
       "title": "OpenAI",
       "top_topics": [
         {
-          "label": "AI Agents",
-          "score": 1.0,
-          "slug": "agents"
-        },
-        {
           "label": "Model Releases",
           "score": 1.0,
           "slug": "model-releases"
@@ -171,8 +166,13 @@
           "slug": "benchmarks"
         },
         {
+          "label": "AI Agents",
+          "score": 0.95,
+          "slug": "agents"
+        },
+        {
           "label": "Multimodal",
-          "score": 0.9,
+          "score": 0.95,
           "slug": "multimodal"
         },
         {
@@ -198,24 +198,24 @@
           "slug": "agents"
         },
         {
-          "label": "Coding Assistants",
-          "score": 1.0,
-          "slug": "coding-assistants"
-        },
-        {
           "label": "Model Releases",
-          "score": 1.0,
+          "score": 0.95,
           "slug": "model-releases"
         },
         {
-          "label": "Safety and Alignment",
+          "label": "Coding Assistants",
           "score": 0.9,
-          "slug": "safety-alignment"
+          "slug": "coding-assistants"
         },
         {
-          "label": "Benchmarks",
+          "label": "Local Inference",
           "score": 0.9,
-          "slug": "benchmarks"
+          "slug": "local-inference"
+        },
+        {
+          "label": "Safety and Alignment",
+          "score": 0.8,
+          "slug": "safety-alignment"
         }
       ],
       "url": "https://www.youtube.com/@Fireship",
@@ -236,23 +236,23 @@
         },
         {
           "label": "Open Source Models",
-          "score": 1.0,
+          "score": 0.9,
           "slug": "open-source-models"
         },
         {
+          "label": "Benchmarks",
+          "score": 0.9,
+          "slug": "benchmarks"
+        },
+        {
           "label": "AI Agents",
-          "score": 0.8,
+          "score": 0.85,
           "slug": "agents"
         },
         {
-          "label": "Fine Tuning",
-          "score": 0.7,
-          "slug": "fine-tuning"
-        },
-        {
-          "label": "Benchmarks",
-          "score": 0.6,
-          "slug": "benchmarks"
+          "label": "Evaluation",
+          "score": 0.8,
+          "slug": "evals"
         }
       ],
       "url": "https://www.youtube.com/@YannicKilcher",
@@ -273,12 +273,17 @@
         },
         {
           "label": "Safety and Alignment",
-          "score": 0.8,
+          "score": 0.9,
           "slug": "safety-alignment"
         },
         {
+          "label": "Model Releases",
+          "score": 0.7,
+          "slug": "model-releases"
+        },
+        {
           "label": "Enterprise Adoption",
-          "score": 0.8,
+          "score": 0.6,
           "slug": "enterprise-adoption"
         }
       ],
@@ -294,23 +299,23 @@
       "title": "freeCodeCamp.org",
       "top_topics": [
         {
-          "label": "Coding Assistants",
-          "score": 1.0,
-          "slug": "coding-assistants"
-        },
-        {
           "label": "Open Source Models",
           "score": 1.0,
           "slug": "open-source-models"
         },
         {
           "label": "Local Inference",
-          "score": 1.0,
+          "score": 0.95,
           "slug": "local-inference"
         },
         {
-          "label": "Benchmarks",
+          "label": "Coding Assistants",
           "score": 0.9,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Benchmarks",
+          "score": 0.75,
           "slug": "benchmarks"
         }
       ],
@@ -336,6 +341,6 @@
       "youtube_channel_id": "UCSHZKyawb77ixDdsGog4iWA"
     }
   ],
-  "generated_at": "2026-05-11T10:39:29Z",
+  "generated_at": "2026-05-11T11:15:01Z",
   "schema_version": "1.0"
 }

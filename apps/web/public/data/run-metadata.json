@@ -1,8 +1,8 @@
 {
   "content_hashes": {
-    "channels": "4dcf8f3e2f9614a0277780a9e7246db358d3be0cf2e8f548cb1aff51cabc56c8",
-    "relationships": "7467faf47b4e1b91204dc791cb323d4ad98a133946f0f874fd050509516f380d",
-    "videos": "729d0d377ff97e9f9b9866b3dd27247e3a4818b92713412f42f48370576c5f3d"
+    "channels": "fd62e41fba0d3e42a62ab453e8aed2182c7d61390dee913252636bc9b3dd7b59",
+    "relationships": "4fda826adf5fb4f1ddc2aaf33b02b710dcf9dc3e7462221fc6d80a7b8276e67d",
+    "videos": "ae11e98f64ef6725c6ae61b496bdafab9632c43a436f61c8856f572f0352abfa"
   },
   "cost_rates": {
     "input_usd_per_1m_tokens": 0.3,
@@ -10,8 +10,8 @@
     "source": "default"
   },
   "error_summary": "Skipped 2 videos before publication because no usable transcript was available: DNajvkqfobY: captions unavailable (No transcript provider succeeded for DNajvkqfobY. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=DNajvkqfobY! This is most likely caused by: The video is unplayable for the following reason: This live event will begin in a few moments. If you are su); sfkyiXvlYL0: captions unavailable (No transcript provider succeeded for sfkyiXvlYL0. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=sfkyiXvlYL0! This is most likely caused by: YouTube is blocking requests from your IP. This usually is due to one of the following reasons: - You have d) Filtered 12 caption-backed videos outside configured LLM landscape rules: nepKKz-MzFM: no gemini LLM landscape signal; iKx3gAODybU: no gemini LLM landscape signal; H9rF1CSSh-w: no gemini LLM landscape signal; 9 more",
-  "estimated_cost_usd": 0.099106,
-  "last_successful_run_at": "2026-05-11T10:39:29Z",
+  "estimated_cost_usd": 0.100406,
+  "last_successful_run_at": "2026-05-11T11:15:01Z",
   "model": "gemini-2.5-flash",
   "provider": "gemini",
   "provider_call_count": 48,
@@ -22,11 +22,11 @@
   "status": "success",
   "token_usage": {
     "input_tokens": 122477,
-    "output_tokens": 24945,
-    "total_tokens": 221230
+    "output_tokens": 25465,
+    "total_tokens": 218338
   },
   "videos_failed": 0,
   "videos_processed": 36,
-  "videos_skipped": 2,
-  "videos_seen": 50
+  "videos_seen": 50,
+  "videos_skipped": 2
 }
