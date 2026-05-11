@@ -14,7 +14,10 @@ export function MetricStrip({
 }) {
   const topicCount = new Set(videos.flatMap((video) => video.topics.map((topic) => topic.slug))).size;
   const fallbackCount = metadata.provider_fallback_count ?? 0;
+  const failedCount = metadata.videos_failed;
+  const skippedCount = metadata.videos_skipped;
   const tokenCount = metadata.token_usage?.total_tokens ?? 0;
+  const issueCount = failedCount + skippedCount + fallbackCount;
   return (
     <div className="metric-strip">
       <Metric Icon={Film} label="Videos tracked" value={String(videos.length)} sub={`${metadata.videos_seen} seen total`} />
@@ -23,10 +26,10 @@ export function MetricStrip({
       <Metric Icon={Network} label="Relationships" value={String(relationships.edges.length)} sub={`${relationships.nodes.length} nodes`} />
       <Metric
         Icon={AlertTriangle}
-        label="Failed / skipped"
-        value={String(metadata.videos_failed + fallbackCount)}
-        sub={fallbackCount > 0 ? `${fallbackCount} provider fallback` : `${metadata.videos_failed} failed`}
-        tone={metadata.videos_failed > 0 || fallbackCount > 0 ? "warning" : "default"}
+        label="Run issues"
+        value={String(issueCount)}
+        sub={formatIssueSummary(failedCount, skippedCount, fallbackCount)}
+        tone={failedCount > 0 || fallbackCount > 0 ? "warning" : "default"}
       />
       <Metric
         Icon={DollarSign}
@@ -43,6 +46,20 @@ function formatCost(value: number): string {
     return "<$0.01";
   }
   return `$${value.toFixed(2)}`;
+}
+
+function formatIssueSummary(failedCount: number, skippedCount: number, fallbackCount: number): string {
+  const parts = [];
+  if (failedCount > 0) {
+    parts.push(`${failedCount} failed`);
+  }
+  if (skippedCount > 0) {
+    parts.push(`${skippedCount} skipped`);
+  }
+  if (fallbackCount > 0) {
+    parts.push(`${fallbackCount} provider fallback`);
+  }
+  return parts.length > 0 ? parts.join(" · ") : "no issues";
 }
 
 function Metric({

@@ -46,6 +46,7 @@ def build_public_snapshots(
         "videos_seen": len(bundles),
         "videos_processed": len(enrichments),
         "videos_failed": max(0, len(bundles) - len(enrichments)),
+        "videos_skipped": 0,
         "estimated_cost_usd": estimate_cost_usd(token_usage, cost_rates),
         "token_usage": {
             "input_tokens": token_usage.input_tokens,

@@ -9,8 +9,14 @@ from llm_landscape.domain import Channel, Transcript, TranscriptSegment, Video, 
 from llm_landscape.llm.base import EnrichmentResult, Evidence, Topic
 from llm_landscape.main import (
     ProviderRunMetrics,
+    RunSkip,
     _as_iso_datetime,
+    _count_failed_run_skips,
+    _count_non_failed_run_skips,
     _extract_with_provider_fallback,
+    _run_skip,
+    _run_status,
+    _run_summary,
     collect_real_bundles,
 )
 from llm_landscape.ranking import fallback_video_score, sort_video_bundles
@@ -456,6 +462,26 @@ def test_collect_real_bundles_uses_channel_language_when_not_overridden(monkeypa
     assert not skipped
     assert bundles[0].transcript.language == "ru"
     assert calls == [["ru", "en"]]
+
+
+def test_run_skip_accounting_treats_transcript_misses_as_skipped_not_failed() -> None:
+    fetch_skipped = [
+        _run_skip("fetch_failure", "Example Channel: RSS fetch failed (timeout)"),
+        _run_skip("transcript_unavailable", "video-1: captions unavailable (live event)"),
+        _run_skip("provider_limit", "video-2: skipped by MAX_PROVIDER_CALLS_PER_RUN"),
+    ]
+
+    assert _count_failed_run_skips(fetch_skipped) == 1
+    assert _count_non_failed_run_skips(fetch_skipped) == 2
+    assert _run_status(fetch_skipped, provider_fallback_count=0) == "partial"
+    assert _run_status(fetch_skipped[1:], provider_fallback_count=0) == "success"
+
+    summary = _run_summary(fetch_skipped, [], None)
+
+    assert summary is not None
+    assert "Failed to collect 1 videos/channels before publication" in summary
+    assert "Skipped 1 videos before publication because no usable transcript was available" in summary
+    assert "Skipped 1 videos after transcript collection because MAX_PROVIDER_CALLS_PER_RUN was reached" in summary
 
 
 def test_collect_real_bundles_respects_max_channels(monkeypatch) -> None:

@@ -13,6 +13,7 @@
     "videos_seen",
     "videos_processed",
     "videos_failed",
+    "videos_skipped",
     "estimated_cost_usd",
     "content_hashes"
   ],
@@ -25,6 +26,7 @@
     "videos_seen": { "type": "integer", "minimum": 0 },
     "videos_processed": { "type": "integer", "minimum": 0 },
     "videos_failed": { "type": "integer", "minimum": 0 },
+    "videos_skipped": { "type": "integer", "minimum": 0 },
     "estimated_cost_usd": { "type": "number", "minimum": 0 },
     "token_usage": {
       "type": "object",

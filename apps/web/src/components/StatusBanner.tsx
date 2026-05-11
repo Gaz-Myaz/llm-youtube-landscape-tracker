@@ -77,15 +77,26 @@ function summarizeRunIssues(metadata: RunMetadata): { headline: string; details?
     return null;
   }
 
-  const filteredVideos = Math.max(0, metadata.videos_seen - metadata.videos_processed - metadata.videos_failed);
+  const skippedVideos = metadata.videos_skipped ?? 0;
+  const filteredVideos = Math.max(
+    0,
+    metadata.videos_seen - metadata.videos_processed - metadata.videos_failed - skippedVideos
+  );
   const headlineParts = [`Published ${metadata.videos_processed} of ${metadata.videos_seen} reviewed videos.`];
   const issueParts: string[] = [];
   const providerLabel = metadata.provider === "deterministic" ? "deterministic" : metadata.provider;
 
   if (metadata.videos_failed > 0) {
     issueParts.push(
-      `${metadata.videos_failed} ${pluralize(metadata.videos_failed, "video")} were skipped before publication ` +
-        `(feed/caption issues or run limits)`
+      `${metadata.videos_failed} ${pluralize(metadata.videos_failed, "video")} failed before publication ` +
+        `(feed or collection issues)`
+    );
+  }
+
+  if (skippedVideos > 0) {
+    issueParts.push(
+      `${skippedVideos} ${pluralize(skippedVideos, "video")} were skipped before publication ` +
+        `(transcript unavailable or capped by run limits)`
     );
   }
 

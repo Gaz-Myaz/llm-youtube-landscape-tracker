@@ -39,6 +39,17 @@ class ProviderRunMetrics:
         }
 
 
+@dataclass(frozen=True)
+class RunSkip:
+    category: str
+    message: str
+
+
+_RUN_SKIP_FETCH_FAILURE = "fetch_failure"
+_RUN_SKIP_TRANSCRIPT_UNAVAILABLE = "transcript_unavailable"
+_RUN_SKIP_PROVIDER_LIMIT = "provider_limit"
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="LLM YouTube landscape worker")
     subparsers = parser.add_subparsers(dest="command", required=True)
@@ -163,10 +174,14 @@ def main() -> None:
             run_metadata_overrides=provider_run_metrics.as_metadata(),
             usage_enrichments=candidate_enrichments.values(),
         )
+        failed_skip_count = _count_failed_run_skips(fetch_skipped)
+        skipped_count = _count_non_failed_run_skips(fetch_skipped)
         snapshots["run-metadata.json"]["videos_seen"] = len(bundles) + len(fetch_skipped)
-        snapshots["run-metadata.json"]["videos_failed"] = len(fetch_skipped)
-        snapshots["run-metadata.json"]["status"] = (
-            "partial" if fetch_skipped or provider_run_metrics.provider_fallback_count else "success"
+        snapshots["run-metadata.json"]["videos_failed"] = failed_skip_count
+        snapshots["run-metadata.json"]["videos_skipped"] = skipped_count
+        snapshots["run-metadata.json"]["status"] = _run_status(
+            fetch_skipped,
+            provider_run_metrics.provider_fallback_count,
         )
         snapshots["run-metadata.json"]["error_summary"] = _run_summary(
             fetch_skipped,
@@ -245,19 +260,24 @@ def collect_real_bundles(
     transcript_cache_dir: Path | None = None,
     request_delay_seconds: float = 0.0,
     transcript_providers: list[str] | None = None,
-) -> tuple[list[VideoBundle], list[str]]:
+) -> tuple[list[VideoBundle], list[RunSkip]]:
     bundles: list[VideoBundle] = []
-    skipped: list[str] = []
+    skipped: list[RunSkip] = []
     seen_video_ids: set[str] = set()
     selected_channels = channels if max_channels is None or max_channels <= 0 else channels[:max_channels]
     for channel in selected_channels:
         if not channel.rss_url:
-            skipped.append(f"{channel.title}: missing RSS URL")
+            skipped.append(_run_skip(_RUN_SKIP_FETCH_FAILURE, f"{channel.title}: missing RSS URL"))
             continue
         try:
             rss_videos = fetch_channel_rss(channel.rss_url, limit=videos_per_channel)
         except Exception as exc:
-            skipped.append(f"{channel.title}: RSS fetch failed ({_compact_error(exc)})")
+            skipped.append(
+                _run_skip(
+                    _RUN_SKIP_FETCH_FAILURE,
+                    f"{channel.title}: RSS fetch failed ({_compact_error(exc)})",
+                )
+            )
             continue
         for rss_video in rss_videos:
             if rss_video.youtube_video_id in seen_video_ids:
@@ -276,11 +296,19 @@ def collect_real_bundles(
                 )
             except Exception as exc:
                 skipped.append(
-                    f"{rss_video.youtube_video_id}: captions unavailable ({_compact_error(exc)})"
+                    _run_skip(
+                        _RUN_SKIP_TRANSCRIPT_UNAVAILABLE,
+                        f"{rss_video.youtube_video_id}: captions unavailable ({_compact_error(exc)})",
+                    )
                 )
                 continue
             if not transcript.text.strip():
-                skipped.append(f"{rss_video.youtube_video_id}: empty captions")
+                skipped.append(
+                    _run_skip(
+                        _RUN_SKIP_TRANSCRIPT_UNAVAILABLE,
+                        f"{rss_video.youtube_video_id}: empty captions",
+                    )
+                )
                 continue
             bundles.append(
                 VideoBundle(
@@ -319,16 +347,32 @@ def _as_iso_datetime(value: str) -> str:
 
 
 def _run_summary(
-    fetch_skipped: list[str],
+    fetch_skipped: list[RunSkip],
     filtered_out: list[str],
     provider_fallbacks: list[str] | None = None,
 ) -> str | None:
     summaries = []
-    if fetch_skipped:
-        examples = "; ".join(fetch_skipped[:3])
-        suffix = f"; {len(fetch_skipped) - 3} more" if len(fetch_skipped) > 3 else ""
+    fetch_failures = [skip.message for skip in fetch_skipped if skip.category == _RUN_SKIP_FETCH_FAILURE]
+    transcript_skips = [skip.message for skip in fetch_skipped if skip.category == _RUN_SKIP_TRANSCRIPT_UNAVAILABLE]
+    provider_limit_skips = [skip.message for skip in fetch_skipped if skip.category == _RUN_SKIP_PROVIDER_LIMIT]
+
+    if fetch_failures:
+        examples = "; ".join(fetch_failures[:3])
+        suffix = f"; {len(fetch_failures) - 3} more" if len(fetch_failures) > 3 else ""
         summaries.append(
-            f"Skipped {len(fetch_skipped)} videos/channels while fetching real captions: {examples}{suffix}"
+            f"Failed to collect {len(fetch_failures)} videos/channels before publication: {examples}{suffix}"
+        )
+    if transcript_skips:
+        examples = "; ".join(transcript_skips[:3])
+        suffix = f"; {len(transcript_skips) - 3} more" if len(transcript_skips) > 3 else ""
+        summaries.append(
+            f"Skipped {len(transcript_skips)} videos before publication because no usable transcript was available: {examples}{suffix}"
+        )
+    if provider_limit_skips:
+        examples = "; ".join(provider_limit_skips[:3])
+        suffix = f"; {len(provider_limit_skips) - 3} more" if len(provider_limit_skips) > 3 else ""
+        summaries.append(
+            f"Skipped {len(provider_limit_skips)} videos after transcript collection because MAX_PROVIDER_CALLS_PER_RUN was reached: {examples}{suffix}"
         )
     if filtered_out:
         examples = "; ".join(filtered_out[:3])
@@ -350,6 +394,22 @@ def _run_summary(
 def _compact_error(exc: Exception) -> str:
     text = " ".join(str(exc).split())
     return text[:420]
+
+
+def _run_skip(category: str, message: str) -> RunSkip:
+    return RunSkip(category=category, message=message)
+
+
+def _count_failed_run_skips(fetch_skipped: list[RunSkip]) -> int:
+    return sum(1 for skip in fetch_skipped if skip.category == _RUN_SKIP_FETCH_FAILURE)
+
+
+def _count_non_failed_run_skips(fetch_skipped: list[RunSkip]) -> int:
+    return sum(1 for skip in fetch_skipped if skip.category != _RUN_SKIP_FETCH_FAILURE)
+
+
+def _run_status(fetch_skipped: list[RunSkip], provider_fallback_count: int) -> str:
+    return "partial" if _count_failed_run_skips(fetch_skipped) or provider_fallback_count else "success"
 
 
 if __name__ == "__main__":

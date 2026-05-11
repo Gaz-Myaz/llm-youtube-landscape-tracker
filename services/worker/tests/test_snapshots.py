@@ -73,6 +73,7 @@ def test_run_metadata_includes_token_usage_cost_and_fallback_counts(monkeypatch)
     assert metadata["provider_success_count"] == 1
     assert metadata["provider_fallback_count"] == 1
     assert metadata["provider_fallback_reasons"] == ["video-1: gemini provider failed"]
+    assert metadata["videos_skipped"] == 0
 
 
 class _UsageProvider:

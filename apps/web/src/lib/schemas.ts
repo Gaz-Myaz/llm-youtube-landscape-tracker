@@ -104,6 +104,7 @@ export const runMetadataSchema = z.object({
   videos_seen: z.number(),
   videos_processed: z.number(),
   videos_failed: z.number(),
+  videos_skipped: z.number(),
   estimated_cost_usd: z.number(),
   token_usage: z
     .object({
