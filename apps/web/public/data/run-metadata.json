@@ -1,17 +1,17 @@
 {
   "content_hashes": {
-    "channels": "3994130f7689fb66745bff0a03f44d277bf169ad399151921eb229a4373b5c19",
-    "relationships": "18f05c6cf69a76ae538ae70377a7d6fce6630f62cce8d68f77c4b60be97ba7e0",
-    "videos": "1b4265f12d7b3ca3582eba4fc6e318b720a244b92343f66109f12ad09880e71a"
+    "channels": "e754ddcee3dbf9023c72111cae546b4e3542f766b4ed33fb599e74619fe6de32",
+    "relationships": "9d5aedc711702e06507037db67ae1845e05acf2974598976a947ddd2fd83a4f6",
+    "videos": "9c171b1672e88852194c6463e89a7c05caba730bfd8bb1575155434742f23388"
   },
   "cost_rates": {
     "input_usd_per_1m_tokens": 0.3,
     "output_usd_per_1m_tokens": 2.5,
     "source": "default"
   },
-  "error_summary": "Skipped 1 videos before publication because no usable transcript was available: DNajvkqfobY: captions unavailable (No transcript provider succeeded for DNajvkqfobY. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=DNajvkqfobY! This is most likely caused by: The video is unplayable for the following reason: This live event will begin in a few moments. If you are su) Filtered 12 caption-backed videos outside configured LLM landscape rules: nepKKz-MzFM: no gemini LLM landscape signal; iKx3gAODybU: no gemini LLM landscape signal; H9rF1CSSh-w: no gemini LLM landscape signal; 9 more",
-  "estimated_cost_usd": 0.101899,
-  "last_successful_run_at": "2026-05-11T15:50:42Z",
+  "error_summary": "Skipped 1 videos before publication because no usable transcript was available: sfkyiXvlYL0: captions unavailable (No transcript provider succeeded for sfkyiXvlYL0. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=sfkyiXvlYL0! This is most likely caused by: YouTube is blocking requests from your IP. This usually is due to one of the following reasons: - You have d) Filtered 11 caption-backed videos outside configured LLM landscape rules: nepKKz-MzFM: no gemini LLM landscape signal; iKx3gAODybU: no gemini LLM landscape signal; H9rF1CSSh-w: no gemini LLM landscape signal; 8 more",
+  "estimated_cost_usd": 0.119272,
+  "last_successful_run_at": "2026-05-12T04:21:21Z",
   "model": "gemini-2.5-flash",
   "provider": "gemini",
   "provider_call_count": 49,
@@ -21,12 +21,12 @@
   "schema_version": "1.0",
   "status": "success",
   "token_usage": {
-    "input_tokens": 120756,
-    "output_tokens": 26269,
-    "total_tokens": 219671
+    "input_tokens": 152990,
+    "output_tokens": 29350,
+    "total_tokens": 264633
   },
   "videos_failed": 0,
-  "videos_processed": 37,
+  "videos_processed": 38,
   "videos_seen": 50,
   "videos_skipped": 1
 }
