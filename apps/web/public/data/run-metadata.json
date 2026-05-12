@@ -1,32 +1,32 @@
 {
   "content_hashes": {
-    "channels": "e754ddcee3dbf9023c72111cae546b4e3542f766b4ed33fb599e74619fe6de32",
-    "relationships": "9d5aedc711702e06507037db67ae1845e05acf2974598976a947ddd2fd83a4f6",
-    "videos": "9c171b1672e88852194c6463e89a7c05caba730bfd8bb1575155434742f23388"
+    "channels": "eb6e2c0900e8016cd544946d4216ca529e38a86e23e753aa50983dac6e877618",
+    "relationships": "b0f3acedff12486b2d6a9bf937cad421ccabc1a60297dc1cd1b40488802ce043",
+    "videos": "959a7e4ee4b57e8b127c899d395422552587c18f814c532630f2cdb6645d6b93"
   },
   "cost_rates": {
     "input_usd_per_1m_tokens": 0.3,
     "output_usd_per_1m_tokens": 2.5,
     "source": "default"
   },
-  "error_summary": "Skipped 1 videos before publication because no usable transcript was available: sfkyiXvlYL0: captions unavailable (No transcript provider succeeded for sfkyiXvlYL0. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=sfkyiXvlYL0! This is most likely caused by: YouTube is blocking requests from your IP. This usually is due to one of the following reasons: - You have d) Filtered 11 caption-backed videos outside configured LLM landscape rules: nepKKz-MzFM: no gemini LLM landscape signal; iKx3gAODybU: no gemini LLM landscape signal; H9rF1CSSh-w: no gemini LLM landscape signal; 8 more",
-  "estimated_cost_usd": 0.119272,
-  "last_successful_run_at": "2026-05-12T04:21:21Z",
+  "error_summary": "Skipped 2 videos before publication because no usable transcript was available: gEk-3kZjbV0: captions unavailable (No transcript provider succeeded for gEk-3kZjbV0. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=gEk-3kZjbV0! This is most likely caused by: YouTube is blocking requests from your IP. This usually is due to one of the following reasons: - You have d); DNajvkqfobY: captions unavailable (No transcript provider succeeded for DNajvkqfobY. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=DNajvkqfobY! This is most likely caused by: The video is unplayable for the following reason: This live event will begin in a few moments. If you are su) Filtered 13 caption-backed videos outside configured LLM landscape rules: nepKKz-MzFM: no gemini LLM landscape signal; iKx3gAODybU: no gemini LLM landscape signal; H9rF1CSSh-w: no gemini LLM landscape signal; 10 more",
+  "estimated_cost_usd": 0.097785,
+  "last_successful_run_at": "2026-05-12T15:22:58Z",
   "model": "gemini-2.5-flash",
   "provider": "gemini",
-  "provider_call_count": 49,
+  "provider_call_count": 48,
   "provider_fallback_count": 0,
   "provider_fallback_reasons": [],
-  "provider_success_count": 49,
+  "provider_success_count": 48,
   "schema_version": "1.0",
   "status": "success",
   "token_usage": {
-    "input_tokens": 152990,
-    "output_tokens": 29350,
-    "total_tokens": 264633
+    "input_tokens": 117160,
+    "output_tokens": 25055,
+    "total_tokens": 213386
   },
   "videos_failed": 0,
-  "videos_processed": 38,
+  "videos_processed": 35,
   "videos_seen": 50,
-  "videos_skipped": 1
+  "videos_skipped": 2
 }
