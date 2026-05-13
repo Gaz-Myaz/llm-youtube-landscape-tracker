@@ -1,17 +1,17 @@
 {
   "content_hashes": {
-    "channels": "223b4458a23456a8ddab88d19f8edc5a249cd0784e0a123df07f089afe304ffd",
-    "relationships": "0307a82065575a66315c88bee52e928067c7a32242d1fc7074532ce143662397",
-    "videos": "140ca09b09611d09ec10e7e150aa07002cdb58f51c06d3150f83e9b4bcada092"
+    "channels": "006d60104bbd1d907a887211174ba22447eb840aef070efd274e5d0185831947",
+    "relationships": "e1a85e9f8d6373f06391739772b9d00051d518edb748141b874ffd482e3151d8",
+    "videos": "d387f6890f0214d6250de00ce0cc782cc63e90ae3c44a6785ae0755b35310577"
   },
   "cost_rates": {
     "input_usd_per_1m_tokens": 0.3,
     "output_usd_per_1m_tokens": 2.5,
     "source": "default"
   },
-  "error_summary": "Skipped 2 videos before publication because no usable transcript was available: zaGOKd4jqEk: captions unavailable (No transcript provider succeeded for zaGOKd4jqEk. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=zaGOKd4jqEk! This is most likely caused by: The video is unplayable for the following reason: Join this channel to get access to members-only content li); DNajvkqfobY: captions unavailable (No transcript provider succeeded for DNajvkqfobY. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=DNajvkqfobY! This is most likely caused by: The video is unplayable for the following reason: This live event will begin in a few moments. If you are su) Filtered 11 caption-backed videos outside configured LLM landscape rules: nepKKz-MzFM: no gemini LLM landscape signal; iKx3gAODybU: no gemini LLM landscape signal; H9rF1CSSh-w: no gemini LLM landscape signal; 8 more",
-  "estimated_cost_usd": 0.114758,
-  "last_successful_run_at": "2026-05-13T04:26:55Z",
+  "error_summary": "Skipped 2 videos before publication because no usable transcript was available: gh2_PhgZGsM: captions unavailable (No transcript provider succeeded for gh2_PhgZGsM. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=gh2_PhgZGsM! This is most likely caused by: YouTube is blocking requests from your IP. This usually is due to one of the following reasons: - You have d); DNajvkqfobY: captions unavailable (No transcript provider succeeded for DNajvkqfobY. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=DNajvkqfobY! This is most likely caused by: The video is unplayable for the following reason: This live event will begin in a few moments. If you are su) Filtered 14 caption-backed videos outside configured LLM landscape rules: nepKKz-MzFM: no gemini LLM landscape signal; iKx3gAODybU: no gemini LLM landscape signal; H9rF1CSSh-w: no gemini LLM landscape signal; 11 more",
+  "estimated_cost_usd": 0.105956,
+  "last_successful_run_at": "2026-05-13T15:29:13Z",
   "model": "gemini-2.5-flash",
   "provider": "gemini",
   "provider_call_count": 48,
@@ -21,12 +21,12 @@
   "schema_version": "1.0",
   "status": "success",
   "token_usage": {
-    "input_tokens": 147793,
-    "output_tokens": 28168,
-    "total_tokens": 252983
+    "input_tokens": 124103,
+    "output_tokens": 27490,
+    "total_tokens": 220950
   },
   "videos_failed": 0,
-  "videos_processed": 37,
+  "videos_processed": 34,
   "videos_seen": 50,
   "videos_skipped": 2
 }
