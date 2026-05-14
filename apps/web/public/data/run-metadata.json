@@ -1,34 +1,37 @@
 {
   "content_hashes": {
-    "channels": "30a6d3e1581bea635ac4d3233fb53de48332fd09d3f63f3dea0d5c9399ca882c",
-    "relationships": "78a1ac24d18a53adc85898bb4f73e1e9fd58388229770fd1f972402fe405720b",
-    "videos": "bb5ee52f2aca7b634b0b1c1794fec2301fd2f174fb09eba042b23d898525010b"
+    "channels": "2e3f08a8bb7818b0e45491f33aac6b76c20dbe52faa1cadc005c47272fa1d375",
+    "relationships": "405de93f6b060c5e96d0d4f68c1045bc7c0dd31984057315fe2210bd582b565f",
+    "videos": "f64606180eb739be54b6791fa19a24b9cff74b2270d3489ce26deca3df7378ac"
   },
   "cost_rates": {
     "input_usd_per_1m_tokens": 0.3,
     "output_usd_per_1m_tokens": 2.5,
     "source": "default"
   },
-  "error_summary": "Skipped 1 videos before publication because no usable transcript was available: DNajvkqfobY: captions unavailable (No transcript provider succeeded for DNajvkqfobY. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=DNajvkqfobY! This is most likely caused by: The video is unplayable for the following reason: This live event will begin in a few moments. If you are su) Filtered 12 caption-backed videos outside configured LLM landscape rules: nepKKz-MzFM: no gemini LLM landscape signal; iKx3gAODybU: no gemini LLM landscape signal; H9rF1CSSh-w: no gemini LLM landscape signal; 9 more Used deterministic fallback for 1 provider failures: jz0rNhfAKo8: gemini provider failed (LLM response content was not valid JSON); deterministic fallback used",
-  "estimated_cost_usd": 0.124239,
-  "last_successful_run_at": "2026-05-14T04:28:03Z",
+  "error_summary": "Skipped 1 videos before publication because no usable transcript was available: DNajvkqfobY: captions unavailable (No transcript provider succeeded for DNajvkqfobY. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=DNajvkqfobY! This is most likely caused by: The video is unplayable for the following reason: This live event will begin in a few moments. If you are su) Filtered 13 caption-backed videos outside configured LLM landscape rules: nepKKz-MzFM: no gemini LLM landscape signal; iKx3gAODybU: no gemini LLM landscape signal; H9rF1CSSh-w: no gemini LLM landscape signal; 10 more Used deterministic fallback for 4 provider failures: d53Zk28esmU: gemini provider failed (503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used; zaGOKd4jqEk: gemini provider failed (LLM response content was not valid JSON); deterministic fallback used; fabe7nYQa1Q: gemini provider failed (HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60.0)); deterministic fallback used; 1 more",
+  "estimated_cost_usd": 0.091975,
+  "last_successful_run_at": "2026-05-14T14:56:59Z",
   "model": "gemini-2.5-flash",
   "provider": "gemini",
   "provider_call_count": 49,
-  "provider_fallback_count": 1,
+  "provider_fallback_count": 4,
   "provider_fallback_reasons": [
-    "jz0rNhfAKo8: gemini provider failed (LLM response content was not valid JSON); deterministic fallback used"
+    "d53Zk28esmU: gemini provider failed (503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used",
+    "zaGOKd4jqEk: gemini provider failed (LLM response content was not valid JSON); deterministic fallback used",
+    "fabe7nYQa1Q: gemini provider failed (HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60.0)); deterministic fallback used",
+    "vqBSNTZeLsg: gemini provider failed (503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used"
   ],
-  "provider_success_count": 48,
+  "provider_success_count": 45,
   "schema_version": "1.0",
   "status": "partial",
   "token_usage": {
-    "input_tokens": 149971,
-    "output_tokens": 31699,
-    "total_tokens": 264043
+    "input_tokens": 115274,
+    "output_tokens": 22957,
+    "total_tokens": 208047
   },
   "videos_failed": 0,
-  "videos_processed": 37,
+  "videos_processed": 36,
   "videos_seen": 50,
   "videos_skipped": 1
 }
