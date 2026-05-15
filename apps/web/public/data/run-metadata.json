@@ -1,37 +1,32 @@
 {
   "content_hashes": {
-    "channels": "2e3f08a8bb7818b0e45491f33aac6b76c20dbe52faa1cadc005c47272fa1d375",
-    "relationships": "405de93f6b060c5e96d0d4f68c1045bc7c0dd31984057315fe2210bd582b565f",
-    "videos": "f64606180eb739be54b6791fa19a24b9cff74b2270d3489ce26deca3df7378ac"
+    "channels": "893a28f1d92d28e24ca842e257c5778937abeae6cc49c4347c05d6c3574caf4a",
+    "relationships": "4d5fdf18c800d0bcf2d9a91d52c93c226de85d2b4d80374921b741b9f7da5a7c",
+    "videos": "f93a5437044cd35a45ba69cd21493958f9a32de8c2000e8b1eaa47571800de61"
   },
   "cost_rates": {
     "input_usd_per_1m_tokens": 0.3,
     "output_usd_per_1m_tokens": 2.5,
     "source": "default"
   },
-  "error_summary": "Skipped 1 videos before publication because no usable transcript was available: DNajvkqfobY: captions unavailable (No transcript provider succeeded for DNajvkqfobY. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=DNajvkqfobY! This is most likely caused by: The video is unplayable for the following reason: This live event will begin in a few moments. If you are su) Filtered 13 caption-backed videos outside configured LLM landscape rules: nepKKz-MzFM: no gemini LLM landscape signal; iKx3gAODybU: no gemini LLM landscape signal; H9rF1CSSh-w: no gemini LLM landscape signal; 10 more Used deterministic fallback for 4 provider failures: d53Zk28esmU: gemini provider failed (503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used; zaGOKd4jqEk: gemini provider failed (LLM response content was not valid JSON); deterministic fallback used; fabe7nYQa1Q: gemini provider failed (HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60.0)); deterministic fallback used; 1 more",
-  "estimated_cost_usd": 0.091975,
-  "last_successful_run_at": "2026-05-14T14:56:59Z",
+  "error_summary": "Skipped 2 videos before publication because no usable transcript was available: DNajvkqfobY: captions unavailable (No transcript provider succeeded for DNajvkqfobY. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=DNajvkqfobY! This is most likely caused by: The video is unplayable for the following reason: This live event will begin in a few moments. If you are su); tk9qrk5G4RQ: captions unavailable (No transcript provider succeeded for tk9qrk5G4RQ. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=tk9qrk5G4RQ! This is most likely caused by: YouTube is blocking requests from your IP. This usually is due to one of the following reasons: - You have d) Filtered 13 caption-backed videos outside configured LLM landscape rules: nepKKz-MzFM: no gemini LLM landscape signal; iKx3gAODybU: no gemini LLM landscape signal; H9rF1CSSh-w: no gemini LLM landscape signal; 10 more",
+  "estimated_cost_usd": 0.105541,
+  "last_successful_run_at": "2026-05-15T04:32:04Z",
   "model": "gemini-2.5-flash",
   "provider": "gemini",
-  "provider_call_count": 49,
-  "provider_fallback_count": 4,
-  "provider_fallback_reasons": [
-    "d53Zk28esmU: gemini provider failed (503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used",
-    "zaGOKd4jqEk: gemini provider failed (LLM response content was not valid JSON); deterministic fallback used",
-    "fabe7nYQa1Q: gemini provider failed (HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60.0)); deterministic fallback used",
-    "vqBSNTZeLsg: gemini provider failed (503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used"
-  ],
-  "provider_success_count": 45,
+  "provider_call_count": 48,
+  "provider_fallback_count": 0,
+  "provider_fallback_reasons": [],
+  "provider_success_count": 48,
   "schema_version": "1.0",
-  "status": "partial",
+  "status": "success",
   "token_usage": {
-    "input_tokens": 115274,
-    "output_tokens": 22957,
-    "total_tokens": 208047
+    "input_tokens": 129988,
+    "output_tokens": 26618,
+    "total_tokens": 227625
   },
   "videos_failed": 0,
-  "videos_processed": 36,
+  "videos_processed": 35,
   "videos_seen": 50,
-  "videos_skipped": 1
+  "videos_skipped": 2
 }
