@@ -1,35 +1,35 @@
 {
   "content_hashes": {
-    "channels": "13aaa033a0c834ca09145e813d17dbb9f768371ec63a4724682a6139c2dc2972",
-    "relationships": "774c9eb3c8c0593f69598a7776f7810850e88e0c0615cc0fbae71b91a85b3b49",
-    "videos": "fcb39c4b4e9924b02ad3c3324455c9f9eff9585329aeecba3742fb1528d905a5"
+    "channels": "bd52fa7eebead6d74c4e60319f67fbd71588c5bc54983f59047119c01a7aab41",
+    "relationships": "1d05a773444cb7f706da61b41ae579494c4fcc22e948bc3717d189aa6673e67b",
+    "videos": "4a2f45b497e7d0d1b32c19add1f1a94df8a1f556fa806d458ee75a4bc094876a"
   },
   "cost_rates": {
     "input_usd_per_1m_tokens": 0.3,
     "output_usd_per_1m_tokens": 2.5,
     "source": "default"
   },
-  "error_summary": "Skipped 3 videos before publication because no usable transcript was available: Ib8oBWdkeag: captions unavailable (No transcript provider succeeded for Ib8oBWdkeag. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=Ib8oBWdkeag! This is most likely caused by: YouTube is blocking requests from your IP. This usually is due to one of the following reasons: - You have d); DNajvkqfobY: captions unavailable (No transcript provider succeeded for DNajvkqfobY. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=DNajvkqfobY! This is most likely caused by: The video is unplayable for the following reason: This live event will begin in a few moments. If you are su); tk9qrk5G4RQ: captions unavailable (No transcript provider succeeded for tk9qrk5G4RQ. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=tk9qrk5G4RQ! This is most likely caused by: YouTube is blocking requests from your IP. This usually is due to one of the following reasons: - You have d) Filtered 15 caption-backed videos outside configured LLM landscape rules: nepKKz-MzFM: no gemini LLM landscape signal; iKx3gAODybU: no gemini LLM landscape signal; H9rF1CSSh-w: no gemini LLM landscape signal; 12 more Used deterministic fallback for 2 provider failures: eCw33snvoNI: gemini provider failed (LLM response JSON did not match insight schema at <root>: 'confidence_score' is a required property); deterministic fallback used; NksViNo3n08: gemini provider failed (LLM response content was not valid JSON); deterministic fallback used",
-  "estimated_cost_usd": 0.098527,
-  "last_successful_run_at": "2026-05-18T16:10:49Z",
+  "error_summary": "Filtered 13 caption-backed videos outside configured LLM landscape rules: nepKKz-MzFM: no gemini LLM landscape signal; iKx3gAODybU: no gemini LLM landscape signal; H9rF1CSSh-w: no gemini LLM landscape signal; 10 more Used deterministic fallback for 2 provider failures: x7u2c0DhWEU: gemini provider failed (503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used; RTa6Z0BJ_WY: gemini provider failed (503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used",
+  "estimated_cost_usd": 0.117783,
+  "last_successful_run_at": "2026-05-19T04:50:21Z",
   "model": "gemini-2.5-flash",
   "provider": "gemini",
-  "provider_call_count": 47,
+  "provider_call_count": 50,
   "provider_fallback_count": 2,
   "provider_fallback_reasons": [
-    "eCw33snvoNI: gemini provider failed (LLM response JSON did not match insight schema at <root>: 'confidence_score' is a required property); deterministic fallback used",
-    "NksViNo3n08: gemini provider failed (LLM response content was not valid JSON); deterministic fallback used"
+    "x7u2c0DhWEU: gemini provider failed (503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used",
+    "RTa6Z0BJ_WY: gemini provider failed (503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used"
   ],
-  "provider_success_count": 45,
+  "provider_success_count": 48,
   "schema_version": "1.0",
   "status": "partial",
   "token_usage": {
-    "input_tokens": 120231,
-    "output_tokens": 24983,
-    "total_tokens": 215836
+    "input_tokens": 152169,
+    "output_tokens": 28853,
+    "total_tokens": 267677
   },
   "videos_failed": 0,
-  "videos_processed": 32,
+  "videos_processed": 37,
   "videos_seen": 50,
-  "videos_skipped": 3
+  "videos_skipped": 0
 }
