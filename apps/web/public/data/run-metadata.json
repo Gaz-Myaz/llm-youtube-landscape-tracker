@@ -1,34 +1,32 @@
 {
   "content_hashes": {
-    "channels": "88246f020fe7cf4aa8b911cf899c0a32fe26825053a5526d70fdcf523fb1361f",
-    "relationships": "5a4f46af7aa36f8fbb19a43f3b4687c1e3fd4753cacec2f153a72596d3c7ee1c",
-    "videos": "fd95143f08ed3a3407354d1290718a22b5399b37dddfa2de1a68a845318695b2"
+    "channels": "3300ecb83adca98a17645a698e8fda900e449b7ee8e99cfa8d144d0b51fa07ee",
+    "relationships": "622fd8747be7fc1ef108c033a4689cffdf16b0902a16548b04b3c16c30e5ad51",
+    "videos": "04ea9febe66e4b3fd4283a7a49f744a9dd782f3ed39d7eca3e7c014fb3f6b38b"
   },
   "cost_rates": {
     "input_usd_per_1m_tokens": 0.3,
     "output_usd_per_1m_tokens": 2.5,
     "source": "default"
   },
-  "error_summary": "Skipped 5 videos before publication because no usable transcript was available: tOIwuhVu6Fs: captions unavailable (No transcript provider succeeded for tOIwuhVu6Fs. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=tOIwuhVu6Fs! This is most likely caused by: YouTube is blocking requests from your IP. This usually is due to one of the following reasons: - You have d); 1SKV4B_WPkg: captions unavailable (No transcript provider succeeded for 1SKV4B_WPkg. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=1SKV4B_WPkg! This is most likely caused by: YouTube is blocking requests from your IP. This usually is due to one of the following reasons: - You have d); DNajvkqfobY: captions unavailable (No transcript provider succeeded for DNajvkqfobY. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=DNajvkqfobY! This is most likely caused by: The video is unplayable for the following reason: This live event will begin in a few moments. If you are su); 2 more Filtered 15 caption-backed videos outside configured LLM landscape rules: nepKKz-MzFM: no gemini LLM landscape signal; iKx3gAODybU: no gemini LLM landscape signal; H9rF1CSSh-w: no gemini LLM landscape signal; 12 more Used deterministic fallback for 1 provider failures: v67plFw1nMw: gemini provider failed (HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60.0)); deterministic fallback used",
-  "estimated_cost_usd": 0.087802,
-  "last_successful_run_at": "2026-05-20T16:11:34Z",
+  "error_summary": "Skipped 1 videos before publication because no usable transcript was available: _BY9YTTh6kE: captions unavailable (No transcript provider succeeded for _BY9YTTh6kE. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=_BY9YTTh6kE! This is most likely caused by: YouTube is blocking requests from your IP. This usually is due to one of the following reasons: - You have d) Filtered 12 caption-backed videos outside configured LLM landscape rules: nepKKz-MzFM: no gemini LLM landscape signal; iKx3gAODybU: no gemini LLM landscape signal; H9rF1CSSh-w: no gemini LLM landscape signal; 9 more",
+  "estimated_cost_usd": 0.124389,
+  "last_successful_run_at": "2026-05-21T05:01:08Z",
   "model": "gemini-2.5-flash",
   "provider": "gemini",
-  "provider_call_count": 45,
-  "provider_fallback_count": 1,
-  "provider_fallback_reasons": [
-    "v67plFw1nMw: gemini provider failed (HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60.0)); deterministic fallback used"
-  ],
-  "provider_success_count": 44,
+  "provider_call_count": 49,
+  "provider_fallback_count": 0,
+  "provider_fallback_reasons": [],
+  "provider_success_count": 49,
   "schema_version": "1.0",
-  "status": "partial",
+  "status": "success",
   "token_usage": {
-    "input_tokens": 116424,
-    "output_tokens": 21150,
-    "total_tokens": 211172
+    "input_tokens": 143179,
+    "output_tokens": 32574,
+    "total_tokens": 266488
   },
   "videos_failed": 0,
-  "videos_processed": 30,
+  "videos_processed": 37,
   "videos_seen": 50,
-  "videos_skipped": 5
+  "videos_skipped": 1
 }
