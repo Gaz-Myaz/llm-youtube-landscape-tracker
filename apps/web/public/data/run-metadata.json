@@ -1,32 +1,32 @@
 {
   "content_hashes": {
-    "channels": "646a64fd94e2219b44ddd64f46885c0f3bad5e3db491bcd12f4911124a33bc3e",
-    "relationships": "f384f30e5115e721489f7b5569927f69b25f11a71d17d45f5d75e60cad5d0594",
-    "videos": "8bb78f082d537e400b243822a87642d42aecc35b047ba4918a2873a30d5b5991"
+    "channels": "513b15a6365c5ec94455ff28df1f645edc2d0ef0f5c4593474d6d199a4ddb519",
+    "relationships": "42e70ffa85d985e411bac7770391ac6632746beb7d90ad2b9ad3a81505847acd",
+    "videos": "99f44b02b628496ead36c10491aa1744bcf6ecf2fd7ea98272a2bd983e0696e2"
   },
   "cost_rates": {
     "input_usd_per_1m_tokens": 0.3,
     "output_usd_per_1m_tokens": 2.5,
     "source": "default"
   },
-  "error_summary": "Skipped 4 videos before publication because no usable transcript was available: 4lKbesI5eLI: captions unavailable (No transcript provider succeeded for 4lKbesI5eLI. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=4lKbesI5eLI! This is most likely caused by: YouTube is blocking requests from your IP. This usually is due to one of the following reasons: - You have d); 1SKV4B_WPkg: captions unavailable (No transcript provider succeeded for 1SKV4B_WPkg. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=1SKV4B_WPkg! This is most likely caused by: YouTube is blocking requests from your IP. This usually is due to one of the following reasons: - You have d); DNajvkqfobY: captions unavailable (No transcript provider succeeded for DNajvkqfobY. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=DNajvkqfobY! This is most likely caused by: The video is unplayable for the following reason: This live event will begin in a few moments. If you are su); 1 more Filtered 12 caption-backed videos outside configured LLM landscape rules: nepKKz-MzFM: no gemini LLM landscape signal; iKx3gAODybU: no gemini LLM landscape signal; H9rF1CSSh-w: no gemini LLM landscape signal; 9 more",
-  "estimated_cost_usd": 0.106295,
-  "last_successful_run_at": "2026-05-21T16:06:02Z",
+  "error_summary": "Skipped 3 videos before publication because no usable transcript was available: 9tcLy9TnPDU: captions unavailable (No transcript provider succeeded for 9tcLy9TnPDU. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=9tcLy9TnPDU! This is most likely caused by: The video is unplayable for the following reason: Join this channel to get access to members-only content li); 4lKbesI5eLI: captions unavailable (No transcript provider succeeded for 4lKbesI5eLI. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=4lKbesI5eLI! This is most likely caused by: YouTube is blocking requests from your IP. This usually is due to one of the following reasons: - You have d); QKYbGCvNpFo: captions unavailable (No transcript provider succeeded for QKYbGCvNpFo. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=QKYbGCvNpFo! This is most likely caused by: YouTube is blocking requests from your IP. This usually is due to one of the following reasons: - You have d) Filtered 13 caption-backed videos outside configured LLM landscape rules: nepKKz-MzFM: no gemini LLM landscape signal; iKx3gAODybU: no gemini LLM landscape signal; H9rF1CSSh-w: no gemini LLM landscape signal; 10 more",
+  "estimated_cost_usd": 0.113102,
+  "last_successful_run_at": "2026-05-22T04:50:33Z",
   "model": "gemini-2.5-flash",
   "provider": "gemini",
-  "provider_call_count": 46,
+  "provider_call_count": 47,
   "provider_fallback_count": 0,
   "provider_fallback_reasons": [],
-  "provider_success_count": 46,
+  "provider_success_count": 47,
   "schema_version": "1.0",
   "status": "success",
   "token_usage": {
-    "input_tokens": 118567,
-    "output_tokens": 28290,
-    "total_tokens": 224099
+    "input_tokens": 143558,
+    "output_tokens": 28014,
+    "total_tokens": 248772
   },
   "videos_failed": 0,
   "videos_processed": 34,
   "videos_seen": 50,
-  "videos_skipped": 4
+  "videos_skipped": 3
 }
