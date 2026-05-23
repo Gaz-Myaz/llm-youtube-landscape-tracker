@@ -1,34 +1,32 @@
 {
   "content_hashes": {
-    "channels": "52e827ca7ca8c68386abd9e9d199596bfbd601f6fd8b08491b083c0ab99a6112",
-    "relationships": "d8e7a926e6d1427c4e192f84411f09fe7a314b484bd3580e0b07d0c1dd0e6174",
-    "videos": "56fe1a878f4729772758e06c98891a4d77bb61701f13b708589675b04b8fef74"
+    "channels": "5ea97f6c024172fb7d715d006942083bd9b20ca195f740a344d977aab0415176",
+    "relationships": "da57e7e9efc6aaf684f96c9ebccd94c8060bfc9910be135863f742ce8eb18454",
+    "videos": "2e6ee8d253b0b72b128abf2c623bc690dd48561be4077b75fcce1419d24c7e07"
   },
   "cost_rates": {
     "input_usd_per_1m_tokens": 0.3,
     "output_usd_per_1m_tokens": 2.5,
     "source": "default"
   },
-  "error_summary": "Skipped 2 videos before publication because no usable transcript was available: 4lKbesI5eLI: captions unavailable (No transcript provider succeeded for 4lKbesI5eLI. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=4lKbesI5eLI! This is most likely caused by: YouTube is blocking requests from your IP. This usually is due to one of the following reasons: - You have d); 1SKV4B_WPkg: captions unavailable (No transcript provider succeeded for 1SKV4B_WPkg. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=1SKV4B_WPkg! This is most likely caused by: YouTube is blocking requests from your IP. This usually is due to one of the following reasons: - You have d) Filtered 14 caption-backed videos outside configured LLM landscape rules: nepKKz-MzFM: no gemini LLM landscape signal; iKx3gAODybU: no gemini LLM landscape signal; H9rF1CSSh-w: no gemini LLM landscape signal; 11 more Used deterministic fallback for 1 provider failures: NksViNo3n08: gemini provider failed (HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60.0)); deterministic fallback used",
-  "estimated_cost_usd": 0.099743,
-  "last_successful_run_at": "2026-05-23T04:23:29Z",
+  "error_summary": "Skipped 3 videos before publication because no usable transcript was available: 4lKbesI5eLI: captions unavailable (No transcript provider succeeded for 4lKbesI5eLI. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=4lKbesI5eLI! This is most likely caused by: YouTube is blocking requests from your IP. This usually is due to one of the following reasons: - You have d); 1SKV4B_WPkg: captions unavailable (No transcript provider succeeded for 1SKV4B_WPkg. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=1SKV4B_WPkg! This is most likely caused by: YouTube is blocking requests from your IP. This usually is due to one of the following reasons: - You have d); DNajvkqfobY: captions unavailable (No transcript provider succeeded for DNajvkqfobY. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=DNajvkqfobY! This is most likely caused by: The video is unplayable for the following reason: This live event will begin in a few moments. If you are su) Filtered 13 caption-backed videos outside configured LLM landscape rules: nepKKz-MzFM: no gemini LLM landscape signal; iKx3gAODybU: no gemini LLM landscape signal; H9rF1CSSh-w: no gemini LLM landscape signal; 10 more",
+  "estimated_cost_usd": 0.10185,
+  "last_successful_run_at": "2026-05-23T14:16:18Z",
   "model": "gemini-2.5-flash",
   "provider": "gemini",
-  "provider_call_count": 48,
-  "provider_fallback_count": 1,
-  "provider_fallback_reasons": [
-    "NksViNo3n08: gemini provider failed (HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60.0)); deterministic fallback used"
-  ],
+  "provider_call_count": 47,
+  "provider_fallback_count": 0,
+  "provider_fallback_reasons": [],
   "provider_success_count": 47,
   "schema_version": "1.0",
-  "status": "partial",
+  "status": "success",
   "token_usage": {
-    "input_tokens": 121442,
-    "output_tokens": 25324,
-    "total_tokens": 228363
+    "input_tokens": 119376,
+    "output_tokens": 26415,
+    "total_tokens": 216010
   },
   "videos_failed": 0,
   "videos_processed": 34,
   "videos_seen": 50,
-  "videos_skipped": 2
+  "videos_skipped": 3
 }
