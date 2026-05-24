@@ -1,29 +1,31 @@
 {
   "content_hashes": {
-    "channels": "5ea97f6c024172fb7d715d006942083bd9b20ca195f740a344d977aab0415176",
-    "relationships": "da57e7e9efc6aaf684f96c9ebccd94c8060bfc9910be135863f742ce8eb18454",
-    "videos": "2e6ee8d253b0b72b128abf2c623bc690dd48561be4077b75fcce1419d24c7e07"
+    "channels": "1efd0969b8613162facbaad8e7c6d7f93d1c6c25864cf636f818b8b5a98bc66b",
+    "relationships": "3580a26e141007dcd9a5a98807a8b5c9ff31c924ec6f749771ef958981782b89",
+    "videos": "a65b709447791612b8ead0aac67c1908400d33dba042a8e1f4e58c4f34b9d2c0"
   },
   "cost_rates": {
     "input_usd_per_1m_tokens": 0.3,
     "output_usd_per_1m_tokens": 2.5,
     "source": "default"
   },
-  "error_summary": "Skipped 3 videos before publication because no usable transcript was available: 4lKbesI5eLI: captions unavailable (No transcript provider succeeded for 4lKbesI5eLI. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=4lKbesI5eLI! This is most likely caused by: YouTube is blocking requests from your IP. This usually is due to one of the following reasons: - You have d); 1SKV4B_WPkg: captions unavailable (No transcript provider succeeded for 1SKV4B_WPkg. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=1SKV4B_WPkg! This is most likely caused by: YouTube is blocking requests from your IP. This usually is due to one of the following reasons: - You have d); DNajvkqfobY: captions unavailable (No transcript provider succeeded for DNajvkqfobY. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=DNajvkqfobY! This is most likely caused by: The video is unplayable for the following reason: This live event will begin in a few moments. If you are su) Filtered 13 caption-backed videos outside configured LLM landscape rules: nepKKz-MzFM: no gemini LLM landscape signal; iKx3gAODybU: no gemini LLM landscape signal; H9rF1CSSh-w: no gemini LLM landscape signal; 10 more",
-  "estimated_cost_usd": 0.10185,
-  "last_successful_run_at": "2026-05-23T14:16:18Z",
+  "error_summary": "Skipped 3 videos before publication because no usable transcript was available: 4lKbesI5eLI: captions unavailable (No transcript provider succeeded for 4lKbesI5eLI. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=4lKbesI5eLI! This is most likely caused by: YouTube is blocking requests from your IP. This usually is due to one of the following reasons: - You have d); 1SKV4B_WPkg: captions unavailable (No transcript provider succeeded for 1SKV4B_WPkg. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=1SKV4B_WPkg! This is most likely caused by: YouTube is blocking requests from your IP. This usually is due to one of the following reasons: - You have d); DNajvkqfobY: captions unavailable (No transcript provider succeeded for DNajvkqfobY. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=DNajvkqfobY! This is most likely caused by: The video is unplayable for the following reason: This live event will begin in a few moments. If you are su) Filtered 13 caption-backed videos outside configured LLM landscape rules: nepKKz-MzFM: no gemini LLM landscape signal; iKx3gAODybU: no gemini LLM landscape signal; H9rF1CSSh-w: no gemini LLM landscape signal; 10 more Used deterministic fallback for 1 provider failures: NksViNo3n08: gemini provider failed (HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60.0)); deterministic fallback used",
+  "estimated_cost_usd": 0.10494,
+  "last_successful_run_at": "2026-05-24T04:54:16Z",
   "model": "gemini-2.5-flash",
   "provider": "gemini",
   "provider_call_count": 47,
-  "provider_fallback_count": 0,
-  "provider_fallback_reasons": [],
-  "provider_success_count": 47,
+  "provider_fallback_count": 1,
+  "provider_fallback_reasons": [
+    "NksViNo3n08: gemini provider failed (HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60.0)); deterministic fallback used"
+  ],
+  "provider_success_count": 46,
   "schema_version": "1.0",
-  "status": "success",
+  "status": "partial",
   "token_usage": {
-    "input_tokens": 119376,
-    "output_tokens": 26415,
-    "total_tokens": 216010
+    "input_tokens": 115801,
+    "output_tokens": 28080,
+    "total_tokens": 218897
   },
   "videos_failed": 0,
   "videos_processed": 34,
