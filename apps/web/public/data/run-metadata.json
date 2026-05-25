@@ -1,32 +1,53 @@
 {
   "content_hashes": {
-    "channels": "987bc1cf64f99b1c4642233adc2796e861cfd1ea2752f530096ee43122f8859d",
-    "relationships": "ecd9fd457d4377d8019b12a331e306980dd1b48c76b5c5084548f0deb69b990c",
-    "videos": "f63447e52aacd960d4fa4f7d90ce6f44ad0a97d07bdf6c8e1f01f6c405702f93"
+    "channels": "c7d92db62fb64facdc95ca7b0c8408baf87f22498d4d886f7f3a8837f01f66bc",
+    "relationships": "085567429d0f7fea826cc9705b899d58623ab7c5b94ed4099e23214842a76189",
+    "videos": "fe5c7f110c0cfb3a16ff26a13549daa14a42f47e5a22285280ae93cb30a20f29"
   },
   "cost_rates": {
     "input_usd_per_1m_tokens": 0.3,
     "output_usd_per_1m_tokens": 2.5,
     "source": "default"
   },
-  "error_summary": "Skipped 2 videos before publication because no usable transcript was available: 4lKbesI5eLI: captions unavailable (No transcript provider succeeded for 4lKbesI5eLI. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=4lKbesI5eLI! This is most likely caused by: YouTube is blocking requests from your IP. This usually is due to one of the following reasons: - You have d); DNajvkqfobY: captions unavailable (No transcript provider succeeded for DNajvkqfobY. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=DNajvkqfobY! This is most likely caused by: The video is unplayable for the following reason: This live event will begin in a few moments. If you are su) Filtered 12 caption-backed videos outside configured LLM landscape rules: nepKKz-MzFM: no gemini LLM landscape signal; iKx3gAODybU: no gemini LLM landscape signal; H9rF1CSSh-w: no gemini LLM landscape signal; 9 more",
-  "estimated_cost_usd": 0.105427,
-  "last_successful_run_at": "2026-05-25T05:06:41Z",
+  "error_summary": "Skipped 2 videos before publication because no usable transcript was available: 4lKbesI5eLI: captions unavailable (No transcript provider succeeded for 4lKbesI5eLI. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=4lKbesI5eLI! This is most likely caused by: YouTube is blocking requests from your IP. This usually is due to one of the following reasons: - You have d); DNajvkqfobY: captions unavailable (No transcript provider succeeded for DNajvkqfobY. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=DNajvkqfobY! This is most likely caused by: The video is unplayable for the following reason: This live event will begin in a few moments. If you are su) Filtered 9 caption-backed videos outside configured LLM landscape rules: SHlrUAkkWI0: no gemini LLM landscape signal; hx7RYKqaiJA: no gemini LLM landscape signal; Q4b1hv6-F5c: no gemini LLM landscape signal; 6 more Used deterministic fallback for 20 provider failures: LpXhy2iiaQE: gemini provider failed (403 Client Error: Forbidden for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used; 4wC8hnQawiA: gemini provider failed (403 Client Error: Forbidden for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used; 4nQnhjimB4Y: gemini provider failed (403 Client Error: Forbidden for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used; 17 more",
+  "estimated_cost_usd": 0.0,
+  "last_successful_run_at": "2026-05-25T15:34:15Z",
   "model": "gemini-2.5-flash",
   "provider": "gemini",
   "provider_call_count": 48,
-  "provider_fallback_count": 0,
-  "provider_fallback_reasons": [],
-  "provider_success_count": 48,
+  "provider_fallback_count": 48,
+  "provider_fallback_reasons": [
+    "LpXhy2iiaQE: gemini provider failed (403 Client Error: Forbidden for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used",
+    "4wC8hnQawiA: gemini provider failed (403 Client Error: Forbidden for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used",
+    "4nQnhjimB4Y: gemini provider failed (403 Client Error: Forbidden for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used",
+    "p7K3xfViWCE: gemini provider failed (403 Client Error: Forbidden for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used",
+    "eCw33snvoNI: gemini provider failed (403 Client Error: Forbidden for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used",
+    "nepKKz-MzFM: gemini provider failed (403 Client Error: Forbidden for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used",
+    "iKx3gAODybU: gemini provider failed (403 Client Error: Forbidden for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used",
+    "vif8NQcjVf0: gemini provider failed (403 Client Error: Forbidden for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used",
+    "H9rF1CSSh-w: gemini provider failed (403 Client Error: Forbidden for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used",
+    "SHlrUAkkWI0: gemini provider failed (403 Client Error: Forbidden for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used",
+    "9OQ5vaYbGV0: gemini provider failed (403 Client Error: Forbidden for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used",
+    "3tbB2dffx0s: gemini provider failed (403 Client Error: Forbidden for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used",
+    "gwTQLZSIlsU: gemini provider failed (403 Client Error: Forbidden for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used",
+    "MtxP2pyCvYA: gemini provider failed (403 Client Error: Forbidden for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used",
+    "lkifbWtxxlk: gemini provider failed (403 Client Error: Forbidden for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used",
+    "a_hyFI09SEs: gemini provider failed (403 Client Error: Forbidden for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used",
+    "0zw-Uk9KJiA: gemini provider failed (403 Client Error: Forbidden for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used",
+    "hx7RYKqaiJA: gemini provider failed (403 Client Error: Forbidden for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used",
+    "cVUVfn8OF5k: gemini provider failed (403 Client Error: Forbidden for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used",
+    "Q4b1hv6-F5c: gemini provider failed (403 Client Error: Forbidden for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used"
+  ],
+  "provider_success_count": 0,
   "schema_version": "1.0",
-  "status": "success",
+  "status": "partial",
   "token_usage": {
-    "input_tokens": 123066,
-    "output_tokens": 27403,
-    "total_tokens": 228509
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
   },
   "videos_failed": 0,
-  "videos_processed": 36,
+  "videos_processed": 39,
   "videos_seen": 50,
   "videos_skipped": 2
 }
