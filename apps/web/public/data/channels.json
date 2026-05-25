@@ -9,23 +9,23 @@
       "top_topics": [
         {
           "label": "AI Agents",
-          "score": 1.0,
+          "score": 0.95,
           "slug": "agents"
         },
         {
           "label": "Model Releases",
-          "score": 1.0,
+          "score": 0.95,
           "slug": "model-releases"
         },
         {
-          "label": "Enterprise Adoption",
-          "score": 1.0,
-          "slug": "enterprise-adoption"
+          "label": "RAG",
+          "score": 0.95,
+          "slug": "rag"
         },
         {
-          "label": "Benchmarks",
+          "label": "Enterprise Adoption",
           "score": 0.9,
-          "slug": "benchmarks"
+          "slug": "enterprise-adoption"
         },
         {
           "label": "Multimodal",
@@ -60,9 +60,9 @@
           "slug": "enterprise-adoption"
         },
         {
-          "label": "RAG",
+          "label": "Safety and Alignment",
           "score": 0.8,
-          "slug": "rag"
+          "slug": "safety-alignment"
         }
       ],
       "url": "https://www.youtube.com/@OpenAI",
@@ -77,9 +77,9 @@
       "title": "Two Minute Papers",
       "top_topics": [
         {
-          "label": "Multimodal",
+          "label": "Model Releases",
           "score": 1.0,
-          "slug": "multimodal"
+          "slug": "model-releases"
         },
         {
           "label": "Open Source Models",
@@ -87,18 +87,18 @@
           "slug": "open-source-models"
         },
         {
-          "label": "Model Releases",
+          "label": "Multimodal",
           "score": 1.0,
-          "slug": "model-releases"
+          "slug": "multimodal"
         },
         {
           "label": "Benchmarks",
-          "score": 0.95,
+          "score": 0.9,
           "slug": "benchmarks"
         },
         {
           "label": "Safety and Alignment",
-          "score": 0.95,
+          "score": 0.9,
           "slug": "safety-alignment"
         }
       ],
@@ -119,9 +119,9 @@
           "slug": "coding-assistants"
         },
         {
-          "label": "AI Agents",
+          "label": "Safety and Alignment",
           "score": 1.0,
-          "slug": "agents"
+          "slug": "safety-alignment"
         },
         {
           "label": "Enterprise Adoption",
@@ -129,14 +129,14 @@
           "slug": "enterprise-adoption"
         },
         {
+          "label": "AI Agents",
+          "score": 1.0,
+          "slug": "agents"
+        },
+        {
           "label": "Model Releases",
           "score": 0.9,
           "slug": "model-releases"
-        },
-        {
-          "label": "Benchmarks",
-          "score": 0.9,
-          "slug": "benchmarks"
         }
       ],
       "url": "https://www.youtube.com/@matthew_berman",
@@ -161,19 +161,19 @@
           "slug": "benchmarks"
         },
         {
+          "label": "Safety and Alignment",
+          "score": 1.0,
+          "slug": "safety-alignment"
+        },
+        {
           "label": "Multimodal",
           "score": 0.9,
           "slug": "multimodal"
         },
         {
-          "label": "AI Agents",
+          "label": "Evaluation",
           "score": 0.9,
-          "slug": "agents"
-        },
-        {
-          "label": "Safety and Alignment",
-          "score": 0.9,
-          "slug": "safety-alignment"
+          "slug": "evals"
         }
       ],
       "url": "https://www.youtube.com/@AIExplained-official",
@@ -204,17 +204,17 @@
         },
         {
           "label": "Coding Assistants",
-          "score": 0.8,
+          "score": 0.85,
           "slug": "coding-assistants"
         },
         {
           "label": "Multimodal",
-          "score": 0.7,
+          "score": 0.8,
           "slug": "multimodal"
         }
       ],
       "url": "https://www.youtube.com/@Fireship",
-      "video_count": 3,
+      "video_count": 4,
       "youtube_channel_id": "UCsBjURrPoezykLs9EqgamOA"
     },
     {
@@ -225,29 +225,29 @@
       "title": "Yannic Kilcher",
       "top_topics": [
         {
-          "label": "Local Inference",
-          "score": 1.0,
-          "slug": "local-inference"
-        },
-        {
-          "label": "Benchmarks",
-          "score": 1.0,
-          "slug": "benchmarks"
-        },
-        {
           "label": "AI Agents",
-          "score": 0.9,
+          "score": 0.95,
           "slug": "agents"
         },
         {
-          "label": "Model Releases",
+          "label": "Local Inference",
           "score": 0.9,
-          "slug": "model-releases"
+          "slug": "local-inference"
+        },
+        {
+          "label": "Evaluation",
+          "score": 0.9,
+          "slug": "evals"
         },
         {
           "label": "Open Source Models",
-          "score": 0.8,
+          "score": 0.85,
           "slug": "open-source-models"
+        },
+        {
+          "label": "Benchmarks",
+          "score": 0.85,
+          "slug": "benchmarks"
         }
       ],
       "url": "https://www.youtube.com/@YannicKilcher",
@@ -268,12 +268,12 @@
         },
         {
           "label": "RAG",
-          "score": 0.8,
+          "score": 0.85,
           "slug": "rag"
         },
         {
           "label": "Evaluation",
-          "score": 0.7,
+          "score": 0.75,
           "slug": "evals"
         }
       ],
@@ -290,13 +290,13 @@
       "top_topics": [
         {
           "label": "Coding Assistants",
-          "score": 0.95,
+          "score": 1.0,
           "slug": "coding-assistants"
         },
         {
-          "label": "AI Agents",
-          "score": 0.8,
-          "slug": "agents"
+          "label": "Model Releases",
+          "score": 0.9,
+          "slug": "model-releases"
         },
         {
           "label": "Evaluation",
@@ -304,9 +304,9 @@
           "slug": "evals"
         },
         {
-          "label": "Open Source Models",
+          "label": "AI Agents",
           "score": 0.7,
-          "slug": "open-source-models"
+          "slug": "agents"
         }
       ],
       "url": "https://www.youtube.com/@ThePrimeagen",
@@ -322,7 +322,7 @@
       "top_topics": [
         {
           "label": "Enterprise Adoption",
-          "score": 0.9,
+          "score": 1.0,
           "slug": "enterprise-adoption"
         }
       ],
@@ -331,6 +331,6 @@
       "youtube_channel_id": "UCSHZKyawb77ixDdsGog4iWA"
     }
   ],
-  "generated_at": "2026-05-24T14:14:37Z",
+  "generated_at": "2026-05-25T05:06:41Z",
   "schema_version": "1.0"
 }
