@@ -1,6 +1,186 @@
 {
   "channels": [
     {
+      "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
+      "handle": "@WesRoth",
+      "latest_video_at": "2026-05-30T02:53:11Z",
+      "thumbnail_url": null,
+      "title": "Wes Roth",
+      "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.903,
+          "slug": "agents"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.815,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.806,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Open Source Models",
+          "score": 0.731,
+          "slug": "open-source-models"
+        },
+        {
+          "label": "Multimodal",
+          "score": 0.687,
+          "slug": "multimodal"
+        }
+      ],
+      "url": "https://www.youtube.com/@WesRoth",
+      "video_count": 5,
+      "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
+    },
+    {
+      "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
+      "handle": "@OpenAI",
+      "latest_video_at": "2026-05-29T20:29:25Z",
+      "thumbnail_url": null,
+      "title": "OpenAI",
+      "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.86,
+          "slug": "agents"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.812,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.77,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Evaluation",
+          "score": 0.598,
+          "slug": "evals"
+        }
+      ],
+      "url": "https://www.youtube.com/@OpenAI",
+      "video_count": 5,
+      "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
+    },
+    {
+      "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
+      "handle": "@matthew_berman",
+      "latest_video_at": "2026-05-29T19:09:21Z",
+      "thumbnail_url": null,
+      "title": "Matthew Berman",
+      "top_topics": [
+        {
+          "label": "Fine Tuning",
+          "score": 0.88,
+          "slug": "fine-tuning"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.826,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.82,
+          "slug": "model-releases"
+        },
+        {
+          "label": "AI Agents",
+          "score": 0.769,
+          "slug": "agents"
+        },
+        {
+          "label": "Open Source Models",
+          "score": 0.751,
+          "slug": "open-source-models"
+        }
+      ],
+      "url": "https://www.youtube.com/@matthew_berman",
+      "video_count": 5,
+      "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
+    },
+    {
+      "description": "Fast software engineering and AI tooling explainers.",
+      "handle": "@Fireship",
+      "latest_video_at": "2026-05-29T17:06:48Z",
+      "thumbnail_url": null,
+      "title": "Fireship",
+      "top_topics": [
+        {
+          "label": "Coding Assistants",
+          "score": 0.886,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "AI Agents",
+          "score": 0.843,
+          "slug": "agents"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.819,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Safety and Alignment",
+          "score": 0.662,
+          "slug": "safety-alignment"
+        },
+        {
+          "label": "Benchmarks",
+          "score": 0.594,
+          "slug": "benchmarks"
+        }
+      ],
+      "url": "https://www.youtube.com/@Fireship",
+      "video_count": 5,
+      "youtube_channel_id": "UCsBjURrPoezykLs9EqgamOA"
+    },
+    {
+      "description": "Long-form technical interviews with AI researchers and builders.",
+      "handle": "@lexfridman",
+      "latest_video_at": "2026-05-29T16:18:31Z",
+      "thumbnail_url": null,
+      "title": "Lex Fridman",
+      "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.805,
+          "slug": "agents"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.77,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Open Source Models",
+          "score": 0.761,
+          "slug": "open-source-models"
+        },
+        {
+          "label": "RAG",
+          "score": 0.696,
+          "slug": "rag"
+        },
+        {
+          "label": "Enterprise Adoption",
+          "score": 0.636,
+          "slug": "enterprise-adoption"
+        }
+      ],
+      "url": "https://www.youtube.com/@lexfridman",
+      "video_count": 5,
+      "youtube_channel_id": "UCSHZKyawb77ixDdsGog4iWA"
+    },
+    {
       "description": "Accessible analysis of frontier models, agents, local inference, and open-weight AI.",
       "handle": "@AIExplained-official",
       "latest_video_at": "2026-05-29T15:07:35Z",
@@ -36,117 +216,6 @@
       "url": "https://www.youtube.com/@AIExplained-official",
       "video_count": 5,
       "youtube_channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw"
-    },
-    {
-      "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
-      "handle": "@matthew_berman",
-      "latest_video_at": "2026-05-29T01:01:34Z",
-      "thumbnail_url": null,
-      "title": "Matthew Berman",
-      "top_topics": [
-        {
-          "label": "Coding Assistants",
-          "score": 0.839,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "AI Agents",
-          "score": 0.838,
-          "slug": "agents"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.82,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Benchmarks",
-          "score": 0.736,
-          "slug": "benchmarks"
-        },
-        {
-          "label": "Fine Tuning",
-          "score": 0.701,
-          "slug": "fine-tuning"
-        }
-      ],
-      "url": "https://www.youtube.com/@matthew_berman",
-      "video_count": 5,
-      "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
-    },
-    {
-      "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
-      "handle": "@WesRoth",
-      "latest_video_at": "2026-05-28T20:52:09Z",
-      "thumbnail_url": null,
-      "title": "Wes Roth",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.817,
-          "slug": "agents"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.81,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.806,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.731,
-          "slug": "open-source-models"
-        },
-        {
-          "label": "RAG",
-          "score": 0.701,
-          "slug": "rag"
-        }
-      ],
-      "url": "https://www.youtube.com/@WesRoth",
-      "video_count": 5,
-      "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
-    },
-    {
-      "description": "Fast software engineering and AI tooling explainers.",
-      "handle": "@Fireship",
-      "latest_video_at": "2026-05-26T17:53:11Z",
-      "thumbnail_url": null,
-      "title": "Fireship",
-      "top_topics": [
-        {
-          "label": "Coding Assistants",
-          "score": 0.886,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "AI Agents",
-          "score": 0.843,
-          "slug": "agents"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.819,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Safety and Alignment",
-          "score": 0.662,
-          "slug": "safety-alignment"
-        },
-        {
-          "label": "Benchmarks",
-          "score": 0.594,
-          "slug": "benchmarks"
-        }
-      ],
-      "url": "https://www.youtube.com/@Fireship",
-      "video_count": 5,
-      "youtube_channel_id": "UCsBjURrPoezykLs9EqgamOA"
     },
     {
       "description": "Research-focused AI and machine learning explainers.",
@@ -186,75 +255,6 @@
       "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
     },
     {
-      "description": "Long-form technical interviews with AI researchers and builders.",
-      "handle": "@lexfridman",
-      "latest_video_at": "2026-05-06T22:03:16Z",
-      "thumbnail_url": null,
-      "title": "Lex Fridman",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.805,
-          "slug": "agents"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.77,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.761,
-          "slug": "open-source-models"
-        },
-        {
-          "label": "RAG",
-          "score": 0.696,
-          "slug": "rag"
-        },
-        {
-          "label": "Enterprise Adoption",
-          "score": 0.636,
-          "slug": "enterprise-adoption"
-        }
-      ],
-      "url": "https://www.youtube.com/@lexfridman",
-      "video_count": 4,
-      "youtube_channel_id": "UCSHZKyawb77ixDdsGog4iWA"
-    },
-    {
-      "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
-      "handle": "@OpenAI",
-      "latest_video_at": "2026-05-28T20:09:34Z",
-      "thumbnail_url": null,
-      "title": "OpenAI",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.86,
-          "slug": "agents"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.736,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.735,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Evaluation",
-          "score": 0.634,
-          "slug": "evals"
-        }
-      ],
-      "url": "https://www.youtube.com/@OpenAI",
-      "video_count": 3,
-      "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
-    },
-    {
       "description": "Technical courses and tutorials, including practical AI application development.",
       "handle": "@freecodecamp",
       "latest_video_at": "2026-05-29T10:00:31Z",
@@ -287,6 +287,28 @@
       "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
     },
     {
+      "description": "Developer commentary, tools, and AI coding workflow coverage.",
+      "handle": "@ThePrimeagen",
+      "latest_video_at": "2026-05-28T13:02:20Z",
+      "thumbnail_url": null,
+      "title": "ThePrimeTime",
+      "top_topics": [
+        {
+          "label": "Coding Assistants",
+          "score": 0.915,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.735,
+          "slug": "model-releases"
+        }
+      ],
+      "url": "https://www.youtube.com/@ThePrimeagen",
+      "video_count": 2,
+      "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
+    },
+    {
       "description": "Research-heavy coverage of machine learning papers, model releases, and AI systems.",
       "handle": "@YannicKilcher",
       "latest_video_at": "2026-03-06T22:07:33Z",
@@ -317,25 +339,8 @@
       "url": "https://www.youtube.com/@YannicKilcher",
       "video_count": 2,
       "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
-    },
-    {
-      "description": "Developer commentary, tools, and AI coding workflow coverage.",
-      "handle": "@ThePrimeagen",
-      "latest_video_at": "2026-05-28T13:02:20Z",
-      "thumbnail_url": null,
-      "title": "ThePrimeTime",
-      "top_topics": [
-        {
-          "label": "Coding Assistants",
-          "score": 0.915,
-          "slug": "coding-assistants"
-        }
-      ],
-      "url": "https://www.youtube.com/@ThePrimeagen",
-      "video_count": 1,
-      "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
     }
   ],
-  "generated_at": "2026-05-29T16:14:27Z",
+  "generated_at": "2026-05-30T04:23:47Z",
   "schema_version": "1.0"
 }
