@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-31T01:30:34Z",
+  "generated_at": "2026-05-31T12:53:35Z",
   "schema_version": "1.0",
   "videos": [
     {
@@ -1155,9 +1155,9 @@
       ],
       "primary_speaker": "Two Minute Papers host",
       "published_at": "2026-05-25T17:49:30Z",
-      "summary": "DeepMind\u2019s Insane AI Breakthroughs With CEO Demis Hassabis focuses on AI Agents, Open Source Models, Model Releases. Key transcript signal: >> Would the concept work in a way that that some AI agents would be embedded playing with the players?",
+      "summary": "Demis Hassabis On What AI Will Do Next focuses on AI Agents, Open Source Models, Model Releases. Key transcript signal: >> Would the concept work in a way that that some AI agents would be embedded playing with the players?",
       "thumbnail_url": null,
-      "title": "DeepMind\u2019s Insane AI Breakthroughs With CEO Demis Hassabis",
+      "title": "Demis Hassabis On What AI Will Do Next",
       "topics": [
         {
           "label": "AI Agents",
