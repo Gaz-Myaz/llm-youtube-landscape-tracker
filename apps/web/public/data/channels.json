@@ -1,6 +1,38 @@
 {
   "channels": [
     {
+      "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
+      "handle": "@OpenAI",
+      "latest_video_at": "2026-05-30T13:19:23Z",
+      "thumbnail_url": null,
+      "title": "OpenAI",
+      "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.843,
+          "slug": "agents"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.812,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.77,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Evaluation",
+          "score": 0.598,
+          "slug": "evals"
+        }
+      ],
+      "url": "https://www.youtube.com/@OpenAI",
+      "video_count": 5,
+      "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
+    },
+    {
       "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
       "handle": "@WesRoth",
       "latest_video_at": "2026-05-30T02:53:11Z",
@@ -36,38 +68,6 @@
       "url": "https://www.youtube.com/@WesRoth",
       "video_count": 5,
       "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
-    },
-    {
-      "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
-      "handle": "@OpenAI",
-      "latest_video_at": "2026-05-29T20:29:25Z",
-      "thumbnail_url": null,
-      "title": "OpenAI",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.86,
-          "slug": "agents"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.812,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.77,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Evaluation",
-          "score": 0.598,
-          "slug": "evals"
-        }
-      ],
-      "url": "https://www.youtube.com/@OpenAI",
-      "video_count": 5,
-      "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
     },
     {
       "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
@@ -255,6 +255,33 @@
       "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
     },
     {
+      "description": "Developer commentary, tools, and AI coding workflow coverage.",
+      "handle": "@ThePrimeagen",
+      "latest_video_at": "2026-05-30T13:01:36Z",
+      "thumbnail_url": null,
+      "title": "ThePrimeTime",
+      "top_topics": [
+        {
+          "label": "Coding Assistants",
+          "score": 0.915,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.702,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Fine Tuning",
+          "score": 0.669,
+          "slug": "fine-tuning"
+        }
+      ],
+      "url": "https://www.youtube.com/@ThePrimeagen",
+      "video_count": 3,
+      "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
+    },
+    {
       "description": "Technical courses and tutorials, including practical AI application development.",
       "handle": "@freecodecamp",
       "latest_video_at": "2026-05-29T10:00:31Z",
@@ -285,28 +312,6 @@
       "url": "https://www.youtube.com/@freecodecamp",
       "video_count": 2,
       "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
-    },
-    {
-      "description": "Developer commentary, tools, and AI coding workflow coverage.",
-      "handle": "@ThePrimeagen",
-      "latest_video_at": "2026-05-28T13:02:20Z",
-      "thumbnail_url": null,
-      "title": "ThePrimeTime",
-      "top_topics": [
-        {
-          "label": "Coding Assistants",
-          "score": 0.915,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.735,
-          "slug": "model-releases"
-        }
-      ],
-      "url": "https://www.youtube.com/@ThePrimeagen",
-      "video_count": 2,
-      "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
     },
     {
       "description": "Research-heavy coverage of machine learning papers, model releases, and AI systems.",
@@ -341,6 +346,6 @@
       "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
     }
   ],
-  "generated_at": "2026-05-30T12:49:08Z",
+  "generated_at": "2026-05-31T01:30:34Z",
   "schema_version": "1.0"
 }
