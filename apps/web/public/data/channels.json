@@ -220,7 +220,7 @@
     {
       "description": "Research-focused AI and machine learning explainers.",
       "handle": "@TwoMinutePapers",
-      "latest_video_at": "2026-05-25T17:49:30Z",
+      "latest_video_at": "2026-06-01T00:16:21Z",
       "thumbnail_url": null,
       "title": "Two Minute Papers",
       "top_topics": [
@@ -235,11 +235,6 @@
           "slug": "open-source-models"
         },
         {
-          "label": "Model Releases",
-          "score": 0.732,
-          "slug": "model-releases"
-        },
-        {
           "label": "Multimodal",
           "score": 0.697,
           "slug": "multimodal"
@@ -248,6 +243,11 @@
           "label": "Benchmarks",
           "score": 0.67,
           "slug": "benchmarks"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.639,
+          "slug": "model-releases"
         }
       ],
       "url": "https://www.youtube.com/@TwoMinutePapers",
@@ -263,7 +263,7 @@
       "top_topics": [
         {
           "label": "Coding Assistants",
-          "score": 0.915,
+          "score": 0.816,
           "slug": "coding-assistants"
         },
         {
@@ -278,40 +278,8 @@
         }
       ],
       "url": "https://www.youtube.com/@ThePrimeagen",
-      "video_count": 3,
-      "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
-    },
-    {
-      "description": "Technical courses and tutorials, including practical AI application development.",
-      "handle": "@freecodecamp",
-      "latest_video_at": "2026-05-29T10:00:31Z",
-      "thumbnail_url": null,
-      "title": "freeCodeCamp.org",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.766,
-          "slug": "agents"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.735,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "RAG",
-          "score": 0.695,
-          "slug": "rag"
-        },
-        {
-          "label": "Safety and Alignment",
-          "score": 0.656,
-          "slug": "safety-alignment"
-        }
-      ],
-      "url": "https://www.youtube.com/@freecodecamp",
       "video_count": 2,
-      "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
+      "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
     },
     {
       "description": "Research-heavy coverage of machine learning papers, model releases, and AI systems.",
@@ -344,8 +312,40 @@
       "url": "https://www.youtube.com/@YannicKilcher",
       "video_count": 2,
       "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
+    },
+    {
+      "description": "Technical courses and tutorials, including practical AI application development.",
+      "handle": "@freecodecamp",
+      "latest_video_at": "2026-05-29T10:00:31Z",
+      "thumbnail_url": null,
+      "title": "freeCodeCamp.org",
+      "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.766,
+          "slug": "agents"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.735,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "RAG",
+          "score": 0.695,
+          "slug": "rag"
+        },
+        {
+          "label": "Safety and Alignment",
+          "score": 0.655,
+          "slug": "safety-alignment"
+        }
+      ],
+      "url": "https://www.youtube.com/@freecodecamp",
+      "video_count": 1,
+      "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
     }
   ],
-  "generated_at": "2026-05-31T12:53:35Z",
+  "generated_at": "2026-06-01T01:33:48Z",
   "schema_version": "1.0"
 }
