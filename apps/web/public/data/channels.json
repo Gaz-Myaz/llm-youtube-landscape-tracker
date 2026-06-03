@@ -186,6 +186,43 @@
       "youtube_channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw"
     },
     {
+      "description": "Research-focused AI and machine learning explainers.",
+      "handle": "@TwoMinutePapers",
+      "latest_video_at": "2026-06-03T13:49:31Z",
+      "thumbnail_url": null,
+      "title": "Two Minute Papers",
+      "top_topics": [
+        {
+          "label": "Open Source Models",
+          "score": 0.766,
+          "slug": "open-source-models"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.744,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.718,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Local Inference",
+          "score": 0.707,
+          "slug": "local-inference"
+        },
+        {
+          "label": "RAG",
+          "score": 0.697,
+          "slug": "rag"
+        }
+      ],
+      "url": "https://www.youtube.com/@TwoMinutePapers",
+      "video_count": 4,
+      "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
+    },
+    {
       "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
       "handle": "@OpenAI",
       "latest_video_at": "2026-06-02T16:29:33Z",
@@ -213,41 +250,31 @@
       "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
     },
     {
-      "description": "Research-focused AI and machine learning explainers.",
-      "handle": "@TwoMinutePapers",
-      "latest_video_at": "2026-06-02T07:13:59Z",
+      "description": "Technical courses and tutorials, including practical AI application development.",
+      "handle": "@freecodecamp",
+      "latest_video_at": "2026-06-03T13:59:13Z",
       "thumbnail_url": null,
-      "title": "Two Minute Papers",
+      "title": "freeCodeCamp.org",
       "top_topics": [
         {
           "label": "AI Agents",
-          "score": 0.805,
+          "score": 0.809,
           "slug": "agents"
         },
         {
-          "label": "Open Source Models",
-          "score": 0.766,
-          "slug": "open-source-models"
-        },
-        {
-          "label": "Local Inference",
-          "score": 0.707,
-          "slug": "local-inference"
-        },
-        {
-          "label": "RAG",
-          "score": 0.697,
-          "slug": "rag"
+          "label": "Coding Assistants",
+          "score": 0.777,
+          "slug": "coding-assistants"
         },
         {
           "label": "Model Releases",
-          "score": 0.639,
+          "score": 0.601,
           "slug": "model-releases"
         }
       ],
-      "url": "https://www.youtube.com/@TwoMinutePapers",
-      "video_count": 4,
-      "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
+      "url": "https://www.youtube.com/@freecodecamp",
+      "video_count": 2,
+      "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
     },
     {
       "description": "Developer commentary, tools, and AI coding workflow coverage.",
@@ -268,7 +295,7 @@
         }
       ],
       "url": "https://www.youtube.com/@ThePrimeagen",
-      "video_count": 3,
+      "video_count": 2,
       "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
     },
     {
@@ -302,35 +329,8 @@
       "url": "https://www.youtube.com/@YannicKilcher",
       "video_count": 2,
       "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
-    },
-    {
-      "description": "Technical courses and tutorials, including practical AI application development.",
-      "handle": "@freecodecamp",
-      "latest_video_at": "2026-06-02T10:00:09Z",
-      "thumbnail_url": null,
-      "title": "freeCodeCamp.org",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.809,
-          "slug": "agents"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.777,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.601,
-          "slug": "model-releases"
-        }
-      ],
-      "url": "https://www.youtube.com/@freecodecamp",
-      "video_count": 1,
-      "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
     }
   ],
-  "generated_at": "2026-06-03T01:36:10Z",
+  "generated_at": "2026-06-03T14:08:14Z",
   "schema_version": "1.0"
 }
