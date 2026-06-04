@@ -1,6 +1,43 @@
 {
   "channels": [
     {
+      "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
+      "handle": "@WesRoth",
+      "latest_video_at": "2026-06-04T03:20:48Z",
+      "thumbnail_url": null,
+      "title": "Wes Roth",
+      "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.903,
+          "slug": "agents"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.82,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.815,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Benchmarks",
+          "score": 0.696,
+          "slug": "benchmarks"
+        },
+        {
+          "label": "Enterprise Adoption",
+          "score": 0.673,
+          "slug": "enterprise-adoption"
+        }
+      ],
+      "url": "https://www.youtube.com/@WesRoth",
+      "video_count": 5,
+      "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
+    },
+    {
       "description": "Research-focused AI and machine learning explainers.",
       "handle": "@TwoMinutePapers",
       "latest_video_at": "2026-06-03T17:00:19Z",
@@ -73,43 +110,6 @@
       "url": "https://www.youtube.com/@matthew_berman",
       "video_count": 5,
       "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
-    },
-    {
-      "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
-      "handle": "@WesRoth",
-      "latest_video_at": "2026-06-02T04:25:45Z",
-      "thumbnail_url": null,
-      "title": "Wes Roth",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.903,
-          "slug": "agents"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.82,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.815,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.731,
-          "slug": "open-source-models"
-        },
-        {
-          "label": "Benchmarks",
-          "score": 0.696,
-          "slug": "benchmarks"
-        }
-      ],
-      "url": "https://www.youtube.com/@WesRoth",
-      "video_count": 5,
-      "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
     },
     {
       "description": "Fast software engineering and AI tooling explainers.",
@@ -245,6 +245,28 @@
       "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
     },
     {
+      "description": "Developer commentary, tools, and AI coding workflow coverage.",
+      "handle": "@ThePrimeagen",
+      "latest_video_at": "2026-06-04T13:02:11Z",
+      "thumbnail_url": null,
+      "title": "ThePrimeTime",
+      "top_topics": [
+        {
+          "label": "Coding Assistants",
+          "score": 0.787,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.744,
+          "slug": "model-releases"
+        }
+      ],
+      "url": "https://www.youtube.com/@ThePrimeagen",
+      "video_count": 2,
+      "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
+    },
+    {
       "description": "Technical courses and tutorials, including practical AI application development.",
       "handle": "@freecodecamp",
       "latest_video_at": "2026-06-03T13:59:13Z",
@@ -270,28 +292,6 @@
       "url": "https://www.youtube.com/@freecodecamp",
       "video_count": 2,
       "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
-    },
-    {
-      "description": "Developer commentary, tools, and AI coding workflow coverage.",
-      "handle": "@ThePrimeagen",
-      "latest_video_at": "2026-06-01T13:02:08Z",
-      "thumbnail_url": null,
-      "title": "ThePrimeTime",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.77,
-          "slug": "agents"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.735,
-          "slug": "model-releases"
-        }
-      ],
-      "url": "https://www.youtube.com/@ThePrimeagen",
-      "video_count": 2,
-      "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
     },
     {
       "description": "Research-heavy coverage of machine learning papers, model releases, and AI systems.",
@@ -326,6 +326,6 @@
       "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
     }
   ],
-  "generated_at": "2026-06-04T01:37:34Z",
+  "generated_at": "2026-06-04T13:33:22Z",
   "schema_version": "1.0"
 }
