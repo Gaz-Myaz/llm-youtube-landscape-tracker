@@ -1,6 +1,23 @@
 {
   "channels": [
     {
+      "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
+      "handle": "@OpenAI",
+      "latest_video_at": "2026-06-05T13:01:28Z",
+      "thumbnail_url": null,
+      "title": "OpenAI",
+      "top_topics": [
+        {
+          "label": "Model Releases",
+          "score": 0.77,
+          "slug": "model-releases"
+        }
+      ],
+      "url": "https://www.youtube.com/@OpenAI",
+      "video_count": 5,
+      "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
+    },
+    {
       "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
       "handle": "@matthew_berman",
       "latest_video_at": "2026-06-04T21:06:16Z",
@@ -36,28 +53,6 @@
       "url": "https://www.youtube.com/@matthew_berman",
       "video_count": 5,
       "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
-    },
-    {
-      "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
-      "handle": "@OpenAI",
-      "latest_video_at": "2026-06-04T20:27:50Z",
-      "thumbnail_url": null,
-      "title": "OpenAI",
-      "top_topics": [
-        {
-          "label": "Model Releases",
-          "score": 0.77,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Benchmarks",
-          "score": 0.623,
-          "slug": "benchmarks"
-        }
-      ],
-      "url": "https://www.youtube.com/@OpenAI",
-      "video_count": 5,
-      "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
     },
     {
       "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
@@ -247,7 +242,7 @@
     {
       "description": "Developer commentary, tools, and AI coding workflow coverage.",
       "handle": "@ThePrimeagen",
-      "latest_video_at": "2026-06-04T13:02:11Z",
+      "latest_video_at": "2026-06-05T13:00:05Z",
       "thumbnail_url": null,
       "title": "ThePrimeTime",
       "top_topics": [
@@ -255,6 +250,11 @@
           "label": "Coding Assistants",
           "score": 0.787,
           "slug": "coding-assistants"
+        },
+        {
+          "label": "AI Agents",
+          "score": 0.768,
+          "slug": "agents"
         },
         {
           "label": "Model Releases",
@@ -326,6 +326,6 @@
       "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
     }
   ],
-  "generated_at": "2026-06-05T01:27:54Z",
+  "generated_at": "2026-06-05T13:28:56Z",
   "schema_version": "1.0"
 }
