@@ -1,63 +1,9 @@
 {
   "channels": [
     {
-      "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
-      "handle": "@OpenAI",
-      "latest_video_at": "2026-06-05T13:01:28Z",
-      "thumbnail_url": null,
-      "title": "OpenAI",
-      "top_topics": [
-        {
-          "label": "Model Releases",
-          "score": 0.77,
-          "slug": "model-releases"
-        }
-      ],
-      "url": "https://www.youtube.com/@OpenAI",
-      "video_count": 5,
-      "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
-    },
-    {
-      "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
-      "handle": "@matthew_berman",
-      "latest_video_at": "2026-06-04T21:06:16Z",
-      "thumbnail_url": null,
-      "title": "Matthew Berman",
-      "top_topics": [
-        {
-          "label": "Model Releases",
-          "score": 0.82,
-          "slug": "model-releases"
-        },
-        {
-          "label": "AI Agents",
-          "score": 0.812,
-          "slug": "agents"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.776,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Local Inference",
-          "score": 0.706,
-          "slug": "local-inference"
-        },
-        {
-          "label": "Enterprise Adoption",
-          "score": 0.638,
-          "slug": "enterprise-adoption"
-        }
-      ],
-      "url": "https://www.youtube.com/@matthew_berman",
-      "video_count": 5,
-      "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
-    },
-    {
       "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
       "handle": "@WesRoth",
-      "latest_video_at": "2026-06-04T03:20:48Z",
+      "latest_video_at": "2026-06-05T22:40:54Z",
       "thumbnail_url": null,
       "title": "Wes Roth",
       "top_topics": [
@@ -77,14 +23,14 @@
           "slug": "coding-assistants"
         },
         {
+          "label": "Safety and Alignment",
+          "score": 0.696,
+          "slug": "safety-alignment"
+        },
+        {
           "label": "Benchmarks",
           "score": 0.696,
           "slug": "benchmarks"
-        },
-        {
-          "label": "Enterprise Adoption",
-          "score": 0.673,
-          "slug": "enterprise-adoption"
         }
       ],
       "url": "https://www.youtube.com/@WesRoth",
@@ -92,12 +38,34 @@
       "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
     },
     {
+      "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
+      "handle": "@OpenAI",
+      "latest_video_at": "2026-06-05T17:42:23Z",
+      "thumbnail_url": null,
+      "title": "OpenAI",
+      "top_topics": [
+        {
+          "label": "Model Releases",
+          "score": 0.77,
+          "slug": "model-releases"
+        }
+      ],
+      "url": "https://www.youtube.com/@OpenAI",
+      "video_count": 5,
+      "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
+    },
+    {
       "description": "Research-focused AI and machine learning explainers.",
       "handle": "@TwoMinutePapers",
-      "latest_video_at": "2026-06-03T17:00:19Z",
+      "latest_video_at": "2026-06-05T15:50:26Z",
       "thumbnail_url": null,
       "title": "Two Minute Papers",
       "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.773,
+          "slug": "agents"
+        },
         {
           "label": "Open Source Models",
           "score": 0.766,
@@ -117,11 +85,6 @@
           "label": "Local Inference",
           "score": 0.707,
           "slug": "local-inference"
-        },
-        {
-          "label": "RAG",
-          "score": 0.697,
-          "slug": "rag"
         }
       ],
       "url": "https://www.youtube.com/@TwoMinutePapers",
@@ -240,6 +203,43 @@
       "youtube_channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw"
     },
     {
+      "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
+      "handle": "@matthew_berman",
+      "latest_video_at": "2026-06-05T13:59:18Z",
+      "thumbnail_url": null,
+      "title": "Matthew Berman",
+      "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.812,
+          "slug": "agents"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.776,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.731,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Local Inference",
+          "score": 0.706,
+          "slug": "local-inference"
+        },
+        {
+          "label": "Safety and Alignment",
+          "score": 0.658,
+          "slug": "safety-alignment"
+        }
+      ],
+      "url": "https://www.youtube.com/@matthew_berman",
+      "video_count": 4,
+      "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
+    },
+    {
       "description": "Developer commentary, tools, and AI coding workflow coverage.",
       "handle": "@ThePrimeagen",
       "latest_video_at": "2026-06-05T13:00:05Z",
@@ -326,6 +326,6 @@
       "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
     }
   ],
-  "generated_at": "2026-06-05T13:28:56Z",
+  "generated_at": "2026-06-06T01:22:45Z",
   "schema_version": "1.0"
 }
