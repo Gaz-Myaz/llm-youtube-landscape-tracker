@@ -3,14 +3,34 @@
     {
       "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
       "handle": "@OpenAI",
-      "latest_video_at": "2026-06-06T23:50:54Z",
+      "latest_video_at": "2026-06-08T08:30:39Z",
       "thumbnail_url": null,
       "title": "OpenAI",
       "top_topics": [
         {
+          "label": "AI Agents",
+          "score": 0.768,
+          "slug": "agents"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.739,
+          "slug": "coding-assistants"
+        },
+        {
           "label": "Model Releases",
-          "score": 0.746,
+          "score": 0.734,
           "slug": "model-releases"
+        },
+        {
+          "label": "Safety and Alignment",
+          "score": 0.665,
+          "slug": "safety-alignment"
+        },
+        {
+          "label": "Enterprise Adoption",
+          "score": 0.639,
+          "slug": "enterprise-adoption"
         }
       ],
       "url": "https://www.youtube.com/@OpenAI",
@@ -267,33 +287,6 @@
       "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
     },
     {
-      "description": "Developer commentary, tools, and AI coding workflow coverage.",
-      "handle": "@ThePrimeagen",
-      "latest_video_at": "2026-06-05T13:00:05Z",
-      "thumbnail_url": null,
-      "title": "ThePrimeTime",
-      "top_topics": [
-        {
-          "label": "Coding Assistants",
-          "score": 0.776,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "AI Agents",
-          "score": 0.768,
-          "slug": "agents"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.558,
-          "slug": "model-releases"
-        }
-      ],
-      "url": "https://www.youtube.com/@ThePrimeagen",
-      "video_count": 1,
-      "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
-    },
-    {
       "description": "Technical courses and tutorials, including practical AI application development.",
       "handle": "@freecodecamp",
       "latest_video_at": "2026-06-03T13:59:13Z",
@@ -311,6 +304,6 @@
       "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
     }
   ],
-  "generated_at": "2026-06-08T01:32:26Z",
+  "generated_at": "2026-06-08T13:52:31Z",
   "schema_version": "1.0"
 }
