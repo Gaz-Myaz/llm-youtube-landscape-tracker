@@ -103,12 +103,12 @@
         },
         {
           "label": "Coding Assistants",
-          "score": 0.766,
+          "score": 0.76,
           "slug": "coding-assistants"
         },
         {
           "label": "Model Releases",
-          "score": 0.731,
+          "score": 0.638,
           "slug": "model-releases"
         }
       ],
@@ -195,12 +195,12 @@
         },
         {
           "label": "Coding Assistants",
-          "score": 0.801,
+          "score": 0.795,
           "slug": "coding-assistants"
         },
         {
           "label": "Model Releases",
-          "score": 0.782,
+          "score": 0.689,
           "slug": "model-releases"
         }
       ],
@@ -219,12 +219,12 @@
         },
         {
           "label": "Coding Assistants",
-          "score": 0.837,
+          "score": 0.831,
           "slug": "coding-assistants"
         },
         {
           "label": "Model Releases",
-          "score": 0.781,
+          "score": 0.689,
           "slug": "model-releases"
         }
       ],
@@ -398,12 +398,12 @@
         },
         {
           "label": "Coding Assistants",
-          "score": 0.784,
+          "score": 0.778,
           "slug": "coding-assistants"
         },
         {
           "label": "Model Releases",
-          "score": 0.782,
+          "score": 0.689,
           "slug": "model-releases"
         }
       ],
@@ -422,12 +422,12 @@
         },
         {
           "label": "Coding Assistants",
-          "score": 0.778,
+          "score": 0.773,
           "slug": "coding-assistants"
         },
         {
           "label": "Model Releases",
-          "score": 0.667,
+          "score": 0.575,
           "slug": "model-releases"
         }
       ],
@@ -446,12 +446,12 @@
         },
         {
           "label": "Coding Assistants",
-          "score": 0.782,
+          "score": 0.776,
           "slug": "coding-assistants"
         },
         {
           "label": "Model Releases",
-          "score": 0.738,
+          "score": 0.645,
           "slug": "model-releases"
         }
       ],
@@ -638,7 +638,7 @@
       "shared_topics": [
         {
           "label": "Coding Assistants",
-          "score": 0.762,
+          "score": 0.756,
           "slug": "coding-assistants"
         }
       ],
@@ -652,7 +652,7 @@
       "shared_topics": [
         {
           "label": "Model Releases",
-          "score": 0.745,
+          "score": 0.652,
           "slug": "model-releases"
         }
       ],
@@ -783,7 +783,7 @@
       "shared_topics": [
         {
           "label": "Model Releases",
-          "score": 0.693,
+          "score": 0.6,
           "slug": "model-releases"
         }
       ],
@@ -918,7 +918,7 @@
       "target": "UCsBjURrPoezykLs9EqgamOA"
     }
   ],
-  "generated_at": "2026-06-07T12:54:53Z",
+  "generated_at": "2026-06-08T01:32:26Z",
   "nodes": [
     {
       "id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
@@ -995,16 +995,6 @@
       "video_count": 4
     },
     {
-      "id": "UCUyeluBRhGPCW4rPe_UvBZQ",
-      "label": "ThePrimeTime",
-      "top_topics": [
-        "Coding Assistants",
-        "AI Agents",
-        "Model Releases"
-      ],
-      "video_count": 2
-    },
-    {
       "id": "UCZHmQk67mSJgfCCTn7xBfew",
       "label": "Yannic Kilcher",
       "top_topics": [
@@ -1020,6 +1010,16 @@
       "label": "freeCodeCamp.org",
       "top_topics": [
         "Coding Assistants"
+      ],
+      "video_count": 1
+    },
+    {
+      "id": "UCUyeluBRhGPCW4rPe_UvBZQ",
+      "label": "ThePrimeTime",
+      "top_topics": [
+        "Coding Assistants",
+        "AI Agents",
+        "Model Releases"
       ],
       "video_count": 1
     }
