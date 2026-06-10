@@ -752,7 +752,7 @@
       "target": "UCsBjURrPoezykLs9EqgamOA"
     }
   ],
-  "generated_at": "2026-06-10T01:27:53Z",
+  "generated_at": "2026-06-10T13:37:23Z",
   "nodes": [
     {
       "id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
@@ -831,14 +831,6 @@
       "video_count": 5
     },
     {
-      "id": "UC8butISFwT-Wl7EV0hUK0BQ",
-      "label": "freeCodeCamp.org",
-      "top_topics": [
-        "Coding Assistants"
-      ],
-      "video_count": 2
-    },
-    {
       "id": "UCZHmQk67mSJgfCCTn7xBfew",
       "label": "Yannic Kilcher",
       "top_topics": [
@@ -848,6 +840,14 @@
         "Model Releases"
       ],
       "video_count": 2
+    },
+    {
+      "id": "UC8butISFwT-Wl7EV0hUK0BQ",
+      "label": "freeCodeCamp.org",
+      "top_topics": [
+        "Coding Assistants"
+      ],
+      "video_count": 1
     }
   ],
   "schema_version": "1.0"
