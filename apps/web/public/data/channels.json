@@ -1,46 +1,46 @@
 {
   "channels": [
     {
-      "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
-      "handle": "@matthew_berman",
-      "latest_video_at": "2026-06-09T23:02:27Z",
+      "description": "Accessible analysis of frontier models, agents, local inference, and open-weight AI.",
+      "handle": "@AIExplained-official",
+      "latest_video_at": "2026-06-10T18:43:12Z",
       "thumbnail_url": null,
-      "title": "Matthew Berman",
+      "title": "AI Explained",
       "top_topics": [
         {
-          "label": "Coding Assistants",
-          "score": 0.822,
-          "slug": "coding-assistants"
-        },
-        {
           "label": "Model Releases",
-          "score": 0.805,
+          "score": 0.82,
           "slug": "model-releases"
         },
         {
           "label": "AI Agents",
-          "score": 0.773,
+          "score": 0.806,
           "slug": "agents"
         },
         {
-          "label": "Local Inference",
-          "score": 0.742,
-          "slug": "local-inference"
+          "label": "Coding Assistants",
+          "score": 0.781,
+          "slug": "coding-assistants"
         },
         {
-          "label": "Benchmarks",
-          "score": 0.652,
-          "slug": "benchmarks"
+          "label": "Open Source Models",
+          "score": 0.727,
+          "slug": "open-source-models"
+        },
+        {
+          "label": "Multimodal",
+          "score": 0.725,
+          "slug": "multimodal"
         }
       ],
-      "url": "https://www.youtube.com/@matthew_berman",
+      "url": "https://www.youtube.com/@AIExplained-official",
       "video_count": 5,
-      "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
+      "youtube_channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw"
     },
     {
       "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
       "handle": "@OpenAI",
-      "latest_video_at": "2026-06-09T21:42:40Z",
+      "latest_video_at": "2026-06-10T17:15:03Z",
       "thumbnail_url": null,
       "title": "OpenAI",
       "top_topics": [
@@ -63,6 +63,43 @@
       "url": "https://www.youtube.com/@OpenAI",
       "video_count": 5,
       "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
+    },
+    {
+      "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
+      "handle": "@matthew_berman",
+      "latest_video_at": "2026-06-10T17:10:35Z",
+      "thumbnail_url": null,
+      "title": "Matthew Berman",
+      "top_topics": [
+        {
+          "label": "Model Releases",
+          "score": 0.805,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.774,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "AI Agents",
+          "score": 0.773,
+          "slug": "agents"
+        },
+        {
+          "label": "Local Inference",
+          "score": 0.742,
+          "slug": "local-inference"
+        },
+        {
+          "label": "Multimodal",
+          "score": 0.724,
+          "slug": "multimodal"
+        }
+      ],
+      "url": "https://www.youtube.com/@matthew_berman",
+      "video_count": 5,
+      "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
     },
     {
       "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
@@ -208,43 +245,6 @@
       "youtube_channel_id": "UCSHZKyawb77ixDdsGog4iWA"
     },
     {
-      "description": "Accessible analysis of frontier models, agents, local inference, and open-weight AI.",
-      "handle": "@AIExplained-official",
-      "latest_video_at": "2026-05-29T15:07:35Z",
-      "thumbnail_url": null,
-      "title": "AI Explained",
-      "top_topics": [
-        {
-          "label": "Model Releases",
-          "score": 0.82,
-          "slug": "model-releases"
-        },
-        {
-          "label": "AI Agents",
-          "score": 0.806,
-          "slug": "agents"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.781,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.727,
-          "slug": "open-source-models"
-        },
-        {
-          "label": "Multimodal",
-          "score": 0.725,
-          "slug": "multimodal"
-        }
-      ],
-      "url": "https://www.youtube.com/@AIExplained-official",
-      "video_count": 5,
-      "youtube_channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw"
-    },
-    {
       "description": "Research-heavy coverage of machine learning papers, model releases, and AI systems.",
       "handle": "@YannicKilcher",
       "latest_video_at": "2026-03-06T22:07:33Z",
@@ -277,6 +277,28 @@
       "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
     },
     {
+      "description": "Developer commentary, tools, and AI coding workflow coverage.",
+      "handle": "@ThePrimeagen",
+      "latest_video_at": "2026-06-10T16:54:26Z",
+      "thumbnail_url": null,
+      "title": "ThePrimeTime",
+      "top_topics": [
+        {
+          "label": "Coding Assistants",
+          "score": 0.781,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "AI Agents",
+          "score": 0.772,
+          "slug": "agents"
+        }
+      ],
+      "url": "https://www.youtube.com/@ThePrimeagen",
+      "video_count": 1,
+      "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
+    },
+    {
       "description": "Technical courses and tutorials, including practical AI application development.",
       "handle": "@freecodecamp",
       "latest_video_at": "2026-06-08T23:24:07Z",
@@ -294,6 +316,6 @@
       "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
     }
   ],
-  "generated_at": "2026-06-10T13:37:23Z",
+  "generated_at": "2026-06-11T01:30:57Z",
   "schema_version": "1.0"
 }
