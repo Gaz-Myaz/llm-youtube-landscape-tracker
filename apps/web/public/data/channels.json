@@ -1,6 +1,70 @@
 {
   "channels": [
     {
+      "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
+      "handle": "@OpenAI",
+      "latest_video_at": "2026-06-12T00:15:38Z",
+      "thumbnail_url": null,
+      "title": "OpenAI",
+      "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.806,
+          "slug": "agents"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.77,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Enterprise Adoption",
+          "score": 0.646,
+          "slug": "enterprise-adoption"
+        },
+        {
+          "label": "Benchmarks",
+          "score": 0.588,
+          "slug": "benchmarks"
+        }
+      ],
+      "url": "https://www.youtube.com/@OpenAI",
+      "video_count": 5,
+      "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
+    },
+    {
+      "description": "Fast software engineering and AI tooling explainers.",
+      "handle": "@Fireship",
+      "latest_video_at": "2026-06-11T17:17:48Z",
+      "thumbnail_url": null,
+      "title": "Fireship",
+      "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.843,
+          "slug": "agents"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.819,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.796,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Benchmarks",
+          "score": 0.595,
+          "slug": "benchmarks"
+        }
+      ],
+      "url": "https://www.youtube.com/@Fireship",
+      "video_count": 5,
+      "youtube_channel_id": "UCsBjURrPoezykLs9EqgamOA"
+    },
+    {
       "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
       "handle": "@WesRoth",
       "latest_video_at": "2026-06-11T13:00:12Z",
@@ -73,70 +137,6 @@
       "url": "https://www.youtube.com/@AIExplained-official",
       "video_count": 5,
       "youtube_channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw"
-    },
-    {
-      "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
-      "handle": "@OpenAI",
-      "latest_video_at": "2026-06-10T17:15:03Z",
-      "thumbnail_url": null,
-      "title": "OpenAI",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.797,
-          "slug": "agents"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.77,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Enterprise Adoption",
-          "score": 0.673,
-          "slug": "enterprise-adoption"
-        }
-      ],
-      "url": "https://www.youtube.com/@OpenAI",
-      "video_count": 5,
-      "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
-    },
-    {
-      "description": "Fast software engineering and AI tooling explainers.",
-      "handle": "@Fireship",
-      "latest_video_at": "2026-06-09T17:32:30Z",
-      "thumbnail_url": null,
-      "title": "Fireship",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.843,
-          "slug": "agents"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.819,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.796,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Safety and Alignment",
-          "score": 0.662,
-          "slug": "safety-alignment"
-        },
-        {
-          "label": "Benchmarks",
-          "score": 0.595,
-          "slug": "benchmarks"
-        }
-      ],
-      "url": "https://www.youtube.com/@Fireship",
-      "video_count": 5,
-      "youtube_channel_id": "UCsBjURrPoezykLs9EqgamOA"
     },
     {
       "description": "Research-focused AI and machine learning explainers.",
@@ -316,6 +316,6 @@
       "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
     }
   ],
-  "generated_at": "2026-06-11T13:47:01Z",
+  "generated_at": "2026-06-12T01:33:47Z",
   "schema_version": "1.0"
 }
