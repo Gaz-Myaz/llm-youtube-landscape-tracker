@@ -1,6 +1,43 @@
 {
   "channels": [
     {
+      "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
+      "handle": "@WesRoth",
+      "latest_video_at": "2026-06-13T07:33:27Z",
+      "thumbnail_url": null,
+      "title": "Wes Roth",
+      "top_topics": [
+        {
+          "label": "Coding Assistants",
+          "score": 0.775,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "AI Agents",
+          "score": 0.774,
+          "slug": "agents"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.77,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Fine Tuning",
+          "score": 0.706,
+          "slug": "fine-tuning"
+        },
+        {
+          "label": "Safety and Alignment",
+          "score": 0.658,
+          "slug": "safety-alignment"
+        }
+      ],
+      "url": "https://www.youtube.com/@WesRoth",
+      "video_count": 5,
+      "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
+    },
+    {
       "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
       "handle": "@OpenAI",
       "latest_video_at": "2026-06-12T20:36:47Z",
@@ -21,43 +58,6 @@
       "url": "https://www.youtube.com/@OpenAI",
       "video_count": 5,
       "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
-    },
-    {
-      "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
-      "handle": "@WesRoth",
-      "latest_video_at": "2026-06-12T02:17:39Z",
-      "thumbnail_url": null,
-      "title": "Wes Roth",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.811,
-          "slug": "agents"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.77,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Fine Tuning",
-          "score": 0.706,
-          "slug": "fine-tuning"
-        },
-        {
-          "label": "Safety and Alignment",
-          "score": 0.696,
-          "slug": "safety-alignment"
-        },
-        {
-          "label": "Benchmarks",
-          "score": 0.648,
-          "slug": "benchmarks"
-        }
-      ],
-      "url": "https://www.youtube.com/@WesRoth",
-      "video_count": 5,
-      "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
     },
     {
       "description": "Fast software engineering and AI tooling explainers.",
@@ -311,6 +311,6 @@
       "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
     }
   ],
-  "generated_at": "2026-06-13T01:30:53Z",
+  "generated_at": "2026-06-13T12:59:52Z",
   "schema_version": "1.0"
 }
