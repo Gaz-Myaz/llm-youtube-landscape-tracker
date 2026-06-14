@@ -200,7 +200,7 @@
     {
       "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
       "handle": "@matthew_berman",
-      "latest_video_at": "2026-06-12T23:47:25Z",
+      "latest_video_at": "2026-06-13T20:21:41Z",
       "thumbnail_url": null,
       "title": "Matthew Berman",
       "top_topics": [
@@ -215,6 +215,11 @@
           "slug": "coding-assistants"
         },
         {
+          "label": "Model Releases",
+          "score": 0.755,
+          "slug": "model-releases"
+        },
+        {
           "label": "Open Source Models",
           "score": 0.728,
           "slug": "open-source-models"
@@ -223,11 +228,6 @@
           "label": "Multimodal",
           "score": 0.724,
           "slug": "multimodal"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.723,
-          "slug": "model-releases"
         }
       ],
       "url": "https://www.youtube.com/@matthew_berman",
@@ -237,19 +237,14 @@
     {
       "description": "Developer commentary, tools, and AI coding workflow coverage.",
       "handle": "@ThePrimeagen",
-      "latest_video_at": "2026-06-12T13:00:08Z",
+      "latest_video_at": "2026-06-13T13:01:35Z",
       "thumbnail_url": null,
       "title": "ThePrimeTime",
       "top_topics": [
         {
           "label": "Coding Assistants",
-          "score": 0.781,
+          "score": 0.853,
           "slug": "coding-assistants"
-        },
-        {
-          "label": "AI Agents",
-          "score": 0.772,
-          "slug": "agents"
         },
         {
           "label": "Model Releases",
@@ -311,6 +306,6 @@
       "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
     }
   ],
-  "generated_at": "2026-06-13T12:59:52Z",
+  "generated_at": "2026-06-14T01:34:34Z",
   "schema_version": "1.0"
 }
