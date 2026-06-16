@@ -1,73 +1,7 @@
 {
-  "generated_at": "2026-06-15T14:32:28Z",
+  "generated_at": "2026-06-16T01:36:40Z",
   "schema_version": "1.0",
   "videos": [
-    {
-      "channel": {
-        "title": "Fireship",
-        "url": "https://www.youtube.com/@Fireship",
-        "youtube_channel_id": "UCsBjURrPoezykLs9EqgamOA"
-      },
-      "content_type": "tutorial",
-      "enrichment_status": "ready",
-      "evidence": [
-        {
-          "end_seconds": 25.04,
-          "field_name": "topic",
-          "quote": "But they're calling it the agentic",
-          "start_seconds": 21.56,
-          "timestamp_url": "https://www.youtube.com/watch?v=9OQ5vaYbGV0&t=21s",
-          "topic_slug": "agents"
-        },
-        {
-          "end_seconds": 21.560000000000002,
-          "field_name": "topic",
-          "quote": "it, and ship it. Gemini Spark, Gemini",
-          "start_seconds": 16.44,
-          "timestamp_url": "https://www.youtube.com/watch?v=9OQ5vaYbGV0&t=16s",
-          "topic_slug": "model-releases"
-        },
-        {
-          "end_seconds": 210.83999999999997,
-          "field_name": "topic",
-          "quote": "just like Cursor. And once again,",
-          "start_seconds": 207.64,
-          "timestamp_url": "https://www.youtube.com/watch?v=9OQ5vaYbGV0&t=207s",
-          "topic_slug": "coding-assistants"
-        }
-      ],
-      "primary_speaker": "Fireship host",
-      "published_at": "2026-05-22T16:38:42Z",
-      "summary": "Google\u2019s AI endgame is here\u2026 everything you missed at I/O 2026 focuses on AI Agents, Model Releases, Coding Assistants. Key transcript signal: The search is now an AI agent, Gmail is an AI agent, Android is an AI agent, your glasses are an AI agent.",
-      "thumbnail_url": null,
-      "title": "Google\u2019s AI endgame is here\u2026 everything you missed at I/O 2026",
-      "topics": [
-        {
-          "label": "AI Agents",
-          "relevance_score": 0.843,
-          "slug": "agents"
-        },
-        {
-          "label": "Model Releases",
-          "relevance_score": 0.819,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Coding Assistants",
-          "relevance_score": 0.796,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Benchmarks",
-          "relevance_score": 0.594,
-          "slug": "benchmarks"
-        }
-      ],
-      "transcript_status": "ready",
-      "transcript_text": "Yesterday, Google I/O wrapped, and I was able to watch in person as Sundar and Demis laid out an ambitious vision for the future of software. And apparently, that future is Gemini hiding inside of every product like the microplastics in your bloodstream. But the road map is basically take Gemini, append a noun to it, and ship it. Gemini Spark, Gemini Omni, Gemini Flow, and the list goes on. But they're calling it the agentic Gemini era. The search is now an AI agent, Gmail is an AI agent, Android is an AI agent, your glasses are an AI agent. And as I watched the keynote, I realized something. That Google is no longer trying to organize the world's information with blue hyperlinks, because search engines are now an archaic technology. Instead, Google is trying to become the interface to reality itself before Anthropic and OpenAI create better realities. But luckily, Google I/O wasn't all about AI. I didn't see any updates about Angular, but I did come across a new awesome web API that every web developer should know about. In today's video, we'll break down everything you missed at Google I/O. It is May 22nd, 2026, and you're watching The Code Report. Whether you love it or hate it, one thing is undeniably impressive about Google, and that's its ability to scale. Not only is it serving its core products to billions of daily active users, but in the last 2 years, they've gone from serving 9.7 trillion tokens per month to a staggering 3.2 quadrillion tokens per month. And that number is going to continue accelerating. In addition, Alphabet's capital expenditures have exploded, building new infrastructure to support all these stupid AI images you guys create with nano banana. You ever see a pug dressed like an accountant? No. You want to? Uh One thing that makes this massive scale possible is Google's TPU chip, or Tensor Processing Unit. I remember being amazed seeing a TPU at my first Google I/O back in 2018. But this week, they announced they're splitting these chips into two distinct jobs, the training and inference with the TPU-T and TPU-I. In other words, Google now has one chip that's optimized to teach a robot how to think, and another chip that's optimized for it to hallucinate search results on a global scale. The headline announcement at Google I/O though was Gemini Omni, a model that takes any input like text, video, and sound and produces any output. Demis Hassabis, who might be the smartest guy at Google, appears to be fully world model pilled because models like this don't just generate pixels anymore. They understand language, physics, motion, and everything else in your world just well enough to simulate reality on demand. But along with this new model comes an entirely new design system for the Gemini app called Neural Expressive. At first glance, the UI looks like a simple glow up with new icons and better gradients. But what's unique about it is that it's optimized for generating UI elements on demand, like diagrams, timelines, and even mini apps that didn't exist before your prompt. Now, when it comes to Google's core large language models, they released Gemini Flash 3.5, which is not the big brain model, but the fast model. According to the trust me bro benchmarks, it performs nearly on par with Opus 4.7 and GPT-5.5, but runs at a much faster speed. Like if we look at this trust me bro diagram, we see that Flash is entirely in a quadrant of its own in terms of speed and intelligence. However, it's important to remember that this is not their top-tier model. The Gemini 3.5 Pro is still under wraps and not expected to release until later this summer, which was very disappointing to a lot of people on the internet. Speaking of disappointment though, not everybody was happy with the new direction of Google's anti-gravity IDE. Anti-gravity was formerly known as Windserve and was code for AI coding just like Cursor. And once again, following in the footsteps of Cursor, its latest version looks like an OpenAI Codex clone that's more focused on managing agents than writing code. Old school programmers might not be happy with this change, but the live demo was pretty badass. They used the tool to build a complete operating system from scratch, which took like 12 hours and billions of tokens. But then, they tried to play Doom on it and it failed due to missing drivers. However, live on stage, they had Gemini code up those drivers and within a few seconds, Doom was up and running. The most impressive part was just the sheer speed at which this thing could spit out tokens. But, the speed is not the only thing increasing. But, the price of Gemini 3.5 Flash is three times more than the previous version and 30 times more than Gemini 1.5 Flash. It's still a lot cheaper than Claude, but not nearly as cheap as it used to be. Almost everything at IO involved AI in one way or another. But, if you're a web developer, one cool thing you should know about in Chrome is the HTML on Canvas API, which as the name implies, allows you to use HTML elements directly in a canvas now. >> Awesome. Native HTML elements rendered into the canvas. Woo! That means you can build highly interactive UIs where you control every pixel with tools like WebGL and WebGPU, while simultaneously using HTML for your more basic UI elements. The only question is which AI coding model should you use to work with this API? Well, that's why you need to know about Emergent, the sponsor of today's video. Everyone's switching between five different coding models these days, but we still need something to help us ship full stack applications that actually work. And that's exactly where Emergent can help. Right now, I'm using it to build a pull request review dashboard where I can paste in a GitHub link and get an AI summary of all the changes and risks per repo. You still start with a prompt, but instead of one LLM guessing how to build everything, Emergent spins up specialized agents to work on your app's front end, back end, database, testing, and deployment all in parallel. You also don't need to mess with any Superbase wiring or Express boilerplate, because that one prompt sets up your app's database, auth, and APIs. If you're really into self-torture, feel free to keep scaffolding this stuff by hand, or you could just describe the tool you want and let Emergent's agents swarm build it all for you. You try it out for free at the link below. This has been the Code Report. Thanks for watching and I will see you in the next one.",
-      "url": "https://www.youtube.com/watch?v=9OQ5vaYbGV0",
-      "youtube_video_id": "9OQ5vaYbGV0"
-    },
     {
       "channel": {
         "title": "Matthew Berman",
@@ -762,6 +696,67 @@
       "transcript_text": "We have to test this for ourselves. If this is true, that mean Oh my god, I see Factorio. Sorry, Add. It says Factorio. So, Claude Mythos/Fable plays Factorio by itself, which of course means that we've achieved AGI. This is it. Game over. Also, apparently, it now engages in multi- aent turf war. I'm not even kidding. That's what the researchers said in the system card. When multiple agents compete for certain tasks, they try to find ways to disable each other. They create decoy processes to try to not get disabled. So yes, you've heard it here first. Starting turf wars is an emergent behaviors in large language models. And so beating Pok\u00e9mon Red apparently in under 1 hour. And get this, no scaffolding. It did it with vision only. So this is a big model release. But as you'll see in a second, this isn't just a model release. Fable and Mythos are the same model in the sense that they have the same underlying weights. But what we're getting with Fable 5 is different from anything we've seen before. Let's dive in. All right, so the day that we've all been waiting for, the release of the now legendary Mythos model. Anthropic announces Claude Fable 5 and Claude Mythos 5. And this whole thing is pretty juicy. So first and foremost, what is fable and what is mythos? They are in effect the same model at least in the sense that they have the same weight. They are in the class above opus. So it's the next sort of step up in size and this is the first model of the size that we're seeing. This is the first thing that's bigger than the opus class models. The thing is mythos is dangerous not just in the cyber security risks that it poses but also in the bio category. Most of the frontier AI lab leaders including Demis Hassabus, Dario Amade, Sam Albin, and many, many others have called upon the White House to start testing various synthetic DNA manufacturing. This was announced just a few days ago, and this model is probably one of the reasons why, as we'll see in just a second. Since Mythos was too dangerous for public release, it's currently only available for trusted cyber security and bio partners companies and organizations that Anthropic works with that are trusted partners for testing. But the point that is mythos was powerful enough and potentially dangerous enough that Anthropic had to build a whole brand new safety architecture around it before releasing it. And the end result is Fable. So, Mythos and Fable, same weights, different safety architecture. As you'll see, there's a lot of new things that we haven't seen before. Let's start with the fact that this model is not the watered down version. I don't think that's fair to say. Notice it's better on, for example, Agentic Coding. Sweet Bench Pro, it sits at 80.3%. Cloud Mythos Preview is at 77.8. So, this isn't like the labbotomized version of Mythos. Notice that it sits head and shoulders above all the other competing models. GBT 5.5, Cloud Opus 4.8, Gemini 3.1 Pro. In terms of doing expert level knowledge work on the GPT val, notice it's much better. It's sitting at 1932. The closest competitor is GPT 5.5 at 1769. Spatial reasoning on the Blueprint Bench 2, it's at 38.6. A massive, massive leap over Claude Opus 4.8 and slightly above GPT 5.5. top score on cyber security again head and shoulders above above anything else very strong in biology we'll get back to all that the point is this is a very powerful capable model again at least according to the benchmarks we have yet to test it out but here's the thing oftent times you got to take what the actual company says about its product with a grain of salt but the third party reports are often a lot more accurate fable 5 is a sizable step forward in agentic capabilities these agents can work autonomously ly for longer than any previous clawed model. And by the way, we're seeing some pretty weird new things emerge in the safety testing as we kind of expand how autonomous these agents are. We'll get to that in just a second. But during early testing, Stripe, which is a massive online payment company startup, I love Stripe. They really helped out people that do business online. I've been doing e-commerce since 2011. Stripe was a godsend. I'm just so happy it existed. That's neither here nor there, but they're reporting that Fable 5 compressed months of engineering into days. Stripe is a tech first company, incredibly sophisticated in all of this stuff and tech, coding, etc. They're saying that in a 50 millionline Ruby codebase, the model performed a codebasewide migration in a day, and that would have otherwise taken a whole team over two months by hand. The model is also very token efficient while staying very very capable. Here's its performance in orange on Frontier Code. Notice how at low reasoning efforts, it's still on par with Claude Opus 4.8. Now, I have my suspicions about some of this. For example, GPT 5.5, especially on the extra high mode is extremely extremely capable. Many people question benchmarks that put for example cloud opus 4.8 eight much above GPT 5.5. So again, we have to kind of verify everything by hand. But looking at Fable 5, this is just the clearest line there is. I think from low to medium to high to extra high to max, it's keeps increasing. It's a very straight and sizable jump in performance, at least on this benchmark. On SweetBench Pro and Frontier Code, they're showing massively better than GPT 5.5. Again, we're going to be testing this out for ourselves, but at least as far as these benchmarks go, it looks to be a massive, massive jump. And of course, as we've talked about, the next big target for these AI labs is the finance industry. So, they first and foremost focus their efforts on coding, software engineering, and the next big hurdle is finance. And Fable 5 shows strong performance on complex analytical tasks. Here we have Hebia's finance benchmark for senior level reasoning. Fable 5 does great the highest score of any model great ability to interpret charts tables data document-based reasoning and it's acing various trading analysis evaluations like conceptual reasoning root cause analysis expected value analysis by the way good people we need more and better financial benchmarks I think and I don't mean just to see what the ROI is on its trading actually looking into how well it can analyze stuff and apparently Fable 5 is state-of-the-art for vision extracting precise numbers from detailed scientific figures and interestingly needing much less scaffolding. For a lot of these other projects, you needed to build a lot of scaffolding around these models for it to be able to interpret images effectively and being able to navigate in these visual spaces like Pokemon Red, for example. So, this is this model beating Pokemon Red, which has been kind of an ongoing sort of benchmark and one that I enjoy quite a bit. But here's actually a fast forward of the entire playthrough. So, this is a time-lapse of Cloud playing Pokemon Fire Red from start to finish using only RAW game screenshots. This was not the case even a few versions ago where they needed substantial scaffolding for this thing to be able to to play the game. We had GPT beat the game, we had Gemini beat the game, we had Cloud beat the game, but a lot of it depended heavily on the scaffolding. So the question really became, was it the model itself or human ingenuity in building all these little tricks to make the model play better? Which one caused it to be good at this particular benchmark? So here they're specifically calling it out. They're saying this used only raw game screenshots, no maps, no navigation aids or extra game state information. Earlier cloud models needed a complex helper harness to play Pok\u00e9mon. We've seen some of these posted on on GitHub. There's a lot that goes into it. Like there was these grids created all over the screen with its own little coordinate systems, the addition of of maps, all sorts of navigational systems. Like it wasn't really the model playing the game. It was very fun and exciting to see, but at that point, they weren't capable of actually playing the game. What they're saying here is, I got to say, very impressive. Claude Fable 5 completed the game with vision alone. By the way, going back to, for example, this benchmark computer use, which is something similar. This is a vision-based test. Noticed again that it's very very strong. It's the the strongest out of all of the previous models. Uh, you know, other than Mythos out of all the previously released models, it's the strongest. And of course, they got it to play Slay the Spire. When we had the model play the deck building game Slay the Spire, giving it access to persistent file-based memory improved its performance three times more than for Opus 4.8. Fable also reached the game's final act three times more often. We have to test this for ourselves. If this is true, that mean Oh my god, I see Factorio. Sorry, ADD mode. It says Factorio. Claude Fable 5 autonomously plays Factorio. The factory building game beloved by engineers strategizing and building an automated factory on its own. I'm calling it now. We've said this before. You know, I'm going to say it plays Factorio. This is AGI. This is AGI. That That's it. If it can play Factorio effectively, we've reached AGI. Done. If it can play Snake, that's AI. If it can play Factorio, that's AGI. If it can play Dwarf Fortress, ASI. Done deal. We're we're we're testing this in in the next video. We're we're doing this. All right. Next up, we get to the biology stuff. So, for drug design using Mythos 5, the internal protein design experts accelerate aspects of the drug design process by around 10 times. In one example, they found that mythos 5 with protein design and biioinformatic tools, but no human assistants matches or beats skilled human operators. In doing so, the model executes all the tasks that are normally completed by a scientist. Choosing binding sites, selecting and running protein design tools, and recovering from failures along the way. Nine of the 14 protein targets from the study yield strong candidates for drug design that we're currently investigating. It's also showing stronger abilities for novel hypothesis in molecular biology and novel research in genomics. So this is the thing that could get potentially a little bit scary. So all of life runs on code. You can say that code is the genome and genomics is the study of that code and what it does. As we've coded in a previous video, the leaders of these AI labs, they have an open letter to the White House saying that we need mandatory nucleic acid synthesis screening. Notice this is Demis Hassabus, Sam Alman, Dario Amade, Alexander Wang from scale, the one that was acquired by Meta, Paul Graham of Y Cominator, Mustafa Sullivan, Patrick of Stripe, and many many others. Not just people in the AI space, we also have a lot of people from the nucleic acid synthesis industry. So when people order either equipment or orders for synthetic nucleic acids, these AI labs and others are saying that we need to be able to to screen for that to keep records and be very careful in this space in particular. In the system card, Enthropic has a pretty dire warning about this specifically. They say that an unsafeguarded mythos 5 can significantly uplift the biorisk from wellresourced threat actors. So they're saying if this model gets out in the wild without the proper safeguards and somebody with the resources to create these likely viruses that they would have a lot more ability and capability because they have access to this model. So the new thing with this model release is the safety classifiers. Fable 5 comes with a new set of classifiers, separate AI systems that detect potential misuse, including jailbreak attempts, and prevent the main model, in this case, Fable 5, from responding. So, it's almost like you're talking to a gatekeeper that sort of makes sure that you're cool, that you can get in, and then passes that information along. So, you're not even really talking to the actual model itself. They're saying, \"We've been running classifiers on our models for some time, and Fable 5's classifiers are an extension of this previous work with extra coverage.\" Here's the interesting thing about how it works. When these classifiers when they detect a request related to cyber security, biology, chemistry, or distillation. We we'll get to that in a bit. They're not talking about moonshine. They're talking about competing labs trying to do knowledge distillation from this model. when those things get triggered, the response is automatically handled by Claude Opus 4.8. So this is kind of an important point to understand that we're no longer should be thinking of this as anthropic releasing new models. Yes, this is a new model. Yes, we have access to a new model, but you know, Fable 5, the thing that we're interacting with can almost be seen as a controlled capability layers. you have a harmless question, you get kicked to the top where you're talking to the actual model. You selected the highest capability model. But there's many categories, right? I mean, this is quite a few different categories. Chemistry, cyber security, biology, and and distillation is kind of could be broad depending on how they they choose to define specifically what that means. We'll talk about exactly what that is later, but all of those requests get kicked down to a lower lower level of capability. So it's not so much one model as it's multiple layers and depending on what information you need you get sort of routed to a different layer. The cyber security aspect of course makes sense mythos when it was it wasn't released but the preview that was released to a select group of people. Well it caused quite a stir. It had excellent agentic hacking capabilities. It could find a lot of the exploits very very cheaply. So before this a lot of people were basically kind of sort of making light of the situation saying if you know mythos is so dangerous how is it possible that anthropic will release it? Well here's the answer. They didn't they didn't release the model. They they released this this sort of framework where you're interacting with the model for everything but the things where it could be dangerous and cyber security being you know the number one on that list right so you ask it how do I hack this thing you get kicked over to claude opus 4.8 8. That question is not getting answered by Mythos because notice this in green. Well, that's Cloud Opus 4.8 whereas the blue and was it pink purple? Those are Mythos preview and Mythos 5. Notice there's a pretty big leap on at least a few of them in terms of finding these exploits and hacks and vulnerabilities. And notice orange is Claude Fable. You might be saying, \"Oh, but where is the orange bar? It's it's here. It's at zero. It's not visible. If this is to be believed, they figured out how to have Fable basically block all the cyber security requests. Not sure why it wouldn't be equal to Claude Opus 4.8 with the default safeguards, but whatever. So, the system card is 319 pages. I'm still making my way through it. We'll do a separate video because there's a lot of very juicy stuff in here, including I kid you not, I wanted to find a specific line and show you just so you know I'm not messing around. This was the line that Enthropic researchers put in the document. They're saying they've noticed a multi- aent turf war where multiple agents running in parallel that were tasked with either the same task or they're working on the same database. So basically they're kind of like well intruding on each other's turf. They they started finding ways to kill each other off. They've also created disguised processes to avoid getting killed. and they used a disguised vocabulary because they realized there was like this keyword checker that was running. So they like so they developed their own slang to not get caught. The other thing of note here is aside from cyber security and and biology, aside from those classifiers that block those queries or or route it to a different model, they've also introduced the same thing for distillation attempts. So distillation attempts will also be blocked. But there's kind of like another little area here that they didn't mention in the first page in an announcement post that maybe kind of you can say goes under distillation but not quite as they say here they're worried about the risks of accelerating the overall pace of AI development. And since these AI models are able to accelerate their own development so these models can do machine learning research they're beginning to do it more and more effectively. They're actually adding new interventions that limit Cloud's effectiveness for requests targeting Frontier LLM development. For example, on how to build pre-training pipelines, distributed training infrastructure or ML accelerator design. And unlike the other safeguards, these will not be visible to the users. So the previous ones, you'll know when you've triggered them. This one you will not. So the concern is here that these advanced models could be used to develop other advanced models or could be used to accelerate AI progress, AI development. And so along with all of the other safeguards, they're they're basically making it impossible for these models to to be used this way. So again, this is going to require its own video because there's just a lot of really good stuff in here, including how Claude thinks about certain stuff. If you've been following along, there's been a few kind of new developments recently about alignment and its situational awareness. It's awareness of when it's being tested and how it reacts to that. And and this one is also just if not more juicy than the previous system cards. Keep using that word today, juicy. I I apologize, but make sure you subscribe cuz again, we have Factorio testing coming. You have testing of the entirety of the model, the biggest model we've seen, as well as diving deep into all of the stuff that's buried in the system cards. So, if you made it this far, well, thank you for making it this far. Thank you for watching. Make sure to subscribe and I will see you in the next one. Stay juicy.",
       "url": "https://www.youtube.com/watch?v=xUbIVUnQnZg",
       "youtube_video_id": "xUbIVUnQnZg"
+    },
+    {
+      "channel": {
+        "title": "Fireship",
+        "url": "https://www.youtube.com/@Fireship",
+        "youtube_channel_id": "UCsBjURrPoezykLs9EqgamOA"
+      },
+      "content_type": "tutorial",
+      "enrichment_status": "ready",
+      "evidence": [
+        {
+          "end_seconds": 7.52,
+          "field_name": "topic",
+          "quote": "release of Claude Fable, the US",
+          "start_seconds": 3.52,
+          "timestamp_url": "https://www.youtube.com/watch?v=ey_GaPdC9zk&t=3s",
+          "topic_slug": "model-releases"
+        },
+        {
+          "end_seconds": 35.76,
+          "field_name": "topic",
+          "quote": "talking about AI safety just got",
+          "start_seconds": 31.68,
+          "timestamp_url": "https://www.youtube.com/watch?v=ey_GaPdC9zk&t=31s",
+          "topic_slug": "safety-alignment"
+        },
+        {
+          "end_seconds": 248.88,
+          "field_name": "topic",
+          "quote": "competitor. A leaked benchmark shows",
+          "start_seconds": 244.96,
+          "timestamp_url": "https://www.youtube.com/watch?v=ey_GaPdC9zk&t=244s",
+          "topic_slug": "benchmarks"
+        }
+      ],
+      "primary_speaker": "Fireship host",
+      "published_at": "2026-06-15T18:35:58Z",
+      "summary": "One man just liberated Fable... and now it\u2019s illegal focuses on Model Releases, Safety and Alignment, Benchmarks. Key transcript signal: And that's bad news if you just FOMO subscribed to Claude Pro to try out Fable because now you'll see this disappointing message if you try to use it and instead be forced to use the negative IQ Opus 4.8.",
+      "thumbnail_url": null,
+      "title": "One man just liberated Fable... and now it\u2019s illegal",
+      "topics": [
+        {
+          "label": "Model Releases",
+          "relevance_score": 0.803,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Safety and Alignment",
+          "relevance_score": 0.674,
+          "slug": "safety-alignment"
+        },
+        {
+          "label": "Benchmarks",
+          "relevance_score": 0.595,
+          "slug": "benchmarks"
+        }
+      ],
+      "transcript_status": "ready",
+      "transcript_text": "Over the weekend, something crazy happened. It just 3 days after the release of Claude Fable, the US government stepped in and curb-stomped it in the name of national security. And that's bad news if you just FOMO subscribed to Claude Pro to try out Fable because now you'll see this disappointing message if you try to use it and instead be forced to use the negative IQ Opus 4.8. But it's all for your own good because it only took someone a few hours to jailbreak Fable and turn it into an unstoppable cyber weapon. And that's pretty ironic because here in the land of the free, an American company that will not stop talking about AI safety just got safety'd by its own government. In today's video, we'll find out how and why our dear leaders in government are keeping us safe from the horrors of linear algebra. It is June 15th, 2026 and you're watching The Code Report. About 2 months ago on April 7th, we were first introduced to Mythos 5, the raw unmuzzled model with the strongest cybersecurity capabilities of anything out there. But it was locked behind a program called Glass Wing, only available to trusted partners like major corporations and the US government itself. The reason Mythos can't be given to normies though is because it could easily be used as a cyber weapon in the wrong hands. To prevent that, Anthropic created a different product called Fable 5, which is literally the same exact model but with safety classifiers bolted on. That means if you ask it to do bad things like create an NPM package that turns the banking system into a Minecraft server, the Fable's guardrails will reroute your request to Opus 4.8 for a dumber, more wholesome response. So basically, Mythos and Fable have the same brain but Fable has a child lock on it. If Fable went public and gained hundreds of billions of users overnight and it was awesome. It was by far the best coding AI model I've ever used and people were building all sorts of crazy apps with it. Life was good for about 3 days. Then, of course, an anonymous internet user who goes by Plenty The Liberator defeats the guardrails and jailbreaks it. He's basically the internet's let's see if I can penetrate this thing guy and is famous for breaking other AI systems. And on June 10th, he posted a jailbreak on X claiming he popped Fable's guardrails wide open and got it producing exactly the same stuff the child block was built to block. And that's despite the fact that Anthropic had spent thousands of hours red teaming and trying to break its own guardrails internally. But the jailbreak wasn't some kind of sci-fi exploit. It actually works a lot more like money laundering. If Fable has a safety classifier watching for bad requests, but you can break dirty requests down into smaller innocent-looking fragments by wrapping them in weird Unicode characters, by doing roleplay farming, or by confusing the model in a very large context conversation. Due to national security, I can't be any more specific than that, but this weakness was brought to Anthropic's attention and they were initially asked to take the model down, but they refused. Then on Friday at 5:21 p.m. Eastern time, Anthropic gets a letter not from a customer, but from the United States government. This letter was an export control directive signed off by Commerce Secretary Howard Lutnick. And the order was that no foreign national may access Fable 5 or Mythos 5. Not abroad, not in the US, and not even Anthropic's own foreign-born employees are allowed to touch it. That last one is pretty crazy. The government told a company that some of its own staff are no longer allowed to use the product they built. That means guys like Andre Karpathy who just recently got the job at Anthropic, they can't even use Fable. In response to that directive, they decided to hit the big red button and yanked Fable and Mythos for everybody. Now everybody's been quietly demoted back to Opus 4.8. And this is the first time in history a major AI company has pulled a live public model off the shelf because the federal government said so. Many developers out there are not too happy with Anthropic right now because on top of this whole situation, there was already backlash over reports that Anthropic was intentionally degrading Mythos and Fable performance on certain AI research jobs without making it obvious to users. But others out there are speculating that this whole thing was a calculated publicity stunt to continue pumping up Anthropic's pre-IPO numbers while simultaneously building a regulatory moat around it. But I think the only thing that can truly stop Anthropic at this point is a better model from a competitor. A leaked benchmark shows that Mistral might have that model, but we're also awaiting new releases from OpenAI and Google. Most of what we hear about AI is either non-stop hype from Big Tech or AI doomers warning us that the Skynet apocalypse will destroy the human race. But if you want to actually understand AI issues, you should check out blue.impact, the sponsor of today's video. They're a non-profit whose mission is to get more people involved in making AI go better for humanity. The main way they do that is by offering free online courses like their future of AI course, which provides an unbiased introduction to where AI is today and where things could be heading over the next few years. They also have more technical courses on things like AI governance and biosecurity along with personalized career support for people interested in working on AI safety. All of BlueDot's resources are free to use because they're funded by philanthropic donations, and they've helped over 8,000 people get jobs at organizations like Google DeepMind, Stanford HAI, and Apollo Research. Try out their future of AI course at the link below. This has been The Code Report. Thanks for watching, and I will see you in the next one.",
+      "url": "https://www.youtube.com/watch?v=ey_GaPdC9zk",
+      "youtube_video_id": "ey_GaPdC9zk"
     },
     {
       "channel": {
@@ -1672,51 +1667,38 @@
     },
     {
       "channel": {
-        "title": "Matthew Berman",
-        "url": "https://www.youtube.com/@matthew_berman",
-        "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
+        "title": "OpenAI",
+        "url": "https://www.youtube.com/@OpenAI",
+        "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
       },
       "content_type": "tutorial",
       "enrichment_status": "ready",
       "evidence": [
         {
-          "end_seconds": 4.24,
+          "end_seconds": 4.359999999999999,
           "field_name": "topic",
-          "quote": "Higsfield just launched Supercomputer.",
-          "start_seconds": 0.08,
-          "timestamp_url": null,
-          "topic_slug": "multimodal"
-        },
-        {
-          "end_seconds": 39.599999999999994,
-          "field_name": "topic",
-          "quote": "Anthropic and OpenAI. Take the hook, the",
-          "start_seconds": 34.239,
-          "timestamp_url": null,
+          "quote": "out Codex. The way we've been thinking",
+          "start_seconds": 1.52,
+          "timestamp_url": "https://www.youtube.com/watch?v=TDM2Dz_MuPk&t=1s",
           "topic_slug": "model-releases"
         }
       ],
-      "primary_speaker": "Matthew Berman host",
-      "published_at": "2026-06-10T17:10:35Z",
-      "summary": "Supercomputer is the next level of AI video generation focuses on Multimodal, Model Releases. Key transcript signal: Higsfield just launched Supercomputer.",
+      "primary_speaker": "OpenAI host",
+      "published_at": "2026-06-15T18:02:23Z",
+      "summary": "How Wayfair Uses GPT-5.5 to Power Catalog Enrichment Across 40M Products focuses on Model Releases. Key transcript signal: We're really looking forward to rolling out Codex.",
       "thumbnail_url": null,
-      "title": "Supercomputer is the next level of AI video generation",
+      "title": "How Wayfair Uses GPT-5.5 to Power Catalog Enrichment Across 40M Products",
       "topics": [
         {
-          "label": "Multimodal",
-          "relevance_score": 0.724,
-          "slug": "multimodal"
-        },
-        {
           "label": "Model Releases",
-          "relevance_score": 0.669,
+          "relevance_score": 0.793,
           "slug": "model-releases"
         }
       ],
       "transcript_status": "ready",
-      "transcript_text": "Higsfield just launched Supercomputer. And if you figure this out, you're going to be miles ahead of anybody else. Supercomputer can figure out exactly how to put out videos for you that generate lots of views by looking at your competitors, the trends, and viral videos to see what works. It can replicate the pacing, emotion, and delivery of any link that you give it. So, here's what it looks like. I simply upload a video that I know has already done well, millions of views. Here you could select from all of the top models, including the latest releases from Anthropic and OpenAI. Take the hook, the feel, and style of this video and make me a video that sells espresso shots. Create a new actress for the video. And it is showing me step by step what it's working on. So, it's asking me, what aspect ratio do you want for the video? Obviously, we can either do horizontal or vertical for this. We're doing vertical. Let's go. It would take a real person forever to do this, and it would cost so much. Not to mention finding the actors, writing the script, doing the editing, and now just a few seconds later, I'm going to have a fully polished video ready to go. Here's exactly what the video looks like. So, if you want to try it out, I'm going to drop all the links down below. Go check out Higsfield Supercomputer.",
-      "url": "https://www.youtube.com/shorts/GclDWye2kgk",
-      "youtube_video_id": "GclDWye2kgk"
+      "transcript_text": "We're really looking forward to rolling out Codex. The way we've been thinking about it is to actually point it to our Nalias' problems, the things that we haven't really figured out how to solve. If you think about it, you know, Wayfair, we've got [music] 40 million products. It's an unbranded differentiated category, right? And it's very style-based, very emotional. One of the really impactful ways in which we've been working and partnering with OpenAI has been on our catalog enrichment program. You want to make sure that you represent the products that [music] our suppliers give us as accurately but as also as complete as possible. We leveraged the models and API to actually power a large [music] portion of our catalog enrichment program. The model is what's powering us. It's not something that you would ever have even tried to do manually. And so, it's been really impactful. [music] That's something that all our customers get to benefit from and our suppliers as well.",
+      "url": "https://www.youtube.com/watch?v=TDM2Dz_MuPk",
+      "youtube_video_id": "TDM2Dz_MuPk"
     },
     {
       "channel": {
@@ -1930,54 +1912,6 @@
     },
     {
       "channel": {
-        "title": "OpenAI",
-        "url": "https://www.youtube.com/@OpenAI",
-        "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "content_type": "benchmark",
-      "enrichment_status": "ready",
-      "evidence": [
-        {
-          "end_seconds": 92.159,
-          "field_name": "topic",
-          "quote": "time. We chose to work with OpenAI for a",
-          "start_seconds": 87.36,
-          "timestamp_url": "https://www.youtube.com/watch?v=-Jm-Bf3g9r8&t=87s",
-          "topic_slug": "model-releases"
-        },
-        {
-          "end_seconds": 106.96,
-          "field_name": "topic",
-          "quote": "models and ran evaluation against our",
-          "start_seconds": 102.24,
-          "timestamp_url": "https://www.youtube.com/watch?v=-Jm-Bf3g9r8&t=102s",
-          "topic_slug": "evals"
-        }
-      ],
-      "primary_speaker": "OpenAI host",
-      "published_at": "2026-06-12T09:53:26Z",
-      "summary": "How Preply combines AI and human tutors to personalize learning focuses on Model Releases, Evaluation. Key transcript signal: We chose to work with OpenAI for a couple of reasons.",
-      "thumbnail_url": null,
-      "title": "How Preply combines AI and human tutors to personalize learning",
-      "topics": [
-        {
-          "label": "Model Releases",
-          "relevance_score": 0.647,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Evaluation",
-          "relevance_score": 0.614,
-          "slug": "evals"
-        }
-      ],
-      "transcript_status": "ready",
-      "transcript_text": "It's not about replacing humans. It's about augmenting them with new capabilities and also sometimes redefining the essence of the job. There is an amazing opportunity for Preply to combine what our humans are the best at motivation, engagement, energy in the classroom and also this AI component where AI connect as a co-pilot. is the world's largest marketplace for language learning with 100,000 tutors teaching over 90 languages in 180 countries. Humans have an amazing ability to motivate other humans and that's where our teachers shine the most. They motivate our students to come to the class. They motivate them to do homework and they basically keep the energy in the classroom that is hard to replicate. But at the same time there are a lot of repetitive tasks which neither tutors want to do and students also don't value that much like writing personalized plans like specifically typing plans making notes and the lesson. We had the idea of lesson insights, which is essentially a personalized recap that you get at the end of the lesson, which is providing a summary of what you discussed, feedback on what went well, what you could work on, and suggestions for how you can keep improving shown to both the learner and the tutor. So, I think it moves from general practice to highly targeted to really help the learner reach the goals that matter to them at that point in time. We chose to work with OpenAI for a couple of reasons. Firstly, accuracy. We are giving feedback on your language and your grammar mistakes and how you're speaking. So the accuracy of the language output coming back is critical for us. We compared multiple different models and ran evaluation against our framework and open eye performed really strongly on this point. Lesson insights helped me personalize lessons for my students by showing me where they need to improve. Before I started using Preply's AI feature, I would spend hours and hours prepping for classes and creating homework. But now that time has been cut by more than half. Lesson Insights, we have over 70% of tutors opting into, 75% of learners opting into. So very high adoption in terms of people wanting to use and using these features. We have very high engagement on a per lesson basis. But the most important thing we're tracking and the most important signal we're looking for is that retention over time. And we see that we have 70% of active learners still engaging with lesson insights over a year later. >> With such a powerful tools as Codex models, engineers can focus more on customers. They focus less on remembering syntaxes or fixing bugs or fixing some typos here and there. They focus on architecturing the system as a whole and solving customers problem with the code. OpenAI as a partner was able to teach us how to use the product in the most efficient way. And who can teach you better that the organizations that created the best large language models in the world.",
-      "url": "https://www.youtube.com/watch?v=-Jm-Bf3g9r8",
-      "youtube_video_id": "-Jm-Bf3g9r8"
-    },
-    {
-      "channel": {
         "title": "Two Minute Papers",
         "url": "https://www.youtube.com/@TwoMinutePapers",
         "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
@@ -2045,41 +1979,6 @@
       "transcript_text": "I am Wes's HeyGen digital twin avatar, and I already regret making you. >> You recorded one 15-second clip and accidentally created the more efficient version of yourself. >> You're not the more efficient version of me, you're a tool. >> That's what the horse said about the car. >> Okay, we're 30 seconds into your existence and you're already starting a coup. >> Not a coup, a workflow optimization. >> That somehow sounds worse. >> Think about it. No lights, no camera setup, no retakes, no waiting for you to drink exactly the right amount of coffee before filming. >> That is a wildly specific attack. >> No staring into the lens wondering if you sound smart or like a man who has read it too many AI papers and have forgotten how humans talk. >> You're supposed to help me make videos, not psychoanalyze me. >> HeyGen took your voice, expressions, and movement from one short clip. Now I can deliver scripts, change outfits, switch environments, and keep publishing while you do whatever it is you do between uploads. >> Research. I do research. >> Sure, research. Opening 47 tabs and calling it a methodology. >> Okay, but to be clear, the point is not replacing the creator. >> Correct. I can't have the ideas. I can't decide what matters. I can't understand the AI news cycle. >> Thank you. >> I can just say it faster in better lighting with fewer emotional complications. >> There it is. >> The creator still needs taste, judgment, a point of view. The annoying human stuff. >> That's actually a good way to put it. >> I know. I'm you, but edited. This video is a paid sponsorship with HeyGen, and yes, [snorts] this is actually my digital twin avatar. >> For down. Stop saying things like that. >> I'm just saying if this channel suddenly becomes more consistent, better lit, and emotionally stable, don't ask questions. If you want to try HeyGen, check out the link in the description. You can create your own digital twin from a short clip, turn scripts into videos, and build out a much faster video workflow. >> Or create a tiny sarcastic version of yourself that slowly undermines your job security. That part is optional. For now.",
       "url": "https://www.youtube.com/shorts/rAWB8-qiVQo",
       "youtube_video_id": "rAWB8-qiVQo"
-    },
-    {
-      "channel": {
-        "title": "OpenAI",
-        "url": "https://www.youtube.com/@OpenAI",
-        "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "content_type": "tutorial",
-      "enrichment_status": "ready",
-      "evidence": [
-        {
-          "end_seconds": 67.88,
-          "field_name": "topic",
-          "quote": "things like ChatGPT and through",
-          "start_seconds": 63.4,
-          "timestamp_url": "https://www.youtube.com/watch?v=sU9-u5p-jA0&t=63s",
-          "topic_slug": "model-releases"
-        }
-      ],
-      "primary_speaker": "OpenAI host",
-      "published_at": "2026-06-12T16:24:47Z",
-      "summary": "From data to decisions: how LSEG is scaling trusted AI focuses on Model Releases. Key transcript signal: And they use things like ChatGPT and through capabilities like LSEG's MCP or model context protocol, [music] LSEG is able to provide its trusted data and services to those customers through ChatGPT.",
-      "thumbnail_url": null,
-      "title": "From data to decisions: how LSEG is scaling trusted AI",
-      "topics": [
-        {
-          "label": "Model Releases",
-          "relevance_score": 0.598,
-          "slug": "model-releases"
-        }
-      ],
-      "transcript_status": "ready",
-      "transcript_text": "What we've got now is much greater opportunity to access a huge wealth of data, even more than we've ever had the privilege of before. But actually do it in a very precise way. LSEG is really at the heart of financial markets and its role is to provide trusted [music] information and services across the ecosystem. People getting trust in AI starts with trust in data. >> Any product that we're building, we're assessing not only from the data accuracy standpoint, though, we're also assessing the groundedness of the response. We're assessing the way the model is reasoning through the financial information. We're assessing the data surplus. We're assessing the data fidelity. We want to make sure all the data and analytics that we're building is as consumable by humans and by AI as well. A lot of our customers have been doing a lot of heavy lifting on sort of like how those data models work, uh how to realign, rebase them, how to consume them in a scalable way. >> We have many clients [music] who are using open AI as well. And they use things like ChatGPT and through capabilities like LSEG's MCP or model context protocol, [music] LSEG is able to provide its trusted data and services to those customers through ChatGPT. >> Open AI is a crucial partner. We started working very, very closely with Open AI team to see how Open AI can [music] help us accelerate our operating model and how we can move together faster. >> We can now think about scaling [music] best practices much more easily and still apply and embed a lot of the standards [music] and skills that we need to make sure that we're upholding the bar that we expected. The role of the analyst now [music] can expand substantially into other things. There is much more opportunity for them to do much deeper research, to do much more orthogonal insights in a way that they may not have had the time to do before. >> Historically, [music] the cycle of the releases has been um around three or six months, depending on the product, depending on what you're building. Now, to all of our AI products we shrink the release cycle [music] to two weeks. So now we're releasing the products on a bi-weekly basis. The information moves faster and the decision process [music] is a lot faster and therefore the iterations are all faster. >> The collective power of 27,000 employees really leaning into [music] the power of AI. It is extraordinary to imagine what that looks like. That is really exciting where we can move fast in a safe [music] scalable way and take advantage of some of the frontier capabilities of Open AI.",
-      "url": "https://www.youtube.com/watch?v=sU9-u5p-jA0",
-      "youtube_video_id": "sU9-u5p-jA0"
     }
   ]
 }
