@@ -142,7 +142,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.615,
+          "score": 0.557,
           "slug": "model-releases"
         }
       ],
@@ -369,7 +369,7 @@
       "shared_topics": [
         {
           "label": "Model Releases",
-          "score": 0.733,
+          "score": 0.675,
           "slug": "model-releases"
         }
       ],
@@ -494,7 +494,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.695,
+          "score": 0.637,
           "slug": "model-releases"
         }
       ],
@@ -513,7 +513,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.738,
+          "score": 0.68,
           "slug": "model-releases"
         }
       ],
@@ -618,7 +618,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.714,
+          "score": 0.656,
           "slug": "model-releases"
         }
       ],
@@ -637,7 +637,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.721,
+          "score": 0.663,
           "slug": "model-releases"
         }
       ],
@@ -732,7 +732,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.746,
+          "score": 0.689,
           "slug": "model-releases"
         }
       ],
@@ -751,7 +751,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.631,
+          "score": 0.574,
           "slug": "model-releases"
         }
       ],
@@ -836,7 +836,7 @@
       "shared_topics": [
         {
           "label": "Model Releases",
-          "score": 0.657,
+          "score": 0.6,
           "slug": "model-releases"
         }
       ],
@@ -971,7 +971,7 @@
       "target": "UCqcbQf6yw5KzRoDDcZ_wBSw"
     }
   ],
-  "generated_at": "2026-06-16T01:36:40Z",
+  "generated_at": "2026-06-16T14:13:28Z",
   "nodes": [
     {
       "id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
@@ -1048,16 +1048,6 @@
       "video_count": 3
     },
     {
-      "id": "UC8butISFwT-Wl7EV0hUK0BQ",
-      "label": "freeCodeCamp.org",
-      "top_topics": [
-        "Coding Assistants",
-        "Enterprise Adoption",
-        "Model Releases"
-      ],
-      "video_count": 2
-    },
-    {
       "id": "UCUyeluBRhGPCW4rPe_UvBZQ",
       "label": "ThePrimeTime",
       "top_topics": [
@@ -1076,6 +1066,16 @@
         "Model Releases"
       ],
       "video_count": 2
+    },
+    {
+      "id": "UC8butISFwT-Wl7EV0hUK0BQ",
+      "label": "freeCodeCamp.org",
+      "top_topics": [
+        "Coding Assistants",
+        "Enterprise Adoption",
+        "Model Releases"
+      ],
+      "video_count": 1
     }
   ],
   "schema_version": "1.0"

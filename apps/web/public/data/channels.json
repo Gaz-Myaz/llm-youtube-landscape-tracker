@@ -240,36 +240,9 @@
       "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
     },
     {
-      "description": "Technical courses and tutorials, including practical AI application development.",
-      "handle": "@freecodecamp",
-      "latest_video_at": "2026-06-15T11:47:23Z",
-      "thumbnail_url": null,
-      "title": "freeCodeCamp.org",
-      "top_topics": [
-        {
-          "label": "Coding Assistants",
-          "score": 0.807,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Enterprise Adoption",
-          "score": 0.636,
-          "slug": "enterprise-adoption"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.557,
-          "slug": "model-releases"
-        }
-      ],
-      "url": "https://www.youtube.com/@freecodecamp",
-      "video_count": 2,
-      "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
-    },
-    {
       "description": "Developer commentary, tools, and AI coding workflow coverage.",
       "handle": "@ThePrimeagen",
-      "latest_video_at": "2026-06-13T13:01:35Z",
+      "latest_video_at": "2026-06-16T12:30:29Z",
       "thumbnail_url": null,
       "title": "ThePrimeTime",
       "top_topics": [
@@ -280,7 +253,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.672,
+          "score": 0.557,
           "slug": "model-releases"
         }
       ],
@@ -319,8 +292,35 @@
       "url": "https://www.youtube.com/@YannicKilcher",
       "video_count": 2,
       "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
+    },
+    {
+      "description": "Technical courses and tutorials, including practical AI application development.",
+      "handle": "@freecodecamp",
+      "latest_video_at": "2026-06-15T11:47:23Z",
+      "thumbnail_url": null,
+      "title": "freeCodeCamp.org",
+      "top_topics": [
+        {
+          "label": "Coding Assistants",
+          "score": 0.807,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Enterprise Adoption",
+          "score": 0.636,
+          "slug": "enterprise-adoption"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.557,
+          "slug": "model-releases"
+        }
+      ],
+      "url": "https://www.youtube.com/@freecodecamp",
+      "video_count": 1,
+      "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
     }
   ],
-  "generated_at": "2026-06-16T01:36:40Z",
+  "generated_at": "2026-06-16T14:13:28Z",
   "schema_version": "1.0"
 }
