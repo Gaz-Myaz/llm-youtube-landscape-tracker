@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T13:37:38Z",
+  "generated_at": "2026-06-18T01:32:48Z",
   "schema_version": "1.0",
   "videos": [
     {
@@ -1300,54 +1300,6 @@
         "url": "https://www.youtube.com/@Fireship",
         "youtube_channel_id": "UCsBjURrPoezykLs9EqgamOA"
       },
-      "content_type": "tutorial",
-      "enrichment_status": "ready",
-      "evidence": [
-        {
-          "end_seconds": 7.279,
-          "field_name": "topic",
-          "quote": "feed and realized it was 90% AI agents",
-          "start_seconds": 2.0,
-          "timestamp_url": "https://www.youtube.com/watch?v=qPuzWFvRajk&t=2s",
-          "topic_slug": "agents"
-        },
-        {
-          "end_seconds": 30.4,
-          "field_name": "topic",
-          "quote": "cursor. and it might be the most",
-          "start_seconds": 26.56,
-          "timestamp_url": "https://www.youtube.com/watch?v=qPuzWFvRajk&t=26s",
-          "topic_slug": "coding-assistants"
-        }
-      ],
-      "primary_speaker": "Fireship host",
-      "published_at": "2026-05-26T17:53:11Z",
-      "summary": "10 weird OSS projects you need right now... focuses on AI Agents, Coding Assistants. Key transcript signal: Yesterday I was looking at my GitHub feed and realized it was 90% AI agents reviewing other AI agents pull requests.",
-      "thumbnail_url": null,
-      "title": "10 weird OSS projects you need right now...",
-      "topics": [
-        {
-          "label": "AI Agents",
-          "relevance_score": 0.779,
-          "slug": "agents"
-        },
-        {
-          "label": "Coding Assistants",
-          "relevance_score": 0.757,
-          "slug": "coding-assistants"
-        }
-      ],
-      "transcript_status": "ready",
-      "transcript_text": "Yesterday I was looking at my GitHub feed and realized it was 90% AI agents reviewing other AI agents pull requests. My for you page is just six rappers around the same clawed API key. And all the mostard repos are literally just markdown files that tell you how to talk to robots. I thought I had died and went to hell, but I realized this can't be hell because this is my terminal emulator. It's 3D. It uses 300 megabytes of RAM. It has a spinning wrap for a cursor. and it might be the most important software released in 2026. Underneath the AI sewage layer and below the prompt bros and notion template goblins, there are still real humans building insane, beautiful, and deeply unnecessary software. In today's video, we'll look at 10 projects you've never heard of, built by people who absolutely should not be allowed near a compiler. And I mean that as the highest possible compliment. It is May 26, 2026, and you're watching the code report. But the first project I want to talk about is Ratty. It's a new terminal emulator built in Rust and inspired by Temple OS. And as you can see here, the cursor is a spinning 3D wrap. It was created by Orin Paraxes. And unlike most terminal emulators, it doesn't just render text, but rather an entire GPU accelerated 3D scene using the Bevy game engine. That means you can do incredibly useless things like hit Ctrl Alt Enter to physically tilt your terminal in a 3D space like you're flying through a PS2 game. And you can even bring in your own crappy 3D models from tools like Blender. The only catch is that it eats 300 megabytes of RAM and RAM is not cheap these days. The creator fully acknowledges that this is insane by saying, quote, \"Everything comes at a cost, especially the spinning rat cursor. But if 3D rats are not enough, your terminal is about to get even more awesomer thanks to a project called terminal phone. Imagine this. You're in the terminal vim open three t-mucks panes deep. And instead of unlocking your phone to take a call, you just make the call from bash. The terminal phone is an open-source pushto talk voice and text app that runs entirely over tour as a shell script. There are no servers, no accounts, no phone numbers. Instead, aunion address is your identity, which means everything is ephemeral and end to end encrypted. The developer shipped this project in February with a custom protocol built from scratch. This is the project cipher punks were promising us in 1995. And now finally, after 30 years, one psychopath finally delivered it. But this next project might even be more rebellious. Back in 1988, before the internet even existed, John Carpenter made an awesome movie where this dude puts on sunglasses and suddenly every billboard, magazine, and advertisement on Earth is revealed to be what it truly is. Alien mind control propaganda telling us to obey, consume, marry, and reproduce. Developer David Lawrence realized that this is also the most aesthetically correct way to implement an ad blocker. He actually had the idea all the way back in 2015, sat on it for a decade, and then finally shipped it recently as a fork of Ublock Origin Light. Instead of just blocking ads, it turns the entire experience of surfing the worldwide web into an 80s sci-fi horror movie. But our next project, CUDA Oxide, didn't come from some basement hacker. It was quietly dropped on GitHub by the 5 trillion market cap Nvidia last week, and it addresses an important problem. In order to write CUDA kernels code that runs on a GPU, you need to carefully craft C++. Pray the compiler doesn't seg fault because it only takes one wrong pointer to turn your $40,000 GPU cluster into a worthless paper weight. Akuda Oxide tries to fix this by letting you write GPU kernels in pure Rust. Just annotate a function with kernel and now you have Rust code that can actually run on a GPU and it actually compiles straight to PTX. There's no foreign functions interface or C++ involved at all. But all these awesome projects should have their own theme songs, and that's where Wario Synth comes in. This is a weird project where you paste in a song and it spits it back out as a Game Boy chip tune. Under the hood, it uses the web audio API to take two pulse waves, one wave channel, and one noise channel to reynthesize an entire song as something that sounds like it's coming out of a 1989 Game Boy. And it can do all of this in the browser with zero serverside processing required. enjoy it before Nintendo's legal team nukes it and memory holes it. But speaking of memory holes, I completely forgot about the Epstein files after the Iran war and UFO disclosures. Luckily though, the files are easier than ever to consume now, thanks to projects like Jmail, which emulates Gmail as if you were Jeffrey himself using it. But if you truly want to go deep down this rabbit hole, Epstein Exposed provides a searchable database for the files and also this awesome network graph that shows you how deep the connections of the deep state actually go. If that's a little too dark for you though, you'll really like this next project. Exipedia developer Lyra Reebane looked at the dumpster fire that's modern social media and asked the only sensible question. What if doom scrolling was actually good for you? So, she built Wikipedia as a Tik Tok feed. You open up the web app, pick a few categories, and it downloads 40 megabytes of simple Wikipedia in the background, and then you have an infinite feed you can scroll through endlessly. This project is also open source and runs its algorithm entirely in the browser. But what if we could run an entire computer in the browser? Well, that's where pewtor comes in. It's a project you can self-host. Or if you go to pwer.com, you'll be taken to a desktop environment where you have a taskbar, draggable windows, a file manager, and a bunch of applications like a notepad, code editor, terminal, and so on. It's kind of like the dream of Chrome OS, except it's actually free, actually open, and actually fun. But now it's time to learn about Honker. This one's for the SQL light gang, and honestly, it might be the single most underrated project on this list. SQL light is an incredible database that can handle even the most ambitious of failed side projects. But if you end up needing a feature like a job cue, things start to get complicated. You might think you need to spin up Reddus, install Celery, or run a message broker, but developer Russell Romney says no. Honker is a SQLite extension written in Rust that adds Postgress style notify listen directly into your database file. You get durable pubsub, task cues, event streams, and a cron scheduler. And all of it lives inside the same DB file as your business data. It's yet another humble reminder that 99% of us don'ting need Kubernetes and would be perfectly fine running SQL light and node on a $5 VPS. And that brings us to number 10, Hyper Agent, the sponsor of today's video. Most agent platforms only give you tool calls, but Hyper Agent lets you build and deploy agents with their own browser, shell, and file system, all running in an isolated cloud sandbox. I used it to build a research workflow for our Bites newsletter that studies past issues, scouts tech, Twitter, and Hacker News for promising story topics, and saves them to our team's air table. Then I turn that workflow into an agent we can invoke from Telegram or Slack whenever we need ideas. Right now, Hyper Agent is giving away $10 million to founders building agent first companies. And the first thousand viewers to use the link below will get $1,000 in free inference credits. This has been the Code Report. Thanks for watching and I will see you in the next one.",
-      "url": "https://www.youtube.com/watch?v=qPuzWFvRajk",
-      "youtube_video_id": "qPuzWFvRajk"
-    },
-    {
-      "channel": {
-        "title": "Fireship",
-        "url": "https://www.youtube.com/@Fireship",
-        "youtube_channel_id": "UCsBjURrPoezykLs9EqgamOA"
-      },
       "content_type": "benchmark",
       "enrichment_status": "ready",
       "evidence": [
@@ -1673,41 +1625,6 @@
       "transcript_text": "A big part of my role as a solutions engineer is not only to build, but to understand. I'm Stephanie Annani, a solutions engineer, and this is OpenAI on OpenAI. One thing our customers want to know is how [music] our technology can improve the experiences of their customers. I will [music] ask Codex to go on Trustpilot reviews for the customer, and we'll get a whole bunch of analysis of what their customers are saying about them. [music] I'll then use Codex to mock up a customer website and show them how easy it is to make some of these [music] changes that their customers are asking for in the context of their website. Customers really love that because you're really taking their specific challenges, their specific problems, [music] and showing how the technology is delivering on that with ease. When I'm working with Codex, sometimes we have these [music] lightbulb moments where Codex executes something so perfectly well. Skills are a great way for me to capture that moment and have it as part of my ongoing workflows. [music] Whoever you are, whatever you do, however you like to think, Codex can be a partner in every sort of context for you.",
       "url": "https://www.youtube.com/watch?v=_jNbM8pV9oI",
       "youtube_video_id": "_jNbM8pV9oI"
-    },
-    {
-      "channel": {
-        "title": "OpenAI",
-        "url": "https://www.youtube.com/@OpenAI",
-        "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "content_type": "tutorial",
-      "enrichment_status": "ready",
-      "evidence": [
-        {
-          "end_seconds": 5.96,
-          "field_name": "topic",
-          "quote": "Without Codex, we probably would be 6",
-          "start_seconds": 0.0,
-          "timestamp_url": "https://www.youtube.com/watch?v=NxAxwsu6_Zs&t=0s",
-          "topic_slug": "model-releases"
-        }
-      ],
-      "primary_speaker": "OpenAI host",
-      "published_at": "2026-06-14T22:44:45Z",
-      "summary": "How Payward Ships Faster with Codex focuses on Model Releases. Key transcript signal: Without Codex, we probably would be 6 months behind where we are today.",
-      "thumbnail_url": null,
-      "title": "How Payward Ships Faster with Codex",
-      "topics": [
-        {
-          "label": "Model Releases",
-          "relevance_score": 0.77,
-          "slug": "model-releases"
-        }
-      ],
-      "transcript_status": "ready",
-      "transcript_text": "Without Codex, we probably would be 6 months behind where we are today. The AI infrastructure team is building the core infrastructure to power inference across all of our products at Payward. Our vision in general is to bring inference and personalized user experiences to every single customer. The biggest thing that's unlocked is we ship faster, much faster. [music] And the number one value for my team is speed. Just being able to delegate tasks, have 50 agents running concurrently, have them review MRs, and if they all agree, say, \"Okay, we're confident. Let's release.\" For us, we want to be at the cutting edge of finance. And there's no way to do that without being at the cutting edge of technology. So, it's really, really important that we are there, and we want to partner with OpenAI to to make sure that that happens.",
-      "url": "https://www.youtube.com/watch?v=NxAxwsu6_Zs",
-      "youtube_video_id": "NxAxwsu6_Zs"
     },
     {
       "channel": {

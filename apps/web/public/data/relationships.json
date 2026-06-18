@@ -1066,7 +1066,7 @@
       "target": "UCqcbQf6yw5KzRoDDcZ_wBSw"
     }
   ],
-  "generated_at": "2026-06-17T13:37:38Z",
+  "generated_at": "2026-06-18T01:32:48Z",
   "nodes": [
     {
       "id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
@@ -1076,17 +1076,6 @@
         "AI Agents",
         "Coding Assistants",
         "Open Source Models"
-      ],
-      "video_count": 5
-    },
-    {
-      "id": "UCsBjURrPoezykLs9EqgamOA",
-      "label": "Fireship",
-      "top_topics": [
-        "AI Agents",
-        "Model Releases",
-        "Coding Assistants",
-        "Safety and Alignment"
       ],
       "video_count": 5
     },
@@ -1124,13 +1113,13 @@
       "video_count": 5
     },
     {
-      "id": "UCXZCJLdBC09xxGZ6gcdrc6A",
-      "label": "OpenAI",
+      "id": "UCsBjURrPoezykLs9EqgamOA",
+      "label": "Fireship",
       "top_topics": [
         "AI Agents",
         "Model Releases",
         "Coding Assistants",
-        "Evaluation"
+        "Safety and Alignment"
       ],
       "video_count": 4
     },
@@ -1142,6 +1131,17 @@
         "Coding Assistants",
         "Model Releases",
         "Open Source Models"
+      ],
+      "video_count": 3
+    },
+    {
+      "id": "UCXZCJLdBC09xxGZ6gcdrc6A",
+      "label": "OpenAI",
+      "top_topics": [
+        "AI Agents",
+        "Model Releases",
+        "Coding Assistants",
+        "Evaluation"
       ],
       "video_count": 3
     },
