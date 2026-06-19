@@ -1,17 +1,17 @@
 {
   "content_hashes": {
-    "channels": "41df775778f754a96c7ad6420bc231355c8b802823ffd6ee237510edea50c120",
-    "relationships": "68390952519a1db8e9824def2d528882332b8710e97861dcecc50a842cbff027",
-    "videos": "9f1194def1e173a04e25a4af1e090269223d31641c2660d65a0b7701cffc573a"
+    "channels": "a4845e6bf4c139af15662fde53d3182c9e3163315eabd3c7ad92b69f561ddc12",
+    "relationships": "b8a75c1381beb3db6582c4f72ce9775ee53cb7136eff4df5e19156f4cf9575cd",
+    "videos": "4c079c57b218b01053f6c78e4d683d629ddcefbe6031c16322942a81e18f6560"
   },
   "cost_rates": {
     "input_usd_per_1m_tokens": 0.3,
     "output_usd_per_1m_tokens": 2.5,
     "source": "default"
   },
-  "error_summary": "Skipped 3 videos before publication because no usable transcript was available: DNajvkqfobY: captions unavailable (No transcript provider succeeded for DNajvkqfobY. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=DNajvkqfobY! This is most likely caused by: The video is unplayable for the following reason: This live event will begin in a few moments. If you are su); rOLKQJMLBHI: captions unavailable (No transcript provider succeeded for rOLKQJMLBHI. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=rOLKQJMLBHI! This is most likely caused by: YouTube is blocking requests from your IP. This usually is due to one of the following reasons: - You have d); u9zLlcsCDiQ: captions unavailable (No transcript provider succeeded for u9zLlcsCDiQ. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=u9zLlcsCDiQ! This is most likely caused by: YouTube is blocking requests from your IP. This usually is due to one of the following reasons: - You have d) Filtered 12 caption-backed videos outside configured LLM landscape rules: ML3q7Ok4hJg: no gemini LLM landscape signal; OOCepY3H8k4: no gemini LLM landscape signal; OCK-n0g5zXU: no gemini LLM landscape signal; 9 more Used deterministic fallback for 20 provider failures: l72ufA-4SzE: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used; zJvN8PDX1is: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used; 82m7YqosdgU: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used; 17 more",
+  "error_summary": "Skipped 3 videos before publication because no usable transcript was available: DNajvkqfobY: captions unavailable (No transcript provider succeeded for DNajvkqfobY. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=DNajvkqfobY! This is most likely caused by: The video is unplayable for the following reason: This live event will begin in a few moments. If you are su); rOLKQJMLBHI: captions unavailable (No transcript provider succeeded for rOLKQJMLBHI. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=rOLKQJMLBHI! This is most likely caused by: YouTube is blocking requests from your IP. This usually is due to one of the following reasons: - You have d); u9zLlcsCDiQ: captions unavailable (No transcript provider succeeded for u9zLlcsCDiQ. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=u9zLlcsCDiQ! This is most likely caused by: YouTube is blocking requests from your IP. This usually is due to one of the following reasons: - You have d) Filtered 13 caption-backed videos outside configured LLM landscape rules: ML3q7Ok4hJg: no gemini LLM landscape signal; OOCepY3H8k4: no gemini LLM landscape signal; OCK-n0g5zXU: no gemini LLM landscape signal; 10 more Used deterministic fallback for 20 provider failures: l72ufA-4SzE: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used; zJvN8PDX1is: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used; 82m7YqosdgU: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used; 17 more",
   "estimated_cost_usd": 0.0,
-  "last_successful_run_at": "2026-06-18T13:38:02Z",
+  "last_successful_run_at": "2026-06-19T01:38:57Z",
   "model": "gemini-2.5-flash",
   "provider": "gemini",
   "provider_call_count": 47,
@@ -47,7 +47,7 @@
     "total_tokens": 0
   },
   "videos_failed": 0,
-  "videos_processed": 35,
+  "videos_processed": 34,
   "videos_seen": 50,
   "videos_skipped": 3
 }

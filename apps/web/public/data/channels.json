@@ -3,7 +3,7 @@
     {
       "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
       "handle": "@WesRoth",
-      "latest_video_at": "2026-06-16T22:48:01Z",
+      "latest_video_at": "2026-06-18T22:11:36Z",
       "thumbnail_url": null,
       "title": "Wes Roth",
       "top_topics": [
@@ -14,7 +14,7 @@
         },
         {
           "label": "AI Agents",
-          "score": 0.768,
+          "score": 0.769,
           "slug": "agents"
         },
         {
@@ -23,14 +23,14 @@
           "slug": "model-releases"
         },
         {
-          "label": "Fine Tuning",
-          "score": 0.706,
-          "slug": "fine-tuning"
-        },
-        {
           "label": "Safety and Alignment",
           "score": 0.658,
           "slug": "safety-alignment"
+        },
+        {
+          "label": "Evaluation",
+          "score": 0.597,
+          "slug": "evals"
         }
       ],
       "url": "https://www.youtube.com/@WesRoth",
@@ -186,58 +186,21 @@
       "youtube_channel_id": "UCsBjURrPoezykLs9EqgamOA"
     },
     {
-      "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
-      "handle": "@OpenAI",
-      "latest_video_at": "2026-06-16T17:00:02Z",
-      "thumbnail_url": null,
-      "title": "OpenAI",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.802,
-          "slug": "agents"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.793,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.736,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Evaluation",
-          "score": 0.721,
-          "slug": "evals"
-        },
-        {
-          "label": "Benchmarks",
-          "score": 0.69,
-          "slug": "benchmarks"
-        }
-      ],
-      "url": "https://www.youtube.com/@OpenAI",
-      "video_count": 3,
-      "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
-    },
-    {
       "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
       "handle": "@matthew_berman",
-      "latest_video_at": "2026-06-13T20:21:41Z",
+      "latest_video_at": "2026-06-18T17:44:06Z",
       "thumbnail_url": null,
       "title": "Matthew Berman",
       "top_topics": [
         {
+          "label": "Coding Assistants",
+          "score": 0.868,
+          "slug": "coding-assistants"
+        },
+        {
           "label": "AI Agents",
           "score": 0.824,
           "slug": "agents"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.783,
-          "slug": "coding-assistants"
         },
         {
           "label": "Model Releases",
@@ -258,6 +221,43 @@
       "url": "https://www.youtube.com/@matthew_berman",
       "video_count": 3,
       "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
+    },
+    {
+      "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
+      "handle": "@OpenAI",
+      "latest_video_at": "2026-06-18T18:57:34Z",
+      "thumbnail_url": null,
+      "title": "OpenAI",
+      "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.802,
+          "slug": "agents"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.767,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.735,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Evaluation",
+          "score": 0.721,
+          "slug": "evals"
+        },
+        {
+          "label": "Benchmarks",
+          "score": 0.69,
+          "slug": "benchmarks"
+        }
+      ],
+      "url": "https://www.youtube.com/@OpenAI",
+      "video_count": 2,
+      "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
     },
     {
       "description": "Technical courses and tutorials, including practical AI application development.",
@@ -336,6 +336,6 @@
       "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
     }
   ],
-  "generated_at": "2026-06-18T13:38:02Z",
+  "generated_at": "2026-06-19T01:38:57Z",
   "schema_version": "1.0"
 }
