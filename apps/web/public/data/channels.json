@@ -186,28 +186,6 @@
       "youtube_channel_id": "UCsBjURrPoezykLs9EqgamOA"
     },
     {
-      "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
-      "handle": "@OpenAI",
-      "latest_video_at": "2026-06-19T22:57:58Z",
-      "thumbnail_url": null,
-      "title": "OpenAI",
-      "top_topics": [
-        {
-          "label": "Coding Assistants",
-          "score": 0.767,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.735,
-          "slug": "model-releases"
-        }
-      ],
-      "url": "https://www.youtube.com/@OpenAI",
-      "video_count": 3,
-      "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
-    },
-    {
       "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
       "handle": "@matthew_berman",
       "latest_video_at": "2026-06-19T17:43:19Z",
@@ -282,31 +260,21 @@
       "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
     },
     {
-      "description": "Developer commentary, tools, and AI coding workflow coverage.",
-      "handle": "@ThePrimeagen",
-      "latest_video_at": "2026-06-19T13:00:14Z",
+      "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
+      "handle": "@OpenAI",
+      "latest_video_at": "2026-06-19T22:57:58Z",
       "thumbnail_url": null,
-      "title": "ThePrimeTime",
+      "title": "OpenAI",
       "top_topics": [
         {
-          "label": "Open Source Models",
-          "score": 0.774,
-          "slug": "open-source-models"
-        },
-        {
           "label": "Model Releases",
-          "score": 0.72,
+          "score": 0.735,
           "slug": "model-releases"
-        },
-        {
-          "label": "Fine Tuning",
-          "score": 0.707,
-          "slug": "fine-tuning"
         }
       ],
-      "url": "https://www.youtube.com/@ThePrimeagen",
+      "url": "https://www.youtube.com/@OpenAI",
       "video_count": 2,
-      "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
+      "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
     },
     {
       "description": "Research-heavy coverage of machine learning papers, model releases, and AI systems.",
@@ -339,8 +307,35 @@
       "url": "https://www.youtube.com/@YannicKilcher",
       "video_count": 2,
       "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
+    },
+    {
+      "description": "Developer commentary, tools, and AI coding workflow coverage.",
+      "handle": "@ThePrimeagen",
+      "latest_video_at": "2026-06-19T13:00:14Z",
+      "thumbnail_url": null,
+      "title": "ThePrimeTime",
+      "top_topics": [
+        {
+          "label": "Open Source Models",
+          "score": 0.774,
+          "slug": "open-source-models"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.72,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Fine Tuning",
+          "score": 0.707,
+          "slug": "fine-tuning"
+        }
+      ],
+      "url": "https://www.youtube.com/@ThePrimeagen",
+      "video_count": 1,
+      "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
     }
   ],
-  "generated_at": "2026-06-22T01:36:05Z",
+  "generated_at": "2026-06-22T14:17:53Z",
   "schema_version": "1.0"
 }
