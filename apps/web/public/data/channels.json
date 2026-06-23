@@ -1,6 +1,43 @@
 {
   "channels": [
     {
+      "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
+      "handle": "@WesRoth",
+      "latest_video_at": "2026-06-23T08:21:31Z",
+      "thumbnail_url": null,
+      "title": "Wes Roth",
+      "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.87,
+          "slug": "agents"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.809,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Open Source Models",
+          "score": 0.728,
+          "slug": "open-source-models"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.724,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Evaluation",
+          "score": 0.597,
+          "slug": "evals"
+        }
+      ],
+      "url": "https://www.youtube.com/@WesRoth",
+      "video_count": 5,
+      "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
+    },
+    {
       "description": "Research-focused AI and machine learning explainers.",
       "handle": "@TwoMinutePapers",
       "latest_video_at": "2026-06-22T15:53:06Z",
@@ -36,43 +73,6 @@
       "url": "https://www.youtube.com/@TwoMinutePapers",
       "video_count": 5,
       "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
-    },
-    {
-      "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
-      "handle": "@WesRoth",
-      "latest_video_at": "2026-06-18T22:11:36Z",
-      "thumbnail_url": null,
-      "title": "Wes Roth",
-      "top_topics": [
-        {
-          "label": "Coding Assistants",
-          "score": 0.775,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "AI Agents",
-          "score": 0.769,
-          "slug": "agents"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.706,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Safety and Alignment",
-          "score": 0.658,
-          "slug": "safety-alignment"
-        },
-        {
-          "label": "Evaluation",
-          "score": 0.597,
-          "slug": "evals"
-        }
-      ],
-      "url": "https://www.youtube.com/@WesRoth",
-      "video_count": 5,
-      "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
     },
     {
       "description": "Accessible analysis of frontier models, agents, local inference, and open-weight AI.",
@@ -186,9 +186,26 @@
       "youtube_channel_id": "UCsBjURrPoezykLs9EqgamOA"
     },
     {
+      "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
+      "handle": "@OpenAI",
+      "latest_video_at": "2026-06-23T11:30:20Z",
+      "thumbnail_url": null,
+      "title": "OpenAI",
+      "top_topics": [
+        {
+          "label": "Model Releases",
+          "score": 0.805,
+          "slug": "model-releases"
+        }
+      ],
+      "url": "https://www.youtube.com/@OpenAI",
+      "video_count": 3,
+      "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
+    },
+    {
       "description": "Technical courses and tutorials, including practical AI application development.",
       "handle": "@freecodecamp",
-      "latest_video_at": "2026-06-19T10:39:48Z",
+      "latest_video_at": "2026-06-23T11:30:11Z",
       "thumbnail_url": null,
       "title": "freeCodeCamp.org",
       "top_topics": [
@@ -211,33 +228,11 @@
           "label": "Model Releases",
           "score": 0.695,
           "slug": "model-releases"
-        },
-        {
-          "label": "Enterprise Adoption",
-          "score": 0.636,
-          "slug": "enterprise-adoption"
         }
       ],
       "url": "https://www.youtube.com/@freecodecamp",
       "video_count": 3,
       "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
-    },
-    {
-      "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
-      "handle": "@OpenAI",
-      "latest_video_at": "2026-06-19T22:57:58Z",
-      "thumbnail_url": null,
-      "title": "OpenAI",
-      "top_topics": [
-        {
-          "label": "Model Releases",
-          "score": 0.735,
-          "slug": "model-releases"
-        }
-      ],
-      "url": "https://www.youtube.com/@OpenAI",
-      "video_count": 2,
-      "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
     },
     {
       "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
@@ -309,6 +304,6 @@
       "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
     }
   ],
-  "generated_at": "2026-06-23T01:21:55Z",
+  "generated_at": "2026-06-23T13:22:11Z",
   "schema_version": "1.0"
 }
