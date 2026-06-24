@@ -149,46 +149,46 @@
       "youtube_channel_id": "UCSHZKyawb77ixDdsGog4iWA"
     },
     {
-      "description": "Fast software engineering and AI tooling explainers.",
-      "handle": "@Fireship",
-      "latest_video_at": "2026-06-19T17:24:47Z",
+      "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
+      "handle": "@matthew_berman",
+      "latest_video_at": "2026-06-24T00:01:49Z",
       "thumbnail_url": null,
-      "title": "Fireship",
+      "title": "Matthew Berman",
       "top_topics": [
         {
           "label": "Coding Assistants",
-          "score": 0.806,
+          "score": 0.868,
           "slug": "coding-assistants"
         },
         {
-          "label": "Model Releases",
-          "score": 0.803,
-          "slug": "model-releases"
-        },
-        {
           "label": "AI Agents",
-          "score": 0.792,
+          "score": 0.812,
           "slug": "agents"
         },
         {
-          "label": "RAG",
-          "score": 0.748,
-          "slug": "rag"
+          "label": "Open Source Models",
+          "score": 0.775,
+          "slug": "open-source-models"
         },
         {
-          "label": "Safety and Alignment",
-          "score": 0.674,
-          "slug": "safety-alignment"
+          "label": "Multimodal",
+          "score": 0.728,
+          "slug": "multimodal"
+        },
+        {
+          "label": "Fine Tuning",
+          "score": 0.707,
+          "slug": "fine-tuning"
         }
       ],
-      "url": "https://www.youtube.com/@Fireship",
-      "video_count": 4,
-      "youtube_channel_id": "UCsBjURrPoezykLs9EqgamOA"
+      "url": "https://www.youtube.com/@matthew_berman",
+      "video_count": 3,
+      "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
     },
     {
       "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
       "handle": "@OpenAI",
-      "latest_video_at": "2026-06-23T11:30:20Z",
+      "latest_video_at": "2026-06-23T18:45:29Z",
       "thumbnail_url": null,
       "title": "OpenAI",
       "top_topics": [
@@ -235,41 +235,41 @@
       "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
     },
     {
-      "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
-      "handle": "@matthew_berman",
-      "latest_video_at": "2026-06-19T17:43:19Z",
+      "description": "Fast software engineering and AI tooling explainers.",
+      "handle": "@Fireship",
+      "latest_video_at": "2026-06-19T17:24:47Z",
       "thumbnail_url": null,
-      "title": "Matthew Berman",
+      "title": "Fireship",
       "top_topics": [
         {
           "label": "Coding Assistants",
-          "score": 0.868,
+          "score": 0.806,
           "slug": "coding-assistants"
         },
         {
-          "label": "AI Agents",
-          "score": 0.769,
-          "slug": "agents"
-        },
-        {
-          "label": "Fine Tuning",
-          "score": 0.707,
-          "slug": "fine-tuning"
-        },
-        {
           "label": "Model Releases",
-          "score": 0.658,
+          "score": 0.803,
           "slug": "model-releases"
         },
         {
-          "label": "Evaluation",
-          "score": 0.64,
-          "slug": "evals"
+          "label": "AI Agents",
+          "score": 0.792,
+          "slug": "agents"
+        },
+        {
+          "label": "RAG",
+          "score": 0.748,
+          "slug": "rag"
+        },
+        {
+          "label": "Safety and Alignment",
+          "score": 0.674,
+          "slug": "safety-alignment"
         }
       ],
-      "url": "https://www.youtube.com/@matthew_berman",
-      "video_count": 2,
-      "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
+      "url": "https://www.youtube.com/@Fireship",
+      "video_count": 3,
+      "youtube_channel_id": "UCsBjURrPoezykLs9EqgamOA"
     },
     {
       "description": "Research-heavy coverage of machine learning papers, model releases, and AI systems.",
@@ -302,8 +302,30 @@
       "url": "https://www.youtube.com/@YannicKilcher",
       "video_count": 2,
       "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
+    },
+    {
+      "description": "Developer commentary, tools, and AI coding workflow coverage.",
+      "handle": "@ThePrimeagen",
+      "latest_video_at": "2026-06-23T14:42:09Z",
+      "thumbnail_url": null,
+      "title": "ThePrimeTime",
+      "top_topics": [
+        {
+          "label": "Evaluation",
+          "score": 0.603,
+          "slug": "evals"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.598,
+          "slug": "model-releases"
+        }
+      ],
+      "url": "https://www.youtube.com/@ThePrimeagen",
+      "video_count": 1,
+      "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
     }
   ],
-  "generated_at": "2026-06-23T13:22:11Z",
+  "generated_at": "2026-06-24T01:20:06Z",
   "schema_version": "1.0"
 }
