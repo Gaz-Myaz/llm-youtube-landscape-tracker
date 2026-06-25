@@ -1031,7 +1031,7 @@
       "target": "UCsBjURrPoezykLs9EqgamOA"
     }
   ],
-  "generated_at": "2026-06-24T13:10:26Z",
+  "generated_at": "2026-06-25T01:24:14Z",
   "nodes": [
     {
       "id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
@@ -1078,6 +1078,17 @@
       "video_count": 5
     },
     {
+      "id": "UCawZsQWqfGSbCI5yjkdVkTA",
+      "label": "Matthew Berman",
+      "top_topics": [
+        "Coding Assistants",
+        "AI Agents",
+        "Open Source Models",
+        "Multimodal"
+      ],
+      "video_count": 4
+    },
+    {
       "id": "UCsBjURrPoezykLs9EqgamOA",
       "label": "Fireship",
       "top_topics": [
@@ -1096,17 +1107,6 @@
         "Coding Assistants",
         "Open Source Models",
         "Model Releases"
-      ],
-      "video_count": 3
-    },
-    {
-      "id": "UCawZsQWqfGSbCI5yjkdVkTA",
-      "label": "Matthew Berman",
-      "top_topics": [
-        "Coding Assistants",
-        "AI Agents",
-        "Open Source Models",
-        "Multimodal"
       ],
       "video_count": 3
     },

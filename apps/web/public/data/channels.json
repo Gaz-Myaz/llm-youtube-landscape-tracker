@@ -151,7 +151,7 @@
     {
       "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
       "handle": "@matthew_berman",
-      "latest_video_at": "2026-06-24T00:01:49Z",
+      "latest_video_at": "2026-06-24T20:40:01Z",
       "thumbnail_url": null,
       "title": "Matthew Berman",
       "top_topics": [
@@ -182,7 +182,7 @@
         }
       ],
       "url": "https://www.youtube.com/@matthew_berman",
-      "video_count": 3,
+      "video_count": 4,
       "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
     },
     {
@@ -326,6 +326,6 @@
       "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
     }
   ],
-  "generated_at": "2026-06-24T13:10:26Z",
+  "generated_at": "2026-06-25T01:24:14Z",
   "schema_version": "1.0"
 }
