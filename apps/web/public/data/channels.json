@@ -3,34 +3,19 @@
     {
       "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
       "handle": "@matthew_berman",
-      "latest_video_at": "2026-06-26T02:24:09Z",
+      "latest_video_at": "2026-06-26T21:26:32Z",
       "thumbnail_url": null,
       "title": "Matthew Berman",
       "top_topics": [
         {
-          "label": "Coding Assistants",
-          "score": 0.855,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.819,
-          "slug": "model-releases"
-        },
-        {
-          "label": "AI Agents",
-          "score": 0.812,
-          "slug": "agents"
-        },
-        {
           "label": "Open Source Models",
-          "score": 0.775,
+          "score": 0.822,
           "slug": "open-source-models"
         },
         {
-          "label": "Multimodal",
-          "score": 0.728,
-          "slug": "multimodal"
+          "label": "Model Releases",
+          "score": 0.82,
+          "slug": "model-releases"
         }
       ],
       "url": "https://www.youtube.com/@matthew_berman",
@@ -188,7 +173,7 @@
     {
       "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
       "handle": "@OpenAI",
-      "latest_video_at": "2026-06-26T11:00:22Z",
+      "latest_video_at": "2026-06-26T19:40:00Z",
       "thumbnail_url": null,
       "title": "OpenAI",
       "top_topics": [
@@ -198,14 +183,51 @@
           "slug": "agents"
         },
         {
+          "label": "Coding Assistants",
+          "score": 0.81,
+          "slug": "coding-assistants"
+        },
+        {
           "label": "Model Releases",
           "score": 0.805,
           "slug": "model-releases"
+        },
+        {
+          "label": "Evaluation",
+          "score": 0.6,
+          "slug": "evals"
         }
       ],
       "url": "https://www.youtube.com/@OpenAI",
-      "video_count": 3,
+      "video_count": 4,
       "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
+    },
+    {
+      "description": "Developer commentary, tools, and AI coding workflow coverage.",
+      "handle": "@ThePrimeagen",
+      "latest_video_at": "2026-06-26T13:02:05Z",
+      "thumbnail_url": null,
+      "title": "ThePrimeTime",
+      "top_topics": [
+        {
+          "label": "Coding Assistants",
+          "score": 0.743,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.62,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Evaluation",
+          "score": 0.603,
+          "slug": "evals"
+        }
+      ],
+      "url": "https://www.youtube.com/@ThePrimeagen",
+      "video_count": 3,
+      "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
     },
     {
       "description": "Technical courses and tutorials, including practical AI application development.",
@@ -277,33 +299,6 @@
       "youtube_channel_id": "UCsBjURrPoezykLs9EqgamOA"
     },
     {
-      "description": "Developer commentary, tools, and AI coding workflow coverage.",
-      "handle": "@ThePrimeagen",
-      "latest_video_at": "2026-06-25T13:00:28Z",
-      "thumbnail_url": null,
-      "title": "ThePrimeTime",
-      "top_topics": [
-        {
-          "label": "Coding Assistants",
-          "score": 0.743,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Evaluation",
-          "score": 0.603,
-          "slug": "evals"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.598,
-          "slug": "model-releases"
-        }
-      ],
-      "url": "https://www.youtube.com/@ThePrimeagen",
-      "video_count": 2,
-      "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
-    },
-    {
       "description": "Research-heavy coverage of machine learning papers, model releases, and AI systems.",
       "handle": "@YannicKilcher",
       "latest_video_at": "2026-03-06T22:07:33Z",
@@ -336,6 +331,6 @@
       "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
     }
   ],
-  "generated_at": "2026-06-26T13:05:39Z",
+  "generated_at": "2026-06-27T01:22:16Z",
   "schema_version": "1.0"
 }
