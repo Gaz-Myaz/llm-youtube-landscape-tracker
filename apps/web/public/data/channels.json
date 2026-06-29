@@ -151,7 +151,7 @@
     {
       "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
       "handle": "@matthew_berman",
-      "latest_video_at": "2026-06-26T21:26:32Z",
+      "latest_video_at": "2026-06-28T14:00:35Z",
       "thumbnail_url": null,
       "title": "Matthew Berman",
       "top_topics": [
@@ -164,6 +164,16 @@
           "label": "Model Releases",
           "score": 0.82,
           "slug": "model-releases"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.778,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Local Inference",
+          "score": 0.713,
+          "slug": "local-inference"
         }
       ],
       "url": "https://www.youtube.com/@matthew_berman",
@@ -326,6 +336,6 @@
       "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
     }
   ],
-  "generated_at": "2026-06-28T12:51:42Z",
+  "generated_at": "2026-06-29T01:29:44Z",
   "schema_version": "1.0"
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T12:51:42Z",
+  "generated_at": "2026-06-29T01:29:44Z",
   "schema_version": "1.0",
   "videos": [
     {
@@ -887,6 +887,67 @@
     },
     {
       "channel": {
+        "title": "Matthew Berman",
+        "url": "https://www.youtube.com/@matthew_berman",
+        "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
+      },
+      "content_type": "tutorial",
+      "enrichment_status": "ready",
+      "evidence": [
+        {
+          "end_seconds": 149.92000000000002,
+          "field_name": "topic",
+          "quote": "full skill for claude code. We have one",
+          "start_seconds": 145.84,
+          "timestamp_url": "https://www.youtube.com/watch?v=TML-0HmxWCE&t=145s",
+          "topic_slug": "coding-assistants"
+        },
+        {
+          "end_seconds": 4.88,
+          "field_name": "topic",
+          "quote": "In this video, I am going to show you",
+          "start_seconds": 0.08,
+          "timestamp_url": "https://www.youtube.com/watch?v=TML-0HmxWCE&t=0s",
+          "topic_slug": "local-inference"
+        },
+        {
+          "end_seconds": 457.919,
+          "field_name": "topic",
+          "quote": "obviously OpenAI and Anthropic, but also",
+          "start_seconds": 451.84,
+          "timestamp_url": "https://www.youtube.com/watch?v=TML-0HmxWCE&t=451s",
+          "topic_slug": "model-releases"
+        }
+      ],
+      "primary_speaker": "Matthew Berman host",
+      "published_at": "2026-06-28T14:00:35Z",
+      "summary": "\"The best thing since OpenClaw\" (Hermes Tutorial) focuses on Coding Assistants, Local Inference, Model Releases. Key transcript signal: It is a full skill for claude code.",
+      "thumbnail_url": null,
+      "title": "\"The best thing since OpenClaw\" (Hermes Tutorial)",
+      "topics": [
+        {
+          "label": "Coding Assistants",
+          "relevance_score": 0.778,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Local Inference",
+          "relevance_score": 0.713,
+          "slug": "local-inference"
+        },
+        {
+          "label": "Model Releases",
+          "relevance_score": 0.675,
+          "slug": "model-releases"
+        }
+      ],
+      "transcript_status": "ready",
+      "transcript_text": "In this video, I am going to show you how to use Hermes, how to get it set up, why it's different from OpenClaw and why everybody seems to be talking about it right now. But first, let me show you how fast we can get it installed. Timer starts now. All right, so I'm going to drop a link down below where you can get to this page. You get 73% off Hermes Agent Hosting if you use this link. So, please do. So, you're going to click choose plan. Come right here. Choose the most popular plan. And if that one fits your needs, click choose plan again. 24 months is the default. That's how you get the biggest savings. And use code Matthew B for an extra 10% off. And pay. Then you're good to go. We're going to select our provider. We're going to be using OpenAI for this. You're going to come to platform.opai.com. You're going to click on API keys. We're going to create a new API key. We're going to call this Hermes-hostinger. Create secret key. We're going to copy the key right here. We're going to paste it in. And then we're going to click next. And now Hostinger literally does all the work for us. It's going to set up Hermes. And that's it. We're done under 2 minutes. And now we're ready to configure it to our needs. All right. So, let me show you how to go through the Hermes initial setup. So, we're going to choose provider config. We already did that. We're going to leave this blank because we already have a key. We put that in the first step. Continue. Here, we're going to select a workspace. Again, you really don't need to customize any of this. a password. We'll leave that for later. And open Hermes. And so here we go. We have Hermes up and running. Let's just test it out to make sure it works. It says GPT40 by default, but we're going to go ahead and switch that to GPT 5.4 Mini. Okay. So there we said hello and it says hello back. All right. So there are a few things that really set Hermes apart and make it very different from OpenClaw. The first thing you're going to notice is it comes preconfigured with a lot of things out of the box, especially skills. It gives you a ton of different skills. So right here, if we click the skills tab, look at all of these skills that come enabled out of the box. All of these different skills. So here's a cloud code skill, a codec skill, Hermes agent, we have asy art, Asky video, all of these cool skills. And of course, you can always add more. And you just disable them right here by clicking it off or clicking it back on. So if you click on any of these, you can actually read the full skill just like this. This is just markdown. It is a full skill for claude code. We have one of my favorite skills, the Excaladraw skill, which allows you to create diagrams with Excal very easily. So, here is the skill for that. Very, very useful. So, I want to show you how to install a new skill. I already showed you that Hermes comes with a bunch of pre-installed skills, but of course, you may want to create or install ones of your own. So, you go to GitHub, you find a skill that you really like. You can also just create your own manually, but today I'm going to show you how to install this last 30 days skill. So, you find the skill.md file within the repo, and you click this little copy raw file button right here. Once you've done that, you're going to switch back over to Hermes. You're going to click the skills button over here on the left side. You're going to click the plus button right here. We're going to name it last 30 days. Category, we'll call it search. And you just paste it in here. You click this little check mark up in the top right. And now the skill is created. Now we have access to this skill from Hermes. Let me show you. So to invoke the skill from within Hermes, go to Hermes chat, type slash, and then you get a list of all the skills and slash commands. Type last and then you can see right there last 30 days skill. Research what people are actually saying about any topic. Okay. Hit enter. And we can type in Hermes. And then we'll hit enter. And now it's going to use that skill for us. It was really that easy. And this skill actually has some code that was required with it that I didn't know. And of course, Hermes is good enough to understand that. And it said it right here. The skills instruction file is installed, but it's required last 30 days. file is missing. So what did it do? I'll fetch a fresh copy of the skill repo into a temporary directory and run the engine from there. Self-healing. That is what I'm talking about. Very, very nice. And look how smart this is. Since Hermes is ambiguous, I'm scoping it to Hermes agent based on this chat context, not the fashion brand or mythology, which is exactly what I was talking about. Here we go. We have the answer. Hermes agent has a real but still early community pulse mie. And of course, that's because I made it talk like a pirate earlier. And this is perfect. Using the skill, I got a bunch of information about Hermes agent. And so, that's how you install skills. It is dead simple. The second thing that makes Hermes very unique is its ability to selfheal. For example, if you're using a skill and you run into some error that Hermes hasn't seen before, it's actually going to go figure out what caused it and apply a patch to itself. It's really cool. And again, this is all in the spirit of making it very easy for non-technical people to use this. Next, we have this feature called tasks, which are basically automations or scheduled things. You can call them loops even. And you come in here, you give it a name. We'll call it a daily brief here. In schedule, you can say every 24 hours. Prompt. This is where obviously you describe what you actually want accomplished. So, look at my calendar for the day. Give me a summary of each meeting I have coming for that day. So, deliver the output locally to basically the chat window. And everything else we can just leave blank. You can also add skills to this if you need it, but we don't. So, let's go ahead and click save. And the job is created. All of our scheduled jobs are going to be listed here. And this is going to run every 24 hours. Just like that. very easy to create a bunch of scheduled automations. All right, next is memory. Hermes starts to generate memory about you over time. It does so automatically. You can also tell it things about yourself. This is also where the agent soul document will be located and you can edit it from right here. If you've worked with OpenClaw, you know it has files like identity.md, soul.md. Those types of files are exactly what you're going to find in Hermes. Here it is. So, you're a Hermes agent, an intelligent AI assistant created by Nouse Research, etc. So, you can put anything you want in here. Click the little edit button and you can say, you know, only talk like a pirate. And so, from now on, obviously, we'll only talk like a pirate. Now, you can add different parts of your memory. The user's name is Matthew Berman and his company is Forward Future. Matthew's newsletter can be found at forward future.ai, but seriously, it can be. Go check it out. And so, let's hit save. And there we go. Now we've given it memory and it is that easy. Another cool thing it allows you to do is have profiles and this is a way to have different agents available at your disposal at any time. So rather than just having a single agent with a single way of running a single set of skills, you can have a bunch. So you can have a marketing agent and you can have a development agent. And so they're not just completely bloated agents all the time. You can actually silo them really effectively. Under the insights tab, it tells you how much usage you've been getting out of Hermes, including your token usage, obviously. Here's mine. Daily token usage, as you can see right here. Number of tokens, 73,000. Number of messages right there. Number of sessions, all of this really useful information that you can see at any time. All right, now let's go through settings because another thing that Hermes does incredibly well is just give you all the options. All the options in the whole world. Look at how many providers it has out of the box. obviously OpenAI and Anthropic, but also Copilot, Deepseek, Gemini, Kimmy, LM Studio if you want to run things completely locally. Shout out to LM Studio, Mistral, Nexos, Nouse Portal, Nvidia Nims, just basically every single option you can ever need for inference providers. And what's really cool is it has model routing out of the box, very easily set up. So for all of the different tasks that you might need, you can actually set a specific model. Here's if you need vision. Here's if you need compression, web extraction, session search, approval. And if you click right here, you get a drop down of models that you can select. Now, it's only going to be using auto for me across the board. I'll let it decide. Again, in the spirit of keeping things as simple as possible. Plugins is also something that can be incredibly useful. Very similar to how it has a bunch of skills out of the box. It also has a bunch of plugins. You can think of plugins as more endto-end workflows. Not just a skill, not just a tool, but an entire feature set available to you with one click. So here we have browser use. Here we have fire crawl. So if you want to scrape the web, here's a discord plugin, Google chat, Google meet. You can also build your own plugins. You can install your own plugins and it's fully configurable. All right. And then of course, one of the most important things about OpenClaw was being able to connect it to your chat application. Mine was Telegram. For many, it was Telegram. Others it can be WhatsApp or Slack. And you can do it all with Hermes. Let me show you how easy this is. So from within Hostinger, you're going to click right here, open command line. And this is going to open a CLI directly into your Hermes agent. If you're not familiar with command lines, it might seem a little scary, but I promise it's quite easy. So, all you're going to type is Hermes gateway setup. A gateway is like Telegram or Slack or any of those systems. So, hit enter and there you go. You have a ton of different options. Telegram, Slack, Matrix, Mattermost, WhatsApp, Signal, Emails, all the way down the list. So many. What we're going to do is we're going to hit the up arrow. We're going to go all the way up to Telegram and we're going to hit enter. Now, it's going to ask for a Telegram bot token. And the only way to get that is from within Telegram. So you're going to search for the user called bot father. This is the official bot from telegram. So you come here and you're going to type / newbot. Then hit enter. How are we going to call it? Let's call it Hermes. And then it's asking for a username. And the name does have to end in bot. Let's try this. There we go. All right. Then we're going to paste in our bot token right there. Hit enter. And then it's going to ask for allowed user IDs. This just means you or whoever you select are the only ones that are allowed to message your bot, your Hermes agent. To get your user ID, you're going to message user infobot. Start a conversation. And there we go. Click it. Copy to clipboard. We're going to paste it in here. Hit enter. And we're going to use it as our home channel. Yes. And then we hit done. Restart the gateway. Yes. And we should be good to go now. So you're going to take the bot name. You're gonna search for it. Click it. Start. And let's just see. Hello. And let's see if it types back. And hopefully it talks like a pirate because it still should have that context. Ohoy Matthew. What can I do for you today? There we go. And we're done. It is really that easy. Now I can take my Hermes agent anywhere with me on the go. So here's a demo of something you can do with Hermes. I'm going to use the built-in skill man video. Man is a coding language that allows you to create really cool motion graphics and visuals for explaining difficult topics. So man video make a cool video explaining how exponentials work. Hit enter and it is going to use that skill. All right. And there we go. Just a couple minutes later are done. I made you a 58 second animated MP4 explaining exponentials. Let's open it up and watch. So there we go. It's showing where the exponential is going. The engine repeated multiplication. So yeah, it's just a full graphical way to explain difficult topics. And again, this was completely made by Hermes Agent using the Manom skill powered by GPT 5.5. So self-healing, lots of skills out of the box, plugins out of the box. Plenty of configurability, just making it super easy to bring in your favorite inference provider. Plus, it only took 2 minutes to install with Hostinger. And because it's hosted on Hostinger, I don't have to worry about keeping an isolated laptop or Mac Mini or anything like that. It is on an isolated server, so it won't have access to anything that I haven't explicitly given to it. So, thanks to Hostinger for sponsoring this video. Go try out Hermes. I'm going to drop a link down below. I'll also drop a link for Hostinger so you can go get it down below. And thanks again. And if you want to know which model is best to use with Hermes, check out this video right",
+      "url": "https://www.youtube.com/watch?v=TML-0HmxWCE",
+      "youtube_video_id": "TML-0HmxWCE"
+    },
+    {
+      "channel": {
         "title": "Yannic Kilcher",
         "url": "https://www.youtube.com/@YannicKilcher",
         "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
@@ -1630,41 +1691,6 @@
       "transcript_text": "GPT 5.6 was just released. What do you think about that? It looks like a fantastic model and guess what? You're not going to be able to use it anytime soon. The US government has asked OpenAI to stagger the release of GPT 5.6. And I really can't overstate how bad that is for really every aspect of society. Only a few players will get access to this model. And while they are accelerating, startups, entrepreneurs, tinkerers, builders, all of us will not have access to it. All of us will be stuck with the older models hopefully for a short period of time, but who knows? This is de facto AI regulation. Daario has won. They're ahead and now they are forcing everybody else to slow down. Well, they're not slowing down, by the way. Just to be clear about that, Daario and Anthropic are not slowing down. They are using Fable. They are using Mythos to build all of the tools to build the next AI model that they put out. And they're accelerating and slowing down everybody at the same time. I'm so angry.",
       "url": "https://www.youtube.com/shorts/iG3lW8GslXs",
       "youtube_video_id": "iG3lW8GslXs"
-    },
-    {
-      "channel": {
-        "title": "Matthew Berman",
-        "url": "https://www.youtube.com/@matthew_berman",
-        "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
-      },
-      "content_type": "demo",
-      "enrichment_status": "ready",
-      "evidence": [
-        {
-          "end_seconds": 41.32,
-          "field_name": "topic",
-          "quote": "OpenAI and Anthropic to slow down on the",
-          "start_seconds": 35.68,
-          "timestamp_url": null,
-          "topic_slug": "model-releases"
-        }
-      ],
-      "primary_speaker": "Matthew Berman host",
-      "published_at": "2026-06-26T14:18:02Z",
-      "summary": "Claude got attacked focuses on Model Releases. Key transcript signal: And really, a lot of the reason why the Trump administration is telling OpenAI and Anthropic to slow down on the releases of their new models.",
-      "thumbnail_url": null,
-      "title": "Claude got attacked",
-      "topics": [
-        {
-          "label": "Model Releases",
-          "relevance_score": 0.805,
-          "slug": "model-releases"
-        }
-      ],
-      "transcript_status": "ready",
-      "transcript_text": "Anthropic just sent a letter to the US government saying Alibaba, the Chinese company, has executed the largest distillation attack in its history. A distillation attack means that Alibaba asked Claude a bunch of questions, recorded the answers, and then used that to train its own model. In fact, they got over 28 million exchanges with Claude spread out over 25,000 fraudulent accounts. This is a brazen attack. And really, a lot of the reason why the Trump administration is telling OpenAI and Anthropic to slow down on the releases of their new models. In fact, Fable, which came out just a few weeks ago, was only live for a few days before the government said, \"Take it offline.\" What is likely to happen is we are going to have something similar to the banking industry. It is called KYC, know your customer. To use the frontier models, you are going to have to give them your information. How do you feel about that?",
-      "url": "https://www.youtube.com/shorts/DOfwOVDKSSk",
-      "youtube_video_id": "DOfwOVDKSSk"
     },
     {
       "channel": {
