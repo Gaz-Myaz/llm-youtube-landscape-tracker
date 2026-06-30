@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T13:52:24Z",
+  "generated_at": "2026-06-30T01:24:20Z",
   "schema_version": "1.0",
   "videos": [
     {
@@ -1760,41 +1760,6 @@
     },
     {
       "channel": {
-        "title": "OpenAI",
-        "url": "https://www.youtube.com/@OpenAI",
-        "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "content_type": "tutorial",
-      "enrichment_status": "ready",
-      "evidence": [
-        {
-          "end_seconds": 16.76,
-          "field_name": "topic",
-          "quote": "Codex and are using it across the whole",
-          "start_seconds": 10.72,
-          "timestamp_url": "https://www.youtube.com/watch?v=qU5-komJ-GE&t=10s",
-          "topic_slug": "model-releases"
-        }
-      ],
-      "primary_speaker": "OpenAI host",
-      "published_at": "2026-06-23T11:30:20Z",
-      "summary": "How Omio is building the future of conversational travel focuses on Model Releases. Key transcript signal: Codex can like go through email, Slack, other channels, Jiras, summarize, propose actions, even draft messages, and it's usually it's correct and very So, we apply uh OpenAI models tools across all of that.",
-      "thumbnail_url": null,
-      "title": "How Omio is building the future of conversational travel",
-      "topics": [
-        {
-          "label": "Model Releases",
-          "relevance_score": 0.805,
-          "slug": "model-releases"
-        }
-      ],
-      "transcript_status": "ready",
-      "transcript_text": "[music] >> Rebuilding products for our customers on top of AI, every engineer has access to Codex and are using it across the whole developer life cycle. We see the speed up things that took us about like three quarters we do within a month nowadays. We build products in 20% of the time that it used to. ChatGPT is the assistant. You can ask it pretty much anything, but when you need to do actual work, you go to Codex, which makes it cheaper, makes it faster, makes it makes the decision-making much easier and faster because we are talking about like smaller investment which brings the similar kind of outputs and outcomes than before. Codex can like go through email, Slack, other channels, Jiras, summarize, propose actions, even draft messages, and it's usually it's correct and very So, we apply uh OpenAI models tools across all of that. So, we rolled out ChatGPT to all our employees. That was one of the first things where we started. We're integrating faster. We are building products faster. All functions need to rethink how they do the work. What we think about is like not thinking like what how can I use AI to automate what I have, but moving to the point where we're looking into so, how would we do this with if we started today and we had all the AI available? And rebuilding the processes and rebuilding really changing how we work. >> [music]",
-      "url": "https://www.youtube.com/watch?v=qU5-komJ-GE",
-      "youtube_video_id": "qU5-komJ-GE"
-    },
-    {
-      "channel": {
         "title": "Two Minute Papers",
         "url": "https://www.youtube.com/@TwoMinutePapers",
         "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
@@ -1827,6 +1792,41 @@
       "transcript_text": "The number of AI agents on the internet is increasing at such an insane rate. I don't think I've seen anything like this. This is crazy. And this is an area that is quite new, and the technology is still pretty rough. Improving rapidly, but pretty rough. And the promise of agents is incredible. It would book the cheapest plane ticket for you, or run 24 hours a day to manage your schedule, submit insurance claims, continuously scan a codebase for vulnerabilities and patch it. Well, this is the good, but at the same time, you get so many news headlines about spam, security issues, and system breakdowns. And it gets even tougher when you have not one agent, but multiple agents. Imagine two agents organizing a holiday for you. The flight agent hallucinates a cheaper airport 400 miles away from your real destination. Then, the hotel agent says, \"Let's book something super cheap nearby.\" Well, super cheap is often non-refundable. And now, congratulations. You now have a non-refundable room you will never see. And so many of these problems come from the fact that agent coordination is super difficult. Now, check out what this paper says we should do. Here is a math problem. First agent writes a plan. The next one critiques it, and the third one solves the problem. And at this point, I said, \"Okay. I see nothing interesting here. This is what everyone does with agents.\" Yes, but here's the key. Most agents communicate a bit like we do, in words. Wait a second. Why should we do that? Look at this neural interface for brain-to-text communication. Yes, this really works. You just think about a letter in the alphabet, and it magically appears. And if you keep doing this a lot, you start asking. The alphabet is optimized for writing. Why use that? Why not use one that is optimized for thinking? And what would that even look like? Hint, it would look like this. We talked about this 500 videos ago, paper in the description. Now, if you look at the agents, the first one does some work, packs it up, and passes it to the next one. So do the second and the third ones. Every [clears throat] time an agent wants to communicate something, it has to write out full sentences, decode tokens one by one, and the next guy has to read and re-encode the whole thing. Why are we doing that? Who said they should talk in plain English? And this is the part where I fell off the chair. Now, hold on to your papers, fellow scholars, because this work says, \"Huh, forget English. You know what? Forget letters entirely.\" It says, \"Instead, let's link up their brains.\" Kind of. Instead of using English words, they pass raw undecoded numbers directly to the next agent. Send raw brain signals, if you will. Call it cross-agent latent state transfer. So, the theory is that these three agents can work together round one, round two, and round three much cheaper than the text-based agents. They refine an answer, and you get better answers with the same amount of computation. So, is it better? Hmm, let's see. Dear fellow scholars, this is Two Minute Papers with Dr. K\u00e1roly Zsolnai Feh\u00e9r. Well, when given competition-level math questions, it goes from 73% to 86%. That is crazy. We are talking free sub-10 billion parameter models, not expensive frontier systems. And here is where it gets the Michelin star status. Look at that. Ooh. Token usage down 75%. They all evaporated into the latent space. Loving it. So, this can improve smaller systems to be in striking distance of much bigger, more expensive models on difficult math problems. So, I bet it costs a fortune to train, right? Well, look at that. Four bucks. Basically, you spend your coffee money on these agents and in return they punch a hole in space-time. Love it. Additionally, it might even unlock Wait, wait, wait. I shouldn't say unlock. That's AI speak. So, it might give us a new scaling law. More rounds, better results. And at this point, I thought we might have a deadly flaw here. And it's really subtle. So, the training for each agent's role is written by a giant AI model. So, if they perform well, you have to ask, are things better because of the brain linking or is it good distillation from an excellent teacher? So, which one is it? A good teacher or a good architecture? Well, fellow scholars, we are in luck. This is a really good paper. So, the scientists thought about this too. And look, goodness, a controlled comparison gives the same teacher to other architectures and this one. And the new one still outperforms. So, yes, the brain linking really works. What a time to be alive. Okay, now, let's not get too excited. This is two-minute papers and we respect the science here. Limitations. One, tests were on smaller models. We don't yet know how these insights scale up to bigger ones. If they don't, then this puts small models on steroids. Still good. If yes, potential huge game-changer. Two, there is an optimal latent thought length, and that is about 80 steps. This is somewhat of a limit on how much thinking an agent can do per round. >> [clears throat] >> I am thinking, you know, if it solves a mathematical Olympiad problems already, how bad can that be? And sure enough, after 80, you don't get a lot of value anyway, but I wanted to mention it. Okay? So, code and models are available for free. Note that this is still very rough, very early, but it shows potential. And this is still research. Please do not think you just plug this in and everything will fly immediately. We need new tools for the era of LLMs, and Weights & Biases now has Weave, a lightweight toolkit to confidently iterate on LLM applications. Use traces to debug how data flows through each step of your app, and use evaluations to measure your progress. It is the best. Try it out now at wnb.me/papers, or click the link in the description below.",
       "url": "https://www.youtube.com/watch?v=dUmT0OIGoqE",
       "youtube_video_id": "dUmT0OIGoqE"
+    },
+    {
+      "channel": {
+        "title": "OpenAI",
+        "url": "https://www.youtube.com/@OpenAI",
+        "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "content_type": "tutorial",
+      "enrichment_status": "ready",
+      "evidence": [
+        {
+          "end_seconds": 42.68,
+          "field_name": "topic",
+          "quote": "Codex to kind of make MVPs of",
+          "start_seconds": 39.24,
+          "timestamp_url": "https://www.youtube.com/watch?v=f-HiB82Tl94&t=39s",
+          "topic_slug": "model-releases"
+        }
+      ],
+      "primary_speaker": "OpenAI host",
+      "published_at": "2026-06-29T14:30:09Z",
+      "summary": "Advent Accelerates Deals with ChatGPT + Codex focuses on Model Releases. Key transcript signal: Our portfolio support group has been using Codex to kind of make MVPs of applications [music] that are helpful for our portfolio companies to use as they think about real-world business problems.",
+      "thumbnail_url": null,
+      "title": "Advent Accelerates Deals with ChatGPT + Codex",
+      "topics": [
+        {
+          "label": "Model Releases",
+          "relevance_score": 0.757,
+          "slug": "model-releases"
+        }
+      ],
+      "transcript_status": "ready",
+      "transcript_text": "A lot of what we hear at the board level and the management level is that folks have a lot of aspirations for AI but don't necessarily know how to start. >> [music] >> One of the most natural use cases on the quote unquote prosumer side has been developing custom [music] GPTs for each of our portfolio companies. There's a tremendous amount of context [music] that we hold whether it's in our email inboxes, in our heads, in our Slack [music] channels. Having the ability to connect your deal folder with all of the context and then be able to ask it real-time questions has been [music] really impactful to our workflows. Our portfolio support group has been using Codex to kind of make MVPs of applications [music] that are helpful for our portfolio companies to use as they think about real-world business problems. [music] An example here would be one of the contract management systems that they pulled together >> [music] >> effectively by coding it which now they're thinking about making into a real-world product.",
+      "url": "https://www.youtube.com/watch?v=f-HiB82Tl94",
+      "youtube_video_id": "f-HiB82Tl94"
     },
     {
       "channel": {

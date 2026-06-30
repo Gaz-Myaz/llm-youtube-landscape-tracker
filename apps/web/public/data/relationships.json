@@ -268,7 +268,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.75,
+          "score": 0.726,
           "slug": "model-releases"
         }
       ],
@@ -316,7 +316,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.748,
+          "score": 0.724,
           "slug": "model-releases"
         }
       ],
@@ -485,7 +485,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.698,
+          "score": 0.674,
           "slug": "model-releases"
         }
       ],
@@ -543,7 +543,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.764,
+          "score": 0.74,
           "slug": "model-releases"
         }
       ],
@@ -659,7 +659,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.764,
+          "score": 0.74,
           "slug": "model-releases"
         }
       ],
@@ -789,7 +789,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.804,
+          "score": 0.78,
           "slug": "model-releases"
         }
       ],
@@ -842,7 +842,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.812,
+          "score": 0.788,
           "slug": "model-releases"
         }
       ],
@@ -1043,7 +1043,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.812,
+          "score": 0.788,
           "slug": "model-releases"
         }
       ],
@@ -1128,7 +1128,7 @@
       "shared_topics": [
         {
           "label": "Model Releases",
-          "score": 0.724,
+          "score": 0.7,
           "slug": "model-releases"
         }
       ],
@@ -1151,7 +1151,7 @@
       "target": "UCsBjURrPoezykLs9EqgamOA"
     }
   ],
-  "generated_at": "2026-06-29T13:52:24Z",
+  "generated_at": "2026-06-30T01:24:20Z",
   "nodes": [
     {
       "id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
