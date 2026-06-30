@@ -3,7 +3,7 @@
     {
       "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
       "handle": "@WesRoth",
-      "latest_video_at": "2026-06-27T15:46:01Z",
+      "latest_video_at": "2026-06-30T05:05:56Z",
       "thumbnail_url": null,
       "title": "Wes Roth",
       "top_topics": [
@@ -215,7 +215,7 @@
     {
       "description": "Technical courses and tutorials, including practical AI application development.",
       "handle": "@freecodecamp",
-      "latest_video_at": "2026-06-23T11:30:11Z",
+      "latest_video_at": "2026-06-30T10:00:23Z",
       "thumbnail_url": null,
       "title": "freeCodeCamp.org",
       "top_topics": [
@@ -236,7 +236,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.695,
+          "score": 0.661,
           "slug": "model-releases"
         }
       ],
@@ -346,6 +346,6 @@
       "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
     }
   ],
-  "generated_at": "2026-06-30T01:24:20Z",
+  "generated_at": "2026-06-30T13:05:00Z",
   "schema_version": "1.0"
 }
