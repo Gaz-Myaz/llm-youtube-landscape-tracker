@@ -1,6 +1,80 @@
 {
   "channels": [
     {
+      "description": "Research-focused AI and machine learning explainers.",
+      "handle": "@TwoMinutePapers",
+      "latest_video_at": "2026-07-01T05:23:54Z",
+      "thumbnail_url": null,
+      "title": "Two Minute Papers",
+      "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.833,
+          "slug": "agents"
+        },
+        {
+          "label": "Open Source Models",
+          "score": 0.785,
+          "slug": "open-source-models"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.743,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.723,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Benchmarks",
+          "score": 0.603,
+          "slug": "benchmarks"
+        }
+      ],
+      "url": "https://www.youtube.com/@TwoMinutePapers",
+      "video_count": 5,
+      "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
+    },
+    {
+      "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
+      "handle": "@WesRoth",
+      "latest_video_at": "2026-07-01T03:13:15Z",
+      "thumbnail_url": null,
+      "title": "Wes Roth",
+      "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.87,
+          "slug": "agents"
+        },
+        {
+          "label": "Open Source Models",
+          "score": 0.815,
+          "slug": "open-source-models"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.814,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.809,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Multimodal",
+          "score": 0.723,
+          "slug": "multimodal"
+        }
+      ],
+      "url": "https://www.youtube.com/@WesRoth",
+      "video_count": 5,
+      "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
+    },
+    {
       "description": "Long-form technical interviews with AI researchers and builders.",
       "handle": "@lexfridman",
       "latest_video_at": "2026-06-30T21:16:13Z",
@@ -36,80 +110,6 @@
       "url": "https://www.youtube.com/@lexfridman",
       "video_count": 5,
       "youtube_channel_id": "UCSHZKyawb77ixDdsGog4iWA"
-    },
-    {
-      "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
-      "handle": "@WesRoth",
-      "latest_video_at": "2026-06-30T05:05:56Z",
-      "thumbnail_url": null,
-      "title": "Wes Roth",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.87,
-          "slug": "agents"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.815,
-          "slug": "open-source-models"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.809,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.724,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Multimodal",
-          "score": 0.723,
-          "slug": "multimodal"
-        }
-      ],
-      "url": "https://www.youtube.com/@WesRoth",
-      "video_count": 5,
-      "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
-    },
-    {
-      "description": "Research-focused AI and machine learning explainers.",
-      "handle": "@TwoMinutePapers",
-      "latest_video_at": "2026-06-22T15:53:06Z",
-      "thumbnail_url": null,
-      "title": "Two Minute Papers",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.945,
-          "slug": "agents"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.785,
-          "slug": "open-source-models"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.743,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.723,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Benchmarks",
-          "score": 0.593,
-          "slug": "benchmarks"
-        }
-      ],
-      "url": "https://www.youtube.com/@TwoMinutePapers",
-      "video_count": 5,
-      "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
     },
     {
       "description": "Accessible analysis of frontier models, agents, local inference, and open-weight AI.",
@@ -183,24 +183,19 @@
     {
       "description": "Technical courses and tutorials, including practical AI application development.",
       "handle": "@freecodecamp",
-      "latest_video_at": "2026-06-30T10:00:23Z",
+      "latest_video_at": "2026-07-01T11:19:43Z",
       "thumbnail_url": null,
       "title": "freeCodeCamp.org",
       "top_topics": [
         {
           "label": "AI Agents",
-          "score": 0.881,
+          "score": 0.786,
           "slug": "agents"
         },
         {
           "label": "Coding Assistants",
-          "score": 0.836,
+          "score": 0.771,
           "slug": "coding-assistants"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.762,
-          "slug": "open-source-models"
         },
         {
           "label": "Model Releases",
@@ -346,6 +341,6 @@
       "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
     }
   ],
-  "generated_at": "2026-07-01T01:29:54Z",
+  "generated_at": "2026-07-01T13:19:47Z",
   "schema_version": "1.0"
 }
