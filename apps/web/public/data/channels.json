@@ -1,6 +1,43 @@
 {
   "channels": [
     {
+      "description": "Accessible analysis of frontier models, agents, local inference, and open-weight AI.",
+      "handle": "@AIExplained-official",
+      "latest_video_at": "2026-07-02T16:27:26Z",
+      "thumbnail_url": null,
+      "title": "AI Explained",
+      "top_topics": [
+        {
+          "label": "Model Releases",
+          "score": 0.82,
+          "slug": "model-releases"
+        },
+        {
+          "label": "AI Agents",
+          "score": 0.77,
+          "slug": "agents"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.738,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Open Source Models",
+          "score": 0.728,
+          "slug": "open-source-models"
+        },
+        {
+          "label": "Multimodal",
+          "score": 0.725,
+          "slug": "multimodal"
+        }
+      ],
+      "url": "https://www.youtube.com/@AIExplained-official",
+      "video_count": 5,
+      "youtube_channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw"
+    },
+    {
       "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
       "handle": "@WesRoth",
       "latest_video_at": "2026-07-02T00:48:33Z",
@@ -110,43 +147,6 @@
       "url": "https://www.youtube.com/@lexfridman",
       "video_count": 5,
       "youtube_channel_id": "UCSHZKyawb77ixDdsGog4iWA"
-    },
-    {
-      "description": "Accessible analysis of frontier models, agents, local inference, and open-weight AI.",
-      "handle": "@AIExplained-official",
-      "latest_video_at": "2026-06-14T14:52:27Z",
-      "thumbnail_url": null,
-      "title": "AI Explained",
-      "top_topics": [
-        {
-          "label": "Model Releases",
-          "score": 0.82,
-          "slug": "model-releases"
-        },
-        {
-          "label": "AI Agents",
-          "score": 0.77,
-          "slug": "agents"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.738,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.727,
-          "slug": "open-source-models"
-        },
-        {
-          "label": "Multimodal",
-          "score": 0.725,
-          "slug": "multimodal"
-        }
-      ],
-      "url": "https://www.youtube.com/@AIExplained-official",
-      "video_count": 5,
-      "youtube_channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw"
     },
     {
       "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
@@ -341,6 +341,6 @@
       "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
     }
   ],
-  "generated_at": "2026-07-02T13:02:54Z",
+  "generated_at": "2026-07-03T01:06:44Z",
   "schema_version": "1.0"
 }
