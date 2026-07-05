@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T01:11:24Z",
+  "generated_at": "2026-07-05T12:49:44Z",
   "schema_version": "1.0",
   "videos": [
     {
@@ -38,9 +38,9 @@
       ],
       "primary_speaker": "Wes Roth host",
       "published_at": "2026-06-27T15:46:01Z",
-      "summary": "HERMES AGENT + Stripe Payments + NVIDIA Nemotron is INSANE! focuses on AI Agents, Open Source Models, Coding Assistants. Key transcript signal: It's how to build autonomous AI agents.",
+      "summary": "Hermes AI Setup (plus business skills) focuses on AI Agents, Open Source Models, Coding Assistants. Key transcript signal: It's how to build autonomous AI agents.",
       "thumbnail_url": null,
-      "title": "HERMES AGENT + Stripe Payments + NVIDIA Nemotron is INSANE!",
+      "title": "Hermes AI Setup (plus business skills)",
       "topics": [
         {
           "label": "AI Agents",
