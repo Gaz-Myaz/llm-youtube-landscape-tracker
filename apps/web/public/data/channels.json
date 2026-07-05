@@ -210,7 +210,7 @@
     {
       "description": "Developer commentary, tools, and AI coding workflow coverage.",
       "handle": "@ThePrimeagen",
-      "latest_video_at": "2026-07-03T21:50:47Z",
+      "latest_video_at": "2026-07-04T13:02:32Z",
       "thumbnail_url": null,
       "title": "ThePrimeTime",
       "top_topics": [
@@ -220,19 +220,9 @@
           "slug": "coding-assistants"
         },
         {
-          "label": "Local Inference",
-          "score": 0.709,
-          "slug": "local-inference"
-        },
-        {
           "label": "Model Releases",
-          "score": 0.699,
+          "score": 0.698,
           "slug": "model-releases"
-        },
-        {
-          "label": "Benchmarks",
-          "score": 0.637,
-          "slug": "benchmarks"
         }
       ],
       "url": "https://www.youtube.com/@ThePrimeagen",
@@ -331,6 +321,6 @@
       "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
     }
   ],
-  "generated_at": "2026-07-04T12:48:03Z",
+  "generated_at": "2026-07-05T01:11:24Z",
   "schema_version": "1.0"
 }

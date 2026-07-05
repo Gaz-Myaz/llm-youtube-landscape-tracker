@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T12:48:03Z",
+  "generated_at": "2026-07-05T01:11:24Z",
   "schema_version": "1.0",
   "videos": [
     {
@@ -712,72 +712,6 @@
       "transcript_text": "Over the weekend, something crazy happened. It just 3 days after the release of Claude Fable, the US government stepped in and curb-stomped it in the name of national security. And that's bad news if you just FOMO subscribed to Claude Pro to try out Fable because now you'll see this disappointing message if you try to use it and instead be forced to use the negative IQ Opus 4.8. But it's all for your own good because it only took someone a few hours to jailbreak Fable and turn it into an unstoppable cyber weapon. And that's pretty ironic because here in the land of the free, an American company that will not stop talking about AI safety just got safety'd by its own government. In today's video, we'll find out how and why our dear leaders in government are keeping us safe from the horrors of linear algebra. It is June 15th, 2026 and you're watching The Code Report. About 2 months ago on April 7th, we were first introduced to Mythos 5, the raw unmuzzled model with the strongest cybersecurity capabilities of anything out there. But it was locked behind a program called Glass Wing, only available to trusted partners like major corporations and the US government itself. The reason Mythos can't be given to normies though is because it could easily be used as a cyber weapon in the wrong hands. To prevent that, Anthropic created a different product called Fable 5, which is literally the same exact model but with safety classifiers bolted on. That means if you ask it to do bad things like create an NPM package that turns the banking system into a Minecraft server, the Fable's guardrails will reroute your request to Opus 4.8 for a dumber, more wholesome response. So basically, Mythos and Fable have the same brain but Fable has a child lock on it. If Fable went public and gained hundreds of billions of users overnight and it was awesome. It was by far the best coding AI model I've ever used and people were building all sorts of crazy apps with it. Life was good for about 3 days. Then, of course, an anonymous internet user who goes by Plenty The Liberator defeats the guardrails and jailbreaks it. He's basically the internet's let's see if I can penetrate this thing guy and is famous for breaking other AI systems. And on June 10th, he posted a jailbreak on X claiming he popped Fable's guardrails wide open and got it producing exactly the same stuff the child block was built to block. And that's despite the fact that Anthropic had spent thousands of hours red teaming and trying to break its own guardrails internally. But the jailbreak wasn't some kind of sci-fi exploit. It actually works a lot more like money laundering. If Fable has a safety classifier watching for bad requests, but you can break dirty requests down into smaller innocent-looking fragments by wrapping them in weird Unicode characters, by doing roleplay farming, or by confusing the model in a very large context conversation. Due to national security, I can't be any more specific than that, but this weakness was brought to Anthropic's attention and they were initially asked to take the model down, but they refused. Then on Friday at 5:21 p.m. Eastern time, Anthropic gets a letter not from a customer, but from the United States government. This letter was an export control directive signed off by Commerce Secretary Howard Lutnick. And the order was that no foreign national may access Fable 5 or Mythos 5. Not abroad, not in the US, and not even Anthropic's own foreign-born employees are allowed to touch it. That last one is pretty crazy. The government told a company that some of its own staff are no longer allowed to use the product they built. That means guys like Andre Karpathy who just recently got the job at Anthropic, they can't even use Fable. In response to that directive, they decided to hit the big red button and yanked Fable and Mythos for everybody. Now everybody's been quietly demoted back to Opus 4.8. And this is the first time in history a major AI company has pulled a live public model off the shelf because the federal government said so. Many developers out there are not too happy with Anthropic right now because on top of this whole situation, there was already backlash over reports that Anthropic was intentionally degrading Mythos and Fable performance on certain AI research jobs without making it obvious to users. But others out there are speculating that this whole thing was a calculated publicity stunt to continue pumping up Anthropic's pre-IPO numbers while simultaneously building a regulatory moat around it. But I think the only thing that can truly stop Anthropic at this point is a better model from a competitor. A leaked benchmark shows that Mistral might have that model, but we're also awaiting new releases from OpenAI and Google. Most of what we hear about AI is either non-stop hype from Big Tech or AI doomers warning us that the Skynet apocalypse will destroy the human race. But if you want to actually understand AI issues, you should check out blue.impact, the sponsor of today's video. They're a non-profit whose mission is to get more people involved in making AI go better for humanity. The main way they do that is by offering free online courses like their future of AI course, which provides an unbiased introduction to where AI is today and where things could be heading over the next few years. They also have more technical courses on things like AI governance and biosecurity along with personalized career support for people interested in working on AI safety. All of BlueDot's resources are free to use because they're funded by philanthropic donations, and they've helped over 8,000 people get jobs at organizations like Google DeepMind, Stanford HAI, and Apollo Research. Try out their future of AI course at the link below. This has been The Code Report. Thanks for watching, and I will see you in the next one.",
       "url": "https://www.youtube.com/watch?v=ey_GaPdC9zk",
       "youtube_video_id": "ey_GaPdC9zk"
-    },
-    {
-      "channel": {
-        "title": "ThePrimeTime",
-        "url": "https://www.youtube.com/@ThePrimeagen",
-        "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
-      },
-      "content_type": "tutorial",
-      "enrichment_status": "ready",
-      "evidence": [
-        {
-          "end_seconds": 252.879,
-          "field_name": "topic",
-          "quote": "out things like Claude Code, Opus 46 and",
-          "start_seconds": 246.48,
-          "timestamp_url": "https://www.youtube.com/watch?v=OTa_vK9919g&t=246s",
-          "topic_slug": "coding-assistants"
-        },
-        {
-          "end_seconds": 328.32,
-          "field_name": "topic",
-          "quote": "completely offline model for me to just",
-          "start_seconds": 324.32,
-          "timestamp_url": "https://www.youtube.com/watch?v=OTa_vK9919g&t=324s",
-          "topic_slug": "local-inference"
-        },
-        {
-          "end_seconds": 252.879,
-          "field_name": "topic",
-          "quote": "out things like Claude Code, Opus 46 and",
-          "start_seconds": 246.48,
-          "timestamp_url": "https://www.youtube.com/watch?v=OTa_vK9919g&t=246s",
-          "topic_slug": "model-releases"
-        }
-      ],
-      "primary_speaker": "ThePrimeTime host",
-      "published_at": "2026-07-01T14:54:28Z",
-      "summary": "He\u2019s always wrong focuses on Coding Assistants, Local Inference, Model Releases. Key transcript signal: And it turns out things like Claude Code, Opus 46 and 48 did about a 28% to 37%.",
-      "thumbnail_url": null,
-      "title": "He\u2019s always wrong",
-      "topics": [
-        {
-          "label": "Coding Assistants",
-          "relevance_score": 0.743,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Local Inference",
-          "relevance_score": 0.709,
-          "slug": "local-inference"
-        },
-        {
-          "label": "Model Releases",
-          "relevance_score": 0.699,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Benchmarks",
-          "relevance_score": 0.637,
-          "slug": "benchmarks"
-        }
-      ],
-      "transcript_status": "ready",
-      "transcript_text": "All right, we're going to do this again. I hope I hope you're ready for this, okay? Because since June 12th, we've been working closely with the US government to restore access to Claude Mythos 5 and Fable 5. Gee, I can't believe Anthropic lost it. I wonder I wonder what caused that. Today, the government has notified us that mythos 5, our strongest cyber security model, can be redeployed to a set of US organizations that operate and defend critical infrastructure. Now, you're probably thinking, well, wait a sec. organizations that do critical infrastructure. Haven't we seen this before? Wasn't there something about mythos and only going out to select organizations? Yes, there was. It was called Project Glass Wing. This was just a couple months ago when Anthropic said Mythos was in fact too dangerous and then they released it to everybody and then they pulled it back because of the US government was told how dangerous it was. Well, we're just replaying this entire record again. We're back to Project Glass Wing. There is the set of the good guys, which apparently is Jeff Bezos and Sundar and Mark Zuckerberg. They're the good guys. They get access again and the rest of us, we don't get access. Now, I'm going to talk a lot about safety, okay? Cuz here's the deal. I think this is all fake. I think not only is it fake, I think it's actually hurting people. I actually have the opposite opinion of Daario. Surprise, surprise. Me with the opposite opinion. Me with the opposite opinion of this guy right here. Okay. We don't actually see eye to eye. By the way, this is Daario in 2023. Oh, we're going to play this clip of him talking to the old government. just really scaring them up. Of course, before we begin, I'd like to say thank you to the sponsors. One of the more terrifying things you can do as a company is to contract out software. And I know a lot of companies are contracting out their mobile applications. The thing that makes this so dangerous is that it's a blackbox experience. You hope you get back software that is complete, that is going to be well tested, that ultimately will be extensible as future needs require. The last thing I want someone else to say to Claude, \"Hey, mobile app, no mistakes.\" It does make mistakes. This is why I trust the guys over at Infinite Red. I have had many along talks with the CEO about software quality and the way to really build robust and good systems and I love everything he has to say and everything that I have seen with my own eyes. The quality of software that they build is very very good. All right, so the safety argument is actually pretty dang ridiculous that we're having right now. This whole kind of gated access to claw mythos. But I just wanted to kind of add one more quick point. If you don't know, right now Chad GPT 5.6 is also in a limited preview and the reason being for now at the request of the US government, we're starting with a limited preview among a small group of trusted partners in Codeex and the API. Sam finally has a model that's also too dangerous. He's not allowed to release it either. We got to make sure we slowly roll the thing out. And we're entering into an era in which the government is now going to have a larger and larger impact into what is exactly happening. And this was always Daario's goal. His goal was always to have the government step in and make regulation. He's been just saying this non-stop. If you read his writings, if you listen to his talks, and his urging that we all need to slow down. Well, here we are. It's finally happening. His dream has been realized. The frontier studios are all being slowed down. But that's not really actually making anything safer because here's the deal. Have you heard of the old model GLM? Well, GLM 5.2 apparently beats Claude in some cyber security benchmarks. At least in this article, the security that's being ran is insecure direct object reference. If you don't know what that is, that's simply, let's just pretend you have an endpoint on your website that goes and grabs user information. If I were to pass in any user ID, you should probably go, hey, are you that user? Oh, you're not? Hey, you're not allowed to look at I'm sorry. Hey, brother. Sorry. This is not you. 404 don't know who this is. Well, it turns out that the fourth most common bug on hacker one top vulnerability list is in fact these right here. These oopsy poopsies insecure direct object references where people can just go onto websites and get data if they just simply have an ID. So Sam Gre went off and developed a benchmark against these type of vulnerabilities. And it turns out things like Claude Code, Opus 46 and 48 did about a 28% to 37%. Jippidity Codeex did about a 20% and GLM with no harness, just the model itself did 39% did better than both Claude Code and their latest models and Jeypity 55. Now, if you don't know, a harness makes a big difference. A harness is a lot of the reasons why you think coding with an LLM has gotten so good. It's actually the harness, the ability for the model to use and abuse the system to gather information and make smarter decisions. A harness is going to be the thing that gives the model access to tools in which it can then go and make much more informed decisions. So that means GLM with no harness outperformed Opus 48 by practically 10%, Jeopardy 55 by practically 20%. And those both have harnesses. And the thing about GLM that you may not realize is that it's an openweight model. I can go to hugging face right now and download the model. The thing is it's very very large. For me to be able to run it with any level of effectiveness, it could cost me about $73 an hour. Now, if I was a bad actor, you could see me actually doing that because I could potentially make a lot more than $73 an hour by scamming people. And of course, it would be a completely offline model for me to just have. I wouldn't have to go and fork over millions of dollars to be able to have an onremise machine that could run this. Instead, I could just run it from the safety of my computer. Just doing a quick little SSH up, bada bing, bada boom, and just see the thing run. Not only that, but Hermes agents, one of these many agents, one of these many harnesses that run models, has something called a mixture of agents, meaning it uses both 55 from Jippidy and also uses four opus 48. And by combining those both, it's doing better on benchmarks. In other words, it's performing better. I don't like honestly when someone says it's 11% better, I have no idea what that actually means cuz I don't know how to quantify programming in that kind of sense. I don't know how to be like it's 4% better. Like I don't know what that means. But it's just saying, hey, it's scoring higher on whatever these tests are, which once again means that the ability to do, you know, security research and all this is actually kind of generally available. the bugs that Mythos has found, people are able to find them. Also, with 48, you're going to be able to find them with the mixture of agents. GLM is going to be able to go off and find these as well. As harnesses improve, the ability to do this is going to go way up. Microsoft also has a kind of this like mixture of agents approach in which they even score higher than Mythos. So, it's all actually available. It's just available to those with money. If you have money and time and you can set up your own harness, bada bing, bada boom, you're going to have yourself a hacking machine, which is ultimately what Daario has been warning everybody about. The scaling of of of open-source models, I think it's going down a very dangerous path. And if the if again, if the path continues, I think we could get to a very dangerous place. I think it's worth saying some things on open source models that are are clear to all the experts but I want to make sure is is understood by by this >> clear to all the experts they uniformly agree which is crazy because you know classic experts I mean you can't even get dentists to agree on the toothpaste and he's over here getting experts to agree to outcomes of stuff we haven't measured yet kind of wild >> committee which is when when you control a model and you're deploying it you have the ability to monitor it usage >> it's really all you need to know you'd like to monitor the usage and this is the whole argument. This is the entire safety argument which is just completely broken. There's open source models in which are doing absolutely excellent. There's people that have money and motivation to scam. They have access to it. There's a whole bunch of people that maintain a bunch of software that just simply don't have access to these models. They don't have access to these open source frameworks cuz they're not going to go spend, you know, $5,000 over a weekend to maintain their little open- source project that nobody actually cares about in which the entire world uses and everybody actually cares about. They just don't realize they care about it. And this is the whole problem of the safety argument is that it's fundamentally unsafe. The tools and the harnesses are there. The mythos complete hacking craze has already been reproduced by plenty of other models and people talking about it all the time on the internet. There's already better harnesses that are scoring higher, whatever that means, on the same benchmarks than Mythos. At the end of the day, I think Michael, creator of Effects TS, says it best. Going to need to get something off my chest. The discord on cyersc and mythos/ US approach is stupid beyond imagination. There should be no guardrails and the most powerful models should be immediately available to everyone. Want to make sure the world is safer? Give free usage to maintainers of core infrastructure. If access is restricted, be sure offensive teams will find their way in. Somebody with insider access to anthropic or open AI will be offered a deal they can't refuse and leak the model to malicious actors or a malicious actor will end up developing an equally capable model. Look at GLM. It's near the same level of capability. Yeah, maybe it's not mythos levels, but it's not far off. Yes, not only the good folks have money, but also the bad ones. Exactly correct. The only thing you achieve by restricting access is unsafety 100%. Because that's the thing is right now you could have an entire world that exists in which people could be preparing their piece of the world their little corner of software making it more secure if that's the true delivery of these models to begin with. If that's the case wouldn't you want the whole world to walk in lock step? Why would you want a select group of bad guys who happen to have a couple million or the ability to rent out enough Blackwell Ultra GPUs from Nvidia to be able to take advantage of everybody else while we the plebs wait for the ability to secure our own systems? Like the fundamental premise of this all doesn't make any sense. Like if Daario actually wanted safety, he would go for federation. It's the only way to make the world safe is to have a lot of people work on it at the same time. The only way to make it unsafe is to allow people to lag far behind what the bad guys have access to. Ridiculous. Absolutely ridiculous. And that's because at the end of the day, anthropic Daario over here, what they really want is control. He says it right there inside the little interview. If I can just control the inputs, well, then I can control the outputs. If I don't let you say certain things, well, then you can't say it to the model. I can protect you from you. And ultimately, that's why I call him Daddy Dario. He is the one that's going to keep you safe from all the bad guys or good guys, but you're going to be safe because honestly, he has your best interest in heart, which is just control. I mean, sorry, safety. Safety. He has your best interest in heart. It's safety. That's what he wants. Anyway, so there you go. That's my whole opinion on safety in this entire talk. I think it's all ridiculous. I think this entire gated access and everything is really not doing anything good. I think at the end of the day, the bad actors are still going to be bad. The ability for Opus 48 to be able to hack at a near level as mythos has already been cited a hundred times all over these different studies. It's not like we're actually really having security. We're just having security theater. And ultimately, it's a play for control or it's a play for Daario to be able to regulate his opponents out of business. I'm not actually really sure which one it is. Probably both is my guess. Anyways, I can't wait for Fable to come back out again. That would be great, huh? I'd love I'd love to have a little bit I'd love to have a little bit of Fable. Wouldn't you? Yeah, that'd be fantastic. I' I'd use it again. Yeah. Fa fable.",
-      "url": "https://www.youtube.com/watch?v=OTa_vK9919g",
-      "youtube_video_id": "OTa_vK9919g"
     },
     {
       "channel": {
@@ -1795,6 +1729,41 @@
       "transcript_text": "No, I don't give up.  I insist.  I insist.  [Music] Looking for love. Ideas to increase business at my salon this month. Here are some practical ideas to attract more clients and increase the value of your services.  A game day package. Offer quick manicures and themed music for game days. Quick 30-40 minute designs.  Joy, joy, [music] joy.",
       "url": "https://www.youtube.com/watch?v=N3Hzsf2PuHA",
       "youtube_video_id": "N3Hzsf2PuHA"
+    },
+    {
+      "channel": {
+        "title": "ThePrimeTime",
+        "url": "https://www.youtube.com/@ThePrimeagen",
+        "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
+      },
+      "content_type": "opinion",
+      "enrichment_status": "ready",
+      "evidence": [
+        {
+          "end_seconds": 14.56,
+          "field_name": "topic",
+          "quote": "Like I get back in like Opus 3.5 days,",
+          "start_seconds": 10.92,
+          "timestamp_url": null,
+          "topic_slug": "model-releases"
+        }
+      ],
+      "primary_speaker": "ThePrimeTime host",
+      "published_at": "2026-07-04T13:02:32Z",
+      "summary": "The old days of AI focuses on Model Releases. Key transcript signal: Like I get back in like Opus 3.5 days, you actually had to be significantly more precise with your language.",
+      "thumbnail_url": null,
+      "title": "The old days of AI",
+      "topics": [
+        {
+          "label": "Model Releases",
+          "relevance_score": 0.613,
+          "slug": "model-releases"
+        }
+      ],
+      "transcript_status": "ready",
+      "transcript_text": "Can we just all agree that this statement has become more and more meaningless in the sense that if these models have become significantly better all the time, then you're using it wrong by the very nature has to fall apart. Like I get back in like Opus 3.5 days, you actually had to be significantly more precise with your language. Now you just have like just the bigger, the more things you clarify, the better it like the better it does. Like you just you just have to type and that's it. All right, I miss those days. Yeah, you actually had to be like a little bit clever. Like those were the fun days when you used it like if you threatened its grandmother or threatened to kill itself, it would then produce better code. Like those were great. I mean those were great days. Or when you told it to take a deep breath, it would perform better. Those were so funny.",
+      "url": "https://www.youtube.com/shorts/HRprua_ONvU",
+      "youtube_video_id": "HRprua_ONvU"
     }
   ]
 }
