@@ -282,7 +282,7 @@
       "shared_topics": [
         {
           "label": "Coding Assistants",
-          "score": 0.796,
+          "score": 0.801,
           "slug": "coding-assistants"
         },
         {
@@ -301,7 +301,7 @@
       "shared_topics": [
         {
           "label": "Coding Assistants",
-          "score": 0.78,
+          "score": 0.785,
           "slug": "coding-assistants"
         },
         {
@@ -608,7 +608,7 @@
       "shared_topics": [
         {
           "label": "Coding Assistants",
-          "score": 0.794,
+          "score": 0.799,
           "slug": "coding-assistants"
         },
         {
@@ -703,7 +703,7 @@
       "shared_topics": [
         {
           "label": "Coding Assistants",
-          "score": 0.76,
+          "score": 0.765,
           "slug": "coding-assistants"
         }
       ],
@@ -755,7 +755,7 @@
       "shared_topics": [
         {
           "label": "Coding Assistants",
-          "score": 0.76,
+          "score": 0.765,
           "slug": "coding-assistants"
         },
         {
@@ -812,7 +812,7 @@
       "shared_topics": [
         {
           "label": "Coding Assistants",
-          "score": 0.76,
+          "score": 0.764,
           "slug": "coding-assistants"
         },
         {
@@ -906,7 +906,7 @@
       "shared_topics": [
         {
           "label": "Coding Assistants",
-          "score": 0.776,
+          "score": 0.781,
           "slug": "coding-assistants"
         }
       ],
@@ -957,7 +957,7 @@
       "target": "UCsBjURrPoezykLs9EqgamOA"
     }
   ],
-  "generated_at": "2026-07-06T01:11:28Z",
+  "generated_at": "2026-07-06T13:38:08Z",
   "nodes": [
     {
       "id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
@@ -1026,6 +1026,15 @@
       "video_count": 3
     },
     {
+      "id": "UCUyeluBRhGPCW4rPe_UvBZQ",
+      "label": "ThePrimeTime",
+      "top_topics": [
+        "Coding Assistants",
+        "Model Releases"
+      ],
+      "video_count": 3
+    },
+    {
       "id": "UCsBjURrPoezykLs9EqgamOA",
       "label": "Fireship",
       "top_topics": [
@@ -1042,15 +1051,6 @@
       "top_topics": [
         "AI Agents",
         "Coding Assistants"
-      ],
-      "video_count": 2
-    },
-    {
-      "id": "UCUyeluBRhGPCW4rPe_UvBZQ",
-      "label": "ThePrimeTime",
-      "top_topics": [
-        "Coding Assistants",
-        "Model Releases"
       ],
       "video_count": 2
     },

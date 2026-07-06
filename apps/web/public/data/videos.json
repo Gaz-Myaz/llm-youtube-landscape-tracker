@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T01:11:28Z",
+  "generated_at": "2026-07-06T13:38:08Z",
   "schema_version": "1.0",
   "videos": [
     {
@@ -1401,6 +1401,41 @@
       "transcript_text": "GPT 5.6 was just released. What do you think about that? It looks like a fantastic model and guess what? You're not going to be able to use it anytime soon. The US government has asked OpenAI to stagger the release of GPT 5.6. And I really can't overstate how bad that is for really every aspect of society. Only a few players will get access to this model. And while they are accelerating, startups, entrepreneurs, tinkerers, builders, all of us will not have access to it. All of us will be stuck with the older models hopefully for a short period of time, but who knows? This is de facto AI regulation. Daario has won. They're ahead and now they are forcing everybody else to slow down. Well, they're not slowing down, by the way. Just to be clear about that, Daario and Anthropic are not slowing down. They are using Fable. They are using Mythos to build all of the tools to build the next AI model that they put out. And they're accelerating and slowing down everybody at the same time. I'm so angry.",
       "url": "https://www.youtube.com/shorts/iG3lW8GslXs",
       "youtube_video_id": "iG3lW8GslXs"
+    },
+    {
+      "channel": {
+        "title": "ThePrimeTime",
+        "url": "https://www.youtube.com/@ThePrimeagen",
+        "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
+      },
+      "content_type": "opinion",
+      "enrichment_status": "ready",
+      "evidence": [
+        {
+          "end_seconds": 40.839999999999996,
+          "field_name": "topic",
+          "quote": "also my cursor agent.",
+          "start_seconds": 37.36,
+          "timestamp_url": null,
+          "topic_slug": "coding-assistants"
+        }
+      ],
+      "primary_speaker": "ThePrimeTime host",
+      "published_at": "2026-07-06T13:09:26Z",
+      "summary": "Prompt Phone focuses on Coding Assistants. Key transcript signal: So whenever I go travel, I have to take a camera I have to I have to have a camera with me and so this is the camera I use, which is also my cursor agent.",
+      "thumbnail_url": null,
+      "title": "Prompt Phone",
+      "topics": [
+        {
+          "label": "Coding Assistants",
+          "relevance_score": 0.792,
+          "slug": "coding-assistants"
+        }
+      ],
+      "transcript_status": "ready",
+      "transcript_text": "There is my what's it called? That is my workflow. But so I kind of got tired of doing this because it's like it's great that I can be traveling. I went to a place without service so I only got spotty service every now and then. So I could craft my message, send it off, come back in an hour, and boom I had a little update to my PR and I could slowly move things through without turning my project into horse. Can we all agree that if you just simply say AI go do the thing, it turns it into horse. Like if you don't care, by the way, if you don't care, Danny switch to an iPhone? No, this is my this is my phone. This is literally my prompting phone / on-the-go camera. So whenever I go travel, I have to take a camera I have to I have to have a camera with me and so this is the camera I use, which is also my cursor agent.",
+      "url": "https://www.youtube.com/shorts/YP3_koP_wbc",
+      "youtube_video_id": "YP3_koP_wbc"
     },
     {
       "channel": {
