@@ -114,15 +114,10 @@
     {
       "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
       "handle": "@OpenAI",
-      "latest_video_at": "2026-07-01T18:31:25Z",
+      "latest_video_at": "2026-07-06T20:03:49Z",
       "thumbnail_url": null,
       "title": "OpenAI",
       "top_topics": [
-        {
-          "label": "Coding Assistants",
-          "score": 0.81,
-          "slug": "coding-assistants"
-        },
         {
           "label": "Model Releases",
           "score": 0.77,
@@ -134,9 +129,9 @@
           "slug": "agents"
         },
         {
-          "label": "Evaluation",
-          "score": 0.6,
-          "slug": "evals"
+          "label": "Enterprise Adoption",
+          "score": 0.675,
+          "slug": "enterprise-adoption"
         }
       ],
       "url": "https://www.youtube.com/@OpenAI",
@@ -176,6 +171,38 @@
       "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
     },
     {
+      "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
+      "handle": "@matthew_berman",
+      "latest_video_at": "2026-07-07T00:29:07Z",
+      "thumbnail_url": null,
+      "title": "Matthew Berman",
+      "top_topics": [
+        {
+          "label": "Coding Assistants",
+          "score": 0.845,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Open Source Models",
+          "score": 0.822,
+          "slug": "open-source-models"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.752,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Local Inference",
+          "score": 0.713,
+          "slug": "local-inference"
+        }
+      ],
+      "url": "https://www.youtube.com/@matthew_berman",
+      "video_count": 3,
+      "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
+    },
+    {
       "description": "Developer commentary, tools, and AI coding workflow coverage.",
       "handle": "@ThePrimeagen",
       "latest_video_at": "2026-07-06T13:09:26Z",
@@ -196,38 +223,6 @@
       "url": "https://www.youtube.com/@ThePrimeagen",
       "video_count": 3,
       "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
-    },
-    {
-      "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
-      "handle": "@matthew_berman",
-      "latest_video_at": "2026-06-28T14:00:35Z",
-      "thumbnail_url": null,
-      "title": "Matthew Berman",
-      "top_topics": [
-        {
-          "label": "Open Source Models",
-          "score": 0.822,
-          "slug": "open-source-models"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.805,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.778,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Local Inference",
-          "score": 0.713,
-          "slug": "local-inference"
-        }
-      ],
-      "url": "https://www.youtube.com/@matthew_berman",
-      "video_count": 3,
-      "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
     },
     {
       "description": "Technical courses and tutorials, including practical AI application development.",
@@ -321,6 +316,6 @@
       "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
     }
   ],
-  "generated_at": "2026-07-06T13:38:08Z",
+  "generated_at": "2026-07-07T01:09:28Z",
   "schema_version": "1.0"
 }
