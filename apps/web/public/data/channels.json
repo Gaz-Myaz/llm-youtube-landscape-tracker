@@ -1,6 +1,43 @@
 {
   "channels": [
     {
+      "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
+      "handle": "@matthew_berman",
+      "latest_video_at": "2026-07-13T07:20:20Z",
+      "thumbnail_url": null,
+      "title": "Matthew Berman",
+      "top_topics": [
+        {
+          "label": "Coding Assistants",
+          "score": 0.906,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "AI Agents",
+          "score": 0.85,
+          "slug": "agents"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.82,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Benchmarks",
+          "score": 0.67,
+          "slug": "benchmarks"
+        },
+        {
+          "label": "Evaluation",
+          "score": 0.602,
+          "slug": "evals"
+        }
+      ],
+      "url": "https://www.youtube.com/@matthew_berman",
+      "video_count": 5,
+      "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
+    },
+    {
       "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
       "handle": "@WesRoth",
       "latest_video_at": "2026-07-12T07:02:59Z",
@@ -95,43 +132,6 @@
       "url": "https://www.youtube.com/@AIExplained-official",
       "video_count": 5,
       "youtube_channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw"
-    },
-    {
-      "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
-      "handle": "@matthew_berman",
-      "latest_video_at": "2026-07-09T20:49:47Z",
-      "thumbnail_url": null,
-      "title": "Matthew Berman",
-      "top_topics": [
-        {
-          "label": "Coding Assistants",
-          "score": 0.906,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "AI Agents",
-          "score": 0.85,
-          "slug": "agents"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.79,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Benchmarks",
-          "score": 0.67,
-          "slug": "benchmarks"
-        },
-        {
-          "label": "Evaluation",
-          "score": 0.602,
-          "slug": "evals"
-        }
-      ],
-      "url": "https://www.youtube.com/@matthew_berman",
-      "video_count": 5,
-      "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
     },
     {
       "description": "Long-form technical interviews with AI researchers and builders.",
@@ -245,6 +245,43 @@
       "youtube_channel_id": "UCsBjURrPoezykLs9EqgamOA"
     },
     {
+      "description": "Technical courses and tutorials, including practical AI application development.",
+      "handle": "@freecodecamp",
+      "latest_video_at": "2026-07-13T11:44:58Z",
+      "thumbnail_url": null,
+      "title": "freeCodeCamp.org",
+      "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.873,
+          "slug": "agents"
+        },
+        {
+          "label": "RAG",
+          "score": 0.783,
+          "slug": "rag"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.772,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Open Source Models",
+          "score": 0.761,
+          "slug": "open-source-models"
+        },
+        {
+          "label": "Local Inference",
+          "score": 0.705,
+          "slug": "local-inference"
+        }
+      ],
+      "url": "https://www.youtube.com/@freecodecamp",
+      "video_count": 2,
+      "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
+    },
+    {
       "description": "Research-heavy coverage of machine learning papers, model releases, and AI systems.",
       "handle": "@YannicKilcher",
       "latest_video_at": "2026-03-06T22:07:33Z",
@@ -302,40 +339,8 @@
       "url": "https://www.youtube.com/@ThePrimeagen",
       "video_count": 1,
       "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
-    },
-    {
-      "description": "Technical courses and tutorials, including practical AI application development.",
-      "handle": "@freecodecamp",
-      "latest_video_at": "2026-07-07T12:13:50Z",
-      "thumbnail_url": null,
-      "title": "freeCodeCamp.org",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.873,
-          "slug": "agents"
-        },
-        {
-          "label": "RAG",
-          "score": 0.783,
-          "slug": "rag"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.772,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.761,
-          "slug": "open-source-models"
-        }
-      ],
-      "url": "https://www.youtube.com/@freecodecamp",
-      "video_count": 1,
-      "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
     }
   ],
-  "generated_at": "2026-07-13T01:02:00Z",
+  "generated_at": "2026-07-13T13:09:48Z",
   "schema_version": "1.0"
 }
