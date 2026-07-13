@@ -181,7 +181,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.713,
+          "score": 0.682,
           "slug": "model-releases"
         }
       ],
@@ -239,7 +239,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.705,
+          "score": 0.675,
           "slug": "model-releases"
         }
       ],
@@ -350,7 +350,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.713,
+          "score": 0.682,
           "slug": "model-releases"
         }
       ],
@@ -480,7 +480,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.72,
+          "score": 0.69,
           "slug": "model-releases"
         }
       ],
@@ -504,7 +504,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.679,
+          "score": 0.649,
           "slug": "model-releases"
         }
       ],
@@ -724,7 +724,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.641,
+          "score": 0.61,
           "slug": "model-releases"
         }
       ],
@@ -942,7 +942,7 @@
       "shared_topics": [
         {
           "label": "Model Releases",
-          "score": 0.631,
+          "score": 0.601,
           "slug": "model-releases"
         }
       ],
@@ -1021,7 +1021,7 @@
       "target": "UCsBjURrPoezykLs9EqgamOA"
     }
   ],
-  "generated_at": "2026-07-12T12:40:52Z",
+  "generated_at": "2026-07-13T01:02:00Z",
   "nodes": [
     {
       "id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
@@ -1099,16 +1099,6 @@
       "video_count": 3
     },
     {
-      "id": "UCUyeluBRhGPCW4rPe_UvBZQ",
-      "label": "ThePrimeTime",
-      "top_topics": [
-        "AI Agents",
-        "Coding Assistants",
-        "Model Releases"
-      ],
-      "video_count": 2
-    },
-    {
       "id": "UCZHmQk67mSJgfCCTn7xBfew",
       "label": "Yannic Kilcher",
       "top_topics": [
@@ -1127,6 +1117,16 @@
         "RAG",
         "Coding Assistants",
         "Open Source Models"
+      ],
+      "video_count": 1
+    },
+    {
+      "id": "UCUyeluBRhGPCW4rPe_UvBZQ",
+      "label": "ThePrimeTime",
+      "top_topics": [
+        "AI Agents",
+        "Coding Assistants",
+        "Model Releases"
       ],
       "video_count": 1
     }
