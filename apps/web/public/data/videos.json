@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T13:09:48Z",
+  "generated_at": "2026-07-14T00:55:29Z",
   "schema_version": "1.0",
   "videos": [
     {
@@ -1210,115 +1210,6 @@
     },
     {
       "channel": {
-        "title": "ThePrimeTime",
-        "url": "https://www.youtube.com/@ThePrimeagen",
-        "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
-      },
-      "content_type": "tutorial",
-      "enrichment_status": "ready",
-      "evidence": [
-        {
-          "end_seconds": 108.16,
-          "field_name": "topic",
-          "quote": "your AI agents to access the internet.",
-          "start_seconds": 103.64,
-          "timestamp_url": "https://www.youtube.com/watch?v=Obc3wnL06SQ&t=103s",
-          "topic_slug": "agents"
-        },
-        {
-          "end_seconds": 643.839,
-          "field_name": "topic",
-          "quote": "with cursor. I get it. Like I am not",
-          "start_seconds": 639.6,
-          "timestamp_url": "https://www.youtube.com/watch?v=Obc3wnL06SQ&t=639s",
-          "topic_slug": "coding-assistants"
-        },
-        {
-          "end_seconds": 2.92,
-          "field_name": "topic",
-          "quote": "All right, so",
-          "start_seconds": 0.0,
-          "timestamp_url": "https://www.youtube.com/watch?v=Obc3wnL06SQ&t=0s",
-          "topic_slug": "model-releases"
-        }
-      ],
-      "primary_speaker": "ThePrimeTime host",
-      "published_at": "2026-07-10T13:44:03Z",
-      "summary": "Microsoft at it again focuses on AI Agents, Coding Assistants, Model Releases. Key transcript signal: This is why you need today's video sponsor kernel.sh, the crazy fast and open-source infra for your AI agents to access the internet.",
-      "thumbnail_url": null,
-      "title": "Microsoft at it again",
-      "topics": [
-        {
-          "label": "AI Agents",
-          "relevance_score": 0.769,
-          "slug": "agents"
-        },
-        {
-          "label": "Coding Assistants",
-          "relevance_score": 0.739,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Model Releases",
-          "relevance_score": 0.559,
-          "slug": "model-releases"
-        }
-      ],
-      "transcript_status": "ready",
-      "transcript_text": "All right, so I can't believe it's happened, but Microsoft is doing more layoffs. I know, shocking, right? The company that has not cared about its user in a decade is having problems actually making money on the software they've made for consumers. I know, >> [laughter] >> crazy, right? Well, what I'm talking about today, of course, is the all employees at Xbox message that Asha, this new current CEO of Xbox just got done sending out both on Twitter and internally. And there's two points inside of it that I find astronomically crazy. Like when I look at it, I'm like, \"What am I even looking at?\" And I figured we have to make a video about this. I have to yap about this because I can't actually believe what I am looking at, okay? Because Microsoft has done a lot of insane things, but I feel like this right here is the epitome, it's the epidome of why Microsoft just has to fail. They're incapable of making a good decisions. They're incapable of actually becoming something that makes real impactful material again. If you look at the games they've released for Xbox and everything for the last decade is pretty much just buying IP, hoping to ride on the coattails as they take that IP and mash it into the ground. I.E. Master Chief. I love you, 117. John, John, I'm so sorry what they did to you, John. Okay? I'm just going to pretend that the last couple Halos don't even exist. All right, but before we yap about all this Microsoft stuff and my thoughts, quick word from the sponsors. Thank you very much. I know a lot of you have agents and you're letting them run around on the internet on your computer. Stop it. That's the easiest way to shoot yourself in the foot. This is why you need today's video sponsor kernel.sh, the crazy fast and open-source infra for your AI agents to access the internet. It takes under 30 milliseconds to spin up one or 1,000 cloud browsers for your agent and authentication is automatically handled. Right now, over 3,000 teams already use this in production including Framer and Cash App. So, quit nerfing your agents and give them a real browser. Head on over to kernel.sh and let them use the internet. Hey, welcome back. Hey, so the first thing we do have to look at is the actual let go. So, let me just read it for you. We are beginning the most significant restructured Xbox history. After careful consideration, I've made the difficult decision. By the way, every CEO always calls it difficult. They're always firing all these people. Fire yourself. HEY, IF YOU have to fire a bunch of people, you have made some bad decisions. I'm going to give her a pass though. She's brand new, making up for a bunch of mistakes of the previous generation that was running a running Xbox. So, maybe just maybe this is just her being handed a bad plate, okay? Whatever. Anyways, to reduce our team by approximately 3,200 throughout the fiscal year of '27. This will include approximately 1,600 role eliminations today and in addition four studios will leave Xbox to new management. So, I want to talk about this because this has to be the most insane way to do layoffs. Ever. Absolutely undeniably, this is the worst one I have ever seen in my lifetime. Because there is like the classic ones you see, right? Facebook, 8,000. Oracle, 30,000. You know, like just these layoffs that hit and a bunch of people get fired on day one. This one is so much different. This one is firing half of them and being like, \"Hey, bro, if you look if you look over at Doom at id Software's Doom. You know, you heard of Doom. You know how there's like all those really excellent engineers? Yeah, we fired half of them. We're going to fire some more. Maybe that could be you. I don't know. It's going to happen over the course of next the next year and a half.\" Like to me that's insane. Saying you're going to lay off 1,600 more people in the next approximate year and a half. >> [laughter] >> What? Like everybody working there is knowing that they are maybe on a time clock. They know they're going to be let go. Like how do you produce good work? How do you become a good teammate when you think that if you're not somehow the best of the best maybe that somehow you're sucking up to management so they don't fire you. This is going to cause like a Game of Thrones style culture where you effectively have to betray everybody to remain on top like >> [laughter] >> oh my gosh. This is it's just the craziest one to be like hey, I'm going to fire a lot of people just got done doing it, but we're going to double that number in the next 18 months. JUST LIKE WHY? WHY ARE WE doing this? But somehow that's not like what I consider one of the most bizarre points of this all because that is just kind of nuts. Next the letter goes through some basic stuff about like growing pains. I know this is painful. These changes will directly affect people who have poured their creativity into building Xbox. Many joined us through acquisitions. Others were recruited here. Our business today is not healthy. We are operating at margins that are three to 10x lower than comparable platform and publishing businesses i.e. Steam. Gabe just just being a champion right now. Gabe is just sitting there just like bro, I nailed this. I I created the best platform. I created the best platform ever. In fact, I even created a bad platform that had gambling that took advantage of many young kids and people still love us. We're the best platform that has ever existed in humankind. It's hard not to love Steam. You're like it's good stuff. They're they're crushing it. We've entered the Gen 9 with a smaller install base and a higher cost structure. Thanks AI. Thanks AI. Also by the way, how did they get a higher cost structure? I'm just super curious. Asha, what were you doing before this? Oh yeah, you were a VP of core AI, right? Oh, you were involved in AI. Yeah, that's why you have high cost structure is because you've also devoured THE INTERNET'S HARDWARE AND SOFTWARE. LIKE ANYWAYS, BACK TO IT. To grow we bet on Game Pass a multi-platform and broader portfolio of content. While those businesses have created meaningful value, they did not grow at the pace we expected. As that happened our core business weakened and we added more teams, more investment and more time hoping for a better outcome. And now the industry is facing the most severe hardware crisis in its history. We must reset Xbox. It goes on and kind of describes a lot more detail about what's happening. Of course, this is where the 64 cents lost for every dollar invested into Xbox. A lot of the stuff across here. Here's a lot of the troubles and things that they're having reductions in including the ZeniMax, which is the thing that owns id Software, which is where all the id layoffs happened. In addition, Mojang, which of course is Minecraft, their big cash cow, they're going to be reporting directly to the CEO. But those are kind of all like the fuzzy details, right? Where things really get big is right here though. This is the other part that I just I I can't for the life of me imagined how did this happen? I know this is a lot like the I don't know what I expected meme. I'm going to open it up, look inside, and go, I I don't know what I was expecting to find. But this is what Asha has to say about the state of Xbox and how it's being ran. We know that great technology gets better when it gets simpler. Also true. Very great insight. Not bigger. Also true. Today, in some parts of the company, work passes through as many as 14 layers of management. What? How did this happen? Now I get it. I don't know a lot about the inner workings of Microsoft or Xbox or how you would ever get to there. But in my head, you'd have something like the C-suite, right? This is going to be the group of people that are managing the company. You probably have large orgs, right? You have infra. They're running all the Xbox infrastructure and all that. You probably have hardware. This is going to be all the actual hardware operations to build the Xbox, to produce that, all the physical world stuff. You probably have hardware partner {slash} partner engineering as it's often called, where you're working with all the established partners to bring all the stuff together to empower the hardware right here. You probably have something that's like a software org. You have the UI, you have all that kind of stuff. And then you probably have some set of sales and customer-focused stuff, right? So, this is just me completely riffing, just completely guessing. Uh you could imagine that maybe under software or maybe to the side you also have some sort of localization language thing, but my guess is this actually probably falls under software. And then somehow, what Microsoft has done in this crazy little org chart right here, is that they proceeded to ADD SO A FOUR LIKE WHAT IS IT? 12 more levels of software? Like how do you even break apart a division that much to get 14 levels of management? How is that even good at all? Like this is what I constantly talk about. This is what Teeg has talked about. This is what a lot of us have talked about on the internet. Microsoft just doesn't have the will to get anything done because look at the size of that. How could you get anything done with 14 levels of management? What kind of insane human centipede of information has been created here? This can't possibly work. Like this should have been identified years ago. Like hey, how did we get to seven managers between me and a software engineer? Like how could you even get my message in a coherent way to that person? This seems like it's bad. Instead, they go all the way to 14 in betwixt the CEO and the average person. Now, I'm sure I'm missing some organizations up here and I'm sure it's a little bit more complex than I made it, but 14? They literally created a an LLM of managers with reporting. Like they're actually simulating how a large language model works. And this is just like middle manager hell. Like they could probably solve some crazy math problems and undiscovered physics by just simply passing numbers around in here. Bro, have you heard about the new 14 T model? Yeah, 14 levels of management model. It's like this new model. Like you put something in the top and what comes out the bottom is 1,000 Google documents explaining how to do what was put up top. It's a new skill, you got to check it out. It's actually native with G brain. She goes on, \"Our platform teams are 40% larger than they were at the start of this generation even as our player base and play time has declined.\" Meaning they're actually like going down. Like she's letting it out. This is actually By the way, I do like this. I do like that we're having a bit more candid talk for once as opposed to just like nonsense. Like as we strive for a better future. No, it's like, \"Yo, bro.\" It's like, \"Things are going down. Not as good as they once were. Got to fix that shit.\" That complexity has slowed decisions, blurred accountability, and made it harder to deliver for players. As we reset Xbox, we will simplify. We will reduce management layers to no more than five and where possible three. To me, this makes perfect sense. Like that's a good goal. I feel somewhat sad for the amount of middle management that's going to be absolutely slaughtered. Like they're people, too. Like hey, middle managers are people, too. Okay? They also have homes to go to. Okay? They also have spreadsheets they like to edit. They also like to make their own slopware with cursor. I get it. Like I am not here judging them, okay? But how do you get to the point of 14 layers? I just have to know. Like who was the person? Who was the VP? Like there's 12 sets of managers below me to be able to deliver this feature. This is going to be a very successful and good endeavor. Like who thinks that? The entire organization all the way down. Like in my head that the why this happens is that the entire structure below it is all self-serving. They all want to keep on living. They all want to keep on doing land grabs and power grabs. Therefore, no one's going to point out the problem. The obvious problem. Hey, there's way too many of us because by admitting that problem, you also admit that maybe you are useless. And so there's definitely like an entire preserve preserve preserve Oh my goodness, what's the word? It preserve I can't say the word. Oh my goodness, I CAN'T SAY THE WORD. PERVERSE. PERVERSE. Got it. There's an entire perverse incentive problem going on there where management will buy its own, like, attempt to grow and survive will grow by itself. It's like a bacteria, really. We will deliver success through a flattened organization that is built around makers, individual contributors focusing on building player coaches, leaders who remain deeply involved in the work while developing their teams. Is player coaches, by the way, are those Is that scrum masters? Is that the new term for scrum masters that we're hearing here? Yo, I'm a player, but I'm also a coach. So, okay. Oh, okay. So, it's just a manager who slings slop generated from AI into your code base. Okay, that's going to be good. Yeah, hey. Bro, that's Hey, bro, that's super Hey, that's super cool. I don't know about that last one. And directly responsible individuals. It is funny that they're now How many years into Xbox at this point? 20-some years into Xbox going, \"You know what? It's crazy cuz management didn't make accountability, huh?\" It's almost like how Microsoft runs things is fundamentally flawed. Crazy. And we will streamline how we work across our tools with cleaner code base and shared services and 50% reduced vendor spend. I like that last one. Just, \"Hey, we're going to spend less with vendors.\" I don't know what that means, but okay. Also, a cleaner code base. That's also very interesting. I think she's saying right now that the code base totally sucks, but I also don't know how you're going to get that with player coaches, right? Cuz I assume player coaches are, in fact, managers or their team leads or they're supposed to be staff engineers that are shepherding the project, but also expected to contribute like an IC. Like, very kind of confusing some of these things. It's very difficult to get a to a good clean code base when you're pushed for time to the point where AI is your only saving grace. Now, I'm sure there's a lot of people right now frothing at the mouth. \"DON'T TALK ABOUT FABLE like that.\" I hate to tell you this. Fable's not a girl. She's a model, okay? I don't know what that phrase means, but I heard Beeken say it and I think it's really funny. Anyways, this is just what I wanted to yap about the management situation, the firing situation. I know that Ash is the new CEO, relatively new in this Xbox thing, and perhaps these are going to be good changes long-term, and maybe the Xbox of old, you know, the bygone days of yore could happen. Maybe Master Chief Halo 1 brand new remake cuz we've ran out of ideas edition is actually going to be really fantastic. I have no idea. I can hope for the best, but it's also Microsoft. It's hard not to be just just just butt chugging black pills when it comes to Microsoft. Hey, the name is the primogen.",
-      "url": "https://www.youtube.com/watch?v=Obc3wnL06SQ",
-      "youtube_video_id": "Obc3wnL06SQ"
-    },
-    {
-      "channel": {
-        "title": "OpenAI",
-        "url": "https://www.youtube.com/@OpenAI",
-        "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "content_type": "demo",
-      "enrichment_status": "ready",
-      "evidence": [
-        {
-          "end_seconds": 41.56,
-          "field_name": "topic",
-          "quote": "because now I have the agentic AI",
-          "start_seconds": 37.68,
-          "timestamp_url": "https://www.youtube.com/watch?v=nep5byxmr_M&t=37s",
-          "topic_slug": "agents"
-        },
-        {
-          "end_seconds": 8.64,
-          "field_name": "topic",
-          "quote": "ChatGPT with Codex is an extension of me",
-          "start_seconds": 4.52,
-          "timestamp_url": "https://www.youtube.com/watch?v=nep5byxmr_M&t=4s",
-          "topic_slug": "model-releases"
-        }
-      ],
-      "primary_speaker": "OpenAI host",
-      "published_at": "2026-07-10T16:02:41Z",
-      "summary": "RingCentral Scales Customer Programs with ChatGPT Work focuses on AI Agents, Model Releases. Key transcript signal: Since the launch of Codex, I would say that I have been on steroids because now I have the agentic AI capabilities and I'm able [music] to move those insights not only from the review plane but into the execution plane a",
-      "thumbnail_url": null,
-      "title": "RingCentral Scales Customer Programs with ChatGPT Work",
-      "topics": [
-        {
-          "label": "AI Agents",
-          "relevance_score": 0.815,
-          "slug": "agents"
-        },
-        {
-          "label": "Model Releases",
-          "relevance_score": 0.77,
-          "slug": "model-releases"
-        }
-      ],
-      "transcript_status": "ready",
-      "transcript_text": "ChatGPT with Codex is an extension of me and I'm now working and learning through it and in making it better and better. So, I am part of the program management office. I sit at the critical juncture of cross-functional stakeholders. In my [music] function in PMO, I'm working with a lot of data silos. Every org or every team that I connect with has their data in a specific data store. ChatGPT with Codex has helped turn my PMO knowledge from scattered notes and chat history to a living breathing operating system. Since the launch of Codex, I would say that I have been on steroids because now I have the agentic AI capabilities and I'm able [music] to move those insights not only from the review plane but into the execution plane as well. ChatGPT with Codex has actually [music] helped me scale from six customers that I was tracking in the pilot phase to about 80 customers that I'm handling [music] in the early access program. I am a team of one, but I don't think I'm a team of one because I have ChatGPT with Codex supporting me.",
-      "url": "https://www.youtube.com/watch?v=nep5byxmr_M",
-      "youtube_video_id": "nep5byxmr_M"
-    },
-    {
-      "channel": {
         "title": "Two Minute Papers",
         "url": "https://www.youtube.com/@TwoMinutePapers",
         "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
@@ -1751,6 +1642,54 @@
     },
     {
       "channel": {
+        "title": "ThePrimeTime",
+        "url": "https://www.youtube.com/@ThePrimeagen",
+        "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
+      },
+      "content_type": "tutorial",
+      "enrichment_status": "ready",
+      "evidence": [
+        {
+          "end_seconds": 677.44,
+          "field_name": "topic",
+          "quote": "I actually got out from cursor itself.",
+          "start_seconds": 672.399,
+          "timestamp_url": "https://www.youtube.com/watch?v=Bbt8cEyzsTk&t=672s",
+          "topic_slug": "coding-assistants"
+        },
+        {
+          "end_seconds": 49.038999999999994,
+          "field_name": "topic",
+          "quote": "course. This is actually DeepSeek",
+          "start_seconds": 44.239,
+          "timestamp_url": "https://www.youtube.com/watch?v=Bbt8cEyzsTk&t=44s",
+          "topic_slug": "model-releases"
+        }
+      ],
+      "primary_speaker": "ThePrimeTime host",
+      "published_at": "2026-07-13T13:23:08Z",
+      "summary": "I was right again focuses on Coding Assistants, Model Releases. Key transcript signal: And here are the statistics that I actually got out from cursor itself.",
+      "thumbnail_url": null,
+      "title": "I was right again",
+      "topics": [
+        {
+          "label": "Coding Assistants",
+          "relevance_score": 0.739,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Model Releases",
+          "relevance_score": 0.559,
+          "slug": "model-releases"
+        }
+      ],
+      "transcript_status": "ready",
+      "transcript_text": "You see that face? You know what that face is? That that is the smug face of somebody who was proven correct. And the best part, it's right after caught in 8K. You're even told by your friends you're wrong. So, you're probably thinking, \"Okay, what what are we talking about? What are you even trying to say? What were you proven right about?\" Well, my friends, it turns out after many hurt feelings and being told I was wrong, images might actually be better for models than text. I knew it. Don't make it do image recognition on that, dude. >> No, no, you just do this. What are you talking about? >> Hey, >> now this isn't just me saying this, of course. This is actually DeepSeek releasing a new paper that suggests that if you provide images, you could pull out 10 text token from a single image token with near 100% accuracy. In other words, a model's internal representation of an image is 10 times efficient as its internal representation of text. Meaning, not only do you get the correct information out, that you also get it way more efficient. And I know I know a lot of you right now keep running up against limits with Fable. Okay, you get like one prompt into it and you're like, I'm already out. Maybe, just maybe, this is the balm you need to apply to those Fable wounds. What a what an analogy. There's also been a bit of research into this, apparently claiming that yes, you're actually going to get 59 to 70% lower end to end bill by using images. And yes, I myself even did a bit of research, spent 2 billion tokens for this video. Hey, that's dedication. All right, so before we get into the nitty-gritty details, I would first like to say thank you to my sponsor, Hkins. >> Dad, could you teach me how to code today? Doesn't look like I have time for that, son. My database is down again. >> Oh, maybe tomorrow. >> Not again. >> Go long, son. Teach, got to go fast. >> Hey teach, how do you have time to play with your kid? Isn't your database always down? >> What do you mean? I chose Planet Scale. The database for the consumer who wants their downtime to be with their kid. >> Nice catch, son. Thanks for choosing Planet Scale. You're the best dad ever. >> No studies have confirmed Planet Scale makes you a better father, but it is a really good database. Sorry, I was just feeling so vindicated. I just had to keep on making that face. So, this blog post by Shawn Geodec goes in and goes into quite a bit of detail about why these things can happen and even gives an example by George Mandez here about other fun ways you can compress data and send it off to Open AI or any of these model providers. And this one involves just simply running your audio through FFmpeg and just speeding it up by two to 3x. you will save massive amounts of tokens and it gets the same results. Okay, so back to the images. Why would images work better than text? So with text, you say exactly what you want to say. It can input and process each one of those tokens and moves on, right? It that seems rather simple. Whereas with images, doesn't it have to do a bunch of processing? How is this not using a bunch more tokens? So here's his basic explanation. Optical compression is pretty unintuitive for many software engineers. Why on earth would an image of text be expressible in fewer tokens than text itself? In terms of raw information density, an image obviously contains more information. Goes on to kind of say like, hey, hype out the word dog. It's way bigger in an image, right? The first explanation is that text tokens are discreet while image tokens are continuous. Each model has a finite number of tokens, say around 50,000, and each of those tokens correspond to embeddings of say a thousand floatingoint numbers. The text tokens thus occupy a scattering of single points in the space of all possible embeddings. What he's trying to say is that just imagine a floating point somewhere between zero to one and you have a thousand of them and you could have so many different variations, right? An infinite number of different variations. But with text tokens, they actually have a concrete discrete value. One text token to a single, you know, combination of a thousand floatingoint numbers. Thus, there's only 50,000 possible representations you could have in an infinite space. So very, very unoccupied space. By contrast, the embeddings of an image tokens is any sequence of those thousand numbers. In other words, it's continuously through that. They can have all sorts of different variations. Me much much more data can fit into those thousand numbers. So, an image token can be far more expressive than a series of text tokens. Another way of looking at the same intuition is that text tokens are really inefficient way of expressing information. This is often obscured by the fact that text tokens are reasonably efficient in the way of sharing information. meaning me and you can send messages to each other and that makes perfect sense. But for an LLM that's a little bit different. So long as the sender and receiver both know the list of all possible tokens. When you send an LLM a stream of tokens, it outputs the next one. You're not passing around slices of a thousand numbers for each token. You're passing a single integer that represents a token ID. But inside the model, this is expanded to a much more inefficient representation. Inefficient because it encodes some amount of information about the meaning and use of the token. So it's not surprising that you could do better than text tokens. He also makes an argument about the brain how you know when you look at a word even if the letters are slightly mixed up you can still just read the word and so that humans actually operate more on images is the general argument and sets LLMs are supposed to be some sort of representation of our brain therefore it works. Uh I'm not really into brain comparisons. Uh, I'm not quite sure if we even know how exactly the brain works. And so not knowing how something works and then comparing it to something we also don't really know exactly how it works is not necessarily the greatest way to uh to make an analogy for me. But anyways, I DIGRESS. I DIGRESS THERE for a second. To me, this actually just makes sense and I think it makes much more sense looking at this. If you just look at this image for one second, this is an error from the compiler in Rust. you immediately know what went wrong and how to fix the error. You don't have to read all of those text tokens to be able to understand what's happening. There's something kind of magical about images because they encode so much more information than you realize. And this is obviously like pointing a gigantic arrow and saying, \"Hey, here's the thing you should look at.\" And then this right here is also another gigantic arrow being like, \"This is the solution.\" So, one can imagine that the image itself is actually encoding significantly more information, thus giving these models more context to operate on, thus having better results. So, I thought I would give it a little bit of a try. I took my entire context file for my game that I've currently am using. It's not the best context file, honestly. I think I could do a lot better, but it is a context file nonetheless. And I shoved it all into a singular image. I'm using something called PX Pipe, Pixelpipe in which apparently they're using it with Fable and this is the one that I was saying does 59 to 70% lower endto-end bill. They have a whole bunch of information about this saying, \"Hey, it's actually much much better that Fable 5 is actually operating just the same that they're able to produce it with a lot less money going in and out.\" I mean, this obviously sounds pretty good, right? Well, I wanted to see does it actually make a difference. And what did I test it on? Well, I tested it on my video game that I'm currently making. So, as of right now, we're actually having pretty decent uh progress into the game. I can't believe I got Lonely Tower enhancement. Off the rip. Let's go. Oh my gosh, my tower is going to do so much uh damage right now. Don't worry about this, okay? The polish will come later, but this is just a simple tower defense game with ammo, with levels, with enhancements, with stat tables, all the fun stuff that you can throw on these and energy and all that. And I have a file that effectively just basically describes what's happening and how you play the game. More than just that, I can also play the game in JSON mode. So right now it's running. It's letting you know it's ready. It's actually running the full game experience. The only difference is is that it's running it in JSON mode. It's not running it in ray rendering to the screen mode. So if you want to move the mouse, you have to send in a mouse operation that says, \"Okay, this is how I'm going to move.\" And if you do that, it just works. It actually moves the mouse and flows through the whole program so the AI can control it through what appears to be something like MCP. So I ran two experiments. I effectively let the game be played by these models five concurrently on my system just running non-stop playing the game over and over again for a couple hours. Now these models are very slow at playing the game. So on the context as string we had 50 successful games. Of those here's basically the stats breakdown. Now, the thing you really want to look at is time. I think time is really, really important here. On average, it took about 9 minutes to play the game. Okay, that's pretty good, right? Second, you can see how much overall damage it did starting from the 10 percentile all the way up to the 90th percentile. And of course, max. And you can see that it did a decent amount of damage. It ended up letting out uh so many enemies through before dying. It also had this many shots taken and hit, this much criticals being done. So overall, it did pretty good, right? I I'm happy that I could see this. This right here means that it played the game really, really smart, meaning that it actually took a tower and placed certain cards in a very specific order, thus maximizing the damage. So a good percentage of the time, it actually made it to the point of maximizing the damage really, really well. Now, if we look at the context as an image side of things, I only got 23 successful games. And the reason being is if you look at the time, the time was outrageous. Minimally, it was like 20 minutes on a game. The average time was about 20 minutes on a game, and some of the upper games were taking 30 minutes to play through. It was just significantly slower. But if you look at the damage, the damage isn't really that much different. It's lower on the max side and it's pretty much higher all the way through. So, it took a lot longer, but it did a lot more damage. But the weird part is these things that I'm trying to take out, which is the amount of enemies that reach the end before you died. meaning that a lot of enemies reached the end and had just higher amounts of health, thus doing more damage, thus killing the uh person much much faster. And so it's like, okay, what can we really glean from this? Well, they have about the same amount of hits, so that's not really much different. The damage is near similar. Everything was about near similar except for the time. The time seemed to be horrible. And so my personal guess is that through the discovery of the server and maybe some light processing of the image, it was able to piece together, yes, I'm playing a tower defense game. Yes, I kind of know what I'm doing. Therefore, it just went and played and it kind of could guess its way through. And I don't think it did nearly as well. And I think the time indicator is really what is kind of telling the truth here. every single game just took massively longer and I just didn't complete nearly as many games because it ended up being like four hours of running and a lot of tokens. And here are the statistics that I actually got out from cursor itself. As you can see, the full context as a string had uh 324 events, 286, a bunch of tokens used, 306 million. The total tokens for the image context was only 213. Now remember, I played well less than half of the game. So again, what can I draw from this data? What I can draw from the data is that it's actually probably much harder and much more confusing to actually use this strategy. And you would probably want to do a bit of experimenting. For me to even get to this experiment, I had to spend about 1.5 billion tokens in just experiments to at least verifiably prove that things were going the way that I wanted them, that uh actual games were being played, that you know, the objectives were being had. So, at the end of the day, should you just go rush out and listen to Twitter and convert everything to to images now? Probably not. But there actually could be a world where this actually makes a lot of sense, where a lot of good things could happen if you do it. And so, like all solutions that you hear on the internet and all of the Twitter excitement, it always comes down to the classic senior engineer response. It depends. And you probably need to do the homework yourself. So, please don't just listen to every last cool thing that's thrown across the internet. Instead, try things, experiment, look for optimizations, because you never know, maybe there's something super duper cool. And also, just to be real, like a lot of these technologies, they're designed around text. Their primary input is text and all that. And so, maybe there's an entire world where caching and all this other stuff just isn't optimized yet for images. So, even if you are getting a win, maybe a much larger win could be coming down the pipe. If only we just wait a little bit and this technology is used more. So, you know, it's really really hard to compare these things because it is a very kind of almost apple to oranges comparison. All right. Hey, the name is the primogen.",
+      "url": "https://www.youtube.com/watch?v=Bbt8cEyzsTk",
+      "youtube_video_id": "Bbt8cEyzsTk"
+    },
+    {
+      "channel": {
         "title": "OpenAI",
         "url": "https://www.youtube.com/@OpenAI",
         "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
@@ -1917,6 +1856,41 @@
     },
     {
       "channel": {
+        "title": "ThePrimeTime",
+        "url": "https://www.youtube.com/@ThePrimeagen",
+        "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
+      },
+      "content_type": "demo",
+      "enrichment_status": "ready",
+      "evidence": [
+        {
+          "end_seconds": 9.719999999999999,
+          "field_name": "topic",
+          "quote": "government to restore access to Claude",
+          "start_seconds": 5.72,
+          "timestamp_url": null,
+          "topic_slug": "model-releases"
+        }
+      ],
+      "primary_speaker": "ThePrimeTime host",
+      "published_at": "2026-07-13T18:02:30Z",
+      "summary": "Mythos Good Guys focuses on Model Releases. Key transcript signal: Because since June 12th, we've been working closely with the US government to restore access to Claude Mythos 5 and Fable 5G.",
+      "thumbnail_url": null,
+      "title": "Mythos Good Guys",
+      "topics": [
+        {
+          "label": "Model Releases",
+          "relevance_score": 0.74,
+          "slug": "model-releases"
+        }
+      ],
+      "transcript_status": "ready",
+      "transcript_text": "All right. I hope you're ready for this, okay? Because since June 12th, we've been working closely with the US government to restore access to Claude Mythos 5 and Fable 5G. I can't believe Anthropic lost it. I wonder I wonder what caused that. Today, the government has notified us that Mythos 5, our strongest cybersecurity model, can be redeployed to a set of US organizations that operate and defend critical infrastructure. Now, you're probably thinking, well, wait a sec. Organizations that do critical infrastructure, haven't we seen this before? Wasn't there something about Mythos and only going out to select organizations? Yes, there was. It was called Project Glasswing. This was just a couple months ago when Anthropic said Mythos was in fact too dangerous and then they released it to everybody and then they pulled it back because of the US government was told how dangerous it was. We're just replaying this entire record again. We're back to Project Glasswing. There is the set of the good guys, which apparently is Jeff Bezos and Sundar and Mark Zuckerberg. They're the good guys. They get access again and the rest of us, we don't get access.",
+      "url": "https://www.youtube.com/shorts/66hF3cli8J8",
+      "youtube_video_id": "66hF3cli8J8"
+    },
+    {
+      "channel": {
         "title": "Lex Fridman",
         "url": "https://www.youtube.com/@lexfridman",
         "youtube_channel_id": "UCSHZKyawb77ixDdsGog4iWA"
@@ -1956,34 +1930,69 @@
         "url": "https://www.youtube.com/@OpenAI",
         "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
       },
-      "content_type": "unknown",
+      "content_type": "tutorial",
       "enrichment_status": "ready",
       "evidence": [
         {
-          "end_seconds": 12.5,
+          "end_seconds": 91.68,
           "field_name": "topic",
-          "quote": "[music]",
-          "start_seconds": 10.48,
-          "timestamp_url": "https://www.youtube.com/watch?v=IYYTI73J7Rg&t=10s",
+          "quote": "time when the participants were able to create their own results in Codex within an hour and realize that producing complex results is not such a difficult task when utilizing Codex and ChoiPT.",
+          "start_seconds": 86.0,
+          "timestamp_url": "https://www.youtube.com/watch?v=-J5KoSMfPLk&t=86s",
           "topic_slug": "model-releases"
         }
       ],
       "primary_speaker": "OpenAI host",
-      "published_at": "2026-07-10T19:45:02Z",
-      "summary": "ChatGPT Computer Use: Now faster with Live Picture-in-Picture focuses on Model Releases. Key transcript signal: [music] [music] [music] [music] >> Light it up.",
+      "published_at": "2026-07-13T23:07:18Z",
+      "summary": "Learning with AI at Any Stage of Life | Fast Campus x OpenAI focuses on Model Releases. Key transcript signal: It was a time when the participants were able to create their own results in Codex within an hour and realize that producing complex results is not such a difficult task when utilizing Codex and ChoiPT.",
       "thumbnail_url": null,
-      "title": "ChatGPT Computer Use: Now faster with Live Picture-in-Picture",
+      "title": "Learning with AI at Any Stage of Life | Fast Campus x OpenAI",
       "topics": [
         {
           "label": "Model Releases",
-          "relevance_score": 0.735,
+          "relevance_score": 0.683,
           "slug": "model-releases"
         }
       ],
       "transcript_status": "ready",
-      "transcript_text": "[music] [music] [music] [music] >> Light it up. >> [music] >> Here we go. Light it up. We're going to light it up. >> [music] >> Here we go. Light it up. We going",
-      "url": "https://www.youtube.com/watch?v=IYYTI73J7Rg",
-      "youtube_video_id": "IYYTI73J7Rg"
+      "transcript_text": "We really like things that bridge the technology gap, but I think the most difficult part of narrowing that gap was that the technology itself is difficult .  However, after meeting Chappy and Openhoe, I think the barrier to entry for this tool has been significantly lowered . We are currently conducting personalized assessments and feedback for students in collaboration with Codex, and we believe this provides an opportunity for growth while studying with AI that resonates more closely with them. Therefore, we have many plans to further develop our educational systems .   I think one of the growing problems in Korea these days is unprepared cover-ups.  In fact, my father also retired at a time when he was not prepared, and I saw him struggling a lot because of it.   I had thought that someday I wanted to help many people who, like my father, retired in an unprepared state. It was a time when the participants were able to create their own results in Codex within an hour and realize that producing complex results is not such a difficult task when utilizing Codex and ChoiPT. Instead of just letting the knowledge accumulated over more than 30 years go to waste, I hope you will use it to live a better life by utilizing Open AI\u2019s PPT or AI2. Mothers around my age are very weak when it comes to things like AI or computers .  I am providing assistance, but I thought that utilizing this would be of more help to my business, so my daughter mentioned that there is a program like this .  So I came because it was so good it made my eyes light up .  yes. In the paintings I draw, there are flower and bird paintings, and also flower and butterfly paintings, so there are flowers and butterflies. However, young people these days make videos by turning them into animations.  I decided to participate because I wanted to learn how to animate the butterflies and birds in my drawings to make them look even better in a video .   The reason I started this business was that I wanted to launch my own brand, rather than the company's brand, so I ended up standing at the starting line anew .  Starting a one-person business requires a significant amount of human resources, but I believe this will serve as an opportunity for me to launch a product by utilizing AI to handle the entire process, such as creating product detail pages, packaging design, and photography, all through my own experience .",
+      "url": "https://www.youtube.com/watch?v=-J5KoSMfPLk",
+      "youtube_video_id": "-J5KoSMfPLk"
+    },
+    {
+      "channel": {
+        "title": "OpenAI",
+        "url": "https://www.youtube.com/@OpenAI",
+        "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "content_type": "tutorial",
+      "enrichment_status": "ready",
+      "evidence": [
+        {
+          "end_seconds": 44.88,
+          "field_name": "topic",
+          "quote": "need a technical co-founder.\" Codex is",
+          "start_seconds": 41.52,
+          "timestamp_url": "https://www.youtube.com/watch?v=q571PxpsdoA&t=41s",
+          "topic_slug": "model-releases"
+        }
+      ],
+      "primary_speaker": "OpenAI host",
+      "published_at": "2026-07-11T00:44:29Z",
+      "summary": "Meet the family running a cereal business from their dining room with GPT-5.6 focuses on Model Releases. Key transcript signal: I need a technical co-founder.\" Codex is that technical co-founder.",
+      "thumbnail_url": null,
+      "title": "Meet the family running a cereal business from their dining room with GPT-5.6",
+      "topics": [
+        {
+          "label": "Model Releases",
+          "relevance_score": 0.664,
+          "slug": "model-releases"
+        }
+      ],
+      "transcript_status": "ready",
+      "transcript_text": "Build a sell in timeline tracker with retailer specific deadlines and contacts for our pumpkin spice launch. >> Three Wishes is a better for you breakfast cereal. It is higher in protein, lower in sugar, gluten and grain free. And the inspiration came from our own house and our own family. >> This one I didn't really create, but I thought of the flavor. It's called cotton candy. Not trying to glaze myself. Personally, my favorite. >> We're a true team in all the things that we do. >> But there's only so much two people can do. >> As you grow and the brand [music] becomes bigger, mistakes just have so much more weight. >> In the past, I had so many tech ideas, but I always said, \"I can't do them. I need a technical co-founder.\" Codex is that technical co-founder. >> Every time we've had to run our seasonals, they've become an operational nightmare. So, we had Codex build this really beautiful command center and dashboard. >> So, I always start by saying, \"Please set a goal for yourself [music] to do this end to end. Please use historical launches as like a means to inform the dashboard itself. Use the Three Wishes [music] branding, especially the new branding. We have new boxes that we're using.\" >> It is the most disorganized thought stream that I've ever seen, to then get this like [laughter] incredibly amazing output. >> I mean, it wouldn't have been possible before. With 5.6, I directed it some of Three Wishes brand guidelines and said, \"Just make it look like and feel like our brand.\" >> So cool. >> Yeah. >> 5.5 was never capable of doing something along these lines. With 5.6, I spoke into it for 5 minutes and [music] it output all of these different data slices that they needed. >> This feels like something you would normally think a big billion-dollar company could build. And you're like, \"We get this. I have my bespoke software system.\" >> Makes you feel real and enterprisey. >> Yeah. >> It frees up the most important time for us. I get to choose where it goes, whether it's building the brand or >> [music] >> spending time with my kids. And that to me is like the the time I'll never get back. And so, it's really [music] exciting. It It feels like you gave us wings a little bit.",
+      "url": "https://www.youtube.com/watch?v=q571PxpsdoA",
+      "youtube_video_id": "q571PxpsdoA"
     },
     {
       "channel": {
