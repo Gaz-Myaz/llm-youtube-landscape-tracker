@@ -230,7 +230,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.755,
+          "score": 0.67,
           "slug": "model-releases"
         }
       ],
@@ -307,7 +307,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.772,
+          "score": 0.688,
           "slug": "model-releases"
         }
       ],
@@ -432,7 +432,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.78,
+          "score": 0.696,
           "slug": "model-releases"
         }
       ],
@@ -499,7 +499,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.671,
+          "score": 0.587,
           "slug": "model-releases"
         }
       ],
@@ -609,7 +609,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.78,
+          "score": 0.696,
           "slug": "model-releases"
         }
       ],
@@ -681,7 +681,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.739,
+          "score": 0.654,
           "slug": "model-releases"
         }
       ],
@@ -957,7 +957,7 @@
       "shared_topics": [
         {
           "label": "Model Releases",
-          "score": 0.691,
+          "score": 0.607,
           "slug": "model-releases"
         }
       ],
@@ -1036,7 +1036,7 @@
       "target": "UCZHmQk67mSJgfCCTn7xBfew"
     }
   ],
-  "generated_at": "2026-07-17T12:47:17Z",
+  "generated_at": "2026-07-18T00:55:29Z",
   "nodes": [
     {
       "id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
@@ -1094,16 +1094,6 @@
       "video_count": 5
     },
     {
-      "id": "UCbfYPyITQ-7l4upoX8nvctg",
-      "label": "Two Minute Papers",
-      "top_topics": [
-        "AI Agents",
-        "Multimodal",
-        "Model Releases"
-      ],
-      "video_count": 4
-    },
-    {
       "id": "UCsBjURrPoezykLs9EqgamOA",
       "label": "Fireship",
       "top_topics": [
@@ -1112,7 +1102,17 @@
         "Coding Assistants",
         "Benchmarks"
       ],
-      "video_count": 3
+      "video_count": 4
+    },
+    {
+      "id": "UCbfYPyITQ-7l4upoX8nvctg",
+      "label": "Two Minute Papers",
+      "top_topics": [
+        "AI Agents",
+        "Multimodal",
+        "Model Releases"
+      ],
+      "video_count": 4
     },
     {
       "id": "UC8butISFwT-Wl7EV0hUK0BQ",
@@ -1131,8 +1131,8 @@
       "top_topics": [
         "Coding Assistants",
         "AI Agents",
-        "Model Releases",
-        "RAG"
+        "RAG",
+        "Model Releases"
       ],
       "video_count": 2
     },
