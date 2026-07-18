@@ -3,7 +3,7 @@
     {
       "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
       "handle": "@matthew_berman",
-      "latest_video_at": "2026-07-17T09:09:19Z",
+      "latest_video_at": "2026-07-18T06:14:32Z",
       "thumbnail_url": null,
       "title": "Matthew Berman",
       "top_topics": [
@@ -38,6 +38,43 @@
       "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
     },
     {
+      "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
+      "handle": "@WesRoth",
+      "latest_video_at": "2026-07-18T04:32:06Z",
+      "thumbnail_url": null,
+      "title": "Wes Roth",
+      "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.858,
+          "slug": "agents"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.778,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.738,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Safety and Alignment",
+          "score": 0.729,
+          "slug": "safety-alignment"
+        },
+        {
+          "label": "Open Source Models",
+          "score": 0.728,
+          "slug": "open-source-models"
+        }
+      ],
+      "url": "https://www.youtube.com/@WesRoth",
+      "video_count": 5,
+      "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
+    },
+    {
       "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
       "handle": "@OpenAI",
       "latest_video_at": "2026-07-16T22:19:27Z",
@@ -68,43 +105,6 @@
       "url": "https://www.youtube.com/@OpenAI",
       "video_count": 5,
       "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
-    },
-    {
-      "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
-      "handle": "@WesRoth",
-      "latest_video_at": "2026-07-16T05:44:08Z",
-      "thumbnail_url": null,
-      "title": "Wes Roth",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.858,
-          "slug": "agents"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.833,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.738,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Safety and Alignment",
-          "score": 0.729,
-          "slug": "safety-alignment"
-        },
-        {
-          "label": "Multimodal",
-          "score": 0.688,
-          "slug": "multimodal"
-        }
-      ],
-      "url": "https://www.youtube.com/@WesRoth",
-      "video_count": 5,
-      "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
     },
     {
       "description": "Accessible analysis of frontier models, agents, local inference, and open-weight AI.",
@@ -346,6 +346,6 @@
       "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
     }
   ],
-  "generated_at": "2026-07-18T00:55:29Z",
+  "generated_at": "2026-07-18T12:41:13Z",
   "schema_version": "1.0"
 }
