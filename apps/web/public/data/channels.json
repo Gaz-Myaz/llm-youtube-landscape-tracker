@@ -3,7 +3,7 @@
     {
       "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
       "handle": "@matthew_berman",
-      "latest_video_at": "2026-07-18T06:14:32Z",
+      "latest_video_at": "2026-07-19T23:48:45Z",
       "thumbnail_url": null,
       "title": "Matthew Berman",
       "top_topics": [
@@ -73,38 +73,6 @@
       "url": "https://www.youtube.com/@WesRoth",
       "video_count": 5,
       "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
-    },
-    {
-      "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
-      "handle": "@OpenAI",
-      "latest_video_at": "2026-07-16T22:19:27Z",
-      "thumbnail_url": null,
-      "title": "OpenAI",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.868,
-          "slug": "agents"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.776,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.77,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Fine Tuning",
-          "score": 0.703,
-          "slug": "fine-tuning"
-        }
-      ],
-      "url": "https://www.youtube.com/@OpenAI",
-      "video_count": 5,
-      "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
     },
     {
       "description": "Accessible analysis of frontier models, agents, local inference, and open-weight AI.",
@@ -218,6 +186,38 @@
       "youtube_channel_id": "UCsBjURrPoezykLs9EqgamOA"
     },
     {
+      "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
+      "handle": "@OpenAI",
+      "latest_video_at": "2026-07-16T22:19:27Z",
+      "thumbnail_url": null,
+      "title": "OpenAI",
+      "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.868,
+          "slug": "agents"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.776,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.77,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Fine Tuning",
+          "score": 0.703,
+          "slug": "fine-tuning"
+        }
+      ],
+      "url": "https://www.youtube.com/@OpenAI",
+      "video_count": 4,
+      "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
+    },
+    {
       "description": "Research-focused AI and machine learning explainers.",
       "handle": "@TwoMinutePapers",
       "latest_video_at": "2026-07-16T15:39:17Z",
@@ -247,34 +247,34 @@
     {
       "description": "Technical courses and tutorials, including practical AI application development.",
       "handle": "@freecodecamp",
-      "latest_video_at": "2026-07-16T11:24:01Z",
+      "latest_video_at": "2026-07-20T10:00:18Z",
       "thumbnail_url": null,
       "title": "freeCodeCamp.org",
       "top_topics": [
         {
           "label": "AI Agents",
-          "score": 0.806,
+          "score": 0.853,
           "slug": "agents"
         },
         {
           "label": "Coding Assistants",
-          "score": 0.771,
+          "score": 0.809,
           "slug": "coding-assistants"
         },
         {
-          "label": "Local Inference",
-          "score": 0.705,
-          "slug": "local-inference"
+          "label": "RAG",
+          "score": 0.781,
+          "slug": "rag"
+        },
+        {
+          "label": "Open Source Models",
+          "score": 0.725,
+          "slug": "open-source-models"
         },
         {
           "label": "Fine Tuning",
           "score": 0.665,
           "slug": "fine-tuning"
-        },
-        {
-          "label": "Evaluation",
-          "score": 0.595,
-          "slug": "evals"
         }
       ],
       "url": "https://www.youtube.com/@freecodecamp",
@@ -336,6 +336,6 @@
       "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
     }
   ],
-  "generated_at": "2026-07-19T12:40:07Z",
+  "generated_at": "2026-07-20T13:04:32Z",
   "schema_version": "1.0"
 }
