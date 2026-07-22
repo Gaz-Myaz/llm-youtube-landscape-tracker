@@ -1,6 +1,43 @@
 {
   "channels": [
     {
+      "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
+      "handle": "@matthew_berman",
+      "latest_video_at": "2026-07-21T19:57:45Z",
+      "thumbnail_url": null,
+      "title": "Matthew Berman",
+      "top_topics": [
+        {
+          "label": "Open Source Models",
+          "score": 0.864,
+          "slug": "open-source-models"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.838,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.82,
+          "slug": "model-releases"
+        },
+        {
+          "label": "AI Agents",
+          "score": 0.766,
+          "slug": "agents"
+        },
+        {
+          "label": "Evaluation",
+          "score": 0.734,
+          "slug": "evals"
+        }
+      ],
+      "url": "https://www.youtube.com/@matthew_berman",
+      "video_count": 5,
+      "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
+    },
+    {
       "description": "Fast software engineering and AI tooling explainers.",
       "handle": "@Fireship",
       "latest_video_at": "2026-07-20T17:02:30Z",
@@ -36,43 +73,6 @@
       "url": "https://www.youtube.com/@Fireship",
       "video_count": 5,
       "youtube_channel_id": "UCsBjURrPoezykLs9EqgamOA"
-    },
-    {
-      "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
-      "handle": "@matthew_berman",
-      "latest_video_at": "2026-07-19T23:48:45Z",
-      "thumbnail_url": null,
-      "title": "Matthew Berman",
-      "top_topics": [
-        {
-          "label": "Open Source Models",
-          "score": 0.864,
-          "slug": "open-source-models"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.838,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.82,
-          "slug": "model-releases"
-        },
-        {
-          "label": "AI Agents",
-          "score": 0.766,
-          "slug": "agents"
-        },
-        {
-          "label": "Evaluation",
-          "score": 0.734,
-          "slug": "evals"
-        }
-      ],
-      "url": "https://www.youtube.com/@matthew_berman",
-      "video_count": 5,
-      "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
     },
     {
       "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
@@ -188,15 +188,10 @@
     {
       "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
       "handle": "@OpenAI",
-      "latest_video_at": "2026-07-20T16:24:11Z",
+      "latest_video_at": "2026-07-21T18:00:39Z",
       "thumbnail_url": null,
       "title": "OpenAI",
       "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.868,
-          "slug": "agents"
-        },
         {
           "label": "Model Releases",
           "score": 0.77,
@@ -306,18 +301,18 @@
     {
       "description": "Developer commentary, tools, and AI coding workflow coverage.",
       "handle": "@ThePrimeagen",
-      "latest_video_at": "2026-07-17T13:00:36Z",
+      "latest_video_at": "2026-07-21T19:16:16Z",
       "thumbnail_url": null,
       "title": "ThePrimeTime",
       "top_topics": [
         {
-          "label": "AI Agents",
-          "score": 0.768,
-          "slug": "agents"
+          "label": "Enterprise Adoption",
+          "score": 0.639,
+          "slug": "enterprise-adoption"
         },
         {
           "label": "Model Releases",
-          "score": 0.561,
+          "score": 0.563,
           "slug": "model-releases"
         }
       ],
@@ -326,6 +321,6 @@
       "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
     }
   ],
-  "generated_at": "2026-07-21T12:51:40Z",
+  "generated_at": "2026-07-22T00:58:12Z",
   "schema_version": "1.0"
 }
