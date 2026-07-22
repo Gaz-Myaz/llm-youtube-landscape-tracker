@@ -1,6 +1,43 @@
 {
   "channels": [
     {
+      "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
+      "handle": "@WesRoth",
+      "latest_video_at": "2026-07-22T12:30:11Z",
+      "thumbnail_url": null,
+      "title": "Wes Roth",
+      "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.858,
+          "slug": "agents"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.778,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.732,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Safety and Alignment",
+          "score": 0.729,
+          "slug": "safety-alignment"
+        },
+        {
+          "label": "Open Source Models",
+          "score": 0.728,
+          "slug": "open-source-models"
+        }
+      ],
+      "url": "https://www.youtube.com/@WesRoth",
+      "video_count": 5,
+      "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
+    },
+    {
       "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
       "handle": "@matthew_berman",
       "latest_video_at": "2026-07-21T19:57:45Z",
@@ -73,43 +110,6 @@
       "url": "https://www.youtube.com/@Fireship",
       "video_count": 5,
       "youtube_channel_id": "UCsBjURrPoezykLs9EqgamOA"
-    },
-    {
-      "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
-      "handle": "@WesRoth",
-      "latest_video_at": "2026-07-18T04:32:06Z",
-      "thumbnail_url": null,
-      "title": "Wes Roth",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.858,
-          "slug": "agents"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.778,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.738,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Safety and Alignment",
-          "score": 0.729,
-          "slug": "safety-alignment"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.728,
-          "slug": "open-source-models"
-        }
-      ],
-      "url": "https://www.youtube.com/@WesRoth",
-      "video_count": 5,
-      "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
     },
     {
       "description": "Accessible analysis of frontier models, agents, local inference, and open-weight AI.",
@@ -193,6 +193,11 @@
       "title": "OpenAI",
       "top_topics": [
         {
+          "label": "AI Agents",
+          "score": 0.868,
+          "slug": "agents"
+        },
+        {
           "label": "Model Releases",
           "score": 0.77,
           "slug": "model-releases"
@@ -232,18 +237,18 @@
     {
       "description": "Technical courses and tutorials, including practical AI application development.",
       "handle": "@freecodecamp",
-      "latest_video_at": "2026-07-20T10:00:18Z",
+      "latest_video_at": "2026-07-22T10:00:13Z",
       "thumbnail_url": null,
       "title": "freeCodeCamp.org",
       "top_topics": [
         {
           "label": "AI Agents",
-          "score": 0.853,
+          "score": 0.866,
           "slug": "agents"
         },
         {
           "label": "Coding Assistants",
-          "score": 0.809,
+          "score": 0.813,
           "slug": "coding-assistants"
         },
         {
@@ -257,9 +262,9 @@
           "slug": "open-source-models"
         },
         {
-          "label": "Fine Tuning",
-          "score": 0.665,
-          "slug": "fine-tuning"
+          "label": "Local Inference",
+          "score": 0.71,
+          "slug": "local-inference"
         }
       ],
       "url": "https://www.youtube.com/@freecodecamp",
@@ -321,6 +326,6 @@
       "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
     }
   ],
-  "generated_at": "2026-07-22T00:58:12Z",
+  "generated_at": "2026-07-22T12:52:46Z",
   "schema_version": "1.0"
 }
