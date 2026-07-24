@@ -1011,7 +1011,7 @@
       "target": "UCqcbQf6yw5KzRoDDcZ_wBSw"
     }
   ],
-  "generated_at": "2026-07-24T00:57:09Z",
+  "generated_at": "2026-07-24T12:52:30Z",
   "nodes": [
     {
       "id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
@@ -1058,6 +1058,15 @@
       "video_count": 5
     },
     {
+      "id": "UCXZCJLdBC09xxGZ6gcdrc6A",
+      "label": "OpenAI",
+      "top_topics": [
+        "Coding Assistants",
+        "Model Releases"
+      ],
+      "video_count": 5
+    },
+    {
       "id": "UCqcbQf6yw5KzRoDDcZ_wBSw",
       "label": "Wes Roth",
       "top_topics": [
@@ -1067,15 +1076,6 @@
         "Safety and Alignment"
       ],
       "video_count": 5
-    },
-    {
-      "id": "UCXZCJLdBC09xxGZ6gcdrc6A",
-      "label": "OpenAI",
-      "top_topics": [
-        "Coding Assistants",
-        "Model Releases"
-      ],
-      "video_count": 4
     },
     {
       "id": "UCbfYPyITQ-7l4upoX8nvctg",
