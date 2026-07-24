@@ -1,36 +1,9 @@
 {
   "channels": [
     {
-      "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
-      "handle": "@OpenAI",
-      "latest_video_at": "2026-07-23T09:33:40Z",
-      "thumbnail_url": null,
-      "title": "OpenAI",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.916,
-          "slug": "agents"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.805,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Enterprise Adoption",
-          "score": 0.696,
-          "slug": "enterprise-adoption"
-        }
-      ],
-      "url": "https://www.youtube.com/@OpenAI",
-      "video_count": 5,
-      "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
-    },
-    {
       "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
       "handle": "@matthew_berman",
-      "latest_video_at": "2026-07-23T09:31:18Z",
+      "latest_video_at": "2026-07-23T21:01:48Z",
       "thumbnail_url": null,
       "title": "Matthew Berman",
       "top_topics": [
@@ -40,24 +13,24 @@
           "slug": "open-source-models"
         },
         {
-          "label": "Model Releases",
-          "score": 0.82,
-          "slug": "model-releases"
-        },
-        {
           "label": "AI Agents",
           "score": 0.806,
           "slug": "agents"
         },
         {
+          "label": "Model Releases",
+          "score": 0.765,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.739,
+          "slug": "coding-assistants"
+        },
+        {
           "label": "Fine Tuning",
           "score": 0.705,
           "slug": "fine-tuning"
-        },
-        {
-          "label": "Multimodal",
-          "score": 0.687,
-          "slug": "multimodal"
         }
       ],
       "url": "https://www.youtube.com/@matthew_berman",
@@ -67,7 +40,7 @@
     {
       "description": "Fast software engineering and AI tooling explainers.",
       "handle": "@Fireship",
-      "latest_video_at": "2026-07-22T17:43:52Z",
+      "latest_video_at": "2026-07-23T16:53:37Z",
       "thumbnail_url": null,
       "title": "Fireship",
       "top_topics": [
@@ -77,23 +50,23 @@
           "slug": "open-source-models"
         },
         {
-          "label": "Model Releases",
-          "score": 0.805,
-          "slug": "model-releases"
-        },
-        {
           "label": "AI Agents",
-          "score": 0.784,
+          "score": 0.776,
           "slug": "agents"
         },
         {
+          "label": "Model Releases",
+          "score": 0.77,
+          "slug": "model-releases"
+        },
+        {
           "label": "Coding Assistants",
-          "score": 0.744,
+          "score": 0.746,
           "slug": "coding-assistants"
         },
         {
           "label": "Benchmarks",
-          "score": 0.713,
+          "score": 0.667,
           "slug": "benchmarks"
         }
       ],
@@ -211,6 +184,28 @@
       "url": "https://www.youtube.com/@lexfridman",
       "video_count": 5,
       "youtube_channel_id": "UCSHZKyawb77ixDdsGog4iWA"
+    },
+    {
+      "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
+      "handle": "@OpenAI",
+      "latest_video_at": "2026-07-23T20:51:09Z",
+      "thumbnail_url": null,
+      "title": "OpenAI",
+      "top_topics": [
+        {
+          "label": "Coding Assistants",
+          "score": 0.776,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.749,
+          "slug": "model-releases"
+        }
+      ],
+      "url": "https://www.youtube.com/@OpenAI",
+      "video_count": 4,
+      "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
     },
     {
       "description": "Research-focused AI and machine learning explainers.",
@@ -331,6 +326,6 @@
       "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
     }
   ],
-  "generated_at": "2026-07-23T12:54:06Z",
+  "generated_at": "2026-07-24T00:57:09Z",
   "schema_version": "1.0"
 }

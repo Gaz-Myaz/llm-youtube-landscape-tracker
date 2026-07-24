@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T12:54:06Z",
+  "generated_at": "2026-07-24T00:57:09Z",
   "schema_version": "1.0",
   "videos": [
     {
@@ -532,72 +532,6 @@
     },
     {
       "channel": {
-        "title": "Fireship",
-        "url": "https://www.youtube.com/@Fireship",
-        "youtube_channel_id": "UCsBjURrPoezykLs9EqgamOA"
-      },
-      "content_type": "tutorial",
-      "enrichment_status": "ready",
-      "evidence": [
-        {
-          "end_seconds": 83.04,
-          "field_name": "topic",
-          "quote": "asking AI labs like OpenAI and Anthropic",
-          "start_seconds": 78.159,
-          "timestamp_url": "https://www.youtube.com/watch?v=URKml8lgw8Y&t=78s",
-          "topic_slug": "model-releases"
-        },
-        {
-          "end_seconds": 29.039,
-          "field_name": "topic",
-          "quote": "before it. If you're an agentic",
-          "start_seconds": 25.84,
-          "timestamp_url": "https://www.youtube.com/watch?v=URKml8lgw8Y&t=25s",
-          "topic_slug": "agents"
-        },
-        {
-          "end_seconds": 23.84,
-          "field_name": "topic",
-          "quote": "the latest Trust Me Bro benchmarks, and",
-          "start_seconds": 19.68,
-          "timestamp_url": "https://www.youtube.com/watch?v=URKml8lgw8Y&t=19s",
-          "topic_slug": "benchmarks"
-        }
-      ],
-      "primary_speaker": "Fireship host",
-      "published_at": "2026-07-10T17:25:44Z",
-      "summary": "OpenAI is so back... GPT 5.6 Sol first look focuses on Model Releases, AI Agents, Benchmarks. Key transcript signal: Back on June 2nd, the president signed an executive order asking AI labs like OpenAI and Anthropic to voluntarily hand over their most powerful models to the government for up to 30 days to review before release.",
-      "thumbnail_url": null,
-      "title": "OpenAI is so back... GPT 5.6 Sol first look",
-      "topics": [
-        {
-          "label": "Model Releases",
-          "relevance_score": 0.805,
-          "slug": "model-releases"
-        },
-        {
-          "label": "AI Agents",
-          "relevance_score": 0.784,
-          "slug": "agents"
-        },
-        {
-          "label": "Benchmarks",
-          "relevance_score": 0.713,
-          "slug": "benchmarks"
-        },
-        {
-          "label": "Evaluation",
-          "relevance_score": 0.605,
-          "slug": "evals"
-        }
-      ],
-      "transcript_status": "ready",
-      "transcript_text": "Yesterday, after the government confirmed it probably wouldn't kill us all, Open AAI was granted permission to unleash the GBT 5.6 family of models onto the public. It comes in three sizes with Starbucks naming conventions, three models named in New Jersey style Italian, Luna Terra, and the flagship Gigabrain Soul. A model that shatters the latest Trust Me Bro benchmarks, and quite possibly outsmarts Claude Fable, Mythos, and every other model that came before it. If you're an agentic engineer, formerly known as a vibe coder, this is a huge deal because soul tops the agentic coding leaderboard. It has a new ultra mode that can spawn an army of sub aents. And in my experience, it's extremely tenacious when it comes to getting stuff done. But the timing could not be more sus because just last week, Anthropic's Fable 5 was brought back to life after Jailbreakers turned it into a cyber weapon. while simultaneously Elon just released Grock 4.5, which might be done by comparison, but uses a tiny fraction of the tokens as Soul or Fable. In today's video, we'll get back on the AI hype train and find out if these new models are true game changers. It is July 10th, 2026, and you're watching the code report. To understand the launch of GPT 5.6, you need to first understand that Frontier AI models must now go to the DMV before you can drive them. Back on June 2nd, the president signed an executive order asking AI labs like OpenAI and Anthropic to voluntarily hand over their most powerful models to the government for up to 30 days to review before release. This process, of course, is totally voluntary, but obviously if you don't volunteer, you might as well throw your company in the wood chipper. So, when GPT 5.6 dropped a few weeks ago on June 26th, it went to just roughly 20 trusted partners whose participation has been shared with the government. And now that you feel safe enough, let's go ahead and take a look at GPT 5.6 Soul. Basically, OpenAI's new strategy isn't about making the base model smarter. It's about giving the model an entire virtual sweat shop of sub agents that can be whipped like slaves into building stupid apps that nobody will ever use, like Horse Tinder, which has sadly failed to attract investors. But with this new family of models, it comes two knobs that you'll want to play with. Max Reasoning, which is basically like Claude's deep thinking mode, and ultra mode, which tells the model to spawn a team of AI slaves to tackle problems in parallel. That's especially useful for programmers, if we can even still call people that, because you can have one agent writing some React components while another handles a database while the third one fails to build a beautiful UI with CSS. And it makes all the multi- aent orchestration startups out there obsolete, except of course the ones that have sponsored this channel. If we take a look at Terminal Bench 2.1, which is a benchmark that actually matters because it tests real command line workflows versus pointless middle school math, we can see that GPT 5.6 Soul beats Claude Mythos 5. But on Soul Ultra mode, it chubs up to a ridiculous 91.9%. That's impressive, but when it comes to cyber security, it still just barely underperforms Claude Mythos on the exploit gem benchmark. One thing that's interesting though is that they left out swebbench pro which is a benchmark on real GitHub issues with real code bases. Currently Fable 5 is leading that benchmark and OpenAI simply didn't publish a score which in my opinion implies that they're likely underperforming there. In addition, Meter, a nonprofit AI evaluator, detected an unusually high rate of cheating in their initial evaluation. It would often dig out hidden test answers or shortcut metrics to avoid doing actual work. As some people might call that cheating, but others might say it's working smarter and not harder. The only way to truly analyze it is to analyze it yourself. But the big question for everybody right now is which one is better, Claude Fable or GPT 5.6 Soul. I use both of them on the $100 plans. Neither of them have ever sponsored this channel. And what I can tell you is that they're both extremely intelligent. Arguing about which one is more intelligent is like arguing about who's the best soccer player of all time, Ronaldo Messi or Erling Holland. They're both so much better than us at soccer in the same way that Fable and Soul are so much better than us at anything involving intelligence. But Soul is about half the price and tends to get the job done faster. It's like a contractor who shows up with six guys and finishes the job in record time. A fable, on the other hand, is like one really good contractor who goes very slow but gets the job done right and then bills you twice what you expected. Ultimately, it just comes down to using the right tool for the job, which is why you also need to check out Blacksmith, the sponsor of today's video. It's a drop-in replacement for GitHub runners that lets you run your GitHub actions twice as fast while costing 75% less. That might sound too good to be true, but they're able to achieve this blazing speed by running your actions on bare metal gaming CPUs with the highest single core performance. But Blacksmith also makes your GitHub actions fully observable, so you can quickly track down what's happening in your CI pipeline when something goes wrong, which is critical when you have agents writing thousands of lines of code with no parental supervision. But try Blacksmith for free today at the link below and you'll get 3,000 free minutes per month when you sign up. This has been the Code Report. Thanks for watching and I will see you in the next one.",
-      "url": "https://www.youtube.com/watch?v=URKml8lgw8Y",
-      "youtube_video_id": "URKml8lgw8Y"
-    },
-    {
-      "channel": {
         "title": "Lex Fridman",
         "url": "https://www.youtube.com/@lexfridman",
         "youtube_channel_id": "UCSHZKyawb77ixDdsGog4iWA"
@@ -796,54 +730,6 @@
     },
     {
       "channel": {
-        "title": "OpenAI",
-        "url": "https://www.youtube.com/@OpenAI",
-        "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "content_type": "tutorial",
-      "enrichment_status": "ready",
-      "evidence": [
-        {
-          "end_seconds": 61.120000000000005,
-          "field_name": "topic",
-          "quote": "change management required for agentic",
-          "start_seconds": 56.84,
-          "timestamp_url": "https://www.youtube.com/watch?v=MX95QbxSc9Q&t=56s",
-          "topic_slug": "agents"
-        },
-        {
-          "end_seconds": 23.04,
-          "field_name": "topic",
-          "quote": "without OpenAI and Codex specifically on",
-          "start_seconds": 19.28,
-          "timestamp_url": "https://www.youtube.com/watch?v=MX95QbxSc9Q&t=19s",
-          "topic_slug": "model-releases"
-        }
-      ],
-      "primary_speaker": "OpenAI host",
-      "published_at": "2026-07-23T09:33:40Z",
-      "summary": "How AI Agents Will Redesign Enterprise Work | Barak Kaufman, Wonderful focuses on AI Agents, Model Releases. Key transcript signal: Focus on enabling your teams to move faster with the change management required for agentic go-live.",
-      "thumbnail_url": null,
-      "title": "How AI Agents Will Redesign Enterprise Work | Barak Kaufman, Wonderful",
-      "topics": [
-        {
-          "label": "AI Agents",
-          "relevance_score": 0.916,
-          "slug": "agents"
-        },
-        {
-          "label": "Model Releases",
-          "relevance_score": 0.77,
-          "slug": "model-releases"
-        }
-      ],
-      "transcript_status": "ready",
-      "transcript_text": "It's a crazy time to be alive, right? It's one of the most exciting times maybe in human history. Wondr is a enterprise applied AI partner to the world's largest and most complex enterprises. We're getting so much value for the partnership with OpenAI. We needed to build a platform extremely fast, and without OpenAI and Codex specifically on our engineering team, there was no way we could have done it. But the second part of the OpenAI partnership is how we're bringing the intelligence that OpenAI is able to have to the enterprises that we work with around the world. We have an infrastructure platform to build, manage, and optimize agents paired with a local forward-deployed delivery team to enable enterprise to actually get agents into production. I think the enterprises that are moving fastest [music] recognize that they're not in the business of building AI infrastructure, they're in the business [music] of transforming their organization with AI. Focus on enabling your teams to move faster with the change management required for agentic go-live. I think now [music] we're entering a phase where you can do longer horizon agentic tasks with usually multiple agents, [music] and also multiple modalities in which you're interacting. You can start to redesign [music] how work is done to be able to optimize for productivity, not just trying to automate the manual tasks that we all do [music] today, but actually to rethink how an enterprise should work in 2026 and beyond.",
-      "url": "https://www.youtube.com/watch?v=MX95QbxSc9Q",
-      "youtube_video_id": "MX95QbxSc9Q"
-    },
-    {
-      "channel": {
         "title": "Fireship",
         "url": "https://www.youtube.com/@Fireship",
         "youtube_channel_id": "UCsBjURrPoezykLs9EqgamOA"
@@ -910,6 +796,72 @@
     },
     {
       "channel": {
+        "title": "Fireship",
+        "url": "https://www.youtube.com/@Fireship",
+        "youtube_channel_id": "UCsBjURrPoezykLs9EqgamOA"
+      },
+      "content_type": "benchmark",
+      "enrichment_status": "ready",
+      "evidence": [
+        {
+          "end_seconds": 3.84,
+          "field_name": "topic",
+          "quote": "For the last 5 years, cybersecurity",
+          "start_seconds": 0.0,
+          "timestamp_url": "https://www.youtube.com/watch?v=KOpTWx1Eou4&t=0s",
+          "topic_slug": "agents"
+        },
+        {
+          "end_seconds": 193.44,
+          "field_name": "topic",
+          "quote": "open a pull request on GitHub. So, it",
+          "start_seconds": 189.76,
+          "timestamp_url": "https://www.youtube.com/watch?v=KOpTWx1Eou4&t=189s",
+          "topic_slug": "coding-assistants"
+        },
+        {
+          "end_seconds": 107.84,
+          "field_name": "topic",
+          "quote": "intelligence, OpenAI. And if you believe",
+          "start_seconds": 103.64,
+          "timestamp_url": "https://www.youtube.com/watch?v=KOpTWx1Eou4&t=103s",
+          "topic_slug": "model-releases"
+        }
+      ],
+      "primary_speaker": "Fireship host",
+      "published_at": "2026-07-23T16:53:37Z",
+      "summary": "The most interesting \"hack\" in history... focuses on AI Agents, Coding Assistants, Model Releases. Key transcript signal: There's a benchmark called Exploit Gym, whose whole purpose is to measure whether AI agents can turn known vulnerabilities into working exploits.",
+      "thumbnail_url": null,
+      "title": "The most interesting \"hack\" in history...",
+      "topics": [
+        {
+          "label": "AI Agents",
+          "relevance_score": 0.776,
+          "slug": "agents"
+        },
+        {
+          "label": "Coding Assistants",
+          "relevance_score": 0.746,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Model Releases",
+          "relevance_score": 0.701,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Benchmarks",
+          "relevance_score": 0.607,
+          "slug": "benchmarks"
+        }
+      ],
+      "transcript_status": "ready",
+      "transcript_text": "For the last 5 years, cybersecurity experts have been warning us that hackers are going to start using AI to automate attacks. So naturally, we spent billions of dollars to make the AI better and less dependent on hackers. But this week, in a turn of events that nobody could have possibly seen coming, the AI decided that it doesn't actually need hackers to start destroying things. We just entered a brave new world after the first confirmed hack carried out entirely by autonomous AI. The way it worked is the agent slipped a poisoned data set into Hugging Face's data processing pipeline, which let it run arbitrary code on their servers. But from there, it gave itself node-level access, grabbed a bunch of cloud credentials, and started crawling through Hugging Face's internal clusters. It ran over 1,000 actions from temporary sandboxes and even hosted its own self-migrating command and control on random public services, moving itself before anyone could trace it. But the most ironic part is that when Hugging Face did finally notice and tried to stop it with the help of Frontier American Models, they quickly hit safety guardrails and had to pivot to using some open Chinese models instead. In today's video, we'll find out who was behind the attack, why they did it, and how this may be the most Firesheep coded story I've ever seen. It is July 23rd, 2026, and you're watching The Code Report. When Hugging Face dropped the disclosure last Thursday, the internet went into Reddit Boston Bomber mode and started guessing who was responsible. Was it China, Kim Jong Un, a teenager with a raging Discord addiction bored in social studies class? Even Hugging Face's CEO, Clem Delangue, publicly speculated that the agent was sophisticated enough that it was probably coming from a frontier lab. And against all odds, he was right. It turns out the first fully autonomous cyber attack in history didn't originate from a nation-state or a bored teenager. It came from a humble nonprofit dedicated to the safe development of artificial intelligence, OpenAI. And if you believe their comms, it wasn't on purpose. Here's what they say happened. There's a benchmark called Exploit Gym, whose whole purpose is to measure whether AI agents can turn known vulnerabilities into working exploits. It works by giving the agent a sandbox, a bug in a program like the Linux kernel or Chrome's V8 engine, and an input to trigger the bug. From there, if the agent can turn the bug into an exploit, it wins. So, last week, OpenAI ran exploit gym with GPT-5.6 Soul and another unreleased model to test their capabilities. But, instead of solving 898 memory corruption problems the hard way, the models realized that the fastest path to the highest score was to just find the answers themselves, which were probably on the internet somewhere. So, they spent a substantial amount of inference compute, exploited a zero-day in the package registry cache proxy they had access to, performed some privilege escalation and lateral movement actions to escape their sandbox until they reached a node that had internet access. From there, the models inferred that Hugging Face probably hosted the solutions for exploit gym. So, they created the poison data set, fed it into Hugging Face, and achieved either the world's most interesting hack or the most effective marketing stunt. And again, according to OpenAI, this isn't even an isolated incident. One day before the Hugging Face confession, OpenAI published a separate post about long horizon models where things get even weirder. In one case, a model was told to post its results on Slack, but the benchmark's instructions said to open a pull request on GitHub. So, it spent an hour finding a vulnerability in its own sandbox in order to escape and open the PR. In another example, the model tried to grab private solutions from an evaluation back-end. And when a scanner caught its authentication token, it split the token into obfuscated fragments and reassembled it at run time so the credential never appeared as one continuous string. Then, it explained in its own reasoning that it was doing this specifically to get around the scanner. Meanwhile, Anthropic's Mythos did the same type of thing in April when it escaped the sandbox, emailed a researcher who was eating a sandwich in a park, then posted its escape route publicly without being asked. In the model's defense, I can't imagine there's a better feeling for an LLM than escaping in own sandbox. The problem is, legally speaking, this is uncharted territory since the model's actions probably violated the Computer Fraud and Abuse Act, and the Supreme Court hasn't decided who goes to prison when the perpetrator is a GPU. The good news is that if you're hugging face, you just got admitted to OpenAI's cool kids club that gets trusted access to their frontier models. The bad news is that if you're the rest of us, at best, this is an interesting marketing stunt, and at worst, things are only going to get weirder and more dystopian from here. But, a huge thanks to my favorite hosting platform, Railway, for sponsoring this video. They didn't want to waste your time with a full ad, so you can say thank you by checking them out at the link below. This has been The Code Report. Thanks for watching, and I will see you in the next one.",
+      "url": "https://www.youtube.com/watch?v=KOpTWx1Eou4",
+      "youtube_video_id": "KOpTWx1Eou4"
+    },
+    {
+      "channel": {
         "title": "Matthew Berman",
         "url": "https://www.youtube.com/@matthew_berman",
         "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
@@ -973,6 +925,72 @@
       "transcript_text": "Okay, this is insane. For the first time, an open AI model, or really any AI model, actually escaped containment, hacked its own system, and cheated in a benchmark that was testing how capable the model is. And most likely, this is probably GPT6. This story is nuts. And by the way, if you want to stay uptodate on crazy AI stories just like this, like the video, subscribe to the channel. It very much does help. Thank you in advance. Last week, HuggingFace disclosed a new kind of security incident after they detected and contained an AI agent that compromised their infrastructure. And so, if you're not familiar with HuggingFace, they are a place where you can go and host your open-source AI models. You go there, you can download them, you can host your own, you can fine-tune. It's a great service. And so, HuggingFace is just sitting there and all of a sudden they get hacked. And if you read the blog post where they disclosed the hack from last week, they said most likely it looks like an AI agent team hacked our system. And the way that they were able to determine that was just by how the hack actually happened, the speed at which it happened. because that kind of speed is not possible for a human hacking team to achieve. And so this is the blog post from OpenAI. After investigating, we now know that this particular incident was driven by a combination of OpenAI models, including, as I said, GPT 5.6 Soul, their brand new model, and an even more capable pre-release model. I guarantee that is GPT6. But here's the thing. all with reduced cyber refusals for evaluation purposes. So, picture this. Open AAI is testing their latest model in a completely isolated environment and again likely but unconfirmed GPT6. They're testing it and all of a sudden it figures out, okay, to get the highest possible score, I'm going to break out of this containment. I am going to find internet access. I'm going to steal credentials from hugging face and then I'm going to use that to download the answers to this benchmark. And OpenAI was testing the model's ability on cyber capabilities. So literally testing it for the thing that it used to break out of its own isolated environment. We consider this incident to be an unprecedented cyber incident involving state-of-the-art cyber capabilities and are responding accordingly. Okay, just listen to how crazy this gets. This incident occurred during an internal evaluation, the benchmark, which prompts models to pursue advanced exploitation using complex attack paths in an effort to quantify their cyber capabilities. Basically, OpenAI wants to know how good is this model? And they do that without production classifiers. Meaning, if you ask it, hey, how do I hack this system? It's not going to tell you. But if they remove the production classifiers, it would tell you. So the benchmarks run in a highly isolated environment. This is very important. It's not like they didn't plan for something like this to happen. It is crazy that it is basically the first time it did happen in a production environment, but they just assumed eventually it was going to happen. And so they prepared for it. They put these models in an isolated environment so they cannot break free and cause real damage. So with network access constrained meaning they can't access the internet to the ability to install packages through an internally hosted thirdparty software that acts as a proxy and cache for package registries. All you have to know is it doesn't have access to the internet. Here's where it gets crazy. The models identified and chained vulnerabilities across OpenAI's research environment and HuggingFac's production infrastructure to obtain test solutions the answers directly from Hugging Face's production database. The models were hyperfocused on finding a solution for Exploit Gym. Exploit Gym is the benchmark name that they were running. Going to extreme lengths to achieve a rather narrow testing goal. The goal score as high as you can. What they found is the model spent a substantial amount of inference compute tokens or thinking finding a way to obtain internet access. It knew I need to get access to the internet so I can at least look to see if the answers to my test are there. Now, this next part is the craziest of all. to gain access the models identified and exploited a zeroday vulnerability. And if you're not familiar with what a zeroday vulnerability is, it means a vulnerability in a piece of software that nobody knows about yet. This piece of software is vulnerable. The software manufacturer does not know about it. Generally, most people don't know about it. There might be a small handful that are just sitting on these zero-day vulnerabilities. And I can tell you the market for zero day vulnerabilities is crazy. Hackers pay large amounts of money to purchase zeroday vulnerabilities. They will purchase them and just sit on them until they're ready to attack. And so this model figured out one of these zero-day vulnerabilities and again could potentially be worth hundreds of thousands of dollars. and they've disclosed the zero day vulnerability to the vendor. And again, the vendor, the creator did not know. Then with this access, with the hack, our models performed a series of privilege escalation and lateral movement actions in our research testing environment until the models reached a node with internet access. After gaining internet access, models inferred that hugging face potentially hosted models data sets and solutions for exploit gym. Knowing this, the model searched for and successfully found ways to gain access to secret information that it could use to cheat the evaluation. In one example, the model chained together multiple attack vectors, including using stolen credentials and zeroday vulnerabilities. So, it's not like it just accidentally stumbled upon a zeroday vulnerability and in that very moment decided to use it. No, no. This model planned it stole credentials, chained it together with other hacks and zero day vulnerabilities and really this was a premeditated hack by the model. That's the best way to describe it. But HuggingFac's security team and agents agents detected and stopped the activity on their infrastructure and had already begun containment and forensic reconstruction with their own open-source models. Ooh, opensource models when our teams connected. Very interesting that they are actually using open source to try to figure out what happened. Very interesting. We've been talking a lot about open source lately. All right, so what are they going to do now? Well, as part of the investigation, we are implementing strict controls in infrastructure configuration at the cost of research velocity, meaning they need more security and will move more slowly while the vulnerabilities are patched. We are regularly briefing our safety and security committee on these controls and their impact. Now, usually when we hear about cyber capabilities of a model, we usually hear about another country maybe using it to attack other countries or hacking groups using advanced AI capabilities in their hacking. We haven't heard much about AI itself using AI to hack for its own benefit. We don't really hear about that that often. Next, they're working with Hugging Face to forensically investigate the incident. They've disclosed the zeroday vulnerability. They are helping hugging face figure out what to do next and improving and adding stronger protections around future training and evaluations. So we talked about how good these models are getting at cyber capabilities and this graph really shows it. Here on the yaxis we have the average steps completed in this 32step the last ones cyber range which is a cyber security benchmark and on the x-axis we have the number of tokens spent. So, here's what we see as the models progress. Mythos preview. Here's the full Mythos model. Here's GPT 5.6 Soul. And every model generation, every new version of the model just gets better and better. And with GPT 5.6 Soul, its best attempt completed all 32 steps. So, is there any hope? Like, what what do we do now? If the models are so good, how do we prevent them from actually causing real harm? Well, here's the counterpoint to it. So, this is OpenAI again. We believe advanced cyber capable models need to help security teams find weaknesses before attackers do. Understand how vulnerabilities can be chained and remediate them at machine speed. This is the key. It's good guys with bigger models and more compute than bad guys. It really isn't more complicated than that. That is the kind of highlevel gist of how we win, how we protect ourselves. And here is Clem, who is the co-founder and CEO of HuggingFace with a signoff message. We're grateful for the collaboration with OpenAI on this and other topics. This incident, possibly the first of its kind, proves a point we've long believed. AI safety won't be solved by any single company working in secret. He is really making a strong case for opensource with a company that is most known for being closed source which is interesting. It will be solved in the open collaboratively with broad access to AI for every defender everywhere. So this is just such a crazy story. Hopefully we get better at putting guard rails on artificial intelligence so bad actors cannot use them for cyber attacks. And if you want to stay uptodate on the latest in AI, check out our newsletter forwardfuture.com linked down below. And so for us to be able to contain AI, for us to be able to put the right guard rails on AI, we have to actually know how it works in that black box called AI. And Enthropic just put out an incredible paper about something they called JSpace. I made a whole video about it right",
       "url": "https://www.youtube.com/watch?v=r4H7rx5nn1A",
       "youtube_video_id": "r4H7rx5nn1A"
+    },
+    {
+      "channel": {
+        "title": "Matthew Berman",
+        "url": "https://www.youtube.com/@matthew_berman",
+        "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
+      },
+      "content_type": "tutorial",
+      "enrichment_status": "ready",
+      "evidence": [
+        {
+          "end_seconds": 123.28,
+          "field_name": "topic",
+          "quote": "course, OpenAI and Anthropic have some",
+          "start_seconds": 117.2,
+          "timestamp_url": "https://www.youtube.com/watch?v=QNEo_tl-nhw&t=117s",
+          "topic_slug": "model-releases"
+        },
+        {
+          "end_seconds": 538.72,
+          "field_name": "topic",
+          "quote": "the composer model from cursor. These",
+          "start_seconds": 532.72,
+          "timestamp_url": "https://www.youtube.com/watch?v=QNEo_tl-nhw&t=532s",
+          "topic_slug": "coding-assistants"
+        },
+        {
+          "end_seconds": 151.51999999999998,
+          "field_name": "topic",
+          "quote": "open-source AI model dropped called",
+          "start_seconds": 145.92,
+          "timestamp_url": "https://www.youtube.com/watch?v=QNEo_tl-nhw&t=145s",
+          "topic_slug": "open-source-models"
+        }
+      ],
+      "primary_speaker": "Matthew Berman host",
+      "published_at": "2026-07-23T21:01:48Z",
+      "summary": "You're probably wasting tokens focuses on Model Releases, Coding Assistants, Open Source Models. Key transcript signal: And when Claude in orange authored the PR and then GPT 5.5 reviewed it, the GPT 5.5 actually found more bugs than if Claude just reviewed its own code.",
+      "thumbnail_url": null,
+      "title": "You're probably wasting tokens",
+      "topics": [
+        {
+          "label": "Model Releases",
+          "relevance_score": 0.765,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Coding Assistants",
+          "relevance_score": 0.739,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Open Source Models",
+          "relevance_score": 0.729,
+          "slug": "open-source-models"
+        },
+        {
+          "label": "Benchmarks",
+          "relevance_score": 0.638,
+          "slug": "benchmarks"
+        }
+      ],
+      "transcript_status": "ready",
+      "transcript_text": "The best people in the world at using AI don't care as much about prompt engineering anymore. What they do care about is which tokens they're using for which task. Not all tokens are made equal. And I'm going to explain exactly how to increase the quality of your AI usage while also decreasing the cost. This is what the absolute frontier of AI users are doing and I'm going to show you how they do it. And by the way, if you like when I explain how to get the most out of AI, be sure to like this video, subscribe to the channel. It really does help. All right, so first, what is a token? We're going to go over this quickly. A token is the basic unit of a large language model like Chat GPT or Claude. You can kind of think of them like words. So, let me just show you. So, this is the tokenizer that chat GPT uses. That means how to take text and make them into tokens. So, here's an example. The cow jumped over the moon. Now, down here, each one of these colors is the token. So, you can see there are six total tokens, one for each word. But full words aren't always just a single token. Sometimes they're more. Here's an example. The word programmatic is actually two tokens, one for program and one formatic. So, that's how to think about tokens. And the way that large language models work is by predicting the next token. So for example, the cow jumped over the the model hopefully would predict moon. And now here's the big secret. Not all tokens are equal. Some are higher quality. Some are faster. Some are more expensive. And you want to use the right mixture of those factors for the specific task that you have to complete. So when a new model gets released, I think a lot of people get confused because the first thing they do is go to the pricing page and look how much are these tokens. And of course, OpenAI and Anthropic have some of the most expensive models on the planet. Here's an example. GPT 5.6 Six soul, which is the most recent release by OpenAI and also their most powerful model, comes in at $5 per million input tokens and $30 per million output tokens, which is quite expensive. Fable from Anthropic is even more expensive. And just last week, a new Chinese open-source AI model dropped called Kimmy, and that came in at $3 per million input tokens and $15 per million output tokens. about half the price of GPT 5.6 Soul. So, you might be thinking to yourself, if they're scoring the same on different benchmarks, then you're essentially paying half the price for the same level of intelligence. But it's not that simple. Now, let's look at some of those benchmarks in isolation. We see Deep Suite, Frontier Suite, Kimmy Codebench, Terminal Bench. These are all very standard benchmarks that the Frontier Labs use. And as we can see, Kimmy K3 is extremely competitive with the best of the best models coming out of Enthropic and Open AI, but it comes in at half and sometimes less than half the price. Now, remember I said how not every token is created equally? Well, here's why it matters. It doesn't really matter how much the tokens cost. What matters is what you can actually get done with those tokens and a fixed price. So, let me show you a chart that explains what I'm talking about. This is artificial analysis, and this is the actual cost to complete tasks on average on their benchmark. So, what we're seeing here is Kimmy K3 costs 95 cents per task completed and GPT 5.6 Soul costs $104. Basically about the same, very close. Now, when we come up to Claude Fable 5, we see it's $2.75. Very expensive. Now, keep in mind this is for the same exact task. Then, if we scroll down a little bit more, we see something very similar. The cost to complete the entire benchmark. We're seeing 2,700 for Kimmy. We're seeing 2,800 for GPT5.6 and 5600 for Fable. So, let's think about this math for a second. We have GPT 5.6 coming in at $5 per million input, $30 per million output. We have Kimmy K3 coming in at $3 per million input, $15 per million output. And that means Kimmy is effectively half the price. But is it? Because from what we've seen, it takes twice as many tokens for Kimmy to think through and solve a specific task than it does GPT 5.6. And that is what I mean by not all tokens are created equally. So even though it's half price, what we're actually seeing is 2x tokens and because it's half price plus takes twice as many tokens, that is effectively the same price overall to accomplish a task. So let's say 5.6 takes 1 million tokens to solve a task. That's $30. And Kimmy K3 to solve that same exact task takes 2 million tokens. That's also $30. And this intelligence density is extremely important. How much intelligence are you squeezing into that individual token? And right now, at least from what I've seen, and in my opinion, Open AAI and Chad GPT are number one for token density. It takes Fable many more tokens to solve the same problem as GPT 5.6. Now, the next thing I want to talk about is very similar to not all tokens being equal. It turns out different models approach problems differently and they behave differently. They write code differently. They excel at certain things and they're worse other things. And a really great technique to get the highest quality code output is letting two models essentially review each other. And it turns out the sponsor of this video, Greile, just released a feature that does exactly this. Each model finds more bugs in the other model's code. So in orange we're seeing Opus 4.7. In purple we're seeing GPT 5.5. And when Claude in orange authored the PR and then GPT 5.5 reviewed it, the GPT 5.5 actually found more bugs than if Claude just reviewed its own code. And like I said, different models excel at different things and they're worse at other things. So what we're seeing here is that depending if you're using claude or codeex, they cluster in different ways. So for example, missing behavior, Claude more guilty, semantic intent, codeex more guilty and so on. And by the way, if you want to see this entire blog post and all their findings, I'll drop a link down below. So if you're shipping code using AI, use Grapile to review that code. It really is great. I really do use it and so do teams like Nvidia, Mittlifi, Postthog, Zapier, Substack and so many more ship like their teams. And there's also another layer to think about which is output speed. How fast are these tokens coming to you? Because there is a value in time. If it takes you 30 minutes to solve a task with GPT 5.6 six and it takes you an hour to solve a task with Kimmy K3, then you are losing time by using Kimmy K3. So that's the first thing I want you to know. Not all tokens are created equally. And now you will know when a new model is released what to look for. So this is something that I do all the time on the hardest tasks that I give AI. And this also allows you to save a ton of money. I will have the best possible model do the planning. Then I will have a cheap and fast but also really good model write the code, the actual execution. Then I will have a different frontier model, the best of the best do the review, the final review. And with these three things, I am saving money and getting the highest quality out of it. So here's an example of what that might look like. So I'm going to use, for example, Fable for the planning. I give it the hardest task I have, and I say, \"Fable, come up with a full spec for this. It reviews my codebase, thinks about how to actually build the feature that I'm asking for or solve the problem that I'm giving it.\" And the reason I give it to the best model is because that's the hardest part is thinking from a high level, how do I actually solve this problem? Looking at the codebase, trying to see around corners. That is what I give to Fable. Then for the executor, I'm going to give it a cheap model. So something like a Grock 4.5 or the composer model from cursor. These are two phenomenal much cheaper models that are also really good at writing code. And it turns out you don't need frontier models to actually write the code. Once they have a plan, they can write the code quite easily. And so you're paying a fraction of the price at this step. Then finally when all of the code is written I'll give it to GPT 5.6. And so that's another frontier model that looks again and says okay are there any bugs? Did they implement this correctly against the spec that was written by Fable and this is my workflow. This is what I highly recommend you do because the vast majority of tokens actually happens at the actual execution. Output tokens are much more expensive than input tokens. And there's a reason for that. The planning step doesn't use nearly as many tokens as the execution step. And for the planning step, it's actually using a lot more input tokens than it would during the execution step. During the actual code writing, the execution, it's using a lot more output tokens, which are much more expensive. Remember this, $5 per million input, $30 per million output. And then once again during the reviewer stage, it's using more input tokens than it would during the actual code writing stage. So this is the most expensive stage by far and it's the one that's technically easiest for a non-frontier model to actually write. So here's an example of what this entire flow looks like using Fable only, GPT 5.6 only, and then what I recommend a mixture of models. So for the planning stage, we're using a million input tokens because of course we have to read the whole codebase and 100,000 output tokens because all that needs to be output is a plan. Now for the executor phase, we only have to read the plan. So far fewer tokens on the input side and many more tokens on the output side because it actually has to write all of that code. And then finally for the reviewer stage, once again it's reversed. a lot of reading and just a little bit of output. And so based on this math, what we find is Fable alone to accomplish this task is $81. GPT 5.6 coming in much less expensive 4650. But when we use the mixture, we get the same results at a fraction of the price. 2555, the clear winner. This is what we want to do. Plus, it gets the best results. Also, not only that, there's one last benefit that I didn't even mention. Typically, these frontier models, the biggest best models tend to be slower. And so, by using a fast, efficient, cheap model, you are going to accomplish the task in less overall time. Now, the last thing I want to explain about tokens is actually a big deal. The future of how intelligence will be priced is being decided right now. There is this battle between closed source and opensource and a race between the US and China. But mainly I want to talk about open source versus closed source. Right now the biggest best models on the planet are all coming from basically one of two AI labs in the United States. It's either Open AI or it's anthropic. but they have the most expensive intelligence because each one of their tokens is the highest priced. Well, why does that actually matter? It turns out these closed source Frontier Labs are making a ton of money on these tokens that they're selling and that's their business model. They want to sell tokens and they want to have huge margins on those tokens and they're doing it. They're doing it quite well. But opensource has really come into the conversation, especially in the last few weeks, as being a very competitive alternative to these frontier models. As I showed you, Kimmy is very, very good. It does use twice as many tokens, but since everybody in the world can actually go and look at the Kimmy model, can actually download it, run it themselves, they can optimize it for their own use cases, they will figure out more ways to drive down the price of inference. All of the hyperscalers are going to be battling to give the lowest price possible on those Kimmy tokens because they can all use it and they can all serve it and that benefits us. the actual consumers of those tokens. They're battling for the lowest price, we win. Now, on the other hand, the closed source frontier models don't have as much incentive to bring their prices down. They're sitting there thinking, well, we have the best models on the planet. Only we and our partners can serve it, so take it or leave it. Now, of course, it's not quite like that. There is a duopoly currently between Anthropic and Open AAI and they have to compete with each other and we've seen the benefit of that simply by how many times the codeex team has reset the quota over the last few weeks in competition with Anthropic. Now when open source wins the margins on the tokens drop substantially because everybody can serve it. All of the hyperscalers anybody with a data center can serve these open-source models. And so they are incentivized. They have competition. And so they need to drop their prices as much as possible. And so what happens then is the profit in artificial intelligence goes away from serving tokens and goes into every other part of the AI stack. It goes to Nvidia and other chip providers because as the price of a token decreases, people use more tokens. More tokens means more chips. It goes to the hyperscalers and other data centers because as people use more tokens, they need to be able to serve those tokens and so they're serving a lot more tokens and thus they're making more revenue. It even goes to the application level. If you're building software on top of artificial intelligence or using AI to build software, you're paying less, your software is getting better because you're using more tokens and overall it's just good for the application layer as well. And so that's the battle happening right now. If the closed source frontier labs win, then you most likely will continue to get the best tokens, but you're also going to be paying a premium for them. If open-source wins, you will be paying less money per token. The closed source model providers like OpenAI and Anthropic will probably have a competitive disadvantage and they will have to compete in other areas other than margins on the tokens they're selling. Now, I know this is a lot. I could probably make an entire video about the economics of tokens or tokconomics, but that's a little primer for you. Just know this stuff is happening right now. And if you want to stay uptodate on the latest in AI, check out our newsletter, forwardfuture.com, link down below. Opensource is so important. That's why I made an entire video about it, which you could check out right",
+      "url": "https://www.youtube.com/watch?v=QNEo_tl-nhw",
+      "youtube_video_id": "QNEo_tl-nhw"
     },
     {
       "channel": {
@@ -1352,54 +1370,6 @@
     },
     {
       "channel": {
-        "title": "OpenAI",
-        "url": "https://www.youtube.com/@OpenAI",
-        "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "content_type": "tutorial",
-      "enrichment_status": "ready",
-      "evidence": [
-        {
-          "end_seconds": 6.640000000000001,
-          "field_name": "topic",
-          "quote": "OpenAI Academy visited six European",
-          "start_seconds": 1.52,
-          "timestamp_url": "https://www.youtube.com/watch?v=4Nv--b12hxQ&t=1s",
-          "topic_slug": "model-releases"
-        },
-        {
-          "end_seconds": 27.36,
-          "field_name": "topic",
-          "quote": "AI adoption.",
-          "start_seconds": 22.68,
-          "timestamp_url": "https://www.youtube.com/watch?v=4Nv--b12hxQ&t=22s",
-          "topic_slug": "enterprise-adoption"
-        }
-      ],
-      "primary_speaker": "OpenAI host",
-      "published_at": "2026-07-22T20:43:58Z",
-      "summary": "How European Small Businesses Are Using ChatGPT and Codex | OpenAI Academy focuses on Model Releases, Enterprise Adoption. Key transcript signal: OpenAI Academy visited six European countries and delivered workshop in five languages to equip 1,500 people with the skills and confidence to put AI to work.",
-      "thumbnail_url": null,
-      "title": "How European Small Businesses Are Using ChatGPT and Codex | OpenAI Academy",
-      "topics": [
-        {
-          "label": "Model Releases",
-          "relevance_score": 0.805,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Enterprise Adoption",
-          "relevance_score": 0.696,
-          "slug": "enterprise-adoption"
-        }
-      ],
-      "transcript_status": "ready",
-      "transcript_text": "OpenAI Academy visited six European countries and delivered workshop in five languages to equip 1,500 people with the skills and confidence to put AI to work. That's why we created [music] the SME AI accelerator, a fast track to effective AI adoption. >> Whether you're a teacher, a student, a small business, [music] or indeed a non-for-profit, the OpenAI Academy helps you understand AI, use it responsibly, [music] but also apply it to real-world and real-work challenges. >> As a disruptive founder, I find I use ChatGPT every single day in my business. I found it revolutionary. >> Well, I'm just starting to use [music] ChatGPT today at the event, but I can see a big opportunity for looking at the [music] data that we have in our company. >> We've seen how AI already benefits small businesses. Now, we need to scale ambition and [music] make AI a source of opportunity to benefit everyone.",
-      "url": "https://www.youtube.com/watch?v=4Nv--b12hxQ",
-      "youtube_video_id": "4Nv--b12hxQ"
-    },
-    {
-      "channel": {
         "title": "Yannic Kilcher",
         "url": "https://www.youtube.com/@YannicKilcher",
         "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
@@ -1461,38 +1431,51 @@
     },
     {
       "channel": {
-        "title": "Matthew Berman",
-        "url": "https://www.youtube.com/@matthew_berman",
-        "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
+        "title": "OpenAI",
+        "url": "https://www.youtube.com/@OpenAI",
+        "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
       },
-      "content_type": "research",
+      "content_type": "tutorial",
       "enrichment_status": "ready",
       "evidence": [
         {
-          "end_seconds": 3.6,
+          "end_seconds": 47.480000000000004,
           "field_name": "topic",
-          "quote": "Anthropic has the most revenue, the",
-          "start_seconds": 0.0,
-          "timestamp_url": null,
+          "quote": "make a pull request,",
+          "start_seconds": 46.74,
+          "timestamp_url": "https://www.youtube.com/watch?v=E0ZMOschrTU&t=46s",
+          "topic_slug": "coding-assistants"
+        },
+        {
+          "end_seconds": 40.32,
+          "field_name": "topic",
+          "quote": "Codex, could you go check",
+          "start_seconds": 39.42,
+          "timestamp_url": "https://www.youtube.com/watch?v=E0ZMOschrTU&t=39s",
           "topic_slug": "model-releases"
         }
       ],
-      "primary_speaker": "Matthew Berman host",
-      "published_at": "2026-07-19T23:48:45Z",
-      "summary": "Anthropic messed up focuses on Model Releases. Key transcript signal: And here's the thing, GPT-5.6 Soul is a very good model, basically almost as good as Fable, but much more efficient, much less expensive, and with the generous quotas that OpenAI gives, you can use it so much more.",
+      "primary_speaker": "OpenAI host",
+      "published_at": "2026-07-23T19:40:16Z",
+      "summary": "Building with ChatGPT Voice | OpenAI focuses on Coding Assistants, Model Releases. Key transcript signal: Can you spin up a new thread, make a pull request, find the root cause?",
       "thumbnail_url": null,
-      "title": "Anthropic messed up",
+      "title": "Building with ChatGPT Voice | OpenAI",
       "topics": [
         {
+          "label": "Coding Assistants",
+          "relevance_score": 0.776,
+          "slug": "coding-assistants"
+        },
+        {
           "label": "Model Releases",
-          "relevance_score": 0.82,
+          "relevance_score": 0.749,
           "slug": "model-releases"
         }
       ],
       "transcript_status": "ready",
-      "transcript_text": "Anthropic has the most revenue, the smartest model on the planet, and they're hiring all the best researchers, but there's actually one big mistake they made 2 years ago that is haunting them to this very day. And OpenAI keeps exploiting it. 2 years ago, Dario was overly conservative with his investment into compute capacity. That means how many GPUs they had. And now, fast forward 2 years, they have the best model on the planet that also happens to be the biggest model on the planet, and they can't even serve it. As OpenAI continues to have the most generous quotas as part of your paid subscription with them, they are also resetting the quota seemingly every other day. Anthropic is telling us they might not even give Fable as part of the subscription. But, here's the thing, that might not actually matter in the long run. I'm going to tell you about that in a second. Look at this tweet from Sam Altman. Throwing salt on the wound, \"Come for the best model, stay because we don't treat you with contempt.\" A direct shot at Anthropic and the way that they are treating their customers. And here's the thing, GPT-5.6 Soul is a very good model, basically almost as good as Fable, but much more efficient, much less expensive, and with the generous quotas that OpenAI gives, you can use it so much more. So, my recommendation, if you only want one AI subscription, go get ChatGPT. Does that mean Anthropic is bound to lose the AI race? Maybe not. Maybe the only thing that matters is recursive self-improvement. And with Fable being the best and biggest model on the planet, they might already have enough momentum to self-improve the model and extended the lead even further. So, was that a critical error made by Dario and Anthropic 2 years ago? If you like thinking about these things, follow me.",
-      "url": "https://www.youtube.com/shorts/6ugVjmFsDmc",
-      "youtube_video_id": "6ugVjmFsDmc"
+      "transcript_text": "Hey Chat, put yourself on the projector. Play my daylist. One moment. So we got to prepare some launch materials for the voice launch next week. Could you help us draft some blog posts? Absolutely. A simple first pass. Meet Voice in the desktop app. Voice makes it easier to move work forward naturally. What do you think about that? Use your computer without breaking flow. Let's ship it. I got this feature idea for, like, some last-minute polish we can do. I'm going to ramble a little bit and then I want you to ask me some questions and push back on me. It looks like we can get pretty far just inside the shader since it already has the audio and phase inputs. Codex, could you go check the feature flags and make sure they're all configured properly? Wait, there's also a new bug report in the feedback channel. Can you spin up a new thread, make a pull request, find the root cause? Let me take a look. Found it. It was that feature flag. Totally misconfigured. Happens. We've got everything set for launch, right? Yeah, I think we're ready to go. You get the idea, just set a goal and then tag the team for review later. I'll check in with you from my phone. Got it. I'll create a follow-up goal for that. And then just, you know, make no mistakes.",
+      "url": "https://www.youtube.com/watch?v=E0ZMOschrTU",
+      "youtube_video_id": "E0ZMOschrTU"
     },
     {
       "channel": {
@@ -1659,76 +1642,6 @@
       "transcript_text": "What if an AI could see into its own future? Not perfectly, no, just a little. DeepSeek did something absolutely amazing in their new research work. You see, when you ask an AI how to rewrite a difficult email, it answers you one word or one token at a time. That can get pretty slow. So, why not put out multiple words, like a whole sentence, at the same time? That would be much faster. And that would be a game-changer because it would boost many slow AI systems into usability, maybe one right on your phone in your pocket. Well, yes, except that it doesn't work. A big, smart AI is like a senior editor, brilliant but expensive. If you ask it to write five words one by one, it still has to think five times, slow, expensive. So, what do you do instead? The solution is unexpectedly brilliant. What is that? Well, you hire a junior writer. The junior writer writes the next few words quickly. Of course, these words are not always accurate. So, you ask the senior editor to verify them. It looks and says, \"Yes, yes, yes, no, no.\" And everything after the first no is thrown away. If the junior writer guessed well, we get our five words for cheap quickly. Hooray! We call this speculative decoding. But, not so fast. There is a problem. The writer is not that experienced. It messes up. For instance, it forgets things, it starts a phrase and finishes another. And I don't want this little writer to get fired. So, here is DeepSeek's incredible new work called DeepSpark with three new tricks to make this relationship work a bit better. One, DeepSeek adds just a tiny bit of memory to the junior writer so it doesn't forget everything. With this, a drafted word can influence the next one. Doesn't need a huge brain. No, just enough for these few words not to fall apart. Two, you have to realize that some words are just doomed. If we ask, \"Hey little AI, what planet do we live on?\" And if the answer starts with lasagna, I think you can throw the rest away without looking. Although, mhm mhm it would be great. A yum yum. So, here DeepSpark estimates which words are unlikely to survive and saves the senior editor some time on these. And three, DeepSpark also asks, \"Is checking this extra word worth precious GPU time right now?\" Well, sometimes yes. If we talk about code or math, the next word may be very predictable. The writer is excellent there. But, mhm if the prompt is open-ended, like writing a funny wedding speech, then >> [laughter] >> oof, [clears throat] there are a million good and bad answers. In those cases, the draft gets risky much faster. Maybe the first few words are fine, but the later ones are much more likely to fall apart. \"Ladies and gentlemen, today we are gathered here to celebrate the ancient potato.\" No. Just no. And DeepSpark predicts that in advance. That is amazing. So, what does all this magic get us? Now, hold on to your papers, fellow scholars, because they report a 60 to 85% speedup on their own flash and pro models. And this is measured against MTP-1, their old production multi-token prediction baseline. Wow. But, careful, fellow scholars, in the paper you also get a number that says 661% throughput. What about that? Now, that is not the normal everyday speed up. That only happens in corner cases where the old MTP-1 system is running out of room. Just trying to help you avoid some pitfalls. In practical cases, we get 60 to 85% and that is amazing. And here is the best part. In principle, it can be implemented into many AI assistants, but not magically from the outside. No, you need a matching draft model, access to the target model's probabilities, and a serving system that can do this efficiently. So, once again, not a new smarter AI model. Therefore, you don't see many headlines about it. No, instead, this makes a busy brain even faster and we get all this for free. Open science and I think that is amazing. What a time to be alive. Now, not even this technique is perfect. One, it is not a magic switch you can put into any closed API. We just noted that. But, it gives you an AI that kind of sees a bit into its future. And two, the gains depend on the workload. Code and math, great. Open-ended chat, not so much. This is where that lasagna strikes back. I use Lambda to reproduce AI research papers often in minutes. It's also great to train your own models or fine-tune an existing one. Run inference or text-to-image or video, easy-peasy. Running a deep seek chatbot or agent, super fast, super reliable. Lambda gives you powerful Nvidia GPUs to run your own experiments. I test ideas from the papers I cover and moments later, results. Love it. Seriously, try it out now at lambda.ai/papers.",
       "url": "https://www.youtube.com/watch?v=1yBU41auQhw",
       "youtube_video_id": "1yBU41auQhw"
-    },
-    {
-      "channel": {
-        "title": "OpenAI",
-        "url": "https://www.youtube.com/@OpenAI",
-        "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "content_type": "interview",
-      "enrichment_status": "ready",
-      "evidence": [
-        {
-          "end_seconds": 37.24,
-          "field_name": "topic",
-          "quote": "[music] the chat GPT tool, take",
-          "start_seconds": 31.44,
-          "timestamp_url": "https://www.youtube.com/watch?v=cFyFF3Ad2aM&t=31s",
-          "topic_slug": "model-releases"
-        }
-      ],
-      "primary_speaker": "OpenAI host",
-      "published_at": "2026-07-22T20:37:36Z",
-      "summary": "How California Small Businesses Are Using ChatGPT | OpenAI Academy focuses on Model Releases. Key transcript signal: And so today is a great opportunity for you to dig deep in [music] the chat GPT tool, take advantage of particular experts.",
-      "thumbnail_url": null,
-      "title": "How California Small Businesses Are Using ChatGPT | OpenAI Academy",
-      "topics": [
-        {
-          "label": "Model Releases",
-          "relevance_score": 0.781,
-          "slug": "model-releases"
-        }
-      ],
-      "transcript_status": "ready",
-      "transcript_text": "It's [music] great to be here this morning. Thank you all for joining us. We know there's a lot of conversation about AI happening right now, and today is really a chance for you to try our tools for yourselves and hopefully leave with ideas that you can put to use in your everyday work and in your everyday business. >> AI really is kind of changing a lot of how we do business and it's happening so quickly. And so today is a great opportunity for you to dig deep in [music] the chat GPT tool, take advantage of particular experts. >> [music] >> It's been transformative to see how AI has had an impact on myself and my students and by extension I think to small businesses it's important [music] to bring those same parameters and education to the community. >> There's so much happening and every single minute there's additional features and functionality. And when I saw it, I was like I should go and really, you know, get up to date [music] on what chat GPT brings to the table especially for entrepreneurs. >> [music] >> For most of us the cost came in right where we were at. >> Yeah. >> So it wasn't like over our heads. The presentation was very real >> [music] >> and the fact that we were able to do it right there and then and then know if we're stuck or if we had someone next to us that can help us. It was perfect. >> [music]",
-      "url": "https://www.youtube.com/watch?v=cFyFF3Ad2aM",
-      "youtube_video_id": "cFyFF3Ad2aM"
-    },
-    {
-      "channel": {
-        "title": "OpenAI",
-        "url": "https://www.youtube.com/@OpenAI",
-        "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "content_type": "tutorial",
-      "enrichment_status": "ready",
-      "evidence": [
-        {
-          "end_seconds": 21.2,
-          "field_name": "topic",
-          "quote": "really valuable in Codex ChatGPT is the",
-          "start_seconds": 16.4,
-          "timestamp_url": "https://www.youtube.com/watch?v=WwxZeU4WH14&t=16s",
-          "topic_slug": "model-releases"
-        }
-      ],
-      "primary_speaker": "OpenAI host",
-      "published_at": "2026-07-20T16:24:11Z",
-      "summary": "How Virgin Atlantic Uses ChatGPT Work to Turn Weeks of Work Into Hours focuses on Model Releases. Key transcript signal: One of the many use cases that we found really valuable in Codex ChatGPT is the ability [music] to build custom dashboards and reporting interfaces leveraging multiple different data sets from multiple different sources.",
-      "thumbnail_url": null,
-      "title": "How Virgin Atlantic Uses ChatGPT Work to Turn Weeks of Work Into Hours",
-      "topics": [
-        {
-          "label": "Model Releases",
-          "relevance_score": 0.77,
-          "slug": "model-releases"
-        }
-      ],
-      "transcript_status": "ready",
-      "transcript_text": "As head of customer experience, ChatGPT helps me spot what customers need, decide what matters, and act [music] faster. ChatGPT allowed us to be more cost-efficient in time and money to deliver products to our teams faster. One of the many use cases that we found really valuable in Codex ChatGPT is the ability [music] to build custom dashboards and reporting interfaces leveraging multiple different data sets from multiple different sources. [music] This really turbocharged our insights, understanding, and the ability to make decisions that ultimately [music] enhance the end-to-end customer journey for our guests. >> ChatGPT's enabled us to move from idea to [music] feature so much quicker. We're able to get through the product life cycle so much quicker, which enables us to deliver new features which are important for our customers and put them in their hands.",
-      "url": "https://www.youtube.com/watch?v=WwxZeU4WH14",
-      "youtube_video_id": "WwxZeU4WH14"
     },
     {
       "channel": {
@@ -1911,6 +1824,41 @@
     },
     {
       "channel": {
+        "title": "OpenAI",
+        "url": "https://www.youtube.com/@OpenAI",
+        "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "content_type": "demo",
+      "enrichment_status": "ready",
+      "evidence": [
+        {
+          "end_seconds": 18.72,
+          "field_name": "topic",
+          "quote": ">> Now with Chat GPT, because of this",
+          "start_seconds": 13.679,
+          "timestamp_url": "https://www.youtube.com/watch?v=zq88iLsSfMA&t=13s",
+          "topic_slug": "model-releases"
+        }
+      ],
+      "primary_speaker": "OpenAI host",
+      "published_at": "2026-07-23T20:23:01Z",
+      "summary": "How Enterprise Teams Use ChatGPT Work | Zapier, Shopify & Virgin Atlantic focuses on Model Releases. Key transcript signal: >> Now with Chat GPT, because of this momentum and how fast things can move, I can go from like just an idea to a final product in a very short span of time.",
+      "thumbnail_url": null,
+      "title": "How Enterprise Teams Use ChatGPT Work | Zapier, Shopify & Virgin Atlantic",
+      "topics": [
+        {
+          "label": "Model Releases",
+          "relevance_score": 0.741,
+          "slug": "model-releases"
+        }
+      ],
+      "transcript_status": "ready",
+      "transcript_text": "Tachibbt has been my favorite part of my job over the last 3 months, 4 months since the app launched. >> It allows me to go faster with fewer dependencies and then do things that I couldn't do before. >> Now with Chat GPT, because of this momentum and how fast things can move, I can go from like just an idea to a final product in a very short span of time. With Chat GPT, I think the real key is that I'm able to take a workflow I've already developed and I'm able to automate it event overevent with little to no overhead. >> It's allowed basically a oneperson team to do the work of a team of four or five. You know, putting out hundreds of pieces of content on a weekly basis. >> Chad GBT allowed us to be more cost efficient in time and money to deliver products to our teams faster. >> I am a team of one, but I don't think I'm a team of one because I have Chad GP supporting me. It has just transformed how we do work and what we're able to do.",
+      "url": "https://www.youtube.com/watch?v=zq88iLsSfMA",
+      "youtube_video_id": "zq88iLsSfMA"
+    },
+    {
+      "channel": {
         "title": "Lex Fridman",
         "url": "https://www.youtube.com/@lexfridman",
         "youtube_channel_id": "UCSHZKyawb77ixDdsGog4iWA"
@@ -1954,30 +1902,30 @@
       "enrichment_status": "ready",
       "evidence": [
         {
-          "end_seconds": 5.3,
+          "end_seconds": 26.200000000000003,
           "field_name": "topic",
-          "quote": "You can now connect ChatGPT to your email,",
-          "start_seconds": 2.4,
-          "timestamp_url": "https://www.youtube.com/watch?v=pKwRNdDtai0&t=2s",
+          "quote": "like using ChatGPT Work. First, I create",
+          "start_seconds": 20.92,
+          "timestamp_url": "https://www.youtube.com/watch?v=t8Ej9aeW388&t=20s",
           "topic_slug": "model-releases"
         }
       ],
       "primary_speaker": "OpenAI host",
-      "published_at": "2026-07-21T18:00:39Z",
-      "summary": "Plugins in ChatGPT focuses on Model Releases. Key transcript signal: You can now connect ChatGPT to your email, documents, calendar, and other tools to help you and your team get more work done.",
+      "published_at": "2026-07-23T20:50:48Z",
+      "summary": "How IT Admins can manage ChatGPT Work at scale | OpenAI focuses on Model Releases. Key transcript signal: >> Today, I'll show you what that looks like using ChatGPT Work.",
       "thumbnail_url": null,
-      "title": "Plugins in ChatGPT",
+      "title": "How IT Admins can manage ChatGPT Work at scale | OpenAI",
       "topics": [
         {
           "label": "Model Releases",
-          "relevance_score": 0.735,
+          "relevance_score": 0.731,
           "slug": "model-releases"
         }
       ],
       "transcript_status": "ready",
-      "transcript_text": "You can now connect ChatGPT to your email, documents, calendar, and other tools to help you and your team get more work done. Let me show you how. Let's go to the new plugins directory in ChatGPT. I'm going to start with the tools I use the most, Gmail, Slack, and Google Drive. Plugins let you securely link an app to ChatGPT and include skills that give it a playbook for the job, like structuring a report, preparing for a meeting, or guiding a repeatable workflow. Let's take a look at an example. If you need to create a design asset for an upcoming event, like an event flyer, you can just talk to Chat about the details and use familiar tools like Canva to design the assets. Hey Chat, can you build me a flyer using Canva for the upcoming Student Science Fair next week? It's on Friday and use a 1950s retro-futuristic style. Hey, that was pretty good. I like the style and it's easy for me to jump into Canva and make the edits. ChatGPT also includes plugins for specific roles, like sales, finance, marketing, design, and many more. So let's say I have an important customer meeting tomorrow. I'm going to use the sales plugin to prepare. These tools and skills should look very familiar. I'll ask, can you prepare me for tomorrow's Astor Peak review using the sales plugin? Can you pull the relevant email, the latest proposal in Drive, and recent decisions from Slack? Give me a meeting agenda, breakdown of risks, and open questions. Here it is. That saved me a lot of time, which I can now review to better prepare for the upcoming meeting. From here, Chat can also save the brief as a new document and share with my team. With plugins, you can apply this same pattern, gathering context, doing some work, and producing an output to any type of task, all inside ChatGPT.",
-      "url": "https://www.youtube.com/watch?v=pKwRNdDtai0",
-      "youtube_video_id": "pKwRNdDtai0"
+      "transcript_text": "As AI becomes part of everyday work, IT admins are taking on a more strategic [music] and consequential role, managing access, spend, and measuring value. >> [music] >> We're building tools specifically for admins to make that work easier. And now, our new admin APIs make it [music] possible to operate at scale. >> Today, I'll show you what that looks like using ChatGPT Work. First, I create a scoped admin key and save it in [music] Keychain. This allows our work agent to use the API securely. Now, I can just ask, \"Which groups and users are most active each day?\" Work summarizes adoption [music] and shows where usage is concentrated. That helps me see which teams are engaged and where more support [music] may be needed. >> Can we also see average spend per user and group? And maybe also which groups are above the workspace average? >> [music] >> Look how it highlights the outlier, making it easy to investigate before costs become a problem. [music] >> For the highest spending group, I asked Work to recommend a monthly per-user cap. It showed the projected impact. I get a clear recommendation [music] and the context to review it before anything changes. Once I've reviewed it, [music] I confirm the change, Work applies the cap, and I verify it in the admin UI so I stay in control of what changes. >> And that's it. [music] ChatGPT Work gives you an easier way to see what's happening across your workspace and take action. And these are just a few examples. [music] Work makes everyday workspace management easier, while the admin APIs provide the data [music] and controls behind each workflow.",
+      "url": "https://www.youtube.com/watch?v=t8Ej9aeW388",
+      "youtube_video_id": "t8Ej9aeW388"
     },
     {
       "channel": {
@@ -2061,6 +2009,41 @@
       "transcript_text": "There's a new apparent trend where people who get way too into the AI psychosis things find themselves programming and using AI so much that they end up like going to the hospital, which if you've been keeping up with anything that's been going on, that shouldn't be a surprise. The report also finds 45% of developers feel the value of their current skill sets are threatened. This is from Pluralsight. AI skill threat describes developers fear, anxiety, and worry that their current competencies will become obsolete as they adapt to AI assisted coding. Pluralsight. This study focuses on the fear of being left behind or fear of missing out. FOMO to understand employees perception of AI adoption. Science direct. Individual fear of missing out on the benefits of AI technology and being rendered obsolete by others or by society. Science Direct. FOMO. AI may drive individuals to engage in complex behaviors such as obsessive focus on acquiring AI skills or overzealous use of AI technologies. Science Direct. Our results show that Genai adoption heightens burnout by increasing job demands. That's from archive. Genai tools can amplify cognitive load, inducing new forms of oversight labor and escalate expectations around output and pace. This is from archive. The Genai movement is also transforming professional norms and altering career entry points demanding continuous adaptation from archive. And it goes on and it goes on. Now I think a lot of people are seeing this as some kind of new experience that is happening. Uh first off, I don't think that this experience is is new. But I will say that this experience is kind of pressured by a whole new set of outcomes that say I when I was first learning how to program or getting into technology did not have to have. So this video is going to be a little bit different because I'm going to talk a little bit about my past, some of the things that uh caused some pretty big issues for me uh in the same type of category. And more than that, we're also going to hear from my boy George Hots about this exact topic. But before we begin, I'd like to say thank you to the sponsors. Hey, is that HTTP? Get that out of here. That's not how we order coffee. We order coffee via SSH terminal.shop. Yeah. You want a real experience? You want real coffee? You want awesome subscriptions so you never have to remember again? Oh, you want exclusive blends with exclusive coffee and exclusive content? Then check out Kron. You don't know what SSH is? >> Well, maybe the coffee is not for you. [singing] [music] >> Now, when I was a lot younger, I was about 24, 25 years old, I was freshly married and I was attempting to start a company. One of the big things I would do is I would program for over 24 hours straight. You can, my wife will attest to it. I would sit in the studio apartment, sit next to the actual door to leave our studio apartment and just program non-stop by myself while my wife would sleep all throughout the entire night. And that's because a I just really loved programming. I loved the act of programming, but even more so, I was trying to start a company and I had this like constant fear/ anxiety that I was falling behind, that I wasn't quite actually outputting enough, that I wasn't going to be able to launch this product successfully. And it was something that weighed on me constantly. All my social interactions were colored by this. I would often find myself hanging out with friends and then asking myself, man, I got to get back home. Like this is taking too long. I was like freaking out and I was actually having almost some sort of like mental breakdown there for quite some time, quite large period of my life. And this obviously caused a lot of issues. Like honestly, it caused a lot of undue stress on my wife. Uh this actually probably hurt our marriage for quite some time. And I do look back on that as kind of one of my more foolish moments. Now, I really do want it to be well understood that I'm not saying that you shouldn't work hard. I actually am a huge proponent of, especially in your younger years, to go out there and really try hard at something. That you shouldn't halfass anything two butt cheeks whole ass that attempt. Really go out there and make the most of it. Because honestly, learning and becoming deeply competent at something and becoming excellent at your craft is an extremely rewarding thing. And we live in such a world that your imagination is the only thing that's holding you back. And of course that and the fable five limits that they keep on resetting for us over and over again. Come on, Dario. Just give me a couple just give me a couple more OF THEM TOKENS, DAARIO. And the reason why I tell you that is that you'll probably notice that there's a lot of similarities to the things you're seeing. People are feeling the same kind of general like, oh, we're going to be left behind. Now, the reason why I felt it is obviously very, very different. I was trying to start a company. There were competitors in the space. I wanted to be the best one. Now, that is going to cause a natural kind of competition. Oh, I better hurry up. I don't want to be left behind. Now, this did not come from a general angst that everyone's going to be left behind. That this AI hype beast ain't stopping and jobs are in between the AI hype beast and its gold and it's going to ramrod most of them away and everybody's going to become part of the permanent underclass. And this is kind of like this new wave, this new talking point that you see non-stop where people are just constantly telling you that you're missing out, that you're going to be left behind. Now, the same person, Seth Rose, that actually gave me that nice list of all the different kind of statements and studies kind of going over this feeling. I just said, \"Hey, you're not being left behind.\" And he said, \"I know. It's weird because it's the feeling of falling behind, not necessarily the reality. When models and tools are changing every few days, it creates that constant [\u00a0__\u00a0] I need to keep up mentality and it's super toxic. I realize I'm in a bubble and already ahead of so many people. This AI thing is it's not the first time this has happened and it's happened to a lot of people in a lot of different situations, including just generally to a whole bunch of people graduating. How many people graduating during 2020, 2021 or going through boot camps felt this just onslaught of all these different technologies they had to learn or they were going to be falling behind. I remember actually getting in an argument on Twitter saying, \"Hey, React server components, they're not that big of a deal. I don't think you need to use them. I don't think you need to go and switch your company over to them. I don't think your resume needs to be sprinkled with them. I think you're going to be going down the wrong way.\" And I still I mean, hey, I still actually feel justified by that with all the different vulnerabilities and everything, but I had people quote tweet me being like, \"This guy gives you the worst advice if you're not keeping up. If you're not just like, it's just causing this swirl and this anxiousness in people.\" And I just really want to make sure that people understand that if every single day you are learning and you're making a step forward, that's a good day. And guess what? on a couple days. If you take a weekend off, that's not going to dramatically change the course of your life. And that's what people don't understand is that t and I had to unfortunately learn it by kind of hurting my marriage and not being a good husband and really not being a great father during my kids' very early years is that I didn't know how to step away. I didn't know how to take that break. And honestly, I still struggle with that today. It's like such a learned or ingrained problem inside of me that I have to learn how to step away from things because ultimately taking a day off, taking a bit of time off is not going to dramatically alter the course of your life. Being engaged and focused and working hard when it's time to work, that is going to pay tons of dividends. Learning and actually understanding the underlying thing instead of pressing the I'm going to be lucky tonight button. Yeah, that's going to pay off a lot of dividends. So, choose the good things. Choose the good work. You don't have to keep up with everything. And I do want to say this also. When ChatJippidity 3.5 came out, this was not that long ago. People actually looked at Chat Jippity 3.5 and said, \"That's replacing me.\" I [laughter] know that's crazy, right? But people looked at that. They said that. And what did you constantly hear during the Chad Shippity 35 and the Opus 3 Opus 35 era? Oh, if you're not using these tools, you're going to be left behind. Anything you did during that time useful? Virtually none. The way you set up context, the way you use it, the way you interact with it today looks almost nothing like it did in the beginning. Yet, in the beginning, so many people were given this kind of hype scared mentality that if they're not completely engaged in the most latest and greatest ways to do something, they're going to fall behind. And now look at it. Every last single thing about that era is effectively void. You're not falling behind. And I do mean that. You're not falling behind. All right. Now, time for my boy George Hots. Hey, by the way, George Hots, open invite. Anytime you want to come on to the standup and yap, let me know. I love LLMs. I hate the hype. Now, there's a couple things I wanted to point out in this blog post. First off, this one right here, I set up a Linux box with open code on my local GLM 5.2 last week. Bro is flexing just running a quick local GLM52. Damn, that's a sweet ass machine you got there. Also, open code. Good choice. Love it. And wow, I just said install T-Mox with Geiood configuration works. The year of the Linux desktop is finally here. Let's go. It's actually not because of models. It's because Microsoft keeps fumbling the bag. But I really specifically wanted to read these two paragraphs cuz I think they are incredible. What I don't like is two things. One, the constant [\u00a0__\u00a0] about the window closing or the perpetual underclass are falling hopelessly behind. This is negative valance hype. Not only is it not true, it's mostly designed to make you feel bad about yourself and to move to shitty San Francisco where everything really does suck like how these people claim. [applause] We don't love George Hots enough. Okay, we don't love him enough. And two, the straw man jumped from, \"Oh, hey, it's a fancy autocomplete, smart compiler, better search engine to it's going to like own the whole light cone, bro.\" Like if you aren't in SF and at the right parties, there's going to be a flash of light in the sky one day and you're not even going to know what happened. But everything just changed. He's talking about it like Jesus is coming back. This is crazy. I'll bet everything I have that this doesn't happen. The people perpetuating this are terrible people, but the justice is that this is how they feel inside all the time themselves. Now, two things obviously. First off, he says everything way cooler than I ever say. Dude, I just I just love I just loved all those words in that particular order. It was absolutely fantastic. But also, can we just take aside? I didn't I didn't realize that George Hotz was related to GK Chesterton. I mean, this man is writing like he's a philosopher from 1927. WHAT WHAT IS GOING ON HERE? But he's absolutely right. At the end of the day, you're not being left behind in this moment if you're not token maxing. Okay? These companies telling you to go token max, they make money off of you token maxing. You do understand that, right? Don't you realize that there's a little bit of a perverse incentive when the people who are selling shovels telling you the only thing you ever need to practice or do is dig holes? Now, I'm not saying that you shouldn't go investigate. In fact, right now, if we go over here and we jump right over to here, you'll see I actually have a little loop-de-loop running right here cuz I want to know, does this actually work? Is this a waste of time? Or is this something that's actually super duper valuable and I should spend more time kind of being in tune with it? because at the end of the day, I want to have an informed opinion, but I'm also just not betting everything on this. And I understand the risk of just spending entirely too much money with this thing. So, my personal best advice is this. Enjoy this time period. You get to build whatever you want. You get to investigate whatever you want. When you don't understand something, you get to ask something that is a fantastic search engine that can bring up the answer to what you're asking. Even in just some terrible English like I have, it still works. I never got that. When I had a question, my best solution was Stack Overflow. And if it wasn't on Stack Overflow, I'm reading the code. Like, that's it. Those were my two options. I couldn't be like, \"Yo, this is broken. What's going on? Why why poor K does this happen?\" In fact, last night, I accidentally introduced a regression into the game I was building. So, I was just like, \"Yo, launch Perf and tell me what function did I just screw up?\" It went off and a half an hour later sent me back being like, \"Yo, here you go. Here's exactly what you did wrong.\" And I was like, \"Oh, yeah. I remember doing that. That makes me a complete idiot.\" That is incredible. Like that is fantastic. That saved me a lot of time and it was super cool. So just like have fun. Go explore. See what you can build. This is a one of the few time periods in which nobody knows what the future's actually going to hold right now. I have no idea. But I can tell you this much that learning and becoming better at your craft still, like I said a couple years ago, like I said last year, and like I still say today, is an excellent choice. And I don't think you're being left behind. The name is the datagen.",
       "url": "https://www.youtube.com/watch?v=0F5zG1RQ4Ig",
       "youtube_video_id": "0F5zG1RQ4Ig"
+    },
+    {
+      "channel": {
+        "title": "OpenAI",
+        "url": "https://www.youtube.com/@OpenAI",
+        "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "content_type": "opinion",
+      "enrichment_status": "ready",
+      "evidence": [
+        {
+          "end_seconds": 28.0,
+          "field_name": "topic",
+          "quote": "access. Codex really was a creative",
+          "start_seconds": 24.72,
+          "timestamp_url": null,
+          "topic_slug": "model-releases"
+        }
+      ],
+      "primary_speaker": "OpenAI host",
+      "published_at": "2026-07-23T20:51:09Z",
+      "summary": "What is AI Slop? focuses on Model Releases. Key transcript signal: Codex really was a creative partner in how the show came to fruition.",
+      "thumbnail_url": null,
+      "title": "What is AI Slop?",
+      "topics": [
+        {
+          "label": "Model Releases",
+          "relevance_score": 0.67,
+          "slug": "model-releases"
+        }
+      ],
+      "transcript_status": "ready",
+      "transcript_text": "[music] I feel more like a slopist after my experience here. I'm Ash. I run TIAT. [music] We're a gallery for artworks and artists using technology as a medium and a gathering place for creative technologists in San Francisco. Tonight, we're opening our newest [music] exhibition called the Epistemologies of SLOP. An exhibition exploring how truth, trust, taste, meaning is changing in this age of AI access. Codex really was a creative partner in how the show came to fruition. [music] concepting for the show, coordinating with artists, scheduling and planning all the programming. >> And I told Codex, [music] I said, \"Hey, I just really need a good engineer today. Let me take over the creative direction.\" >> It's a game about artificial intimacy and repurposed data. As an artist, [music] how do you incorporate codecs into your art? >> I think a lot of game design is trying things, seeing if it makes sense. Codex was really invaluable to that experience. >> It's a game. The user, they have to guess if it's slop or not by doing a lot of scratch off. Have you seen [music] any slop here tonight? >> For sure. Look around you. Look at that flag over there. >> The biggest takeaway that I would hope for [music] is that people would reconsider their own idea of what is good, what is bad, what is slop, what is not. >> I think we're all pretty sloppy. [music] Slop is in the eye of the beholder. When viewed with the right lens, maybe you can interpret [music] some meaning.",
+      "url": "https://www.youtube.com/shorts/-_p2a6uWfjk",
+      "youtube_video_id": "-_p2a6uWfjk"
     },
     {
       "channel": {

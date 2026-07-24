@@ -6,17 +6,17 @@
       "shared_topics": [
         {
           "label": "AI Agents",
-          "score": 0.799,
+          "score": 0.795,
           "slug": "agents"
         },
         {
           "label": "Benchmarks",
-          "score": 0.72,
+          "score": 0.697,
           "slug": "benchmarks"
         },
         {
           "label": "Coding Assistants",
-          "score": 0.76,
+          "score": 0.761,
           "slug": "coding-assistants"
         },
         {
@@ -26,7 +26,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.812,
+          "score": 0.795,
           "slug": "model-releases"
         },
         {
@@ -38,6 +38,50 @@
       "similarity_score": 1.0,
       "source": "UCNJ1Ymd5yFuUPtn21xtRbbw",
       "target": "UCsBjURrPoezykLs9EqgamOA"
+    },
+    {
+      "explanation": "Matthew Berman and Wes Roth overlap around AI Agents, Benchmarks, Coding Assistants; topic-overlap score 0.78.",
+      "method": "topic_overlap",
+      "shared_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.832,
+          "slug": "agents"
+        },
+        {
+          "label": "Benchmarks",
+          "score": 0.618,
+          "slug": "benchmarks"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.758,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.748,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Multimodal",
+          "score": 0.687,
+          "slug": "multimodal"
+        },
+        {
+          "label": "Open Source Models",
+          "score": 0.781,
+          "slug": "open-source-models"
+        },
+        {
+          "label": "Safety and Alignment",
+          "score": 0.695,
+          "slug": "safety-alignment"
+        }
+      ],
+      "similarity_score": 0.778,
+      "source": "UCawZsQWqfGSbCI5yjkdVkTA",
+      "target": "UCqcbQf6yw5KzRoDDcZ_wBSw"
     },
     {
       "explanation": "AI Explained and Wes Roth overlap around AI Agents, Benchmarks, Coding Assistants; topic-overlap score 0.75.",
@@ -84,27 +128,27 @@
       "shared_topics": [
         {
           "label": "AI Agents",
-          "score": 0.821,
+          "score": 0.817,
           "slug": "agents"
         },
         {
           "label": "Benchmarks",
-          "score": 0.655,
+          "score": 0.633,
           "slug": "benchmarks"
         },
         {
           "label": "Coding Assistants",
-          "score": 0.761,
+          "score": 0.762,
           "slug": "coding-assistants"
         },
         {
           "label": "Evaluation",
-          "score": 0.601,
+          "score": 0.6,
           "slug": "evals"
         },
         {
           "label": "Model Releases",
-          "score": 0.768,
+          "score": 0.751,
           "slug": "model-releases"
         },
         {
@@ -118,57 +162,72 @@
       "target": "UCsBjURrPoezykLs9EqgamOA"
     },
     {
-      "explanation": "ThePrimeTime and OpenAI overlap around Enterprise Adoption, Model Releases; topic-overlap score 0.67.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "Enterprise Adoption",
-          "score": 0.667,
-          "slug": "enterprise-adoption"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.684,
-          "slug": "model-releases"
-        }
-      ],
-      "similarity_score": 0.667,
-      "source": "UCUyeluBRhGPCW4rPe_UvBZQ",
-      "target": "UCXZCJLdBC09xxGZ6gcdrc6A"
-    },
-    {
-      "explanation": "Matthew Berman and Wes Roth overlap around AI Agents, Model Releases, Multimodal; topic-overlap score 0.56.",
+      "explanation": "AI Explained and Matthew Berman overlap around AI Agents, Benchmarks, Coding Assistants; topic-overlap score 0.56.",
       "method": "topic_overlap",
       "shared_topics": [
         {
           "label": "AI Agents",
-          "score": 0.832,
+          "score": 0.81,
           "slug": "agents"
         },
         {
+          "label": "Benchmarks",
+          "score": 0.682,
+          "slug": "benchmarks"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.758,
+          "slug": "coding-assistants"
+        },
+        {
           "label": "Model Releases",
-          "score": 0.776,
+          "score": 0.792,
           "slug": "model-releases"
         },
         {
-          "label": "Multimodal",
-          "score": 0.687,
-          "slug": "multimodal"
+          "label": "Open Source Models",
+          "score": 0.803,
+          "slug": "open-source-models"
+        }
+      ],
+      "similarity_score": 0.556,
+      "source": "UCNJ1Ymd5yFuUPtn21xtRbbw",
+      "target": "UCawZsQWqfGSbCI5yjkdVkTA"
+    },
+    {
+      "explanation": "Matthew Berman and Fireship overlap around AI Agents, Benchmarks, Coding Assistants; topic-overlap score 0.56.",
+      "method": "topic_overlap",
+      "shared_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.791,
+          "slug": "agents"
+        },
+        {
+          "label": "Benchmarks",
+          "score": 0.653,
+          "slug": "benchmarks"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.742,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.768,
+          "slug": "model-releases"
         },
         {
           "label": "Open Source Models",
-          "score": 0.781,
+          "score": 0.855,
           "slug": "open-source-models"
-        },
-        {
-          "label": "Safety and Alignment",
-          "score": 0.695,
-          "slug": "safety-alignment"
         }
       ],
       "similarity_score": 0.556,
       "source": "UCawZsQWqfGSbCI5yjkdVkTA",
-      "target": "UCqcbQf6yw5KzRoDDcZ_wBSw"
+      "target": "UCsBjURrPoezykLs9EqgamOA"
     },
     {
       "explanation": "freeCodeCamp.org and AI Explained overlap around AI Agents, Coding Assistants, Model Releases; topic-overlap score 0.50.",
@@ -234,17 +293,17 @@
       "shared_topics": [
         {
           "label": "AI Agents",
-          "score": 0.825,
+          "score": 0.821,
           "slug": "agents"
         },
         {
           "label": "Coding Assistants",
-          "score": 0.778,
+          "score": 0.779,
           "slug": "coding-assistants"
         },
         {
           "label": "Model Releases",
-          "score": 0.681,
+          "score": 0.664,
           "slug": "model-releases"
         },
         {
@@ -292,17 +351,17 @@
       "shared_topics": [
         {
           "label": "AI Agents",
-          "score": 0.794,
+          "score": 0.79,
           "slug": "agents"
         },
         {
           "label": "Coding Assistants",
-          "score": 0.757,
+          "score": 0.758,
           "slug": "coding-assistants"
         },
         {
           "label": "Evaluation",
-          "score": 0.6,
+          "score": 0.599,
           "slug": "evals"
         },
         {
@@ -314,49 +373,6 @@
       "similarity_score": 0.5,
       "source": "UCSHZKyawb77ixDdsGog4iWA",
       "target": "UCsBjURrPoezykLs9EqgamOA"
-    },
-    {
-      "explanation": "Matthew Berman and Two Minute Papers overlap around AI Agents, Model Releases, Multimodal; topic-overlap score 0.50.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.794,
-          "slug": "agents"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.711,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Multimodal",
-          "score": 0.72,
-          "slug": "multimodal"
-        }
-      ],
-      "similarity_score": 0.5,
-      "source": "UCawZsQWqfGSbCI5yjkdVkTA",
-      "target": "UCbfYPyITQ-7l4upoX8nvctg"
-    },
-    {
-      "explanation": "OpenAI and Two Minute Papers overlap around AI Agents, Model Releases; topic-overlap score 0.50.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.849,
-          "slug": "agents"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.704,
-          "slug": "model-releases"
-        }
-      ],
-      "similarity_score": 0.5,
-      "source": "UCXZCJLdBC09xxGZ6gcdrc6A",
-      "target": "UCbfYPyITQ-7l4upoX8nvctg"
     },
     {
       "explanation": "freeCodeCamp.org and Yannic Kilcher overlap around Local Inference, Model Releases, Open Source Models; topic-overlap score 0.43.",
@@ -383,27 +399,32 @@
       "target": "UCZHmQk67mSJgfCCTn7xBfew"
     },
     {
-      "explanation": "Yannic Kilcher and Matthew Berman overlap around Model Releases, Multimodal, Open Source Models; topic-overlap score 0.43.",
+      "explanation": "freeCodeCamp.org and Matthew Berman overlap around AI Agents, Coding Assistants, Model Releases; topic-overlap score 0.40.",
       "method": "topic_overlap",
       "shared_topics": [
         {
+          "label": "AI Agents",
+          "score": 0.836,
+          "slug": "agents"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.776,
+          "slug": "coding-assistants"
+        },
+        {
           "label": "Model Releases",
-          "score": 0.731,
+          "score": 0.661,
           "slug": "model-releases"
         },
         {
-          "label": "Multimodal",
-          "score": 0.687,
-          "slug": "multimodal"
-        },
-        {
           "label": "Open Source Models",
-          "score": 0.801,
+          "score": 0.78,
           "slug": "open-source-models"
         }
       ],
-      "similarity_score": 0.429,
-      "source": "UCZHmQk67mSJgfCCTn7xBfew",
+      "similarity_score": 0.4,
+      "source": "UC8butISFwT-Wl7EV0hUK0BQ",
       "target": "UCawZsQWqfGSbCI5yjkdVkTA"
     },
     {
@@ -484,6 +505,30 @@
       "target": "UCbfYPyITQ-7l4upoX8nvctg"
     },
     {
+      "explanation": "Matthew Berman and Two Minute Papers overlap around AI Agents, Model Releases, Multimodal; topic-overlap score 0.38.",
+      "method": "topic_overlap",
+      "shared_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.794,
+          "slug": "agents"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.683,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Multimodal",
+          "score": 0.72,
+          "slug": "multimodal"
+        }
+      ],
+      "similarity_score": 0.375,
+      "source": "UCawZsQWqfGSbCI5yjkdVkTA",
+      "target": "UCbfYPyITQ-7l4upoX8nvctg"
+    },
+    {
       "explanation": "Two Minute Papers and Wes Roth overlap around AI Agents, Model Releases, Multimodal; topic-overlap score 0.38.",
       "method": "topic_overlap",
       "shared_topics": [
@@ -508,51 +553,27 @@
       "target": "UCqcbQf6yw5KzRoDDcZ_wBSw"
     },
     {
-      "explanation": "freeCodeCamp.org and Matthew Berman overlap around AI Agents, Model Releases, Open Source Models; topic-overlap score 0.33.",
+      "explanation": "Yannic Kilcher and Matthew Berman overlap around Model Releases, Multimodal, Open Source Models; topic-overlap score 0.33.",
       "method": "topic_overlap",
       "shared_topics": [
         {
-          "label": "AI Agents",
-          "score": 0.836,
-          "slug": "agents"
-        },
-        {
           "label": "Model Releases",
-          "score": 0.689,
+          "score": 0.704,
           "slug": "model-releases"
         },
         {
+          "label": "Multimodal",
+          "score": 0.687,
+          "slug": "multimodal"
+        },
+        {
           "label": "Open Source Models",
-          "score": 0.78,
+          "score": 0.801,
           "slug": "open-source-models"
         }
       ],
       "similarity_score": 0.333,
-      "source": "UC8butISFwT-Wl7EV0hUK0BQ",
-      "target": "UCawZsQWqfGSbCI5yjkdVkTA"
-    },
-    {
-      "explanation": "AI Explained and Matthew Berman overlap around AI Agents, Model Releases, Open Source Models; topic-overlap score 0.33.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.81,
-          "slug": "agents"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.82,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.803,
-          "slug": "open-source-models"
-        }
-      ],
-      "similarity_score": 0.333,
-      "source": "UCNJ1Ymd5yFuUPtn21xtRbbw",
+      "source": "UCZHmQk67mSJgfCCTn7xBfew",
       "target": "UCawZsQWqfGSbCI5yjkdVkTA"
     },
     {
@@ -580,46 +601,74 @@
       "target": "UCqcbQf6yw5KzRoDDcZ_wBSw"
     },
     {
-      "explanation": "Matthew Berman and Fireship overlap around AI Agents, Model Releases, Open Source Models; topic-overlap score 0.33.",
+      "explanation": "freeCodeCamp.org and OpenAI overlap around Coding Assistants, Model Releases; topic-overlap score 0.33.",
       "method": "topic_overlap",
       "shared_topics": [
         {
-          "label": "AI Agents",
-          "score": 0.795,
-          "slug": "agents"
+          "label": "Coding Assistants",
+          "score": 0.794,
+          "slug": "coding-assistants"
         },
         {
           "label": "Model Releases",
-          "score": 0.812,
+          "score": 0.653,
           "slug": "model-releases"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.855,
-          "slug": "open-source-models"
         }
       ],
       "similarity_score": 0.333,
-      "source": "UCawZsQWqfGSbCI5yjkdVkTA",
-      "target": "UCsBjURrPoezykLs9EqgamOA"
+      "source": "UC8butISFwT-Wl7EV0hUK0BQ",
+      "target": "UCXZCJLdBC09xxGZ6gcdrc6A"
     },
     {
-      "explanation": "freeCodeCamp.org and OpenAI overlap around AI Agents, Model Releases; topic-overlap score 0.29.",
+      "explanation": "AI Explained and OpenAI overlap around Coding Assistants, Model Releases; topic-overlap score 0.33.",
       "method": "topic_overlap",
       "shared_topics": [
         {
-          "label": "AI Agents",
-          "score": 0.891,
-          "slug": "agents"
+          "label": "Coding Assistants",
+          "score": 0.776,
+          "slug": "coding-assistants"
         },
         {
           "label": "Model Releases",
-          "score": 0.681,
+          "score": 0.784,
           "slug": "model-releases"
         }
       ],
-      "similarity_score": 0.286,
-      "source": "UC8butISFwT-Wl7EV0hUK0BQ",
+      "similarity_score": 0.333,
+      "source": "UCNJ1Ymd5yFuUPtn21xtRbbw",
+      "target": "UCXZCJLdBC09xxGZ6gcdrc6A"
+    },
+    {
+      "explanation": "OpenAI and Fireship overlap around Coding Assistants, Model Releases; topic-overlap score 0.33.",
+      "method": "topic_overlap",
+      "shared_topics": [
+        {
+          "label": "Coding Assistants",
+          "score": 0.761,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.76,
+          "slug": "model-releases"
+        }
+      ],
+      "similarity_score": 0.333,
+      "source": "UCXZCJLdBC09xxGZ6gcdrc6A",
+      "target": "UCsBjURrPoezykLs9EqgamOA"
+    },
+    {
+      "explanation": "ThePrimeTime and OpenAI overlap around Model Releases; topic-overlap score 0.33.",
+      "method": "topic_overlap",
+      "shared_topics": [
+        {
+          "label": "Model Releases",
+          "score": 0.656,
+          "slug": "model-releases"
+        }
+      ],
+      "similarity_score": 0.333,
+      "source": "UCUyeluBRhGPCW4rPe_UvBZQ",
       "target": "UCXZCJLdBC09xxGZ6gcdrc6A"
     },
     {
@@ -642,25 +691,6 @@
       "target": "UCbfYPyITQ-7l4upoX8nvctg"
     },
     {
-      "explanation": "AI Explained and OpenAI overlap around AI Agents, Model Releases; topic-overlap score 0.29.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.865,
-          "slug": "agents"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.812,
-          "slug": "model-releases"
-        }
-      ],
-      "similarity_score": 0.286,
-      "source": "UCNJ1Ymd5yFuUPtn21xtRbbw",
-      "target": "UCXZCJLdBC09xxGZ6gcdrc6A"
-    },
-    {
       "explanation": "AI Explained and Two Minute Papers overlap around AI Agents, Model Releases; topic-overlap score 0.29.",
       "method": "topic_overlap",
       "shared_topics": [
@@ -680,80 +710,47 @@
       "target": "UCbfYPyITQ-7l4upoX8nvctg"
     },
     {
-      "explanation": "Lex Fridman and OpenAI overlap around AI Agents, Enterprise Adoption; topic-overlap score 0.29.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.861,
-          "slug": "agents"
-        },
-        {
-          "label": "Enterprise Adoption",
-          "score": 0.666,
-          "slug": "enterprise-adoption"
-        }
-      ],
-      "similarity_score": 0.286,
-      "source": "UCSHZKyawb77ixDdsGog4iWA",
-      "target": "UCXZCJLdBC09xxGZ6gcdrc6A"
-    },
-    {
-      "explanation": "OpenAI and Matthew Berman overlap around AI Agents, Model Releases; topic-overlap score 0.29.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.861,
-          "slug": "agents"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.812,
-          "slug": "model-releases"
-        }
-      ],
-      "similarity_score": 0.286,
-      "source": "UCXZCJLdBC09xxGZ6gcdrc6A",
-      "target": "UCawZsQWqfGSbCI5yjkdVkTA"
-    },
-    {
-      "explanation": "OpenAI and Fireship overlap around AI Agents, Model Releases; topic-overlap score 0.29.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.85,
-          "slug": "agents"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.805,
-          "slug": "model-releases"
-        }
-      ],
-      "similarity_score": 0.286,
-      "source": "UCXZCJLdBC09xxGZ6gcdrc6A",
-      "target": "UCsBjURrPoezykLs9EqgamOA"
-    },
-    {
       "explanation": "Two Minute Papers and Fireship overlap around AI Agents, Model Releases; topic-overlap score 0.29.",
       "method": "topic_overlap",
       "shared_topics": [
         {
           "label": "AI Agents",
-          "score": 0.782,
+          "score": 0.778,
           "slug": "agents"
         },
         {
           "label": "Model Releases",
-          "score": 0.704,
+          "score": 0.686,
           "slug": "model-releases"
         }
       ],
       "similarity_score": 0.286,
       "source": "UCbfYPyITQ-7l4upoX8nvctg",
       "target": "UCsBjURrPoezykLs9EqgamOA"
+    },
+    {
+      "explanation": "Lex Fridman and Matthew Berman overlap around AI Agents, Coding Assistants, Open Source Models; topic-overlap score 0.27.",
+      "method": "topic_overlap",
+      "shared_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.806,
+          "slug": "agents"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.754,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Open Source Models",
+          "score": 0.798,
+          "slug": "open-source-models"
+        }
+      ],
+      "similarity_score": 0.273,
+      "source": "UCSHZKyawb77ixDdsGog4iWA",
+      "target": "UCawZsQWqfGSbCI5yjkdVkTA"
     },
     {
       "explanation": "AI Explained and Yannic Kilcher overlap around Model Releases, Open Source Models; topic-overlap score 0.25.",
@@ -775,12 +772,50 @@
       "target": "UCZHmQk67mSJgfCCTn7xBfew"
     },
     {
+      "explanation": "OpenAI and Matthew Berman overlap around Coding Assistants, Model Releases; topic-overlap score 0.25.",
+      "method": "topic_overlap",
+      "shared_topics": [
+        {
+          "label": "Coding Assistants",
+          "score": 0.758,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.757,
+          "slug": "model-releases"
+        }
+      ],
+      "similarity_score": 0.25,
+      "source": "UCXZCJLdBC09xxGZ6gcdrc6A",
+      "target": "UCawZsQWqfGSbCI5yjkdVkTA"
+    },
+    {
+      "explanation": "OpenAI and Wes Roth overlap around Coding Assistants, Model Releases; topic-overlap score 0.25.",
+      "method": "topic_overlap",
+      "shared_topics": [
+        {
+          "label": "Coding Assistants",
+          "score": 0.777,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.74,
+          "slug": "model-releases"
+        }
+      ],
+      "similarity_score": 0.25,
+      "source": "UCXZCJLdBC09xxGZ6gcdrc6A",
+      "target": "UCqcbQf6yw5KzRoDDcZ_wBSw"
+    },
+    {
       "explanation": "Yannic Kilcher and Fireship overlap around Model Releases, Open Source Models; topic-overlap score 0.25.",
       "method": "topic_overlap",
       "shared_topics": [
         {
           "label": "Model Releases",
-          "score": 0.724,
+          "score": 0.706,
           "slug": "model-releases"
         },
         {
@@ -808,42 +843,18 @@
       "target": "UCbfYPyITQ-7l4upoX8nvctg"
     },
     {
-      "explanation": "OpenAI and Wes Roth overlap around AI Agents, Model Releases; topic-overlap score 0.22.",
+      "explanation": "OpenAI and Two Minute Papers overlap around Model Releases; topic-overlap score 0.25.",
       "method": "topic_overlap",
       "shared_topics": [
         {
-          "label": "AI Agents",
-          "score": 0.887,
-          "slug": "agents"
-        },
-        {
           "label": "Model Releases",
-          "score": 0.768,
+          "score": 0.675,
           "slug": "model-releases"
         }
       ],
-      "similarity_score": 0.222,
+      "similarity_score": 0.25,
       "source": "UCXZCJLdBC09xxGZ6gcdrc6A",
-      "target": "UCqcbQf6yw5KzRoDDcZ_wBSw"
-    },
-    {
-      "explanation": "Lex Fridman and Matthew Berman overlap around AI Agents, Open Source Models; topic-overlap score 0.20.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.806,
-          "slug": "agents"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.798,
-          "slug": "open-source-models"
-        }
-      ],
-      "similarity_score": 0.2,
-      "source": "UCSHZKyawb77ixDdsGog4iWA",
-      "target": "UCawZsQWqfGSbCI5yjkdVkTA"
+      "target": "UCbfYPyITQ-7l4upoX8nvctg"
     },
     {
       "explanation": "ThePrimeTime and Yannic Kilcher overlap around Model Releases; topic-overlap score 0.20.",
@@ -860,16 +871,16 @@
       "target": "UCZHmQk67mSJgfCCTn7xBfew"
     },
     {
-      "explanation": "OpenAI and Yannic Kilcher overlap around Model Releases; topic-overlap score 0.17.",
+      "explanation": "OpenAI and Yannic Kilcher overlap around Model Releases; topic-overlap score 0.20.",
       "method": "topic_overlap",
       "shared_topics": [
         {
           "label": "Model Releases",
-          "score": 0.724,
+          "score": 0.696,
           "slug": "model-releases"
         }
       ],
-      "similarity_score": 0.167,
+      "similarity_score": 0.2,
       "source": "UCXZCJLdBC09xxGZ6gcdrc6A",
       "target": "UCZHmQk67mSJgfCCTn7xBfew"
     },
@@ -916,18 +927,18 @@
       "target": "UCUyeluBRhGPCW4rPe_UvBZQ"
     },
     {
-      "explanation": "ThePrimeTime and Matthew Berman overlap around Model Releases; topic-overlap score 0.14.",
+      "explanation": "Lex Fridman and OpenAI overlap around Coding Assistants; topic-overlap score 0.14.",
       "method": "topic_overlap",
       "shared_topics": [
         {
-          "label": "Model Releases",
-          "score": 0.692,
-          "slug": "model-releases"
+          "label": "Coding Assistants",
+          "score": 0.773,
+          "slug": "coding-assistants"
         }
       ],
       "similarity_score": 0.143,
-      "source": "UCUyeluBRhGPCW4rPe_UvBZQ",
-      "target": "UCawZsQWqfGSbCI5yjkdVkTA"
+      "source": "UCSHZKyawb77ixDdsGog4iWA",
+      "target": "UCXZCJLdBC09xxGZ6gcdrc6A"
     },
     {
       "explanation": "ThePrimeTime and Fireship overlap around Model Releases; topic-overlap score 0.14.",
@@ -935,7 +946,7 @@
       "shared_topics": [
         {
           "label": "Model Releases",
-          "score": 0.684,
+          "score": 0.666,
           "slug": "model-releases"
         }
       ],
@@ -972,6 +983,20 @@
       "target": "UCZHmQk67mSJgfCCTn7xBfew"
     },
     {
+      "explanation": "ThePrimeTime and Matthew Berman overlap around Model Releases; topic-overlap score 0.11.",
+      "method": "topic_overlap",
+      "shared_topics": [
+        {
+          "label": "Model Releases",
+          "score": 0.664,
+          "slug": "model-releases"
+        }
+      ],
+      "similarity_score": 0.111,
+      "source": "UCUyeluBRhGPCW4rPe_UvBZQ",
+      "target": "UCawZsQWqfGSbCI5yjkdVkTA"
+    },
+    {
       "explanation": "ThePrimeTime and Wes Roth overlap around Model Releases; topic-overlap score 0.11.",
       "method": "topic_overlap",
       "shared_topics": [
@@ -986,7 +1011,7 @@
       "target": "UCqcbQf6yw5KzRoDDcZ_wBSw"
     }
   ],
-  "generated_at": "2026-07-23T12:54:06Z",
+  "generated_at": "2026-07-24T00:57:09Z",
   "nodes": [
     {
       "id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
@@ -1004,8 +1029,8 @@
       "label": "Fireship",
       "top_topics": [
         "Open Source Models",
-        "Model Releases",
         "AI Agents",
+        "Model Releases",
         "Coding Assistants"
       ],
       "video_count": 5
@@ -1026,19 +1051,9 @@
       "label": "Matthew Berman",
       "top_topics": [
         "Open Source Models",
-        "Model Releases",
-        "AI Agents",
-        "Fine Tuning"
-      ],
-      "video_count": 5
-    },
-    {
-      "id": "UCXZCJLdBC09xxGZ6gcdrc6A",
-      "label": "OpenAI",
-      "top_topics": [
         "AI Agents",
         "Model Releases",
-        "Enterprise Adoption"
+        "Coding Assistants"
       ],
       "video_count": 5
     },
@@ -1052,6 +1067,15 @@
         "Safety and Alignment"
       ],
       "video_count": 5
+    },
+    {
+      "id": "UCXZCJLdBC09xxGZ6gcdrc6A",
+      "label": "OpenAI",
+      "top_topics": [
+        "Coding Assistants",
+        "Model Releases"
+      ],
+      "video_count": 4
     },
     {
       "id": "UCbfYPyITQ-7l4upoX8nvctg",
