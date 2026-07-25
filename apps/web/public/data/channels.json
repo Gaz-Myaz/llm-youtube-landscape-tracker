@@ -1,38 +1,53 @@
 {
   "channels": [
     {
-      "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
-      "handle": "@OpenAI",
-      "latest_video_at": "2026-07-24T09:12:21Z",
+      "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
+      "handle": "@WesRoth",
+      "latest_video_at": "2026-07-24T23:50:58Z",
       "thumbnail_url": null,
-      "title": "OpenAI",
+      "title": "Wes Roth",
       "top_topics": [
         {
+          "label": "AI Agents",
+          "score": 0.858,
+          "slug": "agents"
+        },
+        {
           "label": "Coding Assistants",
-          "score": 0.776,
+          "score": 0.778,
           "slug": "coding-assistants"
         },
         {
           "label": "Model Releases",
-          "score": 0.749,
+          "score": 0.732,
           "slug": "model-releases"
+        },
+        {
+          "label": "Safety and Alignment",
+          "score": 0.729,
+          "slug": "safety-alignment"
+        },
+        {
+          "label": "Open Source Models",
+          "score": 0.728,
+          "slug": "open-source-models"
         }
       ],
-      "url": "https://www.youtube.com/@OpenAI",
+      "url": "https://www.youtube.com/@WesRoth",
       "video_count": 5,
-      "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
+      "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
     },
     {
       "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
       "handle": "@matthew_berman",
-      "latest_video_at": "2026-07-23T21:01:48Z",
+      "latest_video_at": "2026-07-24T21:47:58Z",
       "thumbnail_url": null,
       "title": "Matthew Berman",
       "top_topics": [
         {
-          "label": "Open Source Models",
-          "score": 0.835,
-          "slug": "open-source-models"
+          "label": "Model Releases",
+          "score": 0.82,
+          "slug": "model-releases"
         },
         {
           "label": "AI Agents",
@@ -40,9 +55,9 @@
           "slug": "agents"
         },
         {
-          "label": "Model Releases",
-          "score": 0.765,
-          "slug": "model-releases"
+          "label": "Open Source Models",
+          "score": 0.769,
+          "slug": "open-source-models"
         },
         {
           "label": "Coding Assistants",
@@ -50,14 +65,46 @@
           "slug": "coding-assistants"
         },
         {
-          "label": "Fine Tuning",
-          "score": 0.705,
-          "slug": "fine-tuning"
+          "label": "Benchmarks",
+          "score": 0.667,
+          "slug": "benchmarks"
         }
       ],
       "url": "https://www.youtube.com/@matthew_berman",
       "video_count": 5,
       "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
+    },
+    {
+      "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
+      "handle": "@OpenAI",
+      "latest_video_at": "2026-07-24T19:47:16Z",
+      "thumbnail_url": null,
+      "title": "OpenAI",
+      "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.86,
+          "slug": "agents"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.741,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.736,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Enterprise Adoption",
+          "score": 0.636,
+          "slug": "enterprise-adoption"
+        }
+      ],
+      "url": "https://www.youtube.com/@OpenAI",
+      "video_count": 5,
+      "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
     },
     {
       "description": "Fast software engineering and AI tooling explainers.",
@@ -134,43 +181,6 @@
       "youtube_channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw"
     },
     {
-      "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
-      "handle": "@WesRoth",
-      "latest_video_at": "2026-07-22T12:30:11Z",
-      "thumbnail_url": null,
-      "title": "Wes Roth",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.858,
-          "slug": "agents"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.778,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.732,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Safety and Alignment",
-          "score": 0.729,
-          "slug": "safety-alignment"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.728,
-          "slug": "open-source-models"
-        }
-      ],
-      "url": "https://www.youtube.com/@WesRoth",
-      "video_count": 5,
-      "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
-    },
-    {
       "description": "Long-form technical interviews with AI researchers and builders.",
       "handle": "@lexfridman",
       "latest_video_at": "2026-06-30T21:16:13Z",
@@ -237,7 +247,7 @@
     {
       "description": "Technical courses and tutorials, including practical AI application development.",
       "handle": "@freecodecamp",
-      "latest_video_at": "2026-07-22T10:00:13Z",
+      "latest_video_at": "2026-07-24T14:05:02Z",
       "thumbnail_url": null,
       "title": "freeCodeCamp.org",
       "top_topics": [
@@ -268,7 +278,7 @@
         }
       ],
       "url": "https://www.youtube.com/@freecodecamp",
-      "video_count": 2,
+      "video_count": 3,
       "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
     },
     {
@@ -326,6 +336,6 @@
       "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
     }
   ],
-  "generated_at": "2026-07-24T12:52:30Z",
+  "generated_at": "2026-07-25T01:00:11Z",
   "schema_version": "1.0"
 }
