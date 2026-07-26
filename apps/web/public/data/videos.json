@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T01:00:11Z",
+  "generated_at": "2026-07-26T01:03:54Z",
   "schema_version": "1.0",
   "videos": [
     {
@@ -2078,54 +2078,6 @@
     },
     {
       "channel": {
-        "title": "ThePrimeTime",
-        "url": "https://www.youtube.com/@ThePrimeagen",
-        "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
-      },
-      "content_type": "tutorial",
-      "enrichment_status": "ready",
-      "evidence": [
-        {
-          "end_seconds": 39.599999999999994,
-          "field_name": "topic",
-          "quote": "employees perception of AI adoption.",
-          "start_seconds": 36.16,
-          "timestamp_url": "https://www.youtube.com/watch?v=0F5zG1RQ4Ig&t=36s",
-          "topic_slug": "enterprise-adoption"
-        },
-        {
-          "end_seconds": 466.72,
-          "field_name": "topic",
-          "quote": "Shippity 35 and the Opus 3 Opus 35 era?",
-          "start_seconds": 461.199,
-          "timestamp_url": "https://www.youtube.com/watch?v=0F5zG1RQ4Ig&t=461s",
-          "topic_slug": "model-releases"
-        }
-      ],
-      "primary_speaker": "ThePrimeTime host",
-      "published_at": "2026-07-21T19:16:16Z",
-      "summary": "You won't fall behind focuses on Enterprise Adoption, Model Releases. Key transcript signal: FOMO to understand employees perception of AI adoption.",
-      "thumbnail_url": null,
-      "title": "You won't fall behind",
-      "topics": [
-        {
-          "label": "Enterprise Adoption",
-          "relevance_score": 0.639,
-          "slug": "enterprise-adoption"
-        },
-        {
-          "label": "Model Releases",
-          "relevance_score": 0.563,
-          "slug": "model-releases"
-        }
-      ],
-      "transcript_status": "ready",
-      "transcript_text": "There's a new apparent trend where people who get way too into the AI psychosis things find themselves programming and using AI so much that they end up like going to the hospital, which if you've been keeping up with anything that's been going on, that shouldn't be a surprise. The report also finds 45% of developers feel the value of their current skill sets are threatened. This is from Pluralsight. AI skill threat describes developers fear, anxiety, and worry that their current competencies will become obsolete as they adapt to AI assisted coding. Pluralsight. This study focuses on the fear of being left behind or fear of missing out. FOMO to understand employees perception of AI adoption. Science direct. Individual fear of missing out on the benefits of AI technology and being rendered obsolete by others or by society. Science Direct. FOMO. AI may drive individuals to engage in complex behaviors such as obsessive focus on acquiring AI skills or overzealous use of AI technologies. Science Direct. Our results show that Genai adoption heightens burnout by increasing job demands. That's from archive. Genai tools can amplify cognitive load, inducing new forms of oversight labor and escalate expectations around output and pace. This is from archive. The Genai movement is also transforming professional norms and altering career entry points demanding continuous adaptation from archive. And it goes on and it goes on. Now I think a lot of people are seeing this as some kind of new experience that is happening. Uh first off, I don't think that this experience is is new. But I will say that this experience is kind of pressured by a whole new set of outcomes that say I when I was first learning how to program or getting into technology did not have to have. So this video is going to be a little bit different because I'm going to talk a little bit about my past, some of the things that uh caused some pretty big issues for me uh in the same type of category. And more than that, we're also going to hear from my boy George Hots about this exact topic. But before we begin, I'd like to say thank you to the sponsors. Hey, is that HTTP? Get that out of here. That's not how we order coffee. We order coffee via SSH terminal.shop. Yeah. You want a real experience? You want real coffee? You want awesome subscriptions so you never have to remember again? Oh, you want exclusive blends with exclusive coffee and exclusive content? Then check out Kron. You don't know what SSH is? >> Well, maybe the coffee is not for you. [singing] [music] >> Now, when I was a lot younger, I was about 24, 25 years old, I was freshly married and I was attempting to start a company. One of the big things I would do is I would program for over 24 hours straight. You can, my wife will attest to it. I would sit in the studio apartment, sit next to the actual door to leave our studio apartment and just program non-stop by myself while my wife would sleep all throughout the entire night. And that's because a I just really loved programming. I loved the act of programming, but even more so, I was trying to start a company and I had this like constant fear/ anxiety that I was falling behind, that I wasn't quite actually outputting enough, that I wasn't going to be able to launch this product successfully. And it was something that weighed on me constantly. All my social interactions were colored by this. I would often find myself hanging out with friends and then asking myself, man, I got to get back home. Like this is taking too long. I was like freaking out and I was actually having almost some sort of like mental breakdown there for quite some time, quite large period of my life. And this obviously caused a lot of issues. Like honestly, it caused a lot of undue stress on my wife. Uh this actually probably hurt our marriage for quite some time. And I do look back on that as kind of one of my more foolish moments. Now, I really do want it to be well understood that I'm not saying that you shouldn't work hard. I actually am a huge proponent of, especially in your younger years, to go out there and really try hard at something. That you shouldn't halfass anything two butt cheeks whole ass that attempt. Really go out there and make the most of it. Because honestly, learning and becoming deeply competent at something and becoming excellent at your craft is an extremely rewarding thing. And we live in such a world that your imagination is the only thing that's holding you back. And of course that and the fable five limits that they keep on resetting for us over and over again. Come on, Dario. Just give me a couple just give me a couple more OF THEM TOKENS, DAARIO. And the reason why I tell you that is that you'll probably notice that there's a lot of similarities to the things you're seeing. People are feeling the same kind of general like, oh, we're going to be left behind. Now, the reason why I felt it is obviously very, very different. I was trying to start a company. There were competitors in the space. I wanted to be the best one. Now, that is going to cause a natural kind of competition. Oh, I better hurry up. I don't want to be left behind. Now, this did not come from a general angst that everyone's going to be left behind. That this AI hype beast ain't stopping and jobs are in between the AI hype beast and its gold and it's going to ramrod most of them away and everybody's going to become part of the permanent underclass. And this is kind of like this new wave, this new talking point that you see non-stop where people are just constantly telling you that you're missing out, that you're going to be left behind. Now, the same person, Seth Rose, that actually gave me that nice list of all the different kind of statements and studies kind of going over this feeling. I just said, \"Hey, you're not being left behind.\" And he said, \"I know. It's weird because it's the feeling of falling behind, not necessarily the reality. When models and tools are changing every few days, it creates that constant [\u00a0__\u00a0] I need to keep up mentality and it's super toxic. I realize I'm in a bubble and already ahead of so many people. This AI thing is it's not the first time this has happened and it's happened to a lot of people in a lot of different situations, including just generally to a whole bunch of people graduating. How many people graduating during 2020, 2021 or going through boot camps felt this just onslaught of all these different technologies they had to learn or they were going to be falling behind. I remember actually getting in an argument on Twitter saying, \"Hey, React server components, they're not that big of a deal. I don't think you need to use them. I don't think you need to go and switch your company over to them. I don't think your resume needs to be sprinkled with them. I think you're going to be going down the wrong way.\" And I still I mean, hey, I still actually feel justified by that with all the different vulnerabilities and everything, but I had people quote tweet me being like, \"This guy gives you the worst advice if you're not keeping up. If you're not just like, it's just causing this swirl and this anxiousness in people.\" And I just really want to make sure that people understand that if every single day you are learning and you're making a step forward, that's a good day. And guess what? on a couple days. If you take a weekend off, that's not going to dramatically change the course of your life. And that's what people don't understand is that t and I had to unfortunately learn it by kind of hurting my marriage and not being a good husband and really not being a great father during my kids' very early years is that I didn't know how to step away. I didn't know how to take that break. And honestly, I still struggle with that today. It's like such a learned or ingrained problem inside of me that I have to learn how to step away from things because ultimately taking a day off, taking a bit of time off is not going to dramatically alter the course of your life. Being engaged and focused and working hard when it's time to work, that is going to pay tons of dividends. Learning and actually understanding the underlying thing instead of pressing the I'm going to be lucky tonight button. Yeah, that's going to pay off a lot of dividends. So, choose the good things. Choose the good work. You don't have to keep up with everything. And I do want to say this also. When ChatJippidity 3.5 came out, this was not that long ago. People actually looked at Chat Jippity 3.5 and said, \"That's replacing me.\" I [laughter] know that's crazy, right? But people looked at that. They said that. And what did you constantly hear during the Chad Shippity 35 and the Opus 3 Opus 35 era? Oh, if you're not using these tools, you're going to be left behind. Anything you did during that time useful? Virtually none. The way you set up context, the way you use it, the way you interact with it today looks almost nothing like it did in the beginning. Yet, in the beginning, so many people were given this kind of hype scared mentality that if they're not completely engaged in the most latest and greatest ways to do something, they're going to fall behind. And now look at it. Every last single thing about that era is effectively void. You're not falling behind. And I do mean that. You're not falling behind. All right. Now, time for my boy George Hots. Hey, by the way, George Hots, open invite. Anytime you want to come on to the standup and yap, let me know. I love LLMs. I hate the hype. Now, there's a couple things I wanted to point out in this blog post. First off, this one right here, I set up a Linux box with open code on my local GLM 5.2 last week. Bro is flexing just running a quick local GLM52. Damn, that's a sweet ass machine you got there. Also, open code. Good choice. Love it. And wow, I just said install T-Mox with Geiood configuration works. The year of the Linux desktop is finally here. Let's go. It's actually not because of models. It's because Microsoft keeps fumbling the bag. But I really specifically wanted to read these two paragraphs cuz I think they are incredible. What I don't like is two things. One, the constant [\u00a0__\u00a0] about the window closing or the perpetual underclass are falling hopelessly behind. This is negative valance hype. Not only is it not true, it's mostly designed to make you feel bad about yourself and to move to shitty San Francisco where everything really does suck like how these people claim. [applause] We don't love George Hots enough. Okay, we don't love him enough. And two, the straw man jumped from, \"Oh, hey, it's a fancy autocomplete, smart compiler, better search engine to it's going to like own the whole light cone, bro.\" Like if you aren't in SF and at the right parties, there's going to be a flash of light in the sky one day and you're not even going to know what happened. But everything just changed. He's talking about it like Jesus is coming back. This is crazy. I'll bet everything I have that this doesn't happen. The people perpetuating this are terrible people, but the justice is that this is how they feel inside all the time themselves. Now, two things obviously. First off, he says everything way cooler than I ever say. Dude, I just I just love I just loved all those words in that particular order. It was absolutely fantastic. But also, can we just take aside? I didn't I didn't realize that George Hotz was related to GK Chesterton. I mean, this man is writing like he's a philosopher from 1927. WHAT WHAT IS GOING ON HERE? But he's absolutely right. At the end of the day, you're not being left behind in this moment if you're not token maxing. Okay? These companies telling you to go token max, they make money off of you token maxing. You do understand that, right? Don't you realize that there's a little bit of a perverse incentive when the people who are selling shovels telling you the only thing you ever need to practice or do is dig holes? Now, I'm not saying that you shouldn't go investigate. In fact, right now, if we go over here and we jump right over to here, you'll see I actually have a little loop-de-loop running right here cuz I want to know, does this actually work? Is this a waste of time? Or is this something that's actually super duper valuable and I should spend more time kind of being in tune with it? because at the end of the day, I want to have an informed opinion, but I'm also just not betting everything on this. And I understand the risk of just spending entirely too much money with this thing. So, my personal best advice is this. Enjoy this time period. You get to build whatever you want. You get to investigate whatever you want. When you don't understand something, you get to ask something that is a fantastic search engine that can bring up the answer to what you're asking. Even in just some terrible English like I have, it still works. I never got that. When I had a question, my best solution was Stack Overflow. And if it wasn't on Stack Overflow, I'm reading the code. Like, that's it. Those were my two options. I couldn't be like, \"Yo, this is broken. What's going on? Why why poor K does this happen?\" In fact, last night, I accidentally introduced a regression into the game I was building. So, I was just like, \"Yo, launch Perf and tell me what function did I just screw up?\" It went off and a half an hour later sent me back being like, \"Yo, here you go. Here's exactly what you did wrong.\" And I was like, \"Oh, yeah. I remember doing that. That makes me a complete idiot.\" That is incredible. Like that is fantastic. That saved me a lot of time and it was super cool. So just like have fun. Go explore. See what you can build. This is a one of the few time periods in which nobody knows what the future's actually going to hold right now. I have no idea. But I can tell you this much that learning and becoming better at your craft still, like I said a couple years ago, like I said last year, and like I still say today, is an excellent choice. And I don't think you're being left behind. The name is the datagen.",
-      "url": "https://www.youtube.com/watch?v=0F5zG1RQ4Ig",
-      "youtube_video_id": "0F5zG1RQ4Ig"
-    },
-    {
-      "channel": {
         "title": "OpenAI",
         "url": "https://www.youtube.com/@OpenAI",
         "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
@@ -2158,6 +2110,41 @@
       "transcript_text": "[music] I feel more like a slopist after my experience here. I'm Ash. I run TIAT. [music] We're a gallery for artworks and artists using technology as a medium and a gathering place for creative technologists in San Francisco. Tonight, we're opening our newest [music] exhibition called the Epistemologies of SLOP. An exhibition exploring how truth, trust, taste, meaning is changing in this age of AI access. Codex really was a creative partner in how the show came to fruition. [music] concepting for the show, coordinating with artists, scheduling and planning all the programming. >> And I told Codex, [music] I said, \"Hey, I just really need a good engineer today. Let me take over the creative direction.\" >> It's a game about artificial intimacy and repurposed data. As an artist, [music] how do you incorporate codecs into your art? >> I think a lot of game design is trying things, seeing if it makes sense. Codex was really invaluable to that experience. >> It's a game. The user, they have to guess if it's slop or not by doing a lot of scratch off. Have you seen [music] any slop here tonight? >> For sure. Look around you. Look at that flag over there. >> The biggest takeaway that I would hope for [music] is that people would reconsider their own idea of what is good, what is bad, what is slop, what is not. >> I think we're all pretty sloppy. [music] Slop is in the eye of the beholder. When viewed with the right lens, maybe you can interpret [music] some meaning.",
       "url": "https://www.youtube.com/shorts/-_p2a6uWfjk",
       "youtube_video_id": "-_p2a6uWfjk"
+    },
+    {
+      "channel": {
+        "title": "freeCodeCamp.org",
+        "url": "https://www.youtube.com/@freecodecamp",
+        "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
+      },
+      "content_type": "tutorial",
+      "enrichment_status": "ready",
+      "evidence": [
+        {
+          "end_seconds": 6.68,
+          "field_name": "topic",
+          "quote": "quite frankly the AI can do a lot more",
+          "start_seconds": 2.16,
+          "timestamp_url": null,
+          "topic_slug": "model-releases"
+        }
+      ],
+      "primary_speaker": "freeCodeCamp.org host",
+      "published_at": "2026-07-25T12:32:34Z",
+      "summary": "AI won't necessarily displace skilled devs - it'll just move their value up the chain focuses on Model Releases. Key transcript signal: She said quite frankly the AI can do a lot more than anyone one radiographer can and much faster.",
+      "thumbnail_url": null,
+      "title": "AI won't necessarily displace skilled devs - it'll just move their value up the chain",
+      "topics": [
+        {
+          "label": "Model Releases",
+          "relevance_score": 0.62,
+          "slug": "model-releases"
+        }
+      ],
+      "transcript_status": "ready",
+      "transcript_text": "My radiographer did the x-rays. She said quite frankly the AI can do a lot more than anyone one radiographer can and much faster. It takes a human being about five years of experience. The AI can sort of ingest and do in a week. But so that's not to say it's going to displace them necessarily. It's just going to say that all of these professions feel that their value is going to move up the chain. You know, there was a time when when you had your horse and buggy you kind of know need to know how to feed the horse. You know, you need to know how to change a cart wheel or whatever it is. And now we all drive cars that we have no idea how to repair. >> Right. A lot of us don't have any I don't really have any I know how to change my tire and that's about it. Change my oil. >> That's about it. I don't even own a car anymore, right? Cuz I just Uber everywhere now. So, you know, what you end up doing with the technology changes. But the fundamental utility of the technology doesn't change, which is you know, in that that example transport or but it's medicine or software engineering. It's the creation of software that's robust and scalable, usable, and likable. And the role of the software engineer in that process will change.",
+      "url": "https://www.youtube.com/shorts/O3foXkb1Zos",
+      "youtube_video_id": "O3foXkb1Zos"
     },
     {
       "channel": {

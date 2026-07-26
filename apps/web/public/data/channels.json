@@ -218,36 +218,9 @@
       "youtube_channel_id": "UCSHZKyawb77ixDdsGog4iWA"
     },
     {
-      "description": "Research-focused AI and machine learning explainers.",
-      "handle": "@TwoMinutePapers",
-      "latest_video_at": "2026-07-16T15:39:17Z",
-      "thumbnail_url": null,
-      "title": "Two Minute Papers",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.781,
-          "slug": "agents"
-        },
-        {
-          "label": "Multimodal",
-          "score": 0.753,
-          "slug": "multimodal"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.602,
-          "slug": "model-releases"
-        }
-      ],
-      "url": "https://www.youtube.com/@TwoMinutePapers",
-      "video_count": 4,
-      "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
-    },
-    {
       "description": "Technical courses and tutorials, including practical AI application development.",
       "handle": "@freecodecamp",
-      "latest_video_at": "2026-07-24T14:05:02Z",
+      "latest_video_at": "2026-07-25T12:32:34Z",
       "thumbnail_url": null,
       "title": "freeCodeCamp.org",
       "top_topics": [
@@ -278,8 +251,35 @@
         }
       ],
       "url": "https://www.youtube.com/@freecodecamp",
-      "video_count": 3,
+      "video_count": 4,
       "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
+    },
+    {
+      "description": "Research-focused AI and machine learning explainers.",
+      "handle": "@TwoMinutePapers",
+      "latest_video_at": "2026-07-16T15:39:17Z",
+      "thumbnail_url": null,
+      "title": "Two Minute Papers",
+      "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.781,
+          "slug": "agents"
+        },
+        {
+          "label": "Multimodal",
+          "score": 0.753,
+          "slug": "multimodal"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.602,
+          "slug": "model-releases"
+        }
+      ],
+      "url": "https://www.youtube.com/@TwoMinutePapers",
+      "video_count": 4,
+      "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
     },
     {
       "description": "Research-heavy coverage of machine learning papers, model releases, and AI systems.",
@@ -312,30 +312,8 @@
       "url": "https://www.youtube.com/@YannicKilcher",
       "video_count": 2,
       "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
-    },
-    {
-      "description": "Developer commentary, tools, and AI coding workflow coverage.",
-      "handle": "@ThePrimeagen",
-      "latest_video_at": "2026-07-21T19:16:16Z",
-      "thumbnail_url": null,
-      "title": "ThePrimeTime",
-      "top_topics": [
-        {
-          "label": "Enterprise Adoption",
-          "score": 0.639,
-          "slug": "enterprise-adoption"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.563,
-          "slug": "model-releases"
-        }
-      ],
-      "url": "https://www.youtube.com/@ThePrimeagen",
-      "video_count": 1,
-      "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
     }
   ],
-  "generated_at": "2026-07-25T01:00:11Z",
+  "generated_at": "2026-07-26T01:03:54Z",
   "schema_version": "1.0"
 }

@@ -128,7 +128,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.645,
+          "score": 0.676,
           "slug": "model-releases"
         },
         {
@@ -240,7 +240,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.689,
+          "score": 0.72,
           "slug": "model-releases"
         },
         {
@@ -303,7 +303,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.689,
+          "score": 0.72,
           "slug": "model-releases"
         },
         {
@@ -361,7 +361,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.664,
+          "score": 0.695,
           "slug": "model-releases"
         },
         {
@@ -457,25 +457,6 @@
       "target": "UCawZsQWqfGSbCI5yjkdVkTA"
     },
     {
-      "explanation": "ThePrimeTime and OpenAI overlap around Enterprise Adoption, Model Releases; topic-overlap score 0.50.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "Enterprise Adoption",
-          "score": 0.637,
-          "slug": "enterprise-adoption"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.652,
-          "slug": "model-releases"
-        }
-      ],
-      "similarity_score": 0.5,
-      "source": "UCUyeluBRhGPCW4rPe_UvBZQ",
-      "target": "UCXZCJLdBC09xxGZ6gcdrc6A"
-    },
-    {
       "explanation": "Lex Fridman and Wes Roth overlap around AI Agents, Coding Assistants, Evaluation; topic-overlap score 0.45.",
       "method": "topic_overlap",
       "shared_topics": [
@@ -525,7 +506,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.649,
+          "score": 0.68,
           "slug": "model-releases"
         }
       ],
@@ -544,7 +525,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.6,
+          "score": 0.631,
           "slug": "model-releases"
         },
         {
@@ -774,7 +755,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.58,
+          "score": 0.611,
           "slug": "model-releases"
         }
       ],
@@ -902,104 +883,6 @@
       "target": "UCsBjURrPoezykLs9EqgamOA"
     },
     {
-      "explanation": "ThePrimeTime and Two Minute Papers overlap around Model Releases; topic-overlap score 0.25.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "Model Releases",
-          "score": 0.583,
-          "slug": "model-releases"
-        }
-      ],
-      "similarity_score": 0.25,
-      "source": "UCUyeluBRhGPCW4rPe_UvBZQ",
-      "target": "UCbfYPyITQ-7l4upoX8nvctg"
-    },
-    {
-      "explanation": "ThePrimeTime and Yannic Kilcher overlap around Model Releases; topic-overlap score 0.20.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "Model Releases",
-          "score": 0.603,
-          "slug": "model-releases"
-        }
-      ],
-      "similarity_score": 0.2,
-      "source": "UCUyeluBRhGPCW4rPe_UvBZQ",
-      "target": "UCZHmQk67mSJgfCCTn7xBfew"
-    },
-    {
-      "explanation": "ThePrimeTime and Matthew Berman overlap around Model Releases; topic-overlap score 0.17.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "Model Releases",
-          "score": 0.692,
-          "slug": "model-releases"
-        }
-      ],
-      "similarity_score": 0.167,
-      "source": "UCUyeluBRhGPCW4rPe_UvBZQ",
-      "target": "UCawZsQWqfGSbCI5yjkdVkTA"
-    },
-    {
-      "explanation": "freeCodeCamp.org and ThePrimeTime overlap around Model Releases; topic-overlap score 0.14.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "Model Releases",
-          "score": 0.56,
-          "slug": "model-releases"
-        }
-      ],
-      "similarity_score": 0.143,
-      "source": "UC8butISFwT-Wl7EV0hUK0BQ",
-      "target": "UCUyeluBRhGPCW4rPe_UvBZQ"
-    },
-    {
-      "explanation": "AI Explained and ThePrimeTime overlap around Model Releases; topic-overlap score 0.14.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "Model Releases",
-          "score": 0.692,
-          "slug": "model-releases"
-        }
-      ],
-      "similarity_score": 0.143,
-      "source": "UCNJ1Ymd5yFuUPtn21xtRbbw",
-      "target": "UCUyeluBRhGPCW4rPe_UvBZQ"
-    },
-    {
-      "explanation": "Lex Fridman and ThePrimeTime overlap around Enterprise Adoption; topic-overlap score 0.14.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "Enterprise Adoption",
-          "score": 0.637,
-          "slug": "enterprise-adoption"
-        }
-      ],
-      "similarity_score": 0.143,
-      "source": "UCSHZKyawb77ixDdsGog4iWA",
-      "target": "UCUyeluBRhGPCW4rPe_UvBZQ"
-    },
-    {
-      "explanation": "ThePrimeTime and Fireship overlap around Model Releases; topic-overlap score 0.14.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "Model Releases",
-          "score": 0.666,
-          "slug": "model-releases"
-        }
-      ],
-      "similarity_score": 0.143,
-      "source": "UCUyeluBRhGPCW4rPe_UvBZQ",
-      "target": "UCsBjURrPoezykLs9EqgamOA"
-    },
-    {
       "explanation": "OpenAI and Yannic Kilcher overlap around Model Releases; topic-overlap score 0.14.",
       "method": "topic_overlap",
       "shared_topics": [
@@ -1040,23 +923,9 @@
       "similarity_score": 0.111,
       "source": "UCSHZKyawb77ixDdsGog4iWA",
       "target": "UCZHmQk67mSJgfCCTn7xBfew"
-    },
-    {
-      "explanation": "ThePrimeTime and Wes Roth overlap around Model Releases; topic-overlap score 0.09.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "Model Releases",
-          "score": 0.647,
-          "slug": "model-releases"
-        }
-      ],
-      "similarity_score": 0.091,
-      "source": "UCUyeluBRhGPCW4rPe_UvBZQ",
-      "target": "UCqcbQf6yw5KzRoDDcZ_wBSw"
     }
   ],
-  "generated_at": "2026-07-25T01:00:11Z",
+  "generated_at": "2026-07-26T01:03:54Z",
   "nodes": [
     {
       "id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
@@ -1125,16 +994,6 @@
       "video_count": 5
     },
     {
-      "id": "UCbfYPyITQ-7l4upoX8nvctg",
-      "label": "Two Minute Papers",
-      "top_topics": [
-        "AI Agents",
-        "Multimodal",
-        "Model Releases"
-      ],
-      "video_count": 4
-    },
-    {
       "id": "UC8butISFwT-Wl7EV0hUK0BQ",
       "label": "freeCodeCamp.org",
       "top_topics": [
@@ -1143,7 +1002,17 @@
         "RAG",
         "Open Source Models"
       ],
-      "video_count": 3
+      "video_count": 4
+    },
+    {
+      "id": "UCbfYPyITQ-7l4upoX8nvctg",
+      "label": "Two Minute Papers",
+      "top_topics": [
+        "AI Agents",
+        "Multimodal",
+        "Model Releases"
+      ],
+      "video_count": 4
     },
     {
       "id": "UCZHmQk67mSJgfCCTn7xBfew",
@@ -1155,15 +1024,6 @@
         "Model Releases"
       ],
       "video_count": 2
-    },
-    {
-      "id": "UCUyeluBRhGPCW4rPe_UvBZQ",
-      "label": "ThePrimeTime",
-      "top_topics": [
-        "Enterprise Adoption",
-        "Model Releases"
-      ],
-      "video_count": 1
     }
   ],
   "schema_version": "1.0"
