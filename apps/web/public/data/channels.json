@@ -1,6 +1,38 @@
 {
   "channels": [
     {
+      "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
+      "handle": "@OpenAI",
+      "latest_video_at": "2026-07-27T12:37:15Z",
+      "thumbnail_url": null,
+      "title": "OpenAI",
+      "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.86,
+          "slug": "agents"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.736,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.731,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Enterprise Adoption",
+          "score": 0.636,
+          "slug": "enterprise-adoption"
+        }
+      ],
+      "url": "https://www.youtube.com/@OpenAI",
+      "video_count": 5,
+      "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
+    },
+    {
       "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
       "handle": "@WesRoth",
       "latest_video_at": "2026-07-24T23:50:58Z",
@@ -73,38 +105,6 @@
       "url": "https://www.youtube.com/@matthew_berman",
       "video_count": 5,
       "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
-    },
-    {
-      "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
-      "handle": "@OpenAI",
-      "latest_video_at": "2026-07-24T19:47:16Z",
-      "thumbnail_url": null,
-      "title": "OpenAI",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.86,
-          "slug": "agents"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.741,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.736,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Enterprise Adoption",
-          "score": 0.636,
-          "slug": "enterprise-adoption"
-        }
-      ],
-      "url": "https://www.youtube.com/@OpenAI",
-      "video_count": 5,
-      "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
     },
     {
       "description": "Fast software engineering and AI tooling explainers.",
@@ -284,28 +284,38 @@
     {
       "description": "Developer commentary, tools, and AI coding workflow coverage.",
       "handle": "@ThePrimeagen",
-      "latest_video_at": "2026-07-26T13:02:19Z",
+      "latest_video_at": "2026-07-27T13:00:07Z",
       "thumbnail_url": null,
       "title": "ThePrimeTime",
       "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.776,
+          "slug": "agents"
+        },
         {
           "label": "Coding Assistants",
           "score": 0.773,
           "slug": "coding-assistants"
         },
         {
-          "label": "Benchmarks",
-          "score": 0.587,
-          "slug": "benchmarks"
+          "label": "Open Source Models",
+          "score": 0.744,
+          "slug": "open-source-models"
         },
         {
           "label": "Model Releases",
-          "score": 0.557,
+          "score": 0.704,
           "slug": "model-releases"
+        },
+        {
+          "label": "Safety and Alignment",
+          "score": 0.659,
+          "slug": "safety-alignment"
         }
       ],
       "url": "https://www.youtube.com/@ThePrimeagen",
-      "video_count": 2,
+      "video_count": 3,
       "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
     },
     {
@@ -341,6 +351,6 @@
       "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
     }
   ],
-  "generated_at": "2026-07-27T01:04:06Z",
+  "generated_at": "2026-07-27T13:25:40Z",
   "schema_version": "1.0"
 }
