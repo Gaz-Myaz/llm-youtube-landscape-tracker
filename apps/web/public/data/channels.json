@@ -1,6 +1,43 @@
 {
   "channels": [
     {
+      "description": "Technical courses and tutorials, including practical AI application development.",
+      "handle": "@freecodecamp",
+      "latest_video_at": "2026-07-28T12:05:32Z",
+      "thumbnail_url": null,
+      "title": "freeCodeCamp.org",
+      "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.866,
+          "slug": "agents"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.813,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.805,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Local Inference",
+          "score": 0.71,
+          "slug": "local-inference"
+        },
+        {
+          "label": "Evaluation",
+          "score": 0.631,
+          "slug": "evals"
+        }
+      ],
+      "url": "https://www.youtube.com/@freecodecamp",
+      "video_count": 5,
+      "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
+    },
+    {
       "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
       "handle": "@matthew_berman",
       "latest_video_at": "2026-07-27T21:17:57Z",
@@ -218,43 +255,6 @@
       "youtube_channel_id": "UCSHZKyawb77ixDdsGog4iWA"
     },
     {
-      "description": "Technical courses and tutorials, including practical AI application development.",
-      "handle": "@freecodecamp",
-      "latest_video_at": "2026-07-25T12:32:34Z",
-      "thumbnail_url": null,
-      "title": "freeCodeCamp.org",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.866,
-          "slug": "agents"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.813,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "RAG",
-          "score": 0.781,
-          "slug": "rag"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.725,
-          "slug": "open-source-models"
-        },
-        {
-          "label": "Local Inference",
-          "score": 0.71,
-          "slug": "local-inference"
-        }
-      ],
-      "url": "https://www.youtube.com/@freecodecamp",
-      "video_count": 4,
-      "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
-    },
-    {
       "description": "Research-focused AI and machine learning explainers.",
       "handle": "@TwoMinutePapers",
       "latest_video_at": "2026-07-16T15:39:17Z",
@@ -351,6 +351,6 @@
       "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
     }
   ],
-  "generated_at": "2026-07-28T00:56:26Z",
+  "generated_at": "2026-07-28T13:01:15Z",
   "schema_version": "1.0"
 }
