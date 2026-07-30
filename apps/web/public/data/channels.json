@@ -171,43 +171,6 @@
       "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
     },
     {
-      "description": "Technical courses and tutorials, including practical AI application development.",
-      "handle": "@freecodecamp",
-      "latest_video_at": "2026-07-28T12:05:32Z",
-      "thumbnail_url": null,
-      "title": "freeCodeCamp.org",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.866,
-          "slug": "agents"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.813,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.805,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Local Inference",
-          "score": 0.71,
-          "slug": "local-inference"
-        },
-        {
-          "label": "Evaluation",
-          "score": 0.631,
-          "slug": "evals"
-        }
-      ],
-      "url": "https://www.youtube.com/@freecodecamp",
-      "video_count": 5,
-      "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
-    },
-    {
       "description": "Accessible analysis of frontier models, agents, local inference, and open-weight AI.",
       "handle": "@AIExplained-official",
       "latest_video_at": "2026-07-22T16:36:53Z",
@@ -243,6 +206,38 @@
       "url": "https://www.youtube.com/@AIExplained-official",
       "video_count": 5,
       "youtube_channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw"
+    },
+    {
+      "description": "Technical courses and tutorials, including practical AI application development.",
+      "handle": "@freecodecamp",
+      "latest_video_at": "2026-07-28T12:05:32Z",
+      "thumbnail_url": null,
+      "title": "freeCodeCamp.org",
+      "top_topics": [
+        {
+          "label": "Model Releases",
+          "score": 0.805,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.77,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "AI Agents",
+          "score": 0.766,
+          "slug": "agents"
+        },
+        {
+          "label": "Evaluation",
+          "score": 0.631,
+          "slug": "evals"
+        }
+      ],
+      "url": "https://www.youtube.com/@freecodecamp",
+      "video_count": 4,
+      "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
     },
     {
       "description": "Long-form technical interviews with AI researchers and builders.",
@@ -341,6 +336,6 @@
       "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
     }
   ],
-  "generated_at": "2026-07-30T00:55:26Z",
+  "generated_at": "2026-07-30T12:56:47Z",
   "schema_version": "1.0"
 }
