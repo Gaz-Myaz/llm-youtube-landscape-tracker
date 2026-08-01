@@ -581,7 +581,7 @@
       "shared_topics": [
         {
           "label": "Coding Assistants",
-          "score": 0.758,
+          "score": 0.844,
           "slug": "coding-assistants"
         },
         {
@@ -600,7 +600,7 @@
       "shared_topics": [
         {
           "label": "Coding Assistants",
-          "score": 0.762,
+          "score": 0.848,
           "slug": "coding-assistants"
         },
         {
@@ -686,7 +686,7 @@
       "shared_topics": [
         {
           "label": "Coding Assistants",
-          "score": 0.792,
+          "score": 0.879,
           "slug": "coding-assistants"
         },
         {
@@ -705,7 +705,7 @@
       "shared_topics": [
         {
           "label": "Coding Assistants",
-          "score": 0.777,
+          "score": 0.863,
           "slug": "coding-assistants"
         },
         {
@@ -933,7 +933,7 @@
       "shared_topics": [
         {
           "label": "Coding Assistants",
-          "score": 0.776,
+          "score": 0.861,
           "slug": "coding-assistants"
         },
         {
@@ -980,7 +980,7 @@
       "shared_topics": [
         {
           "label": "Coding Assistants",
-          "score": 0.774,
+          "score": 0.86,
           "slug": "coding-assistants"
         }
       ],
@@ -1017,7 +1017,7 @@
       "target": "UCbfYPyITQ-7l4upoX8nvctg"
     }
   ],
-  "generated_at": "2026-07-31T13:01:37Z",
+  "generated_at": "2026-08-01T01:02:18Z",
   "nodes": [
     {
       "id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
@@ -1113,7 +1113,7 @@
         "Coding Assistants",
         "Model Releases"
       ],
-      "video_count": 2
+      "video_count": 3
     },
     {
       "id": "UCZHmQk67mSJgfCCTn7xBfew",
