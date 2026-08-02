@@ -586,7 +586,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.695,
+          "score": 0.663,
           "slug": "model-releases"
         }
       ],
@@ -605,7 +605,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.72,
+          "score": 0.688,
           "slug": "model-releases"
         }
       ],
@@ -691,7 +691,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.713,
+          "score": 0.681,
           "slug": "model-releases"
         }
       ],
@@ -710,7 +710,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.72,
+          "score": 0.688,
           "slug": "model-releases"
         }
       ],
@@ -919,7 +919,7 @@
       "shared_topics": [
         {
           "label": "Model Releases",
-          "score": 0.677,
+          "score": 0.645,
           "slug": "model-releases"
         }
       ],
@@ -938,7 +938,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.668,
+          "score": 0.636,
           "slug": "model-releases"
         }
       ],
@@ -952,7 +952,7 @@
       "shared_topics": [
         {
           "label": "Model Releases",
-          "score": 0.631,
+          "score": 0.599,
           "slug": "model-releases"
         }
       ],
@@ -966,7 +966,7 @@
       "shared_topics": [
         {
           "label": "Model Releases",
-          "score": 0.611,
+          "score": 0.579,
           "slug": "model-releases"
         }
       ],
@@ -1017,7 +1017,7 @@
       "target": "UCbfYPyITQ-7l4upoX8nvctg"
     }
   ],
-  "generated_at": "2026-08-01T12:41:43Z",
+  "generated_at": "2026-08-02T01:02:52Z",
   "nodes": [
     {
       "id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
@@ -1113,7 +1113,7 @@
         "Coding Assistants",
         "Model Releases"
       ],
-      "video_count": 3
+      "video_count": 2
     },
     {
       "id": "UCZHmQk67mSJgfCCTn7xBfew",
