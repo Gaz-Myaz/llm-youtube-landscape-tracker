@@ -1,46 +1,9 @@
 {
   "channels": [
     {
-      "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
-      "handle": "@matthew_berman",
-      "latest_video_at": "2026-07-31T00:23:46Z",
-      "thumbnail_url": null,
-      "title": "Matthew Berman",
-      "top_topics": [
-        {
-          "label": "Open Source Models",
-          "score": 0.863,
-          "slug": "open-source-models"
-        },
-        {
-          "label": "AI Agents",
-          "score": 0.798,
-          "slug": "agents"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.769,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Local Inference",
-          "score": 0.738,
-          "slug": "local-inference"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.738,
-          "slug": "coding-assistants"
-        }
-      ],
-      "url": "https://www.youtube.com/@matthew_berman",
-      "video_count": 5,
-      "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
-    },
-    {
       "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
       "handle": "@WesRoth",
-      "latest_video_at": "2026-07-30T20:37:37Z",
+      "latest_video_at": "2026-08-02T08:10:05Z",
       "thumbnail_url": null,
       "title": "Wes Roth",
       "top_topics": [
@@ -55,11 +18,6 @@
           "slug": "open-source-models"
         },
         {
-          "label": "Coding Assistants",
-          "score": 0.773,
-          "slug": "coding-assistants"
-        },
-        {
           "label": "Local Inference",
           "score": 0.749,
           "slug": "local-inference"
@@ -68,6 +26,11 @@
           "label": "Model Releases",
           "score": 0.716,
           "slug": "model-releases"
+        },
+        {
+          "label": "Safety and Alignment",
+          "score": 0.698,
+          "slug": "safety-alignment"
         }
       ],
       "url": "https://www.youtube.com/@WesRoth",
@@ -245,6 +208,43 @@
       "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
     },
     {
+      "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
+      "handle": "@matthew_berman",
+      "latest_video_at": "2026-07-31T00:23:46Z",
+      "thumbnail_url": null,
+      "title": "Matthew Berman",
+      "top_topics": [
+        {
+          "label": "Open Source Models",
+          "score": 0.863,
+          "slug": "open-source-models"
+        },
+        {
+          "label": "AI Agents",
+          "score": 0.798,
+          "slug": "agents"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.769,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Local Inference",
+          "score": 0.738,
+          "slug": "local-inference"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.738,
+          "slug": "coding-assistants"
+        }
+      ],
+      "url": "https://www.youtube.com/@matthew_berman",
+      "video_count": 4,
+      "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
+    },
+    {
       "description": "Long-form technical interviews with AI researchers and builders.",
       "handle": "@lexfridman",
       "latest_video_at": "2026-06-30T21:16:13Z",
@@ -336,6 +336,6 @@
       "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
     }
   ],
-  "generated_at": "2026-08-02T01:02:52Z",
+  "generated_at": "2026-08-02T12:43:42Z",
   "schema_version": "1.0"
 }
