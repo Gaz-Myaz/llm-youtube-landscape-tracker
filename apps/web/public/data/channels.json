@@ -1,6 +1,38 @@
 {
   "channels": [
     {
+      "description": "Research-focused AI and machine learning explainers.",
+      "handle": "@TwoMinutePapers",
+      "latest_video_at": "2026-08-02T15:01:10Z",
+      "thumbnail_url": null,
+      "title": "Two Minute Papers",
+      "top_topics": [
+        {
+          "label": "Open Source Models",
+          "score": 0.801,
+          "slug": "open-source-models"
+        },
+        {
+          "label": "AI Agents",
+          "score": 0.781,
+          "slug": "agents"
+        },
+        {
+          "label": "Multimodal",
+          "score": 0.753,
+          "slug": "multimodal"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.571,
+          "slug": "model-releases"
+        }
+      ],
+      "url": "https://www.youtube.com/@TwoMinutePapers",
+      "video_count": 5,
+      "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
+    },
+    {
       "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
       "handle": "@WesRoth",
       "latest_video_at": "2026-08-02T08:10:05Z",
@@ -100,38 +132,6 @@
       "url": "https://www.youtube.com/@Fireship",
       "video_count": 5,
       "youtube_channel_id": "UCsBjURrPoezykLs9EqgamOA"
-    },
-    {
-      "description": "Research-focused AI and machine learning explainers.",
-      "handle": "@TwoMinutePapers",
-      "latest_video_at": "2026-07-29T12:37:50Z",
-      "thumbnail_url": null,
-      "title": "Two Minute Papers",
-      "top_topics": [
-        {
-          "label": "Open Source Models",
-          "score": 0.801,
-          "slug": "open-source-models"
-        },
-        {
-          "label": "AI Agents",
-          "score": 0.781,
-          "slug": "agents"
-        },
-        {
-          "label": "Multimodal",
-          "score": 0.753,
-          "slug": "multimodal"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.602,
-          "slug": "model-releases"
-        }
-      ],
-      "url": "https://www.youtube.com/@TwoMinutePapers",
-      "video_count": 5,
-      "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
     },
     {
       "description": "Accessible analysis of frontier models, agents, local inference, and open-weight AI.",
@@ -336,6 +336,6 @@
       "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
     }
   ],
-  "generated_at": "2026-08-02T12:43:42Z",
+  "generated_at": "2026-08-03T01:02:30Z",
   "schema_version": "1.0"
 }
