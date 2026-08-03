@@ -3,7 +3,7 @@
     {
       "description": "Research-focused AI and machine learning explainers.",
       "handle": "@TwoMinutePapers",
-      "latest_video_at": "2026-08-02T15:01:10Z",
+      "latest_video_at": "2026-08-03T09:47:34Z",
       "thumbnail_url": null,
       "title": "Two Minute Papers",
       "top_topics": [
@@ -24,8 +24,13 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.571,
+          "score": 0.651,
           "slug": "model-releases"
+        },
+        {
+          "label": "Benchmarks",
+          "score": 0.6,
+          "slug": "benchmarks"
         }
       ],
       "url": "https://www.youtube.com/@TwoMinutePapers",
@@ -173,7 +178,7 @@
     {
       "description": "Technical courses and tutorials, including practical AI application development.",
       "handle": "@freecodecamp",
-      "latest_video_at": "2026-07-31T15:59:06Z",
+      "latest_video_at": "2026-08-03T11:36:12Z",
       "thumbnail_url": null,
       "title": "freeCodeCamp.org",
       "top_topics": [
@@ -284,18 +289,18 @@
     {
       "description": "Developer commentary, tools, and AI coding workflow coverage.",
       "handle": "@ThePrimeagen",
-      "latest_video_at": "2026-08-01T18:00:13Z",
+      "latest_video_at": "2026-08-03T13:00:08Z",
       "thumbnail_url": null,
       "title": "ThePrimeTime",
       "top_topics": [
         {
           "label": "Coding Assistants",
-          "score": 0.95,
+          "score": 0.739,
           "slug": "coding-assistants"
         },
         {
           "label": "Model Releases",
-          "score": 0.556,
+          "score": 0.638,
           "slug": "model-releases"
         }
       ],
@@ -336,6 +341,6 @@
       "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
     }
   ],
-  "generated_at": "2026-08-03T01:02:30Z",
+  "generated_at": "2026-08-03T13:24:42Z",
   "schema_version": "1.0"
 }
