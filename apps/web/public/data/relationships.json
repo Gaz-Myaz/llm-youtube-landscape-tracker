@@ -1022,7 +1022,7 @@
       "target": "UCbfYPyITQ-7l4upoX8nvctg"
     }
   ],
-  "generated_at": "2026-08-04T13:02:58Z",
+  "generated_at": "2026-08-05T00:54:25Z",
   "nodes": [
     {
       "id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
@@ -1043,16 +1043,6 @@
         "Model Releases",
         "AI Agents",
         "Coding Assistants"
-      ],
-      "video_count": 5
-    },
-    {
-      "id": "UCXZCJLdBC09xxGZ6gcdrc6A",
-      "label": "OpenAI",
-      "top_topics": [
-        "AI Agents",
-        "Model Releases",
-        "Multimodal"
       ],
       "video_count": 5
     },
@@ -1112,13 +1102,14 @@
       "video_count": 4
     },
     {
-      "id": "UCUyeluBRhGPCW4rPe_UvBZQ",
-      "label": "ThePrimeTime",
+      "id": "UCXZCJLdBC09xxGZ6gcdrc6A",
+      "label": "OpenAI",
       "top_topics": [
-        "Coding Assistants",
-        "Model Releases"
+        "AI Agents",
+        "Model Releases",
+        "Multimodal"
       ],
-      "video_count": 2
+      "video_count": 4
     },
     {
       "id": "UCZHmQk67mSJgfCCTn7xBfew",
@@ -1130,6 +1121,15 @@
         "Model Releases"
       ],
       "video_count": 2
+    },
+    {
+      "id": "UCUyeluBRhGPCW4rPe_UvBZQ",
+      "label": "ThePrimeTime",
+      "top_topics": [
+        "Coding Assistants",
+        "Model Releases"
+      ],
+      "video_count": 1
     }
   ],
   "schema_version": "1.0"
