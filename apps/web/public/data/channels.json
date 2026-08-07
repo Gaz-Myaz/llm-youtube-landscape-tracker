@@ -1,6 +1,43 @@
 {
   "channels": [
     {
+      "description": "Research-focused AI and machine learning explainers.",
+      "handle": "@TwoMinutePapers",
+      "latest_video_at": "2026-08-07T08:22:00Z",
+      "thumbnail_url": null,
+      "title": "Two Minute Papers",
+      "top_topics": [
+        {
+          "label": "Open Source Models",
+          "score": 0.847,
+          "slug": "open-source-models"
+        },
+        {
+          "label": "Multimodal",
+          "score": 0.792,
+          "slug": "multimodal"
+        },
+        {
+          "label": "AI Agents",
+          "score": 0.781,
+          "slug": "agents"
+        },
+        {
+          "label": "Local Inference",
+          "score": 0.717,
+          "slug": "local-inference"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.674,
+          "slug": "model-releases"
+        }
+      ],
+      "url": "https://www.youtube.com/@TwoMinutePapers",
+      "video_count": 5,
+      "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
+    },
+    {
       "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
       "handle": "@WesRoth",
       "latest_video_at": "2026-08-07T00:06:07Z",
@@ -112,46 +149,9 @@
       "youtube_channel_id": "UCsBjURrPoezykLs9EqgamOA"
     },
     {
-      "description": "Research-focused AI and machine learning explainers.",
-      "handle": "@TwoMinutePapers",
-      "latest_video_at": "2026-08-05T13:54:29Z",
-      "thumbnail_url": null,
-      "title": "Two Minute Papers",
-      "top_topics": [
-        {
-          "label": "Open Source Models",
-          "score": 0.801,
-          "slug": "open-source-models"
-        },
-        {
-          "label": "AI Agents",
-          "score": 0.781,
-          "slug": "agents"
-        },
-        {
-          "label": "Multimodal",
-          "score": 0.753,
-          "slug": "multimodal"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.674,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Benchmarks",
-          "score": 0.6,
-          "slug": "benchmarks"
-        }
-      ],
-      "url": "https://www.youtube.com/@TwoMinutePapers",
-      "video_count": 5,
-      "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
-    },
-    {
       "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
       "handle": "@matthew_berman",
-      "latest_video_at": "2026-08-05T18:44:08Z",
+      "latest_video_at": "2026-08-07T01:33:42Z",
       "thumbnail_url": null,
       "title": "Matthew Berman",
       "top_topics": [
@@ -161,19 +161,14 @@
           "slug": "open-source-models"
         },
         {
-          "label": "AI Agents",
-          "score": 0.798,
-          "slug": "agents"
-        },
-        {
           "label": "Model Releases",
           "score": 0.769,
           "slug": "model-releases"
         },
         {
-          "label": "Local Inference",
-          "score": 0.738,
-          "slug": "local-inference"
+          "label": "AI Agents",
+          "score": 0.769,
+          "slug": "agents"
         },
         {
           "label": "Fine Tuning",
@@ -351,6 +346,6 @@
       "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
     }
   ],
-  "generated_at": "2026-08-07T01:33:24Z",
+  "generated_at": "2026-08-07T12:36:15Z",
   "schema_version": "1.0"
 }
