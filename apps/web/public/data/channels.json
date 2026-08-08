@@ -1,6 +1,43 @@
 {
   "channels": [
     {
+      "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
+      "handle": "@WesRoth",
+      "latest_video_at": "2026-08-08T08:32:24Z",
+      "thumbnail_url": null,
+      "title": "Wes Roth",
+      "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.853,
+          "slug": "agents"
+        },
+        {
+          "label": "Open Source Models",
+          "score": 0.836,
+          "slug": "open-source-models"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.829,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Local Inference",
+          "score": 0.749,
+          "slug": "local-inference"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.74,
+          "slug": "model-releases"
+        }
+      ],
+      "url": "https://www.youtube.com/@WesRoth",
+      "video_count": 5,
+      "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
+    },
+    {
       "description": "Research-focused AI and machine learning explainers.",
       "handle": "@TwoMinutePapers",
       "latest_video_at": "2026-08-07T08:22:00Z",
@@ -36,43 +73,6 @@
       "url": "https://www.youtube.com/@TwoMinutePapers",
       "video_count": 5,
       "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
-    },
-    {
-      "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
-      "handle": "@WesRoth",
-      "latest_video_at": "2026-08-07T00:06:07Z",
-      "thumbnail_url": null,
-      "title": "Wes Roth",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.844,
-          "slug": "agents"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.836,
-          "slug": "open-source-models"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.829,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Local Inference",
-          "score": 0.749,
-          "slug": "local-inference"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.74,
-          "slug": "model-releases"
-        }
-      ],
-      "url": "https://www.youtube.com/@WesRoth",
-      "video_count": 5,
-      "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
     },
     {
       "description": "Accessible analysis of frontier models, agents, local inference, and open-weight AI.",
@@ -346,6 +346,6 @@
       "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
     }
   ],
-  "generated_at": "2026-08-08T00:37:49Z",
+  "generated_at": "2026-08-08T12:33:34Z",
   "schema_version": "1.0"
 }
