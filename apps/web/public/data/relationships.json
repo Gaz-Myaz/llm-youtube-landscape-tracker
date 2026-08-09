@@ -176,30 +176,6 @@
       "target": "UCsBjURrPoezykLs9EqgamOA"
     },
     {
-      "explanation": "ThePrimeTime and Matthew Berman overlap around AI Agents, Model Releases, Open Source Models; topic-overlap score 0.60.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.768,
-          "slug": "agents"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.75,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.777,
-          "slug": "open-source-models"
-        }
-      ],
-      "similarity_score": 0.6,
-      "source": "UCUyeluBRhGPCW4rPe_UvBZQ",
-      "target": "UCawZsQWqfGSbCI5yjkdVkTA"
-    },
-    {
       "explanation": "OpenAI and Fireship overlap around AI Agents, Coding Assistants, Model Releases; topic-overlap score 0.60.",
       "method": "topic_overlap",
       "shared_topics": [
@@ -251,35 +227,6 @@
       "similarity_score": 0.571,
       "source": "UC8butISFwT-Wl7EV0hUK0BQ",
       "target": "UCsBjURrPoezykLs9EqgamOA"
-    },
-    {
-      "explanation": "AI Explained and ThePrimeTime overlap around AI Agents, Evaluation, Model Releases; topic-overlap score 0.57.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.791,
-          "slug": "agents"
-        },
-        {
-          "label": "Evaluation",
-          "score": 0.631,
-          "slug": "evals"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.775,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.75,
-          "slug": "open-source-models"
-        }
-      ],
-      "similarity_score": 0.571,
-      "source": "UCNJ1Ymd5yFuUPtn21xtRbbw",
-      "target": "UCUyeluBRhGPCW4rPe_UvBZQ"
     },
     {
       "explanation": "Two Minute Papers and Fireship overlap around AI Agents, Benchmarks, Model Releases; topic-overlap score 0.57.",
@@ -427,30 +374,6 @@
       "target": "UCXZCJLdBC09xxGZ6gcdrc6A"
     },
     {
-      "explanation": "ThePrimeTime and Fireship overlap around AI Agents, Model Releases, Open Source Models; topic-overlap score 0.50.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.772,
-          "slug": "agents"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.775,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.803,
-          "slug": "open-source-models"
-        }
-      ],
-      "similarity_score": 0.5,
-      "source": "UCUyeluBRhGPCW4rPe_UvBZQ",
-      "target": "UCsBjURrPoezykLs9EqgamOA"
-    },
-    {
       "explanation": "Matthew Berman and Fireship overlap around AI Agents, Model Releases, Open Source Models; topic-overlap score 0.50.",
       "method": "topic_overlap",
       "shared_topics": [
@@ -533,30 +456,6 @@
       "target": "UCbfYPyITQ-7l4upoX8nvctg"
     },
     {
-      "explanation": "freeCodeCamp.org and ThePrimeTime overlap around AI Agents, Model Releases, Open Source Models; topic-overlap score 0.43.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.817,
-          "slug": "agents"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.694,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.762,
-          "slug": "open-source-models"
-        }
-      ],
-      "similarity_score": 0.429,
-      "source": "UC8butISFwT-Wl7EV0hUK0BQ",
-      "target": "UCUyeluBRhGPCW4rPe_UvBZQ"
-    },
-    {
       "explanation": "freeCodeCamp.org and Yannic Kilcher overlap around Local Inference, Model Releases, Open Source Models; topic-overlap score 0.43.",
       "method": "topic_overlap",
       "shared_topics": [
@@ -629,30 +528,6 @@
       "target": "UCXZCJLdBC09xxGZ6gcdrc6A"
     },
     {
-      "explanation": "ThePrimeTime and Two Minute Papers overlap around AI Agents, Model Releases, Open Source Models; topic-overlap score 0.43.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.774,
-          "slug": "agents"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.703,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.788,
-          "slug": "open-source-models"
-        }
-      ],
-      "similarity_score": 0.429,
-      "source": "UCUyeluBRhGPCW4rPe_UvBZQ",
-      "target": "UCbfYPyITQ-7l4upoX8nvctg"
-    },
-    {
       "explanation": "Matthew Berman and Two Minute Papers overlap around AI Agents, Model Releases, Open Source Models; topic-overlap score 0.43.",
       "method": "topic_overlap",
       "shared_topics": [
@@ -675,25 +550,6 @@
       "similarity_score": 0.429,
       "source": "UCawZsQWqfGSbCI5yjkdVkTA",
       "target": "UCbfYPyITQ-7l4upoX8nvctg"
-    },
-    {
-      "explanation": "ThePrimeTime and OpenAI overlap around AI Agents, Model Releases; topic-overlap score 0.40.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.768,
-          "slug": "agents"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.768,
-          "slug": "model-releases"
-        }
-      ],
-      "similarity_score": 0.4,
-      "source": "UCUyeluBRhGPCW4rPe_UvBZQ",
-      "target": "UCXZCJLdBC09xxGZ6gcdrc6A"
     },
     {
       "explanation": "OpenAI and Matthew Berman overlap around AI Agents, Model Releases; topic-overlap score 0.40.",
@@ -811,30 +667,6 @@
       "target": "UCSHZKyawb77ixDdsGog4iWA"
     },
     {
-      "explanation": "ThePrimeTime and Wes Roth overlap around AI Agents, Model Releases, Open Source Models; topic-overlap score 0.33.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.81,
-          "slug": "agents"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.736,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.783,
-          "slug": "open-source-models"
-        }
-      ],
-      "similarity_score": 0.333,
-      "source": "UCUyeluBRhGPCW4rPe_UvBZQ",
-      "target": "UCqcbQf6yw5KzRoDDcZ_wBSw"
-    },
-    {
       "explanation": "Matthew Berman and Wes Roth overlap around AI Agents, Model Releases, Open Source Models; topic-overlap score 0.33.",
       "method": "topic_overlap",
       "shared_topics": [
@@ -878,25 +710,6 @@
       "target": "UCXZCJLdBC09xxGZ6gcdrc6A"
     },
     {
-      "explanation": "ThePrimeTime and Yannic Kilcher overlap around Model Releases, Open Source Models; topic-overlap score 0.33.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "Model Releases",
-          "score": 0.686,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.749,
-          "slug": "open-source-models"
-        }
-      ],
-      "similarity_score": 0.333,
-      "source": "UCUyeluBRhGPCW4rPe_UvBZQ",
-      "target": "UCZHmQk67mSJgfCCTn7xBfew"
-    },
-    {
       "explanation": "Yannic Kilcher and Matthew Berman overlap around Model Releases, Open Source Models; topic-overlap score 0.33.",
       "method": "topic_overlap",
       "shared_topics": [
@@ -914,25 +727,6 @@
       "similarity_score": 0.333,
       "source": "UCZHmQk67mSJgfCCTn7xBfew",
       "target": "UCawZsQWqfGSbCI5yjkdVkTA"
-    },
-    {
-      "explanation": "Lex Fridman and ThePrimeTime overlap around AI Agents, Evaluation; topic-overlap score 0.29.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.767,
-          "slug": "agents"
-        },
-        {
-          "label": "Evaluation",
-          "score": 0.63,
-          "slug": "evals"
-        }
-      ],
-      "similarity_score": 0.286,
-      "source": "UCSHZKyawb77ixDdsGog4iWA",
-      "target": "UCUyeluBRhGPCW4rPe_UvBZQ"
     },
     {
       "explanation": "OpenAI and Two Minute Papers overlap around AI Agents, Model Releases; topic-overlap score 0.29.",
@@ -1072,7 +866,7 @@
       "target": "UCbfYPyITQ-7l4upoX8nvctg"
     }
   ],
-  "generated_at": "2026-08-08T12:33:34Z",
+  "generated_at": "2026-08-09T00:38:30Z",
   "nodes": [
     {
       "id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
@@ -1171,17 +965,6 @@
         "Model Releases"
       ],
       "video_count": 2
-    },
-    {
-      "id": "UCUyeluBRhGPCW4rPe_UvBZQ",
-      "label": "ThePrimeTime",
-      "top_topics": [
-        "AI Agents",
-        "Model Releases",
-        "Open Source Models",
-        "Evaluation"
-      ],
-      "video_count": 1
     }
   ],
   "schema_version": "1.0"

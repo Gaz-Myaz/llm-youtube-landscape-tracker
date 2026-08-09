@@ -312,40 +312,8 @@
       "url": "https://www.youtube.com/@YannicKilcher",
       "video_count": 2,
       "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
-    },
-    {
-      "description": "Developer commentary, tools, and AI coding workflow coverage.",
-      "handle": "@ThePrimeagen",
-      "latest_video_at": "2026-08-05T13:00:37Z",
-      "thumbnail_url": null,
-      "title": "ThePrimeTime",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.768,
-          "slug": "agents"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.731,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.73,
-          "slug": "open-source-models"
-        },
-        {
-          "label": "Evaluation",
-          "score": 0.665,
-          "slug": "evals"
-        }
-      ],
-      "url": "https://www.youtube.com/@ThePrimeagen",
-      "video_count": 1,
-      "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
     }
   ],
-  "generated_at": "2026-08-08T12:33:34Z",
+  "generated_at": "2026-08-09T00:38:30Z",
   "schema_version": "1.0"
 }
