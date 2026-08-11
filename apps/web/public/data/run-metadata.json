@@ -1,17 +1,17 @@
 {
   "content_hashes": {
-    "channels": "96355373bdebd6e2bbb6a1821c0d59770979ccde10af3fbd4cf94014de887a13",
-    "relationships": "c555fc64ad9d8aef888291303c8330f3745dc44c597db82e2ac883b159eb3e89",
-    "videos": "87209708940de399a2301d5dab4e5b21434a0e1122ccea63ee5efb74a70723e9"
+    "channels": "30d06907eef1ba81b71bdb44cc64c72c4fda9c373556b376ce088c4cd2570e56",
+    "relationships": "4c3d6ad96eef74d17441fe751857bf77017fa21f4da4c6c8c87f7f8a9a053f29",
+    "videos": "92167a8b5f657e420b490d5f1ec8185c15ca6e3d9d25fab2e576ba113a6724b6"
   },
   "cost_rates": {
     "input_usd_per_1m_tokens": 0.3,
     "output_usd_per_1m_tokens": 2.5,
     "source": "default"
   },
-  "error_summary": "Skipped 1 videos before publication because no usable transcript was available: DNajvkqfobY: captions unavailable (No transcript provider succeeded for DNajvkqfobY. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=DNajvkqfobY! This is most likely caused by: The video is unplayable for the following reason: This live event will begin in a few moments. If you are su) Filtered 10 caption-backed videos outside configured LLM landscape rules: XyXBwO5jYpw: no gemini LLM landscape signal; aEtlWql1N5M: no gemini LLM landscape signal; yXU6DrONkYE: no gemini LLM landscape signal; 7 more Used deterministic fallback for 20 provider failures: vO6SWG-jxvE: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used; ppQh4Tc9BmM: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used; bm1BjOjS7sQ: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used; 17 more",
+  "error_summary": "Skipped 1 videos before publication because no usable transcript was available: DNajvkqfobY: captions unavailable (No transcript provider succeeded for DNajvkqfobY. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=DNajvkqfobY! This is most likely caused by: The video is unplayable for the following reason: This live event will begin in a few moments. If you are su) Filtered 9 caption-backed videos outside configured LLM landscape rules: XyXBwO5jYpw: no gemini LLM landscape signal; aEtlWql1N5M: no gemini LLM landscape signal; yXU6DrONkYE: no gemini LLM landscape signal; 6 more Used deterministic fallback for 20 provider failures: vO6SWG-jxvE: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used; ppQh4Tc9BmM: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used; bm1BjOjS7sQ: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used; 17 more",
   "estimated_cost_usd": 0.0,
-  "last_successful_run_at": "2026-08-11T00:38:57Z",
+  "last_successful_run_at": "2026-08-11T12:36:03Z",
   "model": "gemini-2.5-flash",
   "provider": "gemini",
   "provider_call_count": 49,
@@ -47,7 +47,7 @@
     "total_tokens": 0
   },
   "videos_failed": 0,
-  "videos_processed": 39,
+  "videos_processed": 40,
   "videos_seen": 50,
   "videos_skipped": 1
 }
