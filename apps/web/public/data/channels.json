@@ -223,38 +223,6 @@
       "youtube_channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw"
     },
     {
-      "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
-      "handle": "@OpenAI",
-      "latest_video_at": "2026-08-10T13:33:42Z",
-      "thumbnail_url": null,
-      "title": "OpenAI",
-      "top_topics": [
-        {
-          "label": "Model Releases",
-          "score": 0.805,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.78,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "AI Agents",
-          "score": 0.767,
-          "slug": "agents"
-        },
-        {
-          "label": "Evaluation",
-          "score": 0.631,
-          "slug": "evals"
-        }
-      ],
-      "url": "https://www.youtube.com/@OpenAI",
-      "video_count": 4,
-      "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
-    },
-    {
       "description": "Long-form technical interviews with AI researchers and builders.",
       "handle": "@lexfridman",
       "latest_video_at": "2026-06-30T21:16:13Z",
@@ -285,6 +253,28 @@
       "url": "https://www.youtube.com/@lexfridman",
       "video_count": 3,
       "youtube_channel_id": "UCSHZKyawb77ixDdsGog4iWA"
+    },
+    {
+      "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
+      "handle": "@OpenAI",
+      "latest_video_at": "2026-08-13T08:09:08Z",
+      "thumbnail_url": null,
+      "title": "OpenAI",
+      "top_topics": [
+        {
+          "label": "Model Releases",
+          "score": 0.735,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Evaluation",
+          "score": 0.631,
+          "slug": "evals"
+        }
+      ],
+      "url": "https://www.youtube.com/@OpenAI",
+      "video_count": 2,
+      "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
     },
     {
       "description": "Developer commentary, tools, and AI coding workflow coverage.",
@@ -336,6 +326,6 @@
       "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
     }
   ],
-  "generated_at": "2026-08-13T00:44:33Z",
+  "generated_at": "2026-08-13T12:38:40Z",
   "schema_version": "1.0"
 }
