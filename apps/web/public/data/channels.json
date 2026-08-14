@@ -3,7 +3,7 @@
     {
       "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
       "handle": "@WesRoth",
-      "latest_video_at": "2026-08-12T21:47:19Z",
+      "latest_video_at": "2026-08-13T23:12:13Z",
       "thumbnail_url": null,
       "title": "Wes Roth",
       "top_topics": [
@@ -40,14 +40,14 @@
     {
       "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
       "handle": "@matthew_berman",
-      "latest_video_at": "2026-08-12T20:09:00Z",
+      "latest_video_at": "2026-08-13T18:27:35Z",
       "thumbnail_url": null,
       "title": "Matthew Berman",
       "top_topics": [
         {
-          "label": "Open Source Models",
-          "score": 0.808,
-          "slug": "open-source-models"
+          "label": "Coding Assistants",
+          "score": 0.88,
+          "slug": "coding-assistants"
         },
         {
           "label": "AI Agents",
@@ -55,14 +55,14 @@
           "slug": "agents"
         },
         {
-          "label": "Coding Assistants",
-          "score": 0.771,
-          "slug": "coding-assistants"
-        },
-        {
           "label": "Model Releases",
           "score": 0.77,
           "slug": "model-releases"
+        },
+        {
+          "label": "Open Source Models",
+          "score": 0.729,
+          "slug": "open-source-models"
         },
         {
           "label": "Local Inference",
@@ -223,6 +223,23 @@
       "youtube_channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw"
     },
     {
+      "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
+      "handle": "@OpenAI",
+      "latest_video_at": "2026-08-13T20:34:04Z",
+      "thumbnail_url": null,
+      "title": "OpenAI",
+      "top_topics": [
+        {
+          "label": "Model Releases",
+          "score": 0.755,
+          "slug": "model-releases"
+        }
+      ],
+      "url": "https://www.youtube.com/@OpenAI",
+      "video_count": 4,
+      "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
+    },
+    {
       "description": "Long-form technical interviews with AI researchers and builders.",
       "handle": "@lexfridman",
       "latest_video_at": "2026-06-30T21:16:13Z",
@@ -255,38 +272,31 @@
       "youtube_channel_id": "UCSHZKyawb77ixDdsGog4iWA"
     },
     {
-      "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
-      "handle": "@OpenAI",
-      "latest_video_at": "2026-08-13T08:09:08Z",
-      "thumbnail_url": null,
-      "title": "OpenAI",
-      "top_topics": [
-        {
-          "label": "Model Releases",
-          "score": 0.735,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Evaluation",
-          "score": 0.631,
-          "slug": "evals"
-        }
-      ],
-      "url": "https://www.youtube.com/@OpenAI",
-      "video_count": 2,
-      "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
-    },
-    {
       "description": "Developer commentary, tools, and AI coding workflow coverage.",
       "handle": "@ThePrimeagen",
-      "latest_video_at": "2026-08-11T13:03:09Z",
+      "latest_video_at": "2026-08-13T13:00:34Z",
       "thumbnail_url": null,
       "title": "ThePrimeTime",
       "top_topics": [
         {
+          "label": "Open Source Models",
+          "score": 0.731,
+          "slug": "open-source-models"
+        },
+        {
           "label": "Model Releases",
-          "score": 0.709,
+          "score": 0.701,
           "slug": "model-releases"
+        },
+        {
+          "label": "Safety and Alignment",
+          "score": 0.661,
+          "slug": "safety-alignment"
+        },
+        {
+          "label": "Evaluation",
+          "score": 0.636,
+          "slug": "evals"
         }
       ],
       "url": "https://www.youtube.com/@ThePrimeagen",
@@ -326,6 +336,6 @@
       "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
     }
   ],
-  "generated_at": "2026-08-13T12:38:40Z",
+  "generated_at": "2026-08-14T00:44:45Z",
   "schema_version": "1.0"
 }
