@@ -1,6 +1,80 @@
 {
   "channels": [
     {
+      "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
+      "handle": "@matthew_berman",
+      "latest_video_at": "2026-08-14T23:34:42Z",
+      "thumbnail_url": null,
+      "title": "Matthew Berman",
+      "top_topics": [
+        {
+          "label": "Coding Assistants",
+          "score": 0.88,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "AI Agents",
+          "score": 0.769,
+          "slug": "agents"
+        },
+        {
+          "label": "Open Source Models",
+          "score": 0.768,
+          "slug": "open-source-models"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.761,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Local Inference",
+          "score": 0.753,
+          "slug": "local-inference"
+        }
+      ],
+      "url": "https://www.youtube.com/@matthew_berman",
+      "video_count": 5,
+      "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
+    },
+    {
+      "description": "Fast software engineering and AI tooling explainers.",
+      "handle": "@Fireship",
+      "latest_video_at": "2026-08-14T17:44:59Z",
+      "thumbnail_url": null,
+      "title": "Fireship",
+      "top_topics": [
+        {
+          "label": "Open Source Models",
+          "score": 0.879,
+          "slug": "open-source-models"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.82,
+          "slug": "model-releases"
+        },
+        {
+          "label": "AI Agents",
+          "score": 0.817,
+          "slug": "agents"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.749,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Local Inference",
+          "score": 0.713,
+          "slug": "local-inference"
+        }
+      ],
+      "url": "https://www.youtube.com/@Fireship",
+      "video_count": 5,
+      "youtube_channel_id": "UCsBjURrPoezykLs9EqgamOA"
+    },
+    {
       "description": "Technical courses and tutorials, including practical AI application development.",
       "handle": "@freecodecamp",
       "latest_video_at": "2026-08-14T10:00:24Z",
@@ -112,80 +186,6 @@
       "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
     },
     {
-      "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
-      "handle": "@matthew_berman",
-      "latest_video_at": "2026-08-13T18:27:35Z",
-      "thumbnail_url": null,
-      "title": "Matthew Berman",
-      "top_topics": [
-        {
-          "label": "Coding Assistants",
-          "score": 0.88,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "AI Agents",
-          "score": 0.798,
-          "slug": "agents"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.77,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.729,
-          "slug": "open-source-models"
-        },
-        {
-          "label": "Local Inference",
-          "score": 0.708,
-          "slug": "local-inference"
-        }
-      ],
-      "url": "https://www.youtube.com/@matthew_berman",
-      "video_count": 5,
-      "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
-    },
-    {
-      "description": "Fast software engineering and AI tooling explainers.",
-      "handle": "@Fireship",
-      "latest_video_at": "2026-08-12T18:29:41Z",
-      "thumbnail_url": null,
-      "title": "Fireship",
-      "top_topics": [
-        {
-          "label": "Open Source Models",
-          "score": 0.879,
-          "slug": "open-source-models"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.82,
-          "slug": "model-releases"
-        },
-        {
-          "label": "AI Agents",
-          "score": 0.817,
-          "slug": "agents"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.749,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Multimodal",
-          "score": 0.692,
-          "slug": "multimodal"
-        }
-      ],
-      "url": "https://www.youtube.com/@Fireship",
-      "video_count": 5,
-      "youtube_channel_id": "UCsBjURrPoezykLs9EqgamOA"
-    },
-    {
       "description": "Accessible analysis of frontier models, agents, local inference, and open-weight AI.",
       "handle": "@AIExplained-official",
       "latest_video_at": "2026-08-06T15:02:06Z",
@@ -225,7 +225,7 @@
     {
       "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
       "handle": "@OpenAI",
-      "latest_video_at": "2026-08-14T06:30:28Z",
+      "latest_video_at": "2026-08-14T17:19:17Z",
       "thumbnail_url": null,
       "title": "OpenAI",
       "top_topics": [
@@ -336,6 +336,6 @@
       "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
     }
   ],
-  "generated_at": "2026-08-14T12:35:24Z",
+  "generated_at": "2026-08-15T00:34:47Z",
   "schema_version": "1.0"
 }
