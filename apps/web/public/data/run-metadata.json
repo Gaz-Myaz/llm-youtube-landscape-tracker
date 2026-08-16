@@ -1,8 +1,8 @@
 {
   "content_hashes": {
-    "channels": "b767e2c00412954f52776e0d2f9b3124838afc109dfedd407f5c01de9f93f95d",
-    "relationships": "e90a07610bc6c6e11690d136febf362ba702eb946ae7432c5e03409baeef9e6e",
-    "videos": "c98912485a952d9ea711bc0544dc6d31f064e7cb8e8c6c62cb78c3c6f4155fa1"
+    "channels": "89cb3cdfa41a51bf19305361bc4e8c79aee41def9e18a84f70959be2f3aa3432",
+    "relationships": "87a61606e9b46f14ab783a872759a0cd04cace85b082d247334fb2ca9085d699",
+    "videos": "9502f747601cb3408ec4b804be6f0f2a619c93db471545424b94d8d25267f432"
   },
   "cost_rates": {
     "input_usd_per_1m_tokens": 0.3,
@@ -11,7 +11,7 @@
   },
   "error_summary": "Skipped 1 videos before publication because no usable transcript was available: DNajvkqfobY: captions unavailable (No transcript provider succeeded for DNajvkqfobY. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=DNajvkqfobY! This is most likely caused by: The video is unplayable for the following reason: This live event will begin in a few moments. If you are su) Filtered 8 caption-backed videos outside configured LLM landscape rules: l6USUAIKJls: no gemini LLM landscape signal; XyXBwO5jYpw: no gemini LLM landscape signal; 6oBdGwCyt54: no gemini LLM landscape signal; 5 more Used deterministic fallback for 20 provider failures: QnGNF8k_uoc: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used; JQ97GiDwPxc: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used; vO6SWG-jxvE: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used; 17 more",
   "estimated_cost_usd": 0.0,
-  "last_successful_run_at": "2026-08-16T00:34:40Z",
+  "last_successful_run_at": "2026-08-16T12:33:03Z",
   "model": "gemini-2.5-flash",
   "provider": "gemini",
   "provider_call_count": 49,
