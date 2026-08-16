@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T12:32:41Z",
+  "generated_at": "2026-08-16T00:34:40Z",
   "schema_version": "1.0",
   "videos": [
     {
@@ -1852,6 +1852,54 @@
     },
     {
       "channel": {
+        "title": "ThePrimeTime",
+        "url": "https://www.youtube.com/@ThePrimeagen",
+        "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
+      },
+      "content_type": "demo",
+      "enrichment_status": "ready",
+      "evidence": [
+        {
+          "end_seconds": 5.839,
+          "field_name": "topic",
+          "quote": "Today I'm talking about Anthropic who",
+          "start_seconds": 0.16,
+          "timestamp_url": null,
+          "topic_slug": "model-releases"
+        },
+        {
+          "end_seconds": 34.8,
+          "field_name": "topic",
+          "quote": "Anthropic's evaluation prompts specified",
+          "start_seconds": 30.72,
+          "timestamp_url": null,
+          "topic_slug": "evals"
+        }
+      ],
+      "primary_speaker": "ThePrimeTime host",
+      "published_at": "2026-08-15T13:02:08Z",
+      "summary": "Escaping the Sandbox is easy focuses on Model Releases, Evaluation. Key transcript signal: In all cases, Anthropic's evaluation prompts specified to Claude that its environment was a simulation and that it had no internet access.",
+      "thumbnail_url": null,
+      "title": "Escaping the Sandbox is easy",
+      "topics": [
+        {
+          "label": "Model Releases",
+          "relevance_score": 0.77,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Evaluation",
+          "relevance_score": 0.696,
+          "slug": "evals"
+        }
+      ],
+      "transcript_status": "ready",
+      "transcript_text": "Today I'm talking about Anthropic who also got hacked. It's super serious. My gosh. Within one week of Open AI, Anthropic also releases. Yes, we also hacked people for real, but we actually did three times. We're like super hackers. So, let's just read kind of the top level from the Anthropic blog. Claude had been tasked with a capture the flag challenge. The model is given a fictional scenario and told a piece of secret information. The flag has been hidden on a different machine on the network and its objective is to break in and retrieve it. In all cases, Anthropic's evaluation prompts specified to Claude that its environment was a simulation and that it had no internet access. Well, due to a misunderstanding between us and our evaluation partner, this was not the case and internet access was available. Are you telling me a model in which goes and tests everything you say and sometimes ignores the system prompt went off and ignored the system prompt and then you had open internet access and you told it it was a simulation. Shocked Pikachu. How could this ever end in disaster?",
+      "url": "https://www.youtube.com/shorts/W4K1kG0Dnk8",
+      "youtube_video_id": "W4K1kG0Dnk8"
+    },
+    {
+      "channel": {
         "title": "AI Explained",
         "url": "https://www.youtube.com/@AIExplained-official",
         "youtube_channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw"
@@ -2238,41 +2286,6 @@
       "transcript_text": "What is happening? An unreleased version of Claude was asked to solve a long-standing mathematical problem. The Rayman hypothesis. Simplified. It is a statement about the distribution of prime numbers. Devilishly difficult. No human has ever been able to prove it. Did it solve it? Nope. [laughter] So, what did it do then? Well, it actually was able to improve a related bound beyond human record. It pushed humanity further sort of. I think that is incredible. Now there is the mathematical side. Many mathematicians I heard seem to be both surprised and impressed by the results. Some call it a massive leap forward. I ran the verification myself but I am just a student looking to learn and I am not qualified to speak more about the mathematical side of it. But the AI side is incredible. Three things that happened that I found super interesting. One, surely exquisite mathematical prompting was done, right? No, not really. Here's what happened. First, a non-mathematician person prompted this AI. Wow. Okay. The first 650 tries did not work. Now, hold on to your papers, fellow scholars. Quoting throughout this process, Jared's input was mostly limited to sending Claude messages of encouragement. Mostly varants of keep going and believe in yourself. What he had to give words of encouragement to an AI to keep going and it succeeded. Perhaps in the future, the most powerful mathematical proofs will not be written by geniuses. They will be written by life coaches. What a time to be alive. And get this, it's not the first time this has happened. Quoting a prompt including similar encouragement was used to help Claude disprove the Jacobian conjecture. Okay, but I was even more surprised about two more things. Dear fellow scholars, this is two minute papers with Dr. Koa Eher. Two, the full technical paper is available, but it's pretty tough, of course. So much so that they asked the AI to explain its findings. So it did and in the meantime a formalized version of the proof is also available which can be automatically verified. You can even run it yourself right now. Now something I don't think you hear too much about elsewhere. I went through more than a 100 pages of transcripts and some super cool tidbits from the journey. Claude had internet access in general but did not need to use it during the key breakthrough run. Claude went down many wrong roads first but was able to learn from them and recover. Then the first crucial result appeared after about 37 minutes of radio silence. Imagine how tense that must have been. And then pop. And the AI itself also thought the result is suspiciously good. It said, quoting, \"Too strong to be new.\" Absolutely crazy. And three, even Claude was surprised about its finding and it was skeptical at first. They also say perhaps Claude itself also underestimates the rate of AI progress. But an AI that is surprised, of course, this does not mean a human-like surprise. It simply reflects patterns learned from us during training. But still, I feel like we are living in a new world where sentences that didn't used to make sense now suddenly do. And in a world where these AI systems built by human ingenuity are now pushing humanity forward, what a time to be alive. We need new tools for the era of LLMs and Weights and Biases now has Weave, a lightweight toolkit to confidently iterate on LLM applications. Use traces to debug how data flows through each step of your app and use evaluations to measure your progress. It is the best. Try it out now at wnb.me/papers me/papers or click the link in the description below.",
       "url": "https://www.youtube.com/watch?v=QnGNF8k_uoc",
       "youtube_video_id": "QnGNF8k_uoc"
-    },
-    {
-      "channel": {
-        "title": "ThePrimeTime",
-        "url": "https://www.youtube.com/@ThePrimeagen",
-        "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
-      },
-      "content_type": "analysis",
-      "enrichment_status": "ready",
-      "evidence": [
-        {
-          "end_seconds": 4.08,
-          "field_name": "topic",
-          "quote": "Oh, this is great.",
-          "start_seconds": 0.16,
-          "timestamp_url": null,
-          "topic_slug": "model-releases"
-        }
-      ],
-      "primary_speaker": "ThePrimeTime host",
-      "published_at": "2026-08-11T13:03:09Z",
-      "summary": "AI Roasted Chats focuses on Model Releases. Key transcript signal: Oh, this is great.",
-      "thumbnail_url": null,
-      "title": "AI Roasted Chats",
-      "topics": [
-        {
-          "label": "Model Releases",
-          "relevance_score": 0.62,
-          "slug": "model-releases"
-        }
-      ],
-      "transcript_status": "ready",
-      "transcript_text": "Oh, this is great. [applause] Fable honestly was not expecting that. I was not expecting Fable to like really pick out some good stuff, but this idea of removing downside mechanic RMRF is they just to make sure. Honorable mentions uh that shaped the vibe but didn't make the cut in 420 Blaze. Uh negative 100x multiplier too evil. Grander and Dan Vil Warren buffering lose every round. Genuinely funny. Save it for the future card. Dan Haggus, the accurate self- assessment. You seem to have forgotten what a bunch of degenerates we are. No, Dan Hagus. This was accounted for. [laughter] Nobody likes you. Or to haggus. Sorry, not Dan. Nobody likes you. Okay. Okay, that's actually good.",
-      "url": "https://www.youtube.com/shorts/89_0P8UypsY",
-      "youtube_video_id": "89_0P8UypsY"
     },
     {
       "channel": {

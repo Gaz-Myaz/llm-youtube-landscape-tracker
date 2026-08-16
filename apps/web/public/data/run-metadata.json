@@ -1,8 +1,8 @@
 {
   "content_hashes": {
-    "channels": "adee9d42f644f9d7cac1eba9baf3c834ed81594dcd2e3102af1e1b04dade4b1e",
-    "relationships": "fd5fd6c4cca6a1d3860402b50fdb119b5bf2f48bf88ca9ff8743d603e4778e2e",
-    "videos": "96814fcc8187de58b9dbcc78a5922c97835f283533f1c542a2341f3a5059247d"
+    "channels": "b767e2c00412954f52776e0d2f9b3124838afc109dfedd407f5c01de9f93f95d",
+    "relationships": "e90a07610bc6c6e11690d136febf362ba702eb946ae7432c5e03409baeef9e6e",
+    "videos": "c98912485a952d9ea711bc0544dc6d31f064e7cb8e8c6c62cb78c3c6f4155fa1"
   },
   "cost_rates": {
     "input_usd_per_1m_tokens": 0.3,
@@ -11,7 +11,7 @@
   },
   "error_summary": "Skipped 1 videos before publication because no usable transcript was available: DNajvkqfobY: captions unavailable (No transcript provider succeeded for DNajvkqfobY. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=DNajvkqfobY! This is most likely caused by: The video is unplayable for the following reason: This live event will begin in a few moments. If you are su) Filtered 8 caption-backed videos outside configured LLM landscape rules: l6USUAIKJls: no gemini LLM landscape signal; XyXBwO5jYpw: no gemini LLM landscape signal; 6oBdGwCyt54: no gemini LLM landscape signal; 5 more Used deterministic fallback for 20 provider failures: QnGNF8k_uoc: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used; JQ97GiDwPxc: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used; vO6SWG-jxvE: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used; 17 more",
   "estimated_cost_usd": 0.0,
-  "last_successful_run_at": "2026-08-15T12:32:41Z",
+  "last_successful_run_at": "2026-08-16T00:34:40Z",
   "model": "gemini-2.5-flash",
   "provider": "gemini",
   "provider_call_count": 49,
@@ -32,11 +32,11 @@
     "aB5LGrHISqY: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used",
     "2X2V3xv_jik: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used",
     "jxGJT1weu4w: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used",
+    "W4K1kG0Dnk8: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used",
     "6oBdGwCyt54: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used",
     "-TVL8F-DvlQ: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used",
     "UyIiAIif5R0: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used",
-    "tHsXzjkl1Dc: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used",
-    "89_0P8UypsY: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used"
+    "tHsXzjkl1Dc: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used"
   ],
   "provider_success_count": 0,
   "schema_version": "1.0",

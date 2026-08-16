@@ -274,29 +274,29 @@
     {
       "description": "Developer commentary, tools, and AI coding workflow coverage.",
       "handle": "@ThePrimeagen",
-      "latest_video_at": "2026-08-13T13:00:34Z",
+      "latest_video_at": "2026-08-15T13:02:08Z",
       "thumbnail_url": null,
       "title": "ThePrimeTime",
       "top_topics": [
+        {
+          "label": "Model Releases",
+          "score": 0.77,
+          "slug": "model-releases"
+        },
         {
           "label": "Open Source Models",
           "score": 0.731,
           "slug": "open-source-models"
         },
         {
-          "label": "Model Releases",
-          "score": 0.701,
-          "slug": "model-releases"
+          "label": "Evaluation",
+          "score": 0.696,
+          "slug": "evals"
         },
         {
           "label": "Safety and Alignment",
           "score": 0.661,
           "slug": "safety-alignment"
-        },
-        {
-          "label": "Evaluation",
-          "score": 0.636,
-          "slug": "evals"
         }
       ],
       "url": "https://www.youtube.com/@ThePrimeagen",
@@ -336,6 +336,6 @@
       "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
     }
   ],
-  "generated_at": "2026-08-15T12:32:41Z",
+  "generated_at": "2026-08-16T00:34:40Z",
   "schema_version": "1.0"
 }

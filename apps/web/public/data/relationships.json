@@ -254,12 +254,12 @@
       "shared_topics": [
         {
           "label": "Evaluation",
-          "score": 0.617,
+          "score": 0.647,
           "slug": "evals"
         },
         {
           "label": "Model Releases",
-          "score": 0.76,
+          "score": 0.795,
           "slug": "model-releases"
         },
         {
@@ -622,7 +622,7 @@
       "shared_topics": [
         {
           "label": "Model Releases",
-          "score": 0.731,
+          "score": 0.766,
           "slug": "model-releases"
         },
         {
@@ -694,7 +694,7 @@
       "shared_topics": [
         {
           "label": "Model Releases",
-          "score": 0.691,
+          "score": 0.725,
           "slug": "model-releases"
         },
         {
@@ -718,7 +718,7 @@
       "shared_topics": [
         {
           "label": "Model Releases",
-          "score": 0.72,
+          "score": 0.755,
           "slug": "model-releases"
         },
         {
@@ -766,7 +766,7 @@
       "shared_topics": [
         {
           "label": "Model Releases",
-          "score": 0.671,
+          "score": 0.706,
           "slug": "model-releases"
         },
         {
@@ -785,7 +785,7 @@
       "shared_topics": [
         {
           "label": "Model Releases",
-          "score": 0.679,
+          "score": 0.714,
           "slug": "model-releases"
         },
         {
@@ -842,7 +842,7 @@
       "shared_topics": [
         {
           "label": "Model Releases",
-          "score": 0.728,
+          "score": 0.762,
           "slug": "model-releases"
         }
       ],
@@ -927,7 +927,7 @@
       "shared_topics": [
         {
           "label": "Model Releases",
-          "score": 0.76,
+          "score": 0.795,
           "slug": "model-releases"
         },
         {
@@ -988,7 +988,7 @@
       "shared_topics": [
         {
           "label": "Evaluation",
-          "score": 0.615,
+          "score": 0.645,
           "slug": "evals"
         }
       ],
@@ -1053,7 +1053,7 @@
       "target": "UCbfYPyITQ-7l4upoX8nvctg"
     }
   ],
-  "generated_at": "2026-08-15T12:32:41Z",
+  "generated_at": "2026-08-16T00:34:40Z",
   "nodes": [
     {
       "id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
@@ -1144,10 +1144,10 @@
       "id": "UCUyeluBRhGPCW4rPe_UvBZQ",
       "label": "ThePrimeTime",
       "top_topics": [
-        "Open Source Models",
         "Model Releases",
-        "Safety and Alignment",
-        "Evaluation"
+        "Open Source Models",
+        "Evaluation",
+        "Safety and Alignment"
       ],
       "video_count": 2
     },
