@@ -1,6 +1,43 @@
 {
   "channels": [
     {
+      "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
+      "handle": "@matthew_berman",
+      "latest_video_at": "2026-08-17T19:07:56Z",
+      "thumbnail_url": null,
+      "title": "Matthew Berman",
+      "top_topics": [
+        {
+          "label": "Coding Assistants",
+          "score": 0.88,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "AI Agents",
+          "score": 0.777,
+          "slug": "agents"
+        },
+        {
+          "label": "Open Source Models",
+          "score": 0.777,
+          "slug": "open-source-models"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.761,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Local Inference",
+          "score": 0.753,
+          "slug": "local-inference"
+        }
+      ],
+      "url": "https://www.youtube.com/@matthew_berman",
+      "video_count": 5,
+      "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
+    },
+    {
       "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
       "handle": "@WesRoth",
       "latest_video_at": "2026-08-16T04:56:57Z",
@@ -36,43 +73,6 @@
       "url": "https://www.youtube.com/@WesRoth",
       "video_count": 5,
       "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
-    },
-    {
-      "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
-      "handle": "@matthew_berman",
-      "latest_video_at": "2026-08-14T23:34:42Z",
-      "thumbnail_url": null,
-      "title": "Matthew Berman",
-      "top_topics": [
-        {
-          "label": "Coding Assistants",
-          "score": 0.88,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "AI Agents",
-          "score": 0.769,
-          "slug": "agents"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.768,
-          "slug": "open-source-models"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.761,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Local Inference",
-          "score": 0.753,
-          "slug": "local-inference"
-        }
-      ],
-      "url": "https://www.youtube.com/@matthew_berman",
-      "video_count": 5,
-      "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
     },
     {
       "description": "Fast software engineering and AI tooling explainers.",
@@ -225,13 +225,18 @@
     {
       "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
       "handle": "@OpenAI",
-      "latest_video_at": "2026-08-14T17:19:17Z",
+      "latest_video_at": "2026-08-17T15:22:51Z",
       "thumbnail_url": null,
       "title": "OpenAI",
       "top_topics": [
         {
+          "label": "AI Agents",
+          "score": 0.818,
+          "slug": "agents"
+        },
+        {
           "label": "Model Releases",
-          "score": 0.755,
+          "score": 0.737,
           "slug": "model-releases"
         }
       ],
@@ -272,38 +277,6 @@
       "youtube_channel_id": "UCSHZKyawb77ixDdsGog4iWA"
     },
     {
-      "description": "Developer commentary, tools, and AI coding workflow coverage.",
-      "handle": "@ThePrimeagen",
-      "latest_video_at": "2026-08-15T13:02:08Z",
-      "thumbnail_url": null,
-      "title": "ThePrimeTime",
-      "top_topics": [
-        {
-          "label": "Model Releases",
-          "score": 0.77,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.731,
-          "slug": "open-source-models"
-        },
-        {
-          "label": "Evaluation",
-          "score": 0.696,
-          "slug": "evals"
-        },
-        {
-          "label": "Safety and Alignment",
-          "score": 0.661,
-          "slug": "safety-alignment"
-        }
-      ],
-      "url": "https://www.youtube.com/@ThePrimeagen",
-      "video_count": 2,
-      "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
-    },
-    {
       "description": "Research-heavy coverage of machine learning papers, model releases, and AI systems.",
       "handle": "@YannicKilcher",
       "latest_video_at": "2026-03-06T22:07:33Z",
@@ -334,8 +307,30 @@
       "url": "https://www.youtube.com/@YannicKilcher",
       "video_count": 2,
       "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
+    },
+    {
+      "description": "Developer commentary, tools, and AI coding workflow coverage.",
+      "handle": "@ThePrimeagen",
+      "latest_video_at": "2026-08-15T13:02:08Z",
+      "thumbnail_url": null,
+      "title": "ThePrimeTime",
+      "top_topics": [
+        {
+          "label": "Model Releases",
+          "score": 0.77,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Evaluation",
+          "score": 0.696,
+          "slug": "evals"
+        }
+      ],
+      "url": "https://www.youtube.com/@ThePrimeagen",
+      "video_count": 1,
+      "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
     }
   ],
-  "generated_at": "2026-08-17T12:33:15Z",
+  "generated_at": "2026-08-18T00:34:41Z",
   "schema_version": "1.0"
 }
