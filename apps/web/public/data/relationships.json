@@ -1037,7 +1037,7 @@
       "target": "UCbfYPyITQ-7l4upoX8nvctg"
     }
   ],
-  "generated_at": "2026-08-19T00:34:53Z",
+  "generated_at": "2026-08-19T12:33:59Z",
   "nodes": [
     {
       "id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
@@ -1058,17 +1058,6 @@
         "Model Releases",
         "AI Agents",
         "Coding Assistants"
-      ],
-      "video_count": 5
-    },
-    {
-      "id": "UC8butISFwT-Wl7EV0hUK0BQ",
-      "label": "freeCodeCamp.org",
-      "top_topics": [
-        "AI Agents",
-        "Coding Assistants",
-        "RAG",
-        "Local Inference"
       ],
       "video_count": 5
     },
@@ -1104,6 +1093,17 @@
         "Safety and Alignment"
       ],
       "video_count": 5
+    },
+    {
+      "id": "UC8butISFwT-Wl7EV0hUK0BQ",
+      "label": "freeCodeCamp.org",
+      "top_topics": [
+        "AI Agents",
+        "Coding Assistants",
+        "RAG",
+        "Local Inference"
+      ],
+      "video_count": 4
     },
     {
       "id": "UCSHZKyawb77ixDdsGog4iWA",
