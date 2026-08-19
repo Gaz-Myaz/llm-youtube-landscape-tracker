@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T12:33:18Z",
+  "generated_at": "2026-08-19T00:34:53Z",
   "schema_version": "1.0",
   "videos": [
     {
@@ -2061,41 +2061,6 @@
     },
     {
       "channel": {
-        "title": "OpenAI",
-        "url": "https://www.youtube.com/@OpenAI",
-        "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "content_type": "tutorial",
-      "enrichment_status": "ready",
-      "evidence": [
-        {
-          "end_seconds": 2.22,
-          "field_name": "topic",
-          "quote": "You can now just show ChatGPT and",
-          "start_seconds": 0.0,
-          "timestamp_url": "https://www.youtube.com/watch?v=W-HhMUe9hOg&t=0s",
-          "topic_slug": "model-releases"
-        }
-      ],
-      "primary_speaker": "OpenAI host",
-      "published_at": "2026-08-13T20:34:04Z",
-      "summary": "Computer History in ChatGPT focuses on Model Releases. Key transcript signal: You can now just show ChatGPT and Codex how you work using Computer History so you can talk more naturally with your agent.",
-      "thumbnail_url": null,
-      "title": "Computer History in ChatGPT",
-      "topics": [
-        {
-          "label": "Model Releases",
-          "relevance_score": 0.737,
-          "slug": "model-releases"
-        }
-      ],
-      "transcript_status": "ready",
-      "transcript_text": "You can now just show ChatGPT and Codex how you work using Computer History so you can talk more naturally with your agent. Once you turn on Computer History in the settings of your desktop app on macOS, it takes what you're already doing on your desktop and turns it into memories and a timeline that your agent can reference the next time you ask a question or start a task. Let me show you an example. Hey, what was the last Google Doc I was looking at? Okay, I'll check your recent activity to that doc. I'm checking the recent activity history to identify the last Google Doc. The last Google Doc you were editing was VideoScript Computer History earlier today. Codex can leverage the Computer History to know exactly which doc I was looking at. Can you make sure the doc was shared with Josh and Priya in the group DM from earlier? On it, checking that DM shared out. Codex knows what conversation I was looking at earlier and can contextualize the message. All set. Josh and Priya now have viewer access to the video scripts and I shared it in that group DM from earlier. By the way, can you briefly summarize how I spent my time this morning? Sure, I'll check this morning quickly. I'm using your local activity history to build a concise recap. This morning you mainly drove the Computer History launch video forward. Drafting, refining the script and iterating with teammates on framing and flow. You also prototyped the 3D World Builder in Codex and triaged some usage limit feedback. It knows what actions I took so I can converse more naturally without having to give all the context. Computer History doesn't rely on screen or audio captures. And instead it captures interaction events like clicking, typing, app switches and more. So it can capture memories faster and more efficiently. It also gives you more granular control over which apps and websites Computer History can't access. You can either quickly exclude websites or entire apps from the new menu bar entry. Or by explicitly listing them in the settings of your desktop app. This is also where you can review everything Computer History has captured. Beyond a summary, you can delete individual entries here, clear the most recent history entirely, or reveal the actual memory files. Memories continue to be on your file system so you can see exactly what has been captured and remembered by the agent. Computer History will also suggest skills and automations it can generate based on any repetitive work you do. You'll be able to check these out in the history section of the settings. Once your agent understands what you do and how you work, it changes how you can engage with it. You can ask it to create skills based on what you just did, run an automation every morning to draft a standup update for your team, or simply tailor its use of tools to how you work, like drafting documents and the app you always use to draft docs. Computer History makes ChatGPT and Codex more personalized for you and how you work. Give it a try and let us know what you think.",
-      "url": "https://www.youtube.com/watch?v=W-HhMUe9hOg",
-      "youtube_video_id": "W-HhMUe9hOg"
-    },
-    {
-      "channel": {
         "title": "Lex Fridman",
         "url": "https://www.youtube.com/@lexfridman",
         "youtube_channel_id": "UCSHZKyawb77ixDdsGog4iWA"
@@ -2166,41 +2131,6 @@
     },
     {
       "channel": {
-        "title": "OpenAI",
-        "url": "https://www.youtube.com/@OpenAI",
-        "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "content_type": "opinion",
-      "enrichment_status": "ready",
-      "evidence": [
-        {
-          "end_seconds": 72.72,
-          "field_name": "topic",
-          "quote": ">> So Chad GPT image gen has been pivotal",
-          "start_seconds": 67.6,
-          "timestamp_url": "https://www.youtube.com/watch?v=0XPk_MAwCW4&t=67s",
-          "topic_slug": "model-releases"
-        }
-      ],
-      "primary_speaker": "OpenAI host",
-      "published_at": "2026-08-14T06:30:28Z",
-      "summary": "Inside Cricket\u2019s Smartest Backroom | Rajasthan Royals | ChatGPT @rajasthanroyals focuses on Model Releases. Key transcript signal: >> So Chad GPT image gen has been pivotal to us in bringing to life our 2008 inception story with the OG rockstar Rendra Jadea at the heart of it all.",
-      "thumbnail_url": null,
-      "title": "Inside Cricket\u2019s Smartest Backroom | Rajasthan Royals | ChatGPT @rajasthanroyals",
-      "topics": [
-        {
-          "label": "Model Releases",
-          "relevance_score": 0.71,
-          "slug": "model-releases"
-        }
-      ],
-      "transcript_status": "ready",
-      "transcript_text": "Well, um I never thought I'd be discussing the Rajasthan Royals performances off the field. Are you Are you sure we should be doing this and spilling all of our secrets? Yeah, but way whatever. Let's do it. Let's go. In reality, every match is won or lost before you actually walk onto that field. So, it's not just about doing it well. It's really more about doing it right. Auction gets very complex very [music] quickly. You have the randomness of the auction along with the fact that each team has a different strategy of getting a player. >> We've got the players that we've already identified that we think are going to help our squad. We've got the opposition who are also thinking the same thing. >> All of that adds to the complexity. And what we get is trillions of combinations that an auction can go to. What that allowed us to basically do is have a companion that helped us be faster, more efficient, and smarter. Historically the way it would be a player or a coach would come and ask the the team analyst a question that they would want to know the answer to. [music] We're now in a position with the query tool we developed with open AI that the coach can just simply speak [music] to the laptop and he will then be able to get this information straight to him. >> So Chad GPT image gen has been pivotal to us in bringing to life our 2008 inception story with the OG rockstar Rendra Jadea at the heart of it all. Through Chat GPD, I'm able to supercharge the creative direction at Rajasthan Royals. >> Essentially, the idea was to bring our new age royals face to face with the OGs of 2008. >> With AI, I'm able to save on production costs, reduce player time, and take my ideas to the next level. >> Every part of our organization, HR, marketing, sponsorships, finance, have built AI tools into their workflow. [music] >> We also use OpenAI to do better ticketing, right? We push all of the data that we collect from, you know, how our ticket sales are going to OpenAI and we get recommendations on what stands are not selling, what requires more marketing, [music] what requires maybe a change in pricing, that kind of stuff. Yeah, the Royals way of working has completely transformed since we've started using Chad GPT codeex and you know the rest of the open AI tools. So [music] just how we scout for cricketing talent, we're also always on the lookout for young AI talent. So last year before the auction we actually held a hackathon called the super selector where students from across India were asked to come up with the best auction strategy for Rajasthan royals. These students came up with some amazing ideas and what I noticed was a lot of them used open AI in the most creative ways to come up with tactics and to come up with models that you know we then used to help us with our auction strategy. Uh the winners of the hackathon were then flown out to Abu Dhabi where they presented their strategy to Kamar Sangakara and Giles. That strategy was actually used to help us make some key purchases. I think for Rajasthan Royals, it's always been important to tap into the collective intelligence of these young Indian students. It's something that will keep helping us gain a fresh perspective and just, you know, make better decisions. And you know, as we discover more [music] of these use cases, we'll keep finding unique ways to use OpenAI to solve these problems. And I think that's just going to make our lives uh all the more easier. I honestly can't remember how we did things now that we [music] have the efficiency of strategy available to us. It's not about having the most amount of data. It's true worth and value is realized when you use it better [music] and faster. All right, guys. Done. That's a wrap. If I say off the record now, you won't be able to use any of it, right? Thanks, guys.",
-      "url": "https://www.youtube.com/watch?v=0XPk_MAwCW4",
-      "youtube_video_id": "0XPk_MAwCW4"
-    },
-    {
-      "channel": {
         "title": "Two Minute Papers",
         "url": "https://www.youtube.com/@TwoMinutePapers",
         "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
@@ -2233,41 +2163,6 @@
       "transcript_text": "What is happening? An unreleased version of Claude was asked to solve a long-standing mathematical problem. The Rayman hypothesis. Simplified. It is a statement about the distribution of prime numbers. Devilishly difficult. No human has ever been able to prove it. Did it solve it? Nope. [laughter] So, what did it do then? Well, it actually was able to improve a related bound beyond human record. It pushed humanity further sort of. I think that is incredible. Now there is the mathematical side. Many mathematicians I heard seem to be both surprised and impressed by the results. Some call it a massive leap forward. I ran the verification myself but I am just a student looking to learn and I am not qualified to speak more about the mathematical side of it. But the AI side is incredible. Three things that happened that I found super interesting. One, surely exquisite mathematical prompting was done, right? No, not really. Here's what happened. First, a non-mathematician person prompted this AI. Wow. Okay. The first 650 tries did not work. Now, hold on to your papers, fellow scholars. Quoting throughout this process, Jared's input was mostly limited to sending Claude messages of encouragement. Mostly varants of keep going and believe in yourself. What he had to give words of encouragement to an AI to keep going and it succeeded. Perhaps in the future, the most powerful mathematical proofs will not be written by geniuses. They will be written by life coaches. What a time to be alive. And get this, it's not the first time this has happened. Quoting a prompt including similar encouragement was used to help Claude disprove the Jacobian conjecture. Okay, but I was even more surprised about two more things. Dear fellow scholars, this is two minute papers with Dr. Koa Eher. Two, the full technical paper is available, but it's pretty tough, of course. So much so that they asked the AI to explain its findings. So it did and in the meantime a formalized version of the proof is also available which can be automatically verified. You can even run it yourself right now. Now something I don't think you hear too much about elsewhere. I went through more than a 100 pages of transcripts and some super cool tidbits from the journey. Claude had internet access in general but did not need to use it during the key breakthrough run. Claude went down many wrong roads first but was able to learn from them and recover. Then the first crucial result appeared after about 37 minutes of radio silence. Imagine how tense that must have been. And then pop. And the AI itself also thought the result is suspiciously good. It said, quoting, \"Too strong to be new.\" Absolutely crazy. And three, even Claude was surprised about its finding and it was skeptical at first. They also say perhaps Claude itself also underestimates the rate of AI progress. But an AI that is surprised, of course, this does not mean a human-like surprise. It simply reflects patterns learned from us during training. But still, I feel like we are living in a new world where sentences that didn't used to make sense now suddenly do. And in a world where these AI systems built by human ingenuity are now pushing humanity forward, what a time to be alive. We need new tools for the era of LLMs and Weights and Biases now has Weave, a lightweight toolkit to confidently iterate on LLM applications. Use traces to debug how data flows through each step of your app and use evaluations to measure your progress. It is the best. Try it out now at wnb.me/papers me/papers or click the link in the description below.",
       "url": "https://www.youtube.com/watch?v=QnGNF8k_uoc",
       "youtube_video_id": "QnGNF8k_uoc"
-    },
-    {
-      "channel": {
-        "title": "OpenAI",
-        "url": "https://www.youtube.com/@OpenAI",
-        "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "content_type": "tutorial",
-      "enrichment_status": "ready",
-      "evidence": [
-        {
-          "end_seconds": 5.5600000000000005,
-          "field_name": "topic",
-          "quote": "This is the first time I felt like I was",
-          "start_seconds": 0.08,
-          "timestamp_url": "https://www.youtube.com/watch?v=EDWbX_-RYws&t=0s",
-          "topic_slug": "model-releases"
-        }
-      ],
-      "primary_speaker": "OpenAI host",
-      "published_at": "2026-08-14T17:19:17Z",
-      "summary": "Previewing Ultrafast mode: GPT\u20115.6 Sol at up to 14X the speed focuses on Model Releases. Key transcript signal: This is the first time I felt like I was genuinely cheating at my job.",
-      "thumbnail_url": null,
-      "title": "Previewing Ultrafast mode: GPT\u20115.6 Sol at up to 14X the speed",
-      "topics": [
-        {
-          "label": "Model Releases",
-          "relevance_score": 0.589,
-          "slug": "model-releases"
-        }
-      ],
-      "transcript_status": "ready",
-      "transcript_text": "This is the first time I felt like I was genuinely cheating at my job. >> When our systems go down, it's like somebody hit the emergency stop on the assembly line. I'll tell it to monitor and pull that channel and essentially act as my eyes and ears to do investigation, to determine what the root cause is, to answer other people's questions as they join the channel. There's an old adage that like performance can be a feature because when something becomes fast enough, it changes behavior. what used to take one to two hours to collect the data, sort through the data, normalize the data, and add context to it, rich intelligence to help me and my team make really effective decisions. Now, that happens within a 10 to 15 minute time frame. At times, it's near real time. Using Ultraast, I'm able to essentially search all of those hay stacks all at the same time, which is really incredible, and do so concurrently. And now, frankly, Ultra Fast is fast enough that I can usually get the same quality of results without splitting my attention. >> Once I'm in flow and writing code, I feel like I have per unit of time, which is really the constraint, more intelligence on tap. >> A quick codebase refactor costs almost nothing and it happens almost instantly. And this does mean that we build and ship things quicker and we can sustain this momentum for much longer as well because it's so quick and so effective. You don't lose the quality of intelligence. We always want the most intelligence at the fastest speed. With 5.6 Ultra Fast, we don't have to compromise on either.",
-      "url": "https://www.youtube.com/watch?v=EDWbX_-RYws",
-      "youtube_video_id": "EDWbX_-RYws"
     }
   ]
 }
