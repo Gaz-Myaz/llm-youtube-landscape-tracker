@@ -1,6 +1,43 @@
 {
   "channels": [
     {
+      "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
+      "handle": "@WesRoth",
+      "latest_video_at": "2026-08-20T04:19:46Z",
+      "thumbnail_url": null,
+      "title": "Wes Roth",
+      "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.853,
+          "slug": "agents"
+        },
+        {
+          "label": "Open Source Models",
+          "score": 0.799,
+          "slug": "open-source-models"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.758,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Safety and Alignment",
+          "score": 0.731,
+          "slug": "safety-alignment"
+        },
+        {
+          "label": "Local Inference",
+          "score": 0.709,
+          "slug": "local-inference"
+        }
+      ],
+      "url": "https://www.youtube.com/@WesRoth",
+      "video_count": 5,
+      "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
+    },
+    {
       "description": "Fast software engineering and AI tooling explainers.",
       "handle": "@Fireship",
       "latest_video_at": "2026-08-19T18:45:57Z",
@@ -75,43 +112,6 @@
       "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
     },
     {
-      "description": "Technical courses and tutorials, including practical AI application development.",
-      "handle": "@freecodecamp",
-      "latest_video_at": "2026-08-19T10:00:28Z",
-      "thumbnail_url": null,
-      "title": "freeCodeCamp.org",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.861,
-          "slug": "agents"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.832,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "RAG",
-          "score": 0.792,
-          "slug": "rag"
-        },
-        {
-          "label": "Local Inference",
-          "score": 0.706,
-          "slug": "local-inference"
-        },
-        {
-          "label": "Evaluation",
-          "score": 0.66,
-          "slug": "evals"
-        }
-      ],
-      "url": "https://www.youtube.com/@freecodecamp",
-      "video_count": 5,
-      "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
-    },
-    {
       "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
       "handle": "@matthew_berman",
       "latest_video_at": "2026-08-17T19:07:56Z",
@@ -149,43 +149,6 @@
       "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
     },
     {
-      "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
-      "handle": "@WesRoth",
-      "latest_video_at": "2026-08-16T04:56:57Z",
-      "thumbnail_url": null,
-      "title": "Wes Roth",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.853,
-          "slug": "agents"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.799,
-          "slug": "open-source-models"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.758,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Safety and Alignment",
-          "score": 0.731,
-          "slug": "safety-alignment"
-        },
-        {
-          "label": "Local Inference",
-          "score": 0.709,
-          "slug": "local-inference"
-        }
-      ],
-      "url": "https://www.youtube.com/@WesRoth",
-      "video_count": 5,
-      "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
-    },
-    {
       "description": "Accessible analysis of frontier models, agents, local inference, and open-weight AI.",
       "handle": "@AIExplained-official",
       "latest_video_at": "2026-08-06T15:02:06Z",
@@ -221,6 +184,43 @@
       "url": "https://www.youtube.com/@AIExplained-official",
       "video_count": 5,
       "youtube_channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw"
+    },
+    {
+      "description": "Technical courses and tutorials, including practical AI application development.",
+      "handle": "@freecodecamp",
+      "latest_video_at": "2026-08-19T10:00:28Z",
+      "thumbnail_url": null,
+      "title": "freeCodeCamp.org",
+      "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.861,
+          "slug": "agents"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.832,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "RAG",
+          "score": 0.792,
+          "slug": "rag"
+        },
+        {
+          "label": "Local Inference",
+          "score": 0.706,
+          "slug": "local-inference"
+        },
+        {
+          "label": "Evaluation",
+          "score": 0.66,
+          "slug": "evals"
+        }
+      ],
+      "url": "https://www.youtube.com/@freecodecamp",
+      "video_count": 4,
+      "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
     },
     {
       "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
@@ -309,6 +309,6 @@
       "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
     }
   ],
-  "generated_at": "2026-08-20T00:34:30Z",
+  "generated_at": "2026-08-20T12:33:50Z",
   "schema_version": "1.0"
 }
