@@ -188,7 +188,7 @@
     {
       "description": "Technical courses and tutorials, including practical AI application development.",
       "handle": "@freecodecamp",
-      "latest_video_at": "2026-08-19T10:00:28Z",
+      "latest_video_at": "2026-08-21T11:00:31Z",
       "thumbnail_url": null,
       "title": "freeCodeCamp.org",
       "top_topics": [
@@ -208,14 +208,14 @@
           "slug": "rag"
         },
         {
-          "label": "Local Inference",
-          "score": 0.706,
-          "slug": "local-inference"
+          "label": "Open Source Models",
+          "score": 0.732,
+          "slug": "open-source-models"
         },
         {
-          "label": "Evaluation",
-          "score": 0.66,
-          "slug": "evals"
+          "label": "Model Releases",
+          "score": 0.702,
+          "slug": "model-releases"
         }
       ],
       "url": "https://www.youtube.com/@freecodecamp",
@@ -309,6 +309,6 @@
       "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
     }
   ],
-  "generated_at": "2026-08-21T00:34:46Z",
+  "generated_at": "2026-08-21T12:33:41Z",
   "schema_version": "1.0"
 }
