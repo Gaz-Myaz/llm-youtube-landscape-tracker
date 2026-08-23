@@ -1,8 +1,8 @@
 {
   "content_hashes": {
-    "channels": "062531e9bb21ab4ea11bf142557cc96cf0042cfe36929c8948fc78c40b5b7c5a",
-    "relationships": "37d18ab5601bb21f0e254d39650322c8d46d36a5c835bc7338996eb798c6fff1",
-    "videos": "da0c3eeb75e62e5b184e7d9f63ddabf38c4a1f577fed36c7a630fc52331cedc6"
+    "channels": "5567ecf582cc8e954e16b4c042cd8edaf6de36e0b4faed55ac7f12344c85d92d",
+    "relationships": "fc10f0d134531c548fcb8975e80ce52b4504e973d47a49067f77bb73f59e959e",
+    "videos": "d86eb849b7c425745abb81ae9dc7b8669da288a59e26698ddf80092368a65e39"
   },
   "cost_rates": {
     "input_usd_per_1m_tokens": 0.3,
@@ -11,7 +11,7 @@
   },
   "error_summary": "Skipped 2 videos before publication because no usable transcript was available: DNajvkqfobY: captions unavailable (No transcript provider succeeded for DNajvkqfobY. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=DNajvkqfobY! This is most likely caused by: The video is unplayable for the following reason: This live event will begin in a few moments. If you are su); wIf9yMGalPU: captions unavailable (No transcript provider succeeded for wIf9yMGalPU. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=wIf9yMGalPU! This is most likely caused by: YouTube is blocking requests from your IP. This usually is due to one of the following reasons: - You have d) Filtered 11 caption-backed videos outside configured LLM landscape rules: l6USUAIKJls: no gemini LLM landscape signal; XyXBwO5jYpw: no gemini LLM landscape signal; te1hH5C2Jeo: no gemini LLM landscape signal; 8 more Used deterministic fallback for 20 provider failures: kyYepbhe1g8: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used; QnGNF8k_uoc: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used; JQ97GiDwPxc: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used; 17 more",
   "estimated_cost_usd": 0.0,
-  "last_successful_run_at": "2026-08-23T00:34:31Z",
+  "last_successful_run_at": "2026-08-23T12:32:54Z",
   "model": "gemini-2.5-flash",
   "provider": "gemini",
   "provider_call_count": 48,
