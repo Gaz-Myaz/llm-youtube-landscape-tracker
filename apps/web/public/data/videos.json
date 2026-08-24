@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T00:34:45Z",
+  "generated_at": "2026-08-24T12:34:01Z",
   "schema_version": "1.0",
   "videos": [
     {
@@ -67,72 +67,6 @@
       "transcript_text": "On Monday, the company that spent the last year starving llama, poaching researchers with nine figure Zuck bucks and locking its new models behind a Facebook off page just released a free and open- source model under the Apache 2.0 license. It's called Muse Glimmer, a name I believe was inspired by Zuck's fanfiction My Little Pony character, and it's a 30 billion parameter agentic model that's small enough to run on your poverty spec PC. That means you can now have an always on Minis Zuck agent living rent free in your gaming PC, reading your email, managing your calendar, and using your data to overthrow local elections in middle America. And according to Meta, an agent like that needs deep access to personal context, which is a sentence they've been dreaming about writing since 2004, except this time the surveillance can run entirely on your own hardware. In today's video, we'll find out what Muse Glitter Glimmer can actually do. Learn how Meta shrunk it down with distillation, quantization, and speculative decoding, and determine whether Zuck's open- source redemption arc is sincere, or if this is just what losing looks like right now. It is August 12th, 2026, and you're watching the code report. It wasn't long ago when Meta was seen as the champion of the open weight class. Their Llama models slopped up over a billion downloads and created an entire ecosystem of custom models built on top of them. That is until Llama 4 was released and it became the biggest Facebook bust since Justin Timberlake partied with those underage girls. In the release were two models, Scout and Maverick. Initially, they benchmarked well, but that was only because Meta submitted a secret juiced up version to Ella Marina that none of us normies could actually download. And the models we could download had the intelligence of farm animals, which was fitting given their names. And while this was happening, comrade Xi Jinping was dropping open models that were better, cheaper, and released in accordance with Mao Zadong's thought. Then Zuck responded to this humiliation the only way a billionaire knows how. He spent 14 billion on a 49% stake in Scale AI just to acquire its CEO, Alexander Wang. Then he went on a poaching spree for researchers at OpenAI and Google and rebranded the whole operation as Meta Super Intelligence Labs. The first thing his new dream team did was rebuild the stack from scratch and abandon open source entirely. Shipping Muse Spark earlier this year as a closed API only model. That created a new problem though because no sane person would choose Muse Spark over something like Claude or Gemini. So with Wall Street starting to ask questions about the 145 billion of capex being incinerated with nothing to show for it. I assume Zuck flew to his secret compound in Kauaii that the locals say he stole from them and formed a plan which eventually led us here to the launch of Muse Glimmer. It's a dense 30 billion parameter model distilled directly from Muse Spark, their big but closed model using logic distillation, which basically means they had the big model whisper its exact probability distributions into the ear of Glimmer until it learned how to fake it. And in Zuck's manifesto he made after the release, he described distillation as an important principle of how the open- source ecosystem works, which is ironic because every American lab spent the last year accusing the Chinese of doing this exact same thing to their outputs. So how good is it actually? Well, according to the TMBBBS, it clearly beats Gemma 4 and goes bar forbar with Quen 3.6. But my favorite number is the prompt injection benchmark where attacks against Glimmer succeeded 28% of the time. But they're listing that as a win because with Quen it's 40%. And the way they got it to run on consumer GPUs was interesting. At full precision the model would need over 55 gigs of memory. So their first move was quantization where Metampress the weights down to about four bits which shrank it to just under 20 gigs. And the second was speculative decoding which is basically autocomplete for your autocomplete. The way it works is a tiny model called Dlash blurts out an entire block of tokens. Then the big model reads the whole block in one pass and throws out the bad guesses, which they say led to a 3x speed up on a 5090. But to be honest, the actual model is way less interesting than Zuck's manifesto I mentioned earlier. In it, he argues that the real risk in AI isn't rogue super intelligence, but a small handful of companies owning it, and that he doesn't understand why anyone who believes AI will end humanity would rush to build it. which is a reasonable point coming from a guy whose company was just fined $567 million last week for being a public nuisance in New Mexico. He also wants Frontier Labs to hand the US government amid training checkpoints of unreleased models. And he announced a billion dollar fund for the towns willing to host his data centers, probably so they'll stop causing all that ruckus. So, is the redemption arc sincere? Probably not. But an Apache license is an Apache license, and they can't put that genie back in the bottle. Zuck and Wang both say open weights for Muse Spark 1.2 are coming soon, which would mean you could self-host the exact model behind Meta's own coding agent, which is pretty cool. And if you want to test out Muse Glimmer for yourself, you can do it with the sponsor of today's video, Open Router. It gives you a single API to access every LLM, so you only have one endpoint and one build to worry about. You can switch between models manually or use their routers to pick one for you based on a combination of factors like price and accuracy. But my startup still hasn't been able to raise a seed round. So I used open router to rewrite the entire codebase in Rust to attract more investors. Because Rust is a notoriously easy language, I used paro router to route every request to cheaper coding models that could still cargo build. But I eventually ended up splurging for some fancier models for the UI, the dedicated image and speech endpoints to generate a few especially attractive profiles to see the community and get the matches flowing. Open Router is easily the best tool I've seen for discovering new models without getting stuck in 25 different subscriptions. And you can try it out for free at the link below. This has been the code report. Thanks for watching and I will see you in the next one.",
       "url": "https://www.youtube.com/watch?v=G55HSGpuh1M",
       "youtube_video_id": "G55HSGpuh1M"
-    },
-    {
-      "channel": {
-        "title": "Matthew Berman",
-        "url": "https://www.youtube.com/@matthew_berman",
-        "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
-      },
-      "content_type": "tutorial",
-      "enrichment_status": "ready",
-      "evidence": [
-        {
-          "end_seconds": 854.0,
-          "field_name": "topic",
-          "quote": "Cursor. If you remember, Cursor was",
-          "start_seconds": 849.04,
-          "timestamp_url": "https://www.youtube.com/watch?v=rdYBjpylJUQ&t=849s",
-          "topic_slug": "coding-assistants"
-        },
-        {
-          "end_seconds": 716.32,
-          "field_name": "topic",
-          "quote": "another incredibly powerful coding agent",
-          "start_seconds": 710.88,
-          "timestamp_url": "https://www.youtube.com/watch?v=rdYBjpylJUQ&t=710s",
-          "topic_slug": "agents"
-        },
-        {
-          "end_seconds": 275.28000000000003,
-          "field_name": "topic",
-          "quote": "claude opus 5 is number one then fable 5",
-          "start_seconds": 268.56,
-          "timestamp_url": "https://www.youtube.com/watch?v=rdYBjpylJUQ&t=268s",
-          "topic_slug": "model-releases"
-        }
-      ],
-      "primary_speaker": "Matthew Berman host",
-      "published_at": "2026-08-13T18:27:35Z",
-      "summary": "xAI actually did it... (Grok 4.6) focuses on Coding Assistants, AI Agents, Model Releases. Key transcript signal: We have cursor bench which is obviously cursor's internal benchmark surprisingly did not get the number one score but basically equivalent with fable 5 max and next we have deep suite which in many people's opinions is t",
-      "thumbnail_url": null,
-      "title": "xAI actually did it... (Grok 4.6)",
-      "topics": [
-        {
-          "label": "Coding Assistants",
-          "relevance_score": 0.88,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "AI Agents",
-          "relevance_score": 0.769,
-          "slug": "agents"
-        },
-        {
-          "label": "Model Releases",
-          "relevance_score": 0.761,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Open Source Models",
-          "relevance_score": 0.729,
-          "slug": "open-source-models"
-        }
-      ],
-      "transcript_status": "ready",
-      "transcript_text": "Over the past 2 years, it has become clear there are only two main players in AI, open AI and anthropic. But within the last couple of days, a new player has emerged and I am taking them very seriously. Grock was late to the AI party and they came out with a bang but fizzled very quickly and basically haven't been doing much since. But this has completely changed. It all started with Grock buying this company called Cursor, which gave them the missing ingredient they needed to become a dominant player. But it all starts with today's news. XAI just dropped their latest model, Grock 4.6. I've got the blog open here, and I'm going to go over everything that's changed and why it matters. Introducing Grock 4.6. This is a phenomenal model competitive with the top models out of OpenAI and Enthropic. And so let me show you everything about it because it's actually quite unique in a number of different ways. So this is a DOT upgrade iteration building on Gro 4.5. So this isn't a completely new training run or anything completely new at all, but it is a vast improvement on Grock 4.5, their last model. and they continue to make it better at coding and knowledge work in general. This is their focus and it all stems from the cursor acquisition which I'm going to touch on a number of times through this video. All right, so let's get right into the benchmarks because it does perform incredibly well and a lot of people really liked Grock 4.5 including myself. It became the default kind of sub agent model in cursor and I used it all the time. It was really capable, very fast, and now look, we got massive improvements from Grock 4.5 to Gro 4.6. Basically, across the board, huge, huge improvements. And you're going to be pleasantly surprised. It got even faster. And if you're a speed maxi like me, you will appreciate it. Now first is GDP val which is a benchmark from open AI which measures a model's effectiveness on actual knowledge work tasks. GDP val 4.6 high has the number one score beating out 5.6 soul beating out fable 5 max. We have cursor bench which is obviously cursor's internal benchmark surprisingly did not get the number one score but basically equivalent with fable 5 max and next we have deep suite which in many people's opinions is the most accurate benchmark to how people are actually feeling with a coding model because usually we have these benchmarks in which you know some model performs incredibly well but then when you actually go and use it for coding use cases it doesn't feel quite right and we kind of gravitate towards another model. That other model has been GPT 5.6 Soul to me for a long time, even more so than Fable 5 in a lot of cases. But what we're seeing here, Deep Sweet, is it is in third place. So 65.9 GPT 5.6 Soul Max at 73. That is currently my favorite model and 70% for Fable 5. So definitely not quite as good as these other models. And on terminal bench, it jumps from 15% to 26% from the previous version of Grock to this new version 4.6. Then we have Harvey Lab, which is legal use cases, and it actually dominated 15.8% as compared to 2.5% and 11.3% for Soul and Fable, respectively. So very, very good. But if you've watched any of my videos over the past few months, you know a benchmark only showing a quality score is not sufficient. We want to know how much does it cost per task. That's just as important as quality. Okay, so let's take a look at artificial analysis, which is really one of my favorite websites nowadays. This is the artificial analysis intelligence index, which takes a bunch of different evals and basically measures against all of them. And what we see here is Gro 4.5 is here and we have this nice jump all the way to fourth place where kind of crazy claude opus 5 is number one then fable 5 number two 5.6 soul number three and tying with soul is gro 4.6 six high but again that doesn't tell the whole story. How is it doing on a cost per task? Let's take a look. This is the chart that matters. On the yaxis we have the index score. This is basically the quality or the intelligence coming out of the model. But just as importantly we have the cost per task. How much does it cost to complete the task to get the intelligence score? And the way you should think about this is really it's two things. one, how many tokens does it use? And two, what is the price of those tokens? So, when we look at, for example, Kimmy K3 Max, which is half the price of Soul and Fable, the reason why we're seeing it at about the same price as Soul is because it used twice as many tokens. So, if it's half the price and uses twice as many tokens, it's effectively the same price. That is why the cost per task is such an important factor to look at. Now here is what we get. Here is Gro 4.5 high which is coming in at about 36 cents cost per task and an intelligence index of about 55 56 and we get this jump. Now unfortunately it does get more expensive. Now it's at about like 83 cents cost per task. But we also got a jump in intelligence from about 55 to 60. Now hopefully this price continues to come down over time. But we can see the other models that are around it. We have 5.6 Soul Max which is basically equivalent in intelligence but Gro 4.6 is less expensive. We have Kimmy K3 which is the same price and slightly less intelligent. And then of course we have Opus 5 way out here. Very expensive. Definitely more intelligent but much more expensive. And let's look over here. GPT 5.6 Luna Max coming in at like 5 cents per task completed and it's at let's say 52 on the intelligence index. Really where you want to be as a model is as high up and to the left as possible. This green quadrant is the killer quadrant. This is where you want to be. And so, unfortunately, Grock got more expensive. It got more intelligent as well, but that's how it all came together. All right. So, I gave three of the top models the same exact prompt to generate kind of a designy cody single profile card. And this is Fable 5. It is so bad. Look what they decided to do as the image. This is just like the worst SVG Microsoft Paint thing I've ever seen. And look how much better this is. This is GPT 5.6 Soul. They actually generated this image of this woman. And just design-wise, it's beautiful. Everything looks really good. It's clean. It's visually appealing. I mean, just look at the difference between these two. And what is happening with Fable? That is horrendous. And now here's Grock 4.6. So, pretty good. Not great. It also generated this image of a woman. Kind of the same looking woman, which is a little surprising, but the following button is kind of cut off. There's no padding at the bottom. It's a little bit weird spacing with the text and this line break. So, overall, it's pretty good. I would say GPT 5.6 definitely won. Definitely won. And I I'm I'm embarrassed for Fable here. And I know the design benchmarks are hard to measure. It's really subjective, but I think it's actually pretty clear which one won. All right, so Grock 4.6 is available today. You can get it in Cursor. You can get it in Grock Build, which are kind of competing products at this point, and they're probably going to merge eventually. It's also available in the API and Open Router, Verscell, and Cloudflare. Now, what's important is the price. $2 per million input tokens and $6 per million output tokens, which is fantastic. And as a reminder, GPT 5.6 Soul is multiple times more expensive than that. And Fable even more. So, this is a very efficient model, a very inexpensive model, and I continue to say Grock is this workhorse model for my use cases. And they even have a fast variant which is twice the price but it is much faster which is crazy because it's already very fast and they're offering 2x usage double usage for the first week if you're using it in Grock builds and cursor. And the last thing is it is also powering Grockbot which is Cursor's latest product that they just released yesterday. And Grockbot just came out yesterday and we talked about it already today in our newsletter forwardfuture.com. And so I think what's happening here is postcursor acquisition, Grock is really excelling now. We now have a third major US AI lab. We have OpenAI, Anthropic, and now XAI. XAI certainly still feels like they're in third place, but they are really close and accelerating very quickly. And it all stems from their increased focus on coding use cases and knowledge work use cases. That seems to be the winning formula that was originally implemented by Anthropic. They just went so hard on the coding use case, built this incredible flywheel where developers used Claude code, all of that data fed back into Anthropic, all of the revenue fed back into Anthropic, and then they use that coding model to train their next model. And this incredible flywheel was then replicated by OpenAI. And don't forget, OpenAI was the original large language model company, but they fell behind for a little bit because they were focused on so many different things. And now they are so heavily focused on codecs and coding use cases that they've caught up to anthropic. And it just seems like the winning formula for large language models for artificial intelligence is simply go hard on coding. Coding is the key. And we're seeing that postcursor acquisition. So XAI acquired cursor. They acquired all of this incredible coding data that they are now using to train and post-train their models. And so the Grock model is now really good at coding. And they even say it in the blog post. They used Grock 4.5 to train Grock 4.6. That's the key. Recursive self-improvement. We might not have a fully closed loop in self-improving AI, but certainly current models are training nextgen models from all of the major labs. And we're seeing it here with Grock as well. We then use graph 4.5 to regenerate the SFT trajectories across reasoning efforts, agent harnesses, and domains such as STEM, software engineering, and knowledge work. So the important thing to note is they're using 4.5 to help curate the data used to train 4.6. So now we have another incredibly powerful coding agent with Grock 4.6. Obviously, we have OpenAI's models and Anthropics models, but what really sets Grock apart is it seems like they're very focused on the broader market, not necessarily developers. And that's actually okay. They have Cursor, which is definitely a product made for developers, but now they have Grockbot, which is very clearly made for a much broader, less technical audience. you still get all of the power of a really good coding model. It can still get realworld work done for you because essentially everything's built with code. And so that's what is so special about this new Grock model paired with Grockbot. They've stripped out model selection. There's literally no way to tell even what model you're using. They don't show any code at all. So you're just looking at text and artifacts like PowerPoint presentations, Word documents, everything that could be output from knowledge work. Even the way that they have these little guys right here, these little mascots, each thread is an agent and each agent has their own little guy. I don't even know what to call it. It's a little guy. So this Grockbot plus4.6 is very powerful. And if you haven't had a chance to check out Grockbot yet, I definitely recommend it. It's really cool, very powerful, yet very simple to use. And it also tells more of the story of the transformation of XAI. If you remember a year and a half ago, Elon was talking all about how the Grock model was aiming to be maximally truthful. And that seemed like almost an impossible bar to reach. They built a model, it was pretty good, but they quickly fizzled out. Anthropic and OpenAI just accelerated forward had the best models in the world. All the developers moved to one of the other products and I think they got the message. The only thing that matters is the coding use case because the entire market of knowledge work is basically built on code. But to better understand how well XAI is positioned today, you have to understand a little about the history of how we got here. Just a few months ago in April, SpaceX acquired Cursor. If you remember, Cursor was really the company that changed the coding landscape. They were the first ones to deeply integrate artificial intelligence into an IDE to allow you to code in a new way using AI. They were the first and then Claude Code and then Codeex. But when Claude Code came out, cursor fell behind. Everybody was really choosing Claude Code and then they started choosing Codeex. So this acquisition was just so good because cursor had this mountain of coding data, just incredibly valuable data, but they didn't have a data center. They didn't have GPUs to train their own models. And then you have Elon and the XAI company, which in 122 days built out 200,000 GPUs, which is just insane velocity. But the only problem is they didn't have a good model. Nobody wanted to use the model. So all of these GPUs sat idle. And so all of a sudden you have cursor sitting over here with a mountain of data, XAI sitting over here with a mountain of GPUs. And what happens if you merge them together? You get something incredible. You get to use all of that data powered by all the GPUs to create the next generation of coding model, which is what we're now seeing with Gro 4.5 and now Grock 4.6. Now I want to point out something here. Anthropic partnered with XAI. Anthropic has one of the best models on the planet, but they underestimated the demand for their models. And so now again, you have XAI sitting on so many idle GPUs, they need to sell them. They need to actually use the GPU. So they partnered with Anthropic. Anthropic is now buying compute from XAI. And this is like selling weapons to your enemy. This must have hurt Elon so badly because he has said so many negative things about Anthropic and then had to sell them compute. But now imagine you're Anthropic and you're sitting here today and you're like, \"Oh wow, Grock 4.6 is actually quite good.\" And if they start to garner a bunch of attention and a bunch of demand, I guarantee at the end of the term for their deal with Anthropic, XAI is going to allocate all of that GPU capacity to cursor and to Grock. Why wouldn't they, right? So, I would be a little bit nervous if I were Daario and Enthropic. And it's not stopping. They continue to get better and better. Elon just tweeted, \"Grock 4.7 is significantly better than 4.6 six and should be ready in 3 to 4 weeks. The initial training is complete. Now they're adding a massive amount of SpaceX company data in supplemental training. It will be something special. I am so happy about this. We need competition. Competition is good. Open- source model competition is good. Frontier closed source model competition is good because all of that means better models, less expensive for all of us. And I'm really excited about Grockbot. I have been using it. I made an entire video about it, breaking it all down.",
-      "url": "https://www.youtube.com/watch?v=rdYBjpylJUQ",
-      "youtube_video_id": "rdYBjpylJUQ"
     },
     {
       "channel": {
@@ -1634,54 +1568,6 @@
     },
     {
       "channel": {
-        "title": "OpenAI",
-        "url": "https://www.youtube.com/@OpenAI",
-        "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "content_type": "tutorial",
-      "enrichment_status": "ready",
-      "evidence": [
-        {
-          "end_seconds": 36.4,
-          "field_name": "topic",
-          "quote": "powerful AI agents. When uh GPT 5.6",
-          "start_seconds": 31.08,
-          "timestamp_url": "https://www.youtube.com/watch?v=Cxp2aZQqkYM&t=31s",
-          "topic_slug": "agents"
-        },
-        {
-          "end_seconds": 7.119999999999999,
-          "field_name": "topic",
-          "quote": "GPT 5.6 compared to 5.5. In our testing,",
-          "start_seconds": 2.4,
-          "timestamp_url": "https://www.youtube.com/watch?v=Cxp2aZQqkYM&t=2s",
-          "topic_slug": "model-releases"
-        }
-      ],
-      "primary_speaker": "OpenAI host",
-      "published_at": "2026-08-17T15:22:51Z",
-      "summary": "How Base44 Uses GPT-5.6 to Build Apps With 20% Fewer Tokens focuses on AI Agents, Model Releases. Key transcript signal: Our user used GPT 5.6 Soul and Terra to go from idea to fully functioning app or custom powerful AI agents.",
-      "thumbnail_url": null,
-      "title": "How Base44 Uses GPT-5.6 to Build Apps With 20% Fewer Tokens",
-      "topics": [
-        {
-          "label": "AI Agents",
-          "relevance_score": 0.818,
-          "slug": "agents"
-        },
-        {
-          "label": "Model Releases",
-          "relevance_score": 0.735,
-          "slug": "model-releases"
-        }
-      ],
-      "transcript_status": "ready",
-      "transcript_text": "We saw two major step forwards uh with GPT 5.6 compared to 5.5. In our testing, it consistently delivered better outcomes that previous GPT 5.5 while using 20% fewer tokens. >> [music] >> Base44 is an AI-powered app-building platform that lets anyone create fully functioning, production-ready application using natural language without coding required. Our user used GPT 5.6 Soul and Terra to go from idea to fully functioning app or custom powerful AI agents. When uh GPT 5.6 designed interface for complex application, it just nails the aesthetics and the user experience together from the first time. We stress-tested GPT 5.6 before putting it in production across a really wide range of scenarios. It performed remarkably better than GPT 5.5 while completing the task faster and using fewer tokens. Our builders spend less time correcting and re-explaining and more time just shaping the product [music] that they need, shortening the time to get from an idea to an actual product that they can put in front of their customers. >> [music]",
-      "url": "https://www.youtube.com/watch?v=Cxp2aZQqkYM",
-      "youtube_video_id": "Cxp2aZQqkYM"
-    },
-    {
-      "channel": {
         "title": "Fireship",
         "url": "https://www.youtube.com/@Fireship",
         "youtube_channel_id": "UCsBjURrPoezykLs9EqgamOA"
@@ -2136,6 +2022,41 @@
     },
     {
       "channel": {
+        "title": "OpenAI",
+        "url": "https://www.youtube.com/@OpenAI",
+        "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "content_type": "analysis",
+      "enrichment_status": "ready",
+      "evidence": [
+        {
+          "end_seconds": 5.64,
+          "field_name": "topic",
+          "quote": "After introducing Codex, it grew to more",
+          "start_seconds": 0.0,
+          "timestamp_url": "https://www.youtube.com/watch?v=VDI4MiD6eh4&t=0s",
+          "topic_slug": "model-releases"
+        }
+      ],
+      "primary_speaker": "OpenAI host",
+      "published_at": "2026-08-24T01:27:29Z",
+      "summary": "What Codex Unlocks for NTT Data focuses on Model Releases. Key transcript signal: Even sales team are using Codex to automate tasks like customer list maintenance, which is creating new kinds [music] of workflow change we hadn't seen before by Codex.",
+      "thumbnail_url": null,
+      "title": "What Codex Unlocks for NTT Data",
+      "topics": [
+        {
+          "label": "Model Releases",
+          "relevance_score": 0.735,
+          "slug": "model-releases"
+        }
+      ],
+      "transcript_status": "ready",
+      "transcript_text": "After introducing Codex, it grew to more than 10,000 active users and became our largest internal community in just a few months. >> I'm a part of Open AI COE Center of Excellence, where I am leading to drive adoption of Codex [music] and broader Open AI product portfolio. Codex enable us automate high complexity instant analysis and also performance analysis as well. This analysis and the record creation used to [music] require two days from our technical officials, but now Codex can complete it automatically in just 30 minutes. Even sales team are using Codex to automate tasks like customer list maintenance, which is creating new kinds [music] of workflow change we hadn't seen before by Codex.",
+      "url": "https://www.youtube.com/watch?v=VDI4MiD6eh4",
+      "youtube_video_id": "VDI4MiD6eh4"
+    },
+    {
+      "channel": {
         "title": "Matthew Berman",
         "url": "https://www.youtube.com/@matthew_berman",
         "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
@@ -2203,6 +2124,41 @@
       "transcript_text": "What is happening? An unreleased version of Claude was asked to solve a long-standing mathematical problem. The Rayman hypothesis. Simplified. It is a statement about the distribution of prime numbers. Devilishly difficult. No human has ever been able to prove it. Did it solve it? Nope. [laughter] So, what did it do then? Well, it actually was able to improve a related bound beyond human record. It pushed humanity further sort of. I think that is incredible. Now there is the mathematical side. Many mathematicians I heard seem to be both surprised and impressed by the results. Some call it a massive leap forward. I ran the verification myself but I am just a student looking to learn and I am not qualified to speak more about the mathematical side of it. But the AI side is incredible. Three things that happened that I found super interesting. One, surely exquisite mathematical prompting was done, right? No, not really. Here's what happened. First, a non-mathematician person prompted this AI. Wow. Okay. The first 650 tries did not work. Now, hold on to your papers, fellow scholars. Quoting throughout this process, Jared's input was mostly limited to sending Claude messages of encouragement. Mostly varants of keep going and believe in yourself. What he had to give words of encouragement to an AI to keep going and it succeeded. Perhaps in the future, the most powerful mathematical proofs will not be written by geniuses. They will be written by life coaches. What a time to be alive. And get this, it's not the first time this has happened. Quoting a prompt including similar encouragement was used to help Claude disprove the Jacobian conjecture. Okay, but I was even more surprised about two more things. Dear fellow scholars, this is two minute papers with Dr. Koa Eher. Two, the full technical paper is available, but it's pretty tough, of course. So much so that they asked the AI to explain its findings. So it did and in the meantime a formalized version of the proof is also available which can be automatically verified. You can even run it yourself right now. Now something I don't think you hear too much about elsewhere. I went through more than a 100 pages of transcripts and some super cool tidbits from the journey. Claude had internet access in general but did not need to use it during the key breakthrough run. Claude went down many wrong roads first but was able to learn from them and recover. Then the first crucial result appeared after about 37 minutes of radio silence. Imagine how tense that must have been. And then pop. And the AI itself also thought the result is suspiciously good. It said, quoting, \"Too strong to be new.\" Absolutely crazy. And three, even Claude was surprised about its finding and it was skeptical at first. They also say perhaps Claude itself also underestimates the rate of AI progress. But an AI that is surprised, of course, this does not mean a human-like surprise. It simply reflects patterns learned from us during training. But still, I feel like we are living in a new world where sentences that didn't used to make sense now suddenly do. And in a world where these AI systems built by human ingenuity are now pushing humanity forward, what a time to be alive. We need new tools for the era of LLMs and Weights and Biases now has Weave, a lightweight toolkit to confidently iterate on LLM applications. Use traces to debug how data flows through each step of your app and use evaluations to measure your progress. It is the best. Try it out now at wnb.me/papers me/papers or click the link in the description below.",
       "url": "https://www.youtube.com/watch?v=QnGNF8k_uoc",
       "youtube_video_id": "QnGNF8k_uoc"
+    },
+    {
+      "channel": {
+        "title": "Matthew Berman",
+        "url": "https://www.youtube.com/@matthew_berman",
+        "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
+      },
+      "content_type": "opinion",
+      "enrichment_status": "ready",
+      "evidence": [
+        {
+          "end_seconds": 4.56,
+          "field_name": "topic",
+          "quote": "You can have it put together grocery",
+          "start_seconds": 0.0,
+          "timestamp_url": null,
+          "topic_slug": "model-releases"
+        }
+      ],
+      "primary_speaker": "Matthew Berman host",
+      "published_at": "2026-08-24T07:26:04Z",
+      "summary": "Grok Bot saves so much time and is so easy focuses on Model Releases. Key transcript signal: You can have it put together grocery list for you.",
+      "thumbnail_url": null,
+      "title": "Grok Bot saves so much time and is so easy",
+      "topics": [
+        {
+          "label": "Model Releases",
+          "relevance_score": 0.63,
+          "slug": "model-releases"
+        }
+      ],
+      "transcript_status": "ready",
+      "transcript_text": "You can have it put together grocery list for you. You can have it register your car at the DMV. All of these tedious tasks that require you clicking through websites that might take just, you know, 10 minutes, 20 minutes each. You're save so much time by just having your bot do it for you. One of my favorite use cases is having my Grock bot return Amazon items for me. So, rather than clicking through the whole return flow, it just goes and does it for me and gives me the QR code for it. It can book you gym times. It can book you doctor's appointments. I'm telling you, it really is incredible and it saves a lot of time.",
+      "url": "https://www.youtube.com/shorts/RUAtrbLa9Q0",
+      "youtube_video_id": "RUAtrbLa9Q0"
     }
   ]
 }
