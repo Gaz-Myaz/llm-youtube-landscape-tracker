@@ -3,7 +3,7 @@
     {
       "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
       "handle": "@matthew_berman",
-      "latest_video_at": "2026-08-24T18:11:25Z",
+      "latest_video_at": "2026-08-25T08:01:35Z",
       "thumbnail_url": null,
       "title": "Matthew Berman",
       "top_topics": [
@@ -18,19 +18,14 @@
           "slug": "agents"
         },
         {
-          "label": "Open Source Models",
-          "score": 0.772,
-          "slug": "open-source-models"
-        },
-        {
-          "label": "Local Inference",
-          "score": 0.752,
-          "slug": "local-inference"
-        },
-        {
           "label": "Model Releases",
           "score": 0.709,
           "slug": "model-releases"
+        },
+        {
+          "label": "Multimodal",
+          "score": 0.686,
+          "slug": "multimodal"
         }
       ],
       "url": "https://www.youtube.com/@matthew_berman",
@@ -186,26 +181,9 @@
       "youtube_channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw"
     },
     {
-      "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
-      "handle": "@OpenAI",
-      "latest_video_at": "2026-08-24T23:09:56Z",
-      "thumbnail_url": null,
-      "title": "OpenAI",
-      "top_topics": [
-        {
-          "label": "Model Releases",
-          "score": 0.77,
-          "slug": "model-releases"
-        }
-      ],
-      "url": "https://www.youtube.com/@OpenAI",
-      "video_count": 4,
-      "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
-    },
-    {
       "description": "Technical courses and tutorials, including practical AI application development.",
       "handle": "@freecodecamp",
-      "latest_video_at": "2026-08-21T11:00:31Z",
+      "latest_video_at": "2026-08-25T12:14:06Z",
       "thumbnail_url": null,
       "title": "freeCodeCamp.org",
       "top_topics": [
@@ -238,6 +216,23 @@
       "url": "https://www.youtube.com/@freecodecamp",
       "video_count": 4,
       "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
+    },
+    {
+      "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
+      "handle": "@OpenAI",
+      "latest_video_at": "2026-08-24T23:09:56Z",
+      "thumbnail_url": null,
+      "title": "OpenAI",
+      "top_topics": [
+        {
+          "label": "Model Releases",
+          "score": 0.77,
+          "slug": "model-releases"
+        }
+      ],
+      "url": "https://www.youtube.com/@OpenAI",
+      "video_count": 4,
+      "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
     },
     {
       "description": "Long-form technical interviews with AI researchers and builders.",
@@ -331,6 +326,6 @@
       "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
     }
   ],
-  "generated_at": "2026-08-25T00:34:46Z",
+  "generated_at": "2026-08-25T12:33:39Z",
   "schema_version": "1.0"
 }
