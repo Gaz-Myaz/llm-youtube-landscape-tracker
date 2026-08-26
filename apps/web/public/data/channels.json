@@ -1,38 +1,6 @@
 {
   "channels": [
     {
-      "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
-      "handle": "@matthew_berman",
-      "latest_video_at": "2026-08-25T08:01:35Z",
-      "thumbnail_url": null,
-      "title": "Matthew Berman",
-      "top_topics": [
-        {
-          "label": "Coding Assistants",
-          "score": 0.838,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "AI Agents",
-          "score": 0.802,
-          "slug": "agents"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.709,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Multimodal",
-          "score": 0.686,
-          "slug": "multimodal"
-        }
-      ],
-      "url": "https://www.youtube.com/@matthew_berman",
-      "video_count": 5,
-      "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
-    },
-    {
       "description": "Research-focused AI and machine learning explainers.",
       "handle": "@TwoMinutePapers",
       "latest_video_at": "2026-08-24T16:48:40Z",
@@ -218,9 +186,41 @@
       "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
     },
     {
+      "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
+      "handle": "@matthew_berman",
+      "latest_video_at": "2026-08-25T08:01:35Z",
+      "thumbnail_url": null,
+      "title": "Matthew Berman",
+      "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.802,
+          "slug": "agents"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.736,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.709,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Multimodal",
+          "score": 0.686,
+          "slug": "multimodal"
+        }
+      ],
+      "url": "https://www.youtube.com/@matthew_berman",
+      "video_count": 4,
+      "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
+    },
+    {
       "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
       "handle": "@OpenAI",
-      "latest_video_at": "2026-08-24T23:09:56Z",
+      "latest_video_at": "2026-08-25T20:17:22Z",
       "thumbnail_url": null,
       "title": "OpenAI",
       "top_topics": [
@@ -228,10 +228,15 @@
           "label": "Model Releases",
           "score": 0.77,
           "slug": "model-releases"
+        },
+        {
+          "label": "Enterprise Adoption",
+          "score": 0.736,
+          "slug": "enterprise-adoption"
         }
       ],
       "url": "https://www.youtube.com/@OpenAI",
-      "video_count": 4,
+      "video_count": 3,
       "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
     },
     {
@@ -326,6 +331,6 @@
       "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
     }
   ],
-  "generated_at": "2026-08-25T12:33:39Z",
+  "generated_at": "2026-08-26T00:34:52Z",
   "schema_version": "1.0"
 }

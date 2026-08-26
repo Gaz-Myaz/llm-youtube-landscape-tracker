@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T12:33:39Z",
+  "generated_at": "2026-08-26T00:34:52Z",
   "schema_version": "1.0",
   "videos": [
     {
@@ -1055,67 +1055,6 @@
     },
     {
       "channel": {
-        "title": "Matthew Berman",
-        "url": "https://www.youtube.com/@matthew_berman",
-        "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
-      },
-      "content_type": "tutorial",
-      "enrichment_status": "ready",
-      "evidence": [
-        {
-          "end_seconds": 626.64,
-          "field_name": "topic",
-          "quote": "And this came directly from the cursor",
-          "start_seconds": 621.6,
-          "timestamp_url": "https://www.youtube.com/watch?v=5CSXUsljJ_E&t=621s",
-          "topic_slug": "coding-assistants"
-        },
-        {
-          "end_seconds": 634.9590000000001,
-          "field_name": "topic",
-          "quote": "your coding agent, which kind of sounds",
-          "start_seconds": 629.2,
-          "timestamp_url": "https://www.youtube.com/watch?v=5CSXUsljJ_E&t=629s",
-          "topic_slug": "agents"
-        },
-        {
-          "end_seconds": 1285.9189999999999,
-          "field_name": "topic",
-          "quote": "Q&A with chat GPT, so you're just asking",
-          "start_seconds": 1281.28,
-          "timestamp_url": "https://www.youtube.com/watch?v=5CSXUsljJ_E&t=1281s",
-          "topic_slug": "model-releases"
-        }
-      ],
-      "primary_speaker": "Matthew Berman host",
-      "published_at": "2026-08-20T18:28:50Z",
-      "summary": "11 Grok Bot Use Cases That Feel Like Cheating focuses on Coding Assistants, AI Agents, Model Releases. Key transcript signal: And again, the Cursor team told me, the engineers at Cursor told me this is how they're using Grockbot today.",
-      "thumbnail_url": null,
-      "title": "11 Grok Bot Use Cases That Feel Like Cheating",
-      "topics": [
-        {
-          "label": "Coding Assistants",
-          "relevance_score": 0.838,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "AI Agents",
-          "relevance_score": 0.77,
-          "slug": "agents"
-        },
-        {
-          "label": "Model Releases",
-          "relevance_score": 0.632,
-          "slug": "model-releases"
-        }
-      ],
-      "transcript_status": "ready",
-      "transcript_text": "I've been using Grockbot every day since it came out, and it feels more personal and more capable than any other agent that I've used. And to be honest, I wasn't expecting it. The UI is built to give every bot the feeling of a persistent character rather than a thread that you can just throw away. And I really like it. So, in this video, I'm going to show you all of the incredible use cases that I'm using Grockbot for. Plus, I'm going to show you some of the best practices that I've learned in how to get the most out of Grockbot. So, let's get right into the first use case. Email management. If you get a ton of email like me, if you have multiple email addresses like me, you probably spend so much time trying to get to inbox zero. And now it's much easier with Grockbot. I have a specific bot agent that I called the email agent. And every single day at 7:30 a.m., it looks through all of my emails from overnight and from the day before, any that are left over. And the first thing it does is look for emails that can be easily archived without me having to look at it. I have dozens of emails that are just, you know, like one-off notifications and things that I don't really need to pay attention to. And so it puts those together for me and ask me if I want to archive them. So here it says overnight leftovers that look easy to archive. 14 out of office auto replies from my newsletter that goes out and then it gives me a bunch of other emails that look like they don't need my attention directly. It gives me a little button I can push. I click that and it autoarchchives it. Now, to actually accomplish this, you're going to go into plugins and you're just going to make sure your Gmail plugin is added. You click add. A little prompt is going to pop up in the thread just asking you to connect. You click the button, you authorize Gmail, and you're done. It now has access to read your Gmail, add labels, draft replies, archive everything. Then what I ask it to do is after those easily archable emails, I ask it to look for kind of the loweffort ones that I need to actually pay attention to and it'll batch them together. These are emails that I actually need to look at or get some information from, but I don't necessarily need to reply to them. I don't need to spend a bunch of time on them. And so I have to blur these out because these are my personal emails. But that's what is showing right here. It's just a few sentence summary of a number of different emails all batched together. I can take a very quick look, understand it, and then just say archive. And the cool thing is Grockbot will actually learn over time and you can tell it, hey, anytime you get an email like this, go ahead, don't even ask me. You can archive it or put it in kind of the lowest effort email review batch. Now, once I'm done with that, the way that I get through the rest of my emails is super interesting. I have it go through each one that requires my attention, requires some kind of action, and I have it read all of the context. So, that's not only the current thread, but previous interactions with the person, and basically summarize the whole thing and try to suggest what the next action could be, whether that's a reply or whether it just needs me to make a decision on something. And it actually does this incredibly well. And again, the more context you give Grockbot, the better it can help assess each of these emails. For example, I connected HubSpot. I gave it access to my Google Drive where I take notes and I store contracts and everything like that. And now Grockbot knows to go check those different sources. And then it will better understand what actions it should suggest for me on each individual email. And that's how I do it. And a lot of times it's actually just writing an email for me, which is quite nice. And it sounds like me too, which is also quite nice. So with all of this, I'm able to get through my email much more quickly than I would otherwise. And I do get a lot of emails. So this is a really big timesaver for me, and it can be for you as well. I have a prompt that you can give to your Grockbot to accomplish this exact workflow. I'm going to drop that and all of the other use cases that we're going over today down below. Next is email classification. Not only do I want help triaging my emails, but I want Grockbox to actually label my emails to help me sort through them and categorize them for later. And so I make YouTube videos. I get a lot of sponsorship emails. And I do get a lot of spammy sponsorship emails. And so I actually have Grockbot give a score to each of those sponsorship emails. And so I can see the spammy ones automatically archive those. And then for the rest, it's basically like a lead scoring system. And I did build this lead score heristic up over time with OpenClaw, but I basically just took that scoring system and then put it in Grockbot and now it just works. And so you might need to work with Grockbot or whatever agent you're using to help come up with that scoring system, but you can do that too. And not only just scoring for sponsors, but you can label any types of emails. So I get emails from PR companies. I can easily just label those. I have internal ops and about a dozen different labels that I use, which again is just super helpful if I ever want to say, \"Okay, give me all of the highquality sponsor emails that have come through. Show it to me.\" It can easily do that now. And so you can see I have this set up as a routine. And you don't need to set this up manually. You can literally just tell your Grockbot to set up a routine. And I have it set up to run every day during the week, every 30 minutes between 8:00 a.m. and 7:00 p.m. So it's not just burning tokens when I don't really need it. It'll do a batch job first thing in the morning. So you can see all the different runs down here. Another one of my favorite use cases is actually allowing Grockbot to publish things to the internet really easily. so I can share them with my team or with clients or with you all. Here is sponsoring this video. I love their product. I use it all the time. In fact, I actually don't use it. My agent uses it all the time and it just knows anytime I need to publish anything, it will use here. Now automatically, they actually have a native plugin now. So, if you just search for here now in the plugins list, here it is. I've actually had the skill installed. So, I'm going to install the here. now plug in the native one right now. And just like that, you're live. That's as easy as it gets. And so when you need to publish something, it will give you back a public or private URL within seconds of needing to publish something. So you can see right here, I published this little picture of the 3D boat that I printed. I said, \"Publish this.\" It did it. And then it dropped a link right here. Here. Now is completely free. You can publish almost anything to it. And you don't even need an account. And in fact, I'm going to publish all of the prompts that I go over in this video using here. Now, and I'm going to drop a link down below for that. Thanks again to here. Now, huge fan. Go install here. Now right now into Grockbot. All right. Next is calendar management. Another one of those things that you'll save a few seconds here and there, but over the course of a year, this really starts to add up. And so, all this bot does is it's a bot to interact with my multiple calendars. It knows about my calendars. it has authenticated into my calendars. I don't usually interact directly with my calendar bot. I'm usually talking to my chief of staff who will then delegate it out to the calendar bot. But I will explain the chief of staff later. But all you need to know is I use this for a lot of really cool use cases. And so I use this to help me negotiate meeting times. So if I have somebody emailing me who wants to meet, I don't have to go manually look through my calendar and go back and forth with them. I simply have my calendar bot do that. It checks automatically for overlapping meetings and helps me reschedule if I ever have that. And honestly, I get a lot of emails that have multiple calendar dates in them. And all I do is have Grock check the email and then create calendar events for everything in that email. Super useful. And again, the way I want you to think about Grockbot and each of these bots is they should kind of have one [clears throat] main task. All right. And next is browser use. Don't forget Grockbot has incredible browser use and it all runs in the cloud. I'll touch on the cloud aspect of Grockbot a little bit later in the video, but just remember anything that you can do in a browser, Grockbot can do for you. And so a few things that I use browser use for are well first shopping on Amazon. I'll just tell it to go find me something. And it's kind of interesting if you remember back, Amazon actually sued Perplexity because they said Perplexity agents should not be able to browse Amazon and the judge threw it out. So now agents can freely use Amazon. And that's what we're going to be doing with Grockbot. So right now I have it searching for a 45B tungsten cube, which Brian recommended. And if I actually open up the computer use right here, you can see it's a mere $20,000. All right, so here we go. Closest thing on Amazon is the 4-in tungsten cube from Midwest Tungsten Service. Shout out Midwest Tungsten Service. Listed at $20,000 in stock. Hey, I can get it within a week. So there we go. And it's really easy. It can find anything for you. It can even complete the purchase once you sign in with Amazon. And to do that, you just go to the browser right here and you click sign in, right? Just sign in like normal. It works just like it would in your own browser. And once you do it once, it's going to persist. So you don't need to always sign in each time you want to use it. You can have it put together grocery lists for you. You can have it register your car at the DMV. All of these tedious tasks that require you clicking through websites that might take just, you know, 10 minutes, 20 minutes each. You save so much time by just having your bot do it for you. One of my favorite use cases is having my Grockbot return Amazon items for me. So rather than clicking through the whole return flow, it just goes and does it for me and gives me the QR code for it. It can book you gym times. It can book you doctor's appointments. I'm telling you, it really is incredible and it saves a lot of time. All right, next. And this came directly from the cursor team. They told me about this. You should actually be using Grockbot as your coding agent, which kind of sounds weird, but it makes sense once you understand the logic. And so, here's the gist of how it works. You have your coding agent in Grockbot. It has all of this context about you, how you like to work, and it can actually call the cursor agent CLI directly from Grockbot. And again, the Cursor team told me, the engineers at Cursor told me this is how they're using Grockbot today. And so the way that they told me they're doing this, and I haven't done it myself yet, but I want to explain how they told me. They said they're creating a new bot for every project that they're working on and even bots for the work streams. So if you have multiple work streams within a single project, you want to create a Grockbot for each of those. Then they actually initiate it from Slack. So they all chat in Slack and they will actually kick off different tasks to Grockbot which then delegates to the cursor CLI all from Slack. And again it has access to notion. It has access to email, Slack, GitHub, everything it needs. And it can actually collect and persist that context apparently better than cursor can directly. Then if they need to generate more notion docs or plans or anything, they do that straight from Grockbot. It can kick off cloud agents, cursor cloud agents directly from Grockbot. Grockbot will follow up with those cursor cloud agents and make sure that it's working and it completes the task end to end. And so an example of kind of the endto-end workflow, also maybe known as a loop, the Grockbot will look at a PR and if the CI isn't green, it will continue to follow up and fix it until it is. And it just knows continue doing it until you get a green CI so that we can merge. And so instead of seeing all of the context, all of the text really that you usually get in cursor, you get very brief summaries in Grockbot. And you can always ask for more detail because it is technically just cursor running within Grockbot. It is very interesting. And next, if this sounds like a joke, I am actually serious. I have Grockbot ordering food for me from Door Dash. Door Dash announced its CLI product a few months ago, and there is a wait list for it. So, if you don't have access to it yet, go sign up for the wait list. I'm still on the wait list, so I haven't actually done this myself, but I know a lot of other people who have. And basically what they're doing is they're allowing their bot to order food for them. Now, you can do this through browser control with Grockbot today, even if you don't have access to the CLI. It's just a lot slower. And so, I just typed open Door Dash and order me a sandwich any from Mendescino Farms. And you can see I already set up my Grockbot to use the CLI. I'm just waiting to get access to it. but it knew, okay, you don't have the CLI yet. So, I'm opening Door Dash in the browser instead. And so, in a second, we're going to see the browser open. It's going to navigate. Here we go. You can see it already. It's going to navigate to Door Dash. It's going to look for Menescino Farms. And there it is. It's going to order me a sandwich and get it ready. Once I sign in, once I give it my address, it will have all the information, and I'll just be able to order it with a quick voice note or with a quick prompt. It's so easy. All right. Next, this is another one of those super powerful use cases that I use every single day, multiple times a day. This is the meeting summary workflow. And basically how it works is I have the Fathom notetaker join all of my meetings. And so it will record the meeting. It will then transcribe the meeting. I've connected it to Grockbot. Grockbot every 30 minutes will check Fathom's API to see if a new meeting has been recorded. It will then ingest the transcript. It'll write a summary of the meeting. It will write up action items. So, it will detect different things that I committed to during the meeting or that the other person in the meeting committed to me. It will write those up and then it will send that to me either in Grockbot, it can send it to you in Slack. And I've even hooked up Telegram, which I'll show you in a moment. And then the next thing, and I haven't done this yet, but I think this is really going to unlock the power of Grockbot. I'm actually going to have it look at my list of to-do items, look at all the context it has about me, and try to figure out if it can actually go accomplish one of those items for me without me doing anything. And don't forget, during the meeting, you can actually talk to Grockbot. I know it might sound a little awkward if you're meeting somebody for the first time, but certainly if you're talking to your team, you can just say like, \"Oh, hey Grockbot, don't forget to remind us to email that person next week or anything like that, and it will read that transcript.\" And remember to have action items that you specifically told Grockbot to do. So, this is probably between email triage and the meeting summary. These are my two favorite, two most powerful use cases that I do with Grockbot today. Okay, so this next one isn't really a use case. It's more how I use Grockbot. And I set up a bot called Chief of Staff. And let me show it to you. So I have Chief of Staff as a pinned bot. And if you want to pin any of these, you basically just rightclick and then click this pin button right here. And then it's going to show up in the top anytime that you need it. And so I have this chief of staff that I basically use as my main bot that I communicate with mostly. So, if I'm using the desktop application of Grockbot, I'll probably click into one of these individual bots, but sometimes I just use Chief of Staff directly. However, if I have Grockbot plugged into anywhere else like Slack or Telegram, I am only communicating through my chief of staff. My chief of staff can then delegate to any other bot that it needs to. So, I can tell my chief of staff, order me dinner for tonight. It will delegate out to my food bot. I can say, \"Hey, let's triage the emails.\" It will communicate directly with my email triage bot, but I'll communicate entirely through the chief of staff. It is really neat. And so, this is just a workflow that I use, but you can figure out if you like it or not. So, the next pin bot that I use, and really the only other pinned bot that I use is the personal bot. I really tried to separate out my work life and my personal life, and that's how I did it. chief of staff is everything workrelated, but if it's anything to do with my personal life, I talk to my personal bot for that. All right, the next one, and this is a kind of a sub agent or a subbot of my personal bot. This is the schoolbot. And again, this is another one of those super high-V value use cases. If you're a parent, you know how many emails you get from your kids' school. It seems like a huge essay every other day with calendar events and things I need to bring and remember and it's so overwhelming. I now have a schoolbot to manage it all for me. It scans my personal email inbox once a day at 700 p.m. It looks for emails from my kids schools. It will look for important information in them that I definitely need to know. It will quickly summarize the rest of the email and then it will send me a message in Telegram or in Grockbot and it will even look for calendar events that I need to know. It will create a calendar event. It will invite my wife to it and it all happens automatically now. And so instead of reading through these massive emails once every other day from my kids schools, I now just have Grockbot doing it for me. All right. Next is a very practical bot that I just started using. It is called computer cleanup and it is exactly what it sounds like. Grockbot not only is a cloud-based agent, but it also has access to your computer. And so here's what I do. So I basically told it to look through all of the files on my computer. Look for any that it thinks that I should delete. Don't actually delete it. This is really important. I told it do not delete anything. and categorize everything that it thinks I should delete into low risk, medium risk, and high- risk. And so, I'm going to create a routine to run this once a week. So, I'll call it weekly cleanup. And I'll run it every week. And there we go. It's done. And so, every week, it's going to look through all of the files on my computer and just keep my hard drive clean, which is very nice. Here's a few things. So, here's 90 GB it found that is low risk. 26 GB of cache. 17 GB of superhuman cache. Here's cursor with a copy of my database locally. More cache, npm, unused docker images. It's all here and I can just say go ahead and delete it. Then we have some medium risk 380 gigabytes. I have 100 gigabytes of work trees which is nuts. And so then it just asks me if I want to delete some of them and I can go through it with Grockbot together. very very useful to keep your computer clean. All right, so next, if you use OpenClaw, if you use Hermes, you've probably grown to like doing that through Telegram, and I definitely have. Now, Grockbot today has an iOS app, but it does not have an Android app, which you know, fine. The Android app, I have heard, is coming soon, but if you want it in Telegram, it's not built in natively. It's not that hard to set up, but it isn't done natively. So you do have to set that up manually. Now once again I've created a prompt. You can just copy paste it directly into your Grockbot. It will set it up exactly how you need it. Once you copy paste this prompt into Grockbot. It will walk you through what you need to do in Telegram. All you need to do is open up what's called the bot father. It's a contact that is in everyone's Telegram. You create a new bot. You give it a name. It gives you the bot token. And then you give that token to Grockbot. It sets up everything for you. It works quite well. It just took a few minutes of massaging to get it to work for me. But all of the issues that I ran into, I have solved and it is included in the prompts that I'm going to give you down below. And so now I can access my chief of staff Grockbot anywhere that I am from Telegram really easily. Plus, if you're on the go, you can drop a voice note in your Grockbot Telegram and it'll behave just like a voice note to any assistant. it'll just work. So, here are my thoughts on Grockbot as a whole. One, it is a bridge between just asking Q&A with chat GPT, so you're just asking a question, getting an answer, and more complicated coding agents like Codeex and Claude Code. If you're not technical and you don't want to think about using some of these coding agents, Grockbot is such a nice middle ground. It really simplifies the interface. A lot of the stuff just works. Sometimes it gets a little bit complicated, but for the most part it does just work. So, it is very powerful and I've been really pleased with it. It is definitely a big part of my daily workflow. Now, I reviewed Grockbot in full. Go check out that video right",
-      "url": "https://www.youtube.com/watch?v=5CSXUsljJ_E",
-      "youtube_video_id": "5CSXUsljJ_E"
-    },
-    {
-      "channel": {
         "title": "Two Minute Papers",
         "url": "https://www.youtube.com/@TwoMinutePapers",
         "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
@@ -1619,6 +1558,54 @@
     },
     {
       "channel": {
+        "title": "OpenAI",
+        "url": "https://www.youtube.com/@OpenAI",
+        "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "content_type": "tutorial",
+      "enrichment_status": "ready",
+      "evidence": [
+        {
+          "end_seconds": 47.839999999999996,
+          "field_name": "topic",
+          "quote": "changing across ChatGPT, Codex,",
+          "start_seconds": 45.86,
+          "timestamp_url": "https://www.youtube.com/watch?v=29SyCndnMZs&t=45s",
+          "topic_slug": "model-releases"
+        },
+        {
+          "end_seconds": 40.24,
+          "field_name": "topic",
+          "quote": "AI rollout review.",
+          "start_seconds": 39.04,
+          "timestamp_url": "https://www.youtube.com/watch?v=29SyCndnMZs&t=39s",
+          "topic_slug": "enterprise-adoption"
+        }
+      ],
+      "primary_speaker": "OpenAI host",
+      "published_at": "2026-08-25T20:17:22Z",
+      "summary": "How to Manage Your Workspace With ChatGPT Work focuses on Model Releases, Enterprise Adoption. Key transcript signal: In the Work tab, I'll ask, help me prepare for our monthly AI rollout review, show how adoption is changing across ChatGPT, Codex, and Work over the last 30 days.",
+      "thumbnail_url": null,
+      "title": "How to Manage Your Workspace With ChatGPT Work",
+      "topics": [
+        {
+          "label": "Model Releases",
+          "relevance_score": 0.77,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Enterprise Adoption",
+          "relevance_score": 0.736,
+          "slug": "enterprise-adoption"
+        }
+      ],
+      "transcript_status": "ready",
+      "transcript_text": "Managing a workspace day-to-day means sorting through a lot of information, deciding what needs attention, and taking action. Today that often means switching between settings, analytics, and reports, a manual process that takes time. The ChatGPT admin plugin brings all that work into a single conversation, making it easier to analyze information, change settings, and take action on requests with the permissions that you already have. Let me show you how it works in ChatGPT Work. So first, I'll navigate to the plugins tab in the sidebar, and search for the ChatGPT admin plugin, and install it. I'm preparing for our AI rollout review. In the Work tab, I'll ask, help me prepare for our monthly AI rollout review, show how adoption is changing across ChatGPT, Codex, and Work over the last 30 days. Also, compare how credit usage is changing by team over the last 30 days, use two charts, and call out the biggest changes. Now I can see the trend as well as the teams driving it. Finance seems to have the largest increase, so let's dive in more there. What's driving the increase in Finance? Visualize the breakdown by product, model, and reasoning effort. So that gives me a reason behind the change, not just a number. Now to finish off the task, I can say, update our monthly AI rollout deck with these charts and takeaways, add a short summary of what's changed, and share it in the AI rollout Slack channel. Now I'll take a look at what limit requests need attention. Show me the pending usage limits, include current usage, the effective limit, and the justification submitted. I can open any request, review the context, and approve or deny it, all in this same conversation. So I'll open the one with the highest current usage and say, open the request with the highest current usage, show its recent trend and the proposed limit. That checks out, so I'll approve it. Approve this request at the proposed limit, add a note that it's approved for the upcoming launch. With the ChatGPT admin plugin, I was able to analyze information and review and approve requests in a single conversation without having to piece that context together across multiple screens. So install the plugin today and bring your next admin task to ChatGPT Work.",
+      "url": "https://www.youtube.com/watch?v=29SyCndnMZs",
+      "youtube_video_id": "29SyCndnMZs"
+    },
+    {
+      "channel": {
         "title": "AI Explained",
         "url": "https://www.youtube.com/@AIExplained-official",
         "youtube_channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw"
@@ -1747,76 +1734,6 @@
       "transcript_text": "Every time you talk to an AI, every question you type into ChatGPT, and every answer you get from Gemini or Claude, you're using an idea from one single paper. One research paper written by eight people who worked at Google who are mostly just trying to make Google Translate a little bit better. Today, I'm going to tell you the story of how the Transformer came to be invented, and it's pretty wild because I feel like nothing these days is really that groundbreaking. And it's not like we are inventing the lightbulb or the telephone every year. No, but I feel this is mentioned up there among the greats and will be referred to in many years to come. To understand why this is so significant, you have to understand how machines used to read language before it. Old systems would take in text one word at a time. Kind of like you would imagine words passing through a straw. So, one word passes through, gets saved to memory, then the next word passes, gets saved to memory, and so on. And this would happen from left to right. This process actually has a name, and it's called recurrent networks. And whilst vastly used at the time, I guess because there was no alternative and no one had questioned this system so far, this system definitely had its flaws. One of major one being that this system was forgetful. By the time the model reached the end of a long sentence, the beginning had already gone fuzzy. So, connecting an idea at the start of a paragraph to one at the end of the paragraph was genuinely hard. And the second issue is that each step depended on the one before it. This means that even if you wanted to, you couldn't run all the steps at once. You had to march through each step one by one. So, through the sentence in order. As you can imagine, this made the whole process very, very, very slow. Not only for reading sentences, but also for training these models. And it's not like you could just throw more computing power at it, either. It wouldn't make a difference. Word five genuinely can't be computed until word four is done. So, more GPUs don't speed up processing one sentence. So, anyway, this group of eight engineers and the whole field of linguistics really were kind of stuck using this system. And I'm not sure what happened exactly, but I guess they started questioning why this sequential approach existed. I mean, why does the model read one word at a time? Wouldn't it be better if the model could look at the entire sentence at once? So, every word simultaneously. So, you know, in just the all all the words and for each word figure out which other words the model should pay attention to. Now, what is great is that actually this mechanism to pay attention to other words already existed as a helper in these old word-by-word models. And pretty fittingly, it was called attention. So, let's understand this theory a little bit better by looking at a sentence. The animal didn't cross the street because it was too tired. Now, when you read the sentence, we as humans know what it refers to. We know it refers to the animal. But, a computer reading word-by-word might think it refers to street, purely because it's the closest noun to the word it. The mechanism of attention is what lets the model make the same decision as you, linking it to animal, no matter how far apart they are. So, these eight Google researchers had an idea. They had the mechanism, and now they just needed to develop their idea further. One of the Google researchers, a guy named Jacob Uszkoreit, decided to fully revamp the helper, or in other words, the mechanism of attention, and isolate it to use it on its own. This was essentially the right idea, but executing it wasn't that straightforward, it turns out. It was in fact Noam Shazeer, another at the time, and a little bit of a legend around Google from what I gather, that managed to turn the theory into practice. Now, I don't want it to sound like I'm giving Noam Shazeer any more credit than any of the other guys, because they certainly didn't. In fact, when it came to writing the paper on this, each of the eight researchers who worked on the idea gave themselves equal credit, and even scrambled the order randomly, working as a true collective. Even the intern at the time, a guy called Aidan Gomez, is listed as an equal contributor. And this paper, this paper that is now one of the most cited AI or machine learning papers of the century, the one that talks about the mechanism of attention, feeling all you really need to improve language models, has the best name ever. If you are a Beatles fan and are familiar with their songs, you will definitely appreciate how apt the title of this paper is. It's called Attention Is All You Need. Get it? Because of the attention mechanism. Anyway, so the paper is in the process of being written, and their researchers' deadline is looming, and essentially, they are describing how a specific architecture works. And this architecture needed a name, so Jacob Uszkoreit went with Transformer, for no other reason that he just liked how it sounds, from what I understand. I mean, fair, it does sound pretty cool. Maybe he was a Bumblebee fan, who knows. So, now they have the paper. They have described the architecture, time to put it to the test. Because these researchers, if you remember, were originally looking at making Google Translate faster, what better way to see if the Transformer was able to fix their problem. So, they put it to the test. They ran the old model against the new Transformer, and would you believe the Transformer didn't just beat it, it totally demolished it. Not only did it beat the old system, it beat the best systems in the world when put to the test and trained in just a fraction of the time. These researchers were pretty ecstatic. I mean, this was a major major breakthrough. So, they finished the paper and essentially published it to the world. Now, this part makes me a little bit sad because I feel their pain because honestly, no one really cared about this paper because on the surface, it was a translation paper and it was pretty boring. It was pretty technical and narrow and turns out talking about translating words faster isn't exactly sexy. But luckily, the researchers who did read it totally got it. They totally understood how running a system in parallel is much better than running a system one word at a time. Running a system in parallel meant you could scale it. You could make it bigger, feed it more of the internet, throw more computers at it, and it wouldn't crash. It would just keep getting better and better and better. So, this happened in 2017 and pretty much within a year, the Transformer had already paved the way for the first of this new kind of models to be created. These models could read and write language and one of them was called GPT or Generative Pre-trained Transformer. And yes, that T, the one you say every time you say ChatGPT, stands for Transformer. And it didn't just stop at chatbots. Nearly every major AI system you can name today, so GPT-4, Gemini, Cohort, Llama, you name it, is underneath a Transformer. So, think about it. The models that generate images, tick. The models that write code, them too. And even the AI that predicted the structure of nearly every protein known to science, look under the hood and again and again and again, you will find the Transformer architecture. But our The doesn't stop there, no, because in a major twist, all eight of the researchers ended up leaving Google. They founded or joined companies that today are recognizable names in the AI space. One co-founded Cohere, one co-founded Character AI, one went to OpenAI, others started Adept and Essential AI and Sakana AI in Tokyo, and even a blockchain platform. So, in other words, this paper, the one that was written by Google employees, essentially created Google's biggest rivals. Talk about being the creator of your own downfall. So, yes, this was the story of the Transformer and how it came about, as well as the research paper called Attention is All You Need.",
       "url": "https://www.youtube.com/watch?v=jIo2ccqPnLQ",
       "youtube_video_id": "jIo2ccqPnLQ"
-    },
-    {
-      "channel": {
-        "title": "OpenAI",
-        "url": "https://www.youtube.com/@OpenAI",
-        "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "content_type": "tutorial",
-      "enrichment_status": "ready",
-      "evidence": [
-        {
-          "end_seconds": 14.48,
-          "field_name": "topic",
-          "quote": "prioritize next? ChatGPT work pulled",
-          "start_seconds": 8.32,
-          "timestamp_url": "https://www.youtube.com/watch?v=XjSJ6ybS9I8&t=8s",
-          "topic_slug": "model-releases"
-        }
-      ],
-      "primary_speaker": "OpenAI host",
-      "published_at": "2026-08-18T19:05:08Z",
-      "summary": "How to Turn a Business Question Into a Strategy Deck With ChatGPT Work | Tutorial focuses on Model Releases. Key transcript signal: First, I open the ChatGPT desktop app and switch to ChatGPT work.",
-      "thumbnail_url": null,
-      "title": "How to Turn a Business Question Into a Strategy Deck With ChatGPT Work | Tutorial",
-      "topics": [
-        {
-          "label": "Model Releases",
-          "relevance_score": 0.77,
-          "slug": "model-releases"
-        }
-      ],
-      "transcript_status": "ready",
-      "transcript_text": "I started with one question. Which markets in Latin America should we prioritize next? ChatGPT work pulled together market research, account data, customer trends, and past strategy work to build this recommendation deck. Something like this used to take me days to pull together. Hi, I'm Arvind. I work in business strategy at OpenAI. Today, I'll show you how I use ChatGPT work to create a strategy deck for our business across Latin America. First, I open the ChatGPT desktop app and switch to ChatGPT work. You can also do this on web. Then, I start with the business question we're focused on answering. Next, I connect my tools through plugins so ChatGPT can pull in relevant research, customer data, and previous reports. I also add in our company's slide template. I ask ChatGPT to make a plan and propose a storyline before building the deck. Finally, I review the storyline, check the numbers and sources, refine the recommendations, and approve the final readout. I use ChatGPT work because I needed to handle the task end-to-end from analyzing data to producing reports. Finally, when it's ready, I ask ChatGPT to put this all together in a business expansion readout with market context, customer analysis, supporting tables, and recommended next steps. That's how partnering with ChatGPT work helps me go from a business question to a complete strategy.",
-      "url": "https://www.youtube.com/watch?v=XjSJ6ybS9I8",
-      "youtube_video_id": "XjSJ6ybS9I8"
-    },
-    {
-      "channel": {
-        "title": "OpenAI",
-        "url": "https://www.youtube.com/@OpenAI",
-        "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "content_type": "tutorial",
-      "enrichment_status": "ready",
-      "evidence": [
-        {
-          "end_seconds": 27.64,
-          "field_name": "topic",
-          "quote": "at OpenAI. Before ChatGPT work, every",
-          "start_seconds": 22.4,
-          "timestamp_url": "https://www.youtube.com/watch?v=yQZgOSHHxjk&t=22s",
-          "topic_slug": "model-releases"
-        }
-      ],
-      "primary_speaker": "OpenAI host",
-      "published_at": "2026-08-18T18:58:56Z",
-      "summary": "How to Prepare for Customer Meetings With ChatGPT Work | Tutorial focuses on Model Releases. Key transcript signal: [music] >> Before I join a customer call, ChatGPT work has proactively prepared a brief.",
-      "thumbnail_url": null,
-      "title": "How to Prepare for Customer Meetings With ChatGPT Work | Tutorial",
-      "topics": [
-        {
-          "label": "Model Releases",
-          "relevance_score": 0.77,
-          "slug": "model-releases"
-        }
-      ],
-      "transcript_status": "ready",
-      "transcript_text": "[music] >> Before I join a customer call, ChatGPT work has proactively prepared a brief. Afterward, it turns the conversation into notes, follow-up emails, and proposed CRM updates for me to review. Previously, this would take half the day. Now, I can spend that time with my customers. Hi, I'm Alex. I work in sales at OpenAI. Before ChatGPT work, every customer call created hours of prep and post-call tasks. I'll show you how you can delegate a lot of that work to ChatGPT in five steps. First, [music] I go to ChatGPT and select work. You can also do this on the desktop app. Then, I connect the tools that hold my customer information, including calendar, Gmail, Slack, Gong, Google Drive, and Salesforce. Next, I tell ChatGPT what I need before each meeting, like account history, open questions, and key people involved. If I'm on the go, I can even dictate updates to briefs, slide decks, and CRM from my phone, all with consistent formatting. [music] For example, I'd ask, \"Hey ChatGPT, can you pull the account brief for our upcoming meeting [music] since I'm on the way and I can read it?\" I describe what should happen after the call, create the notes, draft the follow-up, propose [music] system updates, and identify next steps for the rest of my team. Finally, I review and approve customer-facing messages and important changes before anything sent. Before the meeting, ChatGPT gathers the account context and builds a prep brief for everyone on the internal invite. Now, you can spend less time managing the process and more time focused on your customer.",
-      "url": "https://www.youtube.com/watch?v=yQZgOSHHxjk",
-      "youtube_video_id": "yQZgOSHHxjk"
     },
     {
       "channel": {
@@ -1986,6 +1903,41 @@
     },
     {
       "channel": {
+        "title": "OpenAI",
+        "url": "https://www.youtube.com/@OpenAI",
+        "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "content_type": "tutorial",
+      "enrichment_status": "ready",
+      "evidence": [
+        {
+          "end_seconds": 75.02,
+          "field_name": "topic",
+          "quote": "Codex. Codex is",
+          "start_seconds": 74.06,
+          "timestamp_url": "https://www.youtube.com/watch?v=Is2NHa7awWY&t=74s",
+          "topic_slug": "model-releases"
+        }
+      ],
+      "primary_speaker": "OpenAI host",
+      "published_at": "2026-08-25T20:15:30Z",
+      "summary": "Build agent-ready sites with WebMCP focuses on Model Releases. Key transcript signal: We're releasing WebMCP support in Codex and what that lets you do is just add tools straight into your website and it lets Codex go ahead, pull it down and figure out exactly the capabilities that it needs to know about ",
+      "thumbnail_url": null,
+      "title": "Build agent-ready sites with WebMCP",
+      "topics": [
+        {
+          "label": "Model Releases",
+          "relevance_score": 0.735,
+          "slug": "model-releases"
+        }
+      ],
+      "transcript_status": "ready",
+      "transcript_text": "Codex has been able to use the web for a while now and watching it click around never gets old. But one thing that is annoying is that it's quite slow. We're releasing WebMCP support in Codex and what that lets you do is just add tools straight into your website and it lets Codex go ahead, pull it down and figure out exactly the capabilities that it needs to know about to make really great results on your website. I've put together a little demo called Codex Modeling Studio and it lets Codex open the website and just visually iterate on a 3D model that you can even 3D print after. It's able to set up shapes, take screenshots from different angles without interrupting your view and we can kind of collaborate Codex and I on the demo and I can give it notes as it works. It's a little demo just to show off the capabilities of something like pretty advanced that you can put in a website. You know, sites are not just for, you know, simple eShop pages you can actually have full 3D renderings and all kinds of things going on there and having WebMCP just really elevates the possibilities of what you can show and distribute to people. Adding WebMCP to your site is just as easy as asking Codex to do it. It can go ahead, figure out the spec and write the tools for you. What I recommend is that you spend some time dogfooding, iterating with Codex. Codex is your customer. It's the one using the tools, not the user. So you want to make sure that tools are discoverable to it and it knows exactly what it needs to do. You can spend some time trimming down your tool set making sure the descriptions are clear and it's able to get to where it needs to go as efficiently as possible. Codex will tell you if you ask it for feedback and I've even added a feedback tool in the demo here. So as Codex works it can flag errors and let me know when there's something that needs fixing. It's a very different world to build tools for a model versus having them be for a person but we're in this world now where models and people can collaborate on the same interface with different channels and it's a very different experience but it's a whole new world having Codex build tools for itself and being able to iterate on visuals alongside you as you see something different than it does. I'm just starting to scratch the surface of what's possible to build now that agents can interact with sites independently of you, and I'm really excited to see what you all build.",
+      "url": "https://www.youtube.com/watch?v=Is2NHa7awWY",
+      "youtube_video_id": "Is2NHa7awWY"
+    },
+    {
+      "channel": {
         "title": "Matthew Berman",
         "url": "https://www.youtube.com/@matthew_berman",
         "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
@@ -2018,41 +1970,6 @@
       "transcript_text": "So, right now I have it searching for a 45 lb tungsten cube. And if I actually open up the computer use right here, it's a mere $20,000. >> You should show off the ordering feature as well that it can order for you. >> Yeah, you should show off your credit card limit, too.",
       "url": "https://www.youtube.com/shorts/EsgXT6TGY9A",
       "youtube_video_id": "EsgXT6TGY9A"
-    },
-    {
-      "channel": {
-        "title": "OpenAI",
-        "url": "https://www.youtube.com/@OpenAI",
-        "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "content_type": "benchmark",
-      "enrichment_status": "ready",
-      "evidence": [
-        {
-          "end_seconds": 3.984,
-          "field_name": "topic",
-          "quote": "[music]",
-          "start_seconds": 1.964,
-          "timestamp_url": "https://www.youtube.com/watch?v=ceBruD6v5Bk&t=1s",
-          "topic_slug": "model-releases"
-        }
-      ],
-      "primary_speaker": "OpenAI host",
-      "published_at": "2026-08-24T13:55:45Z",
-      "summary": "You can just use your voice | ChatGPT Work focuses on Model Releases. Key transcript signal: [music] >> Mhm, okay.",
-      "thumbnail_url": null,
-      "title": "You can just use your voice | ChatGPT Work",
-      "topics": [
-        {
-          "label": "Model Releases",
-          "relevance_score": 0.704,
-          "slug": "model-releases"
-        }
-      ],
-      "transcript_status": "ready",
-      "transcript_text": "[music] >> Mhm, okay. >> [music] >> Version three is definitely closer. You grab the previous recipes from email and compare it with this version. It's just too spicy. Compile the notes. We need approval by Friday. Let's get cooking. [music] >> Let me compare those versions. Version three [music] added ancho, serrano, and charred tomato. The serrano is adding extra spice. >> [music]",
-      "url": "https://www.youtube.com/watch?v=ceBruD6v5Bk",
-      "youtube_video_id": "ceBruD6v5Bk"
     },
     {
       "channel": {
