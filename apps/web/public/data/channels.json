@@ -1,6 +1,43 @@
 {
   "channels": [
     {
+      "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
+      "handle": "@WesRoth",
+      "latest_video_at": "2026-08-26T09:18:51Z",
+      "thumbnail_url": null,
+      "title": "Wes Roth",
+      "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.813,
+          "slug": "agents"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.758,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Open Source Models",
+          "score": 0.728,
+          "slug": "open-source-models"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.717,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Local Inference",
+          "score": 0.707,
+          "slug": "local-inference"
+        }
+      ],
+      "url": "https://www.youtube.com/@WesRoth",
+      "video_count": 5,
+      "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
+    },
+    {
       "description": "Research-focused AI and machine learning explainers.",
       "handle": "@TwoMinutePapers",
       "latest_video_at": "2026-08-24T16:48:40Z",
@@ -36,43 +73,6 @@
       "url": "https://www.youtube.com/@TwoMinutePapers",
       "video_count": 5,
       "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
-    },
-    {
-      "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
-      "handle": "@WesRoth",
-      "latest_video_at": "2026-08-23T10:54:20Z",
-      "thumbnail_url": null,
-      "title": "Wes Roth",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.813,
-          "slug": "agents"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.799,
-          "slug": "open-source-models"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.758,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Local Inference",
-          "score": 0.709,
-          "slug": "local-inference"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.708,
-          "slug": "model-releases"
-        }
-      ],
-      "url": "https://www.youtube.com/@WesRoth",
-      "video_count": 5,
-      "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
     },
     {
       "description": "Fast software engineering and AI tooling explainers.",
@@ -218,28 +218,6 @@
       "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
     },
     {
-      "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
-      "handle": "@OpenAI",
-      "latest_video_at": "2026-08-25T20:17:22Z",
-      "thumbnail_url": null,
-      "title": "OpenAI",
-      "top_topics": [
-        {
-          "label": "Model Releases",
-          "score": 0.77,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Enterprise Adoption",
-          "score": 0.736,
-          "slug": "enterprise-adoption"
-        }
-      ],
-      "url": "https://www.youtube.com/@OpenAI",
-      "video_count": 3,
-      "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
-    },
-    {
       "description": "Long-form technical interviews with AI researchers and builders.",
       "handle": "@lexfridman",
       "latest_video_at": "2026-06-30T21:16:13Z",
@@ -270,6 +248,28 @@
       "url": "https://www.youtube.com/@lexfridman",
       "video_count": 3,
       "youtube_channel_id": "UCSHZKyawb77ixDdsGog4iWA"
+    },
+    {
+      "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
+      "handle": "@OpenAI",
+      "latest_video_at": "2026-08-25T20:17:22Z",
+      "thumbnail_url": null,
+      "title": "OpenAI",
+      "top_topics": [
+        {
+          "label": "Model Releases",
+          "score": 0.77,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Enterprise Adoption",
+          "score": 0.736,
+          "slug": "enterprise-adoption"
+        }
+      ],
+      "url": "https://www.youtube.com/@OpenAI",
+      "video_count": 2,
+      "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
     },
     {
       "description": "Research-heavy coverage of machine learning papers, model releases, and AI systems.",
@@ -331,6 +331,6 @@
       "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
     }
   ],
-  "generated_at": "2026-08-26T00:34:52Z",
+  "generated_at": "2026-08-26T12:33:46Z",
   "schema_version": "1.0"
 }

@@ -11,7 +11,7 @@
         },
         {
           "label": "Benchmarks",
-          "score": 0.675,
+          "score": 0.677,
           "slug": "benchmarks"
         },
         {
@@ -26,12 +26,12 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.764,
+          "score": 0.768,
           "slug": "model-releases"
         },
         {
           "label": "Open Source Models",
-          "score": 0.785,
+          "score": 0.75,
           "slug": "open-source-models"
         },
         {
@@ -118,7 +118,7 @@
         },
         {
           "label": "Benchmarks",
-          "score": 0.609,
+          "score": 0.61,
           "slug": "benchmarks"
         },
         {
@@ -128,17 +128,17 @@
         },
         {
           "label": "Local Inference",
-          "score": 0.711,
+          "score": 0.71,
           "slug": "local-inference"
         },
         {
           "label": "Model Releases",
-          "score": 0.746,
+          "score": 0.751,
           "slug": "model-releases"
         },
         {
           "label": "Open Source Models",
-          "score": 0.839,
+          "score": 0.803,
           "slug": "open-source-models"
         }
       ],
@@ -312,17 +312,17 @@
         },
         {
           "label": "Local Inference",
-          "score": 0.713,
+          "score": 0.712,
           "slug": "local-inference"
         },
         {
           "label": "Model Releases",
-          "score": 0.694,
+          "score": 0.699,
           "slug": "model-releases"
         },
         {
           "label": "Open Source Models",
-          "score": 0.823,
+          "score": 0.787,
           "slug": "open-source-models"
         },
         {
@@ -356,12 +356,12 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.705,
+          "score": 0.71,
           "slug": "model-releases"
         },
         {
           "label": "Open Source Models",
-          "score": 0.766,
+          "score": 0.73,
           "slug": "open-source-models"
         }
       ],
@@ -596,12 +596,12 @@
         },
         {
           "label": "Local Inference",
-          "score": 0.708,
+          "score": 0.706,
           "slug": "local-inference"
         },
         {
           "label": "Model Releases",
-          "score": 0.633,
+          "score": 0.637,
           "slug": "model-releases"
         }
       ],
@@ -706,12 +706,12 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.675,
+          "score": 0.679,
           "slug": "model-releases"
         },
         {
           "label": "Open Source Models",
-          "score": 0.784,
+          "score": 0.748,
           "slug": "open-source-models"
         }
       ],
@@ -735,7 +735,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.708,
+          "score": 0.713,
           "slug": "model-releases"
         }
       ],
@@ -994,7 +994,7 @@
       "shared_topics": [
         {
           "label": "Model Releases",
-          "score": 0.739,
+          "score": 0.744,
           "slug": "model-releases"
         }
       ],
@@ -1003,7 +1003,7 @@
       "target": "UCqcbQf6yw5KzRoDDcZ_wBSw"
     }
   ],
-  "generated_at": "2026-08-26T00:34:52Z",
+  "generated_at": "2026-08-26T12:33:46Z",
   "nodes": [
     {
       "id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
@@ -1043,9 +1043,9 @@
       "label": "Wes Roth",
       "top_topics": [
         "AI Agents",
-        "Open Source Models",
         "Coding Assistants",
-        "Local Inference"
+        "Open Source Models",
+        "Model Releases"
       ],
       "video_count": 5
     },
@@ -1089,7 +1089,7 @@
         "Model Releases",
         "Enterprise Adoption"
       ],
-      "video_count": 3
+      "video_count": 2
     },
     {
       "id": "UCZHmQk67mSJgfCCTn7xBfew",
