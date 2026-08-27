@@ -1,6 +1,43 @@
 {
   "channels": [
     {
+      "description": "Research-focused AI and machine learning explainers.",
+      "handle": "@TwoMinutePapers",
+      "latest_video_at": "2026-08-26T13:10:13Z",
+      "thumbnail_url": null,
+      "title": "Two Minute Papers",
+      "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.791,
+          "slug": "agents"
+        },
+        {
+          "label": "Multimodal",
+          "score": 0.748,
+          "slug": "multimodal"
+        },
+        {
+          "label": "Open Source Models",
+          "score": 0.745,
+          "slug": "open-source-models"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.68,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Safety and Alignment",
+          "score": 0.664,
+          "slug": "safety-alignment"
+        }
+      ],
+      "url": "https://www.youtube.com/@TwoMinutePapers",
+      "video_count": 5,
+      "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
+    },
+    {
       "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
       "handle": "@WesRoth",
       "latest_video_at": "2026-08-26T09:18:51Z",
@@ -36,43 +73,6 @@
       "url": "https://www.youtube.com/@WesRoth",
       "video_count": 5,
       "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
-    },
-    {
-      "description": "Research-focused AI and machine learning explainers.",
-      "handle": "@TwoMinutePapers",
-      "latest_video_at": "2026-08-24T16:48:40Z",
-      "thumbnail_url": null,
-      "title": "Two Minute Papers",
-      "top_topics": [
-        {
-          "label": "Open Source Models",
-          "score": 0.847,
-          "slug": "open-source-models"
-        },
-        {
-          "label": "Multimodal",
-          "score": 0.792,
-          "slug": "multimodal"
-        },
-        {
-          "label": "AI Agents",
-          "score": 0.791,
-          "slug": "agents"
-        },
-        {
-          "label": "Local Inference",
-          "score": 0.717,
-          "slug": "local-inference"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.68,
-          "slug": "model-releases"
-        }
-      ],
-      "url": "https://www.youtube.com/@TwoMinutePapers",
-      "video_count": 5,
-      "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
     },
     {
       "description": "Fast software engineering and AI tooling explainers.",
@@ -151,34 +151,34 @@
     {
       "description": "Technical courses and tutorials, including practical AI application development.",
       "handle": "@freecodecamp",
-      "latest_video_at": "2026-08-25T12:14:06Z",
+      "latest_video_at": "2026-08-26T15:08:03Z",
       "thumbnail_url": null,
       "title": "freeCodeCamp.org",
       "top_topics": [
         {
           "label": "AI Agents",
-          "score": 0.861,
+          "score": 0.838,
           "slug": "agents"
         },
         {
           "label": "Coding Assistants",
-          "score": 0.832,
+          "score": 0.825,
           "slug": "coding-assistants"
         },
         {
-          "label": "RAG",
-          "score": 0.792,
-          "slug": "rag"
-        },
-        {
           "label": "Open Source Models",
-          "score": 0.732,
+          "score": 0.798,
           "slug": "open-source-models"
         },
         {
           "label": "Model Releases",
           "score": 0.702,
           "slug": "model-releases"
+        },
+        {
+          "label": "Evaluation",
+          "score": 0.66,
+          "slug": "evals"
         }
       ],
       "url": "https://www.youtube.com/@freecodecamp",
@@ -186,68 +186,78 @@
       "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
     },
     {
+      "description": "Long-form technical interviews with AI researchers and builders.",
+      "handle": "@lexfridman",
+      "latest_video_at": "2026-08-26T21:44:41Z",
+      "thumbnail_url": null,
+      "title": "Lex Fridman",
+      "top_topics": [
+        {
+          "label": "Coding Assistants",
+          "score": 0.825,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "AI Agents",
+          "score": 0.808,
+          "slug": "agents"
+        },
+        {
+          "label": "Open Source Models",
+          "score": 0.796,
+          "slug": "open-source-models"
+        },
+        {
+          "label": "Multimodal",
+          "score": 0.72,
+          "slug": "multimodal"
+        },
+        {
+          "label": "RAG",
+          "score": 0.695,
+          "slug": "rag"
+        }
+      ],
+      "url": "https://www.youtube.com/@lexfridman",
+      "video_count": 3,
+      "youtube_channel_id": "UCSHZKyawb77ixDdsGog4iWA"
+    },
+    {
       "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
       "handle": "@matthew_berman",
-      "latest_video_at": "2026-08-25T08:01:35Z",
+      "latest_video_at": "2026-08-26T17:45:18Z",
       "thumbnail_url": null,
       "title": "Matthew Berman",
       "top_topics": [
+        {
+          "label": "Open Source Models",
+          "score": 0.881,
+          "slug": "open-source-models"
+        },
         {
           "label": "AI Agents",
           "score": 0.802,
           "slug": "agents"
         },
         {
-          "label": "Coding Assistants",
-          "score": 0.736,
-          "slug": "coding-assistants"
-        },
-        {
           "label": "Model Releases",
-          "score": 0.709,
+          "score": 0.756,
           "slug": "model-releases"
         },
         {
-          "label": "Multimodal",
-          "score": 0.686,
-          "slug": "multimodal"
-        }
-      ],
-      "url": "https://www.youtube.com/@matthew_berman",
-      "video_count": 4,
-      "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
-    },
-    {
-      "description": "Long-form technical interviews with AI researchers and builders.",
-      "handle": "@lexfridman",
-      "latest_video_at": "2026-06-30T21:16:13Z",
-      "thumbnail_url": null,
-      "title": "Lex Fridman",
-      "top_topics": [
-        {
           "label": "Coding Assistants",
-          "score": 0.77,
+          "score": 0.738,
           "slug": "coding-assistants"
         },
         {
-          "label": "AI Agents",
-          "score": 0.765,
-          "slug": "agents"
-        },
-        {
-          "label": "RAG",
-          "score": 0.695,
-          "slug": "rag"
-        },
-        {
-          "label": "Evaluation",
-          "score": 0.595,
-          "slug": "evals"
+          "label": "Fine Tuning",
+          "score": 0.717,
+          "slug": "fine-tuning"
         }
       ],
-      "url": "https://www.youtube.com/@lexfridman",
+      "url": "https://www.youtube.com/@matthew_berman",
       "video_count": 3,
-      "youtube_channel_id": "UCSHZKyawb77ixDdsGog4iWA"
+      "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
     },
     {
       "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
@@ -306,23 +316,23 @@
     {
       "description": "Developer commentary, tools, and AI coding workflow coverage.",
       "handle": "@ThePrimeagen",
-      "latest_video_at": "2026-08-23T13:00:14Z",
+      "latest_video_at": "2026-08-26T13:00:20Z",
       "thumbnail_url": null,
       "title": "ThePrimeTime",
       "top_topics": [
         {
           "label": "Coding Assistants",
-          "score": 0.78,
+          "score": 0.739,
           "slug": "coding-assistants"
         },
         {
-          "label": "Local Inference",
-          "score": 0.706,
-          "slug": "local-inference"
+          "label": "Evaluation",
+          "score": 0.597,
+          "slug": "evals"
         },
         {
           "label": "Model Releases",
-          "score": 0.558,
+          "score": 0.594,
           "slug": "model-releases"
         }
       ],
@@ -331,6 +341,6 @@
       "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
     }
   ],
-  "generated_at": "2026-08-26T12:33:46Z",
+  "generated_at": "2026-08-27T02:06:20Z",
   "schema_version": "1.0"
 }
