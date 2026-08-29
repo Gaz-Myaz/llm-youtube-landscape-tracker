@@ -1056,7 +1056,7 @@
       "target": "UCqcbQf6yw5KzRoDDcZ_wBSw"
     }
   ],
-  "generated_at": "2026-08-29T00:57:48Z",
+  "generated_at": "2026-08-29T12:36:43Z",
   "nodes": [
     {
       "id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
@@ -1114,16 +1114,6 @@
       "video_count": 4
     },
     {
-      "id": "UCXZCJLdBC09xxGZ6gcdrc6A",
-      "label": "OpenAI",
-      "top_topics": [
-        "Model Releases",
-        "Multimodal",
-        "Enterprise Adoption"
-      ],
-      "video_count": 4
-    },
-    {
       "id": "UCSHZKyawb77ixDdsGog4iWA",
       "label": "Lex Fridman",
       "top_topics": [
@@ -1142,6 +1132,16 @@
         "Open Source Models",
         "Coding Assistants",
         "Model Releases"
+      ],
+      "video_count": 3
+    },
+    {
+      "id": "UCXZCJLdBC09xxGZ6gcdrc6A",
+      "label": "OpenAI",
+      "top_topics": [
+        "Model Releases",
+        "Multimodal",
+        "Enterprise Adoption"
       ],
       "video_count": 3
     },

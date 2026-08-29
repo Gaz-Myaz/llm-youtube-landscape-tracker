@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T00:57:48Z",
+  "generated_at": "2026-08-29T12:36:43Z",
   "schema_version": "1.0",
   "videos": [
     {
@@ -368,9 +368,9 @@
       ],
       "primary_speaker": "Matthew Berman host",
       "published_at": "2026-08-28T19:19:33Z",
-      "summary": "The Hugging Face Incident Full Report focuses on AI Agents, Open Source Models, Coding Assistants. Key transcript signal: the new details that we have as to what exactly happened, how these AI agents broke out of their containment, accessed the internet, hacked another company, stole the answers to a test they were being tested on, all with",
+      "summary": "They sent each other notes... focuses on AI Agents, Open Source Models, Coding Assistants. Key transcript signal: the new details that we have as to what exactly happened, how these AI agents broke out of their containment, accessed the internet, hacked another company, stole the answers to a test they were being tested on, all with",
       "thumbnail_url": null,
-      "title": "The Hugging Face Incident Full Report",
+      "title": "They sent each other notes...",
       "topics": [
         {
           "label": "AI Agents",
@@ -1702,9 +1702,9 @@
       ],
       "primary_speaker": "Two Minute Papers host",
       "published_at": "2026-08-28T09:44:44Z",
-      "summary": "This Free AI Just Caught The Billion Dollar Giants focuses on Open Source Models, Model Releases. Key transcript signal: Incredible system and we are lucky to get so many of these open and free AI systems that it's easy to confuse which is which fellow scholars that is a very good problem to have and it seems that we can switch out paid cl",
+      "summary": "The Billion Dollar AI Gap Is Collapsing focuses on Open Source Models, Model Releases. Key transcript signal: Incredible system and we are lucky to get so many of these open and free AI systems that it's easy to confuse which is which fellow scholars that is a very good problem to have and it seems that we can switch out paid cl",
       "thumbnail_url": null,
-      "title": "This Free AI Just Caught The Billion Dollar Giants",
+      "title": "The Billion Dollar AI Gap Is Collapsing",
       "topics": [
         {
           "label": "Open Source Models",
@@ -2031,41 +2031,6 @@
       "transcript_text": "ChatGPT Work can use the tools you already use for plugins. But some tools don't have a plugin. Others live in a desktop app or a website where I've already signed in. And that's where Computer use and Chrome use come in. They're only available in the Work tab with a ChatGPT desktop app, not in regular ChatGPT, on the web, or on your phone. Computer use lets ChatGPT use desktop apps just like you do. You can click, type, and move between apps and windows. Chrome uses is the same thing in your browser, using websites where you're already signed in. And both can work in the background so you can keep using your computer. Before accessing an app or website, ChatGPT asks for permission. You can allow it once or let it remember your choice for next time. I'm using dictation here, so I can say what I need instead of typing it. Play my daylist on Spotify. This is a small task, but it makes the distinction clear. There isn't a special Spotify integration here. ChatGPT is using the desktop app I already use. On a Mac, it can handle a task like this in the background while I keep working. I can watch it, take over, or stop whenever I want. And if I want to show ChatGPT what I'm looking at, I can press Command Command to take an appshot It works with apps or websites and is like a screenshot with context. So ChatGPT can see and understand what I'm looking at without me having to explain everything. Chrome lets ChatGPT work in a browser I already use, including websites where I'm signed in. I'm going on vacation next month. Can you prepare a PTO request on Workday for September 14th and 15th? Check my calendar for conflicts and draft an out-of-office event for the same dates. Show me both drafts and stop before submitting the PTO request or create an encounter event. Workday doesn\u2019t have a plugin, so Chrome use handles the part that normally means opening tabs and filling out the form. And this is why Chrome use and plugins work well together. ChatGPT uses the browser for Workday because there's no plugin. And then it uses the Google Calendar plugin to check my schedule and prepare the out-of-office event. And it stops there. The request is filled out, the calendar event is ready. But submitting PTO and creating an event are real changes, so I get to review them first. This is how I use ChatGPT Work. I want ChatGPT to take on the tedious steps, and I still want the final decision when something affects my calendar, my team, or another system. For me, the simple rule is: Use a plugin when there's a direct route to the tool you need, choose computer use when the work lives on a desktop app and choose Chrome use when the work lives in a browser you're already signed into. A PTO request ready to submit, and an out-of-office event ready to create. That's ChatGPT Work.",
       "url": "https://www.youtube.com/watch?v=981SivztzOc",
       "youtube_video_id": "981SivztzOc"
-    },
-    {
-      "channel": {
-        "title": "OpenAI",
-        "url": "https://www.youtube.com/@OpenAI",
-        "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "content_type": "tutorial",
-      "enrichment_status": "ready",
-      "evidence": [
-        {
-          "end_seconds": 7.6,
-          "field_name": "topic",
-          "quote": "With ChatGPT Work, you can build an actual website.",
-          "start_seconds": 4.78,
-          "timestamp_url": "https://www.youtube.com/watch?v=0qK3KqvtRrg&t=4s",
-          "topic_slug": "model-releases"
-        }
-      ],
-      "primary_speaker": "OpenAI host",
-      "published_at": "2026-08-28T20:51:45Z",
-      "summary": "Build a Shareable Site focuses on Model Releases. Key transcript signal: With ChatGPT Work, you can build an actual website.",
-      "thumbnail_url": null,
-      "title": "Build a Shareable Site",
-      "topics": [
-        {
-          "label": "Model Releases",
-          "relevance_score": 0.735,
-          "slug": "model-releases"
-        }
-      ],
-      "transcript_status": "ready",
-      "transcript_text": "With ChatGPT Work, you can build an actual website. You tell it what you need, and it takes care of building it and putting it on the internet. I already used it to help book a trip with my friends, so I'm going to turn all of that into a site our group can actually use. I'm using the desktop app, but you can also create Sites in ChatGPT Work on the web \u2013 even from your phone. In this case, it already knows the trip details, and it can check our group chat for anything that's missing. I'm using dictation, so I can just say what I want the site to do. Use everything you already know about our group trip to plan a private, mobile-friendly site. Include everyone's arrival times, where we're staying, our reservations, a day-by-day itinerary, activities people can vote on, and a shared expenses tracker. Let me review it before sharing. This is a real website ChatGPT builds and hosts for you. It can save things like votes and expenses in a database, store uploaded files like receipts, and control who has access to the site. And the best part is, I don't need to write code or figure out how to put it online. I just tell ChatGPT Work what I want the site to do. Make the expenses tracker split shared costs automatically, show what each person owes, and let us add receipts. People can vote on what we do, add receipts, and see what they owe. If I want the site to work differently, I can just ask ChatGPT to change it. The site starts private. I can keep it that way, give specific people access, or share it publicly when that makes sense. If I share it with specific people, they can sign in with ChatGPT to see it. Alternatively, i can make the site public on the internet. The other case, I just ask ChatGPT to handle the sharing. Sites are useful for professional work, too. We just launched a new product, and I want one place where the team can see how it's actually performing. The dashboard pulls together the numbers, what the team knows, and what people are saying online. ChatGPT can check those sources each morning, update the site, and explain what changed or needs attention. Every weekday morning, use Databricks to check this launch's latest metrics, Slack to find campaign updates, and @Chrome to look for new public feedback. Update the dashboard, explain significant changes, and flag anything falling behind target. Everything I build shows up in the sites tab. I can open the trip site, check the launch dashboard, and grab the link whenever I need it. A trip everyone can plan together and a launch dashboard that stays up to date. That's ChatGPT Work.",
-      "url": "https://www.youtube.com/watch?v=0qK3KqvtRrg",
-      "youtube_video_id": "0qK3KqvtRrg"
     },
     {
       "channel": {

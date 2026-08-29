@@ -144,33 +144,6 @@
       "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
     },
     {
-      "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
-      "handle": "@OpenAI",
-      "latest_video_at": "2026-08-28T20:51:46Z",
-      "thumbnail_url": null,
-      "title": "OpenAI",
-      "top_topics": [
-        {
-          "label": "Model Releases",
-          "score": 0.805,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Multimodal",
-          "score": 0.74,
-          "slug": "multimodal"
-        },
-        {
-          "label": "Enterprise Adoption",
-          "score": 0.674,
-          "slug": "enterprise-adoption"
-        }
-      ],
-      "url": "https://www.youtube.com/@OpenAI",
-      "video_count": 4,
-      "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
-    },
-    {
       "description": "Technical courses and tutorials, including practical AI application development.",
       "handle": "@freecodecamp",
       "latest_video_at": "2026-08-26T15:08:03Z",
@@ -206,6 +179,33 @@
       "url": "https://www.youtube.com/@freecodecamp",
       "video_count": 4,
       "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
+    },
+    {
+      "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
+      "handle": "@OpenAI",
+      "latest_video_at": "2026-08-28T20:51:46Z",
+      "thumbnail_url": null,
+      "title": "OpenAI",
+      "top_topics": [
+        {
+          "label": "Model Releases",
+          "score": 0.805,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Multimodal",
+          "score": 0.74,
+          "slug": "multimodal"
+        },
+        {
+          "label": "Enterprise Adoption",
+          "score": 0.674,
+          "slug": "enterprise-adoption"
+        }
+      ],
+      "url": "https://www.youtube.com/@OpenAI",
+      "video_count": 3,
+      "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
     },
     {
       "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
@@ -336,6 +336,6 @@
       "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
     }
   ],
-  "generated_at": "2026-08-29T00:57:48Z",
+  "generated_at": "2026-08-29T12:36:43Z",
   "schema_version": "1.0"
 }
