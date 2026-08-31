@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T12:37:58Z",
+  "generated_at": "2026-08-31T01:10:18Z",
   "schema_version": "1.0",
   "videos": [
     {
@@ -368,9 +368,9 @@
       ],
       "primary_speaker": "Matthew Berman host",
       "published_at": "2026-08-28T19:19:33Z",
-      "summary": "They sent each other notes... focuses on AI Agents, Open Source Models, Coding Assistants. Key transcript signal: the new details that we have as to what exactly happened, how these AI agents broke out of their containment, accessed the internet, hacked another company, stole the answers to a test they were being tested on, all with",
+      "summary": "AI is escaping containment focuses on AI Agents, Open Source Models, Coding Assistants. Key transcript signal: the new details that we have as to what exactly happened, how these AI agents broke out of their containment, accessed the internet, hacked another company, stole the answers to a test they were being tested on, all with",
       "thumbnail_url": null,
-      "title": "They sent each other notes...",
+      "title": "AI is escaping containment",
       "topics": [
         {
           "label": "AI Agents",
