@@ -162,7 +162,7 @@
         },
         {
           "label": "Coding Assistants",
-          "score": 0.847,
+          "score": 0.82,
           "slug": "coding-assistants"
         },
         {
@@ -172,7 +172,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.76,
+          "score": 0.716,
           "slug": "model-releases"
         }
       ],
@@ -438,7 +438,7 @@
         },
         {
           "label": "Coding Assistants",
-          "score": 0.783,
+          "score": 0.756,
           "slug": "coding-assistants"
         },
         {
@@ -448,7 +448,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.726,
+          "score": 0.682,
           "slug": "model-releases"
         }
       ],
@@ -467,12 +467,12 @@
         },
         {
           "label": "Coding Assistants",
-          "score": 0.783,
+          "score": 0.756,
           "slug": "coding-assistants"
         },
         {
           "label": "Model Releases",
-          "score": 0.724,
+          "score": 0.68,
           "slug": "model-releases"
         }
       ],
@@ -544,12 +544,12 @@
         },
         {
           "label": "Coding Assistants",
-          "score": 0.827,
+          "score": 0.799,
           "slug": "coding-assistants"
         },
         {
           "label": "Model Releases",
-          "score": 0.718,
+          "score": 0.674,
           "slug": "model-releases"
         }
       ],
@@ -731,12 +731,12 @@
         },
         {
           "label": "Coding Assistants",
-          "score": 0.802,
+          "score": 0.775,
           "slug": "coding-assistants"
         },
         {
           "label": "Model Releases",
-          "score": 0.777,
+          "score": 0.734,
           "slug": "model-releases"
         }
       ],
@@ -875,7 +875,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.689,
+          "score": 0.645,
           "slug": "model-releases"
         }
       ],
@@ -894,7 +894,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.708,
+          "score": 0.663,
           "slug": "model-releases"
         }
       ],
@@ -970,7 +970,7 @@
         },
         {
           "label": "Coding Assistants",
-          "score": 0.827,
+          "score": 0.799,
           "slug": "coding-assistants"
         }
       ],
@@ -1022,7 +1022,7 @@
       "shared_topics": [
         {
           "label": "Model Releases",
-          "score": 0.77,
+          "score": 0.726,
           "slug": "model-releases"
         }
       ],
@@ -1101,7 +1101,7 @@
       "target": "UCqcbQf6yw5KzRoDDcZ_wBSw"
     }
   ],
-  "generated_at": "2026-08-31T12:43:17Z",
+  "generated_at": "2026-09-01T01:16:32Z",
   "nodes": [
     {
       "id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
@@ -1196,10 +1196,10 @@
       "top_topics": [
         "Coding Assistants",
         "AI Agents",
-        "Model Releases",
-        "Local Inference"
+        "Local Inference",
+        "Model Releases"
       ],
-      "video_count": 3
+      "video_count": 2
     },
     {
       "id": "UCZHmQk67mSJgfCCTn7xBfew",
