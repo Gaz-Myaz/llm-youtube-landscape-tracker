@@ -6,12 +6,12 @@
       "shared_topics": [
         {
           "label": "AI Agents",
-          "score": 0.831,
+          "score": 0.821,
           "slug": "agents"
         },
         {
           "label": "Benchmarks",
-          "score": 0.676,
+          "score": 0.677,
           "slug": "benchmarks"
         },
         {
@@ -113,12 +113,12 @@
       "shared_topics": [
         {
           "label": "AI Agents",
-          "score": 0.818,
+          "score": 0.794,
           "slug": "agents"
         },
         {
           "label": "Benchmarks",
-          "score": 0.682,
+          "score": 0.713,
           "slug": "benchmarks"
         },
         {
@@ -128,12 +128,12 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.805,
+          "score": 0.818,
           "slug": "model-releases"
         },
         {
           "label": "Open Source Models",
-          "score": 0.769,
+          "score": 0.75,
           "slug": "open-source-models"
         }
       ],
@@ -147,12 +147,12 @@
       "shared_topics": [
         {
           "label": "AI Agents",
-          "score": 0.833,
+          "score": 0.8,
           "slug": "agents"
         },
         {
           "label": "Benchmarks",
-          "score": 0.632,
+          "score": 0.663,
           "slug": "benchmarks"
         },
         {
@@ -162,12 +162,12 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.764,
+          "score": 0.776,
           "slug": "model-releases"
         },
         {
           "label": "Open Source Models",
-          "score": 0.79,
+          "score": 0.771,
           "slug": "open-source-models"
         }
       ],
@@ -220,12 +220,12 @@
       "shared_topics": [
         {
           "label": "AI Agents",
-          "score": 0.831,
+          "score": 0.822,
           "slug": "agents"
         },
         {
           "label": "Benchmarks",
-          "score": 0.652,
+          "score": 0.653,
           "slug": "benchmarks"
         },
         {
@@ -288,7 +288,7 @@
       "shared_topics": [
         {
           "label": "AI Agents",
-          "score": 0.829,
+          "score": 0.806,
           "slug": "agents"
         },
         {
@@ -298,12 +298,12 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.746,
+          "score": 0.759,
           "slug": "model-releases"
         },
         {
           "label": "Open Source Models",
-          "score": 0.782,
+          "score": 0.763,
           "slug": "open-source-models"
         }
       ],
@@ -317,12 +317,12 @@
       "shared_topics": [
         {
           "label": "AI Agents",
-          "score": 0.794,
+          "score": 0.77,
           "slug": "agents"
         },
         {
           "label": "Benchmarks",
-          "score": 0.612,
+          "score": 0.642,
           "slug": "benchmarks"
         },
         {
@@ -332,7 +332,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.719,
+          "score": 0.732,
           "slug": "model-releases"
         }
       ],
@@ -346,22 +346,22 @@
       "shared_topics": [
         {
           "label": "AI Agents",
-          "score": 0.803,
+          "score": 0.78,
           "slug": "agents"
         },
         {
           "label": "Benchmarks",
-          "score": 0.618,
+          "score": 0.648,
           "slug": "benchmarks"
         },
         {
           "label": "Model Releases",
-          "score": 0.73,
+          "score": 0.736,
           "slug": "model-releases"
         },
         {
           "label": "Open Source Models",
-          "score": 0.761,
+          "score": 0.742,
           "slug": "open-source-models"
         }
       ],
@@ -443,12 +443,12 @@
       "shared_topics": [
         {
           "label": "AI Agents",
-          "score": 0.819,
+          "score": 0.795,
           "slug": "agents"
         },
         {
           "label": "Benchmarks",
-          "score": 0.658,
+          "score": 0.689,
           "slug": "benchmarks"
         },
         {
@@ -458,12 +458,12 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.788,
+          "score": 0.8,
           "slug": "model-releases"
         },
         {
           "label": "Open Source Models",
-          "score": 0.75,
+          "score": 0.731,
           "slug": "open-source-models"
         }
       ],
@@ -487,7 +487,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.728,
+          "score": 0.72,
           "slug": "model-releases"
         },
         {
@@ -574,7 +574,7 @@
       "shared_topics": [
         {
           "label": "AI Agents",
-          "score": 0.842,
+          "score": 0.833,
           "slug": "agents"
         },
         {
@@ -613,7 +613,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.745,
+          "score": 0.738,
           "slug": "model-releases"
         },
         {
@@ -632,12 +632,12 @@
       "shared_topics": [
         {
           "label": "AI Agents",
-          "score": 0.806,
+          "score": 0.797,
           "slug": "agents"
         },
         {
           "label": "Benchmarks",
-          "score": 0.606,
+          "score": 0.607,
           "slug": "benchmarks"
         },
         {
@@ -690,17 +690,17 @@
       "shared_topics": [
         {
           "label": "AI Agents",
-          "score": 0.816,
+          "score": 0.806,
           "slug": "agents"
         },
         {
           "label": "Benchmarks",
-          "score": 0.612,
+          "score": 0.613,
           "slug": "benchmarks"
         },
         {
           "label": "Model Releases",
-          "score": 0.704,
+          "score": 0.696,
           "slug": "model-releases"
         },
         {
@@ -719,7 +719,7 @@
       "shared_topics": [
         {
           "label": "Model Releases",
-          "score": 0.656,
+          "score": 0.649,
           "slug": "model-releases"
         },
         {
@@ -777,7 +777,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.686,
+          "score": 0.678,
           "slug": "model-releases"
         },
         {
@@ -806,7 +806,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.659,
+          "score": 0.651,
           "slug": "model-releases"
         }
       ],
@@ -863,7 +863,7 @@
       "shared_topics": [
         {
           "label": "AI Agents",
-          "score": 0.815,
+          "score": 0.791,
           "slug": "agents"
         },
         {
@@ -873,7 +873,7 @@
         },
         {
           "label": "Open Source Models",
-          "score": 0.782,
+          "score": 0.762,
           "slug": "open-source-models"
         }
       ],
@@ -935,7 +935,7 @@
       "shared_topics": [
         {
           "label": "Model Releases",
-          "score": 0.738,
+          "score": 0.73,
           "slug": "model-releases"
         },
         {
@@ -954,7 +954,7 @@
       "shared_topics": [
         {
           "label": "AI Agents",
-          "score": 0.827,
+          "score": 0.818,
           "slug": "agents"
         },
         {
@@ -997,12 +997,12 @@
       "shared_topics": [
         {
           "label": "Model Releases",
-          "score": 0.716,
+          "score": 0.729,
           "slug": "model-releases"
         },
         {
           "label": "Open Source Models",
-          "score": 0.768,
+          "score": 0.748,
           "slug": "open-source-models"
         }
       ],
@@ -1101,7 +1101,7 @@
       "shared_topics": [
         {
           "label": "Model Releases",
-          "score": 0.798,
+          "score": 0.81,
           "slug": "model-releases"
         }
       ],
@@ -1166,7 +1166,7 @@
       "target": "UCqcbQf6yw5KzRoDDcZ_wBSw"
     }
   ],
-  "generated_at": "2026-09-03T01:06:56Z",
+  "generated_at": "2026-09-03T12:43:36Z",
   "nodes": [
     {
       "id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
@@ -1224,13 +1224,12 @@
       "video_count": 4
     },
     {
-      "id": "UCawZsQWqfGSbCI5yjkdVkTA",
-      "label": "Matthew Berman",
+      "id": "UCXZCJLdBC09xxGZ6gcdrc6A",
+      "label": "OpenAI",
       "top_topics": [
-        "Coding Assistants",
-        "AI Agents",
         "Model Releases",
-        "Open Source Models"
+        "Multimodal",
+        "Enterprise Adoption"
       ],
       "video_count": 4
     },
@@ -1257,12 +1256,13 @@
       "video_count": 3
     },
     {
-      "id": "UCXZCJLdBC09xxGZ6gcdrc6A",
-      "label": "OpenAI",
+      "id": "UCawZsQWqfGSbCI5yjkdVkTA",
+      "label": "Matthew Berman",
       "top_topics": [
+        "Coding Assistants",
         "Model Releases",
-        "Multimodal",
-        "Enterprise Adoption"
+        "AI Agents",
+        "Open Source Models"
       ],
       "video_count": 3
     },
