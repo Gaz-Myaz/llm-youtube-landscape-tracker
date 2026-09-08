@@ -1,6 +1,43 @@
 {
   "channels": [
     {
+      "description": "Research-focused AI and machine learning explainers.",
+      "handle": "@TwoMinutePapers",
+      "latest_video_at": "2026-09-08T08:24:27Z",
+      "thumbnail_url": null,
+      "title": "Two Minute Papers",
+      "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.778,
+          "slug": "agents"
+        },
+        {
+          "label": "Open Source Models",
+          "score": 0.755,
+          "slug": "open-source-models"
+        },
+        {
+          "label": "Multimodal",
+          "score": 0.748,
+          "slug": "multimodal"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.677,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Benchmarks",
+          "score": 0.598,
+          "slug": "benchmarks"
+        }
+      ],
+      "url": "https://www.youtube.com/@TwoMinutePapers",
+      "video_count": 5,
+      "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
+    },
+    {
       "description": "Fast software engineering and AI tooling explainers.",
       "handle": "@Fireship",
       "latest_video_at": "2026-09-07T17:24:51Z",
@@ -134,41 +171,41 @@
       "youtube_channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw"
     },
     {
-      "description": "Research-focused AI and machine learning explainers.",
-      "handle": "@TwoMinutePapers",
-      "latest_video_at": "2026-09-03T08:23:37Z",
+      "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
+      "handle": "@WesRoth",
+      "latest_video_at": "2026-09-07T08:45:18Z",
       "thumbnail_url": null,
-      "title": "Two Minute Papers",
+      "title": "Wes Roth",
       "top_topics": [
         {
           "label": "AI Agents",
-          "score": 0.785,
+          "score": 0.773,
           "slug": "agents"
         },
         {
-          "label": "Open Source Models",
-          "score": 0.755,
-          "slug": "open-source-models"
-        },
-        {
-          "label": "Multimodal",
-          "score": 0.748,
-          "slug": "multimodal"
-        },
-        {
           "label": "Model Releases",
-          "score": 0.655,
+          "score": 0.701,
           "slug": "model-releases"
         },
         {
+          "label": "Multimodal",
+          "score": 0.687,
+          "slug": "multimodal"
+        },
+        {
+          "label": "Safety and Alignment",
+          "score": 0.677,
+          "slug": "safety-alignment"
+        },
+        {
           "label": "Benchmarks",
-          "score": 0.598,
+          "score": 0.627,
           "slug": "benchmarks"
         }
       ],
-      "url": "https://www.youtube.com/@TwoMinutePapers",
-      "video_count": 5,
-      "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
+      "url": "https://www.youtube.com/@WesRoth",
+      "video_count": 4,
+      "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
     },
     {
       "description": "Technical courses and tutorials, including practical AI application development.",
@@ -208,43 +245,6 @@
       "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
     },
     {
-      "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
-      "handle": "@WesRoth",
-      "latest_video_at": "2026-09-05T22:17:45Z",
-      "thumbnail_url": null,
-      "title": "Wes Roth",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.773,
-          "slug": "agents"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.701,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Multimodal",
-          "score": 0.687,
-          "slug": "multimodal"
-        },
-        {
-          "label": "Safety and Alignment",
-          "score": 0.663,
-          "slug": "safety-alignment"
-        },
-        {
-          "label": "Benchmarks",
-          "score": 0.627,
-          "slug": "benchmarks"
-        }
-      ],
-      "url": "https://www.youtube.com/@WesRoth",
-      "video_count": 3,
-      "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
-    },
-    {
       "description": "Long-form technical interviews with AI researchers and builders.",
       "handle": "@lexfridman",
       "latest_video_at": "2026-08-26T21:44:41Z",
@@ -282,6 +282,43 @@
       "youtube_channel_id": "UCSHZKyawb77ixDdsGog4iWA"
     },
     {
+      "description": "Developer commentary, tools, and AI coding workflow coverage.",
+      "handle": "@ThePrimeagen",
+      "latest_video_at": "2026-09-07T19:45:59Z",
+      "thumbnail_url": null,
+      "title": "ThePrimeTime",
+      "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.766,
+          "slug": "agents"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.741,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Local Inference",
+          "score": 0.706,
+          "slug": "local-inference"
+        },
+        {
+          "label": "RAG",
+          "score": 0.696,
+          "slug": "rag"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.674,
+          "slug": "model-releases"
+        }
+      ],
+      "url": "https://www.youtube.com/@ThePrimeagen",
+      "video_count": 2,
+      "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
+    },
+    {
       "description": "Research-heavy coverage of machine learning papers, model releases, and AI systems.",
       "handle": "@YannicKilcher",
       "latest_video_at": "2026-03-06T22:07:33Z",
@@ -314,6 +351,6 @@
       "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
     }
   ],
-  "generated_at": "2026-09-08T01:06:23Z",
+  "generated_at": "2026-09-08T12:42:42Z",
   "schema_version": "1.0"
 }
