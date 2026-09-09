@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T12:42:42Z",
+  "generated_at": "2026-09-09T01:05:13Z",
   "schema_version": "1.0",
   "videos": [
     {
@@ -989,6 +989,54 @@
     },
     {
       "channel": {
+        "title": "OpenAI",
+        "url": "https://www.youtube.com/@OpenAI",
+        "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "content_type": "demo",
+      "enrichment_status": "ready",
+      "evidence": [
+        {
+          "end_seconds": 2.7800000000000002,
+          "field_name": "topic",
+          "quote": "new image generation models.",
+          "start_seconds": 1.36,
+          "timestamp_url": "https://www.youtube.com/watch?v=A7MSwdXj86k&t=1s",
+          "topic_slug": "multimodal"
+        },
+        {
+          "end_seconds": 57.900000000000006,
+          "field_name": "topic",
+          "quote": "ChatGPT, and Codex.",
+          "start_seconds": 56.56,
+          "timestamp_url": "https://www.youtube.com/watch?v=A7MSwdXj86k&t=56s",
+          "topic_slug": "model-releases"
+        }
+      ],
+      "primary_speaker": "OpenAI host",
+      "published_at": "2026-09-08T19:11:55Z",
+      "summary": "Introducing GPT-Image-2.5 in the API focuses on Multimodal, Model Releases. Key transcript signal: Today, we're launching two new image generation models.",
+      "thumbnail_url": null,
+      "title": "Introducing GPT-Image-2.5 in the API",
+      "topics": [
+        {
+          "label": "Multimodal",
+          "relevance_score": 0.865,
+          "slug": "multimodal"
+        },
+        {
+          "label": "Model Releases",
+          "relevance_score": 0.805,
+          "slug": "model-releases"
+        }
+      ],
+      "transcript_status": "ready",
+      "transcript_text": "Today, we're launching two new image generation models. GPT Image 2.5 Sunburst and Flare. Sunburst is our most capable model for image generation. It brings significant advances in visual fidelity, including sharper detail rendering, more natural lighting, and richer textures. With Sunburst, you can bring high-quality visual ideas to life with stronger style and detail. You can also refine an idea over multiple edits, like exploring different setups for your dream living room, with better preservation of the details you want to keep. This model follows detailed instructions more closely, down to which hand someone writes with. The second model, Flare, is our fastest image generation model to date. It's over 50% faster than GPT Image 2, while delivering equal quality, so you can explore more ideas faster. Both models handle transparent backgrounds, so you can create intricate assets for everything, from infographics to games. So, use Sunburst for your most advanced image generation workflows, and Flare for quickly generating quality images. They're both available now in the API, ChatGPT, and Codex.",
+      "url": "https://www.youtube.com/watch?v=A7MSwdXj86k",
+      "youtube_video_id": "A7MSwdXj86k"
+    },
+    {
+      "channel": {
         "title": "Fireship",
         "url": "https://www.youtube.com/@Fireship",
         "youtube_channel_id": "UCsBjURrPoezykLs9EqgamOA"
@@ -1487,54 +1535,6 @@
     },
     {
       "channel": {
-        "title": "OpenAI",
-        "url": "https://www.youtube.com/@OpenAI",
-        "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "content_type": "tutorial",
-      "enrichment_status": "ready",
-      "evidence": [
-        {
-          "end_seconds": 155.76000000000002,
-          "field_name": "topic",
-          "quote": "of a task while a tool call runs.",
-          "start_seconds": 154.02,
-          "timestamp_url": "https://www.youtube.com/watch?v=bOC3DisEOfg&t=154s",
-          "topic_slug": "agents"
-        },
-        {
-          "end_seconds": 6.3999999999999995,
-          "field_name": "topic",
-          "quote": "GPT-6 Astra is here.",
-          "start_seconds": 4.52,
-          "timestamp_url": "https://www.youtube.com/watch?v=bOC3DisEOfg&t=4s",
-          "topic_slug": "model-releases"
-        }
-      ],
-      "primary_speaker": "OpenAI host",
-      "published_at": "2026-09-04T20:22:31Z",
-      "summary": "Introducing GPT-6 Astra for developers focuses on AI Agents, Model Releases. Key transcript signal: With asynchronous tool calling, the model can keep working on other parts of a task while a tool call runs.",
-      "thumbnail_url": null,
-      "title": "Introducing GPT-6 Astra for developers",
-      "topics": [
-        {
-          "label": "AI Agents",
-          "relevance_score": 0.781,
-          "slug": "agents"
-        },
-        {
-          "label": "Model Releases",
-          "relevance_score": 0.74,
-          "slug": "model-releases"
-        }
-      ],
-      "transcript_status": "ready",
-      "transcript_text": "GPT-6 Astra is here. It's our latest frontier model and the best model in the world for tasks where raw intelligence matters. For my own projects, Astra feels like working with an experienced collaborator. I'm able to hand it bigger, less well-defined tasks with minimal handholding. And whether you're coding, writing, designing, or just working on things that require a little bit more intellectual horsepower, you'll find that Astra delivers great results, often on the first attempt. So let's talk about the model's new capabilities, starting with computer use. You might already be familiar with computer use. It's a capability that lets a model use a computer or browser like you or I would. With Astra, the model is more accurate and more efficient when using a computer. It's easiest to show this in the ChatGPT app, but Astra's improved skills are also available in the API. I'm going to have it illustrate where I'm standing. I'll take a photo, then send it to Codex to paint. Use Krita to paint this picture in the style of Van Gogh and add the Golden Gate Bridge in the background. Astra has to keep track of the picture I asked for while working through the app's controls. It's using screenshots to see what's happening while keeping the app in the background, meaning I can stay focused on other work. The model is able to paint a hopefully recognizable picture far faster and far better than I could have done. The same ability can help with the workflows developers use every day, whether you're filling out forms for an API key or performing QA on a mobile app. When it comes to creativity and knowledge work, we've also seen Astra produce significantly better outputs than previous models. We took several prompts of demos, games, and tools we've built with previous models and rebuilt them at different reasoning levels. Across the board, Astra has more attention to detail, better understanding of the user's prompt, and can build more sophisticated outputs. In particular, it excels at building 3D models. I've seen it make incredible renderings of gardens, shipyards, animals, cityscapes, even Dyson spheres. And in my own experience, I've found Astra's outputs, from slideshows to essays, significantly easier to read and work with than other models I've tried. Its personality feels more natural to me, especially in the back and forth when I'm giving it feedback. As you might expect, Astra excels at long-running tasks. And as you give models longer, more involved pieces of work, you need better ways to work with them. That's why we're bringing asynchronous tool calling and steering to the Responses API. First, async tools. With asynchronous tool calling, the model can keep working on other parts of a task while a tool call runs. When the results are available, it can use that information to continue. Steering lets you give the model new context or change its direction while a response is still in progress. If you view steering in Codex, this should feel familiar. Let's go ahead and give the model a task and then change what we're asking for while it's working. You can see it pick up my new instruction and adjust its next steps while the tool it already started continues running. I can change the direction without having to cancel the running tool or start the task over. And I get the final result with the new context incorporated. Astra is now available in ChatGPT, Codex, and the API. Try it on your most challenging tasks and take a close look at the results. Happy building.",
-      "url": "https://www.youtube.com/watch?v=bOC3DisEOfg",
-      "youtube_video_id": "bOC3DisEOfg"
-    },
-    {
-      "channel": {
         "title": "Two Minute Papers",
         "url": "https://www.youtube.com/@TwoMinutePapers",
         "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
@@ -1945,6 +1945,76 @@
     },
     {
       "channel": {
+        "title": "OpenAI",
+        "url": "https://www.youtube.com/@OpenAI",
+        "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "content_type": "unknown",
+      "enrichment_status": "ready",
+      "evidence": [
+        {
+          "end_seconds": 5.949,
+          "field_name": "topic",
+          "quote": "[music]",
+          "start_seconds": 3.929,
+          "timestamp_url": "https://www.youtube.com/watch?v=-VukmrOT1eE&t=3s",
+          "topic_slug": "model-releases"
+        }
+      ],
+      "primary_speaker": "OpenAI host",
+      "published_at": "2026-09-08T18:48:03Z",
+      "summary": "Templates with ChatGPT Images 2.5 focuses on Model Releases. Key transcript signal: [music] [music] Hey, [music] hey, hey.",
+      "thumbnail_url": null,
+      "title": "Templates with ChatGPT Images 2.5",
+      "topics": [
+        {
+          "label": "Model Releases",
+          "relevance_score": 0.735,
+          "slug": "model-releases"
+        }
+      ],
+      "transcript_status": "ready",
+      "transcript_text": "[music] [music] Hey, [music] hey, hey. >> [music]",
+      "url": "https://www.youtube.com/watch?v=-VukmrOT1eE",
+      "youtube_video_id": "-VukmrOT1eE"
+    },
+    {
+      "channel": {
+        "title": "OpenAI",
+        "url": "https://www.youtube.com/@OpenAI",
+        "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "content_type": "unknown",
+      "enrichment_status": "ready",
+      "evidence": [
+        {
+          "end_seconds": 9.72,
+          "field_name": "topic",
+          "quote": "[music]",
+          "start_seconds": 5.894,
+          "timestamp_url": "https://www.youtube.com/watch?v=6l7ble9P74o&t=5s",
+          "topic_slug": "model-releases"
+        }
+      ],
+      "primary_speaker": "OpenAI host",
+      "published_at": "2026-09-08T18:44:08Z",
+      "summary": "Introducing ChatGPT Images 2.5 focuses on Model Releases. Key transcript signal: [music] Everybody [music] Yeah.",
+      "thumbnail_url": null,
+      "title": "Introducing ChatGPT Images 2.5",
+      "topics": [
+        {
+          "label": "Model Releases",
+          "relevance_score": 0.735,
+          "slug": "model-releases"
+        }
+      ],
+      "transcript_status": "ready",
+      "transcript_text": "[music] Everybody [music] Yeah. Yeah. Yeah. Yeah. Yeah. [music] Yeah. Yeah. Yeah. [music] [music] >> [music] [music] >> We're going to go back and >> [music]",
+      "url": "https://www.youtube.com/watch?v=6l7ble9P74o",
+      "youtube_video_id": "6l7ble9P74o"
+    },
+    {
+      "channel": {
         "title": "Wes Roth",
         "url": "https://www.youtube.com/@WesRoth",
         "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
@@ -2095,111 +2165,6 @@
       "transcript_text": "Best model I have ever used. Here are things that you should do with it right now. Create incredible games. With a single prompt, you can create a fun playable game. Here's a Fall Guys clone. Look at this. Look how good it is. Next is browser control. Have it do real work for you. Here it is. Quickly researching and comparing different rare Pok\u00e9mon cards. It is much better than other models at writing. It doesn't have as much of that AI smell. Of course, it has some, but it's better. Go check it out.",
       "url": "https://www.youtube.com/shorts/KU6DcnEC93A",
       "youtube_video_id": "KU6DcnEC93A"
-    },
-    {
-      "channel": {
-        "title": "OpenAI",
-        "url": "https://www.youtube.com/@OpenAI",
-        "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "content_type": "research",
-      "enrichment_status": "ready",
-      "evidence": [
-        {
-          "end_seconds": 33.6,
-          "field_name": "topic",
-          "quote": "threw them at the new model Astra.",
-          "start_seconds": 31.5,
-          "timestamp_url": "https://www.youtube.com/watch?v=B-jjnydci50&t=31s",
-          "topic_slug": "model-releases"
-        }
-      ],
-      "primary_speaker": "OpenAI host",
-      "published_at": "2026-09-05T00:11:56Z",
-      "summary": "GPT-6 Astra with Ben Davis focuses on Model Releases. Key transcript signal: I took some of the hardest problems from that challenge and I threw them at the new model Astra.",
-      "thumbnail_url": null,
-      "title": "GPT-6 Astra with Ben Davis",
-      "topics": [
-        {
-          "label": "Model Releases",
-          "relevance_score": 0.631,
-          "slug": "model-releases"
-        }
-      ],
-      "transcript_status": "ready",
-      "transcript_text": "I'm very, very impressed. It was able to solve one that we did not get, actually three that we did not get, as well as one puzzle that no one else in the world has solved. So it was the first one to get it. That's what I was very impressed. So you spent some time testing Astra. Yes. Like what was the first moment where it really hit you how different this model was? I went to a big conference called DEF CON, where there are these big puzzle challenges that me and my friends spent days trying to solve. I took some of the hardest problems from that challenge and I threw them at the new model Astra. It solved this one big puzzle, which was like a bunch of Rubik's cubes that were arranged in this weird three by four pattern that you had to deduce a message from. It was able to get that three out of three times. The one thing it did need is it got the official hint from the puzzle creators, but it's the same thing we got when we were doing it. But once you gave it that, it got the actual solution. Same thing with this other puzzle, which was this like giant dress with tons of multicolored beads all over it that you had to again find a message from. This was a task that required it to be able to actually like see and understand what's happening across tons of disparate images that were not like, we didn't really take the best pictures of this thing. Yeah. But even so, it was able to figure it out. Ultimately got the answer once we got the main hint from the maintainers. It did it. So the model comes up with a theory. It sends off another agent to go test it, sees how it works. Then the research branches. So it has basically 10 slots that can fill with other agents to go do things. So these are all running in parallel. Main agent is just kind of orchestrating these together. If you're just starting from here and then you have to get a word here, there's no verification in between these two. So it's very easy for the model to get lost on bad assumptions and bad paths and just disappear into something that won't work. I found this model is much better at keeping itself on track, which is a lot of the reason why it's been able to keep on task and solve these problems. And then the other side of this is really, really think that the sub-agent workflows, the swarm workflows, all of these like putting many instances of this agent together to work on much bigger, more complex problems that you probably feel like are currently possible. It is now possible and it's worth trying.",
-      "url": "https://www.youtube.com/watch?v=B-jjnydci50",
-      "youtube_video_id": "B-jjnydci50"
-    },
-    {
-      "channel": {
-        "title": "OpenAI",
-        "url": "https://www.youtube.com/@OpenAI",
-        "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "content_type": "tutorial",
-      "enrichment_status": "ready",
-      "evidence": [
-        {
-          "end_seconds": 2.7640000000000002,
-          "field_name": "topic",
-          "quote": "I am extremely impressed,",
-          "start_seconds": 0.1,
-          "timestamp_url": null,
-          "topic_slug": "model-releases"
-        }
-      ],
-      "primary_speaker": "OpenAI host",
-      "published_at": "2026-09-06T20:44:02Z",
-      "summary": "GPT-6 Astra cracked a DEF CON puzzle focuses on Model Releases. Key transcript signal: I am extremely impressed, truly.",
-      "thumbnail_url": null,
-      "title": "GPT-6 Astra cracked a DEF CON puzzle",
-      "topics": [
-        {
-          "label": "Model Releases",
-          "relevance_score": 0.599,
-          "slug": "model-releases"
-        }
-      ],
-      "transcript_status": "ready",
-      "transcript_text": "I am extremely impressed, truly.  I went to a large conference called \"DEF CON\", where there are major puzzle challenges that my friends and I spent days trying to solve.  I took some of the most difficult problems from that challenge and put them to the new \"Astra\" model, and it managed to solve two of them that I did not expect it to succeed in.  This big puzzle, which was a set of Rubik's Cubes arranged in a strange pattern (3 by 4), was solved. You had to deduce a message from it.  He managed to solve it three times out of three.    The only thing I needed was to get the official hint from the creators of the puzzle, which was the same hint we got back then.  But once I presented it to him, he came up with the actual solution. He is extremely intelligent.  He is very skilled at handling highly complex tasks.    The model proposes a theory, then sends another agent to test it and see how it works.  Therefore, he has approximately 10 paths that he can fill with other agents to perform tasks. These tasks all work in parallel.    The main agent simply coordinates these operations together.  If you give it explicit instructions on how to work and how to coordinate, it delivers exceptional performance.",
-      "url": "https://www.youtube.com/shorts/J2nV3d_A1f0",
-      "youtube_video_id": "J2nV3d_A1f0"
-    },
-    {
-      "channel": {
-        "title": "OpenAI",
-        "url": "https://www.youtube.com/@OpenAI",
-        "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "content_type": "opinion",
-      "enrichment_status": "ready",
-      "evidence": [
-        {
-          "end_seconds": 109.25999999999999,
-          "field_name": "topic",
-          "quote": "I know, GPT 5.2 kind of time.",
-          "start_seconds": 106.82,
-          "timestamp_url": "https://www.youtube.com/watch?v=A4BUbpKdenc&t=106s",
-          "topic_slug": "model-releases"
-        }
-      ],
-      "primary_speaker": "OpenAI host",
-      "published_at": "2026-09-06T17:53:59Z",
-      "summary": "GPT-6 Astra with Peter Gostev focuses on Model Releases. Key transcript signal: So the one problem I keep trying to solve is I've got a little app that I've vibe-coded probably since the days of, I know, GPT 5.2 kind of time.",
-      "thumbnail_url": null,
-      "title": "GPT-6 Astra with Peter Gostev",
-      "topics": [
-        {
-          "label": "Model Releases",
-          "relevance_score": 0.6,
-          "slug": "model-releases"
-        }
-      ],
-      "transcript_status": "ready",
-      "transcript_text": "I value this so much that I don't need to babysit it because I only have so much space in my head and I cannot think of every single task. How did you think about what to evaluate Astra on? If I give it like a medium difficulty test, any model can do it or so many models can do it now. So I have to think of what's the hardest thing I can push it on and make it work for as long as possible and really explore the space. Yeah, so what I've been trying to do, and I really like this kind of 3D visual tasks, but I like them because I can visually track how capabilities of the models improve. And now what I've built here is a voxel 3D representation of historic London, which goes across the different eras, medieval London, Tudor London, and it transforms all within the same map. But here I pretty much gave it maybe a couple more prompts in terms of I wanted to go overhead so it looks like GTA 2. I would say with Sol, one thing that felt a little bit off is that anytime you give it some kind of criticism or feedback or something like that, it would instantly say, oh yes, that's great. I actually thought exactly the same thing. You're so right. In here, I would say with Astra, it really felt kind of a shift. I didn't feel anything annoying about the communication, but it felt much more natural, like a human would push back or accept that it made a mistake. So the one problem I keep trying to solve is I've got a little app that I've vibe-coded probably since the days of, I know, GPT 5.2 kind of time. So the code is kind of bad and it's accumulating over time. And I think I've got probably like 150,000 lines of code in it. And I keep trying to migrate it or improve it. With 5.6, it worked, but I had to do a lot of debugging later to align it. But with Astra, it pretty much just worked and I didn't need to do anything. So for me, that jump in reliability that I don't need to babysit it with every single step, that's a big deal. So what are you bound by now? So CPU is surprisingly the big one. I had to move things off of my laptop to a Linux box. So it works remotely, it's plugged in, battery doesn't die. So that's the big deal now. Yeah, it really feels like the model's grown up.",
-      "url": "https://www.youtube.com/watch?v=A4BUbpKdenc",
-      "youtube_video_id": "A4BUbpKdenc"
     },
     {
       "channel": {
