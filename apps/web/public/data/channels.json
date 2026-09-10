@@ -1,41 +1,36 @@
 {
   "channels": [
     {
-      "description": "Research-focused AI and machine learning explainers.",
-      "handle": "@TwoMinutePapers",
-      "latest_video_at": "2026-09-08T08:24:27Z",
+      "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
+      "handle": "@matthew_berman",
+      "latest_video_at": "2026-09-09T18:18:37Z",
       "thumbnail_url": null,
-      "title": "Two Minute Papers",
+      "title": "Matthew Berman",
       "top_topics": [
         {
-          "label": "AI Agents",
-          "score": 0.778,
-          "slug": "agents"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.755,
-          "slug": "open-source-models"
-        },
-        {
-          "label": "Multimodal",
-          "score": 0.748,
-          "slug": "multimodal"
-        },
-        {
           "label": "Model Releases",
-          "score": 0.677,
+          "score": 0.805,
           "slug": "model-releases"
         },
         {
+          "label": "AI Agents",
+          "score": 0.775,
+          "slug": "agents"
+        },
+        {
+          "label": "Evaluation",
+          "score": 0.642,
+          "slug": "evals"
+        },
+        {
           "label": "Benchmarks",
-          "score": 0.598,
+          "score": 0.593,
           "slug": "benchmarks"
         }
       ],
-      "url": "https://www.youtube.com/@TwoMinutePapers",
+      "url": "https://www.youtube.com/@matthew_berman",
       "video_count": 5,
-      "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
+      "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
     },
     {
       "description": "Accessible analysis of frontier models, agents, local inference, and open-weight AI.",
@@ -75,36 +70,100 @@
       "youtube_channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw"
     },
     {
-      "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
-      "handle": "@matthew_berman",
-      "latest_video_at": "2026-09-09T18:18:37Z",
+      "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
+      "handle": "@OpenAI",
+      "latest_video_at": "2026-09-09T21:54:53Z",
       "thumbnail_url": null,
-      "title": "Matthew Berman",
+      "title": "OpenAI",
       "top_topics": [
+        {
+          "label": "Multimodal",
+          "score": 0.865,
+          "slug": "multimodal"
+        },
         {
           "label": "Model Releases",
           "score": 0.805,
           "slug": "model-releases"
+        }
+      ],
+      "url": "https://www.youtube.com/@OpenAI",
+      "video_count": 4,
+      "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
+    },
+    {
+      "description": "Technical courses and tutorials, including practical AI application development.",
+      "handle": "@freecodecamp",
+      "latest_video_at": "2026-09-09T13:46:04Z",
+      "thumbnail_url": null,
+      "title": "freeCodeCamp.org",
+      "top_topics": [
+        {
+          "label": "Coding Assistants",
+          "score": 0.825,
+          "slug": "coding-assistants"
         },
         {
           "label": "AI Agents",
-          "score": 0.775,
+          "score": 0.803,
           "slug": "agents"
         },
         {
-          "label": "Evaluation",
-          "score": 0.642,
-          "slug": "evals"
+          "label": "Open Source Models",
+          "score": 0.798,
+          "slug": "open-source-models"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.66,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Safety and Alignment",
+          "score": 0.655,
+          "slug": "safety-alignment"
+        }
+      ],
+      "url": "https://www.youtube.com/@freecodecamp",
+      "video_count": 4,
+      "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
+    },
+    {
+      "description": "Research-focused AI and machine learning explainers.",
+      "handle": "@TwoMinutePapers",
+      "latest_video_at": "2026-09-08T08:24:27Z",
+      "thumbnail_url": null,
+      "title": "Two Minute Papers",
+      "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.778,
+          "slug": "agents"
+        },
+        {
+          "label": "Open Source Models",
+          "score": 0.755,
+          "slug": "open-source-models"
+        },
+        {
+          "label": "Multimodal",
+          "score": 0.698,
+          "slug": "multimodal"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.677,
+          "slug": "model-releases"
         },
         {
           "label": "Benchmarks",
-          "score": 0.593,
+          "score": 0.598,
           "slug": "benchmarks"
         }
       ],
-      "url": "https://www.youtube.com/@matthew_berman",
+      "url": "https://www.youtube.com/@TwoMinutePapers",
       "video_count": 4,
-      "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
+      "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
     },
     {
       "description": "Fast software engineering and AI tooling explainers.",
@@ -176,80 +235,6 @@
       "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
     },
     {
-      "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
-      "handle": "@WesRoth",
-      "latest_video_at": "2026-09-07T08:45:18Z",
-      "thumbnail_url": null,
-      "title": "Wes Roth",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.769,
-          "slug": "agents"
-        },
-        {
-          "label": "Multimodal",
-          "score": 0.687,
-          "slug": "multimodal"
-        },
-        {
-          "label": "Safety and Alignment",
-          "score": 0.677,
-          "slug": "safety-alignment"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.665,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Benchmarks",
-          "score": 0.627,
-          "slug": "benchmarks"
-        }
-      ],
-      "url": "https://www.youtube.com/@WesRoth",
-      "video_count": 3,
-      "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
-    },
-    {
-      "description": "Technical courses and tutorials, including practical AI application development.",
-      "handle": "@freecodecamp",
-      "latest_video_at": "2026-09-03T13:38:43Z",
-      "thumbnail_url": null,
-      "title": "freeCodeCamp.org",
-      "top_topics": [
-        {
-          "label": "Coding Assistants",
-          "score": 0.825,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "AI Agents",
-          "score": 0.802,
-          "slug": "agents"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.798,
-          "slug": "open-source-models"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.66,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Safety and Alignment",
-          "score": 0.655,
-          "slug": "safety-alignment"
-        }
-      ],
-      "url": "https://www.youtube.com/@freecodecamp",
-      "video_count": 3,
-      "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
-    },
-    {
       "description": "Long-form technical interviews with AI researchers and builders.",
       "handle": "@lexfridman",
       "latest_video_at": "2026-08-26T21:44:41Z",
@@ -287,26 +272,41 @@
       "youtube_channel_id": "UCSHZKyawb77ixDdsGog4iWA"
     },
     {
-      "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
-      "handle": "@OpenAI",
-      "latest_video_at": "2026-09-08T19:11:55Z",
+      "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
+      "handle": "@WesRoth",
+      "latest_video_at": "2026-09-07T08:45:18Z",
       "thumbnail_url": null,
-      "title": "OpenAI",
+      "title": "Wes Roth",
       "top_topics": [
         {
+          "label": "AI Agents",
+          "score": 0.769,
+          "slug": "agents"
+        },
+        {
           "label": "Multimodal",
-          "score": 0.865,
+          "score": 0.687,
           "slug": "multimodal"
         },
         {
+          "label": "Safety and Alignment",
+          "score": 0.677,
+          "slug": "safety-alignment"
+        },
+        {
           "label": "Model Releases",
-          "score": 0.805,
+          "score": 0.665,
           "slug": "model-releases"
+        },
+        {
+          "label": "Benchmarks",
+          "score": 0.587,
+          "slug": "benchmarks"
         }
       ],
-      "url": "https://www.youtube.com/@OpenAI",
+      "url": "https://www.youtube.com/@WesRoth",
       "video_count": 2,
-      "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
+      "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
     },
     {
       "description": "Research-heavy coverage of machine learning papers, model releases, and AI systems.",
@@ -341,6 +341,6 @@
       "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
     }
   ],
-  "generated_at": "2026-09-10T01:04:31Z",
+  "generated_at": "2026-09-10T12:43:12Z",
   "schema_version": "1.0"
 }
