@@ -1,6 +1,43 @@
 {
   "channels": [
     {
+      "description": "Fast software engineering and AI tooling explainers.",
+      "handle": "@Fireship",
+      "latest_video_at": "2026-09-11T17:24:40Z",
+      "thumbnail_url": null,
+      "title": "Fireship",
+      "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.826,
+          "slug": "agents"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.804,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.787,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Open Source Models",
+          "score": 0.734,
+          "slug": "open-source-models"
+        },
+        {
+          "label": "Benchmarks",
+          "score": 0.678,
+          "slug": "benchmarks"
+        }
+      ],
+      "url": "https://www.youtube.com/@Fireship",
+      "video_count": 5,
+      "youtube_channel_id": "UCsBjURrPoezykLs9EqgamOA"
+    },
+    {
       "description": "Research-focused AI and machine learning explainers.",
       "handle": "@TwoMinutePapers",
       "latest_video_at": "2026-09-10T08:47:23Z",
@@ -38,43 +75,6 @@
       "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
     },
     {
-      "description": "Fast software engineering and AI tooling explainers.",
-      "handle": "@Fireship",
-      "latest_video_at": "2026-09-09T16:34:27Z",
-      "thumbnail_url": null,
-      "title": "Fireship",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.826,
-          "slug": "agents"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.787,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.754,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.734,
-          "slug": "open-source-models"
-        },
-        {
-          "label": "Local Inference",
-          "score": 0.714,
-          "slug": "local-inference"
-        }
-      ],
-      "url": "https://www.youtube.com/@Fireship",
-      "video_count": 5,
-      "youtube_channel_id": "UCsBjURrPoezykLs9EqgamOA"
-    },
-    {
       "description": "Accessible analysis of frontier models, agents, local inference, and open-weight AI.",
       "handle": "@AIExplained-official",
       "latest_video_at": "2026-09-04T11:37:27Z",
@@ -110,43 +110,6 @@
       "url": "https://www.youtube.com/@AIExplained-official",
       "video_count": 5,
       "youtube_channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw"
-    },
-    {
-      "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
-      "handle": "@matthew_berman",
-      "latest_video_at": "2026-09-11T01:10:56Z",
-      "thumbnail_url": null,
-      "title": "Matthew Berman",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.814,
-          "slug": "agents"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.763,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Safety and Alignment",
-          "score": 0.7,
-          "slug": "safety-alignment"
-        },
-        {
-          "label": "Evaluation",
-          "score": 0.638,
-          "slug": "evals"
-        },
-        {
-          "label": "Benchmarks",
-          "score": 0.587,
-          "slug": "benchmarks"
-        }
-      ],
-      "url": "https://www.youtube.com/@matthew_berman",
-      "video_count": 4,
-      "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
     },
     {
       "description": "Technical courses and tutorials, including practical AI application development.",
@@ -225,13 +188,13 @@
     {
       "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
       "handle": "@OpenAI",
-      "latest_video_at": "2026-09-11T04:08:16Z",
+      "latest_video_at": "2026-09-11T21:00:04Z",
       "thumbnail_url": null,
       "title": "OpenAI",
       "top_topics": [
         {
           "label": "Model Releases",
-          "score": 0.7,
+          "score": 0.667,
           "slug": "model-releases"
         }
       ],
@@ -339,8 +302,25 @@
       "url": "https://www.youtube.com/@YannicKilcher",
       "video_count": 2,
       "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
+    },
+    {
+      "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
+      "handle": "@matthew_berman",
+      "latest_video_at": "2026-09-11T01:10:56Z",
+      "thumbnail_url": null,
+      "title": "Matthew Berman",
+      "top_topics": [
+        {
+          "label": "Model Releases",
+          "score": 0.62,
+          "slug": "model-releases"
+        }
+      ],
+      "url": "https://www.youtube.com/@matthew_berman",
+      "video_count": 1,
+      "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
     }
   ],
-  "generated_at": "2026-09-11T12:42:38Z",
+  "generated_at": "2026-09-12T01:02:56Z",
   "schema_version": "1.0"
 }
