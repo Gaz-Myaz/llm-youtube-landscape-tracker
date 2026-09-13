@@ -112,23 +112,6 @@
       "youtube_channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw"
     },
     {
-      "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
-      "handle": "@OpenAI",
-      "latest_video_at": "2026-09-11T21:00:04Z",
-      "thumbnail_url": null,
-      "title": "OpenAI",
-      "top_topics": [
-        {
-          "label": "Model Releases",
-          "score": 0.667,
-          "slug": "model-releases"
-        }
-      ],
-      "url": "https://www.youtube.com/@OpenAI",
-      "video_count": 4,
-      "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
-    },
-    {
       "description": "Technical courses and tutorials, including practical AI application development.",
       "handle": "@freecodecamp",
       "latest_video_at": "2026-09-10T15:04:22Z",
@@ -203,36 +186,21 @@
       "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
     },
     {
-      "description": "Developer commentary, tools, and AI coding workflow coverage.",
-      "handle": "@ThePrimeagen",
-      "latest_video_at": "2026-09-10T16:54:53Z",
+      "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
+      "handle": "@OpenAI",
+      "latest_video_at": "2026-09-11T21:00:04Z",
       "thumbnail_url": null,
-      "title": "ThePrimeTime",
+      "title": "OpenAI",
       "top_topics": [
         {
-          "label": "Coding Assistants",
-          "score": 0.74,
-          "slug": "coding-assistants"
-        },
-        {
           "label": "Model Releases",
-          "score": 0.702,
+          "score": 0.617,
           "slug": "model-releases"
-        },
-        {
-          "label": "Evaluation",
-          "score": 0.6,
-          "slug": "evals"
-        },
-        {
-          "label": "Benchmarks",
-          "score": 0.586,
-          "slug": "benchmarks"
         }
       ],
-      "url": "https://www.youtube.com/@ThePrimeagen",
+      "url": "https://www.youtube.com/@OpenAI",
       "video_count": 3,
-      "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
+      "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
     },
     {
       "description": "Long-form technical interviews with AI researchers and builders.",
@@ -272,21 +240,36 @@
       "youtube_channel_id": "UCSHZKyawb77ixDdsGog4iWA"
     },
     {
-      "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
-      "handle": "@matthew_berman",
-      "latest_video_at": "2026-09-11T16:00:17Z",
+      "description": "Developer commentary, tools, and AI coding workflow coverage.",
+      "handle": "@ThePrimeagen",
+      "latest_video_at": "2026-09-10T16:54:53Z",
       "thumbnail_url": null,
-      "title": "Matthew Berman",
+      "title": "ThePrimeTime",
       "top_topics": [
         {
+          "label": "Coding Assistants",
+          "score": 0.74,
+          "slug": "coding-assistants"
+        },
+        {
           "label": "Model Releases",
-          "score": 0.77,
+          "score": 0.702,
           "slug": "model-releases"
+        },
+        {
+          "label": "Evaluation",
+          "score": 0.6,
+          "slug": "evals"
+        },
+        {
+          "label": "Benchmarks",
+          "score": 0.586,
+          "slug": "benchmarks"
         }
       ],
-      "url": "https://www.youtube.com/@matthew_berman",
+      "url": "https://www.youtube.com/@ThePrimeagen",
       "video_count": 2,
-      "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
+      "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
     },
     {
       "description": "Research-heavy coverage of machine learning papers, model releases, and AI systems.",
@@ -319,8 +302,25 @@
       "url": "https://www.youtube.com/@YannicKilcher",
       "video_count": 2,
       "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
+    },
+    {
+      "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
+      "handle": "@matthew_berman",
+      "latest_video_at": "2026-09-11T16:00:17Z",
+      "thumbnail_url": null,
+      "title": "Matthew Berman",
+      "top_topics": [
+        {
+          "label": "Model Releases",
+          "score": 0.77,
+          "slug": "model-releases"
+        }
+      ],
+      "url": "https://www.youtube.com/@matthew_berman",
+      "video_count": 1,
+      "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
     }
   ],
-  "generated_at": "2026-09-12T12:37:38Z",
+  "generated_at": "2026-09-13T01:10:42Z",
   "schema_version": "1.0"
 }
