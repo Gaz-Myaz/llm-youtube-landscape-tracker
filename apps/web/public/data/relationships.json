@@ -50,7 +50,7 @@
       "shared_topics": [
         {
           "label": "Model Releases",
-          "score": 0.694,
+          "score": 0.734,
           "slug": "model-releases"
         }
       ],
@@ -717,7 +717,7 @@
       "shared_topics": [
         {
           "label": "Model Releases",
-          "score": 0.659,
+          "score": 0.7,
           "slug": "model-releases"
         }
       ],
@@ -745,7 +745,7 @@
       "shared_topics": [
         {
           "label": "Model Releases",
-          "score": 0.629,
+          "score": 0.67,
           "slug": "model-releases"
         }
       ],
@@ -849,7 +849,7 @@
       "shared_topics": [
         {
           "label": "Model Releases",
-          "score": 0.656,
+          "score": 0.697,
           "slug": "model-releases"
         }
       ],
@@ -877,7 +877,7 @@
       "shared_topics": [
         {
           "label": "Model Releases",
-          "score": 0.643,
+          "score": 0.684,
           "slug": "model-releases"
         }
       ],
@@ -905,7 +905,7 @@
       "shared_topics": [
         {
           "label": "Model Releases",
-          "score": 0.702,
+          "score": 0.742,
           "slug": "model-releases"
         }
       ],
@@ -947,7 +947,7 @@
       "shared_topics": [
         {
           "label": "Model Releases",
-          "score": 0.665,
+          "score": 0.706,
           "slug": "model-releases"
         }
       ],
@@ -961,7 +961,7 @@
       "shared_topics": [
         {
           "label": "Model Releases",
-          "score": 0.711,
+          "score": 0.751,
           "slug": "model-releases"
         }
       ],
@@ -998,7 +998,7 @@
       "target": "UCsBjURrPoezykLs9EqgamOA"
     }
   ],
-  "generated_at": "2026-09-13T01:10:42Z",
+  "generated_at": "2026-09-13T12:38:23Z",
   "nodes": [
     {
       "id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
@@ -1045,6 +1045,14 @@
       "video_count": 4
     },
     {
+      "id": "UCXZCJLdBC09xxGZ6gcdrc6A",
+      "label": "OpenAI",
+      "top_topics": [
+        "Model Releases"
+      ],
+      "video_count": 4
+    },
+    {
       "id": "UCqcbQf6yw5KzRoDDcZ_wBSw",
       "label": "Wes Roth",
       "top_topics": [
@@ -1067,12 +1075,12 @@
       "video_count": 3
     },
     {
-      "id": "UCXZCJLdBC09xxGZ6gcdrc6A",
-      "label": "OpenAI",
+      "id": "UCawZsQWqfGSbCI5yjkdVkTA",
+      "label": "Matthew Berman",
       "top_topics": [
         "Model Releases"
       ],
-      "video_count": 3
+      "video_count": 2
     },
     {
       "id": "UCUyeluBRhGPCW4rPe_UvBZQ",
@@ -1095,14 +1103,6 @@
         "Model Releases"
       ],
       "video_count": 2
-    },
-    {
-      "id": "UCawZsQWqfGSbCI5yjkdVkTA",
-      "label": "Matthew Berman",
-      "top_topics": [
-        "Model Releases"
-      ],
-      "video_count": 1
     }
   ],
   "schema_version": "1.0"
