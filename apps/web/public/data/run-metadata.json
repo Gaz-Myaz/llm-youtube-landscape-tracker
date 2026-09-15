@@ -1,21 +1,21 @@
 {
   "content_hashes": {
-    "channels": "23fd757bf7812056783041e966de1727886ce7c384c37878791fc4ca9e84adad",
-    "relationships": "5d7e2ee7d49de72c9bc12d20589c8561a6af7edb000ffb5d53820378c721806d",
-    "videos": "4be5c9772bce762d69ee48467acc79b530f5f9d940f9185b3599429e3d4eaef9"
+    "channels": "ec16ce46ebac37f9062f846b7c3fe74a1943873da0eadce99c3f1688d8e9ca91",
+    "relationships": "2cd28a64847e5bb00c890b508d9a97c51455d0215b7a342eaafac24a443438a7",
+    "videos": "991212bfa2595a8a4fcd97c620c7bbf10986aa4a0a5b6e6a0036970ef223fb3e"
   },
   "cost_rates": {
     "input_usd_per_1m_tokens": 0.3,
     "output_usd_per_1m_tokens": 2.5,
     "source": "default"
   },
-  "error_summary": "Skipped 3 videos before publication because no usable transcript was available: ypNekbQpT5U: captions unavailable (No transcript provider succeeded for ypNekbQpT5U. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=ypNekbQpT5U! This is most likely caused by: YouTube is blocking requests from your IP. This usually is due to one of the following reasons: - You have d); DNajvkqfobY: captions unavailable (No transcript provider succeeded for DNajvkqfobY. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=DNajvkqfobY! This is most likely caused by: The video is unplayable for the following reason: This live event will begin in a few moments. If you are su); uA5PiAXKGis: captions unavailable (No transcript provider succeeded for uA5PiAXKGis. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=uA5PiAXKGis! This is most likely caused by: YouTube is blocking requests from your IP. This usually is due to one of the following reasons: - You have d) Filtered 10 caption-backed videos outside configured LLM landscape rules: l6USUAIKJls: no gemini LLM landscape signal; XyXBwO5jYpw: no gemini LLM landscape signal; 9alf3z6YNbg: no gemini LLM landscape signal; 7 more Used deterministic fallback for 20 provider failures: mOvtumfyjCs: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used; eVBJIUxv8N8: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used; B3LXEW4Pc-w: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used; 17 more",
+  "error_summary": "Skipped 6 videos before publication because no usable transcript was available: Axj8jYpWyoU: captions unavailable (No transcript provider succeeded for Axj8jYpWyoU. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=Axj8jYpWyoU! This is most likely caused by: YouTube is blocking requests from your IP. This usually is due to one of the following reasons: - You have d); LyUoP_5QQOA: captions unavailable (No transcript provider succeeded for LyUoP_5QQOA. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=LyUoP_5QQOA! This is most likely caused by: YouTube is blocking requests from your IP. This usually is due to one of the following reasons: - You have d); ypNekbQpT5U: captions unavailable (No transcript provider succeeded for ypNekbQpT5U. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=ypNekbQpT5U! This is most likely caused by: YouTube is blocking requests from your IP. This usually is due to one of the following reasons: - You have d); 3 more Filtered 9 caption-backed videos outside configured LLM landscape rules: l6USUAIKJls: no gemini LLM landscape signal; XyXBwO5jYpw: no gemini LLM landscape signal; 9alf3z6YNbg: no gemini LLM landscape signal; 6 more Used deterministic fallback for 20 provider failures: mOvtumfyjCs: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used; eVBJIUxv8N8: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used; B3LXEW4Pc-w: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used; 17 more",
   "estimated_cost_usd": 0.0,
-  "last_successful_run_at": "2026-09-14T12:43:41Z",
+  "last_successful_run_at": "2026-09-15T01:06:29Z",
   "model": "gemini-2.5-flash",
   "provider": "gemini",
-  "provider_call_count": 47,
-  "provider_fallback_count": 47,
+  "provider_call_count": 44,
+  "provider_fallback_count": 44,
   "provider_fallback_reasons": [
     "mOvtumfyjCs: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used",
     "eVBJIUxv8N8: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used",
@@ -47,7 +47,7 @@
     "total_tokens": 0
   },
   "videos_failed": 0,
-  "videos_processed": 37,
+  "videos_processed": 35,
   "videos_seen": 50,
-  "videos_skipped": 3
+  "videos_skipped": 6
 }

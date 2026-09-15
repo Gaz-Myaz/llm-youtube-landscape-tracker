@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T12:43:41Z",
+  "generated_at": "2026-09-15T01:06:29Z",
   "schema_version": "1.0",
   "videos": [
     {
@@ -1909,41 +1909,6 @@
     },
     {
       "channel": {
-        "title": "Matthew Berman",
-        "url": "https://www.youtube.com/@matthew_berman",
-        "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
-      },
-      "content_type": "analysis",
-      "enrichment_status": "ready",
-      "evidence": [
-        {
-          "end_seconds": 8.639,
-          "field_name": "topic",
-          "quote": "is using Codeex's harness, but DeepSeek",
-          "start_seconds": 2.32,
-          "timestamp_url": null,
-          "topic_slug": "model-releases"
-        }
-      ],
-      "primary_speaker": "Matthew Berman host",
-      "published_at": "2026-09-12T21:57:03Z",
-      "summary": "DeepSeek Fails the Rubik\u2019s Cube Test focuses on Model Releases. Key transcript signal: This is using Codeex's harness, but DeepSeek V4.1 flash model.",
-      "thumbnail_url": null,
-      "title": "DeepSeek Fails the Rubik\u2019s Cube Test",
-      "topics": [
-        {
-          "label": "Model Releases",
-          "relevance_score": 0.735,
-          "slug": "model-releases"
-        }
-      ],
-      "transcript_status": "ready",
-      "transcript_text": "Now, can you see what's wrong here? This is using Codeex's harness, but DeepSeek V4.1 flash model. Now, if you look closely, you can almost see that each square on this Rubik's Cube does not actually seem connected to all the other squares. They're kind of floating independently. So, let's scramble it. If you're looking closely, you can actually see the sides change color, not because of movement, simply because they're just changing. So, let's solve it.",
-      "url": "https://www.youtube.com/shorts/5UpS__yl7xA",
-      "youtube_video_id": "5UpS__yl7xA"
-    },
-    {
-      "channel": {
         "title": "OpenAI",
         "url": "https://www.youtube.com/@OpenAI",
         "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
@@ -2046,41 +2011,6 @@
       "transcript_text": "It even comes up with like things that I wouldn't otherwise you know like think about. So here I asked it to sort of design a website for like an offline gathering, you know, like an offsite. And obviously this is like in the woods, you know, so the table is like wooden and so on. But it kept iterating and here we have a website that's a little bit more modern and our table is actually stainless steel. >> And you didn't you didn't prompt it to do that. >> No, I didn't I just said like keep going, you know, show me more variations and so on. And and lastly this is like more rustic version and you can see there is this pattern on the top but also the table cloth is matching that pattern but also the clothes of the people are matching that pattern and so on. Yeah, so like just coming up with that fullness, the completeness of the design has been historically really hard and it's been exciting to see that this model like comes up with a full story together. >> Mhm.",
       "url": "https://www.youtube.com/shorts/ZlvkQYZo3ZE",
       "youtube_video_id": "ZlvkQYZo3ZE"
-    },
-    {
-      "channel": {
-        "title": "OpenAI",
-        "url": "https://www.youtube.com/@OpenAI",
-        "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "content_type": "opinion",
-      "enrichment_status": "ready",
-      "evidence": [
-        {
-          "end_seconds": 4.4,
-          "field_name": "topic",
-          "quote": "This model has gotten to the point where",
-          "start_seconds": 0.24,
-          "timestamp_url": null,
-          "topic_slug": "model-releases"
-        }
-      ],
-      "primary_speaker": "OpenAI host",
-      "published_at": "2026-09-11T15:00:24Z",
-      "summary": "GPT-6 Astra handles the editing busywork focuses on Model Releases. Key transcript signal: This model has gotten to the point where it will do more than just a basic change and will use the software at a level that I haven't really seen before.",
-      "thumbnail_url": null,
-      "title": "GPT-6 Astra handles the editing busywork",
-      "topics": [
-        {
-          "label": "Model Releases",
-          "relevance_score": 0.591,
-          "slug": "model-releases"
-        }
-      ],
-      "transcript_status": "ready",
-      "transcript_text": "This model has gotten to the point where it will do more than just a basic change and will use the software at a level that I haven't really seen before. That takes it from, okay, this is neat to this is now a core part of the workflow. One thing that I've been doing is putting it into um Final Cut Pro and Affinity, which are the two pieces of software I use for video editing and thumbnail editing, respectively. >> Astra actually did like a deep selection of an asset. It made some very fine but good adjustments to it and polished the thumbnail in a way I haven't seen before. I think you can definitely use these things to orchestrate into existing workflows much better than I've seen before. I I was kind of in the camp that okay, we're probably going to get to a world where we just call everything over API or CLI. But I actually kind of like the computer use way of doing things where I don't really want to just oneshot a video or a thumbnail. But I do want to have it do a lot of passes and a lot of like having it prep all the assets for me in Final Cut, do all the transcoding, do all the color grading, set up all the clips, get the timeline ready for me. Then I can go in, do the actual cutting, add in the actual like edit to it rather than just the menial busy work that comes along with it. That workflow is now possible and it's awesome.",
-      "url": "https://www.youtube.com/shorts/4bGb2OjU5tA",
-      "youtube_video_id": "4bGb2OjU5tA"
     }
   ]
 }
