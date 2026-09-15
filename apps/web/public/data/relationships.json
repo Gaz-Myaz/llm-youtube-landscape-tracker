@@ -230,7 +230,7 @@
         },
         {
           "label": "Open Source Models",
-          "score": 0.763,
+          "score": 0.754,
           "slug": "open-source-models"
         },
         {
@@ -598,7 +598,7 @@
         },
         {
           "label": "Open Source Models",
-          "score": 0.744,
+          "score": 0.736,
           "slug": "open-source-models"
         }
       ],
@@ -622,7 +622,7 @@
         },
         {
           "label": "Open Source Models",
-          "score": 0.762,
+          "score": 0.753,
           "slug": "open-source-models"
         }
       ],
@@ -646,7 +646,7 @@
         },
         {
           "label": "Open Source Models",
-          "score": 0.776,
+          "score": 0.767,
           "slug": "open-source-models"
         }
       ],
@@ -998,7 +998,7 @@
       "target": "UCsBjURrPoezykLs9EqgamOA"
     }
   ],
-  "generated_at": "2026-09-15T01:06:29Z",
+  "generated_at": "2026-09-15T12:42:36Z",
   "nodes": [
     {
       "id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
@@ -1023,22 +1023,22 @@
       "video_count": 5
     },
     {
-      "id": "UCbfYPyITQ-7l4upoX8nvctg",
-      "label": "Two Minute Papers",
-      "top_topics": [
-        "AI Agents",
-        "Open Source Models",
-        "Multimodal",
-        "Model Releases"
-      ],
-      "video_count": 5
-    },
-    {
       "id": "UC8butISFwT-Wl7EV0hUK0BQ",
       "label": "freeCodeCamp.org",
       "top_topics": [
         "AI Agents",
         "Coding Assistants",
+        "Multimodal",
+        "Model Releases"
+      ],
+      "video_count": 4
+    },
+    {
+      "id": "UCbfYPyITQ-7l4upoX8nvctg",
+      "label": "Two Minute Papers",
+      "top_topics": [
+        "AI Agents",
+        "Open Source Models",
         "Multimodal",
         "Model Releases"
       ],
