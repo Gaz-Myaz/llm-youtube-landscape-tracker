@@ -75,6 +75,43 @@
       "youtube_channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw"
     },
     {
+      "description": "Technical courses and tutorials, including practical AI application development.",
+      "handle": "@freecodecamp",
+      "latest_video_at": "2026-09-15T12:41:24Z",
+      "thumbnail_url": null,
+      "title": "freeCodeCamp.org",
+      "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.843,
+          "slug": "agents"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.816,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Local Inference",
+          "score": 0.705,
+          "slug": "local-inference"
+        },
+        {
+          "label": "Multimodal",
+          "score": 0.688,
+          "slug": "multimodal"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.67,
+          "slug": "model-releases"
+        }
+      ],
+      "url": "https://www.youtube.com/@freecodecamp",
+      "video_count": 4,
+      "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
+    },
+    {
       "description": "Fast software engineering and AI tooling explainers.",
       "handle": "@Fireship",
       "latest_video_at": "2026-09-11T17:24:40Z",
@@ -149,6 +186,38 @@
       "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
     },
     {
+      "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
+      "handle": "@matthew_berman",
+      "latest_video_at": "2026-09-15T15:54:14Z",
+      "thumbnail_url": null,
+      "title": "Matthew Berman",
+      "top_topics": [
+        {
+          "label": "Coding Assistants",
+          "score": 0.736,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Open Source Models",
+          "score": 0.726,
+          "slug": "open-source-models"
+        },
+        {
+          "label": "Safety and Alignment",
+          "score": 0.703,
+          "slug": "safety-alignment"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.668,
+          "slug": "model-releases"
+        }
+      ],
+      "url": "https://www.youtube.com/@matthew_berman",
+      "video_count": 3,
+      "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
+    },
+    {
       "description": "Developer commentary, tools, and AI coding workflow coverage.",
       "handle": "@ThePrimeagen",
       "latest_video_at": "2026-09-12T15:00:21Z",
@@ -179,43 +248,6 @@
       "url": "https://www.youtube.com/@ThePrimeagen",
       "video_count": 3,
       "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
-    },
-    {
-      "description": "Technical courses and tutorials, including practical AI application development.",
-      "handle": "@freecodecamp",
-      "latest_video_at": "2026-09-10T15:04:22Z",
-      "thumbnail_url": null,
-      "title": "freeCodeCamp.org",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.843,
-          "slug": "agents"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.811,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Multimodal",
-          "score": 0.688,
-          "slug": "multimodal"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.67,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Safety and Alignment",
-          "score": 0.655,
-          "slug": "safety-alignment"
-        }
-      ],
-      "url": "https://www.youtube.com/@freecodecamp",
-      "video_count": 3,
-      "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
     },
     {
       "description": "Long-form technical interviews with AI researchers and builders.",
@@ -302,25 +334,8 @@
       "url": "https://www.youtube.com/@YannicKilcher",
       "video_count": 2,
       "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
-    },
-    {
-      "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
-      "handle": "@matthew_berman",
-      "latest_video_at": "2026-09-14T10:53:34Z",
-      "thumbnail_url": null,
-      "title": "Matthew Berman",
-      "top_topics": [
-        {
-          "label": "Model Releases",
-          "score": 0.658,
-          "slug": "model-releases"
-        }
-      ],
-      "url": "https://www.youtube.com/@matthew_berman",
-      "video_count": 1,
-      "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
     }
   ],
-  "generated_at": "2026-09-16T01:06:07Z",
+  "generated_at": "2026-09-16T12:43:29Z",
   "schema_version": "1.0"
 }
