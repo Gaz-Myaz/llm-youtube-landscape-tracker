@@ -55,12 +55,12 @@
         },
         {
           "label": "Benchmarks",
-          "score": 0.657,
+          "score": 0.623,
           "slug": "benchmarks"
         },
         {
           "label": "Coding Assistants",
-          "score": 0.756,
+          "score": 0.738,
           "slug": "coding-assistants"
         },
         {
@@ -70,7 +70,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.75,
+          "score": 0.739,
           "slug": "model-releases"
         },
         {
@@ -94,12 +94,12 @@
         },
         {
           "label": "Benchmarks",
-          "score": 0.656,
+          "score": 0.623,
           "slug": "benchmarks"
         },
         {
           "label": "Coding Assistants",
-          "score": 0.796,
+          "score": 0.778,
           "slug": "coding-assistants"
         },
         {
@@ -109,7 +109,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.728,
+          "score": 0.717,
           "slug": "model-releases"
         },
         {
@@ -133,12 +133,12 @@
         },
         {
           "label": "Benchmarks",
-          "score": 0.662,
+          "score": 0.629,
           "slug": "benchmarks"
         },
         {
           "label": "Model Releases",
-          "score": 0.741,
+          "score": 0.73,
           "slug": "model-releases"
         },
         {
@@ -167,17 +167,17 @@
         },
         {
           "label": "Benchmarks",
-          "score": 0.689,
+          "score": 0.655,
           "slug": "benchmarks"
         },
         {
           "label": "Coding Assistants",
-          "score": 0.782,
+          "score": 0.764,
           "slug": "coding-assistants"
         },
         {
           "label": "Model Releases",
-          "score": 0.795,
+          "score": 0.784,
           "slug": "model-releases"
         },
         {
@@ -230,12 +230,12 @@
       "shared_topics": [
         {
           "label": "Benchmarks",
-          "score": 0.656,
+          "score": 0.623,
           "slug": "benchmarks"
         },
         {
           "label": "Coding Assistants",
-          "score": 0.76,
+          "score": 0.742,
           "slug": "coding-assistants"
         },
         {
@@ -245,7 +245,7 @@
         },
         {
           "label": "Model Releases",
-          "score": 0.744,
+          "score": 0.733,
           "slug": "model-releases"
         }
       ],
@@ -259,12 +259,12 @@
       "shared_topics": [
         {
           "label": "Coding Assistants",
-          "score": 0.756,
+          "score": 0.738,
           "slug": "coding-assistants"
         },
         {
           "label": "Model Releases",
-          "score": 0.727,
+          "score": 0.716,
           "slug": "model-releases"
         },
         {
@@ -414,7 +414,7 @@
         },
         {
           "label": "Coding Assistants",
-          "score": 0.8,
+          "score": 0.782,
           "slug": "coding-assistants"
         },
         {
@@ -898,54 +898,12 @@
       "target": "UCsBjURrPoezykLs9EqgamOA"
     },
     {
-      "explanation": "ThePrimeTime and OpenAI overlap around Model Releases; topic-overlap score 0.25.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "Model Releases",
-          "score": 0.7,
-          "slug": "model-releases"
-        }
-      ],
-      "similarity_score": 0.25,
-      "source": "UCUyeluBRhGPCW4rPe_UvBZQ",
-      "target": "UCXZCJLdBC09xxGZ6gcdrc6A"
-    },
-    {
-      "explanation": "OpenAI and Yannic Kilcher overlap around Model Releases; topic-overlap score 0.25.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "Model Releases",
-          "score": 0.67,
-          "slug": "model-releases"
-        }
-      ],
-      "similarity_score": 0.25,
-      "source": "UCXZCJLdBC09xxGZ6gcdrc6A",
-      "target": "UCZHmQk67mSJgfCCTn7xBfew"
-    },
-    {
-      "explanation": "OpenAI and Matthew Berman overlap around Model Releases; topic-overlap score 0.25.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "Model Releases",
-          "score": 0.683,
-          "slug": "model-releases"
-        }
-      ],
-      "similarity_score": 0.25,
-      "source": "UCXZCJLdBC09xxGZ6gcdrc6A",
-      "target": "UCawZsQWqfGSbCI5yjkdVkTA"
-    },
-    {
       "explanation": "AI Explained and Yannic Kilcher overlap around Model Releases, Open Source Models; topic-overlap score 0.22.",
       "method": "topic_overlap",
       "shared_topics": [
         {
           "label": "Model Releases",
-          "score": 0.714,
+          "score": 0.703,
           "slug": "model-releases"
         },
         {
@@ -978,48 +936,6 @@
       "target": "UCqcbQf6yw5KzRoDDcZ_wBSw"
     },
     {
-      "explanation": "OpenAI and Two Minute Papers overlap around Model Releases; topic-overlap score 0.17.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "Model Releases",
-          "score": 0.697,
-          "slug": "model-releases"
-        }
-      ],
-      "similarity_score": 0.167,
-      "source": "UCXZCJLdBC09xxGZ6gcdrc6A",
-      "target": "UCbfYPyITQ-7l4upoX8nvctg"
-    },
-    {
-      "explanation": "OpenAI and Fireship overlap around Model Releases; topic-overlap score 0.17.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "Model Releases",
-          "score": 0.751,
-          "slug": "model-releases"
-        }
-      ],
-      "similarity_score": 0.167,
-      "source": "UCXZCJLdBC09xxGZ6gcdrc6A",
-      "target": "UCsBjURrPoezykLs9EqgamOA"
-    },
-    {
-      "explanation": "AI Explained and OpenAI overlap around Model Releases; topic-overlap score 0.14.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "Model Releases",
-          "score": 0.742,
-          "slug": "model-releases"
-        }
-      ],
-      "similarity_score": 0.143,
-      "source": "UCNJ1Ymd5yFuUPtn21xtRbbw",
-      "target": "UCXZCJLdBC09xxGZ6gcdrc6A"
-    },
-    {
       "explanation": "ThePrimeTime and Yannic Kilcher overlap around Model Releases; topic-overlap score 0.14.",
       "method": "topic_overlap",
       "shared_topics": [
@@ -1032,49 +948,10 @@
       "similarity_score": 0.143,
       "source": "UCUyeluBRhGPCW4rPe_UvBZQ",
       "target": "UCZHmQk67mSJgfCCTn7xBfew"
-    },
-    {
-      "explanation": "OpenAI and Wes Roth overlap around Model Releases; topic-overlap score 0.14.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "Model Releases",
-          "score": 0.706,
-          "slug": "model-releases"
-        }
-      ],
-      "similarity_score": 0.143,
-      "source": "UCXZCJLdBC09xxGZ6gcdrc6A",
-      "target": "UCqcbQf6yw5KzRoDDcZ_wBSw"
-    },
-    {
-      "explanation": "freeCodeCamp.org and OpenAI overlap around Model Releases; topic-overlap score 0.12.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "Model Releases",
-          "score": 0.684,
-          "slug": "model-releases"
-        }
-      ],
-      "similarity_score": 0.125,
-      "source": "UC8butISFwT-Wl7EV0hUK0BQ",
-      "target": "UCXZCJLdBC09xxGZ6gcdrc6A"
     }
   ],
-  "generated_at": "2026-09-16T12:43:29Z",
+  "generated_at": "2026-09-17T01:06:40Z",
   "nodes": [
-    {
-      "id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
-      "label": "AI Explained",
-      "top_topics": [
-        "AI Agents",
-        "Model Releases",
-        "Coding Assistants",
-        "Open Source Models"
-      ],
-      "video_count": 5
-    },
     {
       "id": "UCbfYPyITQ-7l4upoX8nvctg",
       "label": "Two Minute Papers",
@@ -1085,6 +962,17 @@
         "Model Releases"
       ],
       "video_count": 5
+    },
+    {
+      "id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
+      "label": "AI Explained",
+      "top_topics": [
+        "AI Agents",
+        "Open Source Models",
+        "Model Releases",
+        "Coding Assistants"
+      ],
+      "video_count": 4
     },
     {
       "id": "UCsBjURrPoezykLs9EqgamOA",
@@ -1128,7 +1016,7 @@
         "Open Source Models",
         "Multimodal"
       ],
-      "video_count": 3
+      "video_count": 2
     },
     {
       "id": "UCawZsQWqfGSbCI5yjkdVkTA",
@@ -1139,7 +1027,7 @@
         "Safety and Alignment",
         "Model Releases"
       ],
-      "video_count": 3
+      "video_count": 2
     },
     {
       "id": "UCUyeluBRhGPCW4rPe_UvBZQ",
@@ -1149,14 +1037,6 @@
         "Model Releases",
         "Evaluation",
         "Benchmarks"
-      ],
-      "video_count": 3
-    },
-    {
-      "id": "UCXZCJLdBC09xxGZ6gcdrc6A",
-      "label": "OpenAI",
-      "top_topics": [
-        "Model Releases"
       ],
       "video_count": 2
     },
