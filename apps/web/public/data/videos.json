@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T01:06:40Z",
+  "generated_at": "2026-09-17T12:43:50Z",
   "schema_version": "1.0",
   "videos": [
     {
@@ -1629,51 +1629,73 @@
     },
     {
       "channel": {
-        "title": "ThePrimeTime",
-        "url": "https://www.youtube.com/@ThePrimeagen",
-        "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
+        "title": "OpenAI",
+        "url": "https://www.youtube.com/@OpenAI",
+        "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "content_type": "interview",
+      "enrichment_status": "ready",
+      "evidence": [
+        {
+          "end_seconds": 15.16,
+          "field_name": "topic",
+          "quote": "Ask ChatGPT a question. You can think of",
+          "start_seconds": 9.92,
+          "timestamp_url": "https://www.youtube.com/watch?v=4UTn7oWvSJc&t=9s",
+          "topic_slug": "model-releases"
+        }
+      ],
+      "primary_speaker": "OpenAI host",
+      "published_at": "2026-09-16T22:29:47Z",
+      "summary": "Meet ChatGPT: Ask Your First Question | OpenAI Academy focuses on Model Releases. Key transcript signal: Ask ChatGPT a question.",
+      "thumbnail_url": null,
+      "title": "Meet ChatGPT: Ask Your First Question | OpenAI Academy",
+      "topics": [
+        {
+          "label": "Model Releases",
+          "relevance_score": 0.77,
+          "slug": "model-releases"
+        }
+      ],
+      "transcript_status": "ready",
+      "transcript_text": "Hey, I'm glad you're here. Today, we're going to do one simple thing together. Ask ChatGPT a question. You can think of ChatGPT like an assistant that never runs out of patience. You can type a question or say it out loud. If the answer is not quite right, you can ask another question. You don't have to get everything perfect the first time. Here's the message box. This is where you type. And that there, that's the voice button. Tap it to speak your message instead of typing it. Let's start with an easy question. Give me three easy ideas for using ChatGPT this week. And now, we get an answer. Maybe it suggests planning a meal, drafting a message, or learning something new. I don't have to use every idea. I can pick the one that sounds best to me. And now, I can keep the conversation going. Can you make that simpler and give me the first step? And that's really it. One question, then another. You don't need to do anything special. Just say what you want, look at the answer, and ask for it to be simpler, shorter, or more useful. Talk to it like it's a person. One important note. ChatGPT can make mistakes or have outdated information. So, for questions about health or money or important deadlines or government forms, always double-check the answer with a trusted professional or official source. As for getting started, keep it simple. Ask one question, then another. That's really all it takes to take your very first steps to using ChatGPT.",
+      "url": "https://www.youtube.com/watch?v=4UTn7oWvSJc",
+      "youtube_video_id": "4UTn7oWvSJc"
+    },
+    {
+      "channel": {
+        "title": "OpenAI",
+        "url": "https://www.youtube.com/@OpenAI",
+        "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
       },
       "content_type": "tutorial",
       "enrichment_status": "ready",
       "evidence": [
         {
-          "end_seconds": 47.12,
+          "end_seconds": 35.68,
           "field_name": "topic",
-          "quote": "for a solution Tristan Buckmaster openai",
-          "start_seconds": 41.68,
-          "timestamp_url": "https://www.youtube.com/watch?v=UA0UkPombNk&t=41s",
+          "quote": "ChatGPT can be a second set of eyes for",
+          "start_seconds": 31.48,
+          "timestamp_url": "https://www.youtube.com/watch?v=WY_PHjGilVs&t=31s",
           "topic_slug": "model-releases"
-        },
-        {
-          "end_seconds": 119.19999999999999,
-          "field_name": "topic",
-          "quote": "that has your codebase, your test suite,",
-          "start_seconds": 114.96,
-          "timestamp_url": "https://www.youtube.com/watch?v=UA0UkPombNk&t=114s",
-          "topic_slug": "evals"
         }
       ],
-      "primary_speaker": "ThePrimeTime host",
-      "published_at": "2026-09-10T16:54:53Z",
-      "summary": "The Navier Stokes situation is insane focuses on Model Releases, Evaluation. Key transcript signal: the tradeoff making a million dollars but spending 10 it doesn't sound like a good investment but nonetheless they have done the unthinkable now you can imagine the comments must be incredible isn't this the data and wor",
+      "primary_speaker": "OpenAI host",
+      "published_at": "2026-09-16T22:29:36Z",
+      "summary": "How to Spot Scam Messages with ChatGPT | OpenAI Academy focuses on Model Releases. Key transcript signal: ChatGPT can be a second set of eyes for you, helping you spot warning signs that you might be dealing with a scam.",
       "thumbnail_url": null,
-      "title": "The Navier Stokes situation is insane",
+      "title": "How to Spot Scam Messages with ChatGPT | OpenAI Academy",
       "topics": [
         {
           "label": "Model Releases",
-          "relevance_score": 0.702,
+          "relevance_score": 0.77,
           "slug": "model-releases"
-        },
-        {
-          "label": "Evaluation",
-          "relevance_score": 0.6,
-          "slug": "evals"
         }
       ],
       "transcript_status": "ready",
-      "transcript_text": "Open AI has just solved one of the hardest problems in frontier math. The Navier Stokes Millennia Prize problem resulting in a $1 million payout to whoever solves it. It is one of the seven hard problems facing humanity for the last 100 years. And they solved it with 10,000 agents in 88 hours, costing them probably north of $10 million. the tradeoff making a million dollars but spending 10 it doesn't sound like a good investment but nonetheless they have done the unthinkable now you can imagine the comments must be incredible isn't this the data and work you stole from Tristan Buckmaster wow thugs attribute the researcher who spent years looking for a solution Tristan Buckmaster openai stole his work fed it to AI and managed to write a paper openai used one year of Tristan Buckmaster and Levent Alpagay codeex logs will the post not admit That is theft. Okay, if you can afford lawyers, what about Martinez, Azora, Cordoba, Alpagay, and Buckmaster? Will you admit that this is stolen work? Wait a second. Am I Am I being deceived? All right, so let's go over everything. Let's read the tweets. Let's see what everybody has to say. Let's read the paper from Tristan himself talking about what he believes has happened, including data theft and of course OpenAI's response to the whole situation. And no, I don't know what Navier Stokes is, okay? Because when I read the sentence, finite time blow up with smooth forcing for incompressible porous media, I must say, I understand all those words individually, but when you put them together in that particular assortment, I don't I don't even know what that means. And before we get to all the tweets, thank you from the sponsors. You guys know you shouldn't be letting your agents run around your computer willy-nilly, accessing whatever they want and fighting over resources. So maybe you've already looked into sandboxing your agents, but that's not what you really want. What you really want is a full development environment that has your codebase, your test suite, your database, and full network access. This is where namespace dev boxes can help. Pick a Docker image, get repo, operating system, even Mac with just a few lines of code. Boom, you're done. You can stop your agents from sending requests to websites you don't want them to with built-in egress filtering and federated access. We know sometimes it's not enough just to let your agent run free. You got to get in there and get dirty. What? What? You can SSH directly into the dev box. And you know I love me some SSH. Namespace is trusted by 11 Labs, Ramp, Warp, Vanta, Framer, Zed, Foul, Sierra, Whisperflow, Duck DB, even Ghosty uses them. Try them out at namespace.so. All right. To really get this kind of crazy story of academic accusations, we need to start at the beginning. So right here is Leavant Alpagay and he was working with Tristan Buckmaster. By the way, Buckmaster did not like that game in the arcade, okay, at all. The guns never worked. Nonetheless, Tristan Buckmaster and Levent have been working together for the last year on a Millennium Prize project. Now a millennium prize project is a very famous set of seven problems in which are famously difficult and unsolved mathematical challenges selected by the clay mathematics institute in the year 2000 as seven problems that just need to be solved if like for humanity. It contains the very famous P versus NP problem. If you don't know about that, look up the traveling salesman. And of course, it involves Navier Stokes existence and smoothness describes the fundamental equations governing fluid motion in physics. So, we're going to have to approach this story from two different sides. First, let's start with Tristan's side, which he does in a fourpage paper. And to kind of sum it up for you, which I highly do recommend you end up reading it, he talks first about the fact that he has been working on this problem for the last year with Levant using Anthropics Claude and Open AI's codeex especially Chat Jippidy 56 Soul and more recently Astra. Now this is a very important point. Please keep that in your head. He does claim for most of the past year progress was really slow, but it really started speeding up and by August 15th they actually had a proof that was generated by an LLM saying that it was the most horrendous I have ever read, but it was verified with lean on August 22nd. If you're not familiar with lean, lean is just a programming language that allows you to actually be like, \"Hey, here's a proof.\" And Lean goes, \"Yeah, that's a proof.\" Okay, so here's where things get really weird, okay? Because September 3rd is a rumor started circulating that Anthropic solved one of the open problems. And when OpenAI heard it, they're like, \"No, no, no, no, no, no. We're going to solve it.\" They actually got out the measuring stick and they're just like, \"No, we must be bigger.\" Which, by the way, I will say, dick measuring contest in which involved solving one of the hardest math problems of all time. You know that, hey, that's a contest I can get behind, baby. Okay, I like it. Tristan ends up sending an email out to the main scientist. The basic gist of it is, \"Hey, it's not anthropic. It's just me and Levant. That's it. We've been working on it for the last year using both anthropic and open AI models.\" The response was nice. Like, hey, that's awesome. Super stoked about math. Uh, by the way, OpenAI, you need any help? Love to work with you. Then within a couple days, they he kept getting pressured to join a meeting. Like, hey, let's join a meeting. Hey, let's join a meeting. And he said, \"No, next week.\" And they said, \"No, we got to talk.\" And it turned out that he was told internally that open AI models had produced a proof for finite time blowup for the forced Navier Stokes equation. The thing that bothered him is when Levant asked for the text for the precise statement, the answer given was existence for the forced blowup in R3 and T3. He was working on this problem and really told nobody about it. He was going about it in a way that was a bit unusual and that was the exact same approach that he took and so he considered it a bright red flag. He believes that something was going on. So he started asking some questions. I asked whether the model had been trained on or had access to our sessions and codecs into which we had been putting all of our drafts for this whole project. I was told the model does not look up user data. I asked again about training. I did not get an answer. So at this point he is really deeply implying he's pretty sure that OpenAI is committing a little bit of academic fraud right now. But he was given two proposals. The first was that he could post his result and OpenAI could post their results the next day. The second was that after posting his, he could alone write the paper presenting the general solution for the Navier Stokes result acknowledging that an internal OpenAI model had resolved it. Here's the catch. Sebastian, an open AI employee and researcher, said that he wanted Levent removed from authorship and said it would be all simple if only it were not the case. And it was so annoying that Leavant works at Anthropic. Open I mean they don't like each other. And so this is where the spice really starts kind of flowing. Okay. The spice must flow here. I said that if open AAI released its results in this way proposed I would go public with what happened. The reply was why would you ruin your career? I replied that I'm an academic. Boom. For those that don't know you got tenure. Okay. This is his job. his job is solely to research ridiculous problems and that's it. You think that this is going to ruin his career? He's not going to do nothing. And asked why he thought going public would ruin my career. The reply was, \"If you don't want me to be nice, then I don't have to be nice.\" Damn. Sebastian's talking like a villain, just straight out of Disney movies. So, this this is the letter. This is the thing that caused everybody to start claiming that Open AI has in fact stolen research work by other scientists. So these are the major accusations and of course Sebastian Bubug also respond in which he said, \"Hey, he never asked for Levent to be removed from its authorship on his own work indicated by my text.\" And you can even see right here the actual text messages apparently being linked. I would like to be maximally open with you. I want to talk about coordinating the release of our concurrent discoveries. To be very clear, an internal model produced a proof, both formal and informal, of Navier Stokes with a very little human input. But it is of the utmost important to us to recognize your priority and that all the academic accolades for this historic result goes to you and Tristan. We are ready to share everything we have with you, including the human prompts and everything. Just let me know what you want to do and I think a call would be productive. And this, of course, is right here, the existence of force blow up in the R3 and T3. So that's where this whole thing kind of spawned from. But nonetheless, isn't it I mean I will have to say it is a little strange that if you independently were to derive say one of the hardest, you know, one of the absolute hardest math problems of all time, why would you just be like, yo, hey, we'll totally let you guys have it. Yeah, we're just ready to share everything with you and just say, hey, it's yours. You know, we're going to tell everybody that it's yours. like it does make this look a little bit suspicious that they're kind of giving up a little bit of the game saying, \"Hey, yeah, the data and all the work you did put in for the last year probably is in the model and we probably did train on it.\" I don't know. I'm just Hey, I'm just I'm just observing. Okay. I'm just looking out here and looking at this response and kind of wondering why why would they ever try to compete with somebody else if they did truly independently think they came to the conclusion? Why why even let uh why even let Tristan be the one that authors and becomes the lead scientist? It it truly doesn't even make any sense. I do not believe that open AI actually ended up stealing anything or committing academic fraud. No, I don't think that. Maybe, just maybe, the deidentified data did sneak into training and that helped kind of jumpstart the algorithm to be able to figure out where to even start searching in the gigantic infinity space of solving this one of the seven hardest problems that we currently face as humanity. But I think the real thing that solved this was the belief that it could be solved. So when Open AI saw that it was solved, the rumor came around saying, \"Hey, one of the big seven had fallen.\" They went, \"Okay, we can solve that. Put all of your resources to it. 10,000 agents of this new internal model, which if you think AGI1 was crazy, Astra, wait until you see AGI 2. They put 10,000 of that model on the task for 88 hours, spending tens of millions of dollars because they believed it was possible to be solved. And the obvious reason why Sam would even ever attempt this or why they'd ever approve tens of millions of dollars of compute is quite obvious. If they were to be one of the ones to solve this problem, it means their model is incredible and they cannot let Anthropic win. The fact that Anthropic could be winning, that is the worst thing for them. Just a simple rumor caused all of this. A rumor that one of the big seven could be solved. And you know what son of a did it? Anthropic. Also, rumor has it anthropic. Just saying. I hear they're even curing cancer like right now in one of their labs. Like that's I Hey, I'm just saying that's the rumors I'm hearing right now. The name is why why don't they just Why doesn't Open AI with all this super sweet compute power like do it again? 10,000 agents, 88 hours, P= NP just solve that one. Okay, I want to know is my traveling salesman solvable in polomial time or is it not a",
-      "url": "https://www.youtube.com/watch?v=UA0UkPombNk",
-      "youtube_video_id": "UA0UkPombNk"
+      "transcript_text": "Have you ever received an email or text like this? Your package cannot be delivered. Pay a small fee now. Suspicious activity was found in your bank account. Click here immediately. Hi Grandma, this is my new number. I'm in trouble and need money. Scam messages often use fear, urgency, or familiar relationship to make you act before you have time to think. When a message pushes you to act in a hurry, that is a good reason to slow down. ChatGPT can be a second set of eyes for you, helping you spot warning signs that you might be dealing with a scam. I'm going to copy the text into ChatGPT. I am not opening the link. I am not calling the number in the message. I am just asking for a second look. Point out warning signs in this message. Do not open links. Tell me how to verify safely through an official channel. The answer may point out a pressure tactic, strange wording, a suspicious address, a request for money, or a link that doesn't look quite right. Now the important part, verify somewhere else. If it says it's from your bank, open the bank app yourself or call the number on the back of your card. Do not call any unknown numbers in the email. If it says it's from the delivery company, type the official website yourself. Do not use the link in the message to check whether a message is safe. You can even ask ChatGPT a follow-up. Give me a short checklist I can use the next time I get a message like this. The checklist should be simple. Pause, look carefully, verify somewhere else, and ask someone you trust if you are unsure. ChatGPT can help you notice the warning signs, but the call, as always, is ultimately yours.",
+      "url": "https://www.youtube.com/watch?v=WY_PHjGilVs",
+      "youtube_video_id": "WY_PHjGilVs"
     },
     {
       "channel": {
