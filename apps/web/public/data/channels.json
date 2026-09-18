@@ -3,7 +3,7 @@
     {
       "description": "Research-focused AI and machine learning explainers.",
       "handle": "@TwoMinutePapers",
-      "latest_video_at": "2026-09-15T10:12:34Z",
+      "latest_video_at": "2026-09-18T07:03:46Z",
       "thumbnail_url": null,
       "title": "Two Minute Papers",
       "top_topics": [
@@ -18,14 +18,14 @@
           "slug": "open-source-models"
         },
         {
+          "label": "Model Releases",
+          "score": 0.719,
+          "slug": "model-releases"
+        },
+        {
           "label": "Multimodal",
           "score": 0.698,
           "slug": "multimodal"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.696,
-          "slug": "model-releases"
         },
         {
           "label": "Safety and Alignment",
@@ -38,41 +38,63 @@
       "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
     },
     {
-      "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
-      "handle": "@WesRoth",
-      "latest_video_at": "2026-09-10T08:37:45Z",
+      "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
+      "handle": "@matthew_berman",
+      "latest_video_at": "2026-09-18T07:48:13Z",
       "thumbnail_url": null,
-      "title": "Wes Roth",
+      "title": "Matthew Berman",
       "top_topics": [
         {
-          "label": "AI Agents",
-          "score": 0.809,
-          "slug": "agents"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.736,
-          "slug": "coding-assistants"
+          "label": "Multimodal",
+          "score": 0.875,
+          "slug": "multimodal"
         },
         {
           "label": "Model Releases",
-          "score": 0.714,
+          "score": 0.77,
+          "slug": "model-releases"
+        }
+      ],
+      "url": "https://www.youtube.com/@matthew_berman",
+      "video_count": 4,
+      "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
+    },
+    {
+      "description": "Fast software engineering and AI tooling explainers.",
+      "handle": "@Fireship",
+      "latest_video_at": "2026-09-17T20:33:55Z",
+      "thumbnail_url": null,
+      "title": "Fireship",
+      "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.826,
+          "slug": "agents"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.804,
           "slug": "model-releases"
         },
         {
-          "label": "Safety and Alignment",
-          "score": 0.698,
-          "slug": "safety-alignment"
+          "label": "Coding Assistants",
+          "score": 0.798,
+          "slug": "coding-assistants"
         },
         {
-          "label": "Multimodal",
-          "score": 0.687,
-          "slug": "multimodal"
+          "label": "Open Source Models",
+          "score": 0.734,
+          "slug": "open-source-models"
+        },
+        {
+          "label": "Benchmarks",
+          "score": 0.65,
+          "slug": "benchmarks"
         }
       ],
-      "url": "https://www.youtube.com/@WesRoth",
+      "url": "https://www.youtube.com/@Fireship",
       "video_count": 4,
-      "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
+      "youtube_channel_id": "UCsBjURrPoezykLs9EqgamOA"
     },
     {
       "description": "Accessible analysis of frontier models, agents, local inference, and open-weight AI.",
@@ -112,41 +134,41 @@
       "youtube_channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw"
     },
     {
-      "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
-      "handle": "@matthew_berman",
-      "latest_video_at": "2026-09-17T23:18:46Z",
+      "description": "Long-form technical interviews with AI researchers and builders.",
+      "handle": "@lexfridman",
+      "latest_video_at": "2026-09-17T00:34:47Z",
       "thumbnail_url": null,
-      "title": "Matthew Berman",
+      "title": "Lex Fridman",
       "top_topics": [
         {
-          "label": "Multimodal",
-          "score": 0.875,
-          "slug": "multimodal"
-        },
-        {
           "label": "Coding Assistants",
-          "score": 0.736,
+          "score": 0.825,
           "slug": "coding-assistants"
         },
         {
+          "label": "AI Agents",
+          "score": 0.808,
+          "slug": "agents"
+        },
+        {
           "label": "Open Source Models",
-          "score": 0.726,
+          "score": 0.796,
           "slug": "open-source-models"
         },
         {
-          "label": "Safety and Alignment",
-          "score": 0.703,
-          "slug": "safety-alignment"
+          "label": "Multimodal",
+          "score": 0.72,
+          "slug": "multimodal"
         },
         {
-          "label": "Model Releases",
-          "score": 0.668,
-          "slug": "model-releases"
+          "label": "Local Inference",
+          "score": 0.705,
+          "slug": "local-inference"
         }
       ],
-      "url": "https://www.youtube.com/@matthew_berman",
+      "url": "https://www.youtube.com/@lexfridman",
       "video_count": 3,
-      "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
+      "youtube_channel_id": "UCSHZKyawb77ixDdsGog4iWA"
     },
     {
       "description": "Technical courses and tutorials, including practical AI application development.",
@@ -186,78 +208,41 @@
       "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
     },
     {
-      "description": "Fast software engineering and AI tooling explainers.",
-      "handle": "@Fireship",
-      "latest_video_at": "2026-09-11T17:24:40Z",
+      "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
+      "handle": "@WesRoth",
+      "latest_video_at": "2026-09-10T08:37:45Z",
       "thumbnail_url": null,
-      "title": "Fireship",
+      "title": "Wes Roth",
       "top_topics": [
         {
           "label": "AI Agents",
-          "score": 0.826,
+          "score": 0.809,
           "slug": "agents"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.736,
+          "slug": "coding-assistants"
         },
         {
           "label": "Model Releases",
-          "score": 0.804,
+          "score": 0.714,
           "slug": "model-releases"
         },
         {
-          "label": "Coding Assistants",
-          "score": 0.787,
-          "slug": "coding-assistants"
+          "label": "Safety and Alignment",
+          "score": 0.698,
+          "slug": "safety-alignment"
         },
         {
-          "label": "Open Source Models",
-          "score": 0.734,
-          "slug": "open-source-models"
-        },
-        {
-          "label": "Benchmarks",
-          "score": 0.65,
-          "slug": "benchmarks"
+          "label": "Evaluation",
+          "score": 0.599,
+          "slug": "evals"
         }
       ],
-      "url": "https://www.youtube.com/@Fireship",
+      "url": "https://www.youtube.com/@WesRoth",
       "video_count": 3,
-      "youtube_channel_id": "UCsBjURrPoezykLs9EqgamOA"
-    },
-    {
-      "description": "Long-form technical interviews with AI researchers and builders.",
-      "handle": "@lexfridman",
-      "latest_video_at": "2026-08-26T21:44:41Z",
-      "thumbnail_url": null,
-      "title": "Lex Fridman",
-      "top_topics": [
-        {
-          "label": "Coding Assistants",
-          "score": 0.825,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "AI Agents",
-          "score": 0.808,
-          "slug": "agents"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.796,
-          "slug": "open-source-models"
-        },
-        {
-          "label": "Multimodal",
-          "score": 0.72,
-          "slug": "multimodal"
-        },
-        {
-          "label": "RAG",
-          "score": 0.695,
-          "slug": "rag"
-        }
-      ],
-      "url": "https://www.youtube.com/@lexfridman",
-      "video_count": 2,
-      "youtube_channel_id": "UCSHZKyawb77ixDdsGog4iWA"
+      "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
     },
     {
       "description": "Research-heavy coverage of machine learning papers, model releases, and AI systems.",
@@ -336,6 +321,6 @@
       "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
     }
   ],
-  "generated_at": "2026-09-18T01:06:27Z",
+  "generated_at": "2026-09-18T12:42:33Z",
   "schema_version": "1.0"
 }
