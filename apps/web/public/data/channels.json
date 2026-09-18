@@ -38,80 +38,6 @@
       "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
     },
     {
-      "description": "Technical courses and tutorials, including practical AI application development.",
-      "handle": "@freecodecamp",
-      "latest_video_at": "2026-09-15T12:41:24Z",
-      "thumbnail_url": null,
-      "title": "freeCodeCamp.org",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.843,
-          "slug": "agents"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.816,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Local Inference",
-          "score": 0.705,
-          "slug": "local-inference"
-        },
-        {
-          "label": "Multimodal",
-          "score": 0.688,
-          "slug": "multimodal"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.67,
-          "slug": "model-releases"
-        }
-      ],
-      "url": "https://www.youtube.com/@freecodecamp",
-      "video_count": 4,
-      "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
-    },
-    {
-      "description": "Fast software engineering and AI tooling explainers.",
-      "handle": "@Fireship",
-      "latest_video_at": "2026-09-11T17:24:40Z",
-      "thumbnail_url": null,
-      "title": "Fireship",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.826,
-          "slug": "agents"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.804,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.787,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.734,
-          "slug": "open-source-models"
-        },
-        {
-          "label": "Benchmarks",
-          "score": 0.65,
-          "slug": "benchmarks"
-        }
-      ],
-      "url": "https://www.youtube.com/@Fireship",
-      "video_count": 4,
-      "youtube_channel_id": "UCsBjURrPoezykLs9EqgamOA"
-    },
-    {
       "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
       "handle": "@WesRoth",
       "latest_video_at": "2026-09-10T08:37:45Z",
@@ -186,29 +112,17 @@
       "youtube_channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw"
     },
     {
-      "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
-      "handle": "@OpenAI",
-      "latest_video_at": "2026-09-16T22:29:47Z",
-      "thumbnail_url": null,
-      "title": "OpenAI",
-      "top_topics": [
-        {
-          "label": "Model Releases",
-          "score": 0.77,
-          "slug": "model-releases"
-        }
-      ],
-      "url": "https://www.youtube.com/@OpenAI",
-      "video_count": 2,
-      "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
-    },
-    {
       "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
       "handle": "@matthew_berman",
-      "latest_video_at": "2026-09-15T15:54:14Z",
+      "latest_video_at": "2026-09-17T23:18:46Z",
       "thumbnail_url": null,
       "title": "Matthew Berman",
       "top_topics": [
+        {
+          "label": "Multimodal",
+          "score": 0.875,
+          "slug": "multimodal"
+        },
         {
           "label": "Coding Assistants",
           "score": 0.736,
@@ -231,8 +145,82 @@
         }
       ],
       "url": "https://www.youtube.com/@matthew_berman",
-      "video_count": 2,
+      "video_count": 3,
       "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
+    },
+    {
+      "description": "Technical courses and tutorials, including practical AI application development.",
+      "handle": "@freecodecamp",
+      "latest_video_at": "2026-09-15T12:41:24Z",
+      "thumbnail_url": null,
+      "title": "freeCodeCamp.org",
+      "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.843,
+          "slug": "agents"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.816,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Local Inference",
+          "score": 0.705,
+          "slug": "local-inference"
+        },
+        {
+          "label": "Multimodal",
+          "score": 0.688,
+          "slug": "multimodal"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.67,
+          "slug": "model-releases"
+        }
+      ],
+      "url": "https://www.youtube.com/@freecodecamp",
+      "video_count": 3,
+      "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
+    },
+    {
+      "description": "Fast software engineering and AI tooling explainers.",
+      "handle": "@Fireship",
+      "latest_video_at": "2026-09-11T17:24:40Z",
+      "thumbnail_url": null,
+      "title": "Fireship",
+      "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.826,
+          "slug": "agents"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.804,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.787,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Open Source Models",
+          "score": 0.734,
+          "slug": "open-source-models"
+        },
+        {
+          "label": "Benchmarks",
+          "score": 0.65,
+          "slug": "benchmarks"
+        }
+      ],
+      "url": "https://www.youtube.com/@Fireship",
+      "video_count": 3,
+      "youtube_channel_id": "UCsBjURrPoezykLs9EqgamOA"
     },
     {
       "description": "Long-form technical interviews with AI researchers and builders.",
@@ -304,6 +292,23 @@
       "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
     },
     {
+      "description": "Official OpenAI updates, model demos, product launches, and research announcements.",
+      "handle": "@OpenAI",
+      "latest_video_at": "2026-09-16T22:29:47Z",
+      "thumbnail_url": null,
+      "title": "OpenAI",
+      "top_topics": [
+        {
+          "label": "Model Releases",
+          "score": 0.77,
+          "slug": "model-releases"
+        }
+      ],
+      "url": "https://www.youtube.com/@OpenAI",
+      "video_count": 1,
+      "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
+    },
+    {
       "description": "Developer commentary, tools, and AI coding workflow coverage.",
       "handle": "@ThePrimeagen",
       "latest_video_at": "2026-09-12T15:00:21Z",
@@ -331,6 +336,6 @@
       "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
     }
   ],
-  "generated_at": "2026-09-17T12:43:50Z",
+  "generated_at": "2026-09-18T01:06:27Z",
   "schema_version": "1.0"
 }
