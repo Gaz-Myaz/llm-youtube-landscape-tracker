@@ -355,30 +355,6 @@
       "target": "UCsBjURrPoezykLs9EqgamOA"
     },
     {
-      "explanation": "ThePrimeTime and Matthew Berman overlap around Coding Assistants, Model Releases, Multimodal; topic-overlap score 0.50.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "Coding Assistants",
-          "score": 0.776,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.735,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Multimodal",
-          "score": 0.78,
-          "slug": "multimodal"
-        }
-      ],
-      "similarity_score": 0.5,
-      "source": "UCUyeluBRhGPCW4rPe_UvBZQ",
-      "target": "UCawZsQWqfGSbCI5yjkdVkTA"
-    },
-    {
       "explanation": "Matthew Berman and Fireship overlap around Benchmarks, Coding Assistants, Model Releases; topic-overlap score 0.50.",
       "method": "topic_overlap",
       "shared_topics": [
@@ -543,7 +519,7 @@
       "target": "UCZHmQk67mSJgfCCTn7xBfew"
     },
     {
-      "explanation": "freeCodeCamp.org and Matthew Berman overlap around Coding Assistants, Model Releases, Multimodal; topic-overlap score 0.43.",
+      "explanation": "freeCodeCamp.org and Matthew Berman overlap around Coding Assistants, Local Inference, Model Releases; topic-overlap score 0.43.",
       "method": "topic_overlap",
       "shared_topics": [
         {
@@ -552,14 +528,14 @@
           "slug": "coding-assistants"
         },
         {
+          "label": "Local Inference",
+          "score": 0.732,
+          "slug": "local-inference"
+        },
+        {
           "label": "Model Releases",
           "score": 0.72,
           "slug": "model-releases"
-        },
-        {
-          "label": "Multimodal",
-          "score": 0.781,
-          "slug": "multimodal"
         }
       ],
       "similarity_score": 0.429,
@@ -588,30 +564,6 @@
       ],
       "similarity_score": 0.429,
       "source": "UCZHmQk67mSJgfCCTn7xBfew",
-      "target": "UCbfYPyITQ-7l4upoX8nvctg"
-    },
-    {
-      "explanation": "Matthew Berman and Two Minute Papers overlap around Benchmarks, Model Releases, Multimodal; topic-overlap score 0.43.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "Benchmarks",
-          "score": 0.594,
-          "slug": "benchmarks"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.744,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Multimodal",
-          "score": 0.786,
-          "slug": "multimodal"
-        }
-      ],
-      "similarity_score": 0.429,
-      "source": "UCawZsQWqfGSbCI5yjkdVkTA",
       "target": "UCbfYPyITQ-7l4upoX8nvctg"
     },
     {
@@ -788,18 +740,18 @@
       "target": "UCZHmQk67mSJgfCCTn7xBfew"
     },
     {
-      "explanation": "Yannic Kilcher and Matthew Berman overlap around Model Releases, Multimodal; topic-overlap score 0.33.",
+      "explanation": "Yannic Kilcher and Matthew Berman overlap around Local Inference, Model Releases; topic-overlap score 0.33.",
       "method": "topic_overlap",
       "shared_topics": [
+        {
+          "label": "Local Inference",
+          "score": 0.756,
+          "slug": "local-inference"
+        },
         {
           "label": "Model Releases",
           "score": 0.706,
           "slug": "model-releases"
-        },
-        {
-          "label": "Multimodal",
-          "score": 0.78,
-          "slug": "multimodal"
         }
       ],
       "similarity_score": 0.333,
@@ -850,6 +802,25 @@
       "target": "UCZHmQk67mSJgfCCTn7xBfew"
     },
     {
+      "explanation": "ThePrimeTime and Matthew Berman overlap around Coding Assistants, Model Releases; topic-overlap score 0.29.",
+      "method": "topic_overlap",
+      "shared_topics": [
+        {
+          "label": "Coding Assistants",
+          "score": 0.776,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.735,
+          "slug": "model-releases"
+        }
+      ],
+      "similarity_score": 0.286,
+      "source": "UCUyeluBRhGPCW4rPe_UvBZQ",
+      "target": "UCawZsQWqfGSbCI5yjkdVkTA"
+    },
+    {
       "explanation": "Yannic Kilcher and Fireship overlap around Model Releases, Open Source Models; topic-overlap score 0.29.",
       "method": "topic_overlap",
       "shared_topics": [
@@ -888,6 +859,25 @@
       "target": "UCsBjURrPoezykLs9EqgamOA"
     },
     {
+      "explanation": "Matthew Berman and Two Minute Papers overlap around Benchmarks, Model Releases; topic-overlap score 0.25.",
+      "method": "topic_overlap",
+      "shared_topics": [
+        {
+          "label": "Benchmarks",
+          "score": 0.594,
+          "slug": "benchmarks"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.744,
+          "slug": "model-releases"
+        }
+      ],
+      "similarity_score": 0.25,
+      "source": "UCawZsQWqfGSbCI5yjkdVkTA",
+      "target": "UCbfYPyITQ-7l4upoX8nvctg"
+    },
+    {
       "explanation": "AI Explained and Yannic Kilcher overlap around Model Releases, Open Source Models; topic-overlap score 0.22.",
       "method": "topic_overlap",
       "shared_topics": [
@@ -907,7 +897,7 @@
       "target": "UCZHmQk67mSJgfCCTn7xBfew"
     },
     {
-      "explanation": "Lex Fridman and Matthew Berman overlap around Coding Assistants, Multimodal; topic-overlap score 0.20.",
+      "explanation": "Lex Fridman and Matthew Berman overlap around Coding Assistants, Local Inference; topic-overlap score 0.20.",
       "method": "topic_overlap",
       "shared_topics": [
         {
@@ -916,9 +906,9 @@
           "slug": "coding-assistants"
         },
         {
-          "label": "Multimodal",
-          "score": 0.797,
-          "slug": "multimodal"
+          "label": "Local Inference",
+          "score": 0.732,
+          "slug": "local-inference"
         }
       ],
       "similarity_score": 0.2,
@@ -940,7 +930,7 @@
       "target": "UCqcbQf6yw5KzRoDDcZ_wBSw"
     }
   ],
-  "generated_at": "2026-09-21T01:10:43Z",
+  "generated_at": "2026-09-21T12:41:52Z",
   "nodes": [
     {
       "id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
@@ -979,9 +969,9 @@
       "id": "UCawZsQWqfGSbCI5yjkdVkTA",
       "label": "Matthew Berman",
       "top_topics": [
-        "Multimodal",
         "Coding Assistants",
         "Model Releases",
+        "Local Inference",
         "Benchmarks"
       ],
       "video_count": 4

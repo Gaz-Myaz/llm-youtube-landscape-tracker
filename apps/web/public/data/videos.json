@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T01:10:43Z",
+  "generated_at": "2026-09-21T12:41:52Z",
   "schema_version": "1.0",
   "videos": [
     {
@@ -1238,54 +1238,6 @@
     },
     {
       "channel": {
-        "title": "Matthew Berman",
-        "url": "https://www.youtube.com/@matthew_berman",
-        "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
-      },
-      "content_type": "research",
-      "enrichment_status": "ready",
-      "evidence": [
-        {
-          "end_seconds": 69.2,
-          "field_name": "topic",
-          "quote": "choose two video and image generation",
-          "start_seconds": 64.799,
-          "timestamp_url": null,
-          "topic_slug": "multimodal"
-        },
-        {
-          "end_seconds": 63.120000000000005,
-          "field_name": "topic",
-          "quote": "images. And when a new model drops, you",
-          "start_seconds": 58.719,
-          "timestamp_url": null,
-          "topic_slug": "model-releases"
-        }
-      ],
-      "primary_speaker": "Matthew Berman host",
-      "published_at": "2026-09-17T23:18:46Z",
-      "summary": "Can You Tell What's Real and What's AI? focuses on Multimodal, Model Releases. Key transcript signal: There are so many AI video generation models.",
-      "thumbnail_url": null,
-      "title": "Can You Tell What's Real and What's AI?",
-      "topics": [
-        {
-          "label": "Multimodal",
-          "relevance_score": 0.875,
-          "slug": "multimodal"
-        },
-        {
-          "label": "Model Releases",
-          "relevance_score": 0.607,
-          "slug": "model-releases"
-        }
-      ],
-      "transcript_status": "ready",
-      "transcript_text": "One of these videos is real. Which one do you think it is? [music] [music] You might not realize it, but it's really easy to make AI videos that look that good. There are so many AI video generation models. Higsfield makes it easy to experiment with all of the top models including VO and Nano Banana from Google, Clling, Higsfield Soul, their own model, and others all through a single API. Set it up once and you're ready to go with all of the top AI video generation models. And what's really cool is you pay for the actual generation, not a monthly subscription fee. Higsfield will actually show you the cost of each video before it generates it for you. And if the generation fails, you don't pay. The same setup works for both videos and images. And when a new model drops, you get access to it without doing anything else. During your first week, you can choose two video and image generation models at a discounted price. Click the link in the description below. Check it out. Get your API key.",
-      "url": "https://www.youtube.com/shorts/_7f2k3g4ym8",
-      "youtube_video_id": "_7f2k3g4ym8"
-    },
-    {
-      "channel": {
         "title": "Two Minute Papers",
         "url": "https://www.youtube.com/@TwoMinutePapers",
         "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
@@ -1907,6 +1859,41 @@
       "transcript_text": "There are 150,000 Skittles that AI is sorting through one by one right now. You can see each of them being plucked out of the pile and sorted by color. Now, there is a new model called Jev. It's by the guy who co-invented Chad GPT, and it is hundreds of times faster than Chad GPT. Now, watch it in full speed. Boom. Look how fast it's sorting every single Skittles one by one. 150,000 Skittles done in 5 seconds. Is this the future of AI?",
       "url": "https://www.youtube.com/shorts/x1pZBYj1fUk",
       "youtube_video_id": "x1pZBYj1fUk"
+    },
+    {
+      "channel": {
+        "title": "Matthew Berman",
+        "url": "https://www.youtube.com/@matthew_berman",
+        "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
+      },
+      "content_type": "tutorial",
+      "enrichment_status": "ready",
+      "evidence": [
+        {
+          "end_seconds": 67.36,
+          "field_name": "topic",
+          "quote": "agents, complete privacy, this is the",
+          "start_seconds": 61.52,
+          "timestamp_url": null,
+          "topic_slug": "local-inference"
+        }
+      ],
+      "primary_speaker": "Matthew Berman host",
+      "published_at": "2026-09-18T22:04:08Z",
+      "summary": "NVIDIA PAIR Connects Your Computers for Local AI focuses on Local Inference. Key transcript signal: So, if you want full control over your agents, running things locally, local models, local agents, complete privacy, this is the way to do it.",
+      "thumbnail_url": null,
+      "title": "NVIDIA PAIR Connects Your Computers for Local AI",
+      "topics": [
+        {
+          "label": "Local Inference",
+          "relevance_score": 0.76,
+          "slug": "local-inference"
+        }
+      ],
+      "transcript_status": "ready",
+      "transcript_text": "I have a lot of computers. Okay, so I type something out, I hit enter, it sends it to my agent, but it's not actually happening on this computer. It's happening on that one over there. And this is all being powered by NVIDIA Pair, a brand new piece of software that allows you to take advantage of all of the spare compute that you might have at your house. Everything from a second computer to a 5-year-old gaming machine. Even Apple is supported. You install this on all of your devices, NVIDIA Pair understands how much compute is available on each device, and will route tasks to specific computers. And let's say you start gaming on one of those computers, NVIDIA Pair will actually know that you have limited compute on that specific computer and reroute tasks to other computers. And of course, it is completely free to use. So, if you want full control over your agents, running things locally, local models, local agents, complete privacy, this is the way to do it.",
+      "url": "https://www.youtube.com/shorts/Z4no-hhcuas",
+      "youtube_video_id": "Z4no-hhcuas"
     },
     {
       "channel": {
