@@ -74,7 +74,7 @@
       "shared_topics": [
         {
           "label": "AI Agents",
-          "score": 0.831,
+          "score": 0.833,
           "slug": "agents"
         },
         {
@@ -89,7 +89,7 @@
         },
         {
           "label": "Local Inference",
-          "score": 0.705,
+          "score": 0.706,
           "slug": "local-inference"
         },
         {
@@ -99,7 +99,7 @@
         },
         {
           "label": "RAG",
-          "score": 0.73,
+          "score": 0.732,
           "slug": "rag"
         }
       ],
@@ -142,7 +142,7 @@
       "shared_topics": [
         {
           "label": "AI Agents",
-          "score": 0.857,
+          "score": 0.858,
           "slug": "agents"
         },
         {
@@ -547,7 +547,7 @@
       "shared_topics": [
         {
           "label": "AI Agents",
-          "score": 0.835,
+          "score": 0.836,
           "slug": "agents"
         },
         {
@@ -576,7 +576,7 @@
       "shared_topics": [
         {
           "label": "Local Inference",
-          "score": 0.728,
+          "score": 0.729,
           "slug": "local-inference"
         },
         {
@@ -643,7 +643,7 @@
       "shared_topics": [
         {
           "label": "AI Agents",
-          "score": 0.816,
+          "score": 0.818,
           "slug": "agents"
         },
         {
@@ -667,7 +667,7 @@
       "shared_topics": [
         {
           "label": "AI Agents",
-          "score": 0.819,
+          "score": 0.821,
           "slug": "agents"
         },
         {
@@ -772,7 +772,7 @@
       "shared_topics": [
         {
           "label": "AI Agents",
-          "score": 0.817,
+          "score": 0.819,
           "slug": "agents"
         },
         {
@@ -880,7 +880,7 @@
       "target": "UCqcbQf6yw5KzRoDDcZ_wBSw"
     }
   ],
-  "generated_at": "2026-09-23T01:04:28Z",
+  "generated_at": "2026-09-23T12:43:54Z",
   "nodes": [
     {
       "id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
@@ -955,7 +955,7 @@
         "AI Agents",
         "Model Releases"
       ],
-      "video_count": 2
+      "video_count": 3
     },
     {
       "id": "UCUyeluBRhGPCW4rPe_UvBZQ",
