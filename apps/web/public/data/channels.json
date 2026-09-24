@@ -1,80 +1,6 @@
 {
   "channels": [
     {
-      "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
-      "handle": "@WesRoth",
-      "latest_video_at": "2026-09-22T12:20:07Z",
-      "thumbnail_url": null,
-      "title": "Wes Roth",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.859,
-          "slug": "agents"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.773,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.742,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Safety and Alignment",
-          "score": 0.698,
-          "slug": "safety-alignment"
-        },
-        {
-          "label": "RAG",
-          "score": 0.697,
-          "slug": "rag"
-        }
-      ],
-      "url": "https://www.youtube.com/@WesRoth",
-      "video_count": 5,
-      "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
-    },
-    {
-      "description": "Research-focused AI and machine learning explainers.",
-      "handle": "@TwoMinutePapers",
-      "latest_video_at": "2026-09-22T09:32:13Z",
-      "thumbnail_url": null,
-      "title": "Two Minute Papers",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.778,
-          "slug": "agents"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.755,
-          "slug": "open-source-models"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.719,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Multimodal",
-          "score": 0.698,
-          "slug": "multimodal"
-        },
-        {
-          "label": "Safety and Alignment",
-          "score": 0.662,
-          "slug": "safety-alignment"
-        }
-      ],
-      "url": "https://www.youtube.com/@TwoMinutePapers",
-      "video_count": 5,
-      "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
-    },
-    {
       "description": "Accessible analysis of frontier models, agents, local inference, and open-weight AI.",
       "handle": "@AIExplained-official",
       "latest_video_at": "2026-09-16T20:51:40Z",
@@ -147,6 +73,75 @@
       "url": "https://www.youtube.com/@freecodecamp",
       "video_count": 4,
       "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
+    },
+    {
+      "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
+      "handle": "@WesRoth",
+      "latest_video_at": "2026-09-22T12:20:07Z",
+      "thumbnail_url": null,
+      "title": "Wes Roth",
+      "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.859,
+          "slug": "agents"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.773,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.742,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "RAG",
+          "score": 0.697,
+          "slug": "rag"
+        },
+        {
+          "label": "Safety and Alignment",
+          "score": 0.694,
+          "slug": "safety-alignment"
+        }
+      ],
+      "url": "https://www.youtube.com/@WesRoth",
+      "video_count": 4,
+      "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
+    },
+    {
+      "description": "Research-focused AI and machine learning explainers.",
+      "handle": "@TwoMinutePapers",
+      "latest_video_at": "2026-09-22T09:32:13Z",
+      "thumbnail_url": null,
+      "title": "Two Minute Papers",
+      "top_topics": [
+        {
+          "label": "Open Source Models",
+          "score": 0.755,
+          "slug": "open-source-models"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.719,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Multimodal",
+          "score": 0.698,
+          "slug": "multimodal"
+        },
+        {
+          "label": "Safety and Alignment",
+          "score": 0.662,
+          "slug": "safety-alignment"
+        }
+      ],
+      "url": "https://www.youtube.com/@TwoMinutePapers",
+      "video_count": 4,
+      "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
     },
     {
       "description": "Fast software engineering and AI tooling explainers.",
@@ -309,6 +304,6 @@
       "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
     }
   ],
-  "generated_at": "2026-09-24T01:06:02Z",
+  "generated_at": "2026-09-24T12:44:50Z",
   "schema_version": "1.0"
 }
