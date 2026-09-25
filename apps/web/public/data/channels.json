@@ -1,80 +1,6 @@
 {
   "channels": [
     {
-      "description": "Accessible analysis of frontier models, agents, local inference, and open-weight AI.",
-      "handle": "@AIExplained-official",
-      "latest_video_at": "2026-09-16T20:51:40Z",
-      "thumbnail_url": null,
-      "title": "AI Explained",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.815,
-          "slug": "agents"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.771,
-          "slug": "open-source-models"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.764,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.74,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Safety and Alignment",
-          "score": 0.699,
-          "slug": "safety-alignment"
-        }
-      ],
-      "url": "https://www.youtube.com/@AIExplained-official",
-      "video_count": 5,
-      "youtube_channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw"
-    },
-    {
-      "description": "Technical courses and tutorials, including practical AI application development.",
-      "handle": "@freecodecamp",
-      "latest_video_at": "2026-09-23T10:30:04Z",
-      "thumbnail_url": null,
-      "title": "freeCodeCamp.org",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.857,
-          "slug": "agents"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.824,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "RAG",
-          "score": 0.768,
-          "slug": "rag"
-        },
-        {
-          "label": "Fine Tuning",
-          "score": 0.735,
-          "slug": "fine-tuning"
-        },
-        {
-          "label": "Local Inference",
-          "score": 0.706,
-          "slug": "local-inference"
-        }
-      ],
-      "url": "https://www.youtube.com/@freecodecamp",
-      "video_count": 4,
-      "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
-    },
-    {
       "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
       "handle": "@WesRoth",
       "latest_video_at": "2026-09-22T12:20:07Z",
@@ -142,6 +68,80 @@
       "url": "https://www.youtube.com/@TwoMinutePapers",
       "video_count": 4,
       "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
+    },
+    {
+      "description": "Accessible analysis of frontier models, agents, local inference, and open-weight AI.",
+      "handle": "@AIExplained-official",
+      "latest_video_at": "2026-09-16T20:51:40Z",
+      "thumbnail_url": null,
+      "title": "AI Explained",
+      "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.807,
+          "slug": "agents"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.764,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.74,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Open Source Models",
+          "score": 0.727,
+          "slug": "open-source-models"
+        },
+        {
+          "label": "Safety and Alignment",
+          "score": 0.699,
+          "slug": "safety-alignment"
+        }
+      ],
+      "url": "https://www.youtube.com/@AIExplained-official",
+      "video_count": 4,
+      "youtube_channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw"
+    },
+    {
+      "description": "Technical courses and tutorials, including practical AI application development.",
+      "handle": "@freecodecamp",
+      "latest_video_at": "2026-09-23T10:30:04Z",
+      "thumbnail_url": null,
+      "title": "freeCodeCamp.org",
+      "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.857,
+          "slug": "agents"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.824,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "RAG",
+          "score": 0.768,
+          "slug": "rag"
+        },
+        {
+          "label": "Fine Tuning",
+          "score": 0.735,
+          "slug": "fine-tuning"
+        },
+        {
+          "label": "Local Inference",
+          "score": 0.706,
+          "slug": "local-inference"
+        }
+      ],
+      "url": "https://www.youtube.com/@freecodecamp",
+      "video_count": 3,
+      "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
     },
     {
       "description": "Fast software engineering and AI tooling explainers.",
@@ -213,43 +213,6 @@
       "youtube_channel_id": "UCSHZKyawb77ixDdsGog4iWA"
     },
     {
-      "description": "Developer commentary, tools, and AI coding workflow coverage.",
-      "handle": "@ThePrimeagen",
-      "latest_video_at": "2026-09-19T01:44:08Z",
-      "thumbnail_url": null,
-      "title": "ThePrimeTime",
-      "top_topics": [
-        {
-          "label": "Coding Assistants",
-          "score": 0.772,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Safety and Alignment",
-          "score": 0.715,
-          "slug": "safety-alignment"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.7,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Multimodal",
-          "score": 0.686,
-          "slug": "multimodal"
-        },
-        {
-          "label": "Evaluation",
-          "score": 0.602,
-          "slug": "evals"
-        }
-      ],
-      "url": "https://www.youtube.com/@ThePrimeagen",
-      "video_count": 2,
-      "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
-    },
-    {
       "description": "Research-heavy coverage of machine learning papers, model releases, and AI systems.",
       "handle": "@YannicKilcher",
       "latest_video_at": "2026-03-06T22:07:33Z",
@@ -302,8 +265,40 @@
       "url": "https://www.youtube.com/@OpenAI",
       "video_count": 1,
       "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
+    },
+    {
+      "description": "Developer commentary, tools, and AI coding workflow coverage.",
+      "handle": "@ThePrimeagen",
+      "latest_video_at": "2026-09-19T01:44:08Z",
+      "thumbnail_url": null,
+      "title": "ThePrimeTime",
+      "top_topics": [
+        {
+          "label": "Coding Assistants",
+          "score": 0.739,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Safety and Alignment",
+          "score": 0.715,
+          "slug": "safety-alignment"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.7,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Evaluation",
+          "score": 0.602,
+          "slug": "evals"
+        }
+      ],
+      "url": "https://www.youtube.com/@ThePrimeagen",
+      "video_count": 1,
+      "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
     }
   ],
-  "generated_at": "2026-09-24T12:44:50Z",
+  "generated_at": "2026-09-25T01:06:23Z",
   "schema_version": "1.0"
 }
