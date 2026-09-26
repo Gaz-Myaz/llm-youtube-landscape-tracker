@@ -70,6 +70,43 @@
       "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
     },
     {
+      "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
+      "handle": "@WesRoth",
+      "latest_video_at": "2026-09-25T13:28:28Z",
+      "thumbnail_url": null,
+      "title": "Wes Roth",
+      "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.859,
+          "slug": "agents"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.773,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.742,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "RAG",
+          "score": 0.697,
+          "slug": "rag"
+        },
+        {
+          "label": "Safety and Alignment",
+          "score": 0.694,
+          "slug": "safety-alignment"
+        }
+      ],
+      "url": "https://www.youtube.com/@WesRoth",
+      "video_count": 4,
+      "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
+    },
+    {
       "description": "Technical courses and tutorials, including practical AI application development.",
       "handle": "@freecodecamp",
       "latest_video_at": "2026-09-23T10:30:04Z",
@@ -105,43 +142,6 @@
       "url": "https://www.youtube.com/@freecodecamp",
       "video_count": 3,
       "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
-    },
-    {
-      "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
-      "handle": "@WesRoth",
-      "latest_video_at": "2026-09-22T12:20:07Z",
-      "thumbnail_url": null,
-      "title": "Wes Roth",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.859,
-          "slug": "agents"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.773,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.742,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "RAG",
-          "score": 0.697,
-          "slug": "rag"
-        },
-        {
-          "label": "Safety and Alignment",
-          "score": 0.694,
-          "slug": "safety-alignment"
-        }
-      ],
-      "url": "https://www.youtube.com/@WesRoth",
-      "video_count": 3,
-      "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
     },
     {
       "description": "Long-form technical interviews with AI researchers and builders.",
@@ -331,6 +331,6 @@
       "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
     }
   ],
-  "generated_at": "2026-09-26T01:05:27Z",
+  "generated_at": "2026-09-26T12:40:21Z",
   "schema_version": "1.0"
 }
