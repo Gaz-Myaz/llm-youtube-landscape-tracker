@@ -70,6 +70,38 @@
       "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
     },
     {
+      "description": "Fast software engineering and AI tooling explainers.",
+      "handle": "@Fireship",
+      "latest_video_at": "2026-09-25T19:22:32Z",
+      "thumbnail_url": null,
+      "title": "Fireship",
+      "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.825,
+          "slug": "agents"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.82,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.798,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Open Source Models",
+          "score": 0.733,
+          "slug": "open-source-models"
+        }
+      ],
+      "url": "https://www.youtube.com/@Fireship",
+      "video_count": 3,
+      "youtube_channel_id": "UCsBjURrPoezykLs9EqgamOA"
+    },
+    {
       "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
       "handle": "@WesRoth",
       "latest_video_at": "2026-09-25T13:28:28Z",
@@ -78,7 +110,7 @@
       "top_topics": [
         {
           "label": "AI Agents",
-          "score": 0.859,
+          "score": 0.806,
           "slug": "agents"
         },
         {
@@ -92,18 +124,18 @@
           "slug": "coding-assistants"
         },
         {
-          "label": "RAG",
-          "score": 0.697,
-          "slug": "rag"
+          "label": "Multimodal",
+          "score": 0.687,
+          "slug": "multimodal"
         },
         {
           "label": "Safety and Alignment",
-          "score": 0.694,
+          "score": 0.665,
           "slug": "safety-alignment"
         }
       ],
       "url": "https://www.youtube.com/@WesRoth",
-      "video_count": 4,
+      "video_count": 3,
       "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
     },
     {
@@ -213,38 +245,6 @@
       "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
     },
     {
-      "description": "Fast software engineering and AI tooling explainers.",
-      "handle": "@Fireship",
-      "latest_video_at": "2026-09-17T20:33:55Z",
-      "thumbnail_url": null,
-      "title": "Fireship",
-      "top_topics": [
-        {
-          "label": "Model Releases",
-          "score": 0.82,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.798,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "AI Agents",
-          "score": 0.784,
-          "slug": "agents"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.733,
-          "slug": "open-source-models"
-        }
-      ],
-      "url": "https://www.youtube.com/@Fireship",
-      "video_count": 2,
-      "youtube_channel_id": "UCsBjURrPoezykLs9EqgamOA"
-    },
-    {
       "description": "Research-heavy coverage of machine learning papers, model releases, and AI systems.",
       "handle": "@YannicKilcher",
       "latest_video_at": "2026-03-06T22:07:33Z",
@@ -297,40 +297,8 @@
       "url": "https://www.youtube.com/@OpenAI",
       "video_count": 1,
       "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
-    },
-    {
-      "description": "Developer commentary, tools, and AI coding workflow coverage.",
-      "handle": "@ThePrimeagen",
-      "latest_video_at": "2026-09-19T01:44:08Z",
-      "thumbnail_url": null,
-      "title": "ThePrimeTime",
-      "top_topics": [
-        {
-          "label": "Coding Assistants",
-          "score": 0.739,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Safety and Alignment",
-          "score": 0.715,
-          "slug": "safety-alignment"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.7,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Evaluation",
-          "score": 0.602,
-          "slug": "evals"
-        }
-      ],
-      "url": "https://www.youtube.com/@ThePrimeagen",
-      "video_count": 1,
-      "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
     }
   ],
-  "generated_at": "2026-09-26T12:40:21Z",
+  "generated_at": "2026-09-27T01:14:42Z",
   "schema_version": "1.0"
 }
