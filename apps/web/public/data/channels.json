@@ -82,19 +82,14 @@
           "slug": "model-releases"
         },
         {
-          "label": "AI Agents",
-          "score": 0.803,
-          "slug": "agents"
-        },
-        {
           "label": "Coding Assistants",
           "score": 0.787,
           "slug": "coding-assistants"
         },
         {
-          "label": "Safety and Alignment",
-          "score": 0.658,
-          "slug": "safety-alignment"
+          "label": "AI Agents",
+          "score": 0.774,
+          "slug": "agents"
         },
         {
           "label": "Benchmarks",
@@ -103,40 +98,8 @@
         }
       ],
       "url": "https://www.youtube.com/@matthew_berman",
-      "video_count": 4,
-      "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
-    },
-    {
-      "description": "Fast software engineering and AI tooling explainers.",
-      "handle": "@Fireship",
-      "latest_video_at": "2026-09-25T19:22:32Z",
-      "thumbnail_url": null,
-      "title": "Fireship",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.825,
-          "slug": "agents"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.82,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.798,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.733,
-          "slug": "open-source-models"
-        }
-      ],
-      "url": "https://www.youtube.com/@Fireship",
       "video_count": 3,
-      "youtube_channel_id": "UCsBjURrPoezykLs9EqgamOA"
+      "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
     },
     {
       "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
@@ -250,6 +213,33 @@
       "youtube_channel_id": "UCSHZKyawb77ixDdsGog4iWA"
     },
     {
+      "description": "Fast software engineering and AI tooling explainers.",
+      "handle": "@Fireship",
+      "latest_video_at": "2026-09-25T19:22:32Z",
+      "thumbnail_url": null,
+      "title": "Fireship",
+      "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.825,
+          "slug": "agents"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.798,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.618,
+          "slug": "model-releases"
+        }
+      ],
+      "url": "https://www.youtube.com/@Fireship",
+      "video_count": 2,
+      "youtube_channel_id": "UCsBjURrPoezykLs9EqgamOA"
+    },
+    {
       "description": "Research-heavy coverage of machine learning papers, model releases, and AI systems.",
       "handle": "@YannicKilcher",
       "latest_video_at": "2026-03-06T22:07:33Z",
@@ -304,6 +294,6 @@
       "youtube_channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
     }
   ],
-  "generated_at": "2026-09-28T12:49:30Z",
+  "generated_at": "2026-09-29T01:12:39Z",
   "schema_version": "1.0"
 }
