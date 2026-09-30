@@ -107,43 +107,6 @@
       "youtube_channel_id": "UCSHZKyawb77ixDdsGog4iWA"
     },
     {
-      "description": "Research-heavy coverage of machine learning papers, model releases, and AI systems.",
-      "handle": "@YannicKilcher",
-      "latest_video_at": "1970-01-01T00:00:00Z",
-      "thumbnail_url": null,
-      "title": "Yannic Kilcher",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.797,
-          "slug": "agents"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.768,
-          "slug": "open-source-models"
-        },
-        {
-          "label": "Local Inference",
-          "score": 0.752,
-          "slug": "local-inference"
-        },
-        {
-          "label": "Fine Tuning",
-          "score": 0.709,
-          "slug": "fine-tuning"
-        },
-        {
-          "label": "Multimodal",
-          "score": 0.687,
-          "slug": "multimodal"
-        }
-      ],
-      "url": "https://www.youtube.com/@YannicKilcher",
-      "video_count": 3,
-      "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
-    },
-    {
       "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
       "handle": "@matthew_berman",
       "latest_video_at": "2026-09-26T01:30:30Z",
@@ -188,9 +151,41 @@
       "youtube_channel_id": "UCsBjURrPoezykLs9EqgamOA"
     },
     {
+      "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
+      "handle": "@WesRoth",
+      "latest_video_at": "2026-09-25T13:28:28Z",
+      "thumbnail_url": null,
+      "title": "Wes Roth",
+      "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.806,
+          "slug": "agents"
+        },
+        {
+          "label": "Multimodal",
+          "score": 0.687,
+          "slug": "multimodal"
+        },
+        {
+          "label": "Safety and Alignment",
+          "score": 0.665,
+          "slug": "safety-alignment"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.664,
+          "slug": "model-releases"
+        }
+      ],
+      "url": "https://www.youtube.com/@WesRoth",
+      "video_count": 2,
+      "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
+    },
+    {
       "description": "Technical courses and tutorials, including practical AI application development.",
       "handle": "@freecodecamp",
-      "latest_video_at": "1970-01-01T00:00:00Z",
+      "latest_video_at": "2026-09-23T10:30:04Z",
       "thumbnail_url": null,
       "title": "freeCodeCamp.org",
       "top_topics": [
@@ -225,36 +220,36 @@
       "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
     },
     {
-      "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
-      "handle": "@WesRoth",
-      "latest_video_at": "1970-01-01T00:00:00Z",
+      "description": "Research-heavy coverage of machine learning papers, model releases, and AI systems.",
+      "handle": "@YannicKilcher",
+      "latest_video_at": "2026-03-06T22:07:33Z",
       "thumbnail_url": null,
-      "title": "Wes Roth",
+      "title": "Yannic Kilcher",
       "top_topics": [
         {
-          "label": "AI Agents",
-          "score": 0.806,
-          "slug": "agents"
+          "label": "Open Source Models",
+          "score": 0.768,
+          "slug": "open-source-models"
+        },
+        {
+          "label": "Local Inference",
+          "score": 0.752,
+          "slug": "local-inference"
         },
         {
           "label": "Multimodal",
-          "score": 0.687,
+          "score": 0.686,
           "slug": "multimodal"
         },
         {
-          "label": "Safety and Alignment",
-          "score": 0.665,
-          "slug": "safety-alignment"
-        },
-        {
           "label": "Model Releases",
-          "score": 0.664,
+          "score": 0.642,
           "slug": "model-releases"
         }
       ],
-      "url": "https://www.youtube.com/@WesRoth",
+      "url": "https://www.youtube.com/@YannicKilcher",
       "video_count": 2,
-      "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
+      "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
     },
     {
       "description": "Developer commentary, tools, and AI coding workflow coverage.",
@@ -284,6 +279,6 @@
       "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
     }
   ],
-  "generated_at": "2026-09-30T01:14:06Z",
+  "generated_at": "2026-09-30T12:50:30Z",
   "schema_version": "1.0"
 }
