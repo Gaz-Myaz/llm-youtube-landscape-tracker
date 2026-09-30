@@ -70,80 +70,6 @@
       "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
     },
     {
-      "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
-      "handle": "@WesRoth",
-      "latest_video_at": "2026-09-25T13:28:28Z",
-      "thumbnail_url": null,
-      "title": "Wes Roth",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.806,
-          "slug": "agents"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.773,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.742,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Multimodal",
-          "score": 0.687,
-          "slug": "multimodal"
-        },
-        {
-          "label": "Safety and Alignment",
-          "score": 0.665,
-          "slug": "safety-alignment"
-        }
-      ],
-      "url": "https://www.youtube.com/@WesRoth",
-      "video_count": 3,
-      "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
-    },
-    {
-      "description": "Technical courses and tutorials, including practical AI application development.",
-      "handle": "@freecodecamp",
-      "latest_video_at": "2026-09-23T10:30:04Z",
-      "thumbnail_url": null,
-      "title": "freeCodeCamp.org",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.857,
-          "slug": "agents"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.824,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "RAG",
-          "score": 0.768,
-          "slug": "rag"
-        },
-        {
-          "label": "Fine Tuning",
-          "score": 0.735,
-          "slug": "fine-tuning"
-        },
-        {
-          "label": "Local Inference",
-          "score": 0.706,
-          "slug": "local-inference"
-        }
-      ],
-      "url": "https://www.youtube.com/@freecodecamp",
-      "video_count": 3,
-      "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
-    },
-    {
       "description": "Long-form technical interviews with AI researchers and builders.",
       "handle": "@lexfridman",
       "latest_video_at": "2026-09-17T00:34:47Z",
@@ -181,31 +107,41 @@
       "youtube_channel_id": "UCSHZKyawb77ixDdsGog4iWA"
     },
     {
-      "description": "Developer commentary, tools, and AI coding workflow coverage.",
-      "handle": "@ThePrimeagen",
-      "latest_video_at": "2026-09-27T13:00:01Z",
+      "description": "Research-heavy coverage of machine learning papers, model releases, and AI systems.",
+      "handle": "@YannicKilcher",
+      "latest_video_at": "1970-01-01T00:00:00Z",
       "thumbnail_url": null,
-      "title": "ThePrimeTime",
+      "title": "Yannic Kilcher",
       "top_topics": [
         {
-          "label": "Coding Assistants",
-          "score": 0.739,
-          "slug": "coding-assistants"
+          "label": "AI Agents",
+          "score": 0.797,
+          "slug": "agents"
         },
         {
-          "label": "Model Releases",
-          "score": 0.657,
-          "slug": "model-releases"
+          "label": "Open Source Models",
+          "score": 0.768,
+          "slug": "open-source-models"
         },
         {
-          "label": "Benchmarks",
-          "score": 0.588,
-          "slug": "benchmarks"
+          "label": "Local Inference",
+          "score": 0.752,
+          "slug": "local-inference"
+        },
+        {
+          "label": "Fine Tuning",
+          "score": 0.709,
+          "slug": "fine-tuning"
+        },
+        {
+          "label": "Multimodal",
+          "score": 0.687,
+          "slug": "multimodal"
         }
       ],
-      "url": "https://www.youtube.com/@ThePrimeagen",
-      "video_count": 2,
-      "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
+      "url": "https://www.youtube.com/@YannicKilcher",
+      "video_count": 3,
+      "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
     },
     {
       "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
@@ -252,38 +188,102 @@
       "youtube_channel_id": "UCsBjURrPoezykLs9EqgamOA"
     },
     {
-      "description": "Research-heavy coverage of machine learning papers, model releases, and AI systems.",
-      "handle": "@YannicKilcher",
-      "latest_video_at": "2026-03-06T22:07:33Z",
+      "description": "Technical courses and tutorials, including practical AI application development.",
+      "handle": "@freecodecamp",
+      "latest_video_at": "1970-01-01T00:00:00Z",
       "thumbnail_url": null,
-      "title": "Yannic Kilcher",
+      "title": "freeCodeCamp.org",
       "top_topics": [
         {
-          "label": "Open Source Models",
+          "label": "AI Agents",
+          "score": 0.857,
+          "slug": "agents"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.824,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "RAG",
           "score": 0.768,
-          "slug": "open-source-models"
+          "slug": "rag"
+        },
+        {
+          "label": "Fine Tuning",
+          "score": 0.735,
+          "slug": "fine-tuning"
         },
         {
           "label": "Local Inference",
-          "score": 0.752,
+          "score": 0.706,
           "slug": "local-inference"
+        }
+      ],
+      "url": "https://www.youtube.com/@freecodecamp",
+      "video_count": 2,
+      "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
+    },
+    {
+      "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
+      "handle": "@WesRoth",
+      "latest_video_at": "1970-01-01T00:00:00Z",
+      "thumbnail_url": null,
+      "title": "Wes Roth",
+      "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.806,
+          "slug": "agents"
         },
         {
           "label": "Multimodal",
-          "score": 0.686,
+          "score": 0.687,
           "slug": "multimodal"
         },
         {
+          "label": "Safety and Alignment",
+          "score": 0.665,
+          "slug": "safety-alignment"
+        },
+        {
           "label": "Model Releases",
-          "score": 0.642,
+          "score": 0.664,
           "slug": "model-releases"
         }
       ],
-      "url": "https://www.youtube.com/@YannicKilcher",
+      "url": "https://www.youtube.com/@WesRoth",
       "video_count": 2,
-      "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
+      "youtube_channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
+    },
+    {
+      "description": "Developer commentary, tools, and AI coding workflow coverage.",
+      "handle": "@ThePrimeagen",
+      "latest_video_at": "2026-09-27T13:00:01Z",
+      "thumbnail_url": null,
+      "title": "ThePrimeTime",
+      "top_topics": [
+        {
+          "label": "Coding Assistants",
+          "score": 0.736,
+          "slug": "coding-assistants"
+        },
+        {
+          "label": "Benchmarks",
+          "score": 0.588,
+          "slug": "benchmarks"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.556,
+          "slug": "model-releases"
+        }
+      ],
+      "url": "https://www.youtube.com/@ThePrimeagen",
+      "video_count": 1,
+      "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
     }
   ],
-  "generated_at": "2026-09-29T12:48:55Z",
+  "generated_at": "2026-09-30T01:14:06Z",
   "schema_version": "1.0"
 }
