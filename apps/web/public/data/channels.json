@@ -124,33 +124,6 @@
       "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
     },
     {
-      "description": "Fast software engineering and AI tooling explainers.",
-      "handle": "@Fireship",
-      "latest_video_at": "2026-09-25T19:22:32Z",
-      "thumbnail_url": null,
-      "title": "Fireship",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.825,
-          "slug": "agents"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.798,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.618,
-          "slug": "model-releases"
-        }
-      ],
-      "url": "https://www.youtube.com/@Fireship",
-      "video_count": 2,
-      "youtube_channel_id": "UCsBjURrPoezykLs9EqgamOA"
-    },
-    {
       "description": "AI product, model release, and ecosystem commentary focused on real-world impact.",
       "handle": "@WesRoth",
       "latest_video_at": "2026-09-25T13:28:28Z",
@@ -277,8 +250,30 @@
       "url": "https://www.youtube.com/@ThePrimeagen",
       "video_count": 1,
       "youtube_channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ"
+    },
+    {
+      "description": "Fast software engineering and AI tooling explainers.",
+      "handle": "@Fireship",
+      "latest_video_at": "2026-09-25T19:22:32Z",
+      "thumbnail_url": null,
+      "title": "Fireship",
+      "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.825,
+          "slug": "agents"
+        },
+        {
+          "label": "Coding Assistants",
+          "score": 0.786,
+          "slug": "coding-assistants"
+        }
+      ],
+      "url": "https://www.youtube.com/@Fireship",
+      "video_count": 1,
+      "youtube_channel_id": "UCsBjURrPoezykLs9EqgamOA"
     }
   ],
-  "generated_at": "2026-09-30T12:50:30Z",
+  "generated_at": "2026-10-01T01:21:09Z",
   "schema_version": "1.0"
 }
