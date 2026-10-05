@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T14:18:58Z",
+  "generated_at": "2026-10-05T01:17:08Z",
   "schema_version": "1.0",
   "videos": [
     {
@@ -1043,41 +1043,6 @@
       "transcript_text": "A new AI called Jev is taking the world by storm. But why get excited for an AI system that can't even write text? It properly run over the internet. So let's try to separate the facts from the hype. Okay, so it does not write text. Instead, it makes decisions, a question, and some options go in. One answer comes out. Kind of like who wants to be a millionaire? But you don't wait [music] for the answer. It pops out instantly, up to about 200 times faster than our chatbots today. That is very useful. You can also play video games with it. Hooray. The question is the world state. And the potential answers are the moves you can make. And if it is extremely fast, it can play things in real time. But it gets better. LLMs are relatively slow. So when you code up something with a super smart AI, everything takes a long time. But along the way, you also have a few simple decisions, too. Which file do I open? Which failure matters. Retry or move on. And this is where Jev can help. Offload these decisions to Jev and it solves them nearly instantly. In some cases, it can meaningfully speed up a fablelike AI system and even cut down the token usage. It makes things cheaper and faster. That is amazing. Now, there is no research paper, but some of you fellow scholars probably say, \"Okay, this is a classifier, an idea that dates back around 90 years now.\" So, what's new here? Well, first, there is no official research paper. There is only a highlevel description on the website, but it doesn't stop us fellow scholars from doing our research, does it? Now, hold on to your papers, fellow scholars. Come on, this time with more feel. >> Hold on to your paper. [music] Let that wisdom roll. Hold on to your paper. Science got your soul. [music] Hold on to your paper. The future just stars tonight. And here's the one who shows the spark that keeps our dreams alive. [music] Now we're talking actual song, by the way. So similar ideas have been explored for years and years now. There are open papers surprisingly close in spirit and we celebrate amazing science and research here. So I would like to say a big thank you to the scientists behind these earlier open works. So the basic idea in Jev is certainly not new but Jev also combined three ingredients. One, a new architecture that is built to make decisions instead of generating tokens. Two, it evaluates all possible answers all at once instead of one by one. They call it parallel sampling. and three, a new training method they call RLCD, where the AS confidence roughly matches how often it is right. So if [clears throat] it says 80% confident, it should be correct about 80 times out of 100, not always. Why is that good? Well, this way you can actually look at the confidence value and decide when to trust it or fall back to a heavier, smarter model. Once again, similar ideas have been explored for years now, but the way this one is put together, it is an incredible combination that gives us a really useful new tool. Love it. And you fellow scholars are also pumping out open-source implementations of it as well. That is open science at its best. You are amazing. So, let's be level-headed and separate the facts from the hype. Is it awesome? Yes, one ingredient closer to fast local AI that we will be able to own forever. Now, is it also heavily amplified by hype and viral marketing? Yes. Is it new? Partly. Okay. I took a bit longer to make this for you. That's not great for views, but I do it to be more concise. Look up related papers and see how you fellow scholars use it in practice. That is a better video for you. Subscribe and hit the bell for more papers. I use Lambda to reproduce AI research papers often in minutes. It's also great to train your own models or fine-tune an existing one. Run inference or text to image or video. Easy peasy. Running a Deepseek chatbot or agent. Super fast, super reliable. Lambda gives you powerful Nvidia GPUs to run your own experiments. I test ideas from the papers I cover and moments later, results. Love it. Seriously, try it out now at lambda.ai/papers. Ei peepers.",
       "url": "https://www.youtube.com/watch?v=qBBRRsH0rQc",
       "youtube_video_id": "qBBRRsH0rQc"
-    },
-    {
-      "channel": {
-        "title": "Matthew Berman",
-        "url": "https://www.youtube.com/@matthew_berman",
-        "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
-      },
-      "content_type": "tutorial",
-      "enrichment_status": "ready",
-      "evidence": [
-        {
-          "end_seconds": 4.4,
-          "field_name": "topic",
-          "quote": "Opus 5.5 is here and it is the best",
-          "start_seconds": 0.0,
-          "timestamp_url": null,
-          "topic_slug": "model-releases"
-        }
-      ],
-      "primary_speaker": "Matthew Berman host",
-      "published_at": "2026-09-26T01:30:30Z",
-      "summary": "What People Are Building With Opus 5.5 focuses on Model Releases. Key transcript signal: Opus 5.5 is here and it is the best model on the planet.",
-      "thumbnail_url": null,
-      "title": "What People Are Building With Opus 5.5",
-      "topics": [
-        {
-          "label": "Model Releases",
-          "relevance_score": 0.735,
-          "slug": "model-releases"
-        }
-      ],
-      "transcript_status": "ready",
-      "transcript_text": "Opus 5.5 is here and it is the best model on the planet. It is also less expensive than Fable and the things that people have been creating with it are incredible. Here's a Dark Souls clone and I recreated San Francisco in Unreal Engine completely powered by Jev. Here's a full stick man animation, one of the best flight simulators that I've ever seen, architectural design. I mean, Opus is pretty much solved 3D animation and even a multiplayer lawn mower simulator with beer and cigars.",
-      "url": "https://www.youtube.com/shorts/rgO5v8MFtFg",
-      "youtube_video_id": "rgO5v8MFtFg"
     }
   ]
 }
