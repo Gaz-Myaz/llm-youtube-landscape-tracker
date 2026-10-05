@@ -1,7 +1,7 @@
 {
   "edges": [
     {
-      "explanation": "Yannic Kilcher and Two Minute Papers overlap around Model Releases, Multimodal, Open Source Models; topic-overlap score 0.60.",
+      "explanation": "Yannic Kilcher and Two Minute Papers overlap around Model Releases, Multimodal, Open Source Models; topic-overlap score 0.75.",
       "method": "topic_overlap",
       "shared_topics": [
         {
@@ -20,7 +20,7 @@
           "slug": "open-source-models"
         }
       ],
-      "similarity_score": 0.6,
+      "similarity_score": 0.75,
       "source": "UCZHmQk67mSJgfCCTn7xBfew",
       "target": "UCbfYPyITQ-7l4upoX8nvctg"
     },
@@ -73,6 +73,25 @@
       "target": "UCsBjURrPoezykLs9EqgamOA"
     },
     {
+      "explanation": "Two Minute Papers and Wes Roth overlap around Model Releases, Multimodal; topic-overlap score 0.50.",
+      "method": "topic_overlap",
+      "shared_topics": [
+        {
+          "label": "Model Releases",
+          "score": 0.692,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Multimodal",
+          "score": 0.717,
+          "slug": "multimodal"
+        }
+      ],
+      "similarity_score": 0.5,
+      "source": "UCbfYPyITQ-7l4upoX8nvctg",
+      "target": "UCqcbQf6yw5KzRoDDcZ_wBSw"
+    },
+    {
       "explanation": "Matthew Berman and Fireship overlap around AI Agents; topic-overlap score 0.50.",
       "method": "topic_overlap",
       "shared_topics": [
@@ -85,30 +104,6 @@
       "similarity_score": 0.5,
       "source": "UCawZsQWqfGSbCI5yjkdVkTA",
       "target": "UCsBjURrPoezykLs9EqgamOA"
-    },
-    {
-      "explanation": "AI Explained and Two Minute Papers overlap around Model Releases, Open Source Models, Safety and Alignment; topic-overlap score 0.43.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "Model Releases",
-          "score": 0.758,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.741,
-          "slug": "open-source-models"
-        },
-        {
-          "label": "Safety and Alignment",
-          "score": 0.679,
-          "slug": "safety-alignment"
-        }
-      ],
-      "similarity_score": 0.429,
-      "source": "UCNJ1Ymd5yFuUPtn21xtRbbw",
-      "target": "UCbfYPyITQ-7l4upoX8nvctg"
     },
     {
       "explanation": "AI Explained and Lex Fridman overlap around AI Agents, Evaluation, Open Source Models; topic-overlap score 0.40.",
@@ -159,25 +154,6 @@
       "target": "UCqcbQf6yw5KzRoDDcZ_wBSw"
     },
     {
-      "explanation": "Two Minute Papers and Wes Roth overlap around Model Releases, Multimodal; topic-overlap score 0.40.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "Model Releases",
-          "score": 0.692,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Multimodal",
-          "score": 0.717,
-          "slug": "multimodal"
-        }
-      ],
-      "similarity_score": 0.4,
-      "source": "UCbfYPyITQ-7l4upoX8nvctg",
-      "target": "UCqcbQf6yw5KzRoDDcZ_wBSw"
-    },
-    {
       "explanation": "Lex Fridman and Yannic Kilcher overlap around Local Inference, Multimodal, Open Source Models; topic-overlap score 0.33.",
       "method": "topic_overlap",
       "shared_topics": [
@@ -202,30 +178,6 @@
       "target": "UCZHmQk67mSJgfCCTn7xBfew"
     },
     {
-      "explanation": "Lex Fridman and Two Minute Papers overlap around Multimodal, Open Source Models, Safety and Alignment; topic-overlap score 0.33.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "Multimodal",
-          "score": 0.733,
-          "slug": "multimodal"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.776,
-          "slug": "open-source-models"
-        },
-        {
-          "label": "Safety and Alignment",
-          "score": 0.659,
-          "slug": "safety-alignment"
-        }
-      ],
-      "similarity_score": 0.333,
-      "source": "UCSHZKyawb77ixDdsGog4iWA",
-      "target": "UCbfYPyITQ-7l4upoX8nvctg"
-    },
-    {
       "explanation": "Matthew Berman and Wes Roth overlap around AI Agents; topic-overlap score 0.33.",
       "method": "topic_overlap",
       "shared_topics": [
@@ -238,6 +190,25 @@
       "similarity_score": 0.333,
       "source": "UCawZsQWqfGSbCI5yjkdVkTA",
       "target": "UCqcbQf6yw5KzRoDDcZ_wBSw"
+    },
+    {
+      "explanation": "AI Explained and Two Minute Papers overlap around Model Releases, Open Source Models; topic-overlap score 0.29.",
+      "method": "topic_overlap",
+      "shared_topics": [
+        {
+          "label": "Model Releases",
+          "score": 0.758,
+          "slug": "model-releases"
+        },
+        {
+          "label": "Open Source Models",
+          "score": 0.741,
+          "slug": "open-source-models"
+        }
+      ],
+      "similarity_score": 0.286,
+      "source": "UCNJ1Ymd5yFuUPtn21xtRbbw",
+      "target": "UCbfYPyITQ-7l4upoX8nvctg"
     },
     {
       "explanation": "AI Explained and Wes Roth overlap around AI Agents, Model Releases; topic-overlap score 0.29.",
@@ -323,6 +294,25 @@
       "similarity_score": 0.25,
       "source": "UCqcbQf6yw5KzRoDDcZ_wBSw",
       "target": "UCsBjURrPoezykLs9EqgamOA"
+    },
+    {
+      "explanation": "Lex Fridman and Two Minute Papers overlap around Multimodal, Open Source Models; topic-overlap score 0.22.",
+      "method": "topic_overlap",
+      "shared_topics": [
+        {
+          "label": "Multimodal",
+          "score": 0.733,
+          "slug": "multimodal"
+        },
+        {
+          "label": "Open Source Models",
+          "score": 0.776,
+          "slug": "open-source-models"
+        }
+      ],
+      "similarity_score": 0.222,
+      "source": "UCSHZKyawb77ixDdsGog4iWA",
+      "target": "UCbfYPyITQ-7l4upoX8nvctg"
     },
     {
       "explanation": "Lex Fridman and Wes Roth overlap around AI Agents, Multimodal; topic-overlap score 0.22.",
@@ -428,19 +418,8 @@
       "target": "UCNJ1Ymd5yFuUPtn21xtRbbw"
     }
   ],
-  "generated_at": "2026-10-05T01:17:08Z",
+  "generated_at": "2026-10-05T12:49:40Z",
   "nodes": [
-    {
-      "id": "UCbfYPyITQ-7l4upoX8nvctg",
-      "label": "Two Minute Papers",
-      "top_topics": [
-        "Open Source Models",
-        "Multimodal",
-        "Model Releases",
-        "Safety and Alignment"
-      ],
-      "video_count": 5
-    },
     {
       "id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
       "label": "AI Explained",
@@ -449,6 +428,16 @@
         "AI Agents",
         "Open Source Models",
         "Safety and Alignment"
+      ],
+      "video_count": 4
+    },
+    {
+      "id": "UCbfYPyITQ-7l4upoX8nvctg",
+      "label": "Two Minute Papers",
+      "top_topics": [
+        "Open Source Models",
+        "Multimodal",
+        "Model Releases"
       ],
       "video_count": 4
     },

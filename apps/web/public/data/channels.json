@@ -1,38 +1,6 @@
 {
   "channels": [
     {
-      "description": "Research-focused AI and machine learning explainers.",
-      "handle": "@TwoMinutePapers",
-      "latest_video_at": "2026-09-24T08:40:55Z",
-      "thumbnail_url": null,
-      "title": "Two Minute Papers",
-      "top_topics": [
-        {
-          "label": "Open Source Models",
-          "score": 0.755,
-          "slug": "open-source-models"
-        },
-        {
-          "label": "Multimodal",
-          "score": 0.746,
-          "slug": "multimodal"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.719,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Safety and Alignment",
-          "score": 0.662,
-          "slug": "safety-alignment"
-        }
-      ],
-      "url": "https://www.youtube.com/@TwoMinutePapers",
-      "video_count": 5,
-      "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
-    },
-    {
       "description": "Accessible analysis of frontier models, agents, local inference, and open-weight AI.",
       "handle": "@AIExplained-official",
       "latest_video_at": "2026-09-24T22:51:54Z",
@@ -68,6 +36,33 @@
       "url": "https://www.youtube.com/@AIExplained-official",
       "video_count": 4,
       "youtube_channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw"
+    },
+    {
+      "description": "Research-focused AI and machine learning explainers.",
+      "handle": "@TwoMinutePapers",
+      "latest_video_at": "2026-09-24T08:40:55Z",
+      "thumbnail_url": null,
+      "title": "Two Minute Papers",
+      "top_topics": [
+        {
+          "label": "Open Source Models",
+          "score": 0.755,
+          "slug": "open-source-models"
+        },
+        {
+          "label": "Multimodal",
+          "score": 0.746,
+          "slug": "multimodal"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.719,
+          "slug": "model-releases"
+        }
+      ],
+      "url": "https://www.youtube.com/@TwoMinutePapers",
+      "video_count": 4,
+      "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
     },
     {
       "description": "Long-form technical interviews with AI researchers and builders.",
@@ -237,6 +232,6 @@
       "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
     }
   ],
-  "generated_at": "2026-10-05T01:17:08Z",
+  "generated_at": "2026-10-05T12:49:40Z",
   "schema_version": "1.0"
 }
