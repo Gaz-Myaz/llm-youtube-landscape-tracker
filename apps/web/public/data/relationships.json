@@ -16,27 +16,13 @@
         },
         {
           "label": "Open Source Models",
-          "score": 0.762,
+          "score": 0.753,
           "slug": "open-source-models"
         }
       ],
       "similarity_score": 0.75,
       "source": "UCZHmQk67mSJgfCCTn7xBfew",
       "target": "UCbfYPyITQ-7l4upoX8nvctg"
-    },
-    {
-      "explanation": "Matthew Berman and Fireship overlap around AI Agents; topic-overlap score 0.50.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.818,
-          "slug": "agents"
-        }
-      ],
-      "similarity_score": 0.5,
-      "source": "UCawZsQWqfGSbCI5yjkdVkTA",
-      "target": "UCsBjURrPoezykLs9EqgamOA"
     },
     {
       "explanation": "AI Explained and Lex Fridman overlap around AI Agents, Evaluation, Open Source Models; topic-overlap score 0.40.",
@@ -102,7 +88,7 @@
         },
         {
           "label": "Open Source Models",
-          "score": 0.741,
+          "score": 0.732,
           "slug": "open-source-models"
         }
       ],
@@ -130,25 +116,6 @@
       "target": "UCZHmQk67mSJgfCCTn7xBfew"
     },
     {
-      "explanation": "Lex Fridman and Fireship overlap around AI Agents, Coding Assistants; topic-overlap score 0.25.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.817,
-          "slug": "agents"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.805,
-          "slug": "coding-assistants"
-        }
-      ],
-      "similarity_score": 0.25,
-      "source": "UCSHZKyawb77ixDdsGog4iWA",
-      "target": "UCsBjURrPoezykLs9EqgamOA"
-    },
-    {
       "explanation": "Lex Fridman and Two Minute Papers overlap around Multimodal, Open Source Models; topic-overlap score 0.22.",
       "method": "topic_overlap",
       "shared_topics": [
@@ -159,58 +126,16 @@
         },
         {
           "label": "Open Source Models",
-          "score": 0.776,
+          "score": 0.767,
           "slug": "open-source-models"
         }
       ],
       "similarity_score": 0.222,
       "source": "UCSHZKyawb77ixDdsGog4iWA",
       "target": "UCbfYPyITQ-7l4upoX8nvctg"
-    },
-    {
-      "explanation": "AI Explained and Matthew Berman overlap around AI Agents; topic-overlap score 0.17.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.796,
-          "slug": "agents"
-        }
-      ],
-      "similarity_score": 0.167,
-      "source": "UCNJ1Ymd5yFuUPtn21xtRbbw",
-      "target": "UCawZsQWqfGSbCI5yjkdVkTA"
-    },
-    {
-      "explanation": "AI Explained and Fireship overlap around AI Agents; topic-overlap score 0.14.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.803,
-          "slug": "agents"
-        }
-      ],
-      "similarity_score": 0.143,
-      "source": "UCNJ1Ymd5yFuUPtn21xtRbbw",
-      "target": "UCsBjURrPoezykLs9EqgamOA"
-    },
-    {
-      "explanation": "Lex Fridman and Matthew Berman overlap around AI Agents; topic-overlap score 0.12.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.81,
-          "slug": "agents"
-        }
-      ],
-      "similarity_score": 0.125,
-      "source": "UCSHZKyawb77ixDdsGog4iWA",
-      "target": "UCawZsQWqfGSbCI5yjkdVkTA"
     }
   ],
-  "generated_at": "2026-10-07T12:49:21Z",
+  "generated_at": "2026-10-08T01:13:51Z",
   "nodes": [
     {
       "id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
@@ -220,16 +145,6 @@
         "AI Agents",
         "Open Source Models",
         "Safety and Alignment"
-      ],
-      "video_count": 4
-    },
-    {
-      "id": "UCbfYPyITQ-7l4upoX8nvctg",
-      "label": "Two Minute Papers",
-      "top_topics": [
-        "Open Source Models",
-        "Multimodal",
-        "Model Releases"
       ],
       "video_count": 4
     },
@@ -245,6 +160,16 @@
       "video_count": 3
     },
     {
+      "id": "UCbfYPyITQ-7l4upoX8nvctg",
+      "label": "Two Minute Papers",
+      "top_topics": [
+        "Multimodal",
+        "Open Source Models",
+        "Model Releases"
+      ],
+      "video_count": 3
+    },
+    {
       "id": "UCZHmQk67mSJgfCCTn7xBfew",
       "label": "Yannic Kilcher",
       "top_topics": [
@@ -254,23 +179,6 @@
         "Model Releases"
       ],
       "video_count": 2
-    },
-    {
-      "id": "UCsBjURrPoezykLs9EqgamOA",
-      "label": "Fireship",
-      "top_topics": [
-        "AI Agents",
-        "Coding Assistants"
-      ],
-      "video_count": 1
-    },
-    {
-      "id": "UCawZsQWqfGSbCI5yjkdVkTA",
-      "label": "Matthew Berman",
-      "top_topics": [
-        "AI Agents"
-      ],
-      "video_count": 1
     }
   ],
   "schema_version": "1.0"

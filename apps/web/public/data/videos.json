@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T12:49:21Z",
+  "generated_at": "2026-10-08T01:13:51Z",
   "schema_version": "1.0",
   "videos": [
     {
@@ -395,54 +395,6 @@
     },
     {
       "channel": {
-        "title": "Fireship",
-        "url": "https://www.youtube.com/@Fireship",
-        "youtube_channel_id": "UCsBjURrPoezykLs9EqgamOA"
-      },
-      "content_type": "tutorial",
-      "enrichment_status": "ready",
-      "evidence": [
-        {
-          "end_seconds": 17.88,
-          "field_name": "topic",
-          "quote": "personal AI agent named Muse that he",
-          "start_seconds": 13.32,
-          "timestamp_url": "https://www.youtube.com/watch?v=c1rPlzxSZ8E&t=13s",
-          "topic_slug": "agents"
-        },
-        {
-          "end_seconds": 318.08,
-          "field_name": "topic",
-          "quote": "coding agent can draft the change and",
-          "start_seconds": 313.88,
-          "timestamp_url": "https://www.youtube.com/watch?v=c1rPlzxSZ8E&t=313s",
-          "topic_slug": "coding-assistants"
-        }
-      ],
-      "primary_speaker": "Fireship host",
-      "published_at": "2026-09-25T19:22:32Z",
-      "summary": "Meta is pivoting again... everything you missed from Connect 2026 focuses on AI Agents, Coding Assistants. Key transcript signal: Earlier this week, while I was finishing up my certification to become a metaverse real estate agent, Zuck from Meta took the stage at Meta Connect and spent 90 minutes telling everyone that the metaverse was never reall",
-      "thumbnail_url": null,
-      "title": "Meta is pivoting again... everything you missed from Connect 2026",
-      "topics": [
-        {
-          "label": "AI Agents",
-          "relevance_score": 0.825,
-          "slug": "agents"
-        },
-        {
-          "label": "Coding Assistants",
-          "relevance_score": 0.786,
-          "slug": "coding-assistants"
-        }
-      ],
-      "transcript_status": "ready",
-      "transcript_text": "Earlier this week, while I was finishing up my certification to become a metaverse real estate agent, Zuck from Meta took the stage at Meta Connect and spent 90 minutes telling everyone that the metaverse was never really the plan, and that the real plan all along was a personal AI agent named Muse that he says can live inside your glasses, on your Mac, in your email inbox, and even in a little Tamagotchi-inspired device on your keychain. It can understand your goals, your dreams, and your deepest desires, while working 24/7 on your behalf to achieve them. And because they believe the best way to create a positive future for everyone is to put power in people's hands, they're giving Muse to the world for free, as long as you're fine with them taking a cut of every purchase it makes for you. And because Zuck already knows what we're all thinking, he spent a good chunk of the keynote trying to convince everyone that Muse runs on its own isolated Linux VM where nobody, including Meta, can see your data. In today's video, we'll break down everything from Meta Connect 2026, look at how Muse actually works under the hood, and find out if a personal AI agent that follows you everywhere is the future of computing or just another asset I need to write off along with my Horizon Worlds condo. It is September 25th, 2026, and you're watching The Code Report. Now, this isn't Meta's first attempt at a personal assistant. You may remember back in 2015 when they launched something called M, which worked inside Messenger and let you do stuff like book a restaurant reservation or send flowers to your wife's boyfriend. It was actually really good, and it was one of Facebook's earliest AI initiatives, at least until it got shut down in 2018 when it turned out that the AI was just actual Indians. But now, 11 years later, Zuck assures that the humans have been replaced with Muse Spark 1.3, which is the same model they released earlier this month and means Muse the assistant can do stuff like browse the web, use your computer on your behalf, and because it also comes with its own email address, you can CC it on threads or forward it emails. Meta also opened up connectors to third-party developers, and Alexander Wang, the man who really wants Muse to be thick and whose kids' kids' kids will never have to worry about rent because of Meta. They called it a generational opportunity to build on a new platform, which makes sense when you realize Alexander Wang is in his 20s, and the first time Facebook said they had a generational opportunity for developers, he was probably busy playing smear the person with the ball in elementary school. Now, I know what you're thinking, Meta is the last company you'd trust with your sensitive data, but Zuck pinky promises this time is different because of how they engineered it. The way it works is when you sign up for Mews, you get a cloud-based Linux VM that comes with its own browser, storage, and a rest harness called hatch that runs the agent loop. From there, the agent runs inside a sandbox on that machine, and your passwords are stored in a separate process. So, when Mews needs to log into something, it gets handed a fake token, and a gatekeeper called Sentinel swaps in the real one before the request is made, which means if a login page contains hidden text telling Mews to email your password to a guy in Belarus, all it has to do is send a fake token that's worthless outside your VM anyway. Meta is so confident in the setup that they'll pay up to $130,000 to anyone who can prompt inject it. But ironically, none of that stops Meta from spying on you, and that's where Zuck is still kind of lying. >> Even it Meta can't even see the content of what you're putting into your Mews agent. So, >> the version of the VM that would keep your data safe from Meta is still in testing, and by default, everything you say or do with Mews can be used as training data for future models. But hey, look at these cool VR glasses they ship, too. They only weigh about 100 g, and they come with 5K micro OLED displays, IMAX enhanced certification, and they're supposed to ship next spring for $1,300. And to prove they're actually good, Meta released a video of famous people trying them on for the first time, including James Cameron, who directed Piranha 2: The Spawning, and Palmer Luckey, who invented the Oculus Rift in his parents' garage. He sold it to Facebook for $2 billion in 2014, and then got fired 3 years later after donating to a pro-Trump meme group. He went on to co-found Anduril, and for he's been one of Meta's biggest haters. So for them to get him on film praising the glasses means they're either legit or the military headset contract Meta and Anduril signed last year comes with some very specific obligations. In addition, the Pervert spy glasses got a refresh, too. The Gen 3 comes with a new look and a dedicated AI button for $449 and they also released a non-pervert audio-only version for $349. And before we wrap things up, Zuck channeled his inner Steve Jobs and announced a little silver 2-in device that comes with a fingerprint sensor, its own 5G connection, and a touchscreen with your Muse's animated face on it so you have something cute to interact with while it quietly uses your entire life as training data. They're calling it Muse charm and Zuck says it can be yours this holiday season. But if you'd rather not wait until December for an agent that can actually get work done for you, you can build a whole team of them today with Hyper Agent, the sponsor of today's video. My startup's growth has been stalling lately, so I partnered with a dozen stable owners across the country to help me reach my ideal users with an affiliate marketing campaign that we're running from a shared Slack channel. This got pretty chaotic fast, so I put a team of Hyper Agent agents in the channel, all running around the clock on the cheapest Chinese models money can buy. Now, whenever a stable owner asks for marketing assets, my agents can create and share market research, images, and copy with them. And whenever they want to request new features, a coding agent can draft the change and open a pull request for me. Any specific questions we have get routed back to the correct owner and I only hear about it when it's time to approve the merge. Hyper Agent also just launched workspaces, which lets your entire team share the same agents, skills, and memories while also allowing the agents to hand off jobs to humans. Try it out and grab your free credits at the link below. This has been The Code Report. Thanks for watching and I will see you in the next one.",
-      "url": "https://www.youtube.com/watch?v=c1rPlzxSZ8E",
-      "youtube_video_id": "c1rPlzxSZ8E"
-    },
-    {
-      "channel": {
         "title": "Two Minute Papers",
         "url": "https://www.youtube.com/@TwoMinutePapers",
         "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
@@ -630,54 +582,6 @@
         "url": "https://www.youtube.com/@TwoMinutePapers",
         "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
       },
-      "content_type": "tutorial",
-      "enrichment_status": "ready",
-      "evidence": [
-        {
-          "end_seconds": 206.64,
-          "field_name": "topic",
-          "quote": "can get rid of it. An open-weights LLM",
-          "start_seconds": 201.32,
-          "timestamp_url": "https://www.youtube.com/watch?v=YoEWjZSwoys&t=201s",
-          "topic_slug": "open-source-models"
-        },
-        {
-          "end_seconds": 7.4,
-          "field_name": "topic",
-          "quote": "protection. Now, get this. Claude AI",
-          "start_seconds": 2.24,
-          "timestamp_url": "https://www.youtube.com/watch?v=YoEWjZSwoys&t=2s",
-          "topic_slug": "model-releases"
-        }
-      ],
-      "primary_speaker": "Two Minute Papers host",
-      "published_at": "2026-09-15T10:12:34Z",
-      "summary": "Claude Is Now Leaving Invisible Fingerprints In Its Text focuses on Open Source Models, Model Releases. Key transcript signal: An open-weights LLM that works for you can also help.",
-      "thumbnail_url": null,
-      "title": "Claude Is Now Leaving Invisible Fingerprints In Its Text",
-      "topics": [
-        {
-          "label": "Open Source Models",
-          "relevance_score": 0.755,
-          "slug": "open-source-models"
-        },
-        {
-          "label": "Model Releases",
-          "relevance_score": 0.665,
-          "slug": "model-releases"
-        }
-      ],
-      "transcript_status": "ready",
-      "transcript_text": "Images can be watermarked for copy protection. Now, get this. Claude AI announced that they are watermarking the text you generate with it. From when? When does this start? Well, Anthropic is rolling this out right now. Yep. I am not talking about this because I agree with it, but because I think it's important that all of you fellow scholars know about this to inform the public. So, this piece of text is watermarked. Wait, what? >> [laughter] >> You can watermark an image by putting your logo on it, but text? How would you watermark text? You put hidden characters in it, right? Nope. This paper describes that it is a fingerprint in text that is invisible to humans, but is detectable for machines. It even survives copy-pasting and some editing, too. I'll tell you what it doesn't survive in a minute. So, when generating text, the AI decides what the next word should be, and there can be a few candidates. Here, you could say, \"I saw a dog, a puppy, a cat, or a house.\" Based on context, each of these words gets a probability to be chosen. Now, with a fingerprinting algorithm, it secretly assigns a color to each word. Some are green, preferred, some are red, not preferred. And now comes a little nepotism. A little cheating, if you will. When choosing the next word, the green ones get a little nudge upwards. They will occur slightly more often. So, here's how to check for a watermark. In a piece of text, someone who knows the red and green words simply counts how many greens you have. This scheme has a mathematical property where, as you see more and more green, the probability of it being real human text is extremely small. Found 21 grains in a paragraph, suddenly the probability of that done by humans can be less than winning the lottery, much smaller. Note that the green words can be anything, no matter how inconspicuous, so you can't spot them. Which words are green can also change over time. Ouch. This is the simplified version of the algorithm. They are likely using the SynthID variant, which has context-dependent probabilities and a tournament system, too. But the heart of the algorithm is the same in most research papers I read. Some words are preferred and are given a slight edge in the generation, creating a unique fingerprint. Now, there are a lot of misconceptions about this out there. One, Claude-written text cannot be traced back to you, but it shows that Claude wrote the whole thing or heavily edited the text. I don't agree with this. I am making this video to let everyone know. Knowledge only changes the world when it reaches people. Second, some say, \"Just edit a few words and it's clean.\" Nope, you can't get rid of it so easily. So, can you get rid of it? Dear fellow scholars, this is Two Minute Papers with Dr. K\u00e1roly Zsolnai-Feh\u00e9r. With light editing, no. If you rewrite the whole thing, exchanging every word, yes, you can get rid of it. An open-weights LLM that works for you can also help. Okay, so who can check if there is a watermark in the text? Well, not you and not me. Some eligible organizations can, but that's it for now. So, what is the solution? Well, of course, use free and open-weights AI systems and run them yourself. These work for you, not against you. That [music] is the way of the scholar. We need new tools for the era of LLMs, and weights and biases now has weave a lightweight toolkit to confidently iterate on LLM applications. Use traces to debug how data flows through each step of your app and use evaluations to measure your progress. It is the best. Try it out now at wnb.me/papers or click the link in the description below.",
-      "url": "https://www.youtube.com/watch?v=YoEWjZSwoys",
-      "youtube_video_id": "YoEWjZSwoys"
-    },
-    {
-      "channel": {
-        "title": "Two Minute Papers",
-        "url": "https://www.youtube.com/@TwoMinutePapers",
-        "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
-      },
       "content_type": "research",
       "enrichment_status": "ready",
       "evidence": [
@@ -719,41 +623,6 @@
       "transcript_text": "Okay, this is stunning. Finally, I tried Cloud Opus 5.5 and it did something that no other AI system ever could. First, I asked it to reproduce this beautiful honey coiling footage, which is actually not from real life. No, this is a computer simulation from a really advanced research paper. I asked it to implement it and reproduce the experiment, and look! It did something that even GPT-6 Astra was unable to do, which is running this kind of quality, but in a real time. I mean, what? That is incredible. Now, we go beyond the paper. Look, this is a scene with thin streams of syrup falling onto a moving belt, and depending on height and belt speed, they buckle beautifully, zigzag, or just go in a straight line. Amazing. All with really advanced physics running in the background. Then, let's try this one. Ooh, legendary paper where every movement comes from simulated muscles and bones. These virtual characters learn to walk >> [laughter] >> and do funny things. It is incredibly difficult because muscles are springy, and everything you do arrives a split second late. Also, give it a tall, wobbly body, and you have a super, super hard task. Just imagine trying to balance a broomstick on your hand, but your hand is made of rubber bands. Impossible, right? Seems like it. GPT-6 Astra could not do this. Maybe the new Opus 5.5. Now, hold onto your papers, fellow scholars, and wow! Look at that. Similar technique, similar results. Ooh. There are differences, no question about it. It is not perfect, but with a bit more work, once again, wow. It can get expensive though, and I did the simulation part on local hardware. It was on fire. And all this happens in one clickable HTML file. Love it. Goodness, you fellow scholars also did amazing. From a drawing to a trebuchet simulation, no problem. A beautifully explainer on how camera lenses work, no problem. Or just a simple animated wallpaper, a bit glitchy, but it works easy. Now, let's be level-headed and not just believe the headlines. We talked about the good, so now let's talk about the risks as well. Dear fellow scholars, this is Two Minute Papers with Dr. K\u00e1roly Zsolnai-Feh\u00e9r from The System Card. One, it still suspects when it is being evaluated and might behave differently. Two, it is capable of running autonomously unattended for over 18 hours. And that has its own risks, but if you add three, hallucinations are still not solved. 16 out of 18 tests passed a strict quality bar. They don't discuss how the other two have failed, so I think it is healthy to assume that it can still hallucinate, which is the fabrication of data, making stuff up. And if you have this kind of ratio and you combine it with running it autonomously for many hours, yes, I think it is not hard to see how that could be an issue. Four, they report 85% fewer attempts to circumvent containment boundaries. That's good, but once again, the AI often suspects when it is being tested and if it does, it may behave more cautiously than it otherwise would. So, the fact that it passes a test does not necessarily mean it's good anymore. I would like to draw more attention to this because we probably need better science to solve it. So, just want to make sure that we are level-headed here. And look, I could be wrong. I am just a student who is eager to learn. This is the corner of the internet where we don't just believe the headlines. We experiment and we think for ourselves. This is the way of the scholar. But overall, this is an incredible forward. And to think that soon open and free models may exist with this kind of capability that we can own forever. It will help scientists and doctors do useful work, cure disease, and more. It gives me goosebumps. What a time to be alive. I use Lambda to reproduce AI research papers often in minutes. It's also great to train your own models or fine-tune an existing one. Run inference or text-to-image or video, easy-peasy. Running a deep fake chatbot or agent, super fast, super reliable. Lambda gives you powerful Nvidia GPUs to run your own experiments. I test ideas from the papers I cover and moments later, results. Love it. Seriously, try it out now at lambda.ai/papers.",
       "url": "https://www.youtube.com/watch?v=SA9kdAX2Zj0",
       "youtube_video_id": "SA9kdAX2Zj0"
-    },
-    {
-      "channel": {
-        "title": "Matthew Berman",
-        "url": "https://www.youtube.com/@matthew_berman",
-        "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
-      },
-      "content_type": "analysis",
-      "enrichment_status": "ready",
-      "evidence": [
-        {
-          "end_seconds": 6.68,
-          "field_name": "topic",
-          "quote": "AI agent in Muse, the new app from Meta.",
-          "start_seconds": 1.8,
-          "timestamp_url": null,
-          "topic_slug": "agents"
-        }
-      ],
-      "primary_speaker": "Matthew Berman host",
-      "published_at": "2026-10-01T16:59:24Z",
-      "summary": "Muse from Meta Can Work Through Your To-Do List focuses on AI Agents. Key transcript signal: I'm giving my to-do list to my personal AI agent in Muse, the new app from Meta.",
-      "thumbnail_url": null,
-      "title": "Muse from Meta Can Work Through Your To-Do List",
-      "topics": [
-        {
-          "label": "AI Agents",
-          "relevance_score": 0.811,
-          "slug": "agents"
-        }
-      ],
-      "transcript_status": "ready",
-      "transcript_text": "I'm giving my to-do list to my personal AI agent in Muse, the new app from Meta. You can easily make a custom birthday card for that special someone. Tell it what that person loves, like hikes, food, and belly rubs. Now, I'm asking Muse to plan dinner. I give it my food preferences, my budget, and even what's in my fridge. It can plan meals around that, make me my grocery list, and I asked it to help me order everything, but I approve before the order goes out. Next, negotiate a refund. I give it all my order details, then I explain what the problem is. It asked permission to contact support, and then I decide whether it can go ahead. Now, I'm giving Muse my to-do list. >> [music] >> First, find all those subscriptions I don't use anymore. I review which ones to cancel. I can add tasks from my phone, even while I'm out doing other things. Give your Muse a name, give it a look, shape its personality, and it remembers all of your preferences. You choose what it can access. Want to try the Muse app? Comment Muse down below. I'll DM you a guide to set it up and the download link.",
-      "url": "https://www.youtube.com/shorts/OODvXcQJyVo",
-      "youtube_video_id": "OODvXcQJyVo"
     },
     {
       "channel": {

@@ -45,14 +45,14 @@
       "title": "Two Minute Papers",
       "top_topics": [
         {
-          "label": "Open Source Models",
-          "score": 0.755,
-          "slug": "open-source-models"
-        },
-        {
           "label": "Multimodal",
           "score": 0.746,
           "slug": "multimodal"
+        },
+        {
+          "label": "Open Source Models",
+          "score": 0.738,
+          "slug": "open-source-models"
         },
         {
           "label": "Model Releases",
@@ -61,7 +61,7 @@
         }
       ],
       "url": "https://www.youtube.com/@TwoMinutePapers",
-      "video_count": 4,
+      "video_count": 3,
       "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
     },
     {
@@ -132,47 +132,8 @@
       "url": "https://www.youtube.com/@YannicKilcher",
       "video_count": 2,
       "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
-    },
-    {
-      "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
-      "handle": "@matthew_berman",
-      "latest_video_at": "2026-10-01T16:59:24Z",
-      "thumbnail_url": null,
-      "title": "Matthew Berman",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.811,
-          "slug": "agents"
-        }
-      ],
-      "url": "https://www.youtube.com/@matthew_berman",
-      "video_count": 1,
-      "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
-    },
-    {
-      "description": "Fast software engineering and AI tooling explainers.",
-      "handle": "@Fireship",
-      "latest_video_at": "2026-09-25T19:22:32Z",
-      "thumbnail_url": null,
-      "title": "Fireship",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.825,
-          "slug": "agents"
-        },
-        {
-          "label": "Coding Assistants",
-          "score": 0.786,
-          "slug": "coding-assistants"
-        }
-      ],
-      "url": "https://www.youtube.com/@Fireship",
-      "video_count": 1,
-      "youtube_channel_id": "UCsBjURrPoezykLs9EqgamOA"
     }
   ],
-  "generated_at": "2026-10-07T12:49:21Z",
+  "generated_at": "2026-10-08T01:13:51Z",
   "schema_version": "1.0"
 }
