@@ -20,35 +20,6 @@
       "target": "UCbfYPyITQ-7l4upoX8nvctg"
     },
     {
-      "explanation": "AI Explained and Lex Fridman overlap around AI Agents, Evaluation, Open Source Models; topic-overlap score 0.40.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.794,
-          "slug": "agents"
-        },
-        {
-          "label": "Evaluation",
-          "score": 0.619,
-          "slug": "evals"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.762,
-          "slug": "open-source-models"
-        },
-        {
-          "label": "Safety and Alignment",
-          "score": 0.676,
-          "slug": "safety-alignment"
-        }
-      ],
-      "similarity_score": 0.4,
-      "source": "UCNJ1Ymd5yFuUPtn21xtRbbw",
-      "target": "UCSHZKyawb77ixDdsGog4iWA"
-    },
-    {
       "explanation": "Lex Fridman and Yannic Kilcher overlap around Local Inference, Multimodal, Open Source Models; topic-overlap score 0.33.",
       "method": "topic_overlap",
       "shared_topics": [
@@ -73,26 +44,31 @@
       "target": "UCZHmQk67mSJgfCCTn7xBfew"
     },
     {
-      "explanation": "AI Explained and Yannic Kilcher overlap around Model Releases, Open Source Models; topic-overlap score 0.25.",
+      "explanation": "AI Explained and Lex Fridman overlap around AI Agents, Evaluation, Safety and Alignment; topic-overlap score 0.30.",
       "method": "topic_overlap",
       "shared_topics": [
         {
-          "label": "Model Releases",
-          "score": 0.719,
-          "slug": "model-releases"
+          "label": "AI Agents",
+          "score": 0.788,
+          "slug": "agents"
         },
         {
-          "label": "Open Source Models",
-          "score": 0.748,
-          "slug": "open-source-models"
+          "label": "Evaluation",
+          "score": 0.619,
+          "slug": "evals"
+        },
+        {
+          "label": "Safety and Alignment",
+          "score": 0.675,
+          "slug": "safety-alignment"
         }
       ],
-      "similarity_score": 0.25,
+      "similarity_score": 0.3,
       "source": "UCNJ1Ymd5yFuUPtn21xtRbbw",
-      "target": "UCZHmQk67mSJgfCCTn7xBfew"
+      "target": "UCSHZKyawb77ixDdsGog4iWA"
     },
     {
-      "explanation": "AI Explained and Two Minute Papers overlap around Model Releases; topic-overlap score 0.14.",
+      "explanation": "AI Explained and Two Minute Papers overlap around Model Releases; topic-overlap score 0.17.",
       "method": "topic_overlap",
       "shared_topics": [
         {
@@ -101,9 +77,23 @@
           "slug": "model-releases"
         }
       ],
-      "similarity_score": 0.143,
+      "similarity_score": 0.167,
       "source": "UCNJ1Ymd5yFuUPtn21xtRbbw",
       "target": "UCbfYPyITQ-7l4upoX8nvctg"
+    },
+    {
+      "explanation": "AI Explained and Yannic Kilcher overlap around Model Releases; topic-overlap score 0.12.",
+      "method": "topic_overlap",
+      "shared_topics": [
+        {
+          "label": "Model Releases",
+          "score": 0.719,
+          "slug": "model-releases"
+        }
+      ],
+      "similarity_score": 0.125,
+      "source": "UCNJ1Ymd5yFuUPtn21xtRbbw",
+      "target": "UCZHmQk67mSJgfCCTn7xBfew"
     },
     {
       "explanation": "Lex Fridman and Two Minute Papers overlap around Multimodal; topic-overlap score 0.11.",
@@ -120,7 +110,7 @@
       "target": "UCbfYPyITQ-7l4upoX8nvctg"
     }
   ],
-  "generated_at": "2026-10-12T13:06:07Z",
+  "generated_at": "2026-10-13T01:17:46Z",
   "nodes": [
     {
       "id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
@@ -128,10 +118,10 @@
       "top_topics": [
         "Model Releases",
         "AI Agents",
-        "Open Source Models",
-        "Safety and Alignment"
+        "Safety and Alignment",
+        "Benchmarks"
       ],
-      "video_count": 4
+      "video_count": 3
     },
     {
       "id": "UCSHZKyawb77ixDdsGog4iWA",
