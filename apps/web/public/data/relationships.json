@@ -110,7 +110,7 @@
       "target": "UCbfYPyITQ-7l4upoX8nvctg"
     }
   ],
-  "generated_at": "2026-10-13T01:17:46Z",
+  "generated_at": "2026-10-13T12:51:15Z",
   "nodes": [
     {
       "id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
@@ -135,15 +135,6 @@
       "video_count": 3
     },
     {
-      "id": "UCbfYPyITQ-7l4upoX8nvctg",
-      "label": "Two Minute Papers",
-      "top_topics": [
-        "Multimodal",
-        "Model Releases"
-      ],
-      "video_count": 2
-    },
-    {
       "id": "UCZHmQk67mSJgfCCTn7xBfew",
       "label": "Yannic Kilcher",
       "top_topics": [
@@ -153,6 +144,15 @@
         "Model Releases"
       ],
       "video_count": 2
+    },
+    {
+      "id": "UCbfYPyITQ-7l4upoX8nvctg",
+      "label": "Two Minute Papers",
+      "top_topics": [
+        "Multimodal",
+        "Model Releases"
+      ],
+      "video_count": 1
     }
   ],
   "schema_version": "1.0"

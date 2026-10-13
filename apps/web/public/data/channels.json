@@ -75,28 +75,6 @@
       "youtube_channel_id": "UCSHZKyawb77ixDdsGog4iWA"
     },
     {
-      "description": "Research-focused AI and machine learning explainers.",
-      "handle": "@TwoMinutePapers",
-      "latest_video_at": "2026-09-24T08:40:55Z",
-      "thumbnail_url": null,
-      "title": "Two Minute Papers",
-      "top_topics": [
-        {
-          "label": "Multimodal",
-          "score": 0.746,
-          "slug": "multimodal"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.704,
-          "slug": "model-releases"
-        }
-      ],
-      "url": "https://www.youtube.com/@TwoMinutePapers",
-      "video_count": 2,
-      "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
-    },
-    {
       "description": "Research-heavy coverage of machine learning papers, model releases, and AI systems.",
       "handle": "@YannicKilcher",
       "latest_video_at": "2026-03-06T22:07:33Z",
@@ -127,8 +105,30 @@
       "url": "https://www.youtube.com/@YannicKilcher",
       "video_count": 2,
       "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
+    },
+    {
+      "description": "Research-focused AI and machine learning explainers.",
+      "handle": "@TwoMinutePapers",
+      "latest_video_at": "2026-09-24T08:40:55Z",
+      "thumbnail_url": null,
+      "title": "Two Minute Papers",
+      "top_topics": [
+        {
+          "label": "Multimodal",
+          "score": 0.746,
+          "slug": "multimodal"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.704,
+          "slug": "model-releases"
+        }
+      ],
+      "url": "https://www.youtube.com/@TwoMinutePapers",
+      "video_count": 1,
+      "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
     }
   ],
-  "generated_at": "2026-10-13T01:17:46Z",
+  "generated_at": "2026-10-13T12:51:15Z",
   "schema_version": "1.0"
 }
