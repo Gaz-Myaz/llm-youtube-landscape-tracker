@@ -3,7 +3,7 @@
     {
       "description": "Accessible analysis of frontier models, agents, local inference, and open-weight AI.",
       "handle": "@AIExplained-official",
-      "latest_video_at": "1970-01-01T00:00:00Z",
+      "latest_video_at": "2026-09-24T22:51:54Z",
       "thumbnail_url": null,
       "title": "AI Explained",
       "top_topics": [
@@ -36,43 +36,6 @@
       "url": "https://www.youtube.com/@AIExplained-official",
       "video_count": 3,
       "youtube_channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw"
-    },
-    {
-      "description": "Research-heavy coverage of machine learning papers, model releases, and AI systems.",
-      "handle": "@YannicKilcher",
-      "latest_video_at": "1970-01-01T00:00:00Z",
-      "thumbnail_url": null,
-      "title": "Yannic Kilcher",
-      "top_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.797,
-          "slug": "agents"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.768,
-          "slug": "open-source-models"
-        },
-        {
-          "label": "Local Inference",
-          "score": 0.752,
-          "slug": "local-inference"
-        },
-        {
-          "label": "Fine Tuning",
-          "score": 0.709,
-          "slug": "fine-tuning"
-        },
-        {
-          "label": "Multimodal",
-          "score": 0.687,
-          "slug": "multimodal"
-        }
-      ],
-      "url": "https://www.youtube.com/@YannicKilcher",
-      "video_count": 3,
-      "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
     },
     {
       "description": "Long-form technical interviews with AI researchers and builders.",
@@ -112,9 +75,41 @@
       "youtube_channel_id": "UCSHZKyawb77ixDdsGog4iWA"
     },
     {
+      "description": "Research-heavy coverage of machine learning papers, model releases, and AI systems.",
+      "handle": "@YannicKilcher",
+      "latest_video_at": "2026-03-06T22:07:33Z",
+      "thumbnail_url": null,
+      "title": "Yannic Kilcher",
+      "top_topics": [
+        {
+          "label": "Open Source Models",
+          "score": 0.768,
+          "slug": "open-source-models"
+        },
+        {
+          "label": "Local Inference",
+          "score": 0.752,
+          "slug": "local-inference"
+        },
+        {
+          "label": "Multimodal",
+          "score": 0.686,
+          "slug": "multimodal"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.642,
+          "slug": "model-releases"
+        }
+      ],
+      "url": "https://www.youtube.com/@YannicKilcher",
+      "video_count": 2,
+      "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
+    },
+    {
       "description": "Research-focused AI and machine learning explainers.",
       "handle": "@TwoMinutePapers",
-      "latest_video_at": "1970-01-01T00:00:00Z",
+      "latest_video_at": "2026-09-24T08:40:55Z",
       "thumbnail_url": null,
       "title": "Two Minute Papers",
       "top_topics": [
@@ -134,6 +129,6 @@
       "youtube_channel_id": "UCbfYPyITQ-7l4upoX8nvctg"
     }
   ],
-  "generated_at": "2026-10-16T01:02:34Z",
+  "generated_at": "2026-10-16T12:45:23Z",
   "schema_version": "1.0"
 }
