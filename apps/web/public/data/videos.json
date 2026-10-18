@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T12:39:25Z",
+  "generated_at": "2026-10-18T01:09:03Z",
   "schema_version": "1.0",
   "videos": [
     {
@@ -37,7 +37,7 @@
         }
       ],
       "primary_speaker": "Lex Fridman host",
-      "published_at": "2026-08-26T21:44:41Z",
+      "published_at": "1970-01-01T00:00:00Z",
       "summary": "DHH: Future of Programming, AI, Agentic Engineering, Vibe Coding & Linux | Lex Fridman Podcast #501 focuses on Coding Assistants, AI Agents, Open Source Models. Key transcript signal: Because, like, you really don't know, if there will even be a Claude Code, a Codex, and Cursor six months from now.",
       "thumbnail_url": null,
       "title": "DHH: Future of Programming, AI, Agentic Engineering, Vibe Coding & Linux | Lex Fridman Podcast #501",
@@ -235,7 +235,7 @@
         }
       ],
       "primary_speaker": "Lex Fridman host",
-      "published_at": "2026-09-17T00:34:47Z",
+      "published_at": "1970-01-01T00:00:00Z",
       "summary": "Psychiatry, Insane Asylums, Mental Illness, ECT, Lobotomies, Freud & Jung | Lex Fridman Podcast #502 focuses on AI Agents, Local Inference, Safety and Alignment. Key transcript signal: It transforms Smith Kline & French from a small operator into a big company, and then of course once that's successful, it turns out that chlorpromazine can be easily tweaked as a molecule, and so copycat drugs emerge on",
       "thumbnail_url": null,
       "title": "Psychiatry, Insane Asylums, Mental Illness, ECT, Lobotomies, Freud & Jung | Lex Fridman Podcast #502",
