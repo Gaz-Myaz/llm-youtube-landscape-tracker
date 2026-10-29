@@ -1,14 +1,9 @@
 {
   "edges": [
     {
-      "explanation": "Lex Fridman and Yannic Kilcher overlap around AI Agents, Local Inference, Multimodal; topic-overlap score 0.40.",
+      "explanation": "Lex Fridman and Yannic Kilcher overlap around Local Inference, Multimodal, Open Source Models; topic-overlap score 0.38.",
       "method": "topic_overlap",
       "shared_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.802,
-          "slug": "agents"
-        },
         {
           "label": "Local Inference",
           "score": 0.728,
@@ -16,7 +11,7 @@
         },
         {
           "label": "Multimodal",
-          "score": 0.704,
+          "score": 0.703,
           "slug": "multimodal"
         },
         {
@@ -25,7 +20,7 @@
           "slug": "open-source-models"
         }
       ],
-      "similarity_score": 0.4,
+      "similarity_score": 0.375,
       "source": "UCSHZKyawb77ixDdsGog4iWA",
       "target": "UCZHmQk67mSJgfCCTn7xBfew"
     },
@@ -54,31 +49,21 @@
       "target": "UCSHZKyawb77ixDdsGog4iWA"
     },
     {
-      "explanation": "AI Explained and Yannic Kilcher overlap around AI Agents, Benchmarks, Model Releases; topic-overlap score 0.33.",
+      "explanation": "AI Explained and Yannic Kilcher overlap around Model Releases; topic-overlap score 0.12.",
       "method": "topic_overlap",
       "shared_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.782,
-          "slug": "agents"
-        },
-        {
-          "label": "Benchmarks",
-          "score": 0.623,
-          "slug": "benchmarks"
-        },
         {
           "label": "Model Releases",
           "score": 0.719,
           "slug": "model-releases"
         }
       ],
-      "similarity_score": 0.333,
+      "similarity_score": 0.125,
       "source": "UCNJ1Ymd5yFuUPtn21xtRbbw",
       "target": "UCZHmQk67mSJgfCCTn7xBfew"
     }
   ],
-  "generated_at": "2026-10-29T00:52:50Z",
+  "generated_at": "2026-10-29T12:39:13Z",
   "nodes": [
     {
       "id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
@@ -92,17 +77,6 @@
       "video_count": 3
     },
     {
-      "id": "UCZHmQk67mSJgfCCTn7xBfew",
-      "label": "Yannic Kilcher",
-      "top_topics": [
-        "AI Agents",
-        "Open Source Models",
-        "Local Inference",
-        "Fine Tuning"
-      ],
-      "video_count": 3
-    },
-    {
       "id": "UCSHZKyawb77ixDdsGog4iWA",
       "label": "Lex Fridman",
       "top_topics": [
@@ -110,6 +84,17 @@
         "AI Agents",
         "Open Source Models",
         "Multimodal"
+      ],
+      "video_count": 2
+    },
+    {
+      "id": "UCZHmQk67mSJgfCCTn7xBfew",
+      "label": "Yannic Kilcher",
+      "top_topics": [
+        "Open Source Models",
+        "Local Inference",
+        "Multimodal",
+        "Model Releases"
       ],
       "video_count": 2
     }
