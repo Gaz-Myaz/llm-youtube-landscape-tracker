@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T00:45:01Z",
+  "generated_at": "2026-10-31T12:29:01Z",
   "schema_version": "1.0",
   "videos": [
     {
@@ -37,7 +37,7 @@
         }
       ],
       "primary_speaker": "Lex Fridman host",
-      "published_at": "1970-01-01T00:00:00Z",
+      "published_at": "2026-08-26T21:44:41Z",
       "summary": "DHH: Future of Programming, AI, Agentic Engineering, Vibe Coding & Linux | Lex Fridman Podcast #501 focuses on Coding Assistants, AI Agents, Open Source Models. Key transcript signal: Because, like, you really don't know, if there will even be a Claude Code, a Codex, and Cursor six months from now.",
       "thumbnail_url": null,
       "title": "DHH: Future of Programming, AI, Agentic Engineering, Vibe Coding & Linux | Lex Fridman Podcast #501",
@@ -103,7 +103,7 @@
         }
       ],
       "primary_speaker": "AI Explained host",
-      "published_at": "1970-01-01T00:00:00Z",
+      "published_at": "2026-09-24T22:51:54Z",
       "summary": "Opus 5.5: How Close Are We to Automated AI Research? focuses on Model Releases, AI Agents, Safety and Alignment. Key transcript signal: Claude Opus 5.5 is Anthropic's surprising and powerful response to OpenAI's stunning Astro model .",
       "thumbnail_url": null,
       "title": "Opus 5.5: How Close Are We to Automated AI Research?",
@@ -169,7 +169,7 @@
         }
       ],
       "primary_speaker": "AI Explained host",
-      "published_at": "1970-01-01T00:00:00Z",
+      "published_at": "2026-09-16T20:51:40Z",
       "summary": "What AI Researchers Saw, Before Their Demand to \u2018Pace\u2019 AI focuses on AI Agents, Model Releases, Safety and Alignment. Key transcript signal: He touches on recursive self-improvement and somewhat the agentic axes test time compute and more.",
       "thumbnail_url": null,
       "title": "What AI Researchers Saw, Before Their Demand to \u2018Pace\u2019 AI",
@@ -235,7 +235,7 @@
         }
       ],
       "primary_speaker": "Lex Fridman host",
-      "published_at": "1970-01-01T00:00:00Z",
+      "published_at": "2026-09-17T00:34:47Z",
       "summary": "Psychiatry, Insane Asylums, Mental Illness, ECT, Lobotomies, Freud & Jung | Lex Fridman Podcast #502 focuses on AI Agents, Local Inference, Safety and Alignment. Key transcript signal: It transforms Smith Kline & French from a small operator into a big company, and then of course once that's successful, it turns out that chlorpromazine can be easily tweaked as a molecule, and so copycat drugs emerge on",
       "thumbnail_url": null,
       "title": "Psychiatry, Insane Asylums, Mental Illness, ECT, Lobotomies, Freud & Jung | Lex Fridman Podcast #502",
@@ -362,7 +362,7 @@
         }
       ],
       "primary_speaker": "AI Explained host",
-      "published_at": "1970-01-01T00:00:00Z",
+      "published_at": "2026-09-04T11:37:27Z",
       "summary": "GPT 6 Astra, so good even OpenAI are worried focuses on Model Releases, Benchmarks, Evaluation. Key transcript signal: GPT-6 Astra was able to control its thought chain so well that even when OpenAI\u2019s dedicated full context monitoring system was monitoring its thought chain, Astra was able to run a model on an unattended inference system",
       "thumbnail_url": null,
       "title": "GPT 6 Astra, so good even OpenAI are worried",
