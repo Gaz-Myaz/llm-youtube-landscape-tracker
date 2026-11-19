@@ -1,43 +1,6 @@
 {
   "channels": [
     {
-      "description": "Long-form technical interviews with AI researchers and builders.",
-      "handle": "@lexfridman",
-      "latest_video_at": "2026-09-17T00:34:47Z",
-      "thumbnail_url": null,
-      "title": "Lex Fridman",
-      "top_topics": [
-        {
-          "label": "Coding Assistants",
-          "score": 0.825,
-          "slug": "coding-assistants"
-        },
-        {
-          "label": "AI Agents",
-          "score": 0.808,
-          "slug": "agents"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.796,
-          "slug": "open-source-models"
-        },
-        {
-          "label": "Multimodal",
-          "score": 0.72,
-          "slug": "multimodal"
-        },
-        {
-          "label": "Local Inference",
-          "score": 0.705,
-          "slug": "local-inference"
-        }
-      ],
-      "url": "https://www.youtube.com/@lexfridman",
-      "video_count": 2,
-      "youtube_channel_id": "UCSHZKyawb77ixDdsGog4iWA"
-    },
-    {
       "description": "Research-heavy coverage of machine learning papers, model releases, and AI systems.",
       "handle": "@YannicKilcher",
       "latest_video_at": "2026-03-06T22:07:33Z",
@@ -122,8 +85,40 @@
       "url": "https://www.youtube.com/@AIExplained-official",
       "video_count": 1,
       "youtube_channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw"
+    },
+    {
+      "description": "Long-form technical interviews with AI researchers and builders.",
+      "handle": "@lexfridman",
+      "latest_video_at": "2026-09-17T00:34:47Z",
+      "thumbnail_url": null,
+      "title": "Lex Fridman",
+      "top_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.765,
+          "slug": "agents"
+        },
+        {
+          "label": "Local Inference",
+          "score": 0.705,
+          "slug": "local-inference"
+        },
+        {
+          "label": "Safety and Alignment",
+          "score": 0.655,
+          "slug": "safety-alignment"
+        },
+        {
+          "label": "Evaluation",
+          "score": 0.596,
+          "slug": "evals"
+        }
+      ],
+      "url": "https://www.youtube.com/@lexfridman",
+      "video_count": 1,
+      "youtube_channel_id": "UCSHZKyawb77ixDdsGog4iWA"
     }
   ],
-  "generated_at": "2026-11-18T20:40:50Z",
+  "generated_at": "2026-11-19T07:35:35Z",
   "schema_version": "1.0"
 }

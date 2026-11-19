@@ -1,6 +1,30 @@
 {
   "edges": [
     {
+      "explanation": "AI Explained and Lex Fridman overlap around AI Agents, Evaluation, Safety and Alignment; topic-overlap score 0.60.",
+      "method": "topic_overlap",
+      "shared_topics": [
+        {
+          "label": "AI Agents",
+          "score": 0.766,
+          "slug": "agents"
+        },
+        {
+          "label": "Evaluation",
+          "score": 0.599,
+          "slug": "evals"
+        },
+        {
+          "label": "Safety and Alignment",
+          "score": 0.657,
+          "slug": "safety-alignment"
+        }
+      ],
+      "similarity_score": 0.6,
+      "source": "UCNJ1Ymd5yFuUPtn21xtRbbw",
+      "target": "UCSHZKyawb77ixDdsGog4iWA"
+    },
+    {
       "explanation": "Yannic Kilcher and Matthew Berman overlap around Model Releases, Open Source Models; topic-overlap score 0.50.",
       "method": "topic_overlap",
       "shared_topics": [
@@ -18,54 +42,6 @@
       "similarity_score": 0.5,
       "source": "UCZHmQk67mSJgfCCTn7xBfew",
       "target": "UCawZsQWqfGSbCI5yjkdVkTA"
-    },
-    {
-      "explanation": "AI Explained and Lex Fridman overlap around AI Agents, Evaluation, Safety and Alignment; topic-overlap score 0.38.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "AI Agents",
-          "score": 0.788,
-          "slug": "agents"
-        },
-        {
-          "label": "Evaluation",
-          "score": 0.599,
-          "slug": "evals"
-        },
-        {
-          "label": "Safety and Alignment",
-          "score": 0.657,
-          "slug": "safety-alignment"
-        }
-      ],
-      "similarity_score": 0.375,
-      "source": "UCNJ1Ymd5yFuUPtn21xtRbbw",
-      "target": "UCSHZKyawb77ixDdsGog4iWA"
-    },
-    {
-      "explanation": "Lex Fridman and Yannic Kilcher overlap around Local Inference, Multimodal, Open Source Models; topic-overlap score 0.38.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "Local Inference",
-          "score": 0.728,
-          "slug": "local-inference"
-        },
-        {
-          "label": "Multimodal",
-          "score": 0.703,
-          "slug": "multimodal"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.782,
-          "slug": "open-source-models"
-        }
-      ],
-      "similarity_score": 0.375,
-      "source": "UCSHZKyawb77ixDdsGog4iWA",
-      "target": "UCZHmQk67mSJgfCCTn7xBfew"
     },
     {
       "explanation": "AI Explained and Matthew Berman overlap around Model Releases; topic-overlap score 0.20.",
@@ -96,33 +72,22 @@
       "target": "UCZHmQk67mSJgfCCTn7xBfew"
     },
     {
-      "explanation": "Lex Fridman and Matthew Berman overlap around Open Source Models; topic-overlap score 0.12.",
+      "explanation": "Lex Fridman and Yannic Kilcher overlap around Local Inference; topic-overlap score 0.14.",
       "method": "topic_overlap",
       "shared_topics": [
         {
-          "label": "Open Source Models",
-          "score": 0.761,
-          "slug": "open-source-models"
+          "label": "Local Inference",
+          "score": 0.728,
+          "slug": "local-inference"
         }
       ],
-      "similarity_score": 0.125,
+      "similarity_score": 0.143,
       "source": "UCSHZKyawb77ixDdsGog4iWA",
-      "target": "UCawZsQWqfGSbCI5yjkdVkTA"
+      "target": "UCZHmQk67mSJgfCCTn7xBfew"
     }
   ],
-  "generated_at": "2026-11-18T20:40:50Z",
+  "generated_at": "2026-11-19T07:35:35Z",
   "nodes": [
-    {
-      "id": "UCSHZKyawb77ixDdsGog4iWA",
-      "label": "Lex Fridman",
-      "top_topics": [
-        "Coding Assistants",
-        "AI Agents",
-        "Open Source Models",
-        "Multimodal"
-      ],
-      "video_count": 2
-    },
     {
       "id": "UCZHmQk67mSJgfCCTn7xBfew",
       "label": "Yannic Kilcher",
@@ -140,6 +105,17 @@
       "top_topics": [
         "Model Releases",
         "AI Agents",
+        "Safety and Alignment",
+        "Evaluation"
+      ],
+      "video_count": 1
+    },
+    {
+      "id": "UCSHZKyawb77ixDdsGog4iWA",
+      "label": "Lex Fridman",
+      "top_topics": [
+        "AI Agents",
+        "Local Inference",
         "Safety and Alignment",
         "Evaluation"
       ],
