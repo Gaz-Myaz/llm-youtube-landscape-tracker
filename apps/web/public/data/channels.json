@@ -55,38 +55,6 @@
       "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
     },
     {
-      "description": "Accessible analysis of frontier models, agents, local inference, and open-weight AI.",
-      "handle": "@AIExplained-official",
-      "latest_video_at": "2026-09-24T22:51:54Z",
-      "thumbnail_url": null,
-      "title": "AI Explained",
-      "top_topics": [
-        {
-          "label": "Model Releases",
-          "score": 0.796,
-          "slug": "model-releases"
-        },
-        {
-          "label": "AI Agents",
-          "score": 0.767,
-          "slug": "agents"
-        },
-        {
-          "label": "Safety and Alignment",
-          "score": 0.658,
-          "slug": "safety-alignment"
-        },
-        {
-          "label": "Evaluation",
-          "score": 0.603,
-          "slug": "evals"
-        }
-      ],
-      "url": "https://www.youtube.com/@AIExplained-official",
-      "video_count": 1,
-      "youtube_channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw"
-    },
-    {
       "description": "Long-form technical interviews with AI researchers and builders.",
       "handle": "@lexfridman",
       "latest_video_at": "2026-09-17T00:34:47Z",
@@ -119,6 +87,6 @@
       "youtube_channel_id": "UCSHZKyawb77ixDdsGog4iWA"
     }
   ],
-  "generated_at": "2026-11-19T07:35:35Z",
+  "generated_at": "2026-11-19T20:46:45Z",
   "schema_version": "1.0"
 }
