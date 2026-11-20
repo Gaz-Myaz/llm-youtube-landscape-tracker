@@ -33,28 +33,6 @@
       "youtube_channel_id": "UCZHmQk67mSJgfCCTn7xBfew"
     },
     {
-      "description": "Frequent AI model, tooling, and local LLM coverage with practical demos.",
-      "handle": "@matthew_berman",
-      "latest_video_at": "2026-11-12T22:09:15Z",
-      "thumbnail_url": null,
-      "title": "Matthew Berman",
-      "top_topics": [
-        {
-          "label": "Open Source Models",
-          "score": 0.726,
-          "slug": "open-source-models"
-        },
-        {
-          "label": "Model Releases",
-          "score": 0.651,
-          "slug": "model-releases"
-        }
-      ],
-      "url": "https://www.youtube.com/@matthew_berman",
-      "video_count": 1,
-      "youtube_channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
-    },
-    {
       "description": "Long-form technical interviews with AI researchers and builders.",
       "handle": "@lexfridman",
       "latest_video_at": "2026-09-17T00:34:47Z",
@@ -87,6 +65,6 @@
       "youtube_channel_id": "UCSHZKyawb77ixDdsGog4iWA"
     }
   ],
-  "generated_at": "2026-11-19T20:46:45Z",
+  "generated_at": "2026-11-20T07:26:00Z",
   "schema_version": "1.0"
 }

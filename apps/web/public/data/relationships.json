@@ -1,25 +1,6 @@
 {
   "edges": [
     {
-      "explanation": "Yannic Kilcher and Matthew Berman overlap around Model Releases, Open Source Models; topic-overlap score 0.50.",
-      "method": "topic_overlap",
-      "shared_topics": [
-        {
-          "label": "Model Releases",
-          "score": 0.647,
-          "slug": "model-releases"
-        },
-        {
-          "label": "Open Source Models",
-          "score": 0.747,
-          "slug": "open-source-models"
-        }
-      ],
-      "similarity_score": 0.5,
-      "source": "UCZHmQk67mSJgfCCTn7xBfew",
-      "target": "UCawZsQWqfGSbCI5yjkdVkTA"
-    },
-    {
       "explanation": "Lex Fridman and Yannic Kilcher overlap around Local Inference; topic-overlap score 0.14.",
       "method": "topic_overlap",
       "shared_topics": [
@@ -34,7 +15,7 @@
       "target": "UCZHmQk67mSJgfCCTn7xBfew"
     }
   ],
-  "generated_at": "2026-11-19T20:46:45Z",
+  "generated_at": "2026-11-20T07:26:00Z",
   "nodes": [
     {
       "id": "UCZHmQk67mSJgfCCTn7xBfew",
@@ -55,15 +36,6 @@
         "Local Inference",
         "Safety and Alignment",
         "Evaluation"
-      ],
-      "video_count": 1
-    },
-    {
-      "id": "UCawZsQWqfGSbCI5yjkdVkTA",
-      "label": "Matthew Berman",
-      "top_topics": [
-        "Open Source Models",
-        "Model Releases"
       ],
       "video_count": 1
     }
