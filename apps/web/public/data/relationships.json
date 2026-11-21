@@ -1,22 +1,38 @@
 {
   "edges": [
     {
-      "explanation": "Lex Fridman and Yannic Kilcher overlap around Local Inference; topic-overlap score 0.14.",
+      "explanation": "Lex Fridman and Yannic Kilcher overlap around Local Inference, Model Releases; topic-overlap score 0.25.",
       "method": "topic_overlap",
       "shared_topics": [
         {
           "label": "Local Inference",
           "score": 0.728,
           "slug": "local-inference"
+        },
+        {
+          "label": "Model Releases",
+          "score": 0.619,
+          "slug": "model-releases"
         }
       ],
-      "similarity_score": 0.143,
+      "similarity_score": 0.25,
       "source": "UCSHZKyawb77ixDdsGog4iWA",
       "target": "UCZHmQk67mSJgfCCTn7xBfew"
     }
   ],
-  "generated_at": "2026-11-21T07:19:00Z",
+  "generated_at": "2026-11-21T19:24:35Z",
   "nodes": [
+    {
+      "id": "UCSHZKyawb77ixDdsGog4iWA",
+      "label": "Lex Fridman",
+      "top_topics": [
+        "Coding Assistants",
+        "AI Agents",
+        "Local Inference",
+        "Safety and Alignment"
+      ],
+      "video_count": 2
+    },
     {
       "id": "UCZHmQk67mSJgfCCTn7xBfew",
       "label": "Yannic Kilcher",
@@ -27,17 +43,6 @@
         "Model Releases"
       ],
       "video_count": 2
-    },
-    {
-      "id": "UCSHZKyawb77ixDdsGog4iWA",
-      "label": "Lex Fridman",
-      "top_topics": [
-        "AI Agents",
-        "Local Inference",
-        "Safety and Alignment",
-        "Evaluation"
-      ],
-      "video_count": 1
     }
   ],
   "schema_version": "1.0"

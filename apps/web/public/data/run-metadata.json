@@ -1,22 +1,23 @@
 {
   "content_hashes": {
-    "channels": "6922c3e3af9740de9879ecd04fb8cd88144f272d531ab5d1cf77796504fa1c39",
-    "relationships": "cefcbb1c933a9be4dc5264b56e5a5472852890a59e8b29fe0a266a674da3cdbd",
-    "videos": "5d907c11f4bd9407c87dbf962fbf5be4d82467bea43f14f5d8c46d779d76ffac"
+    "channels": "cae9ae3b7f9f64931b62e9a6dc514b53cd265cf9f11b8cfd2642b60a163d32f8",
+    "relationships": "1bb1b9e628b0b96c01dac34d3d70b8577585dd7eed37cc2392211ae0253246ef",
+    "videos": "13a380ff1241c9c179635db406a625bc049eceb1c2ebfa4bee61c1c3d023b94f"
   },
   "cost_rates": {
     "input_usd_per_1m_tokens": 0.3,
     "output_usd_per_1m_tokens": 2.5,
     "source": "default"
   },
-  "error_summary": "Skipped 44 videos before publication because no usable transcript was available: Cy7Wz6Z4TWU: captions unavailable (No transcript provider succeeded for Cy7Wz6Z4TWU. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=Cy7Wz6Z4TWU! This is most likely caused by: YouTube is blocking requests from your IP. This usually is due to one of the following reasons: - You have d); gl2U4fGTr6g: captions unavailable (No transcript provider succeeded for gl2U4fGTr6g. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=gl2U4fGTr6g! This is most likely caused by: YouTube is blocking requests from your IP. This usually is due to one of the following reasons: - You have d); x7iwI6WfWS0: captions unavailable (No transcript provider succeeded for x7iwI6WfWS0. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=x7iwI6WfWS0! This is most likely caused by: YouTube is blocking requests from your IP. This usually is due to one of the following reasons: - You have d); 41 more Filtered 3 caption-backed videos outside configured LLM landscape rules: Bxv1_Nk1k5o: no gemini LLM landscape signal; taCVT5vDAk0: no gemini LLM landscape signal; v67plFw1nMw: no gemini LLM landscape signal Used deterministic fallback for 6 provider failures: s7d2d8FhevU: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used; Bxv1_Nk1k5o: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used; xHi8PUIVyoo: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used; 3 more",
+  "error_summary": "Skipped 43 videos before publication because no usable transcript was available: Cy7Wz6Z4TWU: captions unavailable (No transcript provider succeeded for Cy7Wz6Z4TWU. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=Cy7Wz6Z4TWU! This is most likely caused by: YouTube is blocking requests from your IP. This usually is due to one of the following reasons: - You have d); gl2U4fGTr6g: captions unavailable (No transcript provider succeeded for gl2U4fGTr6g. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=gl2U4fGTr6g! This is most likely caused by: YouTube is blocking requests from your IP. This usually is due to one of the following reasons: - You have d); x7iwI6WfWS0: captions unavailable (No transcript provider succeeded for x7iwI6WfWS0. Tried yt_dlp, youtube_transcript_api, whisper. Errors: yt_dlp: yt-dlp found no subtitle track for languages ['en']; youtube_transcript_api: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=x7iwI6WfWS0! This is most likely caused by: YouTube is blocking requests from your IP. This usually is due to one of the following reasons: - You have d); 40 more Filtered 3 caption-backed videos outside configured LLM landscape rules: Bxv1_Nk1k5o: no gemini LLM landscape signal; taCVT5vDAk0: no gemini LLM landscape signal; v67plFw1nMw: no gemini LLM landscape signal Used deterministic fallback for 7 provider failures: ZAzWPE9CItg: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used; s7d2d8FhevU: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used; Bxv1_Nk1k5o: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used; 4 more",
   "estimated_cost_usd": 0.0,
-  "last_successful_run_at": "2026-11-21T07:19:00Z",
+  "last_successful_run_at": "2026-11-21T19:24:35Z",
   "model": "gemini-2.5-flash",
   "provider": "gemini",
-  "provider_call_count": 6,
-  "provider_fallback_count": 6,
+  "provider_call_count": 7,
+  "provider_fallback_count": 7,
   "provider_fallback_reasons": [
+    "ZAzWPE9CItg: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used",
     "s7d2d8FhevU: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used",
     "Bxv1_Nk1k5o: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used",
     "xHi8PUIVyoo: gemini provider failed (401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions); deterministic fallback used",
@@ -33,7 +34,7 @@
     "total_tokens": 0
   },
   "videos_failed": 0,
-  "videos_processed": 3,
+  "videos_processed": 4,
   "videos_seen": 50,
-  "videos_skipped": 44
+  "videos_skipped": 43
 }
